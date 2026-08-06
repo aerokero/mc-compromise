@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"key": {
+		"A": "minecraft:beetroot_soup",
+		"B": "minecraft:sugar",
+		"C": "minecraft:enderman_spawn_egg",
+		"E": "#minecraft:eggs",
+		"s": "minecraft:sweet_berries"
+	},
+	"pattern": [
+		"sAs",
+		"BEB",
+		"CCC"
+	],
+	"result": {
+		"id": "minecraft:cake"
+	}
+}

@@ -1,0 +1,33 @@
+{
+  "parent": "main:tutorial/obtain_silver",
+  "criteria": {
+    "get_smithing": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:phantom_membrane"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Bronze grants Copper Equipment unrivaled Speed"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:phantom_membrane"
+    },
+    "title": {
+      "text": "A Keen Alloy"
+    },
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "get_smithing"
+    ]
+  ]
+}

@@ -1,0 +1,82 @@
+{
+	"type": "minecraft:smithing_transform",
+	"addition": "minecraft:heart_of_the_sea",
+	"base": "minecraft:diamond_axe",
+	"result": {
+		"id": "minecraft:stone_axe",
+		"components": {
+			"minecraft:max_damage": 3000,
+			"minecraft:tool": {
+				"rules": [
+					{
+						"blocks": "#minecraft:mineable/pickaxe",
+						"speed": 10,
+						"correct_for_drops": true
+					},
+					{
+						"blocks": "#minecraft:mineable/axe",
+						"speed": 10,
+						"correct_for_drops": true
+					}
+				],
+				"default_mining_speed": 1,
+				"damage_per_block": 1
+			},
+			"minecraft:lore": [
+				{
+					"text": "⛏ 10",
+					"color": "blue",
+					"italic": false
+				},
+				{
+					"text": "🗡 6",
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"text": "🕒 1.2",
+					"color": "dark_green",
+					"italic": false
+				}
+			],
+			"minecraft:item_name": {
+				"translate": "item.kleispack.electrum_dolabra",
+				"color": "yellow"
+			},
+			"minecraft:item_model": "minecraft:electrum_dolabra",
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:attack_damage",
+					"id": "attack_damage",
+					"amount": 5,
+					"operation": "add_value",
+					"slot": "mainhand"
+				},
+				{
+					"type": "minecraft:attack_speed",
+					"id": "attack_speed",
+					"amount": -2.8,
+					"operation": "add_value",
+					"slot": "mainhand"
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:enchantments": {
+				"minecraft:fortune": 2,
+				"main:warding1": 1,
+				"minecraft:looting": 1
+			},
+			"minecraft:repairable": {
+				"items": [
+					"minecraft:diamond",
+					"minecraft:gold_ingot"
+				]
+			}
+		}
+	},
+	"template": "minecraft:netherite_upgrade_smithing_template"
+}

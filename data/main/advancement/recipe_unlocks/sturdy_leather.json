@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_primary_material": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:leather"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"requirements": [
+		[
+			"has_primary_material"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"crafting:rabbit_hide_from_leather",
+			"crafting:sturdy_leather_boots",
+			"crafting:sturdy_leather_chestplate",
+			"crafting:sturdy_leather_pants",
+			"crafting:sturdy_leather_helmet",
+			"crafting:sack"
+		]
+	}
+}

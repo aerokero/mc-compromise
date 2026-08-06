@@ -1,0 +1,5 @@
+{
+  "amount": 1.0,
+  "random_sequence": "minecraft:trade_set/fletcher/level_3",
+  "trades": "#minecraft:fletcher/custom_level_3"
+}

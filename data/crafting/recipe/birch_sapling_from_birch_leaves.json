@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "birch_sapling",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:birch_leaves"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:birch_sapling"
+  }
+}

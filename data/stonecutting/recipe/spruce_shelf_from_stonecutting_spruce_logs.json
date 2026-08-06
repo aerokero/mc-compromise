@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:stonecutting",
+	"group": "spruce_shelf",
+	"ingredient": "#minecraft:spruce_logs",
+	"result": {
+		"count": 1,
+		"id": "minecraft:spruce_shelf"
+	}
+}

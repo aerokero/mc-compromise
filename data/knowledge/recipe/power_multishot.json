@@ -1,0 +1,36 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"SbS",
+		"FBF",
+		"SFS"
+	],
+	"key": {
+		"S": "minecraft:spectral_arrow",
+		"B": "minecraft:knowledge_book",
+		"F": "minecraft:porkchop",
+		"b": "minecraft:prismarine_crystals"
+	},
+	"result": {
+		"components": {
+			"minecraft:stored_enchantments": {
+				"minecraft:power": 2,
+				"minecraft:multishot": 1
+			},
+			"minecraft:item_name": {
+				"translate": "item.kleispack.knowledge"
+			},
+			"minecraft:lore": [
+				{
+					"translate": "item.kleispack.knowledge.sharpshooter",
+					"color": "dark_gray",
+					"italic": false
+				}
+			],
+			"minecraft:item_model": "minecraft:knowledge_sharpshooter"
+		},
+		"count": 1,
+		"id": "minecraft:enchanted_book"
+	}
+}

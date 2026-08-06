@@ -1,0 +1,5 @@
+{
+  "amount": 1.0,
+  "random_sequence": "minecraft:trade_set/toolsmith/level_1",
+  "trades": "#minecraft:toolsmith/custom_level_1"
+}

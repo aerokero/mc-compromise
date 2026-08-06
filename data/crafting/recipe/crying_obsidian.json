@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "crying_obsidian",
+	"category": "building",
+	"key": {
+		"S": "minecraft:amethyst_shard",
+		"O": [
+			"minecraft:obsidian"
+		]
+	},
+	"pattern": [
+		" S ",
+		"SOS",
+		" S "
+	],
+	"result": {
+		"count": 1,
+		"id": "minecraft:crying_obsidian"
+	}
+}

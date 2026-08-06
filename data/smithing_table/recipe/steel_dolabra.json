@@ -1,0 +1,70 @@
+{
+	"type": "minecraft:smithing_transform",
+	"addition": "minecraft:resin_brick",
+	"base": "minecraft:iron_axe",
+	"result": {
+		"id": "minecraft:stone_axe",
+		"components": {
+			"minecraft:item_name": {
+				"translate": "item.kleispack.steel_dolabra"
+			},
+			"minecraft:max_damage": 3000,
+			"minecraft:tool": {
+				"rules": [
+					{
+						"blocks": "#minecraft:mineable/axe",
+						"speed": 7,
+						"correct_for_drops": true
+					},
+					{
+						"blocks": "#minecraft:mineable/pickaxe",
+						"speed": 7,
+						"correct_for_drops": true
+					}
+				],
+				"default_mining_speed": 1,
+				"damage_per_block": 1
+			},
+			"minecraft:item_model": "minecraft:steel_dolabra",
+			"minecraft:lore": [
+				{
+					"text": "⛏ 7",
+					"color": "blue",
+					"italic": false
+				},
+				{
+					"text": "🗡 6",
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"text": "🕒 0.9",
+					"color": "dark_green",
+					"italic": false
+				}
+			],
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:attack_damage",
+					"id": "attack_damage",
+					"amount": 5,
+					"operation": "add_value",
+					"slot": "mainhand"
+				},
+				{
+					"type": "minecraft:attack_speed",
+					"id": "attack_speed",
+					"amount": -3.1,
+					"operation": "add_value",
+					"slot": "mainhand"
+				}
+			],
+			"minecraft:repairable": {
+				"items": [
+					"minecraft:iron_ingot"
+				]
+			}
+		}
+	},
+	"template": "minecraft:netherite_upgrade_smithing_template"
+}

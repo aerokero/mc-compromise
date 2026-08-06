@@ -1,0 +1,13 @@
+{
+	"wants": {
+		"id": "minecraft:emerald",
+		"count": 1
+	},
+	"gives": {
+		"id": "minecraft:redstone_lamp",
+		"count": 64
+	},
+	"max_uses": 999,
+	"reputation_discount": 0,
+	"xp": 40
+}

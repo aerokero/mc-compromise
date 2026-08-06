@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "end_rod",
+	"category": "building",
+	"pattern": [
+		"SES",
+		"SES",
+		"SES"
+	],
+	"key": {
+		"S": "minecraft:glass_pane",
+		"E": "minecraft:glow_ink_sac"
+	},
+	"result": {
+		"components": {},
+		"count": 6,
+		"id": "minecraft:end_rod"
+	}
+}

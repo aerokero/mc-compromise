@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "waxed_weathered_copper_bars",
+  "ingredient": "minecraft:waxed_weathered_copper",
+  "result": {
+    "count": 36,
+    "id": "minecraft:waxed_weathered_copper_bars"
+  }
+}

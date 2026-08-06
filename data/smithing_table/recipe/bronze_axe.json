@@ -1,0 +1,82 @@
+{
+	"type": "minecraft:smithing_transform",
+	"addition": "minecraft:phantom_membrane",
+	"base": "minecraft:copper_axe",
+	"result": {
+		"id": "minecraft:stone_axe",
+		"components": {
+			"minecraft:max_damage": 1000,
+			"minecraft:tool": {
+				"rules": [
+					{
+						"blocks": "#minecraft:mineable/axe",
+						"speed": 15,
+						"correct_for_drops": true
+					}
+				],
+				"default_mining_speed": 1,
+				"damage_per_block": 1
+			},
+			"minecraft:item_name": {
+				"translate": "item.kleispack.bronze_axe",
+				"color": "#ac7b5c"
+			},
+			"minecraft:item_model": "minecraft:bronze_axe",
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:attack_damage",
+					"id": "attack_damage",
+					"amount": 8,
+					"operation": "add_value",
+					"slot": "mainhand"
+				},
+				{
+					"type": "minecraft:attack_speed",
+					"id": "attack_speed",
+					"amount": -2.9,
+					"operation": "add_value"
+				},
+				{
+					"type": "minecraft:movement_speed",
+					"id": "bronze_sword",
+					"amount": 0.0055,
+					"operation": "add_value",
+					"slot": "mainhand"
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:lore": [
+				{
+					"text": "⛏ 15",
+					"color": "blue",
+					"italic": false
+				},
+				{
+					"text": "🗡 9",
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"text": "🕒 1.1",
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"text": "🏃 +0.005",
+					"color": "dark_green",
+					"italic": false
+				}
+			],
+			"minecraft:repairable": {
+				"items": [
+					"minecraft:copper_ingot"
+				]
+			}
+		}
+	},
+	"template": "minecraft:copper_ingot"
+}

@@ -1,0 +1,63 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:dried_kelp",
+		"minecraft:carrot",
+		"minecraft:sugar",
+		"#minecraft:eggs",
+		"minecraft:enderman_spawn_egg"
+	],
+	"result": {
+		"id": "minecraft:poisonous_potato",
+		"components": {
+			"minecraft:item_model": "minecraft:gimmari",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.gimmari"
+			},
+			"minecraft:food": {
+				"nutrition": 0,
+				"saturation": 0,
+				"can_always_eat": true
+			},
+			"minecraft:consumable": {
+				"consume_seconds": 1.2,
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+							{
+								"id": "minecraft:water_breathing",
+								"amplifier": 0,
+								"duration": 9600,
+								"show_particles": false,
+								"show_icon": true
+							},
+							{
+								"id": "minecraft:regeneration",
+								"amplifier": 2,
+								"duration": 72,
+								"show_particles": false,
+								"show_icon": false
+							}
+						]
+					}
+				]
+			},
+			"minecraft:max_stack_size": 64,
+			"minecraft:lore": [
+				{
+					"text": "❤❤❤",
+					"color": "red",
+					"italic": false
+				},
+				{
+					"text": "🐟 Gills (8:00)",
+					"color": "#7ec9e7",
+					"italic": false
+				}
+			]
+		},
+		"count": 1
+	}
+}

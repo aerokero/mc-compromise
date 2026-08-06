@@ -1,0 +1,3 @@
+I tried to block enchantments with the enchantment tags
+I set the in_enchanting_table to be only curses, or nothing at all, and all the enchantments were
+still the default ones. Do you know what I'm doing wrong?

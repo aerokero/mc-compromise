@@ -1,0 +1,52 @@
+{
+	"type": "minecraft:smithing_transform",
+	"addition": "minecraft:glistering_melon_slice",
+	"base": "minecraft:iron_sword",
+	"result": {
+		"id": "minecraft:stone_sword",
+		"components": {
+			"minecraft:max_damage": 800,
+			"minecraft:lore": [
+				{
+					"text": "🗡 6",
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"text": "🕒 1.6",
+					"color": "dark_green",
+					"italic": false
+				}
+			],
+			"minecraft:item_name": "Silver Sword",
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:attack_damage",
+					"id": "attack_damage",
+					"amount": 5,
+					"operation": "add_value",
+					"slot": "mainhand"
+				},
+				{
+					"type": "minecraft:attack_speed",
+					"id": "attack_speed",
+					"amount": -2.4,
+					"operation": "add_value",
+					"slot": "mainhand"
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:enchantments": {
+				"minecraft:smite": 2,
+				"main:warding0": 1
+			},
+			"minecraft:enchantment_glint_override": true,
+			"minecraft:item_model": "minecraft:silver_sword"
+		}
+	},
+	"template": "minecraft:prismarine_crystals"
+}

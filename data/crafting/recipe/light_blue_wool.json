@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "wool_from_carpet",
+  "key": {
+    "#": [
+      "minecraft:light_blue_carpet"
+    ]
+  },
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:light_blue_wool"
+  }
+}

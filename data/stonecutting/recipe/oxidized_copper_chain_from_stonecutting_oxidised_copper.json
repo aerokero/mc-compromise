@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "oxidized_copper_chain",
+  "ingredient": "minecraft:oxidized_copper",
+  "result": {
+    "count": 54,
+    "id": "minecraft:oxidized_copper_chain"
+  }
+}

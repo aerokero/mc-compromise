@@ -1,0 +1,10 @@
+{
+	"type": "minecraft:smoking",
+	"category": "blocks",
+	"experience": 0.1,
+	"ingredient": "minecraft:lime_terracotta",
+	"result": {
+		"id": "minecraft:lime_glazed_terracotta"
+	},
+	"cookingtime": 100
+}

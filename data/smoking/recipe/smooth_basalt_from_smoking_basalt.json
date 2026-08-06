@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:smoking",
+	"group": "smooth_basalt",
+	"category": "blocks",
+	"cookingtime": 100,
+	"experience": 0.35,
+	"ingredient": "minecraft:basalt",
+	"result": {
+		"id": "minecraft:smooth_basalt"
+	}
+}

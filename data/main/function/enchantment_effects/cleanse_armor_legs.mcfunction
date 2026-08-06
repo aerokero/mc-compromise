@@ -1,0 +1,1 @@
+execute at @s run effect clear @s minecraft:slowness

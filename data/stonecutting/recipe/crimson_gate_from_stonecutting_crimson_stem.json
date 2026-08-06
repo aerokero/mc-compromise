@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "crimson_fence_gate",
+  "ingredient": "#minecraft:crimson_stems",
+  "result": {
+    "count": 1,
+    "id": "minecraft:crimson_fence_gate"
+  }
+}

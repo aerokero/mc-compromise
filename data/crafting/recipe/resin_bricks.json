@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "resin_bricks",
+  "category": "building",
+  "key": {
+    "#": "minecraft:resin_clump"
+  },
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:resin_bricks"
+  }
+}

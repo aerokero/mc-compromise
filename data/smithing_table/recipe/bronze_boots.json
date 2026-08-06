@@ -1,0 +1,56 @@
+{
+	"type": "minecraft:smithing_transform",
+	"addition": "minecraft:phantom_membrane",
+	"base": "minecraft:copper_boots",
+	"result": {
+		"id": "minecraft:copper_boots",
+		"components": {
+			"minecraft:max_damage": 500,
+			"minecraft:lore": [
+				{
+					"text": "⛊ 2",
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"text": "🏃 +0.008",
+					"color": "dark_green",
+					"italic": false
+				}
+			],
+			"minecraft:item_name": {
+				"translate": "item.kleispack.bronze_boots",
+				"color": "#ac7b5c"
+			},
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:movement_speed",
+					"id": "bronze_boots",
+					"amount": 0.0085,
+					"operation": "add_value",
+					"slot": "feet"
+				},
+				{
+					"type": "minecraft:armor",
+					"id": "minecraft:armor.boots",
+					"amount": 2,
+					"operation": "add_value",
+					"slot": "feet"
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:enchantments": {},
+			"minecraft:enchantment_glint_override": false,
+			"minecraft:item_model": "minecraft:bronze_boots",
+			"minecraft:equippable": {
+				"slot": "feet",
+				"asset_id": "minecraft:bronze"
+			}
+		}
+	},
+	"template": "minecraft:copper_ingot"
+}

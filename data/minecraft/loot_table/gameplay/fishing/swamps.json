@@ -1,0 +1,37 @@
+{
+	"type": "minecraft:fishing",
+	"pools": [
+		{
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:gameplay/fishing/fish/guppy",
+					"weight": 15
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:gameplay/fishing/fish/bujurqui",
+					"weight": 15
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:gameplay/fishing/fish/lamprey",
+					"weight": 8
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:gameplay/fishing/fish/flounder",
+					"weight": 3
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:gameplay/fishing/fish/arapaima",
+					"weight": 1
+				}
+			]
+		}
+	],
+	"random_sequence": "minecraft:gameplay/fishing/swamps"
+}

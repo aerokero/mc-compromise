@@ -1,0 +1,44 @@
+{
+	"type": "minecraft:smithing_transform",
+	"addition": "minecraft:netherite_ingot",
+	"base": "minecraft:diamond_sword",
+	"result": {
+		"id": "minecraft:netherite_sword",
+		"components": {
+			"minecraft:max_damage": 5000,
+			"minecraft:item_name": {
+				"translate": "item.minecraft.netherite_sword",
+				"color": "gold"
+			},
+			"minecraft:enchantments": {
+				"main:divinity": 1,
+				"minecraft:unbreaking": 2
+			},
+			"minecraft:lore": [
+				{
+					"text": "🗡 8",
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"text": "🕒 1.6",
+					"color": "dark_green",
+					"italic": false
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:repairable": {
+				"items": [
+					"minecraft:diamond_block",
+					"minecraft:gold_block",
+					"minecraft:netherite_scrap"
+				]
+			}
+		}
+	},
+	"template": "minecraft:diamond"
+}

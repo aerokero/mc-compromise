@@ -1,0 +1,25 @@
+{
+	"criteria": {
+		"inventory_changed": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"components": {},
+						"predicates": {
+							"minecraft:repair_cost": {}
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"inventory_changed"
+		]
+	],
+	"rewards": {
+		"function": "endless_repairs:reset_breakable_repair_cost"
+	}
+}

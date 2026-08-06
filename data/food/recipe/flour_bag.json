@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "flour_bag",
+	"category": "misc",
+	"key": {
+		"#": "minecraft:enderman_spawn_egg"
+	},
+	"pattern": [
+		"###",
+		"###",
+		"###"
+	],
+	"result": {
+		"id": "minecraft:magma_cube_spawn_egg",
+		"components": {
+			"!minecraft:entity_data": {}
+		}
+	}
+}

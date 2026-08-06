@@ -1,0 +1,38 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": "minecraft:stick",
+		"X": "copper_ingot"
+	},
+	"pattern": [
+		"X",
+		"X",
+		"#"
+	],
+	"result": {
+		"components": {
+			"minecraft:max_damage": 350,
+			"minecraft:item_model": "minecraft:copper_sword",
+			"minecraft:lore": [
+				{
+					"text": "🗡 5",
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"text": "🕒 1.6",
+					"color": "dark_green",
+					"italic": false
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			}
+		},
+		"count": 1,
+		"id": "minecraft:copper_sword"
+	}
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "cherry_pressure_plate",
+  "ingredient": "#minecraft:cherry_logs",
+  "result": {
+    "count": 4,
+    "id": "minecraft:cherry_pressure_plate"
+  }
+}

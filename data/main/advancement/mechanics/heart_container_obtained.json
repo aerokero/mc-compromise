@@ -1,0 +1,25 @@
+{
+	"parent": "main:mechanics/root",
+	"criteria": {
+		"obtained_heart_container": {
+			"conditions": {
+				"items": [
+					{
+						"components": {
+							"minecraft:item_model": "minecraft:heart_container"
+						}
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"requirements": [
+		[
+			"obtained_heart_container"
+		]
+	],
+	"rewards": {
+		"function": "main:mechanic/process_heart_container"
+	}
+}

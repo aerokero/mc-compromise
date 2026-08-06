@@ -1,0 +1,45 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": "minecraft:stick",
+		"X": "#minecraft:gold_tool_materials"
+	},
+	"pattern": [
+		"X",
+		"X",
+		"#"
+	],
+	"result": {
+		"components": {
+			"minecraft:max_damage": 350,
+			"minecraft:enchantments": {
+				"minecraft:looting": 1
+			},
+			"minecraft:lore": [
+				{
+					"text": "🗡 4",
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"text": "🕒 1.6",
+					"color": "dark_green",
+					"italic": false
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:enchantment_glint_override": false,
+			"minecraft:item_name": {
+				"translate": "item.minecraft.golden_sword",
+				"color": "white"
+			}
+		},
+		"count": 1,
+		"id": "minecraft:golden_sword"
+	}
+}

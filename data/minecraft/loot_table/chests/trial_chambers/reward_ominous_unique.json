@@ -1,0 +1,30 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:food/enchanted_golden_apple",
+					"quality": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:music_disc_creator"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:heavy_core",
+					"quality": 2
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:kleis_items/divine_fragment",
+					"weight": 1
+				}
+			],
+			"rolls": 1
+		}
+	],
+	"random_sequence": "minecraft:chests/trial_chambers/reward_ominous_unique"
+}

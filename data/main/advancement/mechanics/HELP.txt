@@ -1,0 +1,13 @@
+I can't find a way for an advancement that detects when the player dies.
+Theres one for when a player is killed by an entity
+one that detects a player falling
+But I can't find one that detects when they die, for example, detecting even if the /kill command is used on them
+
+This would allow me to not have to use a ticking function to detect deaths
+
+
+
+SECOND THING
+Do you know of a way to detect when a player is NO LONGER interacting with a block?
+I want to detect when a player stops looking at the anvil UI. But I haven't found a way to do that
+so for now, im just setting a 15 second timer, after an anvil is used. At which point the XP is cleared

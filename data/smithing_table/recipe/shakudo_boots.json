@@ -1,0 +1,51 @@
+{
+	"type": "minecraft:smithing_transform",
+	"addition": "minecraft:shulker_shell",
+	"base": "minecraft:copper_boots",
+	"result": {
+		"id": "minecraft:copper_boots",
+		"components": {
+			"minecraft:max_damage": 500,
+			"minecraft:lore": [
+				{
+					"text": "    Levitation",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "⛊ 2",
+					"color": "dark_green",
+					"italic": false
+				}
+			],
+			"minecraft:item_name": {
+				"translate": "item.kleispack.shakudo_boots",
+				"color": "#c96691"
+			},
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:armor",
+					"id": "minecraft:armor.boots",
+					"amount": 2,
+					"operation": "add_value",
+					"slot": "feet"
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:enchantments": {
+				"main:cleanse_armor_feet": 1
+			},
+			"minecraft:enchantment_glint_override": false,
+			"minecraft:item_model": "minecraft:shakudo_boots",
+			"minecraft:equippable": {
+				"slot": "feet",
+				"asset_id": "minecraft:shakudo"
+			}
+		}
+	},
+	"template": "minecraft:copper_ingot"
+}

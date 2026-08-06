@@ -1,0 +1,77 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": "minecraft:stick",
+		"X": "minecraft:diamond"
+	},
+	"pattern": [
+		"XX ",
+		" #X",
+		" # "
+	],
+	"result": {
+		"components": {
+			"minecraft:tool": {
+				"rules": [
+					{
+						"blocks": "#minecraft:mineable/hoe",
+						"speed": 8,
+						"correct_for_drops": true
+					},
+					{
+						"blocks": "#minecraft:mineable/shovel",
+						"speed": 8
+					}
+				],
+				"default_mining_speed": 1,
+				"damage_per_block": 1
+			},
+			"minecraft:item_name": {
+				"translate": "item.kleispack.diamond_mattock"
+			},
+			"minecraft:max_damage": 2500,
+			"minecraft:item_model": "minecraft:diamond_mattock",
+			"minecraft:lore": [
+				{
+					"text": "⛏ 8",
+					"color": "blue",
+					"italic": false
+				},
+				{
+					"text": "🗡 4",
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"text": "🕒 3",
+					"color": "dark_green",
+					"italic": false
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:attack_damage",
+					"id": "attack_damage",
+					"amount": 3,
+					"operation": "add_value",
+					"slot": "mainhand"
+				},
+				{
+					"type": "minecraft:attack_speed",
+					"id": "attack_speed",
+					"amount": -1,
+					"operation": "add_value",
+					"slot": "mainhand"
+				}
+			]
+		},
+		"count": 1,
+		"id": "minecraft:diamond_hoe"
+	}
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "group": "gravel",
+  "category": "misc",
+  "ingredient": [
+    "minecraft:cobbled_deepslate",
+    "minecraft:cobblestone"
+  ],
+  "result": {
+    "id": "minecraft:gravel"
+  },
+  "experience": 0.1,
+  "cookingtime": 100
+}

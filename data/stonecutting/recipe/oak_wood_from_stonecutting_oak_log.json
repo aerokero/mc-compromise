@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "oak_wood",
+  "ingredient": [
+    "stripped_oak_log",
+    "oak_log",
+    "stripped_oak_wood"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:oak_wood"
+  }
+}

@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "building",
+	"group": "concrete",
+	"ingredients": [
+		"minecraft:potion",
+		"minecraft:yellow_concrete_powder",
+		"minecraft:yellow_concrete_powder",
+		"minecraft:yellow_concrete_powder",
+		"minecraft:yellow_concrete_powder",
+		"minecraft:yellow_concrete_powder",
+		"minecraft:yellow_concrete_powder",
+		"minecraft:yellow_concrete_powder",
+		"minecraft:yellow_concrete_powder"
+	],
+	"result": {
+		"count": 8,
+		"id": "minecraft:yellow_concrete"
+	}
+}

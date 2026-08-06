@@ -1,0 +1,33 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_primary_material": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:nether_star"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_the_recipe": {
+			"conditions": {
+				"recipe": "crafting:divine_fragment"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		}
+	},
+	"requirements": [
+		[
+			"has_the_recipe",
+			"has_primary_material"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"crafting:divine_favour",
+			"crafting:divine_fragment"
+		]
+	}
+}

@@ -1,0 +1,36 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"SbS",
+		"FBF",
+		"SFS"
+	],
+	"key": {
+		"S": "minecraft:golden_apple",
+		"B": "minecraft:knowledge_book",
+		"F": "minecraft:blue_ice",
+		"b": "minecraft:golden_hoe"
+	},
+	"result": {
+		"components": {
+			"minecraft:stored_enchantments": {
+				"minecraft:frost_walker": 2,
+				"main:freezing_protection": 2
+			},
+			"minecraft:item_name": {
+				"translate": "item.kleispack.knowledge"
+			},
+			"minecraft:lore": [
+				{
+					"translate": "item.kleispack.knowledge.frostwalker",
+					"color": "dark_gray",
+					"italic": false
+				}
+			],
+			"minecraft:item_model": "minecraft:knowledge_frostwalker"
+		},
+		"count": 1,
+		"id": "minecraft:enchanted_book"
+	}
+}

@@ -1,0 +1,4 @@
+execute at @a run execute if items entity @p inventory.* minecraft:potion[potion_contents={potion:"minecraft:water"},!max_stack_size=64] run give @p minecraft:potion[potion_contents={potion:"minecraft:water"},max_stack_size=64]
+execute at @a run execute if items entity @p hotbar.* minecraft:potion[potion_contents={potion:"minecraft:water"},!max_stack_size=64] run give @p minecraft:potion[potion_contents={potion:"minecraft:water"},max_stack_size=64]
+execute at @a run execute if items entity @p inventory.* minecraft:potion[potion_contents={potion:"minecraft:water"},!max_stack_size=64] run clear @p minecraft:potion[potion_contents={potion:"minecraft:water"},!max_stack_size=64]
+execute at @a run execute if items entity @p hotbar.* minecraft:potion[potion_contents={potion:"minecraft:water"},!max_stack_size=64] run clear @p minecraft:potion[potion_contents={potion:"minecraft:water"},!max_stack_size=64]

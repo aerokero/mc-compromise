@@ -1,0 +1,1 @@
+schedule function main:mechanic/set_rain 3s

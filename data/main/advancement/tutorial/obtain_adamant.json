@@ -1,0 +1,33 @@
+{
+  "parent": "main:tutorial/obtain_gold",
+  "criteria": {
+    "get_smithing": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_ingot"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Netherite grants the weilder a Divine Constitution"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:netherite_ingot"
+    },
+    "title": {
+      "text": "A Divine Alloy"
+    },
+    "hidden": true
+  },
+  "requirements": [
+    [
+      "get_smithing"
+    ]
+  ]
+}

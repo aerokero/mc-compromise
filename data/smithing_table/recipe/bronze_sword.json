@@ -1,0 +1,122 @@
+{
+	"type": "minecraft:smithing_transform",
+	"addition": "minecraft:phantom_membrane",
+	"base": "minecraft:copper_sword",
+	"result": {
+		"id": "minecraft:stone_sword",
+		"components": {
+			"minecraft:max_damage": 1000,
+			"minecraft:item_name": {
+				"translate": "item.kleispack.bronze_sword",
+				"color": "#ac7b5c"
+			},
+			"minecraft:item_model": "minecraft:bronze_sword",
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:attack_speed",
+					"id": "attack_speed",
+					"amount": -2.1,
+					"operation": "add_value",
+					"slot": "mainhand"
+				},
+				{
+					"type": "minecraft:attack_damage",
+					"id": "attack_damage",
+					"amount": 5,
+					"operation": "add_value",
+					"slot": "mainhand"
+				},
+				{
+					"type": "minecraft:movement_speed",
+					"id": "bronze_sword",
+					"amount": 0.0105,
+					"operation": "add_value",
+					"slot": "mainhand"
+				},
+				{
+					"type": "minecraft:entity_interaction_range",
+					"id": "reach",
+					"amount": 2,
+					"operation": "add_value",
+					"slot": "mainhand"
+				}
+			],
+			"minecraft:lore": [
+				{
+					"text": "🗡 6",
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"text": "🕒 1.9",
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"text": "🏃 +0.01",
+					"color": "dark_green",
+					"italic": false
+				},
+				"",
+				{
+					"text": "When Blocking:",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "75% Melee Blocking",
+					"color": "blue",
+					"italic": false
+				},
+				{
+					"text": "25% Projectile Blocking",
+					"color": "blue",
+					"italic": false
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:blocks_attacks": {
+				"disable_cooldown_scale": 1,
+				"damage_reductions": [
+					{
+						"type": [
+							"minecraft:mob_attack",
+							"minecraft:player_attack"
+						],
+						"base": 0,
+						"factor": 0.75
+					},
+					{
+						"type": [
+							"minecraft:mob_projectile",
+							"minecraft:arrow"
+						],
+						"base": 0,
+						"factor": 0.25
+					}
+				],
+				"item_damage": {
+					"threshold": 1,
+					"base": 0,
+					"factor": 0.25
+				},
+				"block_sound": "minecraft:entity.zombie.attack_iron_door",
+				"disabled_sound": "minecraft:item.shield.break"
+			},
+			"minecraft:enchantments": {
+				"main:riposte": 1
+			},
+			"minecraft:repairable": {
+				"items": [
+					"minecraft:copper_ingot"
+				]
+			},
+			"minecraft:enchantment_glint_override": false
+		}
+	},
+	"template": "minecraft:copper_ingot"
+}

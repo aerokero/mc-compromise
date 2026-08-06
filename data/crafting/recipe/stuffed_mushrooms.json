@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:brown_mushroom",
+    "minecraft:bread",
+    "minecraft:cookie"
+  ],
+  "result": {
+    "components": {
+      "minecraft:consumable": {
+        "consume_seconds": 0.5,
+        "on_consume_effects": [
+          {
+            "type": "minecraft:apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:instant_health",
+                "amplifier": 0,
+                "duration": 1,
+                "show_particles": false
+              }
+            ]
+          }
+        ]
+      },
+      "minecraft:lore": [
+        {
+          "text": "❤❤",
+          "color": "red",
+          "italic": false
+        },
+        {
+          "text": "🍖 2",
+          "color": "dark_green",
+          "italic": false
+        }
+      ],
+      "minecraft:item_name": "Stuffed Mushrooms",
+      "minecraft:food": {
+        "nutrition": 2,
+        "saturation": 0.5
+      },
+      "minecraft:custom_model_data": {
+        "strings": [
+          "stuffed_mushrooms"
+        ]
+      }
+    },
+    "count": 1,
+    "id": "minecraft:baked_potato"
+  }
+}

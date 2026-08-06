@@ -1,0 +1,27 @@
+{
+	"gives": {
+		"id": "minecraft:emerald",
+		"count": 1
+	},
+	"given_item_modifiers": [],
+	"max_uses": 999,
+	"wants": {
+		"components": {
+			"minecraft:item_name": {
+				"translate": "item.kleispack.fish.humpback_whitefish"
+			},
+			"minecraft:item_model": "humpback_whitefish",
+			"minecraft:lore": [
+				{
+					"text": "⭐",
+					"color": "gray",
+					"italic": false
+				}
+			]
+		},
+		"count": 23,
+		"id": "minecraft:cod"
+	},
+	"reputation_discount": 0,
+	"xp": 10
+}

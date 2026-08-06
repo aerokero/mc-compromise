@@ -1,0 +1,257 @@
+{
+    "type": "chest",
+    "pools": [
+      {
+        "rolls": 7,
+        "entries": [
+          {
+            "type": "item",
+            "weight": 7,
+            "name": "minecraft:bowl",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 5,
+            "name": "minecraft:flint_and_steel",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 10,
+            "name": "minecraft:candle",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 2,
+            "name": "minecraft:compass",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 2,
+            "name": "minecraft:compass",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:item_model": "copper_compass"
+                }
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Copper Compass"
+                  }
+                ],
+                "target": "item_name"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 9,
+            "name": "minecraft:paper",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:popped_chorus_fruit",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "HPUp": true
+                  }
+                }
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "color": "dark_gray",
+                    "italic": false,
+                    "text": "Adds 1 Heart. 30 max"
+                  }
+                ],
+                "mode": "append"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 5,
+            "name": "minecraft:emerald",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 7,
+            "name": "minecraft:book",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 5,
+            "name": "minecraft:potion",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:potion_contents": {
+                    "potion": "minecraft:water"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 4,
+            "name": "minecraft:iron_sword",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:attribute_modifiers": [
+                    {
+                      "id": "entity_interaction_range",
+                      "type": "entity_interaction_range",
+                      "amount": -3,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    }
+                  ],
+                  "minecraft:custom_model_data": {
+                    "strings": [
+                      "iron_knife"
+                    ]
+                  }
+                }
+              },
+              {
+                "function": "set_damage",
+                "damage": 50
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Rusty Iron Knife"
+                  }
+                ],
+                "target": "item_name"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 10,
+            "name": "minecraft:charcoal",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_model_data": {
+                    "strings": [
+                      "charcoal_pencil"
+                    ]
+                  }
+                }
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "italic": false,
+                    "text": "Charcoal Pencil"
+                  }
+                ],
+                "target": "item_name"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:cobweb",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "min": 1,
+                  "max": 3
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

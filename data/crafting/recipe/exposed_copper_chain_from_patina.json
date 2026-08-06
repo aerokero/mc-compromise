@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "exposed_copper_chain",
+  "category": "building",
+  "ingredients": [
+    "minecraft:copper_chain",
+    "minecraft:potion"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:exposed_copper_chain"
+  }
+}

@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cobblestone",
+	"category": "building",
+	"ingredients": [
+		"minecraft:cobblestone_slab",
+		"minecraft:cobblestone_slab"
+	],
+	"result": {
+		"id": "minecraft:cobblestone",
+		"count": 1
+	}
+}

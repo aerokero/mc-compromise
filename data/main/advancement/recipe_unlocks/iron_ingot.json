@@ -1,0 +1,54 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_primary_material": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:iron_ingot"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_the_recipe": {
+			"conditions": {
+				"recipe": "crafting:iron_pickaxe"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		}
+	},
+	"requirements": [
+		[
+			"has_the_recipe",
+			"has_primary_material"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"crafting:minecart_from_iron",
+			"crafting:iron_trapdoor_from_iron",
+			"crafting:iron_pickaxe",
+			"crafting:iron_hoe",
+			"crafting:iron_axe",
+			"crafting:iron_shovel",
+			"crafting:iron_sword",
+			"crafting:iron_spear",
+			"crafting:iron_helmet",
+			"crafting:iron_chestplate",
+			"crafting:iron_leggings",
+			"crafting:iron_boots",
+			"crafting:iron_mattock",
+			"crafting:iron_door_from_iron",
+			"crafting:iron_chain_from_iron",
+			"crafting:iron_chain",
+			"crafting:iron_bars",
+			"crafting:iron_dolabra",
+			"crafting:iron_shears",
+			"crafting:carbon_rich_iron",
+			"crafting:anvil",
+			"crafting:cauldron_from_iron",
+			"crafting:bucket_from_iron",
+		]
+	}
+}

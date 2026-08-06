@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "acacia_pressure_plate",
+  "ingredient": "#minecraft:acacia_logs",
+  "result": {
+    "count": 4,
+    "id": "minecraft:acacia_pressure_plate"
+  }
+}

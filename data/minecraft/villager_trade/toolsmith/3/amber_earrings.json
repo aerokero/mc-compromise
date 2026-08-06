@@ -1,0 +1,60 @@
+{
+	"wants": {
+		"id": "minecraft:emerald",
+		"count": 8
+	},
+	"additional_wants": {
+		"id": "minecraft:fermented_spider_eye",
+		"components": {
+			"minecraft:item_model": "minecraft:amber",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.amber",
+				"color": "gold"
+			}
+		}
+	},
+	"gives": {
+		"id": "minecraft:copper_helmet",
+		"components": {
+			"minecraft:max_damage": 250,
+			"minecraft:lore": [
+				{
+					"text": "⛊ 1",
+					"color": "dark_green",
+					"italic": false
+				}
+			],
+			"minecraft:item_name": {
+				"translate": "item.kleispack.amber_earrings",
+				"color": "#e58904"
+			},
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:armor",
+					"id": "minecraft:armor.helmet",
+					"amount": 1,
+					"operation": "add_value",
+					"slot": "head"
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:item_model": "minecraft:amber_earrings",
+			"minecraft:equippable": {
+				"slot": "head",
+				"asset_id": "minecraft:amber_earrings"
+			},
+			"minecraft:enchantments": {
+				"main:regeneration": 1
+			},
+			"minecraft:unbreakable": {}
+		},
+		"count": 1
+	},
+	"max_uses": 999,
+	"reputation_discount": 0,
+	"xp": 150
+}

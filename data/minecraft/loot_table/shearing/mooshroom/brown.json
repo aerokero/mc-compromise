@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:shearing",
+	"pools": [
+		{
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:brown_mushroom"
+				}
+			],
+			"rolls": 5,
+			"functions": [
+				{
+					"function": "minecraft:apply_bonus",
+					"enchantment": "minecraft:looting",
+					"formula": "minecraft:uniform_bonus_count",
+					"parameters": {
+						"bonusMultiplier": 2
+					}
+				}
+			]
+		}
+	],
+	"random_sequence": "minecraft:shearing/mooshroom/brown"
+}

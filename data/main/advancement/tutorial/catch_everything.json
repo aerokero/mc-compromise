@@ -1,0 +1,635 @@
+{
+	"parent": "main:tutorial/trade_fish",
+	"criteria": {
+		"alaksa_blackfish": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:alaksa_blackfish"
+					}
+				}
+			}
+		},
+		"anchovy": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:anchovy"
+					}
+				}
+			}
+		},
+		"arapaima": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:arapaima"
+					}
+				}
+			}
+		},
+		"armoured_catfish": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:armoured_catfish"
+					}
+				}
+			}
+		},
+		"bass": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:bass"
+					}
+				}
+			}
+		},
+		"black_seabass": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:black_seabass"
+					}
+				}
+			}
+		},
+		"bluegill": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:bluegill"
+					}
+				}
+			}
+		},
+		"bujurqui": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:bujurqui"
+					}
+				}
+			}
+		},
+		"carp": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:carp"
+					}
+				}
+			}
+		},
+		"catfish": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:catfish"
+					}
+				}
+			}
+		},
+		"cod": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:cod"
+					}
+				}
+			}
+		},
+		"crappie": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:crappie"
+					}
+				}
+			}
+		},
+		"european_eel": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:european_eel"
+					}
+				}
+			}
+		},
+		"flounder": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:flounder"
+					}
+				}
+			}
+		},
+		"flying_fish": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:flying_fish"
+					}
+				}
+			}
+		},
+		"freshwater_pufferfish": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:freshwater_pufferfish"
+					}
+				}
+			}
+		},
+		"gar": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:gar"
+					}
+				}
+			}
+		},
+		"guppy": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:guppy"
+					}
+				}
+			}
+		},
+		"gurnard": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:gurnard"
+					}
+				}
+			}
+		},
+		"herring": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:herring"
+					}
+				}
+			}
+		},
+		"humpback_whitefish": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:humpback_whitefish"
+					}
+				}
+			}
+		},
+		"lamprey": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:lamprey"
+					}
+				}
+			}
+		},
+		"mahi_mahi": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:mahi_mahi"
+					}
+				}
+			}
+		},
+		"mediterranean_killifish": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:mediterranean_killifish"
+					}
+				}
+			}
+		},
+		"monkfish": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:monkfish"
+					}
+				}
+			}
+		},
+		"muskellunge": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:muskellunge"
+					}
+				}
+			}
+		},
+		"northern_pike": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:northern_pike"
+					}
+				}
+			}
+		},
+		"oarfish": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:oarfish"
+					}
+				}
+			}
+		},
+		"opah": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:opah"
+					}
+				}
+			}
+		},
+		"painted_moray": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:painted_moray"
+					}
+				}
+			}
+		},
+		"piranha": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:piranha"
+					}
+				}
+			}
+		},
+		"pufferfish": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:pufferfish"
+					}
+				}
+			}
+		},
+		"rainbow_wrasse": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:rainbow_wrasse"
+					}
+				}
+			}
+		},
+		"salmon": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:salmon"
+					}
+				}
+			}
+		},
+		"shad": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:shad"
+					}
+				}
+			}
+		},
+		"siberian_sturgeon": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:siberian_sturgeon"
+					}
+				}
+			}
+		},
+		"skate": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:skate"
+					}
+				}
+			}
+		},
+		"striped_perch": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:striped_perch"
+					}
+				}
+			}
+		},
+		"spoonhead_sculpin": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:spoonhead_sculpin"
+					}
+				}
+			}
+		},
+		"sturgeon": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:sturgeon"
+					}
+				}
+			}
+		},
+		"swordfish": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:swordfish"
+					}
+				}
+			}
+		},
+		"tropical_fish": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:tropical_fish"
+					}
+				}
+			}
+		},
+		"tunisian_barb": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:tunisian_barb"
+					}
+				}
+			}
+		},
+		"walleye": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:walleye"
+					}
+				}
+			}
+		},
+		"wolffish": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:wolffish"
+					}
+				}
+			}
+		},
+		"echo_fish": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:echo_fish"
+					}
+				}
+			}
+		},
+		"pale_fish": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:pale_fish"
+					}
+				}
+			}
+		}
+	},
+	"display": {
+		"description": {
+			"text": "Catch Everything!"
+		},
+		"icon": {
+			"components": {
+				"minecraft:item_model": "minecraft:gay_fish"
+			},
+			"count": 1,
+			"id": "minecraft:emerald"
+		},
+		"title": {
+			"text": "No More Fish in the Sea"
+		},
+		"frame": "challenge",
+		"hidden": false
+	},
+	"requirements": [
+		[
+			"alaksa_blackfish"
+		],
+        [
+			"anchovy"
+        ],
+        [
+			"arapaima"
+        ],
+        [
+			"armoured_catfish"
+        ],
+        [
+			"wolffish"
+        ],
+        [
+			"walleye"
+        ],
+        [
+			"tunisian_barb"
+        ],
+        [
+			"tropical_fish"
+        ],
+        [
+			"swordfish"
+        ],
+        [
+			"sturgeon"
+        ],
+        [
+			"striped_perch"
+        ],
+        [
+			"spoonhead_sculpin"
+        ],
+        [
+			"skate"
+        ],
+        [
+			"siberian_sturgeon"
+        ],
+        [
+			"shad"
+        ],
+        [
+			"salmon"
+        ],
+        [
+			"rainbow_wrasse"
+        ],
+        [
+			"pufferfish"
+        ],
+        [
+			"piranha"
+        ],
+        [
+			"painted_moray"
+        ],
+        [
+			"bass"
+        ],
+        [
+			"black_seabass"
+        ],
+        [
+			"bluegill"
+        ],
+        [
+			"bujurqui"
+        ],
+        [
+			"carp"
+        ],
+        [
+			"catfish"
+        ],
+        [
+			"cod"
+        ],
+        [
+			"crappie"
+        ],
+        [
+			"european_eel"
+        ],
+        [
+			"flounder"
+        ],
+        [
+			"flying_fish"
+        ],
+        [
+			"freshwater_pufferfish"
+        ],
+        [
+			"gar"
+        ],
+        [
+			"guppy"
+        ],
+        [
+			"gurnard"
+        ],
+        [
+			"herring"
+        ],
+        [
+			"humpback_whitefish"
+        ],
+        [
+			"lamprey"
+        ],
+        [
+			"mahi_mahi"
+        ],
+        [
+			"mediterranean_killifish"
+        ],
+        [
+			"monkfish"
+        ],
+        [
+			"muskellunge"
+        ],
+        [
+			"northern_pike"
+        ],
+        [
+			"oarfish"
+        ],
+        [
+			"opah"
+        ],
+        [
+			"echo_fish"
+        ],
+        [
+			"pale_fish"
+        ]
+	]
+}

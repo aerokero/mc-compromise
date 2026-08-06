@@ -1,0 +1,60 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_straw": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:wheat"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_tall_dry_grass": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:tall_dry_grass"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_short_dry_grass": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:short_dry_grass"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_the_recipe": {
+			"conditions": {
+				"recipe": "crafting:alt_torch"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		}
+	},
+	"requirements": [
+		[
+			"has_the_recipe",
+			"has_short_dry_grass",
+			"has_tall_dry_grass",
+			"has_straw"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"crafting:torch_from_short_dry_grass",
+			"crafting:tall_dry_grass_from_short_dry_grass",
+			"crafting:short_dry_grass_from_tall_dry_grass",
+			"crafting:packed_mud_from_dirt",
+			"crafting:hay_block",
+			"crafting:tall_dry_grass_from_wheat",
+            "crafting:wheat_from_hay_block"
+		]
+	}
+}

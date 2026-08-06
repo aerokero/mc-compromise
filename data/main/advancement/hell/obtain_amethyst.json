@@ -1,0 +1,33 @@
+{
+  "parent": "main:hell/root",
+  "criteria": {
+    "get_amethyst": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:amethyst_shard"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Obtain a mystical crystal rich in magical properties."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:amethyst_shard"
+    },
+    "title": {
+      "text": "Mystic Resonance"
+    },
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "get_amethyst"
+    ]
+  ]
+}

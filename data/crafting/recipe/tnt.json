@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "tnt",
+	"category": "redstone",
+	"key": {
+		"P": [
+			"minecraft:paper",
+			"minecraft:sand"
+		],
+		"#": "minecraft:gunpowder"
+	},
+	"pattern": [
+		"P#P",
+		"#P#",
+		"P#P"
+	],
+	"result": {
+		"count": 4,
+		"id": "minecraft:tnt"
+	}
+}

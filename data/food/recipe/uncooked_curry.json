@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:glowstone_dust",
+		"minecraft:sugar",
+		"minecraft:enderman_spawn_egg",
+		"minecraft:potato",
+		[
+			"minecraft:beef",
+			"minecraft:mutton",
+			"minecraft:rabbit"
+		],
+		"minecraft:carrot",
+		"minecraft:bowl"
+	],
+	"result": {
+		"id": "minecraft:strider_spawn_egg",
+		"components": {
+			"!minecraft:entity_data": {}
+		}
+	}
+}

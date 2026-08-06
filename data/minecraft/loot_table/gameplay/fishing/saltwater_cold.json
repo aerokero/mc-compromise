@@ -1,0 +1,37 @@
+{
+	"type": "minecraft:fishing",
+	"pools": [
+		{
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:gameplay/fishing/fish/cod",
+					"weight": 15
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:gameplay/fishing/fish/salmon",
+					"weight": 15
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:gameplay/fishing/fish/herring",
+					"weight": 8
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:gameplay/fishing/fish/wolffish",
+					"weight": 3
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:gameplay/fishing/fish/skate",
+					"weight": 1
+				}
+			]
+		}
+	],
+	"random_sequence": "minecraft:gameplay/fishing/saltwater_cold"
+}

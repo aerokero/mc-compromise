@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "warped_planks",
+  "category": "building",
+  "ingredients": [
+    "minecraft:warped_slab",
+    "minecraft:warped_slab"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:warped_planks"
+  }
+}

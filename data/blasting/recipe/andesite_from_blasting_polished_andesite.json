@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:blasting",
+	"group": "andesite",
+	"category": "misc",
+	"ingredient": "minecraft:polished_andesite",
+	"result": {
+		"id": "minecraft:andesite"
+	},
+	"experience": 1,
+	"cookingtime": 100
+}

@@ -1,0 +1,39 @@
+{
+	"primary_items": "#minecraft:head_armor",
+	"anvil_cost": 0,
+	"description": {
+		"translate": "enchantment.kleispack.haste",
+		"color": "yellow"
+	},
+	"effects": {
+		"minecraft:tick": [
+			{
+				"requirements": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:entity_type": "minecraft:player"
+					}
+				},
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "main:enchantment_effects/haste"
+				}
+			}
+		]
+	},
+	"max_cost": {
+		"base": 15,
+		"per_level_above_first": 0
+	},
+	"max_level": 1,
+	"min_cost": {
+		"base": 1,
+		"per_level_above_first": 0
+	},
+	"slots": [
+		"head"
+	],
+	"supported_items": "#minecraft:head_armor",
+	"weight": 1
+}

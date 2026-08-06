@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:bowl",
+    "minecraft:cooked_rabbit",
+    [
+      "minecraft:brown_mushroom",
+      "minecraft:red_mushroom"
+    ],
+    "minecraft:potato",
+    "minecraft:carrot"
+  ],
+  "result": {
+    "components": {
+      "minecraft:consumable": {
+        "on_consume_effects": [
+          {
+            "type": "minecraft:apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:saturation",
+                "duration": 2400,
+                "show_particles": false
+              },
+              {
+                "id": "minecraft:instant_health",
+                "amplifier": 2,
+                "show_particles": false
+              }
+            ]
+          }
+        ]
+      },
+      "minecraft:max_stack_size": 16,
+      "minecraft:lore": [
+        {
+          "text": "❤❤❤❤",
+          "color": "red",
+          "italic": false
+        },
+        {
+          "text": "🍖 Full (2:00)",
+          "color": "dark_green",
+          "italic": false
+        }
+      ]
+    },
+    "count": 1,
+    "id": "minecraft:rabbit_stew"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": "minecraft:cooked_chicken",
+    "T": "minecraft:rotten_flesh",
+    "S": "minecraft:bone",
+    "B": "minecraft:bowl",
+    "M": "minecraft:water_bucket"
+  },
+  "pattern": [
+    "TPS",
+    " M",
+    "BBB"
+  ],
+  "result": {
+    "components": {
+      "minecraft:consumable": {
+        "on_consume_effects": [
+          {
+            "type": "minecraft:remove_effects",
+            "effects": [
+              "minecraft:blindness",
+              "minecraft:mining_fatigue",
+              "minecraft:nausea",
+              "minecraft:bad_omen",
+              "minecraft:darkness",
+              "minecraft:infested",
+              "minecraft:oozing",
+              "minecraft:poison",
+              "minecraft:slowness",
+              "minecraft:unluck",
+              "minecraft:weakness",
+              "minecraft:weaving",
+              "minecraft:wind_charged",
+              "minecraft:wither"
+            ]
+          },
+          {
+            "type": "minecraft:apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:instant_health",
+                "duration": 1,
+                "show_particles": false
+              },
+              {
+                "id": "minecraft:saturation",
+                "duration": 600,
+                "show_particles": false
+              },
+              {
+                "id": "minecraft:regeneration",
+                "duration": 600,
+                "show_particles": false
+              }
+            ]
+          }
+        ]
+      },
+      "minecraft:max_stack_size": 16,
+      "minecraft:custom_model_data": {
+        "strings": [
+          "chicken_noodle_soup"
+        ]
+      },
+      "minecraft:item_name": "Chicken Noodle Soup",
+      "minecraft:lore": [
+        {
+          "text": "❤❤",
+          "color": "red",
+          "italic": false
+        },
+        {
+          "text": "🍖 Full (0:30)",
+          "color": "dark_green",
+          "italic": false
+        },
+        {
+          "text": "❤ Comfort (0:30)",
+          "color": "#e85e8f",
+          "italic": false
+        },
+        {
+          "text": "➕ Panacea",
+          "color": "dark_purple",
+          "italic": false
+        }
+      ]
+    },
+    "count": 3,
+    "id": "minecraft:rabbit_stew"
+  }
+}

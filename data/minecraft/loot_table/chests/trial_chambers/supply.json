@@ -1,0 +1,156 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 14,
+								"min": 4
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:arrow",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 8,
+								"min": 4
+							},
+							"function": "minecraft:set_count"
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:poison"
+						}
+					],
+					"name": "minecraft:tipped_arrow"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 8,
+								"min": 4
+							},
+							"function": "minecraft:set_count"
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:slowness"
+						}
+					],
+					"name": "minecraft:tipped_arrow"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:food/baked_potato",
+					"name": "minecraft:baked_potato",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:food/glow_berries",
+					"name": "minecraft:glow_berries",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 6,
+								"min": 3
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:spruce_planks"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 5,
+								"min": 2
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:moss_block"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 5,
+								"min": 2
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:bone_meal"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 10,
+								"min": 5
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:tuff"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 6,
+								"min": 3
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:torch"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:food/apple_empanada"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:food/milk_bottle"
+				}
+			],
+			"rolls": {
+				"type": "minecraft:uniform",
+				"max": 5,
+				"min": 3
+			}
+		}
+	],
+	"random_sequence": "minecraft:chests/trial_chambers/supply"
+}

@@ -1,0 +1,33 @@
+{
+	"parent": "main:tutorial/obtain_diamond",
+	"criteria": {
+		"entered_nether": {
+			"conditions": {
+				"to": "minecraft:the_nether"
+			},
+			"trigger": "minecraft:changed_dimension"
+		}
+	},
+	"display": {
+		"description": {
+			"text": "Descend Into Hell"
+		},
+		"icon": {
+			"components": {
+				"minecraft:enchantment_glint_override": true
+			},
+			"count": 1,
+			"id": "minecraft:blaze_rod"
+		},
+		"title": {
+			"text": "Orpheus"
+		},
+		"frame": "goal"
+	},
+	"requirements": [
+		[
+			"entered_nether"
+		]
+	],
+	"sends_telemetry_event": true
+}

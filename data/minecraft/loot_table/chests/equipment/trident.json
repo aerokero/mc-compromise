@@ -1,0 +1,44 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:trident",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:lore": [
+									{
+										"text": "🗡 9",
+										"color": "dark_green",
+										"italic": false
+									},
+									{
+										"text": "🕒 1.1",
+										"color": "dark_green",
+										"italic": false
+									}
+								],
+								"minecraft:max_damage": 500,
+								"minecraft:tooltip_display": {
+									"hidden_components": [
+										"minecraft:attribute_modifiers"
+									]
+								},
+								"minecraft:repairable": {
+									"items": "minecraft:diamond"
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "minecraft:kleis_items"
+}

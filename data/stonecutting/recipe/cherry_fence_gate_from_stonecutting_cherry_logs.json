@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "cherry_fence_gate",
+  "ingredient": "#minecraft:cherry_logs",
+  "result": {
+    "count": 1,
+    "id": "minecraft:cherry_fence_gate"
+  }
+}

@@ -1,0 +1,51 @@
+{
+	"type": "minecraft:smithing_transform",
+	"addition": "minecraft:shulker_shell",
+	"base": "minecraft:copper_leggings",
+	"result": {
+		"id": "minecraft:copper_leggings",
+		"components": {
+			"minecraft:max_damage": 500,
+			"minecraft:lore": [
+				{
+					"text": "    Slowness",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "⛊ 5",
+					"color": "dark_green",
+					"italic": false
+				}
+			],
+			"minecraft:item_name": {
+				"translate": "item.kleispack.shakudo_leggings",
+				"color": "#c96691"
+			},
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:armor",
+					"id": "minecraft:armor.leggings",
+					"amount": 5,
+					"operation": "add_value",
+					"slot": "legs"
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:enchantments": {
+				"main:cleanse_armor_legs": 1
+			},
+			"minecraft:enchantment_glint_override": false,
+			"minecraft:item_model": "minecraft:shakudo_leggings",
+			"minecraft:equippable": {
+				"slot": "legs",
+				"asset_id": "minecraft:shakudo"
+			}
+		}
+	},
+	"template": "minecraft:copper_ingot"
+}

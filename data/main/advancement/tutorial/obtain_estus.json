@@ -1,0 +1,33 @@
+{
+  "parent": "main:tutorial/root",
+  "criteria": {
+    "get_blaze_powder": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:blaze_powder"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "text": "A volatile powder left behind by the flames of the Nether."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:blaze_powder"
+    },
+    "title": {
+      "text": "Blazing Powder"
+    },
+    "hidden": true
+  },
+  "requirements": [
+    [
+      "get_blaze_powder"
+    ]
+  ]
+}

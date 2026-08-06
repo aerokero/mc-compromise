@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "bricks",
+	"category": "building",
+	"ingredients": [
+		"minecraft:brick_slab",
+		"minecraft:brick_slab"
+	],
+	"result": {
+		"count": 1,
+		"id": "minecraft:bricks"
+	}
+}

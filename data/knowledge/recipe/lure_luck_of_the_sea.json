@@ -1,0 +1,36 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		" b ",
+		"FBF",
+		" F "
+	],
+	"key": {
+		"B": "minecraft:knowledge_book",
+		"F": "minecraft:nautilus_shell",
+		"b": "minecraft:azure_bluet"
+	},
+	"result": {
+		"components": {
+			"minecraft:stored_enchantments": {
+				"minecraft:luck_of_the_sea": 3,
+				"minecraft:lure": 3,
+				"minecraft:loyalty": 1
+			},
+			"minecraft:item_name": {
+				"translate": "item.kleispack.knowledge"
+			},
+			"minecraft:lore": [
+				{
+					"translate": "item.kleispack.knowledge.master_angler",
+					"color": "dark_gray",
+					"italic": false
+				}
+			],
+			"minecraft:item_model": "minecraft:knowledge_master_angler"
+		},
+		"count": 1,
+		"id": "minecraft:enchanted_book"
+	}
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "group": "short_dry_grass",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.01,
+  "ingredient": "minecraft:short_grass",
+  "result": {
+    "id": "minecraft:short_dry_grass"
+  }
+}

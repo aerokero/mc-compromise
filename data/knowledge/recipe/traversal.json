@@ -1,0 +1,35 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"CLC",
+		"WBW",
+		"   "
+	],
+	"key": {
+		"B": "minecraft:knowledge_book",
+		"C": "minecraft:emerald",
+		"W": "#minecraft:wool",
+		"L": "minecraft:leather_boots"
+	},
+	"result": {
+		"components": {
+			"minecraft:stored_enchantments": {
+				"main:traversal": 3
+			},
+			"minecraft:item_name": {
+				"translate": "item.kleispack.knowledge"
+			},
+			"minecraft:lore": [
+				{
+					"translate": "item.kleispack.knowledge.traversal",
+					"color": "dark_gray",
+					"italic": false
+				}
+			],
+			"minecraft:item_model": "minecraft:knowledge_traversal"
+		},
+		"count": 1,
+		"id": "minecraft:enchanted_book"
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"type": "minecraft:fishing",
+	"pools": [
+		{
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:chicken_spawn_egg",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_name": {
+									"translate": "item.kleispack.fish.axolotl"
+								},
+								"minecraft:item_model": "axolotl",
+								"minecraft:entity_data": {
+									"id": "minecraft:axolotl"
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "minecraft:gameplay/fishing"
+}

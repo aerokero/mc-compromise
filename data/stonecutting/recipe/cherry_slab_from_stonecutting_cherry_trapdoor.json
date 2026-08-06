@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "cherry_slab",
+  "ingredient": "minecraft:cherry_trapdoor",
+  "result": {
+    "count": 1,
+    "id": "minecraft:cherry_slab"
+  }
+}

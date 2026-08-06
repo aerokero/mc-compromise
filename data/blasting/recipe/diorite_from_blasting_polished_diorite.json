@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:blasting",
+	"group": "diorite",
+	"category": "misc",
+	"ingredient": "minecraft:polished_diorite",
+	"result": {
+		"id": "minecraft:diorite"
+	},
+	"experience": 1,
+	"cookingtime": 100
+}

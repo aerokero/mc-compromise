@@ -1,0 +1,66 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"X": "minecraft:leather"
+	},
+	"pattern": [
+		"X X",
+		"X X"
+	],
+	"result": {
+		"components": {
+			"minecraft:max_damage": 350,
+			"minecraft:lore": [
+				{
+					"text": "⛊ 2",
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"text": "⬇⛊ 1",
+					"color": "dark_green",
+					"italic": false
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:enchantment_glint_override": false,
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:safe_fall_distance",
+					"id": "leather_boots",
+					"amount": 1,
+					"operation": "add_value",
+					"slot": "feet"
+				},
+				{
+					"type": "minecraft:armor",
+					"id": "minecraft:armor.boots",
+					"amount": 2,
+					"operation": "add_value",
+					"slot": "feet"
+				}
+			],
+			"minecraft:enchantments": {
+				"minecraft:projectile_protection": 2,
+				"minecraft:feather_falling": 3,
+				"main:traversal": 1
+			},
+			"minecraft:item_model": "minecraft:sturdy_leather_boots",
+			"minecraft:equippable": {
+				"slot": "feet",
+				"asset_id": "minecraft:sturdy_leather"
+			},
+			"minecraft:item_name": {
+				"translate": "item.kleispack.sturdy_leather_boots",
+				"color": "white"
+			}
+		},
+		"count": 1,
+		"id": "minecraft:leather_boots"
+	}
+}

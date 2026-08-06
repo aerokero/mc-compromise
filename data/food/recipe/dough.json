@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "dough",
+	"category": "misc",
+	"ingredients": [
+		[
+			"egg",
+			"minecraft:blue_egg",
+			"brown_egg"
+		],
+		"minecraft:enderman_spawn_egg",
+		"minecraft:enderman_spawn_egg",
+		"minecraft:enderman_spawn_egg"
+	],
+	"result": {
+		"components": {
+			"!minecraft:entity_data": {}
+		},
+		"count": 3,
+		"id": "minecraft:shulker_spawn_egg"
+	}
+}

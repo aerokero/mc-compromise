@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:blaze_rod",
+		"minecraft:echo_shard"
+	],
+	"result": {
+		"count": 16,
+		"id": "minecraft:ender_eye"
+	}
+}

@@ -1,0 +1,40 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_primary_material": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:resin_brick"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_the_recipe": {
+			"conditions": {
+				"recipe": "crafting:smithing_table"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		}
+	},
+	"requirements": [
+		[
+			"has_the_recipe",
+			"has_primary_material"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"crafting:smithing_table",
+			"crafting:minecart_from_steel",
+			"crafting:iron_trapdoor_from_steel",
+			"crafting:iron_door_from_steel",
+			"crafting:iron_chain_from_steel",
+			"crafting:iron_bars_from_steel",
+			"crafting:cauldron_from_steel",
+			"crafting:bucket_from_steel",
+			"crafting:smithing_template"
+		]
+	}
+}

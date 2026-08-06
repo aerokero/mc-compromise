@@ -1,0 +1,6 @@
+execute at @e[type=minecraft:armor_stand,tag=WardingStone] run particle minecraft:soul_fire_flame ~ ~0.5 ~ .5 .5 .5 0 1
+execute at @e[type=minecraft:armor_stand,tag=WardingStone] run effect give @e[type=#minecraft:undead,distance=..26] minecraft:slowness 2 1 true
+execute at @e[type=minecraft:armor_stand,tag=WardingStone] run execute unless stopwatch 0.5s ..0.4 run execute at @n[type=#minecraft:undead,distance=..24] unless entity @n[type=wither,distance=..20] run particle minecraft:soul_fire_flame ~ ~2 ~ .25 .25 .25 .025 1
+execute at @e[type=minecraft:armor_stand,tag=WardingStone] run execute unless stopwatch 0.5s ..0.4 run execute at @n[type=wither,distance=..24] run particle minecraft:soul_fire_flame ~ ~2.5 ~ 1 1 1 .5 2
+execute at @e[type=minecraft:armor_stand,tag=WardingStone] run execute unless stopwatch 0.5s ..0.4 run execute at @n[type=#minecraft:undead,distance=..24] unless entity @n[type=wither,distance=..20] run damage @n[type=#minecraft:undead,distance=..14] 7 minecraft:out_of_world
+execute at @e[type=minecraft:armor_stand,tag=WardingStone] run execute unless stopwatch 0.5s ..0.4 run execute at @n[type=wither,distance=..24] run damage @n[type=#minecraft:undead,distance=..14] 2 minecraft:out_of_world

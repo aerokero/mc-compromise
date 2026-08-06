@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "spyglass",
+  "category": "equipment",
+  "key": {
+    "#": [
+      "minecraft:glass",
+      "minecraft:amethyst_shard"
+    ],
+    "X": "minecraft:copper_ingot"
+  },
+  "pattern": [
+    " # ",
+    " X ",
+    " X "
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:spyglass"
+  }
+}

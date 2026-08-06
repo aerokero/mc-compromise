@@ -1,0 +1,159 @@
+{
+	"parent": "main:tutorial/preserve_food",
+	"criteria": {
+		"preserve_tomatoes": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "food:pickled_tomatoes"
+			}
+		},
+		"golden_pickled_carrots": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "food:golden_pickled_carrots"
+			}
+		},
+		"pickled_carrots": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "food:pickled_carrots"
+			}
+		},
+		"canned_golden_apples": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "food:canned_golden_apples"
+			}
+		},
+		"canned_apples": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "food:canned_apples"
+			}
+		},
+		"glow_jam": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "food:glow_jam"
+			}
+		},
+		"rind_jam": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "food:rind_jam"
+			}
+		},
+		"pickled_potatoes": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "food:pickled_potatoes"
+			}
+		},
+		"sweet_berry_jam": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "food:sweet_berry_jam"
+			}
+		},
+		"mead": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "food:mead"
+			}
+		},
+		"pumpkin_jam": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "food:pumpkin_jam"
+			}
+		},
+		"pickled_mushrooms": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "food:pickled_mushrooms"
+			}
+		},
+		"pickled_red_mushrooms": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "food:pickled_red_mushrooms"
+			}
+		},
+		"pickled_warped_fungus": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "food:pickled_warped_fungus"
+			}
+		},
+		"pickled_crimson_fungus": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "food:pickled_crimson_fungus"
+			}
+		}
+	},
+	"display": {
+		"description": {
+			"text": "Preserve Everything!"
+		},
+		"icon": {
+			"components": {
+				"minecraft:item_model": "minecraft:pickle_everything"
+			},
+			"count": 1,
+			"id": "minecraft:poisonous_potato"
+		},
+		"title": {
+			"text": "Doomsday Prepper"
+		},
+		"frame": "challenge",
+		"hidden": false
+	},
+	"requirements": [
+		[
+			"canned_apples"
+		],
+		[
+			"canned_golden_apples"
+		],
+		[
+			"glow_jam"
+		],
+		[
+			"golden_pickled_carrots"
+		],
+		[
+			"mead"
+		],
+		[
+			"pickled_carrots"
+		],
+		[
+			"pickled_potatoes"
+		],
+		[
+			"preserve_tomatoes"
+		],
+		[
+			"pumpkin_jam"
+		],
+		[
+			"rind_jam"
+		],
+		[
+			"sweet_berry_jam"
+		],
+		[
+			"pickled_mushrooms"
+		],
+		[
+			"pickled_red_mushrooms"
+		],
+		[
+			"pickled_warped_fungus"
+		],
+		[
+			"pickled_crimson_fungus"
+		]
+	]
+}

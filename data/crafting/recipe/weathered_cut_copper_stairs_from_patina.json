@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "weathered_cut_copper_stairs",
+	"category": "building",
+	"ingredients": [
+		"minecraft:exposed_cut_copper_stairs",
+		"minecraft:potion"
+	],
+	"result": {
+		"components": {},
+		"count": 1,
+		"id": "minecraft:weathered_cut_copper_stairs"
+	}
+}

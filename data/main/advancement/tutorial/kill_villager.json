@@ -1,0 +1,43 @@
+{
+	"parent": "main:tutorial/trade_for_asylum_seeker",
+	"criteria": {
+		"killed_villager": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:villager"
+				}
+			}
+		},
+		"killed_wandering_traveller": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:wandering_trader"
+				}
+			}
+		}
+	},
+	"display": {
+		"description": {
+			"text": "Commit great evil"
+		},
+		"icon": {
+			"components": {
+				"minecraft:item_model": "minecraft:wooden_cross"
+			},
+			"count": 1,
+			"id": "minecraft:emerald"
+		},
+		"title": {
+			"text": "God help you..."
+		},
+		"hidden": true
+	},
+	"requirements": [
+		[
+			"killed_villager",
+			"killed_wandering_traveller"
+		]
+	]
+}

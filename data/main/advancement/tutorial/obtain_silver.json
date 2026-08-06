@@ -1,0 +1,45 @@
+{
+	"parent": "main:tutorial/obtain_blast_furnace",
+	"criteria": {
+		"get_silver_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:prismarine_shard"
+					}
+				]
+			}
+		},
+		"get_silver": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:prismarine_crystals"
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"description": {
+			"text": "Silver, a rare Apotropaic Metal found only in Mountains, enhances Aspects of Alloys and Base Metals"
+		},
+		"icon": {
+			"count": 1,
+			"id": "minecraft:prismarine_crystals"
+		},
+		"title": {
+			"text": "The Warding Metal"
+		},
+		"frame": "goal",
+		"hidden": false
+	},
+	"requirements": [
+		[
+			"get_silver",
+			"get_silver_ore"
+		]
+	]
+}

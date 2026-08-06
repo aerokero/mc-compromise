@@ -1,0 +1,30 @@
+{
+	"gives": {
+		"id": "minecraft:sheep_spawn_egg",
+		"components": {
+			"minecraft:entity_data": {
+				"id": "minecraft:sheep",
+				"Age": -24000,
+				"Color": 12
+			},
+			"minecraft:item_name": {
+				"translate": "item.kleispack.baby_warm_sheep"
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:item_model": "crate_sheep_brown"
+		},
+		"count": 1
+	},
+	"max_uses": 999,
+	"wants": {
+		"count": 1,
+		"id": "minecraft:emerald"
+	},
+	"xp": 30,
+	"merchant_predicate": {
+		"condition": "minecraft:location_check",
+		"predicate": {
+			"biomes": "#minecraft:spawns_warm_variant_farm_animals"
+		}
+	}
+}

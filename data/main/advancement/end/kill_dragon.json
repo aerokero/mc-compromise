@@ -1,0 +1,40 @@
+{
+    "parent": "main:end/root",
+    "criteria": {
+        "killed_dragon": {
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "minecraft:entity_type": "minecraft:ender_dragon"
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:player_killed_entity"
+        }
+    },
+    "display": {
+        "description": {
+            "text": "Defile the Dead God's Dream."
+        },
+        "frame": "challenge",
+        "icon": {
+            "count": 1,
+            "id": "minecraft:nether_star"
+        },
+        "title": {
+            "text": "Iconoclast"
+        }
+    },
+    "requirements": [
+        [
+            "killed_dragon"
+        ]
+    ],
+    "rewards": {
+        "function": "main:mechanic/first_dragon_killed_reward"
+    }
+}

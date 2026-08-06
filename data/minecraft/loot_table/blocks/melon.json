@@ -1,0 +1,98 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"predicates": {
+											"minecraft:enchantments": [
+												{
+													"enchantments": "minecraft:silk_touch",
+													"levels": {
+														"min": 1
+													}
+												}
+											]
+										}
+									}
+								}
+							],
+							"name": "minecraft:melon"
+						},
+						{
+							"type": "minecraft:item",
+							"functions": [
+								{
+									"add": false,
+									"count": {
+										"type": "minecraft:uniform",
+										"max": 7,
+										"min": 3
+									},
+									"function": "minecraft:set_count"
+								},
+								{
+									"enchantment": "minecraft:fortune",
+									"formula": "minecraft:uniform_bonus_count",
+									"function": "minecraft:apply_bonus",
+									"parameters": {
+										"bonusMultiplier": 1
+									}
+								},
+								{
+									"function": "minecraft:limit_count",
+									"limit": {
+										"max": 9
+									}
+								},
+								{
+									"function": "minecraft:explosion_decay"
+								},
+								{
+									"function": "minecraft:set_components",
+									"components": {
+										"minecraft:lore": [
+											{
+												"text": "❣",
+												"color": "red",
+												"italic": false
+											}
+										],
+										"minecraft:consumable": {
+											"on_consume_effects": [
+												{
+													"type": "minecraft:apply_effects",
+													"effects": [
+														{
+															"id": "minecraft:regeneration",
+															"amplifier": 2,
+															"duration": 20,
+															"show_particles": false,
+															"show_icon": false
+														}
+													]
+												}
+											]
+										}
+									}
+								}
+							],
+							"name": "minecraft:melon_slice"
+						}
+					]
+				}
+			],
+			"rolls": 1
+		}
+	],
+	"random_sequence": "minecraft:blocks/melon"
+}

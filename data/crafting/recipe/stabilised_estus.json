@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "blaze_rod",
+	"category": "misc",
+	"key": {
+		"E": "minecraft:glowstone_dust",
+		"B": "minecraft:amethyst_shard",
+		"P": "minecraft:ender_pearl"
+	},
+	"pattern": [
+		"EBE",
+		"EPE",
+		"EEE"
+	],
+	"result": {
+		"components": {
+			"minecraft:enchantment_glint_override": true,
+			"minecraft:rarity": "uncommon"
+		},
+		"count": 1,
+		"id": "minecraft:blaze_rod"
+	}
+}

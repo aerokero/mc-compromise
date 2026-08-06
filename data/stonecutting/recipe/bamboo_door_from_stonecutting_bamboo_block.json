@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "bamboo_door",
+  "ingredient": "#minecraft:bamboo_blocks",
+  "result": {
+    "count": 1,
+    "id": "minecraft:bamboo_door"
+  }
+}

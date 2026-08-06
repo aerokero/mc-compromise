@@ -1,0 +1,44 @@
+{
+  "block.minecraft.poppy": "R\u00f3ża",
+  "block.minecraft.redstone_block": "Blok czerwonego kamienia",
+  "block.minecraft.redstone_torch": "Pochodnia z czerwonego kamienia",
+  "block.minecraft.redstone_wall_torch": "\u015acienna pochodnia z czerwonego kamienia",
+  "block.minecraft.redstone_wire": "Przew\u00f3d z czerwonego kamienia",
+  "item.minecraft.redstone": "Czerwony proszek",
+  
+  "selectWorld.gameRules": "Zasady gry...",
+  "menu.singleplayer": "Tryb jednoosobowy",
+  "menu.multiplayer": "Tryb wieloosobowy",
+  "multiplayer.title": "Tryb wieloosobowy",
+  "menu.options": "Ustawienia...",
+  
+  "menu.returnToGame": "Powróć do gry...",
+  "gui.advancements": "Osiągnięcia",
+  "gui.stats": "Statystyki",
+  "menu.sendFeedback": "Prześlij opinię",
+  "menu.disconnect": "Rozłącz",
+  "menu.returnToMenu": "Zapisz i wyjdź do menu...",
+  
+  "container.crafting": "",
+  "chat.type.advancement.challenge": "Gracz %s uko\u0144czy\u0142 wyzwanie %s",
+  "chat.type.advancement.goal": "Gracz %s osi\u0105gn\u0105\u0142 cel %s",
+  "chat.type.advancement.task": "Gracz %s zdobył\u0142 osi\u0105gni\u0119cie %s",
+  
+  "item.minecraft.music_disc_blocks.desc": "C418 - blocks",
+  "item.minecraft.music_disc_chirp.desc": "C418 - chirp",
+  "item.minecraft.music_disc_far.desc": "C418 - far",
+  "item.minecraft.music_disc_mall.desc": "C418 - mall",
+  "item.minecraft.music_disc_mellohi.desc": "C418 - mellohi",
+  "item.minecraft.music_disc_stal.desc": "C418 - stal",
+  "item.minecraft.music_disc_strad.desc": "C418 - strad",
+  "item.minecraft.music_disc_ward.desc": "C418 - ward",
+  "item.minecraft.music_disc_11.desc": "C418 - 11",
+  "item.minecraft.music_disc_wait.desc": "C418 - wait",
+  "item.minecraft.music_disc_pigstep.desc": "Notch - calm4",
+  "item.minecraft.music_disc_otherside.desc": "C418 - droopy likes your face",
+  "item.minecraft.music_disc_5.desc": "C418 - 5",
+  
+  "entity.minecraft.warden": "Jajo przyzywaj\u0105ce §kHerobrine§f", 
+  "item.minecraft.warden_spawn_egg": "§kHerobrine§f",
+  "item.minecraft.mourner_pottery_shard": "Him Pottery Shard"
+}

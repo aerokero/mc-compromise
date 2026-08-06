@@ -1,0 +1,31 @@
+{
+	"criteria": {
+		"entered_nether": {
+			"conditions": {
+				"to": "minecraft:the_nether"
+			},
+			"trigger": "minecraft:changed_dimension"
+		}
+	},
+	"display": {
+		"announce_to_chat": false,
+		"background": "minecraft:block/netherrack",
+		"description": {
+			"text": ""
+		},
+		"icon": {
+			"count": 1,
+			"id": "minecraft:netherrack"
+		},
+		"show_toast": false,
+		"title": {
+			"text": "Through Hell"
+		}
+	},
+	"requirements": [
+		[
+			"entered_nether"
+		]
+	],
+	"sends_telemetry_event": true
+}

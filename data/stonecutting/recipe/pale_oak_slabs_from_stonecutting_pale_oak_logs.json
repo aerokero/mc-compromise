@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:stonecutting",
+	"group": "pale_oak_slab",
+	"ingredient": "#minecraft:pale_oak_logs",
+	"result": {
+		"count": 8,
+		"id": "minecraft:pale_oak_slab"
+	}
+}

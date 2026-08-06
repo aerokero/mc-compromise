@@ -1,0 +1,41 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": "minecraft:stick",
+		"X": "#minecraft:wooden_tool_materials"
+	},
+	"pattern": [
+		"XX ",
+		" # ",
+		" # "
+	],
+	"result": {
+		"id": "minecraft:wooden_hoe",
+		"components": {
+			"minecraft:max_damage": 200,
+			"minecraft:lore": [
+				{
+					"text": "⛏ 2",
+					"color": "blue",
+					"italic": false
+				},
+				{
+					"text": "🗡 1",
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"text": "🕒 1",
+					"color": "dark_green",
+					"italic": false
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			}
+		}
+	}
+}

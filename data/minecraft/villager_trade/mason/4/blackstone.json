@@ -1,0 +1,13 @@
+{
+	"gives": {
+		"id": "minecraft:blackstone",
+		"count": 64
+	},
+	"max_uses": 999,
+	"reputation_discount": 0,
+	"wants": {
+		"count": 1,
+		"id": "minecraft:emerald"
+	},
+	"xp": 30
+}

@@ -1,0 +1,60 @@
+{
+	"wants": {
+		"id": "minecraft:emerald",
+		"count": 4
+	},
+	"additional_wants": {
+		"id": "minecraft:fermented_spider_eye",
+		"components": {
+			"minecraft:item_model": "minecraft:ruby",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.ruby",
+				"color": "red"
+			}
+		}
+	},
+	"gives": {
+		"id": "minecraft:leather_helmet",
+		"components": {
+			"minecraft:max_damage": 250,
+			"minecraft:lore": [
+				{
+					"text": "⛊ 1",
+					"color": "dark_green",
+					"italic": false
+				}
+			],
+			"minecraft:item_name": {
+				"translate": "item.kleispack.ruby_circlet",
+				"color": "#e63d5f"
+			},
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:armor",
+					"id": "minecraft:armor.helmet",
+					"amount": 1,
+					"operation": "add_value",
+					"slot": "head"
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:item_model": "minecraft:ruby_circlet",
+			"minecraft:equippable": {
+				"slot": "head",
+				"asset_id": "minecraft:ruby_circlet"
+			},
+			"minecraft:enchantments": {
+				"main:fire_proof": 1
+			},
+			"minecraft:unbreakable": {}
+		},
+		"count": 1
+	},
+	"max_uses": 999,
+	"reputation_discount": 0,
+	"xp": 70
+}

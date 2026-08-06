@@ -1,0 +1,35 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_packed_mud": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:packed_mud"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"has_the_recipe": {
+			"conditions": {
+				"recipe": "crafting:mudkiln"
+			},
+			"trigger": "minecraft:recipe_unlocked"
+		}
+	},
+	"requirements": [
+		[
+			"has_the_recipe",
+			"has_packed_mud"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"crafting:mudkiln",
+			"minecraft:mud_bricks",
+			"minecraft:mud_brick_stairs",
+			"minecraft:mud_brick_slab"
+		]
+	}
+}

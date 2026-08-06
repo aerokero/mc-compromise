@@ -1,0 +1,33 @@
+{
+  "parent": "main:tutorial/obtain_smithing_table",
+  "criteria": {
+    "get_smithing_template": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_upgrade_smithing_template"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Smithing Upgrades are used to Modify and Upgrade Mattocks and Dolabras."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:netherite_upgrade_smithing_template"
+    },
+    "title": {
+      "text": "Upgrades"
+    },
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "get_smithing_template"
+    ]
+  ]
+}

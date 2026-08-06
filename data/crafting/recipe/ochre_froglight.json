@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "ochre_froglight",
+  "category": "building",
+  "key": {
+    "G": "minecraft:glow_ink_sac",
+    "R": "minecraft:glass",
+    "P": "minecraft:yellow_dye"
+  },
+  "pattern": [
+    "GRG",
+    "RPR",
+    "GRG"
+  ],
+  "result": {
+    "count": 4,
+    "id": "minecraft:ochre_froglight"
+  }
+}

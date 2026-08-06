@@ -1,0 +1,34 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"ASA",
+		"ABA",
+		"AAA"
+	],
+	"key": {
+		"S": "minecraft:ender_pearl",
+		"B": "minecraft:knowledge_book",
+		"A": "minecraft:spectral_arrow"
+	},
+	"result": {
+		"components": {
+			"minecraft:item_name": {
+				"translate": "item.kleispack.knowledge"
+			},
+			"minecraft:stored_enchantments": {
+				"minecraft:infinity": 1
+			},
+			"minecraft:lore": [
+				{
+					"translate": "item.kleispack.knowledge.endless_quiver",
+					"color": "dark_gray",
+					"italic": false
+				}
+			],
+			"minecraft:item_model": "minecraft:knowledge_endless_quiver"
+		},
+		"count": 1,
+		"id": "minecraft:enchanted_book"
+	}
+}

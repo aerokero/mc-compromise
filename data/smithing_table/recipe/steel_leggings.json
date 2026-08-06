@@ -1,0 +1,70 @@
+{
+	"type": "minecraft:smithing_transform",
+	"addition": "minecraft:resin_brick",
+	"base": "minecraft:iron_leggings",
+	"result": {
+		"id": "minecraft:iron_leggings",
+		"components": {
+			"minecraft:max_damage": 1000,
+			"minecraft:lore": [
+				{
+					"text": "💥🚫 +1",
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"text": "⛊ 5",
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"text": "⛨ 1",
+					"color": "dark_green",
+					"italic": false
+				}
+			],
+			"minecraft:item_name": {
+				"translate": "item.kleispack.steel_leggings",
+				"color": "white"
+			},
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:armor_toughness",
+					"id": "minecraft:armor.leggings",
+					"amount": 1,
+					"operation": "add_value",
+					"slot": "legs"
+				},
+				{
+					"type": "minecraft:armor",
+					"id": "minecraft:armor.leggings",
+					"amount": 5,
+					"operation": "add_value",
+					"slot": "legs"
+				},
+				{
+					"type": "minecraft:knockback_resistance",
+					"id": "minecraft:armor.leggings",
+					"amount": 0.1,
+					"operation": "add_value",
+					"slot": "legs"
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:enchantments": {
+				"minecraft:blast_protection": 3
+			},
+			"minecraft:enchantment_glint_override": false,
+			"minecraft:item_model": "minecraft:steel_leggings",
+			"minecraft:equippable": {
+				"slot": "legs",
+				"asset_id": "minecraft:steel"
+			}
+		}
+	},
+	"template": "minecraft:iron_ingot"
+}

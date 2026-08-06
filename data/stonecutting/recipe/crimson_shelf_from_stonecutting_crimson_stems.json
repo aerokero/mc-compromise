@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:stonecutting",
+	"group": "crimson_shelf",
+	"ingredient": "#minecraft:crimson_stems",
+	"result": {
+		"count": 1,
+		"id": "minecraft:crimson_shelf"
+	}
+}

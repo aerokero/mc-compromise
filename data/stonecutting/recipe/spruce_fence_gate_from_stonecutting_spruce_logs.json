@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "spruce_fence_gate",
+  "ingredient": "#minecraft:spruce_logs",
+  "result": {
+    "count": 1,
+    "id": "minecraft:spruce_fence_gate"
+  }
+}

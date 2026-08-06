@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:stonecutting",
+	"group": "warped_shelf",
+	"ingredient": "#minecraft:warped_stems",
+	"result": {
+		"count": 1,
+		"id": "minecraft:warped_shelf"
+	}
+}

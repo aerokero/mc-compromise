@@ -1,0 +1,31 @@
+{
+	"primary_items": "#minecraft:axes",
+	"anvil_cost": 0,
+	"description": {
+		"translate": "enchantment.kleispack.bloodrage"
+	},
+	"effects": {
+		"minecraft:tick": [
+			{
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "main:enchantment_effects/bloodrage"
+				}
+			}
+		]
+	},
+	"max_cost": {
+		"base": 15,
+		"per_level_above_first": 0
+	},
+	"max_level": 1,
+	"min_cost": {
+		"base": 1,
+		"per_level_above_first": 0
+	},
+	"slots": [
+		"mainhand"
+	],
+	"supported_items": "#minecraft:axes",
+	"weight": 1
+}

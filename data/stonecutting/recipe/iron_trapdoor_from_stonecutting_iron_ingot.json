@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:stonecutting",
+	"group": "iron_trapdoor",
+	"ingredient": "minecraft:iron_ingot",
+	"result": {
+		"count": 1,
+		"id": "minecraft:iron_trapdoor"
+	}
+}

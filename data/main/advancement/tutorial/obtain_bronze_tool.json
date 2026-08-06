@@ -1,0 +1,110 @@
+{
+	"parent": "main:tutorial/obtain_smithing_table",
+	"criteria": {
+		"bronze_axe": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:bronze_axe"
+			}
+		},
+		"bronze_pickaxe": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:bronze_pickaxe"
+			}
+		},
+		"bronze_shovel": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:bronze_shovel"
+			}
+		},
+		"bronze_hoe": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:bronze_hoe"
+			}
+		},
+		"bronze_sword": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:bronze_sword"
+			}
+		},
+		"bronze_dolabra": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:bronze_dolabra"
+			}
+		},
+		"bronze_mattock": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:bronze_mattock"
+			}
+		},
+		"bronze_helmet": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:bronze_helmet"
+			}
+		},
+		"bronze_chestplate": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:bronze_chestplate"
+			}
+		},
+		"bronze_leggings": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:bronze_leggings"
+			}
+		},
+		"bronze_boots": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:bronze_boots"
+			}
+		},
+		"bronze_spear": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:bronze_spear"
+			}
+		}
+	},
+	"display": {
+		"description": {
+			"text": "Smith a piece of Bronze Equipment"
+		},
+		"icon": {
+			"components": {
+				"minecraft:item_model": "minecraft:bronze_pickaxe"
+			},
+			"count": 1,
+			"id": "minecraft:wooden_pickaxe"
+		},
+		"title": {
+			"text": "Brilliant Bronze"
+		},
+		"frame": "goal",
+		"hidden": false
+	},
+	"requirements": [
+		[
+			"bronze_axe",
+			"bronze_pickaxe",
+			"bronze_shovel",
+			"bronze_hoe",
+			"bronze_sword",
+			"bronze_dolabra",
+			"bronze_mattock",
+			"bronze_helmet",
+			"bronze_chestplate",
+			"bronze_leggings",
+			"bronze_boots",
+			"bronze_spear"
+		]
+	]
+}

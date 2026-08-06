@@ -1,0 +1,5 @@
+{
+  "amount": 3.0,
+  "random_sequence": "minecraft:trade_set/cartographer/level_1",
+  "trades": "#minecraft:cartographer/custom_level_1"
+}

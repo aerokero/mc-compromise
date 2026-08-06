@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "pale_moss_block",
+  "ingredients": [
+    "minecraft:pale_moss_carpet",
+    "minecraft:pale_moss_carpet",
+    "minecraft:pale_moss_carpet",
+    "minecraft:pale_moss_carpet"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:pale_moss_block"
+  }
+}

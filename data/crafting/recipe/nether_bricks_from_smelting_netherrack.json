@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "group": "nether_bricks",
+  "category": "blocks",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": "minecraft:netherrack",
+  "result": {
+    "id": "minecraft:nether_bricks"
+  }
+}

@@ -1,0 +1,35 @@
+{
+	"parent": "main:mechanics/root",
+	"criteria": {
+		"entered": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"minecraft:location": {
+								"structures": [
+									"minecraft:village_plains",
+									"minecraft:village_desert",
+									"minecraft:village_savanna",
+									"minecraft:village_snowy",
+									"minecraft:village_taiga"
+								]
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"entered"
+		]
+	],
+	"rewards": {
+		"function": "main:environmental/set_eerie_score"
+	}
+}

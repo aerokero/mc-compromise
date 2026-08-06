@@ -1,0 +1,44 @@
+{
+	"parent": "main:hell/root",
+	"criteria": {
+		"get_debris": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:ancient_debris"
+					}
+				]
+			}
+		},
+		"get_scrap": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:netherite_scrap"
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"description": {
+			"text": "Flesh from Long-Dead Gods"
+		},
+		"icon": {
+			"count": 1,
+			"id": "minecraft:ancient_debris"
+		},
+		"title": {
+			"text": "Hidden in the Depths"
+		},
+		"hidden": false
+	},
+	"requirements": [
+		[
+			"get_debris",
+			"get_scrap"
+		]
+	]
+}

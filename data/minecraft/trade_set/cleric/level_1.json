@@ -1,0 +1,5 @@
+{
+  "amount": 10.0,
+  "random_sequence": "minecraft:trade_set/cleric/level_1",
+  "trades": "#minecraft:cleric/custom_level_1"
+}

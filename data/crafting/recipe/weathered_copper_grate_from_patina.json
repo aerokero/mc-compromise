@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "weathered_copper_grate",
+	"category": "building",
+	"ingredients": [
+		"minecraft:exposed_copper_grate",
+		"minecraft:potion"
+	],
+	"result": {
+		"components": {},
+		"count": 1,
+		"id": "minecraft:weathered_copper_grate"
+	}
+}

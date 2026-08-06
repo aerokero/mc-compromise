@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "acacia_button",
+  "ingredient": "minecraft:acacia_planks",
+  "result": {
+    "count": 2,
+    "id": "minecraft:acacia_button"
+  }
+}

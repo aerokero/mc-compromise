@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:stonecutting",
+	"group": "oak_shelf",
+	"ingredient": "#minecraft:oak_logs",
+	"result": {
+		"count": 1,
+		"id": "minecraft:oak_shelf"
+	}
+}

@@ -1,0 +1,5 @@
+{
+  "amount": 3.0,
+  "random_sequence": "minecraft:trade_set/armorer/level_4",
+  "trades": "#minecraft:armorer/custom_level_4"
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "oak_sapling",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:oak_leaves"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:oak_sapling"
+  }
+}

@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"group": "smooth_sandstone",
+	"ingredient": "minecraft:smooth_sandstone_stairs",
+	"result": {
+		"id": "minecraft:smooth_sandstone"
+	}
+}

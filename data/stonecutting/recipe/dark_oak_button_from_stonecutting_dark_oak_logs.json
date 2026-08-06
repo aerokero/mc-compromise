@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "dark_oak_button",
+  "ingredient": "#minecraft:dark_oak_logs",
+  "result": {
+    "count": 8,
+    "id": "minecraft:dark_oak_button"
+  }
+}

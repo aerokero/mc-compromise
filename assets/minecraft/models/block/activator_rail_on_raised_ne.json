@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/template_rail_raised_ne_emissive",
+  "textures": {
+    "rail": "minecraft:block/activator_rail_on_base",
+    "overlay": "minecraft:block/activator_rail_on_emissive",
+    "particle": "minecraft:block/activator_rail_on"
+  }
+}

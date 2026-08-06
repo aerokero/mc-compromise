@@ -1,0 +1,110 @@
+{
+	"parent": "main:tutorial/obtain_smithing_table",
+	"criteria": {
+		"electrum_axe": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:electrum_axe"
+			}
+		},
+		"electrum_pickaxe": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:electrum_pickaxe"
+			}
+		},
+		"electrum_shovel": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:electrum_shovel"
+			}
+		},
+		"electrum_hoe": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:electrum_hoe"
+			}
+		},
+		"electrum_sword": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:electrum_sword"
+			}
+		},
+		"electrum_dolabra": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:electrum_dolabra"
+			}
+		},
+		"electrum_mattock": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:electrum_mattock"
+			}
+		},
+		"electrum_spear": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:electrum_spear"
+			}
+		},
+		"electrum_helmet": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:electrum_helmet"
+			}
+		},
+		"electrum_chestplate": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:electrum_chestplate"
+			}
+		},
+		"electrum_leggings": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:electrum_leggings"
+			}
+		},
+		"electrum_boots": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:electrum_boots"
+			}
+		}
+	},
+	"display": {
+		"description": {
+			"text": "Smith a piece of Electrum Equipment"
+		},
+		"icon": {
+			"components": {
+				"minecraft:item_model": "minecraft:electrum_sword"
+			},
+			"count": 1,
+			"id": "minecraft:stone_sword"
+		},
+		"title": {
+			"text": "Electric Electrum"
+		},
+		"frame": "challenge",
+		"hidden": false
+	},
+	"requirements": [
+		[
+			"electrum_axe",
+			"electrum_pickaxe",
+			"electrum_shovel",
+			"electrum_hoe",
+			"electrum_sword",
+			"electrum_dolabra",
+			"electrum_mattock",
+			"electrum_spear",
+			"electrum_helmet",
+			"electrum_chestplate",
+			"electrum_leggings",
+			"electrum_boots"
+		]
+	]
+}

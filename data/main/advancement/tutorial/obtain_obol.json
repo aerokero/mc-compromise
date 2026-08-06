@@ -1,0 +1,33 @@
+{
+  "parent": "main:tutorial/obtain_estus",
+  "criteria": {
+    "get_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:emerald"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Obtain an Obol"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:emerald"
+    },
+    "title": {
+      "text": "You're Rich!"
+    },
+    "hidden": true
+  },
+  "requirements": [
+    [
+      "get_item"
+    ]
+  ]
+}

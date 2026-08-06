@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "glow_ink_sac",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:potion",
+    "minecraft:gunpowder",
+    "glow_lichen",
+    "glow_lichen",
+    "glow_lichen",
+    "glow_lichen"
+  ],
+  "result": {
+    "count": 8,
+    "id": "minecraft:glow_ink_sac"
+  }
+}

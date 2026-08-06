@@ -1,0 +1,32 @@
+{
+	"gives": {
+		"id": "minecraft:bundle",
+		"components": {
+			"minecraft:item_model": "mushy_bundle",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.bundle.mushroom"
+			},
+			"minecraft:bundle_contents": [
+				{
+					"id": "minecraft:red_mushroom",
+					"count": 21
+				},
+				{
+					"id": "minecraft:brown_mushroom",
+					"count": 21
+				},
+				{
+					"id": "minecraft:glow_lichen",
+					"count": 21
+				}
+			]
+		},
+		"count": 1
+	},
+	"max_uses": 999,
+	"wants": {
+		"count": 1,
+		"id": "minecraft:emerald"
+	},
+	"xp": 10
+}

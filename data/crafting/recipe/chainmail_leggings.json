@@ -1,0 +1,48 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"X": "minecraft:iron_chain"
+	},
+	"pattern": [
+		"XXX",
+		"X X",
+		"X X"
+	],
+	"result": {
+		"components": {
+			"minecraft:max_damage": 300,
+			"minecraft:lore": [
+				{
+					"text": "⛊ 5",
+					"color": "dark_green",
+					"italic": false
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:enchantment_glint_override": false,
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:armor",
+					"id": "minecraft:armor.leggings",
+					"amount": 5,
+					"operation": "add_value",
+					"slot": "legs"
+				}
+			],
+			"minecraft:enchantments": {
+				"minecraft:thorns": 3
+			},
+			"minecraft:item_name": {
+				"translate": "item.minecraft.chainmail_leggings",
+				"color": "white"
+			}
+		},
+		"count": 1,
+		"id": "minecraft:chainmail_leggings"
+	}
+}

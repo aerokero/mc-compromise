@@ -1,0 +1,32 @@
+{
+	"parent": "main:tutorial/obtain_bowl",
+	"criteria": {
+		"get_food": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "food:green_curry"
+			}
+		}
+	},
+	"display": {
+		"description": {
+			"text": "Make Green Curry"
+		},
+		"icon": {
+			"components": {
+				"minecraft:item_model": "minecraft:green_curry"
+			},
+			"count": 1,
+			"id": "minecraft:rabbit_stew"
+		},
+		"title": {
+			"text": "Too Spicy!"
+		},
+		"hidden": false
+	},
+	"requirements": [
+		[
+			"get_food"
+		]
+	]
+}

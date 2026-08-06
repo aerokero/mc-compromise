@@ -1,0 +1,51 @@
+{
+	"type": "minecraft:smithing_transform",
+	"addition": "minecraft:glistering_melon_slice",
+	"base": "minecraft:iron_sword",
+	"result": {
+		"id": "minecraft:stone_sword",
+		"components": {
+			"minecraft:max_damage": 500,
+			"minecraft:lore": [
+				{
+					"text": "🗡 5",
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"text": "🕒 1.6",
+					"color": "dark_green",
+					"italic": false
+				}
+			],
+			"minecraft:item_name": "Warding Sword",
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:attack_damage",
+					"id": "attack_damage",
+					"amount": 4,
+					"operation": "add_value",
+					"slot": "mainhand"
+				},
+				{
+					"type": "minecraft:attack_speed",
+					"id": "attack_speed",
+					"amount": -2.4,
+					"operation": "add_value",
+					"slot": "mainhand"
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:enchantments": {
+				"main:warding0": 1
+			},
+			"minecraft:enchantment_glint_override": true,
+			"minecraft:item_model": "minecraft:warding_sword"
+		}
+	},
+	"template": "minecraft:iron_ingot"
+}

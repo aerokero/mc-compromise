@@ -1,0 +1,19 @@
+{
+	"wants": {
+		"id": "minecraft:fermented_spider_eye",
+		"components": {
+			"minecraft:item_model": "minecraft:topaz",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.topaz",
+				"color": "yellow"
+			}
+		}
+	},
+	"gives": {
+		"id": "minecraft:emerald",
+		"count": 10
+	},
+	"max_uses": 999,
+	"reputation_discount": 0,
+	"xp": 0
+}

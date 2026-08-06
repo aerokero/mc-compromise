@@ -1,0 +1,36 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": "minecraft:stick",
+		"X": "#minecraft:wooden_tool_materials"
+	},
+	"pattern": [
+		"X",
+		"X",
+		"#"
+	],
+	"result": {
+		"id": "minecraft:wooden_sword",
+		"components": {
+			"minecraft:max_damage": 200,
+			"minecraft:lore": [
+				{
+					"text": "🗡 4",
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"text": "🕒 1.6",
+					"color": "dark_green",
+					"italic": false
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			}
+		}
+	}
+}

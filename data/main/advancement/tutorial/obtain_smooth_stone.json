@@ -1,0 +1,33 @@
+{
+  "parent": "main:tutorial/obtain_copper",
+  "criteria": {
+    "get_primary_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:smooth_stone"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Kilns excel at processing Earthen Materials"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:smooth_stone"
+    },
+    "title": {
+      "text": "Mason"
+    },
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "get_primary_material"
+    ]
+  ]
+}

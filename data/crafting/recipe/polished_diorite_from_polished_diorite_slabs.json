@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "polished_diorite",
+	"category": "building",
+	"ingredients": [
+		"minecraft:polished_diorite_slab",
+		"minecraft:polished_diorite_slab"
+	],
+	"result": {
+		"id": "minecraft:polished_diorite",
+		"count": 1
+	}
+}

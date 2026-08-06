@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:stonecutting",
+	"group": "pale_oak_planks",
+	"ingredient": "minecraft:pale_oak_stairs",
+	"result": {
+		"count": 1,
+		"id": "minecraft:pale_oak_planks"
+	}
+}

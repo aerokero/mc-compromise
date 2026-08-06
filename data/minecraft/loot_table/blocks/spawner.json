@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:echo_shard",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:enchantment_glint_override": true,
+								"minecraft:rarity": "rare"
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "minecraft:blocks/spawner"
+}

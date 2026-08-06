@@ -1,0 +1,46 @@
+{
+	"type": "minecraft:smithing_transform",
+	"addition": "minecraft:glistering_melon_slice",
+	"base": "minecraft:shield",
+	"result": {
+		"id": "minecraft:shield",
+		"components": {
+			"minecraft:banner_patterns": [
+				{
+					"color": "white",
+					"pattern": "minecraft:base"
+				},
+				{
+					"color": "light_blue",
+					"pattern": "minecraft:circle"
+				},
+				{
+					"color": "black",
+					"pattern": "minecraft:flower"
+				},
+				{
+					"color": "blue",
+					"pattern": "minecraft:curly_border"
+				},
+				{
+					"color": "blue",
+					"pattern": "minecraft:stripe_top"
+				},
+				{
+					"color": "blue",
+					"pattern": "minecraft:stripe_bottom"
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:banner_patterns"
+				]
+			},
+			"minecraft:enchantments": {
+				"main:warding1": 1
+			},
+			"minecraft:item_name": "Warding Shield"
+		}
+	},
+	"template": "minecraft:prismarine_crystals"
+}

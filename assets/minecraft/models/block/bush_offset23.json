@@ -1,0 +1,30 @@
+{
+	"credit": "Created by Stridey",
+	"parent": "block/bush",
+	"textures": {
+		"particle": "block/bush",
+		"cross": "block/bush_wavy"
+	},
+	"elements": [
+		{
+			"from": [-1.2, 0, 4],
+			"to": [13.2, 16, 4],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [6, 8, 4], "rescale": true},
+			"faces": {
+				"north": {"uv": [0, 0, 8, 16], "texture": "#cross", "tintindex": 0},
+				"south": {"uv": [0, 0, 8, 16], "texture": "#cross", "tintindex": 0}
+			}
+		},
+		{
+			"from": [6, 0, -3.2],
+			"to": [6, 16, 11.2],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [6, 8, 4], "rescale": true},
+			"faces": {
+				"east": {"uv": [0, 0, 8, 16], "texture": "#cross", "tintindex": 0},
+				"west": {"uv": [0, 0, 8, 16], "texture": "#cross", "tintindex": 0}
+			}
+		}
+	]
+}

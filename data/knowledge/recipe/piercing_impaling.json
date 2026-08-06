@@ -1,0 +1,36 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"SbS",
+		"FBF",
+		"SFS"
+	],
+	"key": {
+		"S": "minecraft:spectral_arrow",
+		"B": "minecraft:knowledge_book",
+		"F": "minecraft:gold_ingot",
+		"b": "minecraft:disc_fragment_5"
+	},
+	"result": {
+		"components": {
+			"minecraft:stored_enchantments": {
+				"minecraft:impaling": 3,
+				"minecraft:piercing": 2
+			},
+			"minecraft:item_name": {
+				"translate": "item.kleispack.knowledge"
+			},
+			"minecraft:lore": [
+				{
+					"translate": "item.kleispack.knowledge.piercing_trident",
+					"color": "dark_gray",
+					"italic": false
+				}
+			],
+			"minecraft:item_model": "minecraft:knowledge_piercing_trident"
+		},
+		"count": 1,
+		"id": "minecraft:enchanted_book"
+	}
+}

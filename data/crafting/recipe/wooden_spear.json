@@ -1,0 +1,35 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": "minecraft:stick",
+		"X": "#minecraft:wooden_tool_materials"
+	},
+	"pattern": [
+		"  X",
+		" # ",
+		"#  "
+	],
+	"result": {
+		"id": "minecraft:wooden_spear",
+		"components": {
+			"minecraft:lore": [
+				{
+					"text": "🗡 1",
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"text": "🕒 1.54",
+					"color": "dark_green",
+					"italic": false
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			}
+		}
+	}
+}

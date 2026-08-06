@@ -1,0 +1,59 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": "minecraft:stick",
+		"X": "iron_ingot"
+	},
+	"pattern": [
+		"XXX",
+		"X#X",
+		" # "
+	],
+	"result": {
+		"components": {
+			"minecraft:item_name": {
+				"translate": "item.kleispack.snow_shovel"
+			},
+			"minecraft:max_damage": 5000,
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:lore": [
+				{
+					"text": "⛏ 1",
+					"color": "blue",
+					"italic": false
+				},
+				{
+					"text": "🗡 4.5",
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"text": "🕒 1",
+					"color": "dark_green",
+					"italic": false
+				}
+			],
+			"minecraft:tool": {
+				"rules": [
+					{
+						"blocks": "#minecraft:snow",
+						"speed": 15,
+						"correct_for_drops": true
+					},
+					{
+						"blocks": "#minecraft:mineable/shovel",
+						"speed": 0.15
+					}
+				]
+			},
+			"minecraft:item_model": "minecraft:snow_shovel"
+		},
+		"count": 1,
+		"id": "minecraft:iron_shovel"
+	}
+}

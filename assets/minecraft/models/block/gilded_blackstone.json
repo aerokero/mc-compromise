@@ -1,0 +1,2190 @@
+{
+    "credit": "Made with Blockbench",
+    "parent": "block/block",
+    "textures": {
+        "gilded_blackstone": "block/gilded_blackstone",
+        "particle": "#gilded_blackstone"
+    },
+    "elements": [
+        {
+            "from": [
+                0,
+                0,
+                0
+            ],
+            "to": [
+                16,
+                16,
+                16
+            ],
+            "faces": {
+                "north": {
+                    "uv": [
+                        0,
+                        0,
+                        16,
+                        16
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "north"
+                },
+                "east": {
+                    "uv": [
+                        0,
+                        0,
+                        16,
+                        16
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "east"
+                },
+                "south": {
+                    "uv": [
+                        0,
+                        0,
+                        16,
+                        16
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "south"
+                },
+                "west": {
+                    "uv": [
+                        0,
+                        0,
+                        16,
+                        16
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "west"
+                },
+                "up": {
+                    "uv": [
+                        0,
+                        0,
+                        16,
+                        16
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "up"
+                },
+                "down": {
+                    "uv": [
+                        0,
+                        0,
+                        16,
+                        16
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "down"
+                }
+            }
+        },
+        {
+            "from": [
+                12.00625,
+                14.009374999999999,
+                -0.0125
+            ],
+            "to": [
+                14.009374999999999,
+                15.010937499999999,
+                16.0125
+            ],
+            "light_emission": 15,
+            "faces": {
+                "north": {
+                    "uv": [
+                        2,
+                        1,
+                        4,
+                        2
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "north",
+                    "rotation": 0
+                }
+            },
+            "name": "north_0"
+        },
+        {
+            "from": [
+                14.009374999999999,
+                13.0078125,
+                -0.0125
+            ],
+            "to": [
+                15.010937499999999,
+                14.009374999999999,
+                16.0125
+            ],
+            "light_emission": 15,
+            "faces": {
+                "north": {
+                    "uv": [
+                        1,
+                        2,
+                        2,
+                        3
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "north",
+                    "rotation": 0
+                }
+            },
+            "name": "north_1"
+        },
+        {
+            "from": [
+                4.9953125,
+                13.0078125,
+                -0.0125
+            ],
+            "to": [
+                6.998437499999999,
+                14.009374999999999,
+                16.0125
+            ],
+            "light_emission": 15,
+            "faces": {
+                "north": {
+                    "uv": [
+                        9,
+                        2,
+                        11,
+                        3
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "north",
+                    "rotation": 0
+                }
+            },
+            "name": "north_2"
+        },
+        {
+            "from": [
+                15.010937499999999,
+                12.00625,
+                -0.0125
+            ],
+            "to": [
+                16.0125,
+                13.0078125,
+                16.0125
+            ],
+            "light_emission": 15,
+            "faces": {
+                "north": {
+                    "uv": [
+                        0,
+                        3,
+                        1,
+                        4
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "north",
+                    "rotation": 0
+                }
+            },
+            "name": "north_3"
+        },
+        {
+            "from": [
+                3.9937499999999995,
+                12.00625,
+                -0.0125
+            ],
+            "to": [
+                5.996874999999999,
+                13.0078125,
+                16.0125
+            ],
+            "light_emission": 15,
+            "faces": {
+                "north": {
+                    "uv": [
+                        10,
+                        3,
+                        12,
+                        4
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "north",
+                    "rotation": 0
+                }
+            },
+            "name": "north_4"
+        },
+        {
+            "from": [
+                2.9921874999999996,
+                11.0046875,
+                -0.0125
+            ],
+            "to": [
+                3.9937499999999995,
+                12.00625,
+                16.0125
+            ],
+            "light_emission": 15,
+            "faces": {
+                "north": {
+                    "uv": [
+                        12,
+                        4,
+                        13,
+                        5
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "north",
+                    "rotation": 0
+                }
+            },
+            "name": "north_5"
+        },
+        {
+            "from": [
+                9.0015625,
+                7.999999999999999,
+                -0.0125
+            ],
+            "to": [
+                10.003125,
+                9.0015625,
+                16.0125
+            ],
+            "light_emission": 15,
+            "faces": {
+                "north": {
+                    "uv": [
+                        6,
+                        7,
+                        7,
+                        8
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "north",
+                    "rotation": 0
+                }
+            },
+            "name": "north_6"
+        },
+        {
+            "from": [
+                3.9937499999999995,
+                6.998437499999999,
+                -0.0125
+            ],
+            "to": [
+                5.996874999999999,
+                7.999999999999999,
+                16.0125
+            ],
+            "light_emission": 15,
+            "faces": {
+                "north": {
+                    "uv": [
+                        10,
+                        8,
+                        12,
+                        9
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "north",
+                    "rotation": 0
+                }
+            },
+            "name": "north_7"
+        },
+        {
+            "from": [
+                10.003125,
+                4.9953125,
+                -0.0125
+            ],
+            "to": [
+                12.00625,
+                5.996874999999999,
+                16.0125
+            ],
+            "light_emission": 15,
+            "faces": {
+                "north": {
+                    "uv": [
+                        4,
+                        10,
+                        6,
+                        11
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "north",
+                    "rotation": 0
+                }
+            },
+            "name": "north_8"
+        },
+        {
+            "from": [
+                -0.0125,
+                3.9937499999999995,
+                -0.0125
+            ],
+            "to": [
+                0.9890625,
+                5.996874999999999,
+                16.0125
+            ],
+            "light_emission": 15,
+            "faces": {
+                "north": {
+                    "uv": [
+                        15,
+                        10,
+                        16,
+                        12
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "north",
+                    "rotation": 0
+                }
+            },
+            "name": "north_9"
+        },
+        {
+            "from": [
+                9.0015625,
+                2.9921874999999996,
+                -0.0125
+            ],
+            "to": [
+                10.003125,
+                4.9953125,
+                16.0125
+            ],
+            "light_emission": 15,
+            "faces": {
+                "north": {
+                    "uv": [
+                        6,
+                        11,
+                        7,
+                        13
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "north",
+                    "rotation": 0
+                }
+            },
+            "name": "north_10"
+        },
+        {
+            "from": [
+                0.9890625,
+                2.9921874999999996,
+                -0.0125
+            ],
+            "to": [
+                1.9906249999999999,
+                3.9937499999999995,
+                16.0125
+            ],
+            "light_emission": 15,
+            "faces": {
+                "north": {
+                    "uv": [
+                        14,
+                        12,
+                        15,
+                        13
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "north",
+                    "rotation": 0
+                }
+            },
+            "name": "north_11"
+        },
+        {
+            "from": [
+                7.999999999999999,
+                1.9906249999999999,
+                -0.0125
+            ],
+            "to": [
+                9.0015625,
+                2.9921874999999996,
+                16.0125
+            ],
+            "light_emission": 15,
+            "faces": {
+                "north": {
+                    "uv": [
+                        7,
+                        13,
+                        8,
+                        14
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "north",
+                    "rotation": 0
+                }
+            },
+            "name": "north_12"
+        },
+        {
+            "from": [
+                -0.0125,
+                14.009374999999999,
+                12.00625
+            ],
+            "to": [
+                16.0125,
+                15.010937499999999,
+                14.009374999999999
+            ],
+            "light_emission": 15,
+            "faces": {
+                "east": {
+                    "uv": [
+                        2,
+                        1,
+                        4,
+                        2
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "east",
+                    "rotation": 0
+                }
+            },
+            "name": "east_0"
+        },
+        {
+            "from": [
+                -0.0125,
+                13.0078125,
+                14.009374999999999
+            ],
+            "to": [
+                16.0125,
+                14.009374999999999,
+                15.010937499999999
+            ],
+            "light_emission": 15,
+            "faces": {
+                "east": {
+                    "uv": [
+                        1,
+                        2,
+                        2,
+                        3
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "east",
+                    "rotation": 0
+                }
+            },
+            "name": "east_1"
+        },
+        {
+            "from": [
+                -0.0125,
+                13.0078125,
+                4.9953125
+            ],
+            "to": [
+                16.0125,
+                14.009374999999999,
+                6.998437499999999
+            ],
+            "light_emission": 15,
+            "faces": {
+                "east": {
+                    "uv": [
+                        9,
+                        2,
+                        11,
+                        3
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "east",
+                    "rotation": 0
+                }
+            },
+            "name": "east_2"
+        },
+        {
+            "from": [
+                -0.0125,
+                12.00625,
+                15.010937499999999
+            ],
+            "to": [
+                16.0125,
+                13.0078125,
+                16.0125
+            ],
+            "light_emission": 15,
+            "faces": {
+                "east": {
+                    "uv": [
+                        0,
+                        3,
+                        1,
+                        4
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "east",
+                    "rotation": 0
+                }
+            },
+            "name": "east_3"
+        },
+        {
+            "from": [
+                -0.0125,
+                12.00625,
+                3.9937499999999995
+            ],
+            "to": [
+                16.0125,
+                13.0078125,
+                5.996874999999999
+            ],
+            "light_emission": 15,
+            "faces": {
+                "east": {
+                    "uv": [
+                        10,
+                        3,
+                        12,
+                        4
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "east",
+                    "rotation": 0
+                }
+            },
+            "name": "east_4"
+        },
+        {
+            "from": [
+                -0.0125,
+                11.0046875,
+                2.9921874999999996
+            ],
+            "to": [
+                16.0125,
+                12.00625,
+                3.9937499999999995
+            ],
+            "light_emission": 15,
+            "faces": {
+                "east": {
+                    "uv": [
+                        12,
+                        4,
+                        13,
+                        5
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "east",
+                    "rotation": 0
+                }
+            },
+            "name": "east_5"
+        },
+        {
+            "from": [
+                -0.0125,
+                7.999999999999999,
+                9.0015625
+            ],
+            "to": [
+                16.0125,
+                9.0015625,
+                10.003125
+            ],
+            "light_emission": 15,
+            "faces": {
+                "east": {
+                    "uv": [
+                        6,
+                        7,
+                        7,
+                        8
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "east",
+                    "rotation": 0
+                }
+            },
+            "name": "east_6"
+        },
+        {
+            "from": [
+                -0.0125,
+                6.998437499999999,
+                3.9937499999999995
+            ],
+            "to": [
+                16.0125,
+                7.999999999999999,
+                5.996874999999999
+            ],
+            "light_emission": 15,
+            "faces": {
+                "east": {
+                    "uv": [
+                        10,
+                        8,
+                        12,
+                        9
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "east",
+                    "rotation": 0
+                }
+            },
+            "name": "east_7"
+        },
+        {
+            "from": [
+                -0.0125,
+                4.9953125,
+                10.003125
+            ],
+            "to": [
+                16.0125,
+                5.996874999999999,
+                12.00625
+            ],
+            "light_emission": 15,
+            "faces": {
+                "east": {
+                    "uv": [
+                        4,
+                        10,
+                        6,
+                        11
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "east",
+                    "rotation": 0
+                }
+            },
+            "name": "east_8"
+        },
+        {
+            "from": [
+                -0.0125,
+                3.9937499999999995,
+                -0.0125
+            ],
+            "to": [
+                16.0125,
+                5.996874999999999,
+                0.9890625
+            ],
+            "light_emission": 15,
+            "faces": {
+                "east": {
+                    "uv": [
+                        15,
+                        10,
+                        16,
+                        12
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "east",
+                    "rotation": 0
+                }
+            },
+            "name": "east_9"
+        },
+        {
+            "from": [
+                -0.0125,
+                2.9921874999999996,
+                9.0015625
+            ],
+            "to": [
+                16.0125,
+                4.9953125,
+                10.003125
+            ],
+            "light_emission": 15,
+            "faces": {
+                "east": {
+                    "uv": [
+                        6,
+                        11,
+                        7,
+                        13
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "east",
+                    "rotation": 0
+                }
+            },
+            "name": "east_10"
+        },
+        {
+            "from": [
+                -0.0125,
+                2.9921874999999996,
+                0.9890625
+            ],
+            "to": [
+                16.0125,
+                3.9937499999999995,
+                1.9906249999999999
+            ],
+            "light_emission": 15,
+            "faces": {
+                "east": {
+                    "uv": [
+                        14,
+                        12,
+                        15,
+                        13
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "east",
+                    "rotation": 0
+                }
+            },
+            "name": "east_11"
+        },
+        {
+            "from": [
+                -0.0125,
+                1.9906249999999999,
+                7.999999999999999
+            ],
+            "to": [
+                16.0125,
+                2.9921874999999996,
+                9.0015625
+            ],
+            "light_emission": 15,
+            "faces": {
+                "east": {
+                    "uv": [
+                        7,
+                        13,
+                        8,
+                        14
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "east",
+                    "rotation": 0
+                }
+            },
+            "name": "east_12"
+        },
+        {
+            "from": [
+                1.9906249999999999,
+                14.009374999999999,
+                -0.0125
+            ],
+            "to": [
+                3.9937499999999995,
+                15.010937499999999,
+                16.0125
+            ],
+            "light_emission": 15,
+            "faces": {
+                "south": {
+                    "uv": [
+                        2,
+                        1,
+                        4,
+                        2
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "south",
+                    "rotation": 0
+                }
+            },
+            "name": "south_0"
+        },
+        {
+            "from": [
+                0.9890625,
+                13.0078125,
+                -0.0125
+            ],
+            "to": [
+                1.9906249999999999,
+                14.009374999999999,
+                16.0125
+            ],
+            "light_emission": 15,
+            "faces": {
+                "south": {
+                    "uv": [
+                        1,
+                        2,
+                        2,
+                        3
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "south",
+                    "rotation": 0
+                }
+            },
+            "name": "south_1"
+        },
+        {
+            "from": [
+                9.0015625,
+                13.0078125,
+                -0.0125
+            ],
+            "to": [
+                11.0046875,
+                14.009374999999999,
+                16.0125
+            ],
+            "light_emission": 15,
+            "faces": {
+                "south": {
+                    "uv": [
+                        9,
+                        2,
+                        11,
+                        3
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "south",
+                    "rotation": 0
+                }
+            },
+            "name": "south_2"
+        },
+        {
+            "from": [
+                -0.0125,
+                12.00625,
+                -0.0125
+            ],
+            "to": [
+                0.9890625,
+                13.0078125,
+                16.0125
+            ],
+            "light_emission": 15,
+            "faces": {
+                "south": {
+                    "uv": [
+                        0,
+                        3,
+                        1,
+                        4
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "south",
+                    "rotation": 0
+                }
+            },
+            "name": "south_3"
+        },
+        {
+            "from": [
+                10.003125,
+                12.00625,
+                -0.0125
+            ],
+            "to": [
+                12.00625,
+                13.0078125,
+                16.0125
+            ],
+            "light_emission": 15,
+            "faces": {
+                "south": {
+                    "uv": [
+                        10,
+                        3,
+                        12,
+                        4
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "south",
+                    "rotation": 0
+                }
+            },
+            "name": "south_4"
+        },
+        {
+            "from": [
+                12.00625,
+                11.0046875,
+                -0.0125
+            ],
+            "to": [
+                13.0078125,
+                12.00625,
+                16.0125
+            ],
+            "light_emission": 15,
+            "faces": {
+                "south": {
+                    "uv": [
+                        12,
+                        4,
+                        13,
+                        5
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "south",
+                    "rotation": 0
+                }
+            },
+            "name": "south_5"
+        },
+        {
+            "from": [
+                5.996874999999999,
+                7.999999999999999,
+                -0.0125
+            ],
+            "to": [
+                6.998437499999999,
+                9.0015625,
+                16.0125
+            ],
+            "light_emission": 15,
+            "faces": {
+                "south": {
+                    "uv": [
+                        6,
+                        7,
+                        7,
+                        8
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "south",
+                    "rotation": 0
+                }
+            },
+            "name": "south_6"
+        },
+        {
+            "from": [
+                10.003125,
+                6.998437499999999,
+                -0.0125
+            ],
+            "to": [
+                12.00625,
+                7.999999999999999,
+                16.0125
+            ],
+            "light_emission": 15,
+            "faces": {
+                "south": {
+                    "uv": [
+                        10,
+                        8,
+                        12,
+                        9
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "south",
+                    "rotation": 0
+                }
+            },
+            "name": "south_7"
+        },
+        {
+            "from": [
+                3.9937499999999995,
+                4.9953125,
+                -0.0125
+            ],
+            "to": [
+                5.996874999999999,
+                5.996874999999999,
+                16.0125
+            ],
+            "light_emission": 15,
+            "faces": {
+                "south": {
+                    "uv": [
+                        4,
+                        10,
+                        6,
+                        11
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "south",
+                    "rotation": 0
+                }
+            },
+            "name": "south_8"
+        },
+        {
+            "from": [
+                15.010937499999999,
+                3.9937499999999995,
+                -0.0125
+            ],
+            "to": [
+                16.0125,
+                5.996874999999999,
+                16.0125
+            ],
+            "light_emission": 15,
+            "faces": {
+                "south": {
+                    "uv": [
+                        15,
+                        10,
+                        16,
+                        12
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "south",
+                    "rotation": 0
+                }
+            },
+            "name": "south_9"
+        },
+        {
+            "from": [
+                5.996874999999999,
+                2.9921874999999996,
+                -0.0125
+            ],
+            "to": [
+                6.998437499999999,
+                4.9953125,
+                16.0125
+            ],
+            "light_emission": 15,
+            "faces": {
+                "south": {
+                    "uv": [
+                        6,
+                        11,
+                        7,
+                        13
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "south",
+                    "rotation": 0
+                }
+            },
+            "name": "south_10"
+        },
+        {
+            "from": [
+                14.009374999999999,
+                2.9921874999999996,
+                -0.0125
+            ],
+            "to": [
+                15.010937499999999,
+                3.9937499999999995,
+                16.0125
+            ],
+            "light_emission": 15,
+            "faces": {
+                "south": {
+                    "uv": [
+                        14,
+                        12,
+                        15,
+                        13
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "south",
+                    "rotation": 0
+                }
+            },
+            "name": "south_11"
+        },
+        {
+            "from": [
+                6.998437499999999,
+                1.9906249999999999,
+                -0.0125
+            ],
+            "to": [
+                7.999999999999999,
+                2.9921874999999996,
+                16.0125
+            ],
+            "light_emission": 15,
+            "faces": {
+                "south": {
+                    "uv": [
+                        7,
+                        13,
+                        8,
+                        14
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "south",
+                    "rotation": 0
+                }
+            },
+            "name": "south_12"
+        },
+        {
+            "from": [
+                -0.0125,
+                14.009374999999999,
+                1.9906249999999999
+            ],
+            "to": [
+                16.0125,
+                15.010937499999999,
+                3.9937499999999995
+            ],
+            "light_emission": 15,
+            "faces": {
+                "west": {
+                    "uv": [
+                        2,
+                        1,
+                        4,
+                        2
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "west",
+                    "rotation": 0
+                }
+            },
+            "name": "west_0"
+        },
+        {
+            "from": [
+                -0.0125,
+                13.0078125,
+                0.9890625
+            ],
+            "to": [
+                16.0125,
+                14.009374999999999,
+                1.9906249999999999
+            ],
+            "light_emission": 15,
+            "faces": {
+                "west": {
+                    "uv": [
+                        1,
+                        2,
+                        2,
+                        3
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "west",
+                    "rotation": 0
+                }
+            },
+            "name": "west_1"
+        },
+        {
+            "from": [
+                -0.0125,
+                13.0078125,
+                9.0015625
+            ],
+            "to": [
+                16.0125,
+                14.009374999999999,
+                11.0046875
+            ],
+            "light_emission": 15,
+            "faces": {
+                "west": {
+                    "uv": [
+                        9,
+                        2,
+                        11,
+                        3
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "west",
+                    "rotation": 0
+                }
+            },
+            "name": "west_2"
+        },
+        {
+            "from": [
+                -0.0125,
+                12.00625,
+                -0.0125
+            ],
+            "to": [
+                16.0125,
+                13.0078125,
+                0.9890625
+            ],
+            "light_emission": 15,
+            "faces": {
+                "west": {
+                    "uv": [
+                        0,
+                        3,
+                        1,
+                        4
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "west",
+                    "rotation": 0
+                }
+            },
+            "name": "west_3"
+        },
+        {
+            "from": [
+                -0.0125,
+                12.00625,
+                10.003125
+            ],
+            "to": [
+                16.0125,
+                13.0078125,
+                12.00625
+            ],
+            "light_emission": 15,
+            "faces": {
+                "west": {
+                    "uv": [
+                        10,
+                        3,
+                        12,
+                        4
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "west",
+                    "rotation": 0
+                }
+            },
+            "name": "west_4"
+        },
+        {
+            "from": [
+                -0.0125,
+                11.0046875,
+                12.00625
+            ],
+            "to": [
+                16.0125,
+                12.00625,
+                13.0078125
+            ],
+            "light_emission": 15,
+            "faces": {
+                "west": {
+                    "uv": [
+                        12,
+                        4,
+                        13,
+                        5
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "west",
+                    "rotation": 0
+                }
+            },
+            "name": "west_5"
+        },
+        {
+            "from": [
+                -0.0125,
+                7.999999999999999,
+                5.996874999999999
+            ],
+            "to": [
+                16.0125,
+                9.0015625,
+                6.998437499999999
+            ],
+            "light_emission": 15,
+            "faces": {
+                "west": {
+                    "uv": [
+                        6,
+                        7,
+                        7,
+                        8
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "west",
+                    "rotation": 0
+                }
+            },
+            "name": "west_6"
+        },
+        {
+            "from": [
+                -0.0125,
+                6.998437499999999,
+                10.003125
+            ],
+            "to": [
+                16.0125,
+                7.999999999999999,
+                12.00625
+            ],
+            "light_emission": 15,
+            "faces": {
+                "west": {
+                    "uv": [
+                        10,
+                        8,
+                        12,
+                        9
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "west",
+                    "rotation": 0
+                }
+            },
+            "name": "west_7"
+        },
+        {
+            "from": [
+                -0.0125,
+                4.9953125,
+                3.9937499999999995
+            ],
+            "to": [
+                16.0125,
+                5.996874999999999,
+                5.996874999999999
+            ],
+            "light_emission": 15,
+            "faces": {
+                "west": {
+                    "uv": [
+                        4,
+                        10,
+                        6,
+                        11
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "west",
+                    "rotation": 0
+                }
+            },
+            "name": "west_8"
+        },
+        {
+            "from": [
+                -0.0125,
+                3.9937499999999995,
+                15.010937499999999
+            ],
+            "to": [
+                16.0125,
+                5.996874999999999,
+                16.0125
+            ],
+            "light_emission": 15,
+            "faces": {
+                "west": {
+                    "uv": [
+                        15,
+                        10,
+                        16,
+                        12
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "west",
+                    "rotation": 0
+                }
+            },
+            "name": "west_9"
+        },
+        {
+            "from": [
+                -0.0125,
+                2.9921874999999996,
+                5.996874999999999
+            ],
+            "to": [
+                16.0125,
+                4.9953125,
+                6.998437499999999
+            ],
+            "light_emission": 15,
+            "faces": {
+                "west": {
+                    "uv": [
+                        6,
+                        11,
+                        7,
+                        13
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "west",
+                    "rotation": 0
+                }
+            },
+            "name": "west_10"
+        },
+        {
+            "from": [
+                -0.0125,
+                2.9921874999999996,
+                14.009374999999999
+            ],
+            "to": [
+                16.0125,
+                3.9937499999999995,
+                15.010937499999999
+            ],
+            "light_emission": 15,
+            "faces": {
+                "west": {
+                    "uv": [
+                        14,
+                        12,
+                        15,
+                        13
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "west",
+                    "rotation": 0
+                }
+            },
+            "name": "west_11"
+        },
+        {
+            "from": [
+                -0.0125,
+                1.9906249999999999,
+                6.998437499999999
+            ],
+            "to": [
+                16.0125,
+                2.9921874999999996,
+                7.999999999999999
+            ],
+            "light_emission": 15,
+            "faces": {
+                "west": {
+                    "uv": [
+                        7,
+                        13,
+                        8,
+                        14
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "west",
+                    "rotation": 0
+                }
+            },
+            "name": "west_12"
+        },
+        {
+            "from": [
+                1.9906249999999999,
+                -0.0125,
+                0.9890625
+            ],
+            "to": [
+                3.9937499999999995,
+                16.0125,
+                1.9906249999999999
+            ],
+            "light_emission": 15,
+            "faces": {
+                "up": {
+                    "uv": [
+                        2,
+                        1,
+                        4,
+                        2
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "up",
+                    "rotation": 0
+                }
+            },
+            "name": "up_0"
+        },
+        {
+            "from": [
+                0.9890625,
+                -0.0125,
+                1.9906249999999999
+            ],
+            "to": [
+                1.9906249999999999,
+                16.0125,
+                2.9921874999999996
+            ],
+            "light_emission": 15,
+            "faces": {
+                "up": {
+                    "uv": [
+                        1,
+                        2,
+                        2,
+                        3
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "up",
+                    "rotation": 0
+                }
+            },
+            "name": "up_1"
+        },
+        {
+            "from": [
+                9.0015625,
+                -0.0125,
+                1.9906249999999999
+            ],
+            "to": [
+                11.0046875,
+                16.0125,
+                2.9921874999999996
+            ],
+            "light_emission": 15,
+            "faces": {
+                "up": {
+                    "uv": [
+                        9,
+                        2,
+                        11,
+                        3
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "up",
+                    "rotation": 0
+                }
+            },
+            "name": "up_2"
+        },
+        {
+            "from": [
+                -0.0125,
+                -0.0125,
+                2.9921874999999996
+            ],
+            "to": [
+                0.9890625,
+                16.0125,
+                3.9937499999999995
+            ],
+            "light_emission": 15,
+            "faces": {
+                "up": {
+                    "uv": [
+                        0,
+                        3,
+                        1,
+                        4
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "up",
+                    "rotation": 0
+                }
+            },
+            "name": "up_3"
+        },
+        {
+            "from": [
+                10.003125,
+                -0.0125,
+                2.9921874999999996
+            ],
+            "to": [
+                12.00625,
+                16.0125,
+                3.9937499999999995
+            ],
+            "light_emission": 15,
+            "faces": {
+                "up": {
+                    "uv": [
+                        10,
+                        3,
+                        12,
+                        4
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "up",
+                    "rotation": 0
+                }
+            },
+            "name": "up_4"
+        },
+        {
+            "from": [
+                12.00625,
+                -0.0125,
+                3.9937499999999995
+            ],
+            "to": [
+                13.0078125,
+                16.0125,
+                4.9953125
+            ],
+            "light_emission": 15,
+            "faces": {
+                "up": {
+                    "uv": [
+                        12,
+                        4,
+                        13,
+                        5
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "up",
+                    "rotation": 0
+                }
+            },
+            "name": "up_5"
+        },
+        {
+            "from": [
+                5.996874999999999,
+                -0.0125,
+                6.998437499999999
+            ],
+            "to": [
+                6.998437499999999,
+                16.0125,
+                7.999999999999999
+            ],
+            "light_emission": 15,
+            "faces": {
+                "up": {
+                    "uv": [
+                        6,
+                        7,
+                        7,
+                        8
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "up",
+                    "rotation": 0
+                }
+            },
+            "name": "up_6"
+        },
+        {
+            "from": [
+                10.003125,
+                -0.0125,
+                7.999999999999999
+            ],
+            "to": [
+                12.00625,
+                16.0125,
+                9.0015625
+            ],
+            "light_emission": 15,
+            "faces": {
+                "up": {
+                    "uv": [
+                        10,
+                        8,
+                        12,
+                        9
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "up",
+                    "rotation": 0
+                }
+            },
+            "name": "up_7"
+        },
+        {
+            "from": [
+                3.9937499999999995,
+                -0.0125,
+                10.003125
+            ],
+            "to": [
+                5.996874999999999,
+                16.0125,
+                11.0046875
+            ],
+            "light_emission": 15,
+            "faces": {
+                "up": {
+                    "uv": [
+                        4,
+                        10,
+                        6,
+                        11
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "up",
+                    "rotation": 0
+                }
+            },
+            "name": "up_8"
+        },
+        {
+            "from": [
+                15.010937499999999,
+                -0.0125,
+                10.003125
+            ],
+            "to": [
+                16.0125,
+                16.0125,
+                12.00625
+            ],
+            "light_emission": 15,
+            "faces": {
+                "up": {
+                    "uv": [
+                        15,
+                        10,
+                        16,
+                        12
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "up",
+                    "rotation": 0
+                }
+            },
+            "name": "up_9"
+        },
+        {
+            "from": [
+                5.996874999999999,
+                -0.0125,
+                11.0046875
+            ],
+            "to": [
+                6.998437499999999,
+                16.0125,
+                13.0078125
+            ],
+            "light_emission": 15,
+            "faces": {
+                "up": {
+                    "uv": [
+                        6,
+                        11,
+                        7,
+                        13
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "up",
+                    "rotation": 0
+                }
+            },
+            "name": "up_10"
+        },
+        {
+            "from": [
+                14.009374999999999,
+                -0.0125,
+                12.00625
+            ],
+            "to": [
+                15.010937499999999,
+                16.0125,
+                13.0078125
+            ],
+            "light_emission": 15,
+            "faces": {
+                "up": {
+                    "uv": [
+                        14,
+                        12,
+                        15,
+                        13
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "up",
+                    "rotation": 0
+                }
+            },
+            "name": "up_11"
+        },
+        {
+            "from": [
+                6.998437499999999,
+                -0.0125,
+                13.0078125
+            ],
+            "to": [
+                7.999999999999999,
+                16.0125,
+                14.009374999999999
+            ],
+            "light_emission": 15,
+            "faces": {
+                "up": {
+                    "uv": [
+                        7,
+                        13,
+                        8,
+                        14
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "up",
+                    "rotation": 0
+                }
+            },
+            "name": "up_12"
+        },
+        {
+            "from": [
+                1.9906249999999999,
+                -0.0125,
+                14.009374999999999
+            ],
+            "to": [
+                3.9937499999999995,
+                16.0125,
+                15.010937499999999
+            ],
+            "light_emission": 15,
+            "faces": {
+                "down": {
+                    "uv": [
+                        2,
+                        1,
+                        4,
+                        2
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "down",
+                    "rotation": 0
+                }
+            },
+            "name": "down_0"
+        },
+        {
+            "from": [
+                0.9890625,
+                -0.0125,
+                13.0078125
+            ],
+            "to": [
+                1.9906249999999999,
+                16.0125,
+                14.009374999999999
+            ],
+            "light_emission": 15,
+            "faces": {
+                "down": {
+                    "uv": [
+                        1,
+                        2,
+                        2,
+                        3
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "down",
+                    "rotation": 0
+                }
+            },
+            "name": "down_1"
+        },
+        {
+            "from": [
+                9.0015625,
+                -0.0125,
+                13.0078125
+            ],
+            "to": [
+                11.0046875,
+                16.0125,
+                14.009374999999999
+            ],
+            "light_emission": 15,
+            "faces": {
+                "down": {
+                    "uv": [
+                        9,
+                        2,
+                        11,
+                        3
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "down",
+                    "rotation": 0
+                }
+            },
+            "name": "down_2"
+        },
+        {
+            "from": [
+                -0.0125,
+                -0.0125,
+                12.00625
+            ],
+            "to": [
+                0.9890625,
+                16.0125,
+                13.0078125
+            ],
+            "light_emission": 15,
+            "faces": {
+                "down": {
+                    "uv": [
+                        0,
+                        3,
+                        1,
+                        4
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "down",
+                    "rotation": 0
+                }
+            },
+            "name": "down_3"
+        },
+        {
+            "from": [
+                10.003125,
+                -0.0125,
+                12.00625
+            ],
+            "to": [
+                12.00625,
+                16.0125,
+                13.0078125
+            ],
+            "light_emission": 15,
+            "faces": {
+                "down": {
+                    "uv": [
+                        10,
+                        3,
+                        12,
+                        4
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "down",
+                    "rotation": 0
+                }
+            },
+            "name": "down_4"
+        },
+        {
+            "from": [
+                12.00625,
+                -0.0125,
+                11.0046875
+            ],
+            "to": [
+                13.0078125,
+                16.0125,
+                12.00625
+            ],
+            "light_emission": 15,
+            "faces": {
+                "down": {
+                    "uv": [
+                        12,
+                        4,
+                        13,
+                        5
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "down",
+                    "rotation": 0
+                }
+            },
+            "name": "down_5"
+        },
+        {
+            "from": [
+                5.996874999999999,
+                -0.0125,
+                7.999999999999999
+            ],
+            "to": [
+                6.998437499999999,
+                16.0125,
+                9.0015625
+            ],
+            "light_emission": 15,
+            "faces": {
+                "down": {
+                    "uv": [
+                        6,
+                        7,
+                        7,
+                        8
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "down",
+                    "rotation": 0
+                }
+            },
+            "name": "down_6"
+        },
+        {
+            "from": [
+                10.003125,
+                -0.0125,
+                6.998437499999999
+            ],
+            "to": [
+                12.00625,
+                16.0125,
+                7.999999999999999
+            ],
+            "light_emission": 15,
+            "faces": {
+                "down": {
+                    "uv": [
+                        10,
+                        8,
+                        12,
+                        9
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "down",
+                    "rotation": 0
+                }
+            },
+            "name": "down_7"
+        },
+        {
+            "from": [
+                3.9937499999999995,
+                -0.0125,
+                4.9953125
+            ],
+            "to": [
+                5.996874999999999,
+                16.0125,
+                5.996874999999999
+            ],
+            "light_emission": 15,
+            "faces": {
+                "down": {
+                    "uv": [
+                        4,
+                        10,
+                        6,
+                        11
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "down",
+                    "rotation": 0
+                }
+            },
+            "name": "down_8"
+        },
+        {
+            "from": [
+                15.010937499999999,
+                -0.0125,
+                3.9937499999999995
+            ],
+            "to": [
+                16.0125,
+                16.0125,
+                5.996874999999999
+            ],
+            "light_emission": 15,
+            "faces": {
+                "down": {
+                    "uv": [
+                        15,
+                        10,
+                        16,
+                        12
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "down",
+                    "rotation": 0
+                }
+            },
+            "name": "down_9"
+        },
+        {
+            "from": [
+                5.996874999999999,
+                -0.0125,
+                2.9921874999999996
+            ],
+            "to": [
+                6.998437499999999,
+                16.0125,
+                4.9953125
+            ],
+            "light_emission": 15,
+            "faces": {
+                "down": {
+                    "uv": [
+                        6,
+                        11,
+                        7,
+                        13
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "down",
+                    "rotation": 0
+                }
+            },
+            "name": "down_10"
+        },
+        {
+            "from": [
+                14.009374999999999,
+                -0.0125,
+                2.9921874999999996
+            ],
+            "to": [
+                15.010937499999999,
+                16.0125,
+                3.9937499999999995
+            ],
+            "light_emission": 15,
+            "faces": {
+                "down": {
+                    "uv": [
+                        14,
+                        12,
+                        15,
+                        13
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "down",
+                    "rotation": 0
+                }
+            },
+            "name": "down_11"
+        },
+        {
+            "from": [
+                6.998437499999999,
+                -0.0125,
+                1.9906249999999999
+            ],
+            "to": [
+                7.999999999999999,
+                16.0125,
+                2.9921874999999996
+            ],
+            "light_emission": 15,
+            "faces": {
+                "down": {
+                    "uv": [
+                        7,
+                        13,
+                        8,
+                        14
+                    ],
+                    "texture": "#gilded_blackstone",
+                    "cullface": "down",
+                    "rotation": 0
+                }
+            },
+            "name": "down_12"
+        }
+    ]
+}

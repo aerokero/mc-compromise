@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "group": "tuff",
+  "category": "blocks",
+  "ingredient": "minecraft:polished_tuff",
+  "result": {
+    "id": "minecraft:tuff"
+  },
+  "experience": 1,
+  "cookingtime": 100
+}

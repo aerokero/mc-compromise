@@ -1,0 +1,15 @@
+{
+	"gives": {
+		"id": "minecraft:emerald",
+		"count": 8
+	},
+	"given_item_modifiers": [],
+	"max_uses": 999,
+	"wants": {
+		"components": {},
+		"count": 1,
+		"id": "minecraft:music_disc_pigstep"
+	},
+	"reputation_discount": 0,
+	"xp": 0
+}

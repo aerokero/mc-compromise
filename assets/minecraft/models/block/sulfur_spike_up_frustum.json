@@ -1,0 +1,23 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"3": "block/sulfur_spike_up_frustum",
+		"particle": "block/sulfur_spike_up_frustum"
+	},
+	"elements": [
+		{
+			"from": [6, 0, 6],
+			"to": [10, 16, 10],
+			"faces": {
+				"north": {"uv": [6, 0, 10, 16], "texture": "#3"},
+				"east": {"uv": [6, 0, 10, 16], "texture": "#3"},
+				"south": {"uv": [6, 0, 10, 16], "texture": "#3"},
+				"west": {"uv": [6, 0, 10, 16], "texture": "#3"},
+				"up": {"uv": [16, 4, 12, 0], "texture": "#3"},
+				"down": {"uv": [16, 12, 12, 16], "texture": "#3"}
+			}
+		}
+	]
+}

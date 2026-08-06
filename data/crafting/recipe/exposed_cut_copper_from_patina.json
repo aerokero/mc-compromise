@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "exposed_cut_copper",
+	"category": "building",
+	"ingredients": [
+		"minecraft:cut_copper",
+		"minecraft:potion"
+	],
+	"result": {
+		"components": {},
+		"count": 1,
+		"id": "minecraft:exposed_cut_copper"
+	}
+}

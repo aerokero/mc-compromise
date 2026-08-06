@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "oxidized_copper_door",
+  "category": "building",
+  "ingredients": [
+    "minecraft:weathered_copper_door",
+    "minecraft:potion"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:oxidized_copper_door"
+  }
+}

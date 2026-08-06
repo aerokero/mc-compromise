@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "mud_bricks",
+	"category": "building",
+	"ingredients": [
+		"minecraft:mud_brick_slab",
+		"minecraft:mud_brick_slab"
+	],
+	"result": {
+		"id": "minecraft:mud_bricks",
+		"count": 1
+	}
+}

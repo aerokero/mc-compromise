@@ -1,0 +1,27 @@
+{
+	"gives": {
+		"id": "minecraft:emerald",
+		"count": 1
+	},
+	"given_item_modifiers": [],
+	"max_uses": 999,
+	"wants": {
+		"components": {
+			"minecraft:item_name": {
+				"translate": "item.kleispack.fish.northern_pike"
+			},
+			"minecraft:item_model": "northern_pike",
+			"minecraft:lore": [
+				{
+					"text": "⭐⭐⭐",
+					"color": "aqua",
+					"italic": false
+				}
+			]
+		},
+		"count": 4,
+		"id": "minecraft:salmon"
+	},
+	"reputation_discount": 0,
+	"xp": 75
+}

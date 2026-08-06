@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:stonecutting",
+	"group": "copper_bars",
+	"ingredient": "minecraft:copper_ingot",
+	"result": {
+		"count": 4,
+		"id": "minecraft:copper_bars"
+	}
+}

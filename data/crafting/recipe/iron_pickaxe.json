@@ -1,0 +1,53 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": "minecraft:stick",
+		"X": "iron_ingot"
+	},
+	"pattern": [
+		"XXX",
+		" # ",
+		" # "
+	],
+	"result": {
+		"components": {
+			"minecraft:tool": {
+				"rules": [
+					{
+						"blocks": "#minecraft:mineable/pickaxe",
+						"speed": 7,
+						"correct_for_drops": true
+					}
+				],
+				"default_mining_speed": 1,
+				"damage_per_block": 1
+			},
+			"minecraft:lore": [
+				{
+					"text": "⛏ 7",
+					"color": "blue",
+					"italic": false
+				},
+				{
+					"text": "🗡 4",
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"text": "🕒 1.2",
+					"color": "dark_green",
+					"italic": false
+				}
+			],
+			"minecraft:max_damage": 500,
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			}
+		},
+		"count": 1,
+		"id": "minecraft:iron_pickaxe"
+	}
+}

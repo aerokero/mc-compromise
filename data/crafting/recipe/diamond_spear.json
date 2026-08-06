@@ -1,0 +1,37 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": "minecraft:stick",
+		"X": "#minecraft:diamond_tool_materials"
+	},
+	"pattern": [
+		"  X",
+		" # ",
+		"#  "
+	],
+	"result": {
+		"components": {
+			"minecraft:lore": [
+				{
+					"text": "🗡 4",
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"text": "🕒 0.95",
+					"color": "dark_green",
+					"italic": false
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:max_damage": 2500
+		},
+		"count": 1,
+		"id": "minecraft:diamond_spear"
+	}
+}

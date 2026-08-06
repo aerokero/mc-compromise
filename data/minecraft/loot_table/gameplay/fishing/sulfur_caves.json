@@ -1,0 +1,38 @@
+{
+	"type": "minecraft:fishing",
+	"pools": [
+		{
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bone",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_model": "fish_bones",
+								"minecraft:item_name": {
+									"translate": "item.kleispack.fish.fish_bones"
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:gunpowder",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": 3
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "minecraft:gameplay/fishing/freshwater_temperate"
+}

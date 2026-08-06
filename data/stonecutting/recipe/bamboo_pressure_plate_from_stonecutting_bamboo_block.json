@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "bamboo_pressure_plate",
+  "ingredient": "#minecraft:bamboo_blocks",
+  "result": {
+    "count": 2,
+    "id": "minecraft:bamboo_pressure_plate"
+  }
+}

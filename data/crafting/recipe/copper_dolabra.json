@@ -1,0 +1,91 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": "minecraft:stick",
+		"X": "copper_ingot"
+	},
+	"pattern": [
+		"XXX",
+		"X# ",
+		" # "
+	],
+	"result": {
+		"components": {
+			"minecraft:item_name": {
+				"translate": "item.kleispack.copper_dolabra"
+			},
+			"minecraft:tool": {
+				"rules": [
+					{
+						"blocks": "#minecraft:emerald_ores",
+						"correct_for_drops": true
+					},
+					{
+						"blocks": "#minecraft:redstone_ores",
+						"correct_for_drops": false
+					},
+					{
+						"blocks": "#minecraft:diamond_ores",
+						"speed": 4,
+						"correct_for_drops": false
+					},
+					{
+						"blocks": "#minecraft:mineable/axe",
+						"speed": 5,
+						"correct_for_drops": true
+					},
+					{
+						"blocks": "#minecraft:mineable/pickaxe",
+						"speed": 5,
+						"correct_for_drops": true
+					}
+				],
+				"default_mining_speed": 1,
+				"damage_per_block": 1
+			},
+			"minecraft:lore": [
+				{
+					"text": "⛏ 5",
+					"color": "blue",
+					"italic": false
+				},
+				{
+					"text": "🗡 5",
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"text": "🕒 0.8",
+					"color": "dark_green",
+					"italic": false
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:item_model": "minecraft:copper_dolabra",
+			"minecraft:max_damage": 350,
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:attack_damage",
+					"id": "attack_damage",
+					"amount": 4,
+					"operation": "add_value",
+					"slot": "mainhand"
+				},
+				{
+					"type": "minecraft:attack_speed",
+					"id": "attack_speed",
+					"amount": -3.2,
+					"operation": "add_value",
+					"slot": "mainhand"
+				}
+			]
+		},
+		"count": 1,
+		"id": "minecraft:copper_axe"
+	}
+}

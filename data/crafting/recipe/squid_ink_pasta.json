@@ -1,0 +1,58 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:bowl",
+    "minecraft:rotten_flesh",
+    "minecraft:ink_sac",
+    "minecraft:beetroot",
+    [
+      "minecraft:cod",
+      "minecraft:salmon"
+    ]
+  ],
+  "result": {
+    "components": {
+      "minecraft:consumable": {
+        "on_consume_effects": [
+          {
+            "type": "minecraft:apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:saturation",
+                "duration": 2400,
+                "show_particles": false
+              },
+              {
+                "id": "minecraft:instant_health",
+                "amplifier": 2,
+                "show_particles": false
+              }
+            ]
+          }
+        ]
+      },
+      "minecraft:max_stack_size": 16,
+      "minecraft:custom_model_data": {
+        "strings": [
+          "squid_ink_pasta"
+        ]
+      },
+      "minecraft:item_name": "Squid Ink Pasta",
+      "minecraft:lore": [
+        {
+          "text": "❤❤❤❤",
+          "color": "red",
+          "italic": false
+        },
+        {
+          "text": "🍖 Full (2:00)",
+          "color": "dark_green",
+          "italic": false
+        }
+      ]
+    },
+    "count": 1,
+    "id": "minecraft:rabbit_stew"
+  }
+}

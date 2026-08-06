@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "honeycomb",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:honeycomb_block"
+	],
+	"result": {
+		"count": 4,
+		"id": "minecraft:honeycomb"
+	}
+}

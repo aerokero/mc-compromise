@@ -1,0 +1,32 @@
+{
+	"type": "minecraft:shearing",
+	"pools": [
+		{
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:black_wool",
+					"functions": []
+				}
+			],
+			"rolls": {
+				"type": "minecraft:uniform",
+				"max": 3,
+				"min": 1
+			},
+			"functions": [
+				{
+					"function": "minecraft:apply_bonus",
+					"enchantment": "minecraft:looting",
+					"formula": "minecraft:uniform_bonus_count",
+					"parameters": {
+						"bonusMultiplier": 3
+					}
+				}
+			],
+			"conditions": []
+		}
+	],
+	"random_sequence": "minecraft:shearing/sheep/black"
+}

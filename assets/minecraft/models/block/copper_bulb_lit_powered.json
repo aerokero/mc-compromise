@@ -1,0 +1,8 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/copper_bulb_powered",
+	"textures": {
+		"particle": "block/copper_bulb_lit_powered",
+		"side": "block/copper_bulb_lit_powered"
+	}
+}

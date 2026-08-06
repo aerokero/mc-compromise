@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "acacia_log",
+  "ingredient": [
+    "stripped_acacia_log",
+    "acacia_wood",
+    "stripped_acacia_wood"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:acacia_log"
+  }
+}

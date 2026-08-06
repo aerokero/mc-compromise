@@ -1,0 +1,48 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "minecraft:block/birch_fence_post"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/birch_fence_side",
+        "uvlock": false
+      },
+      "when": {
+        "north": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/birch_fence_side",
+        "uvlock": false,
+        "y": 90
+      },
+      "when": {
+        "east": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/birch_fence_side",
+        "uvlock": false,
+        "y": 180
+      },
+      "when": {
+        "south": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/birch_fence_side",
+        "uvlock": false,
+        "y": 270
+      },
+      "when": {
+        "west": "false"
+      }
+    }
+  ]
+}

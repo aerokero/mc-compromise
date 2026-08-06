@@ -1,0 +1,1 @@
+effect give @p minecraft:fire_resistance 1 0 true

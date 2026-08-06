@@ -1,0 +1,38 @@
+{
+	"given_item_modifiers": [
+		{
+			"decoration": "minecraft:red_x",
+			"destination": "minecraft:on_ancient_city_explorer_maps",
+			"function": "minecraft:exploration_map",
+			"search_radius": 100
+		},
+		{
+			"function": "minecraft:set_name",
+			"name": {
+				"translate": "filled_map.ancient_city"
+			},
+			"target": "item_name"
+		},
+		{
+			"function": "minecraft:filtered",
+			"item_filter": {
+				"items": "minecraft:filled_map",
+				"predicates": {
+					"minecraft:map_id": {}
+				}
+			},
+			"on_fail": {
+				"function": "minecraft:discard"
+			}
+		}
+	],
+	"gives": {
+		"id": "minecraft:map"
+	},
+	"max_uses": 999,
+	"wants": {
+		"count": 1,
+		"id": "minecraft:emerald"
+	},
+	"xp": 40
+}

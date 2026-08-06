@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:blasting",
+	"group": "sandstone",
+	"category": "blocks",
+	"cookingtime": 100,
+	"experience": 0.01,
+	"ingredient": "minecraft:smooth_sandstone",
+	"result": {
+		"id": "minecraft:sandstone"
+	}
+}

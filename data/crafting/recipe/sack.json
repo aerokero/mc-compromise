@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "shulker_box",
+	"category": "equipment",
+	"pattern": [
+		"LLL",
+		"LCL",
+		"LLL"
+	],
+	"key": {
+		"L": "minecraft:leather",
+		"C": "minecraft:chest"
+	},
+	"result": {
+		"id": "minecraft:shulker_box"
+	}
+}

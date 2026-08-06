@@ -1,0 +1,45 @@
+{
+	"type": "minecraft:smithing_transform",
+	"addition": "minecraft:netherite_ingot",
+	"base": "minecraft:diamond_spear",
+	"result": {
+		"id": "minecraft:netherite_spear",
+		"components": {
+			"minecraft:max_damage": 5000,
+			"minecraft:item_name": {
+				"translate": "item.minecraft.netherite_spear",
+				"color": "gold"
+			},
+			"minecraft:lore": [
+				{
+					"text": "🗡 4",
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"text": "🕒 0.95",
+					"color": "dark_green",
+					"italic": false
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:repairable": {
+				"items": [
+					"minecraft:diamond_block",
+					"minecraft:gold_block",
+					"minecraft:netherite_scrap"
+				]
+			},
+			"minecraft:enchantment_glint_override": false,
+			"minecraft:enchantments": {
+				"main:divinity": 1,
+				"minecraft:unbreaking": 2
+			}
+		}
+	},
+	"template": "minecraft:diamond"
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wheat",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:tall_dry_grass",
+    "minecraft:tall_dry_grass"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:wheat"
+  }
+}

@@ -1,0 +1,50 @@
+{
+	"gives": {
+		"components": {
+			"minecraft:entity_data": {
+				"id": "minecraft:villager",
+				"active_effects": [
+					{
+						"id": "minecraft:invisibility",
+						"amplifier": 0,
+						"duration": 1,
+						"show_particles": false
+					}
+				],
+				"VillagerData": {
+					"type": "minecraft:desert"
+				}
+			},
+			"minecraft:item_model": "minecraft:application",
+			"minecraft:item_name": "Asylum Seeker",
+			"minecraft:lore": [
+				{
+					"text": "Age: Adult",
+					"color": "dark_gray",
+					"italic": false
+				},
+				{
+					"text": "Culture: Desert",
+					"color": "dark_gray",
+					"italic": false
+				},
+				{
+					"text": "Cause of Emigration: Political Persecution",
+					"color": "dark_gray",
+					"italic": false
+				},
+				{
+					"text": "Click the ground to summon",
+					"color": "gray",
+					"italic": false
+				}
+			]
+		},
+		"count": 1,
+		"id": "minecraft:villager_spawn_egg"
+	},
+	"max_uses": 1,
+	"wants": {
+		"id": "minecraft:emerald"
+	}
+}

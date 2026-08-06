@@ -1,0 +1,2 @@
+execute if score @p sneaking matches 45 run particle minecraft:dust_plume ~ ~ ~ .5 .1 .5 .1 50
+execute if score @p sneaking matches 45 run playsound minecraft:entity.experience_orb.pickup player @p ~ ~ ~ 0.75

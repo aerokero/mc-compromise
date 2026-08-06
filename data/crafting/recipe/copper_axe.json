@@ -1,0 +1,54 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:stick",
+    "X": "copper_ingot"
+  },
+  "pattern": [
+    "XX",
+    "X#",
+    " #"
+  ],
+  "result": {
+    "components": {
+      "minecraft:item_model": "minecraft:copper_axe",
+      "minecraft:max_damage": 350,
+      "minecraft:tool": {
+        "rules": [
+          {
+            "blocks": "#minecraft:mineable/axe",
+            "speed": 6,
+            "correct_for_drops": true
+          }
+        ],
+        "default_mining_speed": 1,
+        "damage_per_block": 1
+      },
+      "minecraft:lore": [
+        {
+          "text": "⛏ 6",
+          "color": "blue",
+          "italic": false
+        },
+        {
+          "text": "🗡 9",
+          "color": "dark_green",
+          "italic": false
+        },
+        {
+          "text": "🕒 0.8",
+          "color": "dark_green",
+          "italic": false
+        }
+      ],
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
+      }
+    },
+    "count": 1,
+    "id": "minecraft:copper_axe"
+  }
+}

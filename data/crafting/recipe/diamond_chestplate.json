@@ -1,0 +1,36 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"X": "minecraft:diamond"
+	},
+	"pattern": [
+		"X X",
+		"XXX",
+		"XXX"
+	],
+	"result": {
+		"components": {
+			"minecraft:lore": [
+				{
+					"text": "⛊ 8",
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"text": "⛨ 2",
+					"color": "dark_green",
+					"italic": false
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:max_damage": 800
+		},
+		"count": 1,
+		"id": "minecraft:diamond_chestplate"
+	}
+}

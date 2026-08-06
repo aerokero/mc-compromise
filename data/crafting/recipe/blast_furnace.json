@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "blast_furnace",
+  "category": "misc",
+  "key": {
+    "#": "minecraft:smooth_stone",
+    "I": "minecraft:stone_bricks",
+    "C": "minecraft:campfire"
+  },
+  "pattern": [
+    "I I",
+    "I I",
+    "#C#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:blast_furnace"
+  }
+}

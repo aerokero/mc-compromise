@@ -1,0 +1,630 @@
+{
+    "credit": "Made with Blockbench",
+    "parent": "block/block",
+    "textures": {
+        "bottom": "block/crafter_bottom",
+        "top": "block/crafter_top_crafting",
+        "particle": "block/crafter_north",
+        "north": "block/crafter_north_crafting",
+        "south": "block/crafter_south_triggered",
+        "west": "block/crafter_west_crafting",
+        "east": "block/crafter_east_crafting"
+    },
+    "elements": [
+        {
+            "from": [
+                0,
+                0,
+                0
+            ],
+            "to": [
+                16,
+                16,
+                16
+            ],
+            "faces": {
+                "north": {
+                    "uv": [
+                        0,
+                        0,
+                        16,
+                        16
+                    ],
+                    "texture": "#north",
+                    "cullface": "north"
+                },
+                "east": {
+                    "uv": [
+                        0,
+                        0,
+                        16,
+                        16
+                    ],
+                    "texture": "#east",
+                    "cullface": "east"
+                },
+                "south": {
+                    "uv": [
+                        0,
+                        0,
+                        16,
+                        16
+                    ],
+                    "texture": "#south",
+                    "cullface": "south"
+                },
+                "west": {
+                    "uv": [
+                        0,
+                        0,
+                        16,
+                        16
+                    ],
+                    "texture": "#west",
+                    "cullface": "west"
+                },
+                "up": {
+                    "uv": [
+                        0,
+                        0,
+                        16,
+                        16
+                    ],
+                    "rotation": 180,
+                    "texture": "#top",
+                    "cullface": "up"
+                },
+                "down": {
+                    "uv": [
+                        0,
+                        0,
+                        16,
+                        16
+                    ],
+                    "texture": "#bottom",
+                    "cullface": "down"
+                }
+            }
+        },
+        {
+            "from": [
+                -0.0125,
+                14.009374999999999,
+                14.009374999999999
+            ],
+            "to": [
+                16.0125,
+                16.0125,
+                16.0125
+            ],
+            "light_emission": 15,
+            "faces": {
+                "east": {
+                    "uv": [
+                        0,
+                        0,
+                        2,
+                        2
+                    ],
+                    "texture": "#east",
+                    "cullface": "east",
+                    "rotation": 0
+                }
+            },
+            "name": "overlay_east_0"
+        },
+        {
+            "from": [
+                -0.0125,
+                14.009374999999999,
+                -0.0125
+            ],
+            "to": [
+                1.9906249999999999,
+                16.0125,
+                16.0125
+            ],
+            "light_emission": 15,
+            "faces": {
+                "south": {
+                    "uv": [
+                        0,
+                        0,
+                        2,
+                        2
+                    ],
+                    "texture": "#south",
+                    "cullface": "south",
+                    "rotation": 0
+                }
+            },
+            "name": "overlay_south_0"
+        },
+        {
+            "from": [
+                14.009374999999999,
+                14.009374999999999,
+                -0.0125
+            ],
+            "to": [
+                16.0125,
+                16.0125,
+                16.0125
+            ],
+            "light_emission": 15,
+            "faces": {
+                "south": {
+                    "uv": [
+                        14,
+                        0,
+                        16,
+                        2
+                    ],
+                    "texture": "#south",
+                    "cullface": "south",
+                    "rotation": 0
+                }
+            },
+            "name": "overlay_south_1"
+        },
+        {
+            "from": [
+                -0.0125,
+                14.009374999999999,
+                14.009374999999999
+            ],
+            "to": [
+                16.0125,
+                16.0125,
+                16.0125
+            ],
+            "light_emission": 15,
+            "faces": {
+                "west": {
+                    "uv": [
+                        14,
+                        0,
+                        16,
+                        2
+                    ],
+                    "texture": "#west",
+                    "cullface": "west",
+                    "rotation": 0
+                }
+            },
+            "name": "overlay_west_0"
+        },
+        {
+            "from": [
+                14.009374999999999,
+                -0.0125,
+                14.009374999999999
+            ],
+            "to": [
+                16.0125,
+                16.0125,
+                16.0125
+            ],
+            "light_emission": 15,
+            "faces": {
+                "up": {
+                    "uv": [
+                        0,
+                        0,
+                        2,
+                        2
+                    ],
+                    "texture": "#top",
+                    "cullface": "up",
+                    "rotation": 180
+                }
+            },
+            "name": "overlay_up_0"
+        },
+        {
+            "from": [
+                -0.0125,
+                -0.0125,
+                14.009374999999999
+            ],
+            "to": [
+                1.9906249999999999,
+                16.0125,
+                16.0125
+            ],
+            "light_emission": 15,
+            "faces": {
+                "up": {
+                    "uv": [
+                        14,
+                        0,
+                        16,
+                        2
+                    ],
+                    "texture": "#top",
+                    "cullface": "up",
+                    "rotation": 180
+                }
+            },
+            "name": "overlay_up_1"
+        },
+        {
+            "from": [
+                2.9921874999999996,
+                -0.0125,
+                12.00625
+            ],
+            "to": [
+                13.0078125,
+                16.0125,
+                13.0078125
+            ],
+            "light_emission": 15,
+            "faces": {
+                "up": {
+                    "uv": [
+                        3,
+                        3,
+                        13,
+                        4
+                    ],
+                    "texture": "#top",
+                    "cullface": "up",
+                    "rotation": 180
+                }
+            },
+            "name": "overlay_up_2"
+        },
+        {
+            "from": [
+                12.00625,
+                -0.0125,
+                2.9921874999999996
+            ],
+            "to": [
+                13.0078125,
+                16.0125,
+                12.00625
+            ],
+            "light_emission": 15,
+            "faces": {
+                "up": {
+                    "uv": [
+                        3,
+                        4,
+                        4,
+                        13
+                    ],
+                    "texture": "#top",
+                    "cullface": "up",
+                    "rotation": 180
+                }
+            },
+            "name": "overlay_up_3"
+        },
+        {
+            "from": [
+                9.0015625,
+                -0.0125,
+                2.9921874999999996
+            ],
+            "to": [
+                10.003125,
+                16.0125,
+                12.00625
+            ],
+            "light_emission": 15,
+            "faces": {
+                "up": {
+                    "uv": [
+                        6,
+                        4,
+                        7,
+                        13
+                    ],
+                    "texture": "#top",
+                    "cullface": "up",
+                    "rotation": 180
+                }
+            },
+            "name": "overlay_up_4"
+        },
+        {
+            "from": [
+                5.996874999999999,
+                -0.0125,
+                2.9921874999999996
+            ],
+            "to": [
+                6.998437499999999,
+                16.0125,
+                12.00625
+            ],
+            "light_emission": 15,
+            "faces": {
+                "up": {
+                    "uv": [
+                        9,
+                        4,
+                        10,
+                        13
+                    ],
+                    "texture": "#top",
+                    "cullface": "up",
+                    "rotation": 180
+                }
+            },
+            "name": "overlay_up_5"
+        },
+        {
+            "from": [
+                2.9921874999999996,
+                -0.0125,
+                2.9921874999999996
+            ],
+            "to": [
+                3.9937499999999995,
+                16.0125,
+                12.00625
+            ],
+            "light_emission": 15,
+            "faces": {
+                "up": {
+                    "uv": [
+                        12,
+                        4,
+                        13,
+                        13
+                    ],
+                    "texture": "#top",
+                    "cullface": "up",
+                    "rotation": 180
+                }
+            },
+            "name": "overlay_up_6"
+        },
+        {
+            "from": [
+                10.003125,
+                -0.0125,
+                9.0015625
+            ],
+            "to": [
+                12.00625,
+                16.0125,
+                10.003125
+            ],
+            "light_emission": 15,
+            "faces": {
+                "up": {
+                    "uv": [
+                        4,
+                        6,
+                        6,
+                        7
+                    ],
+                    "texture": "#top",
+                    "cullface": "up",
+                    "rotation": 180
+                }
+            },
+            "name": "overlay_up_7"
+        },
+        {
+            "from": [
+                6.998437499999999,
+                -0.0125,
+                9.0015625
+            ],
+            "to": [
+                9.0015625,
+                16.0125,
+                10.003125
+            ],
+            "light_emission": 15,
+            "faces": {
+                "up": {
+                    "uv": [
+                        7,
+                        6,
+                        9,
+                        7
+                    ],
+                    "texture": "#top",
+                    "cullface": "up",
+                    "rotation": 180
+                }
+            },
+            "name": "overlay_up_8"
+        },
+        {
+            "from": [
+                3.9937499999999995,
+                -0.0125,
+                9.0015625
+            ],
+            "to": [
+                5.996874999999999,
+                16.0125,
+                10.003125
+            ],
+            "light_emission": 15,
+            "faces": {
+                "up": {
+                    "uv": [
+                        10,
+                        6,
+                        12,
+                        7
+                    ],
+                    "texture": "#top",
+                    "cullface": "up",
+                    "rotation": 180
+                }
+            },
+            "name": "overlay_up_9"
+        },
+        {
+            "from": [
+                10.003125,
+                -0.0125,
+                5.996874999999999
+            ],
+            "to": [
+                12.00625,
+                16.0125,
+                6.998437499999999
+            ],
+            "light_emission": 15,
+            "faces": {
+                "up": {
+                    "uv": [
+                        4,
+                        9,
+                        6,
+                        10
+                    ],
+                    "texture": "#top",
+                    "cullface": "up",
+                    "rotation": 180
+                }
+            },
+            "name": "overlay_up_10"
+        },
+        {
+            "from": [
+                6.998437499999999,
+                -0.0125,
+                5.996874999999999
+            ],
+            "to": [
+                9.0015625,
+                16.0125,
+                6.998437499999999
+            ],
+            "light_emission": 15,
+            "faces": {
+                "up": {
+                    "uv": [
+                        7,
+                        9,
+                        9,
+                        10
+                    ],
+                    "texture": "#top",
+                    "cullface": "up",
+                    "rotation": 180
+                }
+            },
+            "name": "overlay_up_11"
+        },
+        {
+            "from": [
+                3.9937499999999995,
+                -0.0125,
+                5.996874999999999
+            ],
+            "to": [
+                5.996874999999999,
+                16.0125,
+                6.998437499999999
+            ],
+            "light_emission": 15,
+            "faces": {
+                "up": {
+                    "uv": [
+                        10,
+                        9,
+                        12,
+                        10
+                    ],
+                    "texture": "#top",
+                    "cullface": "up",
+                    "rotation": 180
+                }
+            },
+            "name": "overlay_up_12"
+        },
+        {
+            "from": [
+                10.003125,
+                -0.0125,
+                2.9921874999999996
+            ],
+            "to": [
+                12.00625,
+                16.0125,
+                3.9937499999999995
+            ],
+            "light_emission": 15,
+            "faces": {
+                "up": {
+                    "uv": [
+                        4,
+                        12,
+                        6,
+                        13
+                    ],
+                    "texture": "#top",
+                    "cullface": "up",
+                    "rotation": 180
+                }
+            },
+            "name": "overlay_up_13"
+        },
+        {
+            "from": [
+                6.998437499999999,
+                -0.0125,
+                2.9921874999999996
+            ],
+            "to": [
+                9.0015625,
+                16.0125,
+                3.9937499999999995
+            ],
+            "light_emission": 15,
+            "faces": {
+                "up": {
+                    "uv": [
+                        7,
+                        12,
+                        9,
+                        13
+                    ],
+                    "texture": "#top",
+                    "cullface": "up",
+                    "rotation": 180
+                }
+            },
+            "name": "overlay_up_14"
+        },
+        {
+            "from": [
+                3.9937499999999995,
+                -0.0125,
+                2.9921874999999996
+            ],
+            "to": [
+                5.996874999999999,
+                16.0125,
+                3.9937499999999995
+            ],
+            "light_emission": 15,
+            "faces": {
+                "up": {
+                    "uv": [
+                        10,
+                        12,
+                        12,
+                        13
+                    ],
+                    "texture": "#top",
+                    "cullface": "up",
+                    "rotation": 180
+                }
+            },
+            "name": "overlay_up_15"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+	"gives": {
+		"id": "minecraft:ender_pearl",
+		"components": {
+			"minecraft:max_stack_size": 64
+		},
+		"count": 16
+	},
+	"given_item_modifiers": [],
+	"max_uses": 999,
+	"reputation_discount": 0,
+	"wants": {
+		"count": 1,
+		"id": "minecraft:emerald"
+	},
+	"xp": 5
+}

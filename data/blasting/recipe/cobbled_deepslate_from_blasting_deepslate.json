@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:blasting",
+	"group": "cobbled_deepslate",
+	"category": "misc",
+	"ingredient": "minecraft:deepslate",
+	"result": {
+		"id": "minecraft:cobbled_deepslate"
+	},
+	"experience": 0.1,
+	"cookingtime": 100
+}

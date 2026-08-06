@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 3,
+  "group": "silver_ingot",
+  "ingredient": "minecraft:prismarine_shard",
+  "result": {
+    "id": "minecraft:prismarine_crystals"
+  }
+}

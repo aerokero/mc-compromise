@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "bamboo_button",
+  "ingredient": "#minecraft:bamboo_blocks",
+  "result": {
+    "count": 4,
+    "id": "minecraft:bamboo_button"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:blasting",
+  "group": "netherite_ingot",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.2,
+  "ingredient": [
+    "minecraft:netherite_pickaxe",
+    "minecraft:netherite_shovel",
+    "minecraft:netherite_axe",
+    "minecraft:netherite_hoe",
+    "minecraft:netherite_sword",
+    "minecraft:netherite_helmet",
+    "minecraft:netherite_chestplate",
+    "minecraft:netherite_leggings",
+    "minecraft:netherite_boots",
+    "minecraft:netherite_horse_armor",
+    "minecraft:netherite_nautilus_armor",
+    "minecraft:netherite_spear"
+  ],
+  "result": {
+    "id": "minecraft:netherite_ingot"
+  }
+}

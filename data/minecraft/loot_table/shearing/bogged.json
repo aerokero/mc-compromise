@@ -1,0 +1,44 @@
+{
+	"type": "minecraft:shearing",
+	"pools": [
+		{
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"add": false,
+							"count": 1,
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:brown_mushroom"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"add": false,
+							"count": 1,
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:red_mushroom"
+				}
+			],
+			"rolls": 2,
+			"functions": [
+				{
+					"function": "minecraft:apply_bonus",
+					"enchantment": "minecraft:looting",
+					"formula": "minecraft:uniform_bonus_count",
+					"parameters": {
+						"bonusMultiplier": 2
+					}
+				}
+			]
+		}
+	],
+	"random_sequence": "minecraft:shearing/bogged"
+}

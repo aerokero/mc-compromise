@@ -1,0 +1,15 @@
+{
+	"wants": {
+		"id": "minecraft:emerald",
+		"count": 1
+	},
+	"additional_wants": {
+		"id": "minecraft:jungle_sapling"
+	},
+	"gives": {
+		"id": "minecraft:jungle_log",
+		"count": 64
+	},
+	"max_uses": 999,
+	"xp": 30
+}

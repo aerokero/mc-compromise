@@ -1,0 +1,31 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"X": "minecraft:copper_ingot"
+	},
+	"pattern": [
+		"XXX",
+		"X X",
+		"X X"
+	],
+	"result": {
+		"components": {
+			"minecraft:lore": [
+				{
+					"text": "⛊ 3",
+					"color": "dark_green",
+					"italic": false
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:max_damage": 200
+		},
+		"count": 1,
+		"id": "minecraft:copper_leggings"
+	}
+}

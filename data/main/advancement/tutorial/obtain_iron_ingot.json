@@ -1,0 +1,33 @@
+{
+  "parent": "main:tutorial/obtain_blast_furnace",
+  "criteria": {
+    "get_iron": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_ingot"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Smelt an Iron Ingot, capable of being upgraded to Steel"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:iron_ingot"
+    },
+    "title": {
+      "text": "Acquire Hardware"
+    },
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "get_iron"
+    ]
+  ]
+}

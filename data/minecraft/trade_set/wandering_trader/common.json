@@ -1,0 +1,5 @@
+{
+  "amount": 3.0,
+  "random_sequence": "minecraft:trade_set/wandering_trader/common",
+  "trades": "#minecraft:wandering_trader/buying_discs"
+}

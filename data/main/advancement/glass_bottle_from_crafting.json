@@ -1,0 +1,614 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"made_black_concrete_from_concrete_powder": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:black_concrete_from_concrete_powder"
+			}
+			
+		},
+		"made_blue_concrete_from_concrete_powder": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:blue_concrete_from_concrete_powder"
+			}
+			
+		},
+		"made_brown_concrete_from_concrete_powder": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:brown_concrete_from_concrete_powder"
+			}
+			
+		},
+		"made_cheese": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "food:cheese"
+			}
+			
+		},
+		"made_clay_from_mud_and_potion": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:clay_from_mud_and_potion"
+			}
+			
+		},
+		"made_cyan_concrete_from_concrete_powder": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:cyan_concrete_from_concrete_powder"
+			}
+			
+		},
+		"made_exposed_chiseled_copper_from_patina": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:exposed_chiseled_copper_from_patina"
+			}
+			
+		},
+		"made_exposed_copper_bars_from_patina": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:exposed_copper_bars_from_patina"
+			}
+			
+		},
+		"made_exposed_copper_chain_from_patina": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:exposed_copper_chain_from_patina"
+			}
+			
+		},
+		"made_exposed_copper_door_from_patina": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:exposed_copper_door_from_patina"
+			}
+			
+		},
+		"made_exposed_copper_from_patina": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:exposed_copper_from_patina"
+			}
+			
+		},
+		"made_exposed_copper_golem_statue_from_patina": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:exposed_copper_golem_statue_from_patina"
+			}
+			
+		},
+		"made_exposed_copper_grate_from_patina": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:exposed_copper_grate_from_patina"
+			}
+			
+		},
+		"made_exposed_cut_copper_from_patina": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:exposed_cut_copper_from_patina"
+			}
+			
+		},
+		"made_exposed_cut_copper_slab_from_patina": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:exposed_cut_copper_slab_from_patina"
+			}
+			
+		},
+		"made_exposed_cut_copper_stairs_from_patina": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:exposed_cut_copper_stairs_from_patina"
+			}
+			
+		},
+		"made_glow_ink_sac_alternate": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:phosphor"
+			}
+			
+		},
+		"made_gray_concrete_from_concrete_powder": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:gray_concrete_from_concrete_powder"
+			}
+			
+		},
+		"made_green_concrete_from_concrete_powder": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:green_concrete_from_concrete_powder"
+			}
+			
+		},
+		"made_green_curry": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "food:uncooked_green_curry"
+			}
+			
+		},
+		"made_green_dye_from_patina": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:green_dye_from_patina"
+			}
+			
+		},
+		"made_light_blue_concrete_from_concrete_powder": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:light_blue_concrete_from_concrete_powder"
+			}
+			
+		},
+		"made_light_gray_concrete_from_concrete_powder": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:light_gray_concrete_from_concrete_powder"
+			}
+			
+		},
+		"made_lime_concrete_from_concrete_powder": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:lime_concrete_from_concrete_powder"
+			}
+			
+		},
+		"made_magenta_concrete_from_concrete_powder": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:magenta_concrete_from_concrete_powder"
+			}
+			
+		},
+		"made_mud_from_dirt_and_potion": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:mud_from_dirt_and_potion"
+			}
+			
+		},
+		"made_orange_concrete_from_concrete_powder": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:orange_concrete_from_concrete_powder"
+			}
+			
+		},
+		"made_oxidized_chiseled_copper_from_patina": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:oxidized_chiseled_copper_from_patina"
+			}
+			
+		},
+		"made_oxidized_copper_bars_from_patina": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:oxidized_copper_bars_from_patina"
+			}
+			
+		},
+		"made_oxidized_copper_chain_from_patina": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:oxidized_copper_chain_from_patina"
+			}
+			
+		},
+		"made_oxidized_copper_door_from_patina": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:oxidized_copper_door_from_patina"
+			}
+			
+		},
+		"made_oxidized_copper_from_patina": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:oxidized_copper_from_patina"
+			}
+			
+		},
+		"made_oxidized_copper_golem_statue_from_statue": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:oxidized_copper_golem_statue_from_statue"
+			}
+			
+		},
+		"made_oxidized_copper_grate_from_patina": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:oxidized_copper_grate_from_patina"
+			}
+			
+		},
+		"made_oxidized_cut_copper_from_patina": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:oxidized_cut_copper_from_patina"
+			}
+			
+		},
+		"made_oxidized_cut_copper_slab_from_patina": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:oxidized_cut_copper_slab_from_patina"
+			}
+			
+		},
+		"made_oxidized_cut_copper_stairs_from_patina": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:oxidized_cut_copper_stairs_from_patina"
+			}
+			
+		},
+		"made_paneer_makhani": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "food:uncooked_paneer_makhani"
+			}
+			
+		},
+		"made_purple_concrete_from_concrete_powder": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:purple_concrete_from_concrete_powder"
+			}
+			
+		},
+		"made_red_concrete_from_concrete_powder": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:red_concrete_from_concrete_powder"
+			}
+			
+		},
+		"made_weathered_chiseled_copper_from_patina": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:weathered_chiseled_copper_from_patina"
+			}
+			
+		},
+		"made_weathered_copper_bars_from_patina": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:weathered_copper_bars_from_patina"
+			}
+			
+		},
+		"made_weathered_copper_chain_from_patina": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:weathered_copper_chain_from_patina"
+			}
+			
+		},
+		"made_weathered_copper_door_from_patina": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:weathered_copper_door_from_patina"
+			}
+			
+		},
+		"made_weathered_copper_from_patina": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:weathered_copper_from_patina"
+			}
+			
+		},
+		"made_weathered_copper_golem_statue_from_patina": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:weathered_copper_golem_statue_from_patina"
+			}
+			
+		},
+		"made_weathered_copper_grate_from_patina": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:weathered_copper_grate_from_patina"
+			}
+			
+		},
+		"made_weathered_cut_copper_from_patina": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:weathered_cut_copper_from_patina"
+			}
+			
+		},
+		"made_weathered_cut_copper_slab_from_patina": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:weathered_cut_copper_slab_from_patina"
+			}
+			
+		},
+		"made_weathered_cut_copper_stairs_from_patina": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:weathered_cut_copper_stairs_from_patina"
+			}
+			
+		},
+		"made_white_concrete_from_concrete_powder": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:white_concrete_from_concrete_powder"
+			}
+			
+		},
+		"made_yellow_concrete_from_concrete_powder": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:yellow_concrete_from_concrete_powder"
+			}
+			
+		},
+		"made_stabilised_estus": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:stabilised_estus"
+			}
+			
+		},
+		"made_lily_of_the_valley": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:clone_lily_of_the_valley"
+			}
+			
+		},
+		"clone_cornflower": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:clone_cornflower"
+			}
+			
+		},
+		"clone_wither_rose": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:clone_wither_rose"
+			}
+			
+		},
+		"clone_spore_blossom": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:clone_spore_blossom"
+			}
+			
+		},
+		"clone_oxeye_daisy": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:clone_oxeye_daisy"
+			}
+			
+		},
+		"clone_open_eyeblossom": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:clone_open_eyeblossom"
+			}
+			
+		},
+		"clone_closed_eyeblossom": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:clone_closed_eyeblossom"
+			}
+			
+		},
+		"clone_poppy": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:clone_poppy"
+			}
+			
+		},
+		"clone_allium": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:clone_allium"
+			}
+			
+		},
+		"clone_blue_orchid": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:clone_blue_orchid"
+			}
+			
+		},
+		"clone_azure_bluet": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:clone_azure_bluet"
+			}
+			
+		},
+		"clone_red_tulip": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:clone_red_tulip"
+			}
+			
+		},
+		"clone_orange_tulip": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:clone_orange_tulip"
+			}
+			
+		},
+		"clone_pink_tulip": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:clone_pink_tulip"
+			}
+			
+		},
+		"clone_white_tulip": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:clone_white_tulip"
+			}
+			
+		},
+		"made_glow_berry_crumble": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "food:glow_berry_crumble"
+			}
+			
+		},
+		"made_latkes": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "food:latke"
+			}
+			
+		},
+		"made_warped_stroganoff": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "food:warped_stroganoff"
+			}
+			
+		},
+		"made_chorus_mochi": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "food:chorus_mochi"
+			}
+			
+		},
+		"made_dough_from_water": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "food:dough_from_water"
+			}
+			
+		},
+		"made_cake": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "food:cake"
+			}
+			
+		},
+		"made_knowledge_book": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "knowledge:knowledge_book"
+			}
+			
+		}
+	},
+	"requirements": [
+		[
+			"made_black_concrete_from_concrete_powder",
+			"made_blue_concrete_from_concrete_powder",
+			"made_brown_concrete_from_concrete_powder",
+			"made_cheese",
+			"made_clay_from_mud_and_potion",
+			"made_cyan_concrete_from_concrete_powder",
+			"made_exposed_chiseled_copper_from_patina",
+			"made_exposed_copper_bars_from_patina",
+			"made_exposed_copper_chain_from_patina",
+			"made_exposed_copper_door_from_patina",
+			"made_exposed_copper_from_patina",
+			"made_exposed_copper_golem_statue_from_patina",
+			"made_exposed_copper_grate_from_patina",
+			"made_exposed_cut_copper_from_patina",
+			"made_exposed_cut_copper_slab_from_patina",
+			"made_exposed_cut_copper_stairs_from_patina",
+			"made_glow_ink_sac_alternate",
+			"made_gray_concrete_from_concrete_powder",
+			"made_green_concrete_from_concrete_powder",
+			"made_green_curry",
+			"made_green_dye_from_patina",
+			"made_light_blue_concrete_from_concrete_powder",
+			"made_light_gray_concrete_from_concrete_powder",
+			"made_lime_concrete_from_concrete_powder",
+			"made_magenta_concrete_from_concrete_powder",
+			"made_orange_concrete_from_concrete_powder",
+			"made_oxidized_chiseled_copper_from_patina",
+			"made_oxidized_copper_bars_from_patina",
+			"made_oxidized_copper_chain_from_patina",
+			"made_oxidized_copper_door_from_patina",
+			"made_oxidized_copper_from_patina",
+			"made_oxidized_copper_golem_statue_from_statue",
+			"made_oxidized_copper_grate_from_patina",
+			"made_oxidized_cut_copper_from_patina",
+			"made_oxidized_cut_copper_slab_from_patina",
+			"made_oxidized_cut_copper_stairs_from_patina",
+			"made_paneer_makhani",
+			"made_purple_concrete_from_concrete_powder",
+			"made_red_concrete_from_concrete_powder",
+			"made_weathered_chiseled_copper_from_patina",
+			"made_weathered_copper_bars_from_patina",
+			"made_weathered_copper_chain_from_patina",
+			"made_weathered_copper_door_from_patina",
+			"made_weathered_copper_from_patina",
+			"made_weathered_copper_golem_statue_from_patina",
+			"made_weathered_copper_grate_from_patina",
+			"made_weathered_cut_copper_from_patina",
+			"made_weathered_cut_copper_slab_from_patina",
+			"made_weathered_cut_copper_stairs_from_patina",
+			"made_white_concrete_from_concrete_powder",
+			"made_yellow_concrete_from_concrete_powder",
+			"made_mud_from_dirt_and_potion",
+			"made_stabilised_estus",
+			"made_lily_of_the_valley",
+			"made_glow_berry_crumble",
+			"made_latkes",
+			"made_warped_stroganoff",
+			"made_chorus_mochi",
+			"clone_cornflower",
+			"clone_wither_rose",
+			"clone_spore_blossom",
+			"clone_oxeye_daisy",
+			"clone_open_eyeblossom",
+			"clone_closed_eyeblossom",
+			"clone_poppy",
+			"clone_allium",
+			"clone_blue_orchid",
+			"clone_azure_bluet",
+			"clone_red_tulip",
+			"clone_orange_tulip",
+			"clone_pink_tulip",
+			"clone_white_tulip",
+			"made_dough_from_water",
+			"made_cake",
+			"made_knowledge_book"
+		]
+	],
+	"rewards": {
+		"function": "main:advancement_glass_bottle_from_crafting",
+		"loot": [],
+		"recipes": []
+	}
+}

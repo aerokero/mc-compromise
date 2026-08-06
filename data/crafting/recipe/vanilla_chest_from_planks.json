@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "chest",
+	"category": "misc",
+	"key": {
+		"#": "#minecraft:planks"
+	},
+	"pattern": [
+		"###",
+		"# #",
+		"###"
+	],
+	"result": {
+		"count": 1,
+		"id": "minecraft:chest"
+	}
+}

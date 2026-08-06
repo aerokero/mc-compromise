@@ -1,0 +1,35 @@
+{
+	"parent": "main:tutorial/obtain_iron_ingot",
+	"criteria": {
+		"has_primary_material": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"components": {
+							"minecraft:item_model": "minecraft:piglin_brute_spawn_egg"
+						}
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"description": {
+			"text": "Craft Carbon-Rich Alloy with Iron and a Coal Block"
+		},
+		"icon": {
+			"count": 1,
+			"id": "minecraft:piglin_brute_spawn_egg"
+		},
+		"title": {
+			"text": "Getting an Upgrade"
+		},
+		"hidden": false
+	},
+	"requirements": [
+		[
+			"has_primary_material"
+		]
+	]
+}

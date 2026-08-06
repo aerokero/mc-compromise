@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "oxidized_copper",
+	"category": "building",
+	"ingredients": [
+		"minecraft:weathered_copper",
+		"minecraft:potion"
+	],
+	"result": {
+		"components": {},
+		"count": 1,
+		"id": "minecraft:oxidized_copper"
+	}
+}

@@ -1,0 +1,53 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": "minecraft:stick",
+		"X": "#minecraft:diamond_tool_materials"
+	},
+	"pattern": [
+		"X",
+		"#",
+		"#"
+	],
+	"result": {
+		"components": {
+			"minecraft:max_damage": 2500,
+			"minecraft:tool": {
+				"rules": [
+					{
+						"blocks": "#minecraft:mineable/shovel",
+						"speed": 9,
+						"correct_for_drops": true
+					}
+				],
+				"default_mining_speed": 1,
+				"damage_per_block": 1
+			},
+			"minecraft:lore": [
+				{
+					"text": "⛏ 9",
+					"color": "blue",
+					"italic": false
+				},
+				{
+					"text": "🗡 5.5",
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"text": "🕒 1",
+					"color": "dark_green",
+					"italic": false
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			}
+		},
+		"count": 1,
+		"id": "minecraft:diamond_shovel"
+	}
+}

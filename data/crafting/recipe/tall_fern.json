@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"group": "tall_fern",
+	"ingredients": [
+		"fern",
+		"fern"
+	],
+	"result": {
+		"count": 1,
+		"id": "minecraft:large_fern"
+	}
+}

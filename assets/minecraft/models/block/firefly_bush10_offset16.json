@@ -1,0 +1,6 @@
+{
+	"parent": "block/firefly_bush_offset16",
+	"textures": {
+		"cross_emissive": "block/firefly_bush_emissive10"
+	}
+}

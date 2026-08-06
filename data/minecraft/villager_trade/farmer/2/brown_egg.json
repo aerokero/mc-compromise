@@ -1,0 +1,29 @@
+{
+	"gives": {
+		"id": "minecraft:chicken_spawn_egg",
+		"components": {
+			"minecraft:item_model": "minecraft:brown_egg",
+			"minecraft:entity_data": {
+				"id": "minecraft:chicken",
+				"Age": -24000,
+				"variant": "minecraft:warm"
+			},
+			"minecraft:item_name": {
+				"translate": "item.kleispack.fertilised_brown_egg"
+			}
+		},
+		"count": 1
+	},
+	"max_uses": 999,
+	"wants": {
+		"count": 1,
+		"id": "minecraft:emerald"
+	},
+	"xp": 30,
+	"merchant_predicate": {
+		"condition": "minecraft:location_check",
+		"predicate": {
+			"biomes": "#minecraft:spawns_warm_variant_farm_animals"
+		}
+	}
+}

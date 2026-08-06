@@ -1,0 +1,33 @@
+{
+  "parent": "main:tutorial/obtain_smooth_stone",
+  "criteria": {
+    "get_blast_furnace": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:blast_furnace"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Blast Furnaces burn hotter than Kilns, able to melt more durable Metals"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:blast_furnace"
+    },
+    "title": {
+      "text": "Burgeoning Metallurge"
+    },
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "get_blast_furnace"
+    ]
+  ]
+}

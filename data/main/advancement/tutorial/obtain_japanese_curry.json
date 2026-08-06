@@ -1,0 +1,32 @@
+{
+	"parent": "main:tutorial/obtain_bowl",
+	"criteria": {
+		"get_food": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "food:japanese_curry"
+			}
+		}
+	},
+	"display": {
+		"description": {
+			"text": "Make Japanese Curry"
+		},
+		"icon": {
+			"components": {
+				"minecraft:item_model": "minecraft:japanese_curry"
+			},
+			"count": 1,
+			"id": "minecraft:rabbit_stew"
+		},
+		"title": {
+			"text": "Hearty Curry"
+		},
+		"hidden": false
+	},
+	"requirements": [
+		[
+			"get_food"
+		]
+	]
+}

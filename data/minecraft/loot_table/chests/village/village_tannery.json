@@ -1,0 +1,76 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 3,
+								"min": 1
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:leather"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:food/bread",
+					"weight": 10
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:saddle"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 2,
+								"min": 1
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:emerald"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:chests/equipment/sturdy_leather",
+					"weight": 4
+				}
+			],
+			"rolls": {
+				"type": "minecraft:uniform",
+				"max": 8,
+				"min": 5
+			}
+		},
+		{
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"count": 1,
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:bundle"
+				},
+				{
+					"type": "minecraft:empty",
+					"weight": 2
+				}
+			],
+			"rolls": 1
+		}
+	],
+	"random_sequence": "minecraft:chests/village/village_tannery"
+}

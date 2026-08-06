@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "bamboo_mosaic_stairs",
+  "ingredient": [
+    "minecraft:bamboo_mosaic"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:bamboo_mosaic_stairs"
+  }
+}

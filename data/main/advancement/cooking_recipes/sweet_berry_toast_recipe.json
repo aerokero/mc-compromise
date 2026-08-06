@@ -1,0 +1,27 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_the_recipe_paper": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"components": {
+							"minecraft:item_model": "minecraft:sweet_berry_toast_recipe"
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_the_recipe_paper"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"food:sweet_berry_toast"
+		]
+	}
+}

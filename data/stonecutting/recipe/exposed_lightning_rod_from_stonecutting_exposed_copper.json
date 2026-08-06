@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "exposed_lightning_rod",
+  "ingredient": "minecraft:exposed_copper",
+  "result": {
+    "count": 4,
+    "id": "minecraft:exposed_lightning_rod"
+  }
+}

@@ -1,0 +1,49 @@
+{
+	"anvil_cost": 0,
+	"description": {
+		"translate": "enchantment.kleispack.warding2"
+	},
+	"effects": {
+		"minecraft:tick": [
+			{
+				"requirements": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {}
+				},
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "main:enchantment_effects/warding2"
+				}
+			}
+		]
+	},
+	"max_cost": {
+		"base": 15,
+		"per_level_above_first": 0
+	},
+	"max_level": 1,
+	"min_cost": {
+		"base": 1,
+		"per_level_above_first": 0
+	},
+	"slots": [
+		"mainhand",
+		"offhand"
+	],
+	"supported_items": [
+		"minecraft:wooden_sword",
+		"minecraft:stone_sword",
+		"minecraft:iron_sword",
+		"minecraft:diamond_sword",
+		"minecraft:netherite_sword",
+		"minecraft:popped_chorus_fruit",
+		"minecraft:shield",
+		"minecraft:wooden_axe",
+		"minecraft:stone_axe",
+		"minecraft:iron_axe",
+		"minecraft:diamond_axe",
+		"minecraft:netherite_axe"
+	],
+	"weight": 1
+}

@@ -1,0 +1,18 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"inventory_changed": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {}
+		}
+	},
+	"requirements": [
+		[
+			"inventory_changed"
+		]
+	],
+	"rewards": {
+		"recipes": [],
+		"function": "main:mechanic/check_anvil_interaction"
+	}
+}

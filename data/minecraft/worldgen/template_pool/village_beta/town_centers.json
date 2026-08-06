@@ -1,0 +1,23 @@
+{
+	"name": "minecraft:village_beta/town_centers",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "minecraft:village_beta/town_centers/well",
+				"processors": {
+					"processors": [
+						{
+							"processor_type": "minecraft:gravity",
+							"heightmap": "MOTION_BLOCKING",
+							"offset": -8
+						}
+					]
+				}
+			}
+		}
+	]
+}

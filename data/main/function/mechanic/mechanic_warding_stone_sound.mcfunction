@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:armor_stand,tag=WardingStone] unless entity @s[type=minecraft:armor_stand,tag=WardingStoneSetup] run execute at @s[type=minecraft:armor_stand,tag=WardingStone] run playsound custom:bonfire block @a ~ ~ ~ .25

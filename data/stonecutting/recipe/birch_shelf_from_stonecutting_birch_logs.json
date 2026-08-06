@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:stonecutting",
+	"group": "birch_shelf",
+	"ingredient": "#minecraft:birch_logs",
+	"result": {
+		"count": 1,
+		"id": "minecraft:birch_shelf"
+	}
+}

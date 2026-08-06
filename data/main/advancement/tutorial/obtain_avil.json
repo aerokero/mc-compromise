@@ -1,0 +1,33 @@
+{
+  "parent": "main:tutorial/obtain_steel",
+  "criteria": {
+    "get_smithing": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:anvil"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Anvils, made from Steel or Iron blocks, can repair Equipment with its corresponding Base-Metal Nugget or Ingot."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:anvil"
+    },
+    "title": {
+      "text": "Repair & Reuse"
+    },
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "get_smithing"
+    ]
+  ]
+}

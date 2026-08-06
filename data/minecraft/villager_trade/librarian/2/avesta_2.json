@@ -1,0 +1,39 @@
+{
+	"gives": {
+		"id": "minecraft:enchanted_book",
+		"components": {
+			"minecraft:item_name": {
+				"translate": "item.kleispack.ofuda"
+			},
+			"minecraft:lore": [
+				{
+					"translate": "item.kleispack.knowledge.efficient_durability",
+					"color": "dark_gray",
+					"italic": false
+				}
+			],
+			"minecraft:item_model": "minecraft:ofuda",
+			"minecraft:stored_enchantments": {
+				"minecraft:efficiency": 2,
+				"minecraft:unbreaking": 1
+			},
+			"minecraft:max_stack_size": 64
+		}
+	},
+	"given_item_modifiers": [],
+	"max_uses": 999,
+	"reputation_discount": 0,
+	"wants": {
+		"count": 1,
+		"id": "minecraft:book",
+		"components": {
+			"minecraft:item_name": {
+				"translate": "item.kleispack.avesta"
+			},
+			"minecraft:rarity": "rare",
+			"minecraft:max_stack_size": 64,
+			"minecraft:item_model": "minecraft:avesta"
+		}
+	},
+	"xp": 30
+}

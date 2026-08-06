@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:stonecutting",
+	"group": "acacia_shelf",
+	"ingredient": "#minecraft:acacia_logs",
+	"result": {
+		"count": 1,
+		"id": "minecraft:acacia_shelf"
+	}
+}

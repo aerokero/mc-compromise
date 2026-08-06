@@ -1,0 +1,69 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 3,
+								"min": 1
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:diamond"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"count": 1,
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:compass"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [],
+					"name": "minecraft:water_bucket"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 15,
+								"min": 5
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:spruce_planks",
+					"weight": 10
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:food/baked_potato",
+					"weight": 10
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:chests/equipment/diamond_tools_damaged",
+					"weight": 10
+				}
+			],
+			"rolls": {
+				"type": "minecraft:uniform",
+				"max": 7,
+				"min": 4
+			}
+		}
+	],
+	"random_sequence": "minecraft:chests/trial_chambers/intersection_barrel"
+}

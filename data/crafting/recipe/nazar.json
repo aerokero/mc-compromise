@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "nazar",
+	"category": "equipment",
+	"key": {
+		"X": "minecraft:lapis_lazuli",
+		"W": "white_dye",
+		"E": "minecraft:glowstone_dust"
+	},
+	"pattern": [
+		"EXX",
+		"XWX",
+		"XXE"
+	],
+	"result": {
+		"components": {
+			"minecraft:enchantments": {
+				"main:warding1": 1
+			}
+		},
+		"count": 1,
+		"id": "minecraft:glistering_melon_slice"
+	}
+}

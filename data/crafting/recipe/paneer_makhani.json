@@ -1,0 +1,72 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": "minecraft:cookie",
+    "E": "minecraft:glowstone_dust",
+    "T": "minecraft:beetroot",
+    "S": "minecraft:sugar",
+    "B": "minecraft:bowl",
+    "M": "minecraft:beetroot_soup"
+  },
+  "pattern": [
+    "EMS",
+    "TPT",
+    " B "
+  ],
+  "result": {
+    "components": {
+      "minecraft:consumable": {
+        "on_consume_effects": [
+          {
+            "type": "minecraft:apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:instant_health",
+                "amplifier": 1,
+                "duration": 1,
+                "show_particles": false
+              },
+              {
+                "id": "minecraft:saturation",
+                "duration": 2400,
+                "show_particles": false
+              },
+              {
+                "id": "minecraft:regeneration",
+                "duration": 1200,
+                "show_particles": false
+              }
+            ]
+          }
+        ]
+      },
+      "minecraft:max_stack_size": 16,
+      "minecraft:custom_model_data": {
+        "strings": [
+          "paneer_makhani"
+        ]
+      },
+      "minecraft:item_name": "Paneer Makhani",
+      "minecraft:lore": [
+        {
+          "text": "❤❤❤❤",
+          "color": "red",
+          "italic": false
+        },
+        {
+          "text": "🍖 Full (2:00)",
+          "color": "dark_green",
+          "italic": false
+        },
+        {
+          "text": "❤ Comfort (1:00)",
+          "color": "#e85e8f",
+          "italic": false
+        }
+      ]
+    },
+    "count": 1,
+    "id": "minecraft:rabbit_stew"
+  }
+}

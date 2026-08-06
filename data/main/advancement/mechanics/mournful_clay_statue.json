@@ -1,0 +1,24 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"used_statue": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "mournful_clay_statue"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"used_statue"
+		]
+	],
+	"rewards": {
+		"recipes": [],
+		"function": "main:mechanic/mournful_clay_statue"
+	}
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "prismarine",
+  "category": "building",
+  "key": {
+    "#": "minecraft:calcite",
+    "D": "minecraft:raw_copper"
+  },
+  "pattern": [
+    "#D",
+    "D#"
+  ],
+  "result": {
+    "count": 2,
+    "id": "minecraft:prismarine"
+  }
+}

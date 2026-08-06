@@ -1,0 +1,36 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"ESE",
+		"SBS",
+		"EIE"
+	],
+	"key": {
+		"S": "minecraft:prismarine_crystals",
+		"B": "minecraft:knowledge_book",
+		"I": "iron_ingot",
+		"E": "minecraft:glowstone_dust"
+	},
+	"result": {
+		"components": {
+			"minecraft:stored_enchantments": {
+				"minecraft:smite": 3,
+				"minecraft:channeling": 1
+			},
+			"minecraft:item_name": {
+				"translate": "item.kleispack.knowledge"
+			},
+			"minecraft:lore": [
+				{
+					"translate": "item.kleispack.knowledge.storm_channeling",
+					"color": "dark_gray",
+					"italic": false
+				}
+			],
+			"minecraft:item_model": "minecraft:knowledge_storm_channeling"
+		},
+		"count": 1,
+		"id": "minecraft:enchanted_book"
+	}
+}

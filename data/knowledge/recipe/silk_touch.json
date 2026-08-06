@@ -1,0 +1,34 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"ASA",
+		"SBS",
+		"ASA"
+	],
+	"key": {
+		"S": "minecraft:shulker_shell",
+		"B": "minecraft:knowledge_book",
+		"A": "minecraft:glowstone_dust"
+	},
+	"result": {
+		"components": {
+			"minecraft:stored_enchantments": {
+				"minecraft:silk_touch": 1
+			},
+			"minecraft:item_name": {
+				"translate": "item.kleispack.knowledge"
+			},
+			"minecraft:lore": [
+				{
+					"translate": "item.kleispack.knowledge.silk_touch",
+					"color": "dark_gray",
+					"italic": false
+				}
+			],
+			"minecraft:item_model": "minecraft:knowledge_silk_touch"
+		},
+		"count": 1,
+		"id": "minecraft:enchanted_book"
+	}
+}

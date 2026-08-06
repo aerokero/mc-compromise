@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:consumable": {
+              "consume_seconds": 9999,
+              "animation": "spear"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "main:backend_using_custom_item"
+  }
+}

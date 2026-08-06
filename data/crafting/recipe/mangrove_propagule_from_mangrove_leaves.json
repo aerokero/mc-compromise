@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "mangrove_propagule",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:mangrove_leaves"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:mangrove_propagule"
+  }
+}

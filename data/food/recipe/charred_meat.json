@@ -1,0 +1,51 @@
+{
+	"type": "minecraft:smoking",
+	"category": "food",
+	"cookingtime": 100,
+	"experience": 0.35,
+	"ingredient": [
+		"minecraft:rabbit",
+		"minecraft:chicken",
+		"minecraft:beef",
+		"minecraft:porkchop",
+		"minecraft:mutton"
+	],
+	"result": {
+		"id": "minecraft:poisonous_potato",
+		"components": {
+			"minecraft:lore": [
+				{
+					"text": "❤",
+					"color": "red",
+					"italic": false
+				}
+			],
+			"minecraft:consumable": {
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+							{
+								"id": "minecraft:regeneration",
+								"amplifier": 3,
+								"duration": 15,
+								"show_particles": false,
+								"show_icon": false
+							}
+						],
+						"probability": 1
+					}
+				]
+			},
+			"minecraft:item_model": "minecraft:charred_meat",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.charred_meat"
+			},
+			"minecraft:food": {
+				"nutrition": 0,
+				"saturation": 0,
+				"can_always_eat": true
+			}
+		}
+	}
+}

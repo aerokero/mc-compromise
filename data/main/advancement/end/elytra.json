@@ -1,0 +1,33 @@
+{
+	"parent": "main:end/kill_dragon",
+	"criteria": {
+		"elytra": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:elytra"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"display": {
+		"description": {
+			"text": "Seize the work of Daedalus"
+		},
+		"frame": "goal",
+		"icon": {
+			"count": 1,
+			"id": "minecraft:elytra"
+		},
+		"title": {
+			"text": "Wax Wings"
+		}
+	},
+	"requirements": [
+		[
+			"elytra"
+		]
+	]
+}

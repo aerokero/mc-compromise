@@ -1,0 +1,39 @@
+{
+	"gives": {
+		"id": "minecraft:chicken_spawn_egg",
+		"components": {
+			"minecraft:entity_data": {
+				"id": "minecraft:item",
+				"Item": {
+					"id": "minecraft:andesite",
+					"count": 64
+				}
+			},
+			"minecraft:item_name": {
+				"translate": "item.kleispack.trade.bulk_andesite"
+			},
+			"minecraft:item_model": "minecraft:andesite",
+			"minecraft:lore": [
+				{
+					"translate": "item.kleispack.trade.bulk_andesite.desc",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"translate": "item.kleispack.trade.bulk.desc",
+					"color": "dark_gray",
+					"italic": false
+				}
+			]
+		},
+		"count": 4
+	},
+	"given_item_modifiers": [],
+	"max_uses": 999,
+	"reputation_discount": 0,
+	"wants": {
+		"count": 1,
+		"id": "minecraft:emerald"
+	},
+	"xp": 5
+}

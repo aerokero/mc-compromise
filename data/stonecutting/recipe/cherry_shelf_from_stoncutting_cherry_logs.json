@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:stonecutting",
+	"group": "cherry_shelf",
+	"ingredient": "#minecraft:cherry_logs",
+	"result": {
+		"count": 1,
+		"id": "minecraft:cherry_shelf"
+	}
+}

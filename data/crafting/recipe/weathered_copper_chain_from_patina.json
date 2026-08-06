@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "weathered_copper_chain",
+  "category": "building",
+  "ingredients": [
+    "minecraft:exposed_copper_chain",
+    "minecraft:potion"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:weathered_copper_chain"
+  }
+}

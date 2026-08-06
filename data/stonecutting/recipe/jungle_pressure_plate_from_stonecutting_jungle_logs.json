@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "jungle_pressure_plate",
+  "ingredient": "#minecraft:jungle_logs",
+  "result": {
+    "count": 4,
+    "id": "minecraft:jungle_pressure_plate"
+  }
+}

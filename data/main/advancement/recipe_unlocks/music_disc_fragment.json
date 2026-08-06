@@ -1,0 +1,36 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_primary_material": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:disc_fragment_5"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"requirements": [
+		[
+			"has_primary_material"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"crafting:music_disc_11",
+			"crafting:music_disc_13",
+			"crafting:music_disc_blocks",
+			"crafting:music_disc_far",
+			"crafting:music_disc_cat",
+			"crafting:music_disc_chirp",
+			"crafting:music_disc_mall",
+			"crafting:music_disc_mellohi",
+			"crafting:music_disc_stal",
+			"crafting:music_disc_strad",
+			"crafting:music_disc_wait",
+			"crafting:music_disc_ward"
+		]
+	}
+}

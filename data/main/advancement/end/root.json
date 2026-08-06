@@ -1,0 +1,30 @@
+{
+	"criteria": {
+		"entered_end": {
+			"conditions": {
+				"to": "minecraft:the_end"
+			},
+			"trigger": "minecraft:changed_dimension"
+		}
+	},
+	"display": {
+		"announce_to_chat": false,
+		"background": "minecraft:block/black_concrete",
+		"description": {
+			"text": ""
+		},
+		"icon": {
+			"count": 1,
+			"id": "minecraft:end_portal_frame"
+		},
+		"show_toast": false,
+		"title": {
+			"text": "To Dreams"
+		}
+	},
+	"requirements": [
+		[
+			"entered_end"
+		]
+	]
+}

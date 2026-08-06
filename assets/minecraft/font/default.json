@@ -1,0 +1,13 @@
+{
+     "providers": [
+         {
+            "type": "bitmap",
+            "file": "minecraft:font/misc/hmmm.png",
+            "height": 240,
+            "ascent": 32,
+            "chars": [
+				"\ue779"
+			]
+        }
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"wants": {
+		"id": "minecraft:emerald",
+		"count": 1
+	},
+	"gives": {
+		"id": "minecraft:oak_log",
+		"count": 64
+	},
+	"max_uses": 999,
+	"xp": 10
+}

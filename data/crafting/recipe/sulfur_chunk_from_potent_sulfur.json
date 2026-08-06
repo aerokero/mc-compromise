@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:potent_sulfur"
+	],
+	"result": {
+		"id": "minecraft:gunpowder",
+		"count": 9
+	}
+}

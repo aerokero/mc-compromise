@@ -1,0 +1,33 @@
+{
+  "parent": "main:tutorial/obtain_steel",
+  "criteria": {
+    "get_smithing": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:smithing_table"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Smithing Tables allow you to modify Base-Metal tools using Alloys"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:smithing_table"
+    },
+    "title": {
+      "text": "Master Metallurge"
+    },
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "get_smithing"
+    ]
+  ]
+}

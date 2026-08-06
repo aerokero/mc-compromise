@@ -1,0 +1,52 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": "minecraft:stick",
+		"X": "iron_ingot"
+	},
+	"pattern": [
+		"XX ",
+		" # ",
+		" # "
+	],
+	"result": {
+		"components": {
+			"minecraft:tool": {
+				"rules": [
+					{
+						"blocks": "#minecraft:mineable/hoe",
+						"speed": 8
+					}
+				],
+				"default_mining_speed": 1,
+				"damage_per_block": 1
+			},
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:lore": [
+				{
+					"text": "⛏ 8",
+					"color": "blue",
+					"italic": false
+				},
+				{
+					"text": "🗡 1",
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"text": "🕒 3",
+					"color": "dark_green",
+					"italic": false
+				}
+			],
+			"minecraft:max_damage": 500
+		},
+		"count": 1,
+		"id": "minecraft:iron_hoe"
+	}
+}

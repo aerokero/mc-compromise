@@ -1,0 +1,358 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:kleis_items/ruby"
+				}
+			]
+		},
+		{
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"count": 1,
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:netherite_scrap",
+					"weight": 8
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"count": {
+								"min": 2,
+								"max": 3
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:ancient_debris",
+					"weight": 12
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"count": 1,
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:saddle",
+					"weight": 12
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 4,
+								"min": 2
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:gold_block",
+					"weight": 16
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 17,
+								"min": 8
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:brown_mushroom",
+					"weight": 7
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"count": 1,
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:golden_apple",
+					"weight": 10
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:chests/equipment/diamond_tools_damaged",
+					"weight": 10
+				}
+			],
+			"rolls": {
+				"min": 1,
+				"max": 3
+			}
+		},
+		{
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 5,
+								"min": 1
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:crying_obsidian"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 6,
+								"min": 3
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:glowstone"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 5,
+								"min": 2
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:gilded_blackstone"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 7,
+								"min": 2
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:soul_sand"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 7,
+								"min": 2
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:crimson_nylium"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 8,
+								"min": 2
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:gold_nugget"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 3,
+								"min": 1
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:leather"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 17,
+								"min": 5
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:arrow"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 8,
+								"min": 3
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:string"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 5,
+								"min": 2
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:porkchop"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:lore": [
+									{
+										"text": "❤❤",
+										"color": "red",
+										"italic": false
+									}
+								],
+								"minecraft:consumable": {
+									"on_consume_effects": [
+										{
+											"type": "minecraft:apply_effects",
+											"effects": [
+												{
+													"id": "minecraft:regeneration",
+													"amplifier": 2,
+													"duration": 48,
+													"show_particles": false,
+													"show_icon": false
+												}
+											],
+											"probability": 1
+										}
+									]
+								},
+								"minecraft:item_model": "minecraft:cooked_porkchop",
+								"minecraft:item_name": "Cooked Porkchop",
+								"minecraft:food": {
+									"nutrition": 0,
+									"saturation": 0,
+									"can_always_eat": true
+								}
+							}
+						},
+						{
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 5,
+								"min": 2
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:cooked_porkchop"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 7,
+								"min": 2
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:crimson_fungus"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 7,
+								"min": 2
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:crimson_roots"
+				}
+			],
+			"rolls": {
+				"type": "minecraft:uniform",
+				"max": 4,
+				"min": 3
+			}
+		},
+		{
+			"entries": [
+				{
+					"type": "minecraft:empty",
+					"weight": 11
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:snout_armor_trim_smithing_template"
+				}
+			],
+			"rolls": 1
+		},
+		{
+			"entries": [
+				{
+					"type": "minecraft:empty",
+					"weight": 9
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:netherite_upgrade_smithing_template"
+				}
+			],
+			"rolls": 1
+		}
+	],
+	"random_sequence": "minecraft:chests/bastion_hoglin_stable"
+}

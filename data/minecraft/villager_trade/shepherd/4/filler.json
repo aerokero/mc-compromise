@@ -1,0 +1,17 @@
+{
+	"gives": {
+		"id": "minecraft:emerald"
+	},
+	"given_item_modifiers": [
+		{
+			"function": "minecraft:discard"
+		}
+	],
+	"max_uses": 16,
+	"reputation_discount": 0.05,
+	"wants": {
+		"count": 18,
+		"id": "minecraft:black_wool"
+	},
+	"xp": 2
+}

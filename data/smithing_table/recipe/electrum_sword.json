@@ -1,0 +1,61 @@
+{
+	"type": "minecraft:smithing_transform",
+	"addition": "minecraft:heart_of_the_sea",
+	"base": "minecraft:diamond_sword",
+	"result": {
+		"id": "minecraft:stone_sword",
+		"components": {
+			"minecraft:max_damage": 3000,
+			"minecraft:lore": [
+				{
+					"text": "🗡 7",
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"text": "🕒 1.9",
+					"color": "dark_green",
+					"italic": false
+				}
+			],
+			"minecraft:item_name": {
+				"translate": "item.kleispack.electrum_sword",
+				"color": "yellow"
+			},
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:attack_damage",
+					"id": "attack_damage",
+					"amount": 6,
+					"operation": "add_value",
+					"slot": "mainhand"
+				},
+				{
+					"type": "minecraft:attack_speed",
+					"id": "attack_speed",
+					"amount": -2.1,
+					"operation": "add_value",
+					"slot": "mainhand"
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:enchantments": {
+				"minecraft:looting": 2,
+				"minecraft:smite": 2,
+				"main:warding2": 1
+			},
+			"minecraft:repairable": {
+				"items": [
+					"minecraft:diamond",
+					"minecraft:gold_ingot"
+				]
+			},
+			"minecraft:item_model": "minecraft:electrum_sword"
+		}
+	},
+	"template": "minecraft:diamond"
+}

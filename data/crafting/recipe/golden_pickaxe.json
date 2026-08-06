@@ -1,0 +1,61 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": "minecraft:stick",
+		"X": "#minecraft:gold_tool_materials"
+	},
+	"pattern": [
+		"XXX",
+		" # ",
+		" # "
+	],
+	"result": {
+		"components": {
+			"minecraft:max_damage": 350,
+			"minecraft:enchantments": {
+				"minecraft:fortune": 1
+			},
+			"minecraft:lore": [
+				{
+					"text": "⛏ 12",
+					"color": "blue",
+					"italic": false
+				},
+				{
+					"text": "🗡 2",
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"text": "🕒 1.2",
+					"color": "dark_green",
+					"italic": false
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:enchantment_glint_override": false,
+			"minecraft:tool": {
+				"rules": [
+					{
+						"blocks": "#minecraft:mineable/pickaxe",
+						"speed": 12,
+						"correct_for_drops": true
+					}
+				],
+				"default_mining_speed": 1,
+				"damage_per_block": 1
+			},
+			"minecraft:item_name": {
+				"translate": "item.minecraft.golden_pickaxe",
+				"color": "white"
+			}
+		},
+		"count": 1,
+		"id": "minecraft:golden_pickaxe"
+	}
+}

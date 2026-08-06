@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cut_red_sandstone",
+	"category": "building",
+	"ingredients": [
+		"minecraft:cut_red_sandstone_slab",
+		"minecraft:cut_red_sandstone_slab"
+	],
+	"result": {
+		"id": "minecraft:cut_red_sandstone",
+		"count": 1
+	}
+}

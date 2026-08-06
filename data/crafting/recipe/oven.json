@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "furnace",
+	"category": "misc",
+	"key": {
+		"#": [
+			"minecraft:bricks"
+		],
+		"C": [
+			"minecraft:campfire"
+		],
+		"I": [
+			"minecraft:iron_ingot"
+		]
+	},
+	"pattern": [
+		"III",
+		"# #",
+		"#C#"
+	],
+	"result": {
+		"count": 1,
+		"id": "minecraft:furnace"
+	}
+}

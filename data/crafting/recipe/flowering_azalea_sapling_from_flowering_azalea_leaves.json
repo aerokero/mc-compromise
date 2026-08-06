@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "flowering_azalea_sapling",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:flowering_azalea_leaves"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:flowering_azalea"
+  }
+}

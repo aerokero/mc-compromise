@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "oak_slab",
+  "ingredient": "minecraft:oak_trapdoor",
+  "result": {
+    "count": 1,
+    "id": "minecraft:oak_slab"
+  }
+}

@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "waxed_oxidized_cut_copper",
+	"category": "building",
+	"ingredients": [
+		"minecraft:waxed_oxidized_cut_copper_slab",
+		"minecraft:waxed_oxidized_cut_copper_slab"
+	],
+	"result": {
+		"id": "minecraft:waxed_oxidized_cut_copper",
+		"count": 1
+	}
+}

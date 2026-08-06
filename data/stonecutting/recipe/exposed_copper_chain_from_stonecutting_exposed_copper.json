@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "exposed_copper_chain",
+  "ingredient": "minecraft:exposed_copper",
+  "result": {
+    "count": 54,
+    "id": "minecraft:exposed_copper_chain"
+  }
+}

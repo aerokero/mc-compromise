@@ -1,0 +1,37 @@
+{
+	"type": "minecraft:fishing",
+	"pools": [
+		{
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:gameplay/fishing/fish/anchovy",
+					"weight": 15
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:gameplay/fishing/fish/shad",
+					"weight": 15
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:gameplay/fishing/fish/flying_fish",
+					"weight": 8
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:gameplay/fishing/fish/sturgeon",
+					"weight": 3
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:gameplay/fishing/fish/swordfish",
+					"weight": 1
+				}
+			]
+		}
+	],
+	"random_sequence": "minecraft:gameplay/fishing/saltwater_temperate"
+}

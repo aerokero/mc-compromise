@@ -1,0 +1,15 @@
+{
+	"wants": {
+		"id": "minecraft:emerald",
+		"count": 1
+	},
+	"additional_wants": {
+		"id": "minecraft:pale_oak_sapling"
+	},
+	"gives": {
+		"id": "minecraft:pale_oak_log",
+		"count": 64
+	},
+	"max_uses": 999,
+	"xp": 30
+}

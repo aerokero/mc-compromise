@@ -1,0 +1,49 @@
+{
+	"type": "minecraft:smithing_transform",
+	"addition": "minecraft:netherite_ingot",
+	"base": "minecraft:diamond_boots",
+	"result": {
+		"id": "minecraft:netherite_boots",
+		"components": {
+			"minecraft:max_damage": 1500,
+			"minecraft:enchantments": {
+				"main:divinity": 1,
+				"minecraft:unbreaking": 2,
+				"minecraft:protection": 1
+			},
+			"minecraft:lore": [
+				{
+					"text": "⛊ 3",
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"text": "⛨ 3",
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"text": "💥🚫 1",
+					"color": "dark_green",
+					"italic": false
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:repairable": {
+				"items": [
+					"minecraft:diamond_block",
+					"minecraft:gold_block"
+				]
+			},
+			"minecraft:item_name": {
+				"translate": "item.minecraft.netherite_boots",
+				"color": "gold"
+			}
+		}
+	},
+	"template": "minecraft:diamond"
+}

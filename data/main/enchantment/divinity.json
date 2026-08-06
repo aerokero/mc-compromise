@@ -1,0 +1,55 @@
+{
+	"primary_items": [
+		"minecraft:netherite_pickaxe",
+		"minecraft:netherite_axe",
+		"minecraft:netherite_hoe",
+		"minecraft:netherite_hoe",
+		"minecraft:netherite_shovel",
+		"minecraft:netherite_helmet",
+		"minecraft:netherite_chestplate",
+		"minecraft:netherite_leggings",
+		"minecraft:netherite_boots",
+		"minecraft:netherite_sword"
+	],
+	"anvil_cost": 0,
+	"description": {
+		"translate": "enchantment.kleispack.divinity",
+		"color": "aqua"
+	},
+	"effects": {
+		"minecraft:tick": [
+			{
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "main:enchantment_effects/divinity"
+				}
+			}
+		]
+	},
+	"max_cost": {
+		"base": 15,
+		"per_level_above_first": 0
+	},
+	"max_level": 1,
+	"min_cost": {
+		"base": 1,
+		"per_level_above_first": 0
+	},
+	"slots": [
+		"mainhand",
+		"armor"
+	],
+	"supported_items": [
+		"minecraft:netherite_pickaxe",
+		"minecraft:netherite_axe",
+		"minecraft:netherite_hoe",
+		"minecraft:netherite_hoe",
+		"minecraft:netherite_shovel",
+		"minecraft:netherite_helmet",
+		"minecraft:netherite_chestplate",
+		"minecraft:netherite_leggings",
+		"minecraft:netherite_boots",
+		"minecraft:netherite_sword"
+	],
+	"weight": 1
+}

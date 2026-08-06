@@ -1,0 +1,252 @@
+{
+    "credit": "Made with Blockbench",
+    "parent": "block/block",
+    "textures": {
+        "bottom": "block/crafter_bottom",
+        "top": "block/crafter_top_triggered",
+        "particle": "block/crafter_north",
+        "north": "block/crafter_north",
+        "south": "block/crafter_south_triggered",
+        "west": "block/crafter_west_triggered",
+        "east": "block/crafter_east_triggered"
+    },
+    "elements": [
+        {
+            "from": [
+                0,
+                0,
+                0
+            ],
+            "to": [
+                16,
+                16,
+                16
+            ],
+            "faces": {
+                "north": {
+                    "uv": [
+                        0,
+                        0,
+                        16,
+                        16
+                    ],
+                    "texture": "#north",
+                    "cullface": "north"
+                },
+                "east": {
+                    "uv": [
+                        0,
+                        0,
+                        16,
+                        16
+                    ],
+                    "texture": "#east",
+                    "cullface": "east"
+                },
+                "south": {
+                    "uv": [
+                        0,
+                        0,
+                        16,
+                        16
+                    ],
+                    "texture": "#south",
+                    "cullface": "south"
+                },
+                "west": {
+                    "uv": [
+                        0,
+                        0,
+                        16,
+                        16
+                    ],
+                    "texture": "#west",
+                    "cullface": "west"
+                },
+                "up": {
+                    "uv": [
+                        0,
+                        0,
+                        16,
+                        16
+                    ],
+                    "rotation": 180,
+                    "texture": "#top",
+                    "cullface": "up"
+                },
+                "down": {
+                    "uv": [
+                        0,
+                        0,
+                        16,
+                        16
+                    ],
+                    "texture": "#bottom",
+                    "cullface": "down"
+                }
+            }
+        },
+        {
+            "from": [
+                -0.0125,
+                14.009374999999999,
+                14.009374999999999
+            ],
+            "to": [
+                16.0125,
+                16.0125,
+                16.0125
+            ],
+            "light_emission": 15,
+            "faces": {
+                "east": {
+                    "uv": [
+                        0,
+                        0,
+                        2,
+                        2
+                    ],
+                    "texture": "#east",
+                    "cullface": "east",
+                    "rotation": 0
+                }
+            },
+            "name": "overlay_east_0"
+        },
+        {
+            "from": [
+                -0.0125,
+                14.009374999999999,
+                -0.0125
+            ],
+            "to": [
+                1.9906249999999999,
+                16.0125,
+                16.0125
+            ],
+            "light_emission": 15,
+            "faces": {
+                "south": {
+                    "uv": [
+                        0,
+                        0,
+                        2,
+                        2
+                    ],
+                    "texture": "#south",
+                    "cullface": "south",
+                    "rotation": 0
+                }
+            },
+            "name": "overlay_south_0"
+        },
+        {
+            "from": [
+                14.009374999999999,
+                14.009374999999999,
+                -0.0125
+            ],
+            "to": [
+                16.0125,
+                16.0125,
+                16.0125
+            ],
+            "light_emission": 15,
+            "faces": {
+                "south": {
+                    "uv": [
+                        14,
+                        0,
+                        16,
+                        2
+                    ],
+                    "texture": "#south",
+                    "cullface": "south",
+                    "rotation": 0
+                }
+            },
+            "name": "overlay_south_1"
+        },
+        {
+            "from": [
+                -0.0125,
+                14.009374999999999,
+                14.009374999999999
+            ],
+            "to": [
+                16.0125,
+                16.0125,
+                16.0125
+            ],
+            "light_emission": 15,
+            "faces": {
+                "west": {
+                    "uv": [
+                        14,
+                        0,
+                        16,
+                        2
+                    ],
+                    "texture": "#west",
+                    "cullface": "west",
+                    "rotation": 0
+                }
+            },
+            "name": "overlay_west_0"
+        },
+        {
+            "from": [
+                14.009374999999999,
+                -0.0125,
+                14.009374999999999
+            ],
+            "to": [
+                16.0125,
+                16.0125,
+                16.0125
+            ],
+            "light_emission": 15,
+            "faces": {
+                "up": {
+                    "uv": [
+                        0,
+                        0,
+                        2,
+                        2
+                    ],
+                    "texture": "#top",
+                    "cullface": "up",
+                    "rotation": 180
+                }
+            },
+            "name": "overlay_up_0"
+        },
+        {
+            "from": [
+                -0.0125,
+                -0.0125,
+                14.009374999999999
+            ],
+            "to": [
+                1.9906249999999999,
+                16.0125,
+                16.0125
+            ],
+            "light_emission": 15,
+            "faces": {
+                "up": {
+                    "uv": [
+                        14,
+                        0,
+                        16,
+                        2
+                    ],
+                    "texture": "#top",
+                    "cullface": "up",
+                    "rotation": 180
+                }
+            },
+            "name": "overlay_up_1"
+        }
+    ]
+}

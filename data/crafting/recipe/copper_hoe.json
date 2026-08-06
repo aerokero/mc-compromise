@@ -1,0 +1,59 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": "minecraft:stick",
+		"X": "copper_ingot"
+	},
+	"pattern": [
+		"XX",
+		" #",
+		" #"
+	],
+	"result": {
+		"components": {
+			"minecraft:item_model": "copper_hoe",
+			"minecraft:max_damage": 350,
+			"minecraft:tool": {
+				"rules": [
+					{
+						"blocks": "#minecraft:mineable/hoe",
+						"speed": 6,
+						"correct_for_drops": true
+					}
+				],
+				"default_mining_speed": 1,
+				"damage_per_block": 1
+			},
+			"minecraft:lore": [
+				{
+					"text": "⛏ 6",
+					"color": "blue",
+					"italic": false
+				},
+				{
+					"text": "🗡 1",
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"text": "🕒 2",
+					"color": "dark_green",
+					"italic": false
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:repairable": {
+				"items": [
+					"minecraft:copper_ingot"
+				]
+			}
+		},
+		"count": 1,
+		"id": "minecraft:copper_hoe"
+	}
+}

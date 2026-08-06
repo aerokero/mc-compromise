@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:blasting",
+  "group": "iron_ingot",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.2,
+  "ingredient": [
+    "minecraft:iron_pickaxe",
+    "minecraft:iron_shovel",
+    "minecraft:iron_axe",
+    "minecraft:iron_hoe",
+    "minecraft:iron_sword",
+    "minecraft:iron_helmet",
+    "minecraft:iron_chestplate",
+    "minecraft:iron_leggings",
+    "minecraft:iron_boots",
+    "minecraft:iron_horse_armor",
+    "minecraft:chainmail_helmet",
+    "minecraft:chainmail_chestplate",
+    "minecraft:chainmail_leggings",
+    "minecraft:chainmail_boots",
+    "minecraft:raw_iron",
+    "minecraft:iron_nautilus_armor",
+    "minecraft:iron_spear"
+  ],
+  "result": {
+    "id": "minecraft:iron_ingot"
+  }
+}

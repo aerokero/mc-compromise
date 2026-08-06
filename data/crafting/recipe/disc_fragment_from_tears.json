@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "disc_fragment",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:music_disc_tears"
+	],
+	"result": {
+		"count": 1,
+		"id": "minecraft:disc_fragment_5"
+	}
+}

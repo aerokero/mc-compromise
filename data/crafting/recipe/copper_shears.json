@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": "minecraft:copper_ingot"
+	},
+	"pattern": [
+		" #",
+		"# "
+	],
+	"result": {
+		"components": {
+			"minecraft:max_damage": 300,
+			"minecraft:item_name": {
+				"translate": "item.kleispack.copper_shears"
+			},
+			"minecraft:item_model": "minecraft:copper_shears",
+			"minecraft:repairable": {
+				"items": "minecraft:copper_ingot"
+			}
+		},
+		"count": 1,
+		"id": "minecraft:shears"
+	}
+}

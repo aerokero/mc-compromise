@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:stonecutting",
+	"group": "copper_door",
+	"ingredient": "minecraft:copper_block",
+	"result": {
+		"count": 6,
+		"id": "minecraft:copper_door"
+	}
+}

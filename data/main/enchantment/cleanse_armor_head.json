@@ -1,0 +1,35 @@
+{
+	"anvil_cost": 0,
+	"description": {
+		"translate": "enchantment.kleispack.cleanses"
+	},
+	"effects": {
+		"minecraft:tick": [
+			{
+				"requirements": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {}
+				},
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "main:enchantment_effects/cleanse_armor_head"
+				}
+			}
+		]
+	},
+	"max_cost": {
+		"base": 15,
+		"per_level_above_first": 0
+	},
+	"max_level": 1,
+	"min_cost": {
+		"base": 1,
+		"per_level_above_first": 0
+	},
+	"slots": [
+		"armor"
+	],
+	"supported_items": "#minecraft:enchantable/head_armor",
+	"weight": 1
+}

@@ -1,0 +1,22 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"1": "block/pointed_dripstone_up_middle",
+		"particle": "block/pointed_dripstone_up_middle"
+	},
+	"elements": [
+		{
+			"from": [5, 0, 5],
+			"to": [11, 16, 11],
+			"faces": {
+				"north": {"uv": [5, 0, 11, 16], "texture": "#1"},
+				"east": {"uv": [5, 0, 11, 16], "texture": "#1"},
+				"south": {"uv": [5, 0, 11, 16], "texture": "#1"},
+				"west": {"uv": [5, 0, 11, 16], "texture": "#1"},
+				"up": {"uv": [5, 5, 11, 11], "texture": "#1"},
+				"down": {"uv": [5, 5, 11, 11], "texture": "#1"}
+			}
+		}
+	]
+}

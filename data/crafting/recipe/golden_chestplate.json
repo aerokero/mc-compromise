@@ -1,0 +1,39 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"X": "minecraft:gold_ingot"
+	},
+	"pattern": [
+		"X X",
+		"XXX",
+		"XXX"
+	],
+	"result": {
+		"components": {
+			"minecraft:enchantments": {
+				"minecraft:fire_protection": 3
+			},
+			"minecraft:enchantment_glint_override": false,
+			"minecraft:max_damage": 200,
+			"minecraft:lore": [
+				{
+					"text": "⛊ 5",
+					"color": "dark_green",
+					"italic": false
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:item_name": {
+				"translate": "item.minecraft.golden_chestplate",
+				"color": "white"
+			}
+		},
+		"count": 1,
+		"id": "minecraft:golden_chestplate"
+	}
+}

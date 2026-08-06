@@ -1,0 +1,325 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:food/enchanted_golden_apple",
+					"weight": 1,
+					"quality": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:music_disc_otherside"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"add": false,
+							"count": 1,
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:compass",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 2,
+								"min": 1
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:sculk_catalyst",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"add": false,
+							"count": 1,
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:lead",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"add": false,
+							"count": 1,
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:diamond_horse_armor",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 5,
+								"min": 1
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:leather",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:music_disc_13",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:music_disc_cat",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:enchant_randomly",
+							"options": "minecraft:swift_sneak"
+						}
+					],
+					"name": "minecraft:book",
+					"weight": 8
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 10,
+								"min": 4
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:sculk",
+					"weight": 3
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 3,
+								"min": 1
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:sculk_sensor",
+					"weight": 3
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 4,
+								"min": 1
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:candle",
+					"weight": 3
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 15,
+								"min": 1
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:amethyst_shard",
+					"weight": 3
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:food/glow_berries",
+					"weight": 3
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 3,
+								"min": 1
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:echo_shard",
+					"weight": 4
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 3,
+								"min": 1
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:disc_fragment_5",
+					"weight": 4
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:enchant_randomly",
+							"options": "#minecraft:on_random_loot"
+						}
+					],
+					"name": "minecraft:book",
+					"weight": 5
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 10,
+								"min": 3
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:book",
+					"weight": 5
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 15,
+								"min": 1
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:bone",
+					"weight": 5
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 15,
+								"min": 1
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:soul_torch",
+					"weight": 5
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 15,
+								"min": 6
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:coal",
+					"weight": 7
+				}
+			],
+			"rolls": {
+				"type": "minecraft:uniform",
+				"max": 10,
+				"min": 5
+			}
+		},
+		{
+			"bonus_rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:ward_armor_trim_smithing_template",
+					"quality": -1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:silence_armor_trim_smithing_template",
+					"quality": -1
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:kleis_items/topaz",
+					"weight": 5,
+					"quality": 1
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:kleis_items/crystal_heart",
+					"weight": 2,
+					"quality": 1
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:kleis_items/divine_fragment_poly",
+					"weight": 2,
+					"quality": 2
+				}
+			],
+			"rolls": 1
+		}
+	],
+	"random_sequence": "minecraft:chests/ancient_city"
+}

@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "prismarine",
+	"category": "building",
+	"ingredients": [
+		"minecraft:prismarine_slab",
+		"minecraft:prismarine_slab"
+	],
+	"result": {
+		"id": "minecraft:prismarine",
+		"count": 1
+	}
+}

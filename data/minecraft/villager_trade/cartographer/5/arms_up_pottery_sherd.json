@@ -1,0 +1,11 @@
+{
+	"wants": {
+		"id": "minecraft:emerald"
+	},
+	"gives": {
+		"id": "minecraft:arms_up_pottery_sherd"
+	},
+	"max_uses": 999,
+	"reputation_discount": 0,
+	"xp": 10
+}

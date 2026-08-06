@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "cherry_sign",
+  "ingredient": "#minecraft:cherry_logs",
+  "result": {
+    "count": 2,
+    "id": "minecraft:cherry_sign"
+  }
+}

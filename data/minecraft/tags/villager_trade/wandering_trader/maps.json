@@ -1,0 +1,10 @@
+{
+  "values": [
+    "minecraft:wandering_trader/village_desert",
+    "minecraft:wandering_trader/village_plains",
+    "minecraft:wandering_trader/village_savanna",
+    "minecraft:wandering_trader/village_snowy",
+    "minecraft:wandering_trader/village_taiga",
+    "minecraft:wandering_trader/witch_hut"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "parent": "main:tutorial/cook_food",
+  "criteria": {
+    "get_furnace": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:furnace"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Construct an Oven from Bricks and Iron"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:furnace"
+    },
+    "title": {
+      "text": "Now You're Cooking"
+    },
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "get_furnace"
+    ]
+  ]
+}

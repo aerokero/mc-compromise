@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "birch_trapdoor",
+  "ingredient": "minecraft:birch_planks",
+  "result": {
+    "count": 1,
+    "id": "minecraft:birch_trapdoor"
+  }
+}

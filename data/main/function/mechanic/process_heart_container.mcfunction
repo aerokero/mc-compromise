@@ -1,0 +1,2 @@
+execute if entity @p[scores={Hearts=60..}] run advancement revoke @p only main:mechanics/heart_container_obtained
+execute if entity @p[scores={Hearts=..58}] run function main:mechanic/clear_heart_container

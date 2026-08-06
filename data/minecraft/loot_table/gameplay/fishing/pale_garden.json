@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:fishing",
+	"pools": [
+		{
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:gameplay/fishing/fish/pale_fish",
+					"weight": 7
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:pale_hanging_moss",
+					"weight": 20
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:resin_clump",
+					"weight": 1
+				}
+			]
+		}
+	],
+	"random_sequence": "minecraft:gameplay/fishing/freshwater_temperate"
+}

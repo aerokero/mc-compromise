@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "snow_block",
+  "category": "building",
+  "ingredients": [
+    "minecraft:ice"
+  ],
+  "result": {
+    "count": 9,
+    "id": "minecraft:snow_block"
+  }
+}

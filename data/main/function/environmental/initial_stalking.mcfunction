@@ -1,0 +1,4 @@
+schedule function main:environmental/player_stepping_sound_adv 20t
+schedule function main:environmental/player_stepping_sound_adv 30t
+schedule function main:environmental/player_stepping_sound_adv 40t
+say InitialStalking

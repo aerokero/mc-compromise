@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "green_dye",
+  "ingredients": [
+    "minecraft:potion",
+    "minecraft:raw_copper",
+    "minecraft:gunpowder"
+  ],
+  "result": {
+    "count": 2,
+    "id": "minecraft:green_dye"
+  }
+}

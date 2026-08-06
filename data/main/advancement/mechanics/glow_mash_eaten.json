@@ -1,0 +1,22 @@
+{
+	"criteria": {
+		"eat_glow_mash": {
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:glow_mash"
+					}
+				}
+			},
+			"trigger": "minecraft:consume_item"
+		}
+	},
+	"requirements": [
+		[
+			"eat_glow_mash"
+		]
+	],
+	"rewards": {
+		"function": "main:effects/soul_sight_effect_3"
+	}
+}

@@ -1,0 +1,37 @@
+{
+	"type": "minecraft:fishing",
+	"pools": [
+		{
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:gameplay/fishing/fish/mediterranean_killifish",
+					"weight": 15
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:gameplay/fishing/fish/freshwater_pufferfish",
+					"weight": 15
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:gameplay/fishing/fish/lamprey",
+					"weight": 8
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:gameplay/fishing/fish/tunisian_barb",
+					"weight": 3
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:gameplay/fishing/fish/european_eel",
+					"weight": 1
+				}
+			]
+		}
+	],
+	"random_sequence": "minecraft:gameplay/fishing/freshwater_hot_dry"
+}

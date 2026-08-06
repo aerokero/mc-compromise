@@ -1,0 +1,56 @@
+{
+	"type": "minecraft:smithing_transform",
+	"addition": "minecraft:phantom_membrane",
+	"base": "minecraft:copper_helmet",
+	"result": {
+		"id": "minecraft:copper_helmet",
+		"components": {
+			"minecraft:max_damage": 500,
+			"minecraft:lore": [
+				{
+					"text": "⛊ 2",
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"text": "🏃 +0.008",
+					"color": "dark_green",
+					"italic": false
+				}
+			],
+			"minecraft:item_name": {
+				"translate": "item.kleispack.bronze_helmet",
+				"color": "#ac7b5c"
+			},
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:movement_speed",
+					"id": "bronze_helmet",
+					"amount": 0.0085,
+					"operation": "add_value",
+					"slot": "head"
+				},
+				{
+					"type": "minecraft:armor",
+					"id": "minecraft:armor.helmet",
+					"amount": 2,
+					"operation": "add_value",
+					"slot": "head"
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:enchantments": {},
+			"minecraft:enchantment_glint_override": false,
+			"minecraft:item_model": "minecraft:bronze_helmet",
+			"minecraft:equippable": {
+				"slot": "head",
+				"asset_id": "minecraft:bronze"
+			}
+		}
+	},
+	"template": "minecraft:copper_ingot"
+}

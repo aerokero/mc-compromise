@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "dough",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:potion",
+		"minecraft:enderman_spawn_egg"
+	],
+	"result": {
+		"components": {
+			"!minecraft:entity_data": {}
+		},
+		"count": 1,
+		"id": "minecraft:shulker_spawn_egg"
+	}
+}

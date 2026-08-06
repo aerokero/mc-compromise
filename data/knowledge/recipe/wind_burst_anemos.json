@@ -1,0 +1,35 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"SSS",
+		"SBS",
+		"SHS"
+	],
+	"key": {
+		"S": "minecraft:wind_charge",
+		"B": "minecraft:knowledge_book",
+		"H": "minecraft:heart_of_the_sea"
+	},
+	"result": {
+		"components": {
+			"minecraft:stored_enchantments": {
+				"main:anemos": 1,
+				"minecraft:wind_burst": 3
+			},
+			"minecraft:item_name": {
+				"translate": "item.kleispack.knowledge"
+			},
+			"minecraft:lore": [
+				{
+					"translate": "item.kleispack.knowledge.wind_burst",
+					"color": "dark_gray",
+					"italic": false
+				}
+			],
+			"minecraft:item_model": "minecraft:knowledge_wind_burst"
+		},
+		"count": 1,
+		"id": "minecraft:enchanted_book"
+	}
+}

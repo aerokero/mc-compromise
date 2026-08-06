@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "chiseled_sulfur",
+	"category": "building",
+	"key": {
+		"S": "minecraft:sulfur_bricks"
+	},
+	"pattern": [
+		"SS",
+		"SS"
+	],
+	"result": {
+		"count": 4,
+		"id": "minecraft:chiseled_sulfur"
+	}
+}

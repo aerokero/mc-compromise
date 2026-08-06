@@ -1,0 +1,27 @@
+{
+	"gives": {
+		"id": "minecraft:emerald",
+		"count": 1
+	},
+	"given_item_modifiers": [],
+	"max_uses": 999,
+	"wants": {
+		"components": {
+			"minecraft:item_name": {
+				"translate": "item.kleispack.fish.european_eel"
+			},
+			"minecraft:item_model": "european_eel",
+			"minecraft:lore": [
+				{
+					"text": "⭐⭐⭐⭐",
+					"color": "light_purple",
+					"italic": false
+				}
+			]
+		},
+		"count": 1,
+		"id": "minecraft:salmon"
+	},
+	"reputation_discount": 0,
+	"xp": 75
+}

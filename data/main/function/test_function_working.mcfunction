@@ -1,0 +1,1 @@
+tellraw @a ["",{"text":"[!]","bold":true},{"text":" Function is "},{"text":"WORKING","bold":true,"color":"green"}]

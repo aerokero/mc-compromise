@@ -1,0 +1,41 @@
+{
+	"type": "minecraft:archaeology",
+	"pools": [
+		{
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:arms_up_pottery_sherd",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:brewer_pottery_sherd",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:brick"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:emerald"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:stick"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:string"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:archaeology/statues"
+				}
+			],
+			"rolls": 1
+		}
+	],
+	"random_sequence": "minecraft:archaeology/desert_well"
+}

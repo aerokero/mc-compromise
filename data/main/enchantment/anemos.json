@@ -1,0 +1,48 @@
+{
+	"anvil_cost": 0,
+	"description": {
+		"translate": "enchantment.kleispack.anemos"
+	},
+	"effects": {
+		"minecraft:hit_block": [
+			{
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "main:enchantment_effects/anemos"
+				}
+			}
+		],
+		"minecraft:post_attack": [
+			{
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "main:enchantment_effects/anemos"
+				},
+				"enchanted": "attacker",
+				"affected": "attacker"
+			}
+		]
+	},
+	"max_cost": {
+		"base": 15,
+		"per_level_above_first": 0
+	},
+	"max_level": 1,
+	"min_cost": {
+		"base": 1,
+		"per_level_above_first": 0
+	},
+	"slots": [
+		"mainhand"
+	],
+	"supported_items": [
+		"minecraft:wooden_sword",
+		"minecraft:stone_sword",
+		"minecraft:iron_sword",
+		"minecraft:diamond_sword",
+		"minecraft:netherite_sword",
+		"minecraft:mace",
+		"minecraft:stick"
+	],
+	"weight": 1
+}

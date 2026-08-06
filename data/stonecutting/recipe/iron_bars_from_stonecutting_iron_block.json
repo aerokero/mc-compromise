@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:stonecutting",
+	"group": "iron_bars",
+	"ingredient": "minecraft:iron_block",
+	"result": {
+		"count": 36,
+		"id": "minecraft:iron_bars"
+	}
+}

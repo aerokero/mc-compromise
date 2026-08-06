@@ -1,0 +1,112 @@
+{
+	"type": "minecraft:smithing_transform",
+	"addition": "minecraft:resin_brick",
+	"base": "minecraft:iron_sword",
+	"result": {
+		"id": "minecraft:stone_sword",
+		"components": {
+			"minecraft:item_name": {
+				"translate": "item.kleispack.steel_sword"
+			},
+			"minecraft:max_damage": 3000,
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:attack_damage",
+					"id": "attack_damage",
+					"amount": 5,
+					"operation": "add_value",
+					"slot": "mainhand"
+				},
+				{
+					"type": "minecraft:attack_knockback",
+					"id": "attack_knockback",
+					"amount": 1,
+					"operation": "add_value",
+					"slot": "mainhand"
+				},
+				{
+					"type": "minecraft:attack_speed",
+					"id": "attack_speed",
+					"amount": -3.1,
+					"operation": "add_value",
+					"slot": "mainhand"
+				}
+			],
+			"minecraft:blocks_attacks": {
+				"block_delay_seconds": 0,
+				"disable_cooldown_scale": 1,
+				"damage_reductions": [
+					{
+						"type": [
+							"minecraft:mob_attack",
+							"minecraft:player_attack"
+						],
+						"base": 0,
+						"factor": 0.5
+					},
+					{
+						"type": [
+							"minecraft:mob_projectile",
+							"minecraft:arrow"
+						],
+						"base": 0,
+						"factor": 0.25
+					}
+				],
+				"item_damage": {
+					"threshold": 1,
+					"base": 0,
+					"factor": 0.25
+				},
+				"block_sound": "minecraft:entity.zombie.attack_iron_door",
+				"disabled_sound": "minecraft:item.shield.break"
+			},
+			"minecraft:item_model": "minecraft:steel_sword",
+			"minecraft:lore": [
+				{
+					"text": "💥 1",
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"text": "🗡 6",
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"text": "🕒 0.9",
+					"color": "dark_green",
+					"italic": false
+				},
+				"",
+				{
+					"text": "When Blocking:",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "50% Melee Blocking",
+					"color": "blue",
+					"italic": false
+				},
+				{
+					"text": "25% Projectile Blocking",
+					"color": "blue",
+					"italic": false
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hide_tooltip": false,
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:repairable": {
+				"items": [
+					"minecraft:iron_ingot"
+				]
+			}
+		}
+	},
+	"template": "minecraft:iron_ingot"
+}

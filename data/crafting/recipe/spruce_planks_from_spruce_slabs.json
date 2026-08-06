@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "spruce_planks",
+  "category": "building",
+  "ingredients": [
+    "minecraft:spruce_slab",
+    "minecraft:spruce_slab"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:spruce_planks"
+  }
+}

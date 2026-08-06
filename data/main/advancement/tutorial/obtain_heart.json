@@ -1,0 +1,41 @@
+{
+	"parent": "main:tutorial/obtain_divine_fragment",
+	"criteria": {
+		"get_heart": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"components": {
+							"minecraft:item_model": "heart_container"
+						}
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"description": {
+			"text": "A Permanent Boon, as long as you don't die"
+		},
+		"icon": {
+			"components": {
+				"minecraft:item_model": "heart_container"
+			},
+			"count": 1,
+			"id": "minecraft:poisonous_potato"
+		},
+		"title": {
+			"text": "Heart Container!"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"requirements": [
+		[
+			"get_heart"
+		]
+	]
+}

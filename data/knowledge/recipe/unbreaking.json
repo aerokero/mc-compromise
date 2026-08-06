@@ -1,0 +1,35 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"ESE",
+		"DBD",
+		"EDE"
+	],
+	"key": {
+		"S": "minecraft:echo_shard",
+		"B": "minecraft:knowledge_book",
+		"E": "minecraft:glowstone_dust",
+		"D": "minecraft:diamond"
+	},
+	"result": {
+		"components": {
+			"minecraft:stored_enchantments": {
+				"minecraft:unbreaking": 2
+			},
+			"minecraft:item_name": {
+				"translate": "item.kleispack.knowledge"
+			},
+			"minecraft:lore": [
+				{
+					"translate": "item.kleispack.knowledge.unbreaking",
+					"color": "dark_gray",
+					"italic": false
+				}
+			],
+			"minecraft:item_model": "minecraft:knowledge_unbreaking"
+		},
+		"count": 1,
+		"id": "minecraft:enchanted_book"
+	}
+}

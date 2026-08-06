@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:glowstone_dust",
+		"minecraft:sugar",
+		"minecraft:beetroot_soup",
+		"minecraft:beetroot",
+		"minecraft:cookie",
+		"minecraft:bowl"
+	],
+	"result": {
+		"id": "minecraft:zoglin_spawn_egg",
+		"components": {
+			"!minecraft:entity_data": {}
+		}
+	}
+}

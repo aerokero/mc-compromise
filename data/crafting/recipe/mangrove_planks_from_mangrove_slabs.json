@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "mangrove_planks",
+  "category": "building",
+  "ingredients": [
+    "minecraft:mangrove_slab",
+    "minecraft:mangrove_slab"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:mangrove_planks"
+  }
+}

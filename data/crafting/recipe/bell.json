@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "redstone",
+	"key": {
+		"#": "minecraft:copper_ingot",
+		"c": "minecraft:lightning_rod"
+	},
+	"pattern": [
+		"###",
+		"#c#",
+		"# #"
+	],
+	"result": {
+		"count": 1,
+		"id": "minecraft:bell"
+	}
+}

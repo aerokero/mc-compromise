@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:campfire_cooking",
+	"category": "food",
+	"cookingtime": 200,
+	"experience": 0.35,
+	"ingredient": [
+		"minecraft:short_grass",
+		"minecraft:fern"
+	],
+	"result": {
+		"id": "minecraft:short_dry_grass"
+	}
+}

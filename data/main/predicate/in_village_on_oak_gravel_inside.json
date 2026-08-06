@@ -1,0 +1,33 @@
+{
+	"condition": "minecraft:any_of",
+	"terms": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"location": {
+					"dimension": "minecraft:overworld",
+					"can_see_sky": false
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"location": {
+					"structures": [
+						"minecraft:village_desert",
+						"minecraft:village_plains",
+						"minecraft:village_snowy",
+						"minecraft:village_taiga",
+						"minecraft:village_savanna"
+					],
+					"block": {
+						"blocks": "minecraft:gravel"
+					}
+				}
+			}
+		}
+	]
+}

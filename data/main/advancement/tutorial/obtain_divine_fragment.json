@@ -1,0 +1,36 @@
+{
+	"parent": "main:tutorial/obtain_estus",
+	"criteria": {
+		"get_heart": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:echo_shard"
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"description": {
+			"text": "A Relic only obtained by breaking Spawners, or vanquishing powerful Forces."
+		},
+		"icon": {
+			"count": 1,
+			"id": "minecraft:echo_shard"
+		},
+		"title": {
+			"text": "Spark of Divinity"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"requirements": [
+		[
+			"get_heart"
+		]
+	]
+}

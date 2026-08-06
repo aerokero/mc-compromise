@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "bamboo_slab",
+  "ingredient": [
+    "minecraft:bamboo_trapdoor"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:bamboo_slab"
+  }
+}

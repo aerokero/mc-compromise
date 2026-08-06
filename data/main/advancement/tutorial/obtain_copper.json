@@ -1,0 +1,35 @@
+{
+	"parent": "main:tutorial/obtain_kiln",
+	"criteria": {
+		"get_copper": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:copper_ingot"
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"description": {
+			"text": "Use a Kiln to Smelt Copper"
+		},
+		"icon": {
+			"count": 1,
+			"id": "minecraft:copper_ingot"
+		},
+		"title": {
+			"text": "Copper Age"
+		},
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"requirements": [
+		[
+			"get_copper"
+		]
+	]
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "spruce_sign",
+  "ingredient": "#minecraft:spruce_logs",
+  "result": {
+    "count": 2,
+    "id": "minecraft:spruce_sign"
+  }
+}

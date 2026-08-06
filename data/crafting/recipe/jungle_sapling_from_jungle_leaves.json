@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "jungle_sapling",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:jungle_leaves"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:jungle_sapling"
+  }
+}

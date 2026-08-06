@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": "minecraft:resin_brick",
+	"result": {
+		"count": 8,
+		"id": "minecraft:iron_bars"
+	}
+}

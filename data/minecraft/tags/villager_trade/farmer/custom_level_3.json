@@ -1,0 +1,10 @@
+{
+  "values": [
+    "minecraft:farmer/3/baby_temperate_cow",
+    "minecraft:farmer/3/baby_cold_cow",
+    "minecraft:farmer/3/baby_warm_cow",
+    "minecraft:farmer/3/baby_warm_pig",
+    "minecraft:farmer/3/baby_cold_pig",
+    "minecraft:farmer/3/baby_temperate_pig"
+  ]
+}

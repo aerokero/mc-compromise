@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "mangrove_button",
+  "ingredient": "#minecraft:mangrove_logs",
+  "result": {
+    "count": 8,
+    "id": "minecraft:mangrove_button"
+  }
+}

@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:smelting",
+	"group": "dead_bush",
+	"category": "misc",
+	"ingredient": [
+		"minecraft:bush"
+	],
+	"result": {
+		"id": "minecraft:dead_bush"
+	},
+	"experience": 0.1,
+	"cookingtime": 100
+}

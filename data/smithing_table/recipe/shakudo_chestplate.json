@@ -1,0 +1,56 @@
+{
+	"type": "minecraft:smithing_transform",
+	"addition": "minecraft:shulker_shell",
+	"base": "minecraft:copper_chestplate",
+	"result": {
+		"id": "minecraft:copper_chestplate",
+		"components": {
+			"minecraft:max_damage": 500,
+			"minecraft:lore": [
+				{
+					"text": "    Poison",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "    Wither",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "⛊ 6",
+					"color": "dark_green",
+					"italic": false
+				}
+			],
+			"minecraft:item_name": {
+				"translate": "item.kleispack.shakudo_chestplate",
+				"color": "#c96691"
+			},
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:armor",
+					"id": "minecraft:armor.chestplate",
+					"amount": 6,
+					"operation": "add_value",
+					"slot": "chest"
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:enchantments": {
+				"main:cleanse_armor_chest": 1
+			},
+			"minecraft:enchantment_glint_override": false,
+			"minecraft:item_model": "minecraft:shakudo_chestplate",
+			"minecraft:equippable": {
+				"slot": "chest",
+				"asset_id": "minecraft:shakudo"
+			}
+		}
+	},
+	"template": "minecraft:copper_ingot"
+}

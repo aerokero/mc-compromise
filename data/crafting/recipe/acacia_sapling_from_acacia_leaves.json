@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "acacia_sapling",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:acacia_leaves"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:acacia_sapling"
+  }
+}

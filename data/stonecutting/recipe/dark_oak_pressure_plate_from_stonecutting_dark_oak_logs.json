@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "dark_oak_pressure_plate",
+  "ingredient": "#minecraft:dark_oak_logs",
+  "result": {
+    "count": 4,
+    "id": "minecraft:dark_oak_pressure_plate"
+  }
+}

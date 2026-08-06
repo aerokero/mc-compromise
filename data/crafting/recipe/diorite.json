@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "diorite",
+	"category": "building",
+	"key": {
+		"C": "minecraft:cobblestone",
+		"Q": "minecraft:quartz"
+	},
+	"pattern": [
+		"CQ",
+		"QC"
+	],
+	"result": {
+		"count": 4,
+		"id": "minecraft:diorite"
+	}
+}

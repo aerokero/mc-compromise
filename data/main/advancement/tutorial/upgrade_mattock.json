@@ -1,0 +1,82 @@
+{
+	"parent": "main:tutorial/obtain_smithing_upgrade",
+	"criteria": {
+		"steel_dolabra": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:steel_dolabra"
+			}
+		},
+		"steel_mattock": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:steel_mattock"
+			}
+		},
+		"shakudo_dolabra": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:shakudo_dolabra"
+			}
+		},
+		"shakudo_mattock": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:shakudo_mattock"
+			}
+		},
+		"bronze_dolabra": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:bronze_dolabra"
+			}
+		},
+		"bronze_mattock": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:bronze_mattock"
+			}
+		},
+		"electrum_mattock": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:electrum_mattock"
+			}
+		},
+		"electrum_dolabra": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "smithing_table:electrum_dolabra"
+			}
+		}
+	},
+	"display": {
+		"description": {
+			"text": "Upgrade a Mattock or Dolabra"
+		},
+		"icon": {
+			"components": {
+				"minecraft:item_model": "minecraft:shakudo_dolabra"
+			},
+			"count": 1,
+			"id": "minecraft:wooden_axe"
+		},
+		"title": {
+			"text": "Three in One?"
+		},
+		"frame": "goal",
+		"hidden": false
+	},
+	"requirements": [
+		[
+			"shakudo_mattock",
+			"shakudo_dolabra",
+			"bronze_dolabra",
+			"bronze_mattock",
+			"steel_dolabra",
+			"steel_mattock",
+      "electrum_dolabra",
+      "electrum_mattock"
+		]
+	]
+}

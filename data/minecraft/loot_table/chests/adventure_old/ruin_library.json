@@ -1,0 +1,133 @@
+{
+    "type": "chest",
+    "pools": [
+      {
+        "rolls": 7,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:book",
+            "quality": 1,
+            "functions": [
+              {
+                "function": "minecraft:enchant_with_levels",
+                "levels": 30,
+                "options": "#minecraft:on_random_loot"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:feather",
+            "weight": 5,
+            "quality": 1
+          },
+          {
+            "type": "item",
+            "weight": 3,
+            "name": "minecraft:ink_sac",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 5,
+            "name": "minecraft:writable_book",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 10,
+            "name": "minecraft:candle",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 9,
+            "name": "minecraft:paper",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 11,
+            "name": "minecraft:book",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 10,
+            "name": "minecraft:charcoal",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_model_data": {
+                    "strings": [
+                      "charcoal_pencil"
+                    ]
+                  }
+                }
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "italic": false,
+                    "text": "Charcoal Pencil"
+                  }
+                ],
+                "target": "item_name"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:cobweb",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "min": 1,
+                  "max": 3
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

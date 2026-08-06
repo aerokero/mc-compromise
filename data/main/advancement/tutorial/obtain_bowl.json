@@ -1,0 +1,33 @@
+{
+  "parent": "main:tutorial/obtain_oven",
+  "criteria": {
+    "get_primary_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bowl"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Make a Ceramic Bowl from Bricks"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:bowl"
+    },
+    "title": {
+      "text": "Manners First"
+    },
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "get_primary_material"
+    ]
+  ]
+}

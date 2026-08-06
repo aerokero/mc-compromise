@@ -1,0 +1,63 @@
+{
+	"type": "minecraft:smithing_transform",
+	"addition": "minecraft:heart_of_the_sea",
+	"base": "minecraft:diamond_chestplate",
+	"result": {
+		"id": "minecraft:diamond_chestplate",
+		"components": {
+			"minecraft:max_damage": 1000,
+			"minecraft:lore": [
+				{
+					"text": "⛊ 8",
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"text": "⛨ 2",
+					"color": "dark_green",
+					"italic": false
+				}
+			],
+			"minecraft:item_name": {
+				"translate": "item.kleispack.electrum_chestplate",
+				"color": "yellow"
+			},
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:armor_toughness",
+					"id": "minecraft:armor.chestplate",
+					"amount": 2,
+					"operation": "add_value",
+					"slot": "chest"
+				},
+				{
+					"type": "minecraft:armor",
+					"id": "minecraft:armor.chestplate",
+					"amount": 8,
+					"operation": "add_value",
+					"slot": "chest"
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:enchantments": {
+				"main:warding_armour": 1
+			},
+			"minecraft:item_model": "minecraft:electrum_chestplate",
+			"minecraft:equippable": {
+				"slot": "chest",
+				"asset_id": "minecraft:electrum"
+			},
+			"minecraft:repairable": {
+				"items": [
+					"minecraft:diamond",
+					"minecraft:gold_ingot"
+				]
+			}
+		}
+	},
+	"template": "minecraft:diamond"
+}

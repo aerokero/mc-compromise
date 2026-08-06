@@ -1,0 +1,53 @@
+{
+	"credit": "Created by Stridey",
+	"parent": "block/firefly_bush",
+	"textures": {
+		"particle": "#cross",
+		"cross": "block/firefly_bush_wavy",
+		"cross_emissive": "block/firefly_bush_emissive_wavy"
+	},
+	"elements": [
+		{
+			"from": [-2.2, 0, 5],
+			"to": [12.2, 16, 5],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [5, 8, 5], "rescale": true},
+			"faces": {
+				"north": {"uv": [0, 0, 8, 16], "texture": "#cross"},
+				"south": {"uv": [0, 0, 8, 16], "texture": "#cross"}
+			}
+		},
+		{
+			"from": [5, 0, -2.2],
+			"to": [5, 16, 12.2],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [5, 8, 5], "rescale": true},
+			"faces": {
+				"east": {"uv": [0, 0, 8, 16], "texture": "#cross"},
+				"west": {"uv": [0, 0, 8, 16], "texture": "#cross"}
+			}
+		},
+		{
+			"from": [-2.2, 0, 5],
+			"to": [12.2, 16, 5],
+			"shade": false,
+			"light_emission": 15,
+			"rotation": {"angle": 45, "axis": "y", "origin": [5, 8, 5], "rescale": true},
+			"faces": {
+				"north": {"uv": [0, 0, 8, 16], "texture": "#cross_emissive"},
+				"south": {"uv": [0, 0, 8, 16], "texture": "#cross_emissive"}
+			}
+		},
+		{
+			"from": [5, 0, -2.2],
+			"to": [5, 16, 12.2],
+			"shade": false,
+			"light_emission": 15,
+			"rotation": {"angle": 45, "axis": "y", "origin": [5, 8, 5], "rescale": true},
+			"faces": {
+				"east": {"uv": [0, 0, 8, 16], "texture": "#cross_emissive"},
+				"west": {"uv": [0, 0, 8, 16], "texture": "#cross_emissive"}
+			}
+		}
+	]
+}

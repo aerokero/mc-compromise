@@ -1,0 +1,42 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"made_knowledge_book": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "knowledge:knowledge_book"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"made_knowledge_book"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"knowledge:bane_of_arthopods",
+			"knowledge:channeling_smite",
+			"knowledge:density_knockback_punch",
+			"knowledge:depth_strider_riptide_aqua_affinity_respiration",
+			"knowledge:efficiency_unbreaking",
+			"knowledge:feather_falling",
+			"knowledge:flame_fire_aspect_fire_protection",
+			"knowledge:frost_walker_frost_protection",
+			"knowledge:infinity",
+			"knowledge:lunge_breach",
+			"knowledge:lure_luck_of_the_sea",
+			"knowledge:mending",
+			"knowledge:piercing_impaling",
+			"knowledge:power_multishot",
+			"knowledge:reach",
+			"knowledge:silk_touch",
+			"knowledge:swift_sneak_soul_speed",
+			"knowledge:traversal",
+			"knowledge:unbreaking",
+			"knowledge:warding",
+			"knowledge:wind_burst_anemos",
+			"knowledge:zephyr"
+		]
+	}
+}

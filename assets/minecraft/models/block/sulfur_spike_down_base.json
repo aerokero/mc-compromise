@@ -1,0 +1,22 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"3": "block/sulfur_spike_down_base",
+		"particle": "block/sulfur_spike_down_base"
+	},
+	"elements": [
+		{
+			"from": [4, 0, 4],
+			"to": [12, 16, 12],
+			"faces": {
+				"north": {"uv": [4, 0, 12, 16], "texture": "#3"},
+				"east": {"uv": [4, 0, 12, 16], "texture": "#3"},
+				"south": {"uv": [4, 0, 12, 16], "texture": "#3"},
+				"west": {"uv": [4, 0, 12, 16], "texture": "#3"},
+				"up": {"uv": [4, 4, 12, 12], "texture": "#3"},
+				"down": {"uv": [4, 4, 12, 12], "texture": "#3"}
+			}
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "sea_lantern",
+  "category": "building",
+  "pattern": [
+    "DX",
+    "XD"
+  ],
+  "key": {
+    "D": [
+      "minecraft:prismarine"
+    ],
+    "X": "minecraft:glowstone_dust"
+  },
+  "result": {
+    "count": 2,
+    "id": "minecraft:sea_lantern"
+  }
+}

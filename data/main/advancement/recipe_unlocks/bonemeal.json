@@ -1,0 +1,39 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_primary_material": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:bone_meal"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"requirements": [
+		[
+			"has_primary_material"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"crafting:clone_allium",
+			"crafting:clone_azure_bluet",
+			"crafting:clone_blue_orchid",
+			"crafting:clone_closed_eyeblossom",
+			"crafting:clone_cornflower",
+			"crafting:clone_lily_of_the_valley",
+			"crafting:clone_open_eyeblossom",
+			"crafting:clone_orange_tulip",
+			"crafting:clone_oxeye_daisy",
+			"crafting:clone_pink_tulip",
+			"crafting:clone_poppy",
+			"crafting:clone_red_tulip",
+			"crafting:clone_spore_blossom",
+			"crafting:clone_white_tulip",
+			"crafting:clone_wither_rose"
+		]
+	}
+}

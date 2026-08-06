@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/rail_flat_emissive",
+  "textures": {
+    "rail": "minecraft:block/detector_rail_on_base",
+    "overlay": "minecraft:block/detector_rail_on_emissive",
+    "particle": "minecraft:block/detector_rail_on"
+  }
+}

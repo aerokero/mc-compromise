@@ -1,0 +1,33 @@
+{
+  "parent": "main:tutorial/obtain_blast_furnace",
+  "criteria": {
+    "get_diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Diamonds have no Intrinsics, but are capable of Hosting Electrum and Netherite"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:diamond"
+    },
+    "title": {
+      "text": "The Resilient Mineral"
+    },
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "get_diamond"
+    ]
+  ]
+}

@@ -1,0 +1,35 @@
+{
+	"parent": "main:hell/obtain_stabilised_estus",
+	"criteria": {
+		"get_nazar": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "crafting:warding_stone"
+			}
+		}
+	},
+	"display": {
+		"description": {
+			"text": "Construct a Warding Stone"
+		},
+		"icon": {
+			"components": {
+				"minecraft:item_model": "warding_stone"
+			},
+			"count": 1,
+			"id": "minecraft:chicken_spawn_egg"
+		},
+		"title": {
+			"text": "Holy Turret"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"requirements": [
+		[
+			"get_nazar"
+		]
+	]
+}

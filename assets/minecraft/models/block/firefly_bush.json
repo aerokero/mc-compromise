@@ -1,0 +1,8 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/cross_emissive",
+	"textures": {
+		"cross": "block/firefly_bush",
+		"cross_emissive": "block/firefly_bush_emissive"
+	}
+}

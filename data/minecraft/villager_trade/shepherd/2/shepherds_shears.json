@@ -1,0 +1,30 @@
+{
+	"gives": {
+		"id": "minecraft:shears",
+		"components": {
+			"minecraft:item_model": "minecraft:bronze_shears",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.shepherds_shears"
+			},
+			"minecraft:max_damage": 3000,
+			"minecraft:repairable": {
+				"items": [
+					"minecraft:iron_nugget",
+					"minecraft:iron_ingot"
+				]
+			},
+			"minecraft:enchantments": {
+				"minecraft:looting": 2
+			},
+			"minecraft:enchantment_glint_override": false
+		}
+	},
+	"given_item_modifiers": [],
+	"max_uses": 999,
+	"reputation_discount": 0,
+	"wants": {
+		"count": 1,
+		"id": "minecraft:emerald"
+	},
+	"xp": 20
+}

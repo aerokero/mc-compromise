@@ -1,0 +1,5 @@
+{
+  "amount": 10.0,
+  "random_sequence": "minecraft:trade_set/fisherman/level_2",
+  "trades": "#minecraft:fisherman/custom_level_2"
+}

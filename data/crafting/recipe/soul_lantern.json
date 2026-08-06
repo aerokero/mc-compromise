@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "soul_lantern",
+	"category": "misc",
+	"key": {
+		"#": "minecraft:soul_torch",
+		"X": "minecraft:iron_nugget"
+	},
+	"pattern": [
+		" X ",
+		"X#X"
+	],
+	"result": {
+		"count": 1,
+		"id": "minecraft:soul_lantern"
+	}
+}

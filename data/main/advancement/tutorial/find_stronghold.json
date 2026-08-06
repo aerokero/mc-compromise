@@ -1,0 +1,39 @@
+{
+	"parent": "main:tutorial/enter_nether",
+	"criteria": {
+		"in_stronghold": {
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"location": {
+								"structures": "minecraft:stronghold"
+							}
+						}
+					}
+				]
+			},
+			"trigger": "minecraft:location"
+		}
+	},
+	"display": {
+		"description": {
+			"text": "Their Time is near"
+		},
+		"icon": {
+			"count": 1,
+			"id": "minecraft:ender_eye"
+		},
+		"title": {
+			"text": "The End of Dreams"
+		},
+		"frame": "goal"
+	},
+	"requirements": [
+		[
+			"in_stronghold"
+		]
+	]
+}

@@ -1,0 +1,36 @@
+{
+	"type": "minecraft:smithing_transform",
+	"base": "minecraft:leather_boots",
+	"addition": "minecraft:gold_ingot",
+	"template": "rabbit_hide",
+	"result": {
+		"components": {
+			"minecraft:enchantments": {
+				"minecraft:feather_falling": 1,
+				"minecraft:fire_protection": 1
+			},
+			"minecraft:enchantment_glint_override": false,
+			"minecraft:max_damage": 212,
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers",
+					"minecraft:trim"
+				]
+			},
+			"minecraft:lore": [
+				{
+					"text": "⛊ 1",
+					"color": "dark_green",
+					"italic": false
+				}
+			],
+			"minecraft:trim": {
+				"material": "minecraft:gold",
+				"pattern": "minecraft:silence"
+			},
+			"minecraft:item_name": "Gilded Leather Boots"
+		},
+		"count": 1,
+		"id": "minecraft:leather_boots"
+	}
+}

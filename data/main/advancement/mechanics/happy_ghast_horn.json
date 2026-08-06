@@ -1,0 +1,24 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"used_horn": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "goat_horn"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"used_horn"
+		]
+	],
+	"rewards": {
+		"recipes": [],
+		"function": "main:mechanic/happy_ghast_horn"
+	}
+}

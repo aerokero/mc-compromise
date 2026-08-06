@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "soul_torch",
+	"category": "misc",
+	"pattern": [
+		"TTT",
+		"TST",
+		"TTT"
+	],
+	"key": {
+		"T": "minecraft:torch",
+		"S": "#minecraft:soul_fire_base_blocks"
+	},
+	"result": {
+		"components": {},
+		"count": 8,
+		"id": "minecraft:soul_torch"
+	}
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "smoker",
+  "category": "misc",
+  "key": {
+    "#": "minecraft:mud_bricks",
+    "C": "minecraft:campfire",
+    "E": "minecraft:packed_mud"
+  },
+  "pattern": [
+    "# #",
+    "E E",
+    "#C#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:smoker"
+  }
+}

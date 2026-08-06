@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "warped_planks",
+  "ingredient": "minecraft:warped_stairs",
+  "result": {
+    "count": 1,
+    "id": "minecraft:warped_planks"
+  }
+}

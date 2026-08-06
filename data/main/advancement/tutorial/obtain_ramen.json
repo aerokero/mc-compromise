@@ -1,0 +1,32 @@
+{
+	"parent": "main:tutorial/obtain_bowl",
+	"criteria": {
+		"get_food": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "food:ramen"
+			}
+		}
+	},
+	"display": {
+		"description": {
+			"text": "Make Ramen"
+		},
+		"icon": {
+			"components": {
+				"minecraft:item_model": "minecraft:ramen"
+			},
+			"count": 1,
+			"id": "minecraft:rabbit_stew"
+		},
+		"title": {
+			"text": "The Best Soup"
+		},
+		"hidden": false
+	},
+	"requirements": [
+		[
+			"get_food"
+		]
+	]
+}

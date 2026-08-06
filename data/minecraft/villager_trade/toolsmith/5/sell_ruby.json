@@ -1,0 +1,19 @@
+{
+	"wants": {
+		"id": "minecraft:fermented_spider_eye",
+		"components": {
+			"minecraft:item_model": "minecraft:ruby",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.ruby",
+				"color": "red"
+			}
+		}
+	},
+	"gives": {
+		"id": "minecraft:emerald",
+		"count": 8
+	},
+	"max_uses": 999,
+	"reputation_discount": 0,
+	"xp": 0
+}

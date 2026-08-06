@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "crimson_trapdoor",
+  "ingredient": "crimson_planks",
+  "result": {
+    "count": 1,
+    "id": "minecraft:crimson_trapdoor"
+  }
+}

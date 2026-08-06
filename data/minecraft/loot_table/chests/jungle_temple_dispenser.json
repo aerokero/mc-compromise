@@ -1,0 +1,40 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 2,
+								"min": 1
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:arrow"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:tipped_arrow",
+					"weight": 3,
+					"functions": [
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:poison"
+						}
+					]
+				}
+			],
+			"rolls": {
+				"type": "minecraft:uniform",
+				"max": 5,
+				"min": 3
+			}
+		}
+	],
+	"random_sequence": "minecraft:chests/jungle_temple_dispenser"
+}

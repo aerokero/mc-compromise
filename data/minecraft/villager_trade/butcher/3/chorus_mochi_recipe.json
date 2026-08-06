@@ -1,0 +1,24 @@
+{
+	"wants": {
+		"id": "minecraft:emerald"
+	},
+	"gives": {
+		"id": "minecraft:paper",
+		"components": {
+			"minecraft:item_model": "minecraft:chorus_mochi_recipe",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.cooking_recipe"
+			},
+			"minecraft:lore": [
+				{
+					"translate": "item.kleispack.chorus_mochi",
+					"color": "#ae6cbc",
+					"italic": false
+				}
+			]
+		}
+	},
+	"max_uses": 999,
+	"reputation_discount": 0,
+	"xp": 40
+}

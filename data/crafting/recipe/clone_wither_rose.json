@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"group": "flowers",
+	"ingredients": [
+		"minecraft:wither_rose",
+		"minecraft:potion",
+		"minecraft:bone_meal"
+	],
+	"result": {
+		"count": 2,
+		"id": "minecraft:wither_rose"
+	}
+}

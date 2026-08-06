@@ -1,0 +1,33 @@
+{
+  "parent": "main:tutorial/obtain_silver",
+  "criteria": {
+    "get_electrum": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:heart_of_the_sea"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Electrum enhances the Fortune and Looting Properties of Gold, but only Titanium can host the Alloy"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:heart_of_the_sea"
+    },
+    "title": {
+      "text": "A Zealous Alloy"
+    },
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "get_electrum"
+    ]
+  ]
+}

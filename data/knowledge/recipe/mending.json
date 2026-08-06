@@ -1,0 +1,36 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"ESE",
+		"EBE",
+		"EDE"
+	],
+	"key": {
+		"S": "minecraft:nether_star",
+		"B": "minecraft:knowledge_book",
+		"E": "minecraft:diamond",
+		"D": "minecraft:diamond_block"
+	},
+	"result": {
+		"components": {
+			"minecraft:stored_enchantments": {
+				"minecraft:mending": 1
+			},
+			"minecraft:item_name": {
+				"translate": "item.kleispack.knowledge"
+			},
+			"minecraft:rarity": "epic",
+			"minecraft:lore": [
+				{
+					"translate": "item.kleispack.knowledge.mending",
+					"color": "dark_gray",
+					"italic": false
+				}
+			],
+			"minecraft:item_model": "minecraft:knowledge_mending"
+		},
+		"count": 1,
+		"id": "minecraft:enchanted_book"
+	}
+}

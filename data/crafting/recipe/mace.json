@@ -1,0 +1,41 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": "minecraft:stick",
+		"X": "iron_ingot",
+		"H": "minecraft:heavy_core"
+	},
+	"pattern": [
+		"H",
+		"#",
+		"X"
+	],
+	"result": {
+		"components": {
+			"minecraft:lore": [
+				{
+					"text": "🗡 6",
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"text": "🕒 0.6",
+					"color": "dark_green",
+					"italic": false
+				}
+			],
+			"minecraft:max_damage": 800,
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:repairable": {
+				"items": "minecraft:iron_ingot"
+			}
+		},
+		"count": 1,
+		"id": "minecraft:mace"
+	}
+}

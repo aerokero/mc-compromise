@@ -1,0 +1,15 @@
+{
+	"name": "minecraft:village_beta/main_roads",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "terrain_matching",
+				"location": "minecraft:village_beta/roads/straight",
+				"processors": "minecraft:empty"
+			}
+		}
+	]
+}

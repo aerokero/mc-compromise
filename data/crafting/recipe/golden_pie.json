@@ -1,0 +1,78 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:golden_apple",
+		[
+			"minecraft:egg",
+			"minecraft:brown_egg",
+			"minecraft:blue_egg"
+		],
+		"minecraft:rotten_flesh",
+		"minecraft:sugar"
+	],
+	"result": {
+		"id": "minecraft:pumpkin_pie",
+		"components": {
+			"minecraft:lore": [
+				{
+					"text": "❤❤",
+					"color": "red",
+					"italic": false
+				},
+				{
+					"text": "❤❤❤❤ (02:00)",
+					"color": "aqua",
+					"italic": false
+				},
+				{
+					"text": "🍖 6",
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"text": "❤ Comfort II (0:10)",
+					"color": "#e85e8f",
+					"italic": false
+				}
+			],
+			"minecraft:consumable": {
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+							{
+								"id": "minecraft:regeneration",
+								"amplifier": 2,
+								"duration": 200,
+								"show_particles": false
+							},
+							{
+								"id": "minecraft:absorption",
+								"amplifier": 1,
+								"duration": 2400,
+								"show_particles": false
+							},
+							{
+								"id": "minecraft:instant_health",
+								"amplifier": 0,
+								"duration": 1,
+								"show_particles": false
+							}
+						]
+					}
+				]
+			},
+			"minecraft:item_name": "Golden Pie",
+			"minecraft:food": {
+				"nutrition": 6,
+				"saturation": 7
+			},
+			"minecraft:custom_model_data": {
+				"strings": [
+					"golden_pie"
+				]
+			}
+		}
+	}
+}

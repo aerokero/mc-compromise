@@ -1,0 +1,33 @@
+{
+  "parent": "main:tutorial/obtain_dry_grass",
+  "criteria": {
+    "get_smoker": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:smoker"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Construct a Kiln made from Mudbricks"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:smoker"
+    },
+    "title": {
+      "text": "Ancient Technology"
+    },
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "get_smoker"
+    ]
+  ]
+}

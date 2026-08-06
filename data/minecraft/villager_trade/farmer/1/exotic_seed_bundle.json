@@ -1,0 +1,40 @@
+{
+	"additional_wants": {
+		"id": "minecraft:jungle_sapling",
+		"count": 1
+	},
+	"gives": {
+		"id": "minecraft:bundle",
+		"components": {
+			"minecraft:item_model": "exotic_seed_bundle",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.bundle.exotic_seed"
+			},
+			"minecraft:bundle_contents": [
+				{
+					"id": "minecraft:melon_seeds",
+					"count": 16
+				},
+				{
+					"id": "pumpkin_seeds",
+					"count": 16
+				},
+				{
+					"id": "minecraft:sweet_berries",
+					"count": 8
+				},
+				{
+					"id": "minecraft:glow_berries",
+					"count": 8
+				}
+			]
+		},
+		"count": 1
+	},
+	"max_uses": 999,
+	"wants": {
+		"count": 1,
+		"id": "minecraft:emerald"
+	},
+	"xp": 10
+}

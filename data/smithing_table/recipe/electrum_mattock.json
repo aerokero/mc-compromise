@@ -1,0 +1,81 @@
+{
+	"type": "minecraft:smithing_transform",
+	"addition": "minecraft:heart_of_the_sea",
+	"base": "minecraft:diamond_hoe",
+	"result": {
+		"id": "minecraft:stone_hoe",
+		"components": {
+			"minecraft:max_damage": 3000,
+			"minecraft:tool": {
+				"rules": [
+					{
+						"blocks": "#minecraft:mineable/shovel",
+						"speed": 10,
+						"correct_for_drops": true
+					},
+					{
+						"blocks": "#minecraft:mineable/hoe",
+						"speed": 10,
+						"correct_for_drops": true
+					}
+				],
+				"default_mining_speed": 1,
+				"damage_per_block": 1
+			},
+			"minecraft:lore": [
+				{
+					"text": "⛏ 10",
+					"color": "blue",
+					"italic": false
+				},
+				{
+					"text": "🗡 3",
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"text": "🕒 3",
+					"color": "dark_green",
+					"italic": false
+				}
+			],
+			"minecraft:item_name": {
+				"translate": "item.kleispack.electrum_mattock",
+				"color": "yellow"
+			},
+			"minecraft:item_model": "minecraft:electrum_mattock",
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:attack_damage",
+					"id": "attack_damage",
+					"amount": 2,
+					"operation": "add_value",
+					"slot": "mainhand"
+				},
+				{
+					"type": "minecraft:attack_speed",
+					"id": "attack_speed",
+					"amount": -1,
+					"operation": "add_value",
+					"slot": "mainhand"
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:enchantments": {
+				"minecraft:fortune": 2,
+				"main:warding1": 1
+			},
+			"minecraft:repairable": {
+				"items": [
+					"minecraft:diamond",
+					"minecraft:gold_ingot"
+				]
+			}
+		}
+	},
+	"template": "minecraft:netherite_upgrade_smithing_template"
+}

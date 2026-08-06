@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "music_disc",
+	"category": "misc",
+	"key": {
+		"#": "minecraft:disc_fragment_5",
+		"X": "minecraft:black_dye"
+	},
+	"pattern": [
+		"###",
+		"#X#",
+		"###"
+	],
+	"result": {
+		"id": "minecraft:music_disc_stal"
+	}
+}

@@ -1,0 +1,61 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": "minecraft:stick",
+		"X": "copper_ingot"
+	},
+	"pattern": [
+		"XX ",
+		" #X",
+		" # "
+	],
+	"result": {
+		"components": {
+			"minecraft:item_name": {
+				"translate": "item.kleispack.copper_mattock"
+			},
+			"minecraft:tool": {
+				"rules": [
+					{
+						"blocks": "#minecraft:mineable/hoe",
+						"speed": 5,
+						"correct_for_drops": true
+					},
+					{
+						"blocks": "#minecraft:mineable/shovel",
+						"speed": 5
+					}
+				],
+				"default_mining_speed": 1,
+				"damage_per_block": 1
+			},
+			"minecraft:lore": [
+				{
+					"text": "⛏ 5",
+					"color": "blue",
+					"italic": false
+				},
+				{
+					"text": "🗡 1",
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"text": "🕒 2",
+					"color": "dark_green",
+					"italic": false
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:item_model": "minecraft:copper_mattock",
+			"minecraft:max_damage": 350
+		},
+		"count": 1,
+		"id": "minecraft:copper_hoe"
+	}
+}

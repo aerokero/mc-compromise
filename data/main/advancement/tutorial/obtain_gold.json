@@ -1,0 +1,33 @@
+{
+  "parent": "main:tutorial/obtain_blast_furnace",
+  "criteria": {
+    "get_gold": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:gold_ingot"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Gold has Fortune and Looting Intrinsics"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:gold_ingot"
+    },
+    "title": {
+      "text": "The Generous Metal"
+    },
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "get_gold"
+    ]
+  ]
+}

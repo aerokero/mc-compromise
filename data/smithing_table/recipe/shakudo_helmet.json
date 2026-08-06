@@ -1,0 +1,56 @@
+{
+	"type": "minecraft:smithing_transform",
+	"addition": "minecraft:shulker_shell",
+	"base": "minecraft:copper_helmet",
+	"result": {
+		"id": "minecraft:copper_helmet",
+		"components": {
+			"minecraft:max_damage": 500,
+			"minecraft:lore": [
+				{
+					"text": "    Blindness",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "    Darkness",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "⛊ 2",
+					"color": "dark_green",
+					"italic": false
+				}
+			],
+			"minecraft:item_name": {
+				"translate": "item.kleispack.shakudo_helmet",
+				"color": "#c96691"
+			},
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:armor",
+					"id": "minecraft:armor.helmet",
+					"amount": 2,
+					"operation": "add_value",
+					"slot": "head"
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:enchantments": {
+				"main:cleanse_armor_head": 1
+			},
+			"minecraft:enchantment_glint_override": false,
+			"minecraft:item_model": "minecraft:shakudo_helmet",
+			"minecraft:equippable": {
+				"slot": "head",
+				"asset_id": "minecraft:shakudo"
+			}
+		}
+	},
+	"template": "minecraft:copper_ingot"
+}

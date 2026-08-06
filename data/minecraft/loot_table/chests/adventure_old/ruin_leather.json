@@ -1,0 +1,175 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:cobweb",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 8,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 20,
+          "name": "minecraft:leather",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 30,
+          "name": "minecraft:rabbit_hide",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "tattered_leather"
+                  ]
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "italic": false,
+                  "text": "Tattered Leather"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "dark_gray",
+                  "italic": false,
+                  "text": "Shred to pieces..."
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 2,
+          "name": "minecraft:leather_leggings",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:dyed_color": 15452301
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "italic": false,
+                  "text": "Cambrian Trousers"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "dark_gray",
+                  "italic": false,
+                  "text": "Common leggings worn in Cambria"
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 4,
+          "name": "minecraft:leather_boots",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "Traversal": "1"
+                },
+                "minecraft:dyed_color": 6176293,
+                "minecraft:trim": {
+                  "material": "minecraft:netherite",
+                  "pattern": "minecraft:wild"
+                }
+              }
+            },
+            {
+              "function": "set_damage",
+              "damage": 25
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "yellow",
+                  "italic": false,
+                  "text": "Old Traveller's Boots"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "Traversal I"
+                },
+                {
+                  "color": "dark_gray",
+                  "italic": false,
+                  "text": "Ideal for Travelling on roads"
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

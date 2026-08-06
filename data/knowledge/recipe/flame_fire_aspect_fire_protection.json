@@ -1,0 +1,36 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"ESE",
+		"SBS",
+		"ESE"
+	],
+	"key": {
+		"S": "minecraft:fire_charge",
+		"B": "minecraft:knowledge_book",
+		"E": "minecraft:gold_ingot"
+	},
+	"result": {
+		"components": {
+			"minecraft:stored_enchantments": {
+				"minecraft:flame": 1,
+				"minecraft:fire_aspect": 1,
+				"minecraft:fire_protection": 3
+			},
+			"minecraft:item_name": {
+				"translate": "item.kleispack.knowledge"
+			},
+			"minecraft:lore": [
+				{
+					"translate": "item.kleispack.knowledge.flameguard",
+					"color": "dark_gray",
+					"italic": false
+				}
+			],
+			"minecraft:item_model": "minecraft:knowledge_flameguard"
+		},
+		"count": 1,
+		"id": "minecraft:enchanted_book"
+	}
+}

@@ -1,0 +1,37 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"FSF",
+		"FBF",
+		"FFF"
+	],
+	"key": {
+		"S": "minecraft:resin_brick",
+		"B": "minecraft:knowledge_book",
+		"F": "minecraft:iron_block"
+	},
+	"result": {
+		"components": {
+			"minecraft:stored_enchantments": {
+				"minecraft:density": 2,
+				"minecraft:knockback": 2,
+				"minecraft:punch": 2
+			},
+			"minecraft:rarity": "rare",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.knowledge"
+			},
+			"minecraft:lore": [
+				{
+					"translate": "item.kleispack.knowledge.heavy_blow",
+					"color": "dark_gray",
+					"italic": false
+				}
+			],
+			"minecraft:item_model": "minecraft:knowledge_heavy_blow"
+		},
+		"count": 1,
+		"id": "minecraft:enchanted_book"
+	}
+}

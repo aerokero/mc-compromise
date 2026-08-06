@@ -1,0 +1,59 @@
+{
+	"type": "minecraft:campfire_cooking",
+	"category": "food",
+	"cookingtime": 200,
+	"experience": 0.35,
+	"ingredient": "minecraft:crimson_fungus",
+	"result": {
+		"id": "minecraft:poisonous_potato",
+		"components": {
+			"minecraft:lore": [
+				{
+					"text": "❤",
+					"color": "red",
+					"italic": false
+				},
+				{
+					"text": "🥀 Weakness (00:30)",
+					"color": "#b6a09a",
+					"italic": false
+				}
+			],
+			"minecraft:consumable": {
+				"consume_seconds": 0.8,
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+							{
+								"id": "minecraft:regeneration",
+								"amplifier": 2,
+								"duration": 24,
+								"show_particles": false,
+								"show_icon": false
+							},
+							{
+								"id": "minecraft:weakness",
+								"amplifier": 0,
+								"duration": 600,
+								"show_particles": false,
+								"show_icon": true
+							}
+						],
+						"probability": 1
+					}
+				]
+			},
+			"minecraft:item_model": "minecraft:braised_crimson_fungus",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.braised_crimson_fungus",
+				"color": "#c54457"
+			},
+			"minecraft:food": {
+				"nutrition": 0,
+				"saturation": 0,
+				"can_always_eat": true
+			}
+		}
+	}
+}

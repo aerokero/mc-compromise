@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:smelting",
+	"group": "dirt",
+	"category": "blocks",
+	"ingredient": "minecraft:grass_block",
+	"result": {
+		"id": "minecraft:dirt"
+	},
+	"experience": 0.1,
+	"cookingtime": 100
+}

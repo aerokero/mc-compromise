@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "weathered_lightning_rod",
+  "ingredient": "minecraft:weathered_copper",
+  "result": {
+    "count": 4,
+    "id": "minecraft:weathered_lightning_rod"
+  }
+}

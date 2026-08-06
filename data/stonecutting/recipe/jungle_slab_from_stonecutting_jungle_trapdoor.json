@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "jungle_slab",
+  "ingredient": "minecraft:jungle_trapdoor",
+  "result": {
+    "count": 1,
+    "id": "minecraft:jungle_slab"
+  }
+}

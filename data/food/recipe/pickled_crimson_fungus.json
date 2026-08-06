@@ -1,0 +1,44 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:crimson_fungus",
+		"minecraft:brown_mushroom",
+		"minecraft:glass_bottle"
+	],
+	"result": {
+		"id": "minecraft:splash_potion",
+		"components": {
+			"minecraft:max_stack_size": 64,
+			"minecraft:potion_contents": {
+				"custom_effects": [
+					{
+						"id": "minecraft:weakness",
+						"amplifier": 1,
+						"duration": 1200,
+						"show_icon": true
+					}
+				]
+			},
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:potion_contents"
+				]
+			},
+			"minecraft:lore": [
+				{
+					"text": "🥀 Weakness II (01:00)",
+					"color": "#b6a09a",
+					"italic": false
+				}
+			],
+			"minecraft:custom_name": {
+				"translate": "item.kleispack.pickled_crimson_fungus",
+				"color": "#c54457",
+				"italic": false
+			},
+			"minecraft:item_model": "minecraft:pickled_crimson_fungus"
+		},
+		"count": 1
+	}
+}

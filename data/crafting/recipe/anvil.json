@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "anvil",
+	"category": "equipment",
+	"key": {
+		"I": "minecraft:resin_brick",
+		"i": "minecraft:iron_ingot"
+	},
+	"pattern": [
+		"III",
+		" i ",
+		"iii"
+	],
+	"result": {
+		"count": 1,
+		"id": "minecraft:anvil"
+	}
+}

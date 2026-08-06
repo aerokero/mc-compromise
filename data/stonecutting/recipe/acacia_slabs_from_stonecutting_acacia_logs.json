@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "acacia_slabs",
+  "ingredient": "#minecraft:acacia_logs",
+  "result": {
+    "count": 8,
+    "id": "minecraft:acacia_slab"
+  }
+}
