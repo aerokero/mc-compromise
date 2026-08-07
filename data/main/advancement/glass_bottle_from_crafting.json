@@ -498,10 +498,10 @@
 			}
 			
 		},
-		"made_chorus_mochi": {
+		"made_chorus_pie": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "food:chorus_mochi"
+				"recipe_id": "food:chorus_pie"
 			}
 			
 		},
@@ -579,7 +579,7 @@
 			"made_glow_berry_crumble",
 			"made_latkes",
 			"made_warped_stroganoff",
-			"made_chorus_mochi",
+			"made_chorus_pie",
 			"clone_cornflower",
 			"clone_wither_rose",
 			"clone_spore_blossom",

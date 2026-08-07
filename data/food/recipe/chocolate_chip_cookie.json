@@ -1,9 +1,9 @@
 {
 	"type": "minecraft:crafting_shapeless",
 	"ingredients": [
-		"minecraft:mushroom_stew",
 		"minecraft:sugar",
-		"minecraft:wheat"
+		"minecraft:wheat",
+		"minecraft:cocoa_beans"
 	],
 	"result": {
 		"id": "minecraft:cookie",

@@ -7,7 +7,7 @@
 				"items": [
 					{
 						"components": {
-							"minecraft:item_model": "minecraft:chorus_mochi_recipe"
+						"minecraft:item_model": "minecraft:chorus_pie_recipe"
 						}
 					}
 				]
@@ -21,7 +21,7 @@
 	],
 	"rewards": {
 		"recipes": [
-			"food:chorus_mochi"
+			"food:chorus_pie"
 		]
 	}
 }

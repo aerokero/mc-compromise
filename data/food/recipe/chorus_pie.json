@@ -9,12 +9,11 @@
 		"minecraft:wheat"
 	],
 	"result": {
-		"id": "minecraft:cookie",
+		"id": "minecraft:pumpkin_pie",
 		"components": {
 			"minecraft:rarity": "uncommon",
 			"minecraft:item_name": {
-				"translate": "item.kleispack.chorus_mochi",
-				"color": "#ae6cbc"
+				"translate": "item.kleispack.chorus_pie"
 			},
 			"minecraft:food": {
 				"nutrition": 0,
@@ -29,18 +28,11 @@
 						"effects": [
 							{
 								"id": "minecraft:levitation",
-								"amplifier": 29,
-								"duration": 20,
+								"amplifier": 0,
+								"duration": 3600,
 								"show_particles": false,
 								"show_icon": true
 							},
-							{
-								"id": "minecraft:regeneration",
-								"amplifier": 2,
-								"duration": 48,
-								"show_particles": false,
-								"show_icon": false
-							}
 						]
 					}
 				]
@@ -53,17 +45,17 @@
 					"italic": false
 				},
 				{
-					"text": "+4 HP Restored",
+					"text": "+8 HP Restored",
 					"color": "red",
 					"italic": false
 				},
 				{
-					"text": "Levitation XXX (0:01)",
-					"color": "#ae6cbc",
+					"text": "Levitation (3:00)",
+					"color": "yellow",
 					"italic": false
 				}
 			]
 		},
-		"count": 4
+		"count": 1
 	}
 }

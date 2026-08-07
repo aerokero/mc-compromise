@@ -20,7 +20,8 @@
 	"rewards": {
 		"recipes": [
 			"food:canned_apples",
-			"food:apple_pie"
+			"food:apple_pie",
+			"food:apple_bread"
 		]
 	}
 }

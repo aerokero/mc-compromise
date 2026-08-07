@@ -3,9 +3,7 @@
 	"category": "misc",
 	"ingredients": [
 		"minecraft:sweet_berries",
-		"#minecraft:eggs",
 		"minecraft:sugar",
-		"minecraft:glowstone_dust",
 		"bread"
 	],
 	"result": {
@@ -28,16 +26,16 @@
 						"type": "minecraft:apply_effects",
 						"effects": [
 							{
-								"id": "minecraft:health_boost",
-								"amplifier": 1,
-								"duration": 9600,
+								"id": "minecraft:absorption",
+								"amplifier": 0,
+								"duration": 3600,
 								"show_particles": false,
 								"show_icon": true
 							},
 							{
 								"id": "minecraft:regeneration",
 								"amplifier": 2,
-								"duration": 120,
+								"duration": 72,
 								"show_particles": false,
 								"show_icon": false
 							}
@@ -53,12 +51,12 @@
 					"italic": false
 				},
 				{
-					"text": "+10 HP Restored",
+					"text": "+6 HP Restored",
 					"color": "red",
 					"italic": false
 				},
 				{
-					"text": "Absorption (8:00)",
+					"text": "Absorption (3:00)",
 					"color": "gray",
 					"italic": false
 				}

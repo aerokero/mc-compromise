@@ -9,7 +9,7 @@
 		"minecraft:wheat"
 	],
 	"result": {
-		"id": "minecraft:carrot",
+		"id": "minecraft:bread",
 		"components": {
 			"minecraft:item_name": {
 				"translate": "item.kleispack.carrot_cupcake"

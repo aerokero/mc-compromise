@@ -22,7 +22,8 @@
 	"rewards": {
 		"recipes": [
 			"food:melon_sorbet",
-			"food:rind_jam"
+			"food:rind_jam",
+			"food:melon_pie"
 		]
 	}
 }

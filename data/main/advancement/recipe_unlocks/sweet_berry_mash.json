@@ -22,7 +22,10 @@
 	"rewards": {
 		"recipes": [
 			"food:sweet_berry_jam",
-			"food:sweet_berry_danish"
+			"food:sweet_berry_danish",
+			"food:sweet_berry_bread",
+			"food:sweet_berry_pie",
+			"food:sweet_berry_stew"
 		]
 	}
 }

@@ -8,35 +8,6 @@ Przy recepturach shapeless kolejność składników nie ma znaczenia.
 
 Czasy gotowania podano w sekundach; `100` ticków = 5 s, `200` = 10 s, `300` = 15 s.
 
-### Crafted dishes
-Crafted dishes use only five vanilla carriers: Cookie, Bread, Pumpkin Pie, Mushroom Stew and Suspicious Stew. Their rarity is `uncommon` unless marked as `rare` below.
-
-| Nazwa | Wygląd | Receptura | Metoda | Wynik | Właściwości |
-|---|---|---|---|---|---|
-| Chorus Mochi | `cookie` — tekstura vanilla | Popped Chorus Fruit + Snowball + Sugar + Beetroot Soup + Wheat | Crafting Table | Chorus Mochi ×4 | Uncommon; +4 HP, Levitation XXX (0:01) |
-| Crimson Stroganoff | `suspicious_stew` — tekstura vanilla | Crimson Fungus + Cooked Beef + Wheat + Beetroot Soup + Bowl | Crafting Table | Crimson Stroganoff | Rare; +12 HP, Weakness (5:00) |
-| French Toast | `bread` — tekstura własna | Egg + Sugar + Glowstone Dust + Bread | Crafting Table | French Toast | +10 HP |
-| Fried Egg | `bread` — tekstura własna | Egg | Campfire / Furnace | Fried Egg | Common; +2 HP; jadalne, nie rzucalne |
-| Gimmari | `bread` — tekstura własna | Dried Kelp + Carrot + Sugar + Egg + Wheat | Crafting Table | Gimmari | +6 HP, Gills (8:00) |
-| Gnocchi | `mushroom_stew` — tekstura vanilla | Baked Potato + Cookie + Egg + Wheat + Bowl | Crafting Table | Gnocchi | +16 HP |
-| Golden Apple Empanada | `pumpkin_pie` — tekstura vanilla | Golden Apple + Sugar + Glowstone Dust + Wheat | Crafting Table | Golden Apple Empanada | Rare; +8 HP, Absorption (4:00), Regen II (0:45) |
-| Golden Carrot Cupcake | `pumpkin_pie` — tekstura vanilla | Golden Carrot + Sugar + Glowstone Dust + Cocoa Beans + Wheat | Crafting Table | Golden Carrot Cupcake | +8 HP, Night Vision (20:00) |
-| Golden Pickled Carrots | `mushroom_stew` — tekstura vanilla | Golden Carrot + Brown Mushroom + Glass Bottle | Crafting Table | Golden Pickled Carrots | +4 HP, Night Vision (10:00) |
-| Latke | `bread` — tekstura własna | Baked Potato + Egg + Bread + Beetroot Soup | Crafting Table | Latke | +16 HP |
-| Melon Sorbet | `pumpkin_pie` — tekstura vanilla | Melon Slice + Snowball + Sugar + Glass Bottle | Crafting Table | Melon Sorbet | +4 HP, Fire Resistance (10:00) |
-| Naan | `bread` — tekstura własna | Wheat | Smoker (5 s) | Naan | +2 HP |
-| Pickled Carrots | `mushroom_stew` — tekstura vanilla | Carrot + Brown Mushroom + Glass Bottle | Crafting Table | Pickled Carrots | +4 HP, Night Vision (5:00) |
-| Pickled Crimson Fungus | `suspicious_stew` — tekstura vanilla | Crimson Fungus + Brown Mushroom + Glass Bottle | Crafting Table | Pickled Crimson Fungus | Niejadalny etap pośredni; Weakness II (1:00) |
-| Pickled Mushrooms | `mushroom_stew` — tekstura vanilla | Rabbit Foot + Brown Mushroom + Glass Bottle | Crafting Table | Pickled Mushrooms | +6 HP |
-| Pickled Potatoes | `mushroom_stew` — tekstura vanilla | Baked Potato + Brown Mushroom + Glass Bottle | Crafting Table | Pickled Potatoes | +10 HP |
-| Pickled Red Mushrooms | `suspicious_stew` — tekstura vanilla | Red Mushroom + Brown Mushroom + Glass Bottle | Crafting Table | Pickled Red Mushrooms | Niejadalny etap pośredni; Poison II (1:00) |
-| Pickled Warped Fungus | `suspicious_stew` — tekstura vanilla | Warped Fungus + Brown Mushroom + Glass Bottle | Crafting Table | Pickled Warped Fungus | +4 HP, Invisibility (5:00) |
-| Pupusa | `bread` — tekstura własna | Wheat + Cookie + Cooked Porkchop/Chicken | Crafting Table | Pupusa ×4 | +3 HP |
-| Ramen | `mushroom_stew` — tekstura vanilla | Ramen Stock | Furnace (15 s) | Ramen | Rare; +20 HP, Haste II (30:00) |
-| Red Mushroom Stroganoff | `suspicious_stew` — tekstura vanilla | Red Mushroom + Cooked Beef + Wheat + Beetroot Soup + Bowl | Crafting Table | Red Mushroom Stroganoff | Rare; +12 HP, Poison (5:00) |
-| Rind Jam | `pumpkin_pie` — tekstura vanilla | Melon Slice + Sugar + Glass Bottle | Crafting Table | Rind Jam | +4 HP, Fire Resistance (5:00) |
-| Warped Stroganoff | `suspicious_stew` — tekstura vanilla | Warped Fungus + Cooked Beef + Wheat + Beetroot Soup + Bowl | Crafting Table | Warped Stroganoff | Rare; +12 HP, Invisibility (10:00) |
-
 ### Pozostałe składniki
 
 | Nazwa | Wygląd | Receptura | Metoda | Wynik | Właściwości |
@@ -55,6 +26,8 @@ System ma advancementy za gotowanie, przygotowywanie sekretnych potraw, łowieni
 Villager **Cook/Butcher** może oferować niestandardowe potrawy, receptury i ryby.
 
 --------------- DESIGN - TO BE DONE IN DATAPACK ------------------
+
+Carrier migration and the new Bread/Pie/Sweet Berry Stew recipes are implemented. The tier tables below are retained as the design reference for further balancing and future additions.
 
 ## New basic food
 These dishes should have yellow level tier/rarity.
@@ -114,6 +87,8 @@ Włożenie surowego ziemniaka, mięsa lub ryby do **Furnace** nie gotuje jedzeni
 
 ## Tiered Food
 
+To jest główna sekcja reworku jedzenia. Dawne `Crafted dishes` są tutaj uporządkowane według docelowego vanilla nośnika i tieru.
+
 A mechanic that replaces many of the crafted meals into special/specific mushroom stews.
 Food will be tiered based on complexity: Cookie -> Bread -> Pie -> Mushroom Stew. With special hidden suspicious stews.
 
@@ -131,12 +106,20 @@ Regen (3:00)
 | common | Cookie | `cookie` | Sugar + Wheat | Campfire / Furnace (10 s) | +2 HP, Haste (0:30) |
 
 2nd Tier:
+| uncommon | Brownie Cookie | `cookie` | Sugar + Wheat + Cocoa Beans | Crafting Table | +4 HP |
+| uncommon | Sweet Berry Cookie | `cookie` | Sweet Berries + Sugar + Glass Bottle | Crafting Table | +4 HP, Regeneration (0:30) |
+| uncommon | Glow Berry Cookie | `cookie` | Rotten Flesh + Sugar + Glass Bottle | Crafting Table | +4 HP, Aura (0:30) |
 | uncommon | Chocolate Cookie | `cookie`| Sugar + Wheat + Cocoa Beans | Crafting Table | +4 HP, Haste (5:00) |
 
 ### Bread
 #### 1st Tier:
 | common | Bread | 3 Wheat | Crafted | +4 HP, Cleanse Maleffect |
 2nd Tier:
+| uncommon | French Toast | `bread` | Egg + Sugar + Glowstone Dust + Bread | Crafting Table | +10 HP |
+| uncommon | Fried Egg | `bread` | Egg | Campfire / Furnace | +2 HP; jadalne |
+| uncommon | Gimmari | `bread` | Dried Kelp + Carrot + Sugar + Egg + Wheat | Crafting Table | +6 HP, Gills (8:00) |
+| uncommon | Potato Bread | `bread` | Baked Potato + Egg + Bread + Beetroot Soup | Crafting Table | +16 HP |
+| uncommon | Pupusa Bread | `bread` | Wheat + Cookie + Cooked Porkchop/Chicken | Crafting Table | +3 HP |
 | uncommon | Bruschetta | Bread + 2x Beetroot  | Crafting Table | +6 HP, Strength II (3:00) |
 | uncommon | Chocolate Bread | Bread + Sugar + Cocoa Beans ×2 | Crafting Table | +6 HP, Haste II (3:00) |
 | uncommon | Sweet Berry Bread | Bread + Sugar + Sweet Berries | Crafting Table | +6 HP, Absorption (3:00) |
@@ -158,6 +141,10 @@ Special recipe; level in-between bread and stew.
 | common | Pumpkin Pie | `pumpkin_pie` | Pumpkin + Sugar + Egg | Crafting Table | +2 HP, Resistance (0:10) |
 
 #### 2nd Tier:
+| uncommon | Chorus Pie | `pumpkin_pie` | Popped Chorus Fruit + Snowball + Sugar + Beetroot Soup + Wheat | Crafting Table | +8 HP, Levitation (3:00) |
+| uncommon | Golden Apple Pie | `pumpkin_pie` | Golden Apple + Sugar + Glowstone Dust + Wheat | Crafting Table | +8 HP, Absorption (4:00), Regen II (0:45) |
+| uncommon | Golden Carrot Pie | `pumpkin_pie` | Golden Carrot + Sugar + Glowstone Dust + Cocoa Beans + Wheat | Crafting Table | +8 HP, Night Vision (20:00) |
+| uncommon | Melon Pie | `pumpkin_pie` | Melon Slice + Snowball + Sugar + Glass Bottle | Crafting Table | +4 HP, Fire Resistance (10:00) |
 | uncommon | Apple Pie | `pumpkin_pie` | Pumpkin + Sugar + Egg + Apple | Crafting Table | +8 HP, Regen (3:00) |
 | uncommon | Melon Pie | `pumpkin_pie` | Pumpkin + Sugar + Egg + Melon | Crafting Table | +8 HP, Fire Resistance (3:00) |
 | uncommon | Sweet Berry Pie | `pumpkin_pie` | Pumpkin + Sugar + Egg + Sweet Berries | Crafting Table | +8 HP, Absorption (3:00) |
@@ -171,7 +158,12 @@ Any mushroom can be used, unless specified otherwise.
 | common | Mushroom Stew | `mushroom_stew` | Bowl + Brown Mushroom + Red Mushroom | Crafting Table | +4 HP |
 
 #### 2nd Tier:
-| uncommon | Paneer Curry Stock | `mushroom_stew` | Beetroot Soup + Cookie + Sugar | Crafting Table | +6 HP
+| uncommon | Gnocchi Stew | `mushroom_stew` | Baked Potato + Cookie + Egg + Wheat + Bowl | Crafting Table | +16 HP |
+| uncommon | Golden Carrot Stew | `mushroom_stew` | Golden Carrot + Brown Mushroom + Glass Bottle | Crafting Table | +4 HP, Night Vision (10:00) |
+| uncommon | Carrot Stew | `mushroom_stew` | Carrot + Brown Mushroom + Glass Bottle | Crafting Table | +4 HP, Night Vision (5:00) |
+| uncommon | Potato Stew | `mushroom_stew` | Baked Potato + Brown Mushroom + Glass Bottle | Crafting Table | +10 HP |
+| uncommon | Ramen Stew | `mushroom_stew` | Ramen Stock | Furnace (15 s) | +20 HP, Haste II (30:00) |
+| uncommon | Paneer Curry Stock | `mushroom_stew` | Beetroot Soup + Cookie + Sugar | Crafting Table | +6 HP |
 | uncommon | Curry Stock | `mushroom_stew` | Bowl + Potato + Carrot + Beef/Mutton/Rabbit + Wheat + Sugar | Crafting Table | +8 HP |
 | uncommon | Green Curry Stock | `mushroom_stew` | Beetroot Soup + Cod/Salmon + Green Dye + Wheat + Sugar | Crafting Table | +10 HP |
 | uncommon | Ramen Stock | `mushroom_stew` | Bowl + Brown Mushroom + Dried Kelp + Egg + Wheat + Porkchop/Chicken | Crafting Table | Ramen Stock | +12 HP
@@ -184,14 +176,14 @@ Any mushroom can be used, unless specified otherwise.
 #### 3rd Tier:
 Special stews.
 
-| rare | Stroganoff | `rabbit_stew` | Rabbit Foot + Cooked Beef + Wheat + Beetroot Soup + Bowl | Crafting Table | Stroganoff | +16 HP |
+| rare | Mushroom Stew | `mushroom_stew` | Rabbit Foot + Cooked Beef + Wheat + Beetroot Soup + Bowl | Crafting Table | Mushroom Stew | +16 HP |
 | rare | Green Curry | `mushroom_stew` | Green Curry Stock | Furnace (15 s) | Green Curry | +20 HP, +40% Speed (30:00) |
 | rare | Japanese Curry | `mushroom_stew` | Curry Stock | Furnace (15 s) | Japanese Curry | +20 HP, Strength (30:00) |
 | rare | Paneer Makhani | `rabbit_stew`  | Paneer Curry Stock | Furnace (15 s) | Paneer Makhani | +20 HP, Regen (10:00) |
 
 ### Suspicious Stews
-| rare | Crimson Fungus Stew | `suspicious_stew` | Crafting Table | +4 HP, Weakness (0:30) |
-| rare | Warped Fungus Stew | `suspicious_stew` | Crafting Table| +4 HP, Invisibility (0:30) |
+| rare | Crimson Fungus Stew | `suspicious_stew` | Crimson Fungus + Brown Mushroom + Glass Bottle | Crafting Table | Weakness II (1:00) |
+| rare | Red Mushroom Stew | `suspicious_stew` | Red Mushroom + Brown Mushroom + Glass Bottle | Crafting Table | Poison II (1:00) |
 
 # Cakes
 Alternative cake recipe.

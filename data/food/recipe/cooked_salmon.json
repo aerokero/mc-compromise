@@ -14,7 +14,7 @@
 					"italic": false
 				},
 				{
-					"text": "+5 HP Restored",
+					"text": "+2.5 HP Restored",
 					"color": "red",
 					"italic": false
 				}
@@ -27,7 +27,7 @@
 							{
 								"id": "minecraft:regeneration",
 								"amplifier": 2,
-								"duration": 60,
+								"duration": 30,
 								"show_particles": false,
 								"show_icon": false
 							}

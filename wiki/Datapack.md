@@ -186,8 +186,8 @@ The End dimension does not have a completely new generator, but several progress
 - Shulker drops a Shulker Box instead of Shulker Shell,
 - Shulker Shell is Shakudo Alloy; Turtle Scute no longer serves as Divine Fragment,
 - End Stone Bricks are renamed Brown Sandstone and receive matching recipes,
-- Chorus Fruit has additional recipes for Popped Chorus Fruit and Chorus Mochi,
-- Chorus Mochi is also available from Butcher/Cook trades,
+- Chorus Fruit has additional recipes for Popped Chorus Fruit and Chorus Pie,
+- Chorus Pie is also available from Butcher/Cook trades,
 - Ender Pearl has an additional Librarian/Mouthpiece trade,
 - Bronze Elytra is crafted at the smithing table,
 - End advancements have custom titles, descriptions and icons,
@@ -212,12 +212,12 @@ The pack adds an extensive cooking and ingredient system. It reuses some vanilla
 Main groups include:
 
 - bread and cakes,
-- soups, ramen, curry and stroganoff,
+- mushroom stews, ramen, curry and fungus stews,
 - potato and carrot dishes,
 - fruit preserves,
 - desserts and drinks,
 - cheese and dairy products,
-- dried, pickled and grilled foods,
+- dried, preserved and grilled foods,
 - many new fish species,
 - special fish obtained by fishing in specific biomes.
 
