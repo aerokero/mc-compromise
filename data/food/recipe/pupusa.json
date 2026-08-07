@@ -12,6 +12,7 @@
 	"result": {
 		"id": "minecraft:bread",
 		"components": {
+			"minecraft:rarity": "uncommon",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.pupusa"
 			},

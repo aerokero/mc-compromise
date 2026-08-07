@@ -8,6 +8,7 @@
 	"result": {
 		"id": "minecraft:cookie",
 		"components": {
+			"minecraft:rarity": "uncommon",
 			"minecraft:lore": [
 				{
 					"text": "When Eaten:",

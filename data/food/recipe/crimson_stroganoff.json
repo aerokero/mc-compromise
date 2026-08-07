@@ -9,8 +9,9 @@
 		"minecraft:bowl"
 	],
 	"result": {
-		"id": "minecraft:crimson_fungus",
+		"id": "minecraft:suspicious_stew",
 		"components": {
+			"minecraft:rarity": "rare",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.crimson_stroganoff",
 				"color": "#c54457"

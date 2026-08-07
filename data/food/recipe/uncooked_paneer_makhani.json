@@ -10,8 +10,9 @@
 		"minecraft:bowl"
 	],
 	"result": {
-		"id": "minecraft:bowl",
+		"id": "minecraft:mushroom_stew",
 		"components": {
+			"minecraft:rarity": "uncommon",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.paneer_curry_stock"
 			}

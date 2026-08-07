@@ -19,9 +19,6 @@
 	],
 	"rewards": {
 		"recipes": [
-			"food:dough",
-			"food:dough_from_water",
-			"food:flour_bag",
 			"food:cake"
 		]
 	}

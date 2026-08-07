@@ -9,8 +9,9 @@
 		"minecraft:bowl"
 	],
 	"result": {
-		"id": "minecraft:warped_fungus",
+		"id": "minecraft:suspicious_stew",
 		"components": {
+			"minecraft:rarity": "rare",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.warped_stroganoff",
 				"color": "#3cc6c8"

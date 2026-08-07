@@ -3,10 +3,11 @@
 	"category": "food",
 	"cookingtime": 300,
 	"experience": 0.35,
-	"ingredient": "minecraft:bowl",
+	"ingredient": "minecraft:mushroom_stew",
 	"result": {
-		"id": "minecraft:beetroot_soup",
+		"id": "minecraft:mushroom_stew",
 		"components": {
+			"minecraft:rarity": "rare",
 			"minecraft:lore": [
 				{
 					"text": "When Eaten:",

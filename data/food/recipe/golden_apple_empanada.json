@@ -8,8 +8,9 @@
 		"minecraft:wheat"
 	],
 	"result": {
-		"id": "minecraft:golden_apple",
+		"id": "minecraft:pumpkin_pie",
 		"components": {
+			"minecraft:rarity": "rare",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.golden_empanada",
 				"color": "yellow"

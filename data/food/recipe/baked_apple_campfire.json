@@ -7,6 +7,9 @@
 	"result": {
 		"id": "minecraft:apple",
 		"components": {
+			"minecraft:item_name": {
+				"translate": "item.kleispack.baked_apple"
+			},
 			"minecraft:lore": [
 				{
 					"text": "When Eaten:",

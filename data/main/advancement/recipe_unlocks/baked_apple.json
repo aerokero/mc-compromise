@@ -6,9 +6,7 @@
 			"conditions": {
 				"items": [
 					{
-						"components": {
-							"minecraft:item_model": "fermented_spider_eye"
-						}
+						"items": "minecraft:apple"
 					}
 				]
 			}
@@ -22,7 +20,7 @@
 	"rewards": {
 		"recipes": [
 			"food:canned_apples",
-			"food:apple_empanada"
+			"food:apple_pie"
 		]
 	}
 }

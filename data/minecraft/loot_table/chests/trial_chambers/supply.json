@@ -138,7 +138,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "minecraft:food/apple_empanada"
+					"value": "minecraft:food/apple_pie"
 				},
 				{
 					"type": "minecraft:loot_table",

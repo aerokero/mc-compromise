@@ -6,8 +6,6 @@
   "container.smoker": "Oven",
 
   "item.kleispack.flour": "Flour",
-  "item.kleispack.flour_bag": "Flour Bag",
-  "item.kleispack.dough": "Dough",
   "item.kleispack.curry_stock": "Curry Stock",
   "item.kleispack.green_curry_stock": "Green Curry Stock",
   "item.kleispack.paneer_curry_stock": "Paneer Curry Stock",
@@ -39,7 +37,8 @@
   "item.kleispack.knowledge.wind_burst": "Wind Burst",
   "item.kleispack.knowledge.zephyr": "Zephyr",
 
-  "item.kleispack.apple_empanada": "Apple Empanada",
+  "item.kleispack.apple_pie": "Apple Pie",
+  "item.kleispack.baked_apple": "Baked Apple",
   "item.kleispack.baked_golden_apple": "Baked Golden Apple",
   "item.kleispack.bokguk": "Bokguk",
   "item.kleispack.braised_crimson_fungus": "Braised Crimson Fungus",
@@ -50,9 +49,6 @@
   "item.kleispack.canned_apples": "Canned Apples",
   "item.kleispack.canned_golden_apples": "Canned Golden Apples",
   "item.kleispack.carrot_cupcake": "Carrot Cupcake",
-  "item.kleispack.charred_fish": "Charred Fish",
-  "item.kleispack.charred_meat": "Charred Meat",
-  "item.kleispack.charred_potato": "Charred Potato",
   "item.kleispack.chocolate_chip_cookie": "Chocolate Chip Cookie",
   "item.kleispack.chorus_mochi": "Chorus Mochi",
   "item.kleispack.crimson_stroganoff": "Crimson Stroganoff",

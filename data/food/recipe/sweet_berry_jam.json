@@ -7,8 +7,9 @@
 		"minecraft:glass_bottle"
 	],
 	"result": {
-		"id": "minecraft:sweet_berries",
+		"id": "minecraft:cookie",
 		"components": {
+			"minecraft:rarity": "uncommon",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.sweet_berry_jam"
 			},

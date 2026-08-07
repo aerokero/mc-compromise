@@ -7,8 +7,9 @@
 		"minecraft:glass_bottle"
 	],
 	"result": {
-		"id": "minecraft:potato",
+		"id": "minecraft:mushroom_stew",
 		"components": {
+			"minecraft:rarity": "uncommon",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.pickled_potatoes"
 			},

@@ -7,7 +7,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:poisonous_potato",
+					"name": "minecraft:mushroom_stew",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -18,8 +18,8 @@
 						},
 						{
 							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:item_model": "minecraft:pickled_carrots",
+								"components": {
+									"minecraft:rarity": "uncommon",
 								"minecraft:item_name": {
 									"translate": "item.kleispack.pickled_carrots"
 								},

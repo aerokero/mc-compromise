@@ -9,8 +9,9 @@
 		"minecraft:bowl"
 	],
 	"result": {
-		"id": "minecraft:red_mushroom",
+		"id": "minecraft:suspicious_stew",
 		"components": {
+			"minecraft:rarity": "rare",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.red_mushroom_stroganoff"
 			},

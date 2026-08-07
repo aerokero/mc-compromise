@@ -3,9 +3,9 @@
 		"id": "minecraft:emerald"
 	},
 	"gives": {
-		"id": "minecraft:poisonous_potato",
+		"id": "minecraft:bread",
 		"components": {
-			"minecraft:item_model": "minecraft:sweet_berry_toast",
+			"minecraft:rarity": "uncommon",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.sweet_berry_toast",
 				"color": "#e85e8f"

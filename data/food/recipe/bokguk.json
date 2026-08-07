@@ -13,8 +13,9 @@
 		"minecraft:bowl"
 	],
 	"result": {
-		"id": "minecraft:dried_kelp",
+		"id": "minecraft:mushroom_stew",
 		"components": {
+			"minecraft:rarity": "uncommon",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.bokguk"
 			},

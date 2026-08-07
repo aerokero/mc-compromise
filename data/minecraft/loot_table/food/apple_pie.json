@@ -7,7 +7,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:poisonous_potato",
+					"name": "minecraft:pumpkin_pie",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -19,9 +19,9 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:item_model": "minecraft:apple_empanada",
+								"minecraft:rarity": "uncommon",
 								"minecraft:item_name": {
-									"translate": "item.kleispack.apple_empanada"
+									"translate": "item.kleispack.apple_pie"
 								},
 								"minecraft:food": {
 									"nutrition": 0,

@@ -7,8 +7,9 @@
 		"minecraft:glass_bottle"
 	],
 	"result": {
-		"id": "minecraft:glow_berries",
+		"id": "minecraft:cookie",
 		"components": {
+			"minecraft:rarity": "uncommon",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.glow_berry_jam"
 			},

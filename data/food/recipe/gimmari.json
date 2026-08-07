@@ -9,8 +9,9 @@
 		"minecraft:wheat"
 	],
 	"result": {
-		"id": "minecraft:dried_kelp",
+		"id": "minecraft:bread",
 		"components": {
+			"minecraft:rarity": "uncommon",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.gimmari"
 			},

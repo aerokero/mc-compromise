@@ -8,8 +8,9 @@
 		"minecraft:wheat"
 	],
 	"result": {
-		"id": "minecraft:glow_berries",
+		"id": "minecraft:bread",
 		"components": {
+			"minecraft:rarity": "uncommon",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.glow_berry_crumble"
 			},

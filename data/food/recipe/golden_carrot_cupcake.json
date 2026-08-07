@@ -9,8 +9,9 @@
 		"minecraft:wheat"
 	],
 	"result": {
-		"id": "minecraft:golden_carrot",
+		"id": "minecraft:pumpkin_pie",
 		"components": {
+			"minecraft:rarity": "uncommon",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.golden_carrot_cupcake",
 				"color": "yellow"

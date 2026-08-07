@@ -2,16 +2,16 @@
 	"type": "minecraft:crafting_shapeless",
 	"category": "misc",
 	"ingredients": [
-		"minecraft:fermented_spider_eye",
+		"minecraft:apple",
 		"minecraft:sugar",
-		"minecraft:glowstone_dust",
-		"minecraft:wheat"
+		"minecraft:egg"
 	],
 	"result": {
-		"id": "minecraft:apple",
+		"id": "minecraft:pumpkin_pie",
 		"components": {
+			"minecraft:rarity": "uncommon",
 			"minecraft:item_name": {
-				"translate": "item.kleispack.apple_empanada"
+				"translate": "item.kleispack.apple_pie"
 			},
 			"minecraft:food": {
 				"nutrition": 0,

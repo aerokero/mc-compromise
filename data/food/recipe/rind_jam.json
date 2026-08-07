@@ -7,8 +7,9 @@
 		"minecraft:glass_bottle"
 	],
 	"result": {
-		"id": "minecraft:melon_slice",
+		"id": "minecraft:pumpkin_pie",
 		"components": {
+			"minecraft:rarity": "uncommon",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.rind_jam"
 			},

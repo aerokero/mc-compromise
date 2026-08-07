@@ -9,8 +9,9 @@
 		"minecraft:bowl"
 	],
 	"result": {
-		"id": "minecraft:potato",
+		"id": "minecraft:mushroom_stew",
 		"components": {
+			"minecraft:rarity": "uncommon",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.gnocchi",
 				"color": "#e1bc62"

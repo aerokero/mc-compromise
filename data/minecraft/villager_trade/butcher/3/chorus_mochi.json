@@ -3,9 +3,9 @@
 		"id": "minecraft:emerald"
 	},
 	"gives": {
-		"id": "minecraft:poisonous_potato",
+		"id": "minecraft:cookie",
 		"components": {
-			"minecraft:item_model": "minecraft:chorus_mochi",
+			"minecraft:rarity": "uncommon",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.chorus_mochi",
 				"color": "#ae6cbc"

@@ -3,9 +3,9 @@
 		"id": "minecraft:emerald"
 	},
 	"gives": {
-		"id": "minecraft:poisonous_potato",
+		"id": "minecraft:suspicious_stew",
 		"components": {
-			"minecraft:item_model": "minecraft:warped_stroganoff",
+			"minecraft:rarity": "rare",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.warped_stroganoff",
 				"color": "#3cc6c8"

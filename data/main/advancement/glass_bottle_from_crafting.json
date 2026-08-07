@@ -505,13 +505,6 @@
 			}
 			
 		},
-		"made_dough_from_water": {
-			"trigger": "minecraft:recipe_crafted",
-			"conditions": {
-				"recipe_id": "food:dough_from_water"
-			}
-			
-		},
 		"made_cake": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
@@ -601,7 +594,6 @@
 			"clone_orange_tulip",
 			"clone_pink_tulip",
 			"clone_white_tulip",
-			"made_dough_from_water",
 			"made_cake",
 			"made_knowledge_book"
 		]
