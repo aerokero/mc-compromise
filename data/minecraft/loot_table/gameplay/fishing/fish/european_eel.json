@@ -16,13 +16,7 @@
 									"translate": "item.kleispack.fish.european_eel"
 								},
 								"minecraft:item_model": "european_eel",
-								"minecraft:lore": [
-									{
-										"text": "⭐⭐⭐⭐",
-										"color": "light_purple",
-										"italic": false
-									}
-								]
+								"minecraft:rarity": "epic"
 							}
 						}
 					]

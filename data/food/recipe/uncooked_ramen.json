@@ -5,7 +5,7 @@
 		"minecraft:brown_mushroom",
 		"minecraft:dried_kelp",
 		"#minecraft:eggs",
-		"minecraft:shulker_spawn_egg",
+		"minecraft:wheat",
 		[
 			"minecraft:porkchop",
 			"minecraft:chicken"
@@ -13,9 +13,11 @@
 		"minecraft:bowl"
 	],
 	"result": {
-		"id": "minecraft:wither_skeleton_spawn_egg",
+		"id": "minecraft:bowl",
 		"components": {
-			"!minecraft:entity_data": {}
+			"minecraft:item_name": {
+				"translate": "item.kleispack.ramen_stock"
+			}
 		}
 	}
 }

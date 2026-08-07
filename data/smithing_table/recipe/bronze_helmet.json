@@ -8,12 +8,17 @@
 			"minecraft:max_damage": 500,
 			"minecraft:lore": [
 				{
-					"text": "⛊ 2",
+					"text": "When on Head:",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "+2 Armor",
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "🏃 +0.008",
+					"text": "+0.008 Speed",
 					"color": "dark_green",
 					"italic": false
 				}

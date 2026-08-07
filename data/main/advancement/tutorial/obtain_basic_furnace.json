@@ -1,12 +1,12 @@
 {
   "parent": "main:tutorial/obtain_dry_grass",
   "criteria": {
-    "get_smoker": {
+    "get_furnace": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:smoker"
+            "items": "minecraft:furnace"
           }
         ]
       }
@@ -14,20 +14,20 @@
   },
   "display": {
     "description": {
-      "text": "Construct a Kiln made from Mudbricks"
+      "text": "Construct a Basic Furnace made from Mudbricks"
     },
     "icon": {
       "count": 1,
-      "id": "minecraft:smoker"
+      "id": "minecraft:furnace"
     },
     "title": {
-      "text": "Ancient Technology"
+      "text": "Primitive Technology"
     },
     "hidden": false
   },
   "requirements": [
     [
-      "get_smoker"
+      "get_furnace"
     ]
   ]
 }

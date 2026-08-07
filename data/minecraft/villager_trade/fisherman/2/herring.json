@@ -11,13 +11,7 @@
 				"translate": "item.kleispack.fish.herring"
 			},
 			"minecraft:item_model": "herring",
-			"minecraft:lore": [
-				{
-					"text": "⭐⭐",
-					"color": "green",
-					"italic": false
-				}
-			]
+			"minecraft:rarity": "uncommon"
 		},
 		"count": 12,
 		"id": "minecraft:cod"

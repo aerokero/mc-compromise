@@ -22,7 +22,12 @@
 							"components": {
 								"minecraft:lore": [
 									{
-										"text": "❣",
+										"text": "When Eaten:",
+										"color": "gray",
+										"italic": false
+									},
+									{
+										"text": "+1 HP Restored",
 										"color": "red",
 										"italic": false
 									}

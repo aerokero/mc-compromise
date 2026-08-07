@@ -7,9 +7,8 @@
 		"minecraft:glass_bottle"
 	],
 	"result": {
-		"id": "minecraft:poisonous_potato",
+		"id": "minecraft:beetroot",
 		"components": {
-			"minecraft:item_model": "minecraft:pickled_tomatoes",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.pickled_tomatoes"
 			},
@@ -44,12 +43,17 @@
 			"minecraft:max_stack_size": 64,
 			"minecraft:lore": [
 				{
-					"text": "❤❤❤",
+					"text": "When Eaten:",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "+6 HP Restored",
 					"color": "red",
 					"italic": false
 				},
 				{
-					"text": "🗡 Strength (5:00)",
+					"text": "Strength (5:00)",
 					"color": "#e65f33",
 					"italic": false
 				}

@@ -16,13 +16,7 @@
 									"translate": "item.kleispack.fish.crappie"
 								},
 								"minecraft:item_model": "crappie",
-								"minecraft:lore": [
-									{
-										"text": "⭐",
-										"color": "gray",
-										"italic": false
-									}
-								]
+								"minecraft:rarity": "common"
 							}
 						}
 					]

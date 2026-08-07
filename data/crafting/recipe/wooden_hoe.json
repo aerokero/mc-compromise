@@ -16,17 +16,22 @@
 			"minecraft:max_damage": 200,
 			"minecraft:lore": [
 				{
-					"text": "⛏ 2",
+					"text": "When in Main Hand:",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "+2 Mining Speed",
 					"color": "blue",
 					"italic": false
 				},
 				{
-					"text": "🗡 1",
+					"text": "+1 Attack Damage",
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "🕒 1",
+					"text": "+1 Attack Speed",
 					"color": "dark_green",
 					"italic": false
 				}

@@ -15,17 +15,13 @@
 			"minecraft:stored_enchantments": {
 				"main:reach": 1
 			},
-			"minecraft:item_name": {
-				"translate": "item.kleispack.knowledge"
-			},
 			"minecraft:lore": [
 				{
 					"translate": "item.kleispack.knowledge.extended_reach",
 					"color": "dark_gray",
 					"italic": false
 				}
-			],
-			"minecraft:item_model": "minecraft:knowledge_extended_reach"
+			]
 		},
 		"count": 1,
 		"id": "minecraft:enchanted_book"

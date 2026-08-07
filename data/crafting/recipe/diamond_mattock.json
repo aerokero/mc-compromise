@@ -34,17 +34,22 @@
 			"minecraft:item_model": "minecraft:diamond_mattock",
 			"minecraft:lore": [
 				{
-					"text": "⛏ 8",
+					"text": "When in Main Hand:",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "+8 Mining Speed",
 					"color": "blue",
 					"italic": false
 				},
 				{
-					"text": "🗡 4",
+					"text": "+4 Attack Damage",
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "🕒 3",
+					"text": "+3 Attack Speed",
 					"color": "dark_green",
 					"italic": false
 				}

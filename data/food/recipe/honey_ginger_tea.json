@@ -5,21 +5,26 @@
 	"experience": 0.35,
 	"ingredient": "minecraft:honey_bottle",
 	"result": {
-		"id": "minecraft:poisonous_potato",
+		"id": "minecraft:honey_bottle",
 		"components": {
 			"minecraft:lore": [
 				{
-					"text": "❤",
+					"text": "When Eaten:",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "+2 HP Restored",
 					"color": "red",
 					"italic": false
 				},
 				{
-					"text": "🏃 +20% (0:30)",
+					"text": "Speed +20% (0:30)",
 					"color": "#37cafb",
 					"italic": false
 				},
 				{
-					"text": "✨ Cleanse Maleffect",
+					"text": "Cleanse Maleffect",
 					"color": "gray",
 					"italic": false
 				}
@@ -68,7 +73,6 @@
 					}
 				]
 			},
-			"minecraft:item_model": "minecraft:honey_ginger_tea",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.honey_ginger_tea"
 			},

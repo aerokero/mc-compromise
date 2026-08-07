@@ -12,12 +12,17 @@
 							"components": {
 								"minecraft:lore": [
 									{
-										"text": "⛊ 3",
+										"text": "When on Body:",
+										"color": "gray",
+										"italic": false
+									},
+									{
+										"text": "+3 Armor",
 										"color": "dark_green",
 										"italic": false
 									},
 									{
-										"text": "⛨ 2",
+										"text": "+2 Armor Toughness",
 										"color": "dark_green",
 										"italic": false
 									}
@@ -45,12 +50,17 @@
 							"components": {
 								"minecraft:lore": [
 									{
-										"text": "⛊ 8",
+										"text": "When on Body:",
+										"color": "gray",
+										"italic": false
+									},
+									{
+										"text": "+8 Armor",
 										"color": "dark_green",
 										"italic": false
 									},
 									{
-										"text": "⛨ 2",
+										"text": "+2 Armor Toughness",
 										"color": "dark_green",
 										"italic": false
 									}
@@ -78,12 +88,17 @@
 							"components": {
 								"minecraft:lore": [
 									{
-										"text": "⛊ 6",
+										"text": "When on Body:",
+										"color": "gray",
+										"italic": false
+									},
+									{
+										"text": "+6 Armor",
 										"color": "dark_green",
 										"italic": false
 									},
 									{
-										"text": "⛨ 2",
+										"text": "+2 Armor Toughness",
 										"color": "dark_green",
 										"italic": false
 									}
@@ -111,12 +126,17 @@
 							"components": {
 								"minecraft:lore": [
 									{
-										"text": "⛊ 3",
+										"text": "When on Body:",
+										"color": "gray",
+										"italic": false
+									},
+									{
+										"text": "+3 Armor",
 										"color": "dark_green",
 										"italic": false
 									},
 									{
-										"text": "⛨ 2",
+										"text": "+2 Armor Toughness",
 										"color": "dark_green",
 										"italic": false
 									}
@@ -144,12 +164,17 @@
 							"components": {
 								"minecraft:lore": [
 									{
-										"text": "🗡 7",
+										"text": "When in Main Hand:",
+										"color": "gray",
+										"italic": false
+									},
+									{
+										"text": "+7 Attack Damage",
 										"color": "dark_green",
 										"italic": false
 									},
 									{
-										"text": "🕒 1.6",
+										"text": "+1.6 Attack Speed",
 										"color": "dark_green",
 										"italic": false
 									}
@@ -177,12 +202,17 @@
 							"components": {
 								"minecraft:lore": [
 									{
-										"text": "🗡 4",
+										"text": "When in Main Hand:",
+										"color": "gray",
+										"italic": false
+									},
+									{
+										"text": "+4 Attack Damage",
 										"color": "dark_green",
 										"italic": false
 									},
 									{
-										"text": "🕒 0.95",
+										"text": "+0.95 Attack Speed",
 										"color": "dark_green",
 										"italic": false
 									}
@@ -222,17 +252,22 @@
 								},
 								"minecraft:lore": [
 									{
-										"text": "⛏ 9",
+										"text": "When in Main Hand:",
+										"color": "gray",
+										"italic": false
+									},
+									{
+										"text": "+9 Mining Speed",
 										"color": "blue",
 										"italic": false
 									},
 									{
-										"text": "🗡 5",
+										"text": "+5 Attack Damage",
 										"color": "dark_green",
 										"italic": false
 									},
 									{
-										"text": "🕒 1.2",
+										"text": "+1.2 Attack Speed",
 										"color": "dark_green",
 										"italic": false
 									}
@@ -271,17 +306,22 @@
 								},
 								"minecraft:lore": [
 									{
-										"text": "⛏ 9",
+										"text": "When in Main Hand:",
+										"color": "gray",
+										"italic": false
+									},
+									{
+										"text": "+9 Mining Speed",
 										"color": "blue",
 										"italic": false
 									},
 									{
-										"text": "🗡 9",
+										"text": "+9 Attack Damage",
 										"color": "dark_green",
 										"italic": false
 									},
 									{
-										"text": "🕒 1",
+										"text": "+1 Attack Speed",
 										"color": "dark_green",
 										"italic": false
 									}
@@ -320,17 +360,22 @@
 								},
 								"minecraft:lore": [
 									{
-										"text": "⛏ 9",
+										"text": "When in Main Hand:",
+										"color": "gray",
+										"italic": false
+									},
+									{
+										"text": "+9 Mining Speed",
 										"color": "blue",
 										"italic": false
 									},
 									{
-										"text": "🗡 5.5",
+										"text": "+5.5 Attack Damage",
 										"color": "dark_green",
 										"italic": false
 									},
 									{
-										"text": "🕒 1",
+										"text": "+1 Attack Speed",
 										"color": "dark_green",
 										"italic": false
 									}
@@ -369,17 +414,22 @@
 								},
 								"minecraft:lore": [
 									{
-										"text": "⛏ 9",
+										"text": "When in Main Hand:",
+										"color": "gray",
+										"italic": false
+									},
+									{
+										"text": "+9 Mining Speed",
 										"color": "blue",
 										"italic": false
 									},
 									{
-										"text": "🗡 1",
+										"text": "+1 Attack Damage",
 										"color": "dark_green",
 										"italic": false
 									},
 									{
-										"text": "🕒 4",
+										"text": "+4 Attack Speed",
 										"color": "dark_green",
 										"italic": false
 									}

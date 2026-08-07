@@ -5,16 +5,21 @@
 	"experience": 0.35,
 	"ingredient": "minecraft:red_mushroom",
 	"result": {
-		"id": "minecraft:poisonous_potato",
+		"id": "minecraft:red_mushroom",
 		"components": {
 			"minecraft:lore": [
 				{
-					"text": "❤",
+					"text": "When Eaten:",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "+2 HP Restored",
 					"color": "red",
 					"italic": false
 				},
 				{
-					"text": "💀 Poison (00:30)",
+					"text": "Poison (00:30)",
 					"color": "#48a53b",
 					"italic": false
 				}
@@ -43,7 +48,6 @@
 					}
 				]
 			},
-			"minecraft:item_model": "minecraft:braised_red_mushroom",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.braised_red_mushroom"
 			},

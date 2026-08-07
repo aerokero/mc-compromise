@@ -28,12 +28,12 @@
 			},
 			"minecraft:lore": [
 				{
-					"text": "👁❌ Darkness (01:00)",
+					"text": "Darkness (01:00)",
 					"color": "#37a9a8",
 					"italic": false
 				},
 				{
-					"text": "👁❌ Blindness (00:30)",
+					"text": "Blindness (00:30)",
 					"color": "#37a9a8",
 					"italic": false
 				}

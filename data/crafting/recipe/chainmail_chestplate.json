@@ -14,7 +14,12 @@
 			"minecraft:max_damage": 300,
 			"minecraft:lore": [
 				{
-					"text": "⛊ 6",
+					"text": "When on Body:",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "+6 Armor",
 					"color": "dark_green",
 					"italic": false
 				}

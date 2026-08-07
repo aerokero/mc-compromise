@@ -16,13 +16,7 @@
 									"translate": "item.kleispack.fish.sturgeon"
 								},
 								"minecraft:item_model": "sturgeon",
-								"minecraft:lore": [
-									{
-										"text": "⭐⭐⭐",
-										"color": "aqua",
-										"italic": false
-									}
-								]
+								"minecraft:rarity": "rare"
 							}
 						}
 					]

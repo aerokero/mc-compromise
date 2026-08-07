@@ -4,13 +4,16 @@
 	"category": "misc",
 	"ingredients": [
 		"minecraft:potion",
-		"minecraft:enderman_spawn_egg"
+		"minecraft:wheat"
 	],
 	"result": {
 		"components": {
-			"!minecraft:entity_data": {}
+			"!minecraft:entity_data": {},
+			"minecraft:item_name": {
+				"translate": "item.kleispack.dough"
+			}
 		},
 		"count": 1,
-		"id": "minecraft:shulker_spawn_egg"
+		"id": "minecraft:wheat"
 	}
 }

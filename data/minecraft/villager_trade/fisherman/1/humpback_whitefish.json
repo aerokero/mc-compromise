@@ -11,13 +11,7 @@
 				"translate": "item.kleispack.fish.humpback_whitefish"
 			},
 			"minecraft:item_model": "humpback_whitefish",
-			"minecraft:lore": [
-				{
-					"text": "⭐",
-					"color": "gray",
-					"italic": false
-				}
-			]
+			"minecraft:rarity": "common"
 		},
 		"count": 23,
 		"id": "minecraft:cod"

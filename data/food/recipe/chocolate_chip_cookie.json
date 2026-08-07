@@ -3,19 +3,24 @@
 	"ingredients": [
 		"minecraft:mushroom_stew",
 		"minecraft:sugar",
-		"minecraft:shulker_spawn_egg"
+		"minecraft:wheat"
 	],
 	"result": {
-		"id": "minecraft:poisonous_potato",
+		"id": "minecraft:cookie",
 		"components": {
 			"minecraft:lore": [
 				{
-					"text": "❤❤",
+					"text": "When Eaten:",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "+4 HP Restored",
 					"color": "red",
 					"italic": false
 				},
 				{
-					"text": "⛏ Haste (5:00)",
+					"text": "Haste (5:00)",
 					"color": "yellow",
 					"italic": false
 				}
@@ -45,7 +50,6 @@
 					}
 				]
 			},
-			"minecraft:item_model": "minecraft:chocolate_chip_cookie",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.chocolate_chip_cookie"
 			},

@@ -1,20 +1,23 @@
 {
 	"parent": "minecraft:recipes/root",
 	"criteria": {
-		"has_primary_material": {
+		"has_crafted_dough": {
 			"conditions": {
-				"items": [
-					{
-						"items": "minecraft:shulker_spawn_egg"
-					}
-				]
+				"recipe_id": "food:dough"
 			},
-			"trigger": "minecraft:inventory_changed"
+			"trigger": "minecraft:recipe_crafted"
+		},
+		"has_crafted_dough_from_water": {
+			"conditions": {
+				"recipe_id": "food:dough_from_water"
+			},
+			"trigger": "minecraft:recipe_crafted"
 		}
 	},
 	"requirements": [
 		[
-			"has_primary_material"
+			"has_crafted_dough",
+			"has_crafted_dough_from_water"
 		]
 	],
 	"rewards": {

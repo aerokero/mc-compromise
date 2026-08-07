@@ -67,22 +67,27 @@
       "minecraft:item_name": "Chicken Noodle Soup",
       "minecraft:lore": [
         {
-          "text": "❤❤",
+          "text": "When Eaten:",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "+4 HP Restored",
           "color": "red",
           "italic": false
         },
         {
-          "text": "🍖 Full (0:30)",
+          "text": "Full (0:30)",
           "color": "dark_green",
           "italic": false
         },
         {
-          "text": "❤ Comfort (0:30)",
+          "text": "Comfort (0:30)",
           "color": "#e85e8f",
           "italic": false
         },
         {
-          "text": "➕ Panacea",
+          "text": "Panacea",
           "color": "dark_purple",
           "italic": false
         }

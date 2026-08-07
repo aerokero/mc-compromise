@@ -3,7 +3,7 @@
 	"group": "flour_bag",
 	"category": "misc",
 	"key": {
-		"#": "minecraft:enderman_spawn_egg"
+		"#": "minecraft:wheat"
 	},
 	"pattern": [
 		"###",
@@ -11,9 +11,12 @@
 		"###"
 	],
 	"result": {
-		"id": "minecraft:magma_cube_spawn_egg",
+		"id": "minecraft:wheat",
 		"components": {
-			"!minecraft:entity_data": {}
+			"!minecraft:entity_data": {},
+			"minecraft:item_name": {
+				"translate": "item.kleispack.flour_bag"
+			}
 		}
 	}
 }

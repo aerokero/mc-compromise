@@ -5,21 +5,26 @@
 	"experience": 0.35,
 	"ingredient": "minecraft:golden_apple",
 	"result": {
-		"id": "minecraft:poisonous_potato",
+		"id": "minecraft:golden_apple",
 		"components": {
 			"minecraft:lore": [
 				{
-					"text": "❤❤❤❤",
+					"text": "When Eaten:",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "+8 HP Restored",
 					"color": "red",
 					"italic": false
 				},
 				{
-					"text": "❤❤ (2:00)",
+					"text": "Absorption (2:00)",
 					"color": "aqua",
 					"italic": false
 				},
 				{
-					"text": "❤ Regen (1:00)",
+					"text": "Regen (1:00)",
 					"color": "#e85e8f",
 					"italic": false
 				}
@@ -56,7 +61,6 @@
 					}
 				]
 			},
-			"minecraft:item_model": "minecraft:baked_golden_apple",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.baked_golden_apple",
 				"color": "yellow"

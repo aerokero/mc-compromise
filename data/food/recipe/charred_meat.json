@@ -11,11 +11,16 @@
 		"minecraft:mutton"
 	],
 	"result": {
-		"id": "minecraft:poisonous_potato",
+		"id": "minecraft:cooked_beef",
 		"components": {
 			"minecraft:lore": [
 				{
-					"text": "❤",
+					"text": "When Eaten:",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "+2 HP Restored",
 					"color": "red",
 					"italic": false
 				}
@@ -37,7 +42,6 @@
 					}
 				]
 			},
-			"minecraft:item_model": "minecraft:charred_meat",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.charred_meat"
 			},

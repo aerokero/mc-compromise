@@ -12,7 +12,7 @@
     "components": {
       "minecraft:lore": [
         {
-          "text": "✨ Cleanse",
+          "text": "Cleanse",
           "color": "gray",
           "italic": false
         }

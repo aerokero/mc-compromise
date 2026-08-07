@@ -17,17 +17,13 @@
 			"minecraft:stored_enchantments": {
 				"minecraft:unbreaking": 2
 			},
-			"minecraft:item_name": {
-				"translate": "item.kleispack.knowledge"
-			},
 			"minecraft:lore": [
 				{
 					"translate": "item.kleispack.knowledge.unbreaking",
 					"color": "dark_gray",
 					"italic": false
 				}
-			],
-			"minecraft:item_model": "minecraft:knowledge_unbreaking"
+			]
 		},
 		"count": 1,
 		"id": "minecraft:enchanted_book"

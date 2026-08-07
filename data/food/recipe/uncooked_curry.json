@@ -4,7 +4,7 @@
 	"ingredients": [
 		"minecraft:glowstone_dust",
 		"minecraft:sugar",
-		"minecraft:enderman_spawn_egg",
+		"minecraft:wheat",
 		"minecraft:potato",
 		[
 			"minecraft:beef",
@@ -15,9 +15,11 @@
 		"minecraft:bowl"
 	],
 	"result": {
-		"id": "minecraft:strider_spawn_egg",
+		"id": "minecraft:bowl",
 		"components": {
-			"!minecraft:entity_data": {}
+			"minecraft:item_name": {
+				"translate": "item.kleispack.curry_stock"
+			}
 		}
 	}
 }

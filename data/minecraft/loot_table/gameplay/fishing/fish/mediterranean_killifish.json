@@ -16,13 +16,7 @@
 									"translate": "item.kleispack.fish.mediterranean_killifish"
 								},
 								"minecraft:item_model": "mediterranean_killifish",
-								"minecraft:lore": [
-									{
-										"text": "⭐",
-										"color": "gray",
-										"italic": false
-									}
-								]
+								"minecraft:rarity": "common"
 							}
 						}
 					]

@@ -5,16 +5,21 @@
 	"experience": 0.35,
 	"ingredient": "minecraft:sweet_berries",
 	"result": {
-		"id": "minecraft:magma_cream",
+		"id": "minecraft:sweet_berries",
 		"components": {
 			"minecraft:lore": [
 				{
-					"text": "❤",
+					"text": "When Eaten:",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "+2 HP Restored",
 					"color": "red",
 					"italic": false
 				},
 				{
-					"text": "❤❤ (0:10)",
+					"text": "Absorption (0:10)",
 					"color": "gray",
 					"italic": false
 				}

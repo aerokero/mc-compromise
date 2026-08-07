@@ -13,23 +13,11 @@ Recipes are mainly located in `data/food/recipe`, while some food loot tables ar
 | `beetroot` | Tomatoes |
 | `beetroot_seeds` | Tomato Seeds |
 | `wheat_seeds` | Wheat Grain |
-| `beetroot_soup` | Milk Bottle |
-| `cookie` | Cheese |
+| `glass_bottle` | Milk Bottle |
 | `rabbit` | Raw Flesh |
 | `cooked_rabbit` | Cooked Flesh |
-| `rabbit_foot` | Braised Mushroom |
-| `fermented_spider_eye` | Baked Apple |
-| `rotten_flesh` | Glow Berry Mash |
-| `magma_cream` | Sweet Berry Mash |
-| `mushroom_stew` | Chocolate |
-| `breeze_rod` | Baked Pumpkin |
-| `shulker_spawn_egg` | Dough |
-| `enderman_spawn_egg` | Flour |
-| `magma_cube_spawn_egg` | Flour Bag |
-| `strider_spawn_egg` | Curry Stock |
-| `zoglin_spawn_egg` | Paneer Curry Stock |
-| `zombified_piglin_spawn_egg` | Green Curry Stock |
-| `wither_skeleton_spawn_egg` | Ramen Stock |
+
+Custom dishes no longer reuse unrelated vanilla IDs (spawn eggs, potions, etc.) as texture/name carriers. Each dish's `result.id` is instead its closest vanilla food equivalent (e.g. potato dishes use `potato`, apple dishes use `apple`, stews/curries use `rabbit_stew`/`mushroom_stew`/`beetroot_soup`, Cheese uses `milk_bucket`), with no custom `item_model` override — the dish keeps its own name/lore/effects via item components, but visually and by ID it's just that base item. Flour, Flour Bag and Dough all resolve to `wheat`; the four "uncooked" stew bases (for Curry, Green Curry, Paneer Makhani, Ramen) resolve to `bowl`.
 
 ## Basic processing
 

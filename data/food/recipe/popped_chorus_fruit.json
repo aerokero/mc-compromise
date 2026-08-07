@@ -9,12 +9,17 @@
 		"components": {
 			"minecraft:lore": [
 				{
-					"text": "❤",
+					"text": "When Eaten:",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "+2 HP Restored",
 					"color": "red",
 					"italic": false
 				},
 				{
-					"text": "🕴 Levitation III (0:03)",
+					"text": "Levitation III (0:03)",
 					"color": "#ae6cbc",
 					"italic": false
 				}

@@ -4,13 +4,16 @@
 	"category": "misc",
 	"ingredients": [
 		[
-			"minecraft:magma_cube_spawn_egg"
+			"minecraft:wheat"
 		]
 	],
 	"result": {
-		"id": "minecraft:enderman_spawn_egg",
+		"id": "minecraft:wheat",
 		"components": {
-			"!minecraft:entity_data": {}
+			"!minecraft:entity_data": {},
+			"minecraft:item_name": {
+				"translate": "item.kleispack.flour"
+			}
 		},
 		"count": 9
 	}

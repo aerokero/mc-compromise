@@ -3,18 +3,23 @@
 	"category": "food",
 	"cookingtime": 300,
 	"experience": 0.35,
-	"ingredient": "minecraft:zoglin_spawn_egg",
+	"ingredient": "minecraft:bowl",
 	"result": {
-		"id": "minecraft:poisonous_potato",
+		"id": "minecraft:rabbit_stew",
 		"components": {
 			"minecraft:lore": [
 				{
-					"text": "❤❤❤❤❤❤❤❤❤❤",
+					"text": "When Eaten:",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "+20 HP Restored",
 					"color": "red",
 					"italic": false
 				},
 				{
-					"text": "❤ Regen (10:00)",
+					"text": "Regen (10:00)",
 					"color": "#e85e8f",
 					"italic": false
 				}
@@ -45,7 +50,6 @@
 					}
 				]
 			},
-			"minecraft:item_model": "minecraft:paneer_makhani",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.paneer_makhani"
 			},

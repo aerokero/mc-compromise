@@ -16,13 +16,7 @@
 									"translate": "item.kleispack.fish.blind_cave_fish"
 								},
 								"minecraft:item_model": "blind_cave_fish",
-								"minecraft:lore": [
-									{
-										"text": "⭐",
-										"color": "gray",
-										"italic": false
-									}
-								]
+								"minecraft:rarity": "common"
 							}
 						}
 					]

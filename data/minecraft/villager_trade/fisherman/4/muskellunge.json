@@ -11,13 +11,7 @@
 				"translate": "item.kleispack.fish.muskellunge"
 			},
 			"minecraft:item_model": "muskellunge",
-			"minecraft:lore": [
-				{
-					"text": "⭐⭐⭐⭐",
-					"color": "light_purple",
-					"italic": false
-				}
-			]
+			"minecraft:rarity": "epic"
 		},
 		"count": 1,
 		"id": "minecraft:salmon"

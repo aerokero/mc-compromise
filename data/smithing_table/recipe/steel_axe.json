@@ -23,22 +23,27 @@
 			"minecraft:item_model": "minecraft:steel_axe",
 			"minecraft:lore": [
 				{
-					"text": "⛏ 8",
+					"text": "When in Main Hand:",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "+8 Mining Speed",
 					"color": "blue",
 					"italic": false
 				},
 				{
-					"text": "💥 2",
+					"text": "+2 Knockback",
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "🗡 9",
+					"text": "+9 Attack Damage",
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "🕒 0.7",
+					"text": "+0.7 Attack Speed",
 					"color": "dark_green",
 					"italic": false
 				}

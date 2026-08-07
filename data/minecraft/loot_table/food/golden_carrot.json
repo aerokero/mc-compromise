@@ -14,12 +14,17 @@
 							"components": {
 								"minecraft:lore": [
 									{
-										"text": "❤",
+										"text": "When Eaten:",
+										"color": "gray",
+										"italic": false
+									},
+									{
+										"text": "+2 HP Restored",
 										"color": "red",
 										"italic": false
 									},
 									{
-										"text": "👁 Night Vision (0:30)",
+										"text": "Night Vision (0:30)",
 										"color": "green",
 										"italic": false
 									}

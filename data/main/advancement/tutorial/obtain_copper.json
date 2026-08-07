@@ -1,5 +1,5 @@
 {
-	"parent": "main:tutorial/obtain_kiln",
+	"parent": "main:tutorial/obtain_basic_furnace",
 	"criteria": {
 		"get_copper": {
 			"trigger": "minecraft:inventory_changed",
@@ -14,7 +14,7 @@
 	},
 	"display": {
 		"description": {
-			"text": "Use a Kiln to Smelt Copper"
+			"text": "Use a Basic Furnace to Smelt Copper"
 		},
 		"icon": {
 			"count": 1,

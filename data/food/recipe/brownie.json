@@ -4,19 +4,24 @@
 		"minecraft:mushroom_stew",
 		"minecraft:mushroom_stew",
 		"minecraft:sugar",
-		"minecraft:shulker_spawn_egg"
+		"minecraft:wheat"
 	],
 	"result": {
-		"id": "minecraft:poisonous_potato",
+		"id": "minecraft:cookie",
 		"components": {
 			"minecraft:lore": [
 				{
-					"text": "❤❤❤",
+					"text": "When Eaten:",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "+6 HP Restored",
 					"color": "red",
 					"italic": false
 				},
 				{
-					"text": "⛏ Haste II (2:30)",
+					"text": "Haste II (2:30)",
 					"color": "yellow",
 					"italic": false
 				}
@@ -46,7 +51,6 @@
 					}
 				]
 			},
-			"minecraft:item_model": "minecraft:brownie",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.brownie"
 			},

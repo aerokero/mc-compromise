@@ -13,7 +13,12 @@
 		"components": {
 			"minecraft:lore": [
 				{
-					"text": "⛊ 4",
+					"text": "When on Body:",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "+4 Armor",
 					"color": "dark_green",
 					"italic": false
 				}

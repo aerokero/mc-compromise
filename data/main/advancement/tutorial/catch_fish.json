@@ -38,15 +38,12 @@
 		"description": {
 			"text": "Catch a fish"
 		},
-		"icon": {
-			"components": {
-				"minecraft:item_model": "minecraft:crappie"
-			},
-			"count": 1,
-			"id": "minecraft:cod"
-		},
+        "icon": {
+        "count": 1,
+        "id": "minecraft:fishing_rod"
+        },
 		"title": {
-			"text": "What a Catch!"
+			"text": "Fishy Business"
 		},
 		"hidden": false
 	},

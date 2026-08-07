@@ -18,17 +18,13 @@
 				"minecraft:aqua_affinity": 1,
 				"minecraft:respiration": 2
 			},
-			"minecraft:item_name": {
-				"translate": "item.kleispack.knowledge"
-			},
 			"minecraft:lore": [
 				{
 					"translate": "item.kleispack.knowledge.aquatic_mastery",
 					"color": "dark_gray",
 					"italic": false
 				}
-			],
-			"minecraft:item_model": "minecraft:knowledge_aquatic_mastery"
+			]
 		},
 		"count": 1,
 		"id": "minecraft:enchanted_book"

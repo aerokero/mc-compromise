@@ -5,13 +5,12 @@
 		"minecraft:baked_potato",
 		"minecraft:cookie",
 		"#minecraft:eggs",
-		"minecraft:enderman_spawn_egg",
+		"minecraft:wheat",
 		"minecraft:bowl"
 	],
 	"result": {
-		"id": "minecraft:poisonous_potato",
+		"id": "minecraft:potato",
 		"components": {
-			"minecraft:item_model": "minecraft:gnocchi",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.gnocchi",
 				"color": "#e1bc62"
@@ -40,7 +39,12 @@
 			"minecraft:max_stack_size": 64,
 			"minecraft:lore": [
 				{
-					"text": "❤❤❤❤❤❤❤❤",
+					"text": "When Eaten:",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "+16 HP Restored",
 					"color": "red",
 					"italic": false
 				}

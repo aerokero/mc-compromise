@@ -4,14 +4,13 @@
 	"ingredients": [
 		"minecraft:crimson_fungus",
 		"minecraft:cooked_beef",
-		"minecraft:shulker_spawn_egg",
+		"minecraft:wheat",
 		"minecraft:beetroot_soup",
 		"minecraft:bowl"
 	],
 	"result": {
-		"id": "minecraft:poisonous_potato",
+		"id": "minecraft:crimson_fungus",
 		"components": {
-			"minecraft:item_model": "minecraft:crimson_stroganoff",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.crimson_stroganoff",
 				"color": "#c54457"
@@ -48,12 +47,17 @@
 			"minecraft:max_stack_size": 64,
 			"minecraft:lore": [
 				{
-					"text": "❤❤❤❤❤❤",
+					"text": "When Eaten:",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "+12 HP Restored",
 					"color": "red",
 					"italic": false
 				},
 				{
-					"text": "🥀 Weakness (05:00)",
+					"text": "Weakness (05:00)",
 					"color": "#b6a09a",
 					"italic": false
 				}

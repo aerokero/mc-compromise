@@ -22,17 +22,13 @@
 				"minecraft:lunge": 2,
 				"minecraft:breach": 2
 			},
-			"minecraft:item_name": {
-				"translate": "item.kleispack.knowledge"
-			},
 			"minecraft:lore": [
 				{
 					"translate": "item.kleispack.knowledge.armor_breaker",
 					"color": "dark_gray",
 					"italic": false
 				}
-			],
-			"minecraft:item_model": "minecraft:knowledge_armor_breaker"
+			]
 		},
 		"count": 1,
 		"id": "minecraft:enchanted_book"

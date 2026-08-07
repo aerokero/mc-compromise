@@ -14,17 +14,22 @@
 		"components": {
 			"minecraft:lore": [
 				{
-					"text": "❤❤",
+					"text": "When Eaten:",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "+4 HP Restored",
 					"color": "red",
 					"italic": false
 				},
 				{
-					"text": "❤❤ (2:00)",
+					"text": "Absorption (2:00)",
 					"color": "aqua",
 					"italic": false
 				},
 				{
-					"text": "❤ Regen (0:30)",
+					"text": "Regen (0:30)",
 					"color": "#e85e8f",
 					"italic": false
 				}

@@ -3,18 +3,23 @@
 	"category": "food",
 	"cookingtime": 300,
 	"experience": 0.35,
-	"ingredient": "minecraft:wither_skeleton_spawn_egg",
+	"ingredient": "minecraft:bowl",
 	"result": {
-		"id": "minecraft:poisonous_potato",
+		"id": "minecraft:mushroom_stew",
 		"components": {
 			"minecraft:lore": [
 				{
-					"text": "❤❤❤❤❤❤❤❤❤❤",
+					"text": "When Eaten:",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "+20 HP Restored",
 					"color": "red",
 					"italic": false
 				},
 				{
-					"text": "⛏ Haste II (30:00)",
+					"text": "Haste II (30:00)",
 					"color": "yellow",
 					"italic": false
 				}
@@ -46,7 +51,6 @@
 					}
 				]
 			},
-			"minecraft:item_model": "minecraft:ramen",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.ramen"
 			},

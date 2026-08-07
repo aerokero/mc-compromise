@@ -16,13 +16,7 @@
 									"translate": "item.kleispack.fish.rainbow_wrasse"
 								},
 								"minecraft:item_model": "rainbow_wrasse",
-								"minecraft:lore": [
-									{
-										"text": "⭐",
-										"color": "gray",
-										"italic": false
-									}
-								]
+								"minecraft:rarity": "common"
 							}
 						}
 					]

@@ -16,13 +16,7 @@
 									"translate": "item.kleispack.fish.shad"
 								},
 								"minecraft:item_model": "shad",
-								"minecraft:lore": [
-									{
-										"text": "⭐",
-										"color": "gray",
-										"italic": false
-									}
-								]
+								"minecraft:rarity": "common"
 							}
 						}
 					]

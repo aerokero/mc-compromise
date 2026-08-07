@@ -7,7 +7,7 @@
 		"minecraft:glass_bottle"
 	],
 	"result": {
-		"id": "minecraft:splash_potion",
+		"id": "minecraft:red_mushroom",
 		"components": {
 			"minecraft:max_stack_size": 64,
 			"minecraft:potion_contents": {
@@ -27,7 +27,7 @@
 			},
 			"minecraft:lore": [
 				{
-					"text": "💀 Poison II (01:00)",
+					"text": "Poison II (01:00)",
 					"color": "#48a53b",
 					"italic": false
 				}
@@ -35,8 +35,7 @@
 			"minecraft:custom_name": {
 				"translate": "item.kleispack.pickled_red_mushrooms",
 				"italic": false
-			},
-			"minecraft:item_model": "minecraft:pickled_red_mushrooms"
+			}
 		},
 		"count": 1
 	}

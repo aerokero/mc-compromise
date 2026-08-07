@@ -13,12 +13,17 @@
 								"minecraft:max_damage": 350,
 								"minecraft:lore": [
 									{
-										"text": "⛊ 2",
+										"text": "When on Head:",
+										"color": "gray",
+										"italic": false
+									},
+									{
+										"text": "+2 Armor",
 										"color": "dark_green",
 										"italic": false
 									},
 									{
-										"text": "⬇⛊ 1",
+										"text": "-1 Armor",
 										"color": "dark_green",
 										"italic": false
 									}
@@ -75,12 +80,17 @@
 								"minecraft:max_damage": 350,
 								"minecraft:lore": [
 									{
-										"text": "⛊ 4",
+										"text": "When on Body:",
+										"color": "gray",
+										"italic": false
+									},
+									{
+										"text": "+4 Armor",
 										"color": "dark_green",
 										"italic": false
 									},
 									{
-										"text": "⬇⛊ 1",
+										"text": "-1 Armor",
 										"color": "dark_green",
 										"italic": false
 									}
@@ -137,12 +147,17 @@
 								"minecraft:max_damage": 350,
 								"minecraft:lore": [
 									{
-										"text": "⛊ 3",
+										"text": "When on Legs:",
+										"color": "gray",
+										"italic": false
+									},
+									{
+										"text": "+3 Armor",
 										"color": "dark_green",
 										"italic": false
 									},
 									{
-										"text": "⬇⛊ 1",
+										"text": "-1 Armor",
 										"color": "dark_green",
 										"italic": false
 									}
@@ -199,12 +214,17 @@
 								"minecraft:max_damage": 350,
 								"minecraft:lore": [
 									{
-										"text": "⛊ 2",
+										"text": "When on Feet:",
+										"color": "gray",
+										"italic": false
+									},
+									{
+										"text": "+2 Armor",
 										"color": "dark_green",
 										"italic": false
 									},
 									{
-										"text": "⬇⛊ 1",
+										"text": "-1 Armor",
 										"color": "dark_green",
 										"italic": false
 									}

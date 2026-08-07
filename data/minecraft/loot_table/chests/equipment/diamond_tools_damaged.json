@@ -24,17 +24,22 @@
 								},
 								"minecraft:lore": [
 									{
-										"text": "⛏ 9",
+										"text": "When in Main Hand:",
+										"color": "gray",
+										"italic": false
+									},
+									{
+										"text": "+9 Mining Speed",
 										"color": "blue",
 										"italic": false
 									},
 									{
-										"text": "🗡 5",
+										"text": "+5 Attack Damage",
 										"color": "dark_green",
 										"italic": false
 									},
 									{
-										"text": "🕒 1.2",
+										"text": "+1.2 Attack Speed",
 										"color": "dark_green",
 										"italic": false
 									}
@@ -81,17 +86,22 @@
 								},
 								"minecraft:lore": [
 									{
-										"text": "⛏ 9",
+										"text": "When in Main Hand:",
+										"color": "gray",
+										"italic": false
+									},
+									{
+										"text": "+9 Mining Speed",
 										"color": "blue",
 										"italic": false
 									},
 									{
-										"text": "🗡 9",
+										"text": "+9 Attack Damage",
 										"color": "dark_green",
 										"italic": false
 									},
 									{
-										"text": "🕒 1",
+										"text": "+1 Attack Speed",
 										"color": "dark_green",
 										"italic": false
 									}
@@ -138,17 +148,22 @@
 								},
 								"minecraft:lore": [
 									{
-										"text": "⛏ 9",
+										"text": "When in Main Hand:",
+										"color": "gray",
+										"italic": false
+									},
+									{
+										"text": "+9 Mining Speed",
 										"color": "blue",
 										"italic": false
 									},
 									{
-										"text": "🗡 5.5",
+										"text": "+5.5 Attack Damage",
 										"color": "dark_green",
 										"italic": false
 									},
 									{
-										"text": "🕒 1",
+										"text": "+1 Attack Speed",
 										"color": "dark_green",
 										"italic": false
 									}
@@ -195,17 +210,22 @@
 								},
 								"minecraft:lore": [
 									{
-										"text": "⛏ 9",
+										"text": "When in Main Hand:",
+										"color": "gray",
+										"italic": false
+									},
+									{
+										"text": "+9 Mining Speed",
 										"color": "blue",
 										"italic": false
 									},
 									{
-										"text": "🗡 1",
+										"text": "+1 Attack Damage",
 										"color": "dark_green",
 										"italic": false
 									},
 									{
-										"text": "🕒 4",
+										"text": "+4 Attack Speed",
 										"color": "dark_green",
 										"italic": false
 									}

@@ -14,14 +14,14 @@
   },
   "display": {
     "description": {
-      "text": "Diamonds have no Intrinsics, but are capable of Hosting Electrum and Netherite"
+      "text": "Acquire diamonds"
     },
     "icon": {
       "count": 1,
       "id": "minecraft:diamond"
     },
     "title": {
-      "text": "The Resilient Mineral"
+      "text": "Diamonds!"
     },
     "hidden": false
   },

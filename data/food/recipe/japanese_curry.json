@@ -3,18 +3,23 @@
 	"category": "food",
 	"cookingtime": 300,
 	"experience": 0.35,
-	"ingredient": "minecraft:strider_spawn_egg",
+	"ingredient": "minecraft:bowl",
 	"result": {
-		"id": "minecraft:poisonous_potato",
+		"id": "minecraft:rabbit_stew",
 		"components": {
 			"minecraft:lore": [
 				{
-					"text": "❤❤❤❤❤❤❤❤❤❤",
+					"text": "When Eaten:",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "+20 HP Restored",
 					"color": "red",
 					"italic": false
 				},
 				{
-					"text": "🗡 Strength (30:00)",
+					"text": "Strength (30:00)",
 					"color": "#e65f33",
 					"italic": false
 				}
@@ -44,7 +49,6 @@
 					}
 				]
 			},
-			"minecraft:item_model": "minecraft:japanese_curry",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.japanese_curry"
 			},

@@ -9,12 +9,17 @@
 		"components": {
 			"minecraft:lore": [
 				{
-					"text": "❤❤",
+					"text": "When Eaten:",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "+4 HP Restored",
 					"color": "red",
 					"italic": false
 				},
 				{
-					"text": "🐟 Conduit Power (0:30)",
+					"text": "Conduit Power (0:30)",
 					"color": "#7ec9e7",
 					"italic": false
 				}
@@ -43,7 +48,6 @@
 					}
 				]
 			},
-			"minecraft:item_model": "minecraft:cooked_pufferfish",
 			"minecraft:food": {
 				"nutrition": 0,
 				"saturation": 0,

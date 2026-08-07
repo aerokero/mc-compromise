@@ -13,9 +13,8 @@
 		"minecraft:bowl"
 	],
 	"result": {
-		"id": "minecraft:poisonous_potato",
+		"id": "minecraft:dried_kelp",
 		"components": {
-			"minecraft:item_model": "minecraft:bokguk",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.bokguk"
 			},
@@ -51,12 +50,17 @@
 			"minecraft:max_stack_size": 64,
 			"minecraft:lore": [
 				{
-					"text": "❤❤❤❤❤❤",
+					"text": "When Eaten:",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "+12 HP Restored",
 					"color": "red",
 					"italic": false
 				},
 				{
-					"text": "🐟 Conduit Power (8:00)",
+					"text": "Conduit Power (8:00)",
 					"color": "#7ec9e7",
 					"italic": false
 				}

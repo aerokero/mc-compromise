@@ -11,13 +11,7 @@
 				"translate": "item.kleispack.fish.carp"
 			},
 			"minecraft:item_model": "carp",
-			"minecraft:lore": [
-				{
-					"text": "⭐⭐",
-					"color": "green",
-					"italic": false
-				}
-			]
+			"minecraft:rarity": "uncommon"
 		},
 		"count": 12,
 		"id": "minecraft:salmon"

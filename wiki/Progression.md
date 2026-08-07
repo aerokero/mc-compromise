@@ -24,7 +24,7 @@ Progression is supported by extensive tutorial advancements and automatic recipe
 - Beetroot and Beetroot Seeds act as Tomatoes and Tomato Seeds.
 - Rabbit Hide is Tattered Leather, while Leather is Sturdy Leather.
 - Some spawn eggs act as ingredients: Enderman Egg as Flour, Shulker Egg as Dough and Magma Cube Egg as Flour Bag.
-- Furnace is Oven, and Smoker is Kiln.
+- Furnace is Basic Furnace, and Smoker is Oven.
 
 ### Tools and Copper
 

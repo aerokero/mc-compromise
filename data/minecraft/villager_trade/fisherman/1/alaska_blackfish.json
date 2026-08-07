@@ -11,13 +11,7 @@
 				"translate": "item.kleispack.fish.alaska_blackfish"
 			},
 			"minecraft:item_model": "alaska_blackfish",
-			"minecraft:lore": [
-				{
-					"text": "⭐",
-					"color": "gray",
-					"italic": false
-				}
-			]
+			"minecraft:rarity": "common"
 		},
 		"count": 23,
 		"id": "minecraft:cod"

@@ -7,9 +7,12 @@
 		"minecraft:wheat_seeds"
 	],
 	"result": {
-		"id": "minecraft:enderman_spawn_egg",
+		"id": "minecraft:wheat",
 		"components": {
-			"!minecraft:entity_data": {}
+			"!minecraft:entity_data": {},
+			"minecraft:item_name": {
+				"translate": "item.kleispack.flour"
+			}
 		}
 	}
 }

@@ -26,12 +26,17 @@
       },
       "minecraft:lore": [
         {
-          "text": "❤❤",
+          "text": "When Eaten:",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "+4 HP Restored",
           "color": "red",
           "italic": false
         },
         {
-          "text": "🍖 2",
+          "text": "+2 Hunger",
           "color": "dark_green",
           "italic": false
         }

@@ -50,17 +50,22 @@
       "minecraft:item_name": "Paneer Makhani",
       "minecraft:lore": [
         {
-          "text": "❤❤❤❤",
+          "text": "When Eaten:",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "+8 HP Restored",
           "color": "red",
           "italic": false
         },
         {
-          "text": "🍖 Full (2:00)",
+          "text": "Full (2:00)",
           "color": "dark_green",
           "italic": false
         },
         {
-          "text": "❤ Comfort (1:00)",
+          "text": "Comfort (1:00)",
           "color": "#e85e8f",
           "italic": false
         }

@@ -4,14 +4,13 @@
 	"ingredients": [
 		"minecraft:warped_fungus",
 		"minecraft:cooked_beef",
-		"minecraft:shulker_spawn_egg",
+		"minecraft:wheat",
 		"minecraft:beetroot_soup",
 		"minecraft:bowl"
 	],
 	"result": {
-		"id": "minecraft:poisonous_potato",
+		"id": "minecraft:warped_fungus",
 		"components": {
-			"minecraft:item_model": "minecraft:warped_stroganoff",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.warped_stroganoff",
 				"color": "#3cc6c8"
@@ -48,12 +47,17 @@
 			"minecraft:max_stack_size": 64,
 			"minecraft:lore": [
 				{
-					"text": "❤❤❤❤❤❤",
+					"text": "When Eaten:",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "+12 HP Restored",
 					"color": "red",
 					"italic": false
 				},
 				{
-					"text": "👻 Invisibility (10:00)",
+					"text": "Invisibility (10:00)",
 					"color": "#92b7ce",
 					"italic": false
 				}

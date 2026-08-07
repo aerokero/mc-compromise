@@ -16,22 +16,27 @@
 		"components": {
 			"minecraft:lore": [
 				{
-					"text": "❤❤",
+					"text": "When Eaten:",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "+4 HP Restored",
 					"color": "red",
 					"italic": false
 				},
 				{
-					"text": "❤❤❤❤ (02:00)",
+					"text": "Absorption (02:00)",
 					"color": "aqua",
 					"italic": false
 				},
 				{
-					"text": "🍖 6",
+					"text": "+6 Hunger",
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "❤ Comfort II (0:10)",
+					"text": "Comfort II (0:10)",
 					"color": "#e85e8f",
 					"italic": false
 				}

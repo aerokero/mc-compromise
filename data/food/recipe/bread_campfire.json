@@ -3,18 +3,23 @@
 	"category": "food",
 	"cookingtime": 200,
 	"experience": 0.35,
-	"ingredient": "minecraft:shulker_spawn_egg",
+	"ingredient": "minecraft:wheat",
 	"result": {
 		"id": "minecraft:bread",
 		"components": {
 			"minecraft:lore": [
 				{
-					"text": "❤❤",
+					"text": "When Eaten:",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "+4 HP Restored",
 					"color": "red",
 					"italic": false
 				},
 				{
-					"text": "✨ Cleanse Maleffect",
+					"text": "Cleanse Maleffect",
 					"color": "gray",
 					"italic": false
 				}

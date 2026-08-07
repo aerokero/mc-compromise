@@ -18,17 +18,13 @@
 				"minecraft:fire_aspect": 1,
 				"minecraft:fire_protection": 3
 			},
-			"minecraft:item_name": {
-				"translate": "item.kleispack.knowledge"
-			},
 			"minecraft:lore": [
 				{
 					"translate": "item.kleispack.knowledge.flameguard",
 					"color": "dark_gray",
 					"italic": false
 				}
-			],
-			"minecraft:item_model": "minecraft:knowledge_flameguard"
+			]
 		},
 		"count": 1,
 		"id": "minecraft:enchanted_book"

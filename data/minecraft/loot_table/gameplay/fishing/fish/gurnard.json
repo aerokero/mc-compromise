@@ -16,13 +16,7 @@
 									"translate": "item.kleispack.fish.gurnard"
 								},
 								"minecraft:item_model": "gurnard",
-								"minecraft:lore": [
-									{
-										"text": "⭐⭐",
-										"color": "green",
-										"italic": false
-									}
-								]
+								"minecraft:rarity": "uncommon"
 							}
 						}
 					]

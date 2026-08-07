@@ -16,13 +16,7 @@
 									"translate": "item.kleispack.fish.arapaima"
 								},
 								"minecraft:item_model": "arapaima",
-								"minecraft:lore": [
-									{
-										"text": "⭐⭐⭐⭐",
-										"color": "light_purple",
-										"italic": false
-									}
-								]
+								"minecraft:rarity": "epic"
 							}
 						}
 					]

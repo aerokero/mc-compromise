@@ -16,13 +16,7 @@
 									"translate": "item.kleispack.fish.bluegill"
 								},
 								"minecraft:item_model": "bluegill",
-								"minecraft:lore": [
-									{
-										"text": "⭐",
-										"color": "gray",
-										"italic": false
-									}
-								]
+								"minecraft:rarity": "common"
 							}
 						}
 					]

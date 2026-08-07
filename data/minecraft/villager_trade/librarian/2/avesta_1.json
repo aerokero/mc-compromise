@@ -12,7 +12,6 @@
 					"italic": false
 				}
 			],
-			"minecraft:item_model": "minecraft:ofuda",
 			"minecraft:stored_enchantments": {
 				"minecraft:protection": 3
 			},
@@ -30,8 +29,7 @@
 				"translate": "item.kleispack.avesta"
 			},
 			"minecraft:rarity": "rare",
-			"minecraft:max_stack_size": 64,
-			"minecraft:item_model": "minecraft:avesta"
+			"minecraft:max_stack_size": 64
 		}
 	},
 	"xp": 30

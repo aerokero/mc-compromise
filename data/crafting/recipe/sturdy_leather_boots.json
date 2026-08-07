@@ -13,12 +13,17 @@
 			"minecraft:max_damage": 350,
 			"minecraft:lore": [
 				{
-					"text": "⛊ 2",
+					"text": "When on Feet:",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "+2 Armor",
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "⬇⛊ 1",
+					"text": "-1 Armor",
 					"color": "dark_green",
 					"italic": false
 				}

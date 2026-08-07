@@ -14,7 +14,7 @@
   },
   "display": {
     "description": {
-      "text": "Blast Furnaces burn hotter than Kilns, able to melt more durable Metals"
+      "text": "Blast Furnaces burn hotter than Basic Furnaces, able to melt more durable Metals"
     },
     "icon": {
       "count": 1,

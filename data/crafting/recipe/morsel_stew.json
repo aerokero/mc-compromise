@@ -35,12 +35,17 @@
       "minecraft:max_stack_size": 16,
       "minecraft:lore": [
         {
-          "text": "❤❤❤❤",
+          "text": "When Eaten:",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "+8 HP Restored",
           "color": "red",
           "italic": false
         },
         {
-          "text": "🍖 Full (2:00)",
+          "text": "Full (2:00)",
           "color": "dark_green",
           "italic": false
         }

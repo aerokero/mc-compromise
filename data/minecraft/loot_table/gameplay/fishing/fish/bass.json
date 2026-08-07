@@ -16,13 +16,7 @@
 									"translate": "item.kleispack.fish.bass"
 								},
 								"minecraft:item_model": "bass",
-								"minecraft:lore": [
-									{
-										"text": "⭐⭐⭐⭐",
-										"color": "light_purple",
-										"italic": false
-									}
-								]
+								"minecraft:rarity": "epic"
 							}
 						}
 					]

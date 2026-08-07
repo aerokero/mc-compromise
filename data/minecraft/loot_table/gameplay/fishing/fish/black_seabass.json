@@ -16,13 +16,7 @@
 									"translate": "item.kleispack.fish.black_seabass"
 								},
 								"minecraft:item_model": "black_seabass",
-								"minecraft:lore": [
-									{
-										"text": "⭐⭐",
-										"color": "green",
-										"italic": false
-									}
-								]
+								"minecraft:rarity": "uncommon"
 							}
 						}
 					]

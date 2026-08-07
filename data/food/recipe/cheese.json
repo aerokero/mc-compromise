@@ -7,12 +7,17 @@
 		"minecraft:brown_mushroom"
 	],
 	"result": {
-		"count":4,
-		"id": "minecraft:cookie",
+		"count": 4,
+		"id": "minecraft:milk_bucket",
 		"components": {
 			"minecraft:lore": [
 				{
-					"text": "❤❣",
+					"text": "When Eaten:",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "+3 HP Restored",
 					"color": "red",
 					"italic": false
 				}

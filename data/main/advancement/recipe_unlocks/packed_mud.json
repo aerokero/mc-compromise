@@ -13,7 +13,7 @@
 		},
 		"has_the_recipe": {
 			"conditions": {
-				"recipe": "crafting:mudkiln"
+				"recipe": "crafting:basic_furnace"
 			},
 			"trigger": "minecraft:recipe_unlocked"
 		}
@@ -26,7 +26,7 @@
 	],
 	"rewards": {
 		"recipes": [
-			"crafting:mudkiln",
+			"crafting:basic_furnace",
 			"minecraft:mud_bricks",
 			"minecraft:mud_brick_stairs",
 			"minecraft:mud_brick_slab"

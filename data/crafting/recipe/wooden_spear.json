@@ -15,12 +15,17 @@
 		"components": {
 			"minecraft:lore": [
 				{
-					"text": "🗡 1",
+					"text": "When in Main Hand:",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "+1 Attack Damage",
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "🕒 1.54",
+					"text": "+1.54 Attack Speed",
 					"color": "dark_green",
 					"italic": false
 				}

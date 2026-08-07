@@ -20,17 +20,13 @@
 				"minecraft:efficiency": 3,
 				"minecraft:unbreaking": 3
 			},
-			"minecraft:item_name": {
-				"translate": "item.kleispack.knowledge"
-			},
 			"minecraft:lore": [
 				{
 					"translate": "item.kleispack.knowledge.durability",
 					"color": "dark_gray",
 					"italic": false
 				}
-			],
-			"minecraft:item_model": "minecraft:knowledge_durability"
+			]
 		},
 		"count": 1,
 		"id": "minecraft:enchanted_book"

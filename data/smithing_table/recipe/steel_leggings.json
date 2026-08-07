@@ -8,17 +8,22 @@
 			"minecraft:max_damage": 1000,
 			"minecraft:lore": [
 				{
-					"text": "💥🚫 +1",
+					"text": "When on Legs:",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "+1 Knockback Resistance",
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "⛊ 5",
+					"text": "+5 Armor",
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "⛨ 1",
+					"text": "+1 Armor Toughness",
 					"color": "dark_green",
 					"italic": false
 				}

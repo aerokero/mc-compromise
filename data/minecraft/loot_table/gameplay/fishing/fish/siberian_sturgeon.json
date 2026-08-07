@@ -16,13 +16,7 @@
 									"translate": "item.kleispack.fish.siberian_sturgeon"
 								},
 								"minecraft:item_model": "siberian_sturgeon",
-								"minecraft:lore": [
-									{
-										"text": "⭐⭐⭐⭐",
-										"color": "light_purple",
-										"italic": false
-									}
-								]
+								"minecraft:rarity": "epic"
 							}
 						}
 					]

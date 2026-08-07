@@ -8,12 +8,17 @@
 			"minecraft:max_damage": 800,
 			"minecraft:lore": [
 				{
-					"text": "🗡 6",
+					"text": "When in Main Hand:",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "+6 Attack Damage",
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "🕒 1.6",
+					"text": "+1.6 Attack Speed",
 					"color": "dark_green",
 					"italic": false
 				}

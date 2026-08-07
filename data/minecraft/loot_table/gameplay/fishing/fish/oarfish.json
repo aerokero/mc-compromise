@@ -16,13 +16,7 @@
 									"translate": "item.kleispack.fish.oarfish"
 								},
 								"minecraft:item_model": "oarfish",
-								"minecraft:lore": [
-									{
-										"text": "⭐⭐⭐⭐",
-										"color": "light_purple",
-										"italic": false
-									}
-								]
+								"minecraft:rarity": "epic"
 							}
 						}
 					]

@@ -6,12 +6,11 @@
 		"minecraft:carrot",
 		"minecraft:sugar",
 		"#minecraft:eggs",
-		"minecraft:enderman_spawn_egg"
+		"minecraft:wheat"
 	],
 	"result": {
-		"id": "minecraft:poisonous_potato",
+		"id": "minecraft:dried_kelp",
 		"components": {
-			"minecraft:item_model": "minecraft:gimmari",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.gimmari"
 			},
@@ -47,12 +46,17 @@
 			"minecraft:max_stack_size": 64,
 			"minecraft:lore": [
 				{
-					"text": "❤❤❤",
+					"text": "When Eaten:",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "+6 HP Restored",
 					"color": "red",
 					"italic": false
 				},
 				{
-					"text": "🐟 Gills (8:00)",
+					"text": "Gills (8:00)",
 					"color": "#7ec9e7",
 					"italic": false
 				}

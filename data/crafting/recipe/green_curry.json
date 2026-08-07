@@ -60,17 +60,22 @@
       "minecraft:item_name": "Green Curry",
       "minecraft:lore": [
         {
-          "text": "❤❤❤❤",
+          "text": "When Eaten:",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "+8 HP Restored",
           "color": "red",
           "italic": false
         },
         {
-          "text": "🍖 Full (1:00)",
+          "text": "Full (1:00)",
           "color": "dark_green",
           "italic": false
         },
         {
-          "text": "🔥 Adrenaline (1:00)",
+          "text": "Adrenaline (1:00)",
           "color": "gold",
           "italic": false
         }

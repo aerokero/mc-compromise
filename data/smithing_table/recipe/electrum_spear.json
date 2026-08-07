@@ -22,12 +22,17 @@
 			],
 			"minecraft:lore": [
 				{
-					"text": "🗡 4",
+					"text": "When in Main Hand:",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "+4 Attack Damage",
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "🕒 1.18",
+					"text": "+1.18 Attack Speed",
 					"color": "dark_green",
 					"italic": false
 				}

@@ -6,12 +6,11 @@
 		"minecraft:sugar",
 		"glowstone_dust",
 		"minecraft:cocoa_beans",
-		"minecraft:shulker_spawn_egg"
+		"minecraft:wheat"
 	],
 	"result": {
-		"id": "minecraft:poisonous_potato",
+		"id": "minecraft:carrot",
 		"components": {
-			"minecraft:item_model": "minecraft:carrot_cupcake",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.carrot_cupcake"
 			},
@@ -45,12 +44,17 @@
 			"minecraft:max_stack_size": 64,
 			"minecraft:lore": [
 				{
-					"text": "❤❤❤❤",
+					"text": "When Eaten:",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "+8 HP Restored",
 					"color": "red",
 					"italic": false
 				},
 				{
-					"text": "👁 Night Vision (10:00)",
+					"text": "Night Vision (10:00)",
 					"color": "green",
 					"italic": false
 				}

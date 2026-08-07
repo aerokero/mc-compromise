@@ -11,13 +11,7 @@
 				"translate": "item.kleispack.fish.striped_perch"
 			},
 			"minecraft:item_model": "striped_perch",
-			"minecraft:lore": [
-				{
-					"text": "⭐",
-					"color": "gray",
-					"italic": false
-				}
-			]
+			"minecraft:rarity": "common"
 		},
 		"count": 23,
 		"id": "minecraft:cod"

@@ -12,9 +12,8 @@
 		]
 	],
 	"result": {
-		"id": "minecraft:poisonous_potato",
+		"id": "minecraft:honey_bottle",
 		"components": {
-			"minecraft:item_model": "minecraft:mead",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.mead"
 			},
@@ -53,12 +52,17 @@
 			"minecraft:max_stack_size": 64,
 			"minecraft:lore": [
 				{
-					"text": "❤❤❤",
+					"text": "When Eaten:",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "+6 HP Restored",
 					"color": "red",
 					"italic": false
 				},
 				{
-					"text": "🏃 +20% (5:00)",
+					"text": "Speed +20% (5:00)",
 					"color": "#37cafb",
 					"italic": false
 				}

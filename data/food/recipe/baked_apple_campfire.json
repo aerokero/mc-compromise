@@ -5,16 +5,21 @@
 	"experience": 0.35,
 	"ingredient": "minecraft:apple",
 	"result": {
-		"id": "minecraft:fermented_spider_eye",
+		"id": "minecraft:apple",
 		"components": {
 			"minecraft:lore": [
 				{
-					"text": "❤❤",
+					"text": "When Eaten:",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "+4 HP Restored",
 					"color": "red",
 					"italic": false
 				},
 				{
-					"text": "❤ Regen (0:10)",
+					"text": "Regen (0:10)",
 					"color": "#e85e8f",
 					"italic": false
 				}

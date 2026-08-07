@@ -3,7 +3,7 @@
   "group": "slime_ball",
   "category": "misc",
   "ingredients": [
-    "minecraft:shulker_spawn_egg",
+    "minecraft:wheat",
     "minecraft:lime_dye"
   ],
   "result": {

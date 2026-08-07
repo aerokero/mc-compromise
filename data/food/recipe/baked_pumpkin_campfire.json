@@ -5,16 +5,21 @@
 	"experience": 0.35,
 	"ingredient": "minecraft:pumpkin",
 	"result": {
-		"id": "minecraft:breeze_rod",
+		"id": "minecraft:pumpkin_pie",
 		"components": {
 			"minecraft:lore": [
 				{
-					"text": "❤",
+					"text": "When Eaten:",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "+2 HP Restored",
 					"color": "red",
 					"italic": false
 				},
 				{
-					"text": "🛡 Resistance (0:10)",
+					"text": "Resistance (0:10)",
 					"color": "blue",
 					"italic": false
 				}

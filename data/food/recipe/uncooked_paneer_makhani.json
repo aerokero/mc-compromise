@@ -10,9 +10,11 @@
 		"minecraft:bowl"
 	],
 	"result": {
-		"id": "minecraft:zoglin_spawn_egg",
+		"id": "minecraft:bowl",
 		"components": {
-			"!minecraft:entity_data": {}
+			"minecraft:item_name": {
+				"translate": "item.kleispack.paneer_curry_stock"
+			}
 		}
 	}
 }

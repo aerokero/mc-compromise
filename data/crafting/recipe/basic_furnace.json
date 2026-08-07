@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "smoker",
+  "group": "furnace",
   "category": "misc",
   "key": {
     "#": "minecraft:mud_bricks",
@@ -14,6 +14,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "minecraft:smoker"
+    "id": "minecraft:furnace"
   }
 }

@@ -26,7 +26,6 @@
 	],
 	"rewards": {
 		"recipes": [
-			"crafting:bowl",
 			"crafting:oven",
 			"crafting:bricks"
 		]

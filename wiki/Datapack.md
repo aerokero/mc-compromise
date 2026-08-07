@@ -69,8 +69,8 @@ Important distinction:
 | `minecraft:ochre_froglight` | Ochre Phosphor Lamp |
 | `minecraft:pearlescent_froglight` | Pearlescent Phosphor Lamp |
 | `minecraft:verdant_froglight` | Verdant Phosphor Lamp |
-| `minecraft:furnace` | Oven |
-| `minecraft:smoker` | Kiln |
+| `minecraft:furnace` | Basic Furnace |
+| `minecraft:smoker` | Oven |
 | `minecraft:comparator` | Redstone Comparator |
 | `minecraft:repeater` | Redstone Repeater |
 | `minecraft:redstone_torch` | Redstone Torch |

@@ -16,17 +16,13 @@
 			"minecraft:stored_enchantments": {
 				"minecraft:silk_touch": 1
 			},
-			"minecraft:item_name": {
-				"translate": "item.kleispack.knowledge"
-			},
 			"minecraft:lore": [
 				{
 					"translate": "item.kleispack.knowledge.silk_touch",
 					"color": "dark_gray",
 					"italic": false
 				}
-			],
-			"minecraft:item_model": "minecraft:knowledge_silk_touch"
+			]
 		},
 		"count": 1,
 		"id": "minecraft:enchanted_book"

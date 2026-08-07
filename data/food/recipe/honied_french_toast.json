@@ -9,9 +9,8 @@
 		"bread"
 	],
 	"result": {
-		"id": "minecraft:poisonous_potato",
+		"id": "minecraft:bread",
 		"components": {
-			"minecraft:item_model": "minecraft:honied_french_toast",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.honied_french_toast"
 			},
@@ -47,12 +46,17 @@
 			"minecraft:max_stack_size": 64,
 			"minecraft:lore": [
 				{
-					"text": "❤❤❤❤❤",
+					"text": "When Eaten:",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "+10 HP Restored",
 					"color": "red",
 					"italic": false
 				},
 				{
-					"text": "🏃 +40% (3:00)",
+					"text": "Speed +40% (3:00)",
 					"color": "#37cafb",
 					"italic": false
 				}

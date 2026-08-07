@@ -5,16 +5,21 @@
 	"experience": 0.35,
 	"ingredient": "minecraft:cocoa_beans",
 	"result": {
-		"id": "minecraft:mushroom_stew",
+		"id": "minecraft:cookie",
 		"components": {
 			"minecraft:lore": [
 				{
-					"text": "❤",
+					"text": "When Eaten:",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "+2 HP Restored",
 					"color": "red",
 					"italic": false
 				},
 				{
-					"text": "⛏ Haste (0:30)",
+					"text": "Haste (0:30)",
 					"color": "yellow",
 					"italic": false
 				}

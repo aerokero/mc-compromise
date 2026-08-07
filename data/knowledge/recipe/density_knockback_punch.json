@@ -19,17 +19,13 @@
 				"minecraft:punch": 2
 			},
 			"minecraft:rarity": "rare",
-			"minecraft:item_name": {
-				"translate": "item.kleispack.knowledge"
-			},
 			"minecraft:lore": [
 				{
 					"translate": "item.kleispack.knowledge.heavy_blow",
 					"color": "dark_gray",
 					"italic": false
 				}
-			],
-			"minecraft:item_model": "minecraft:knowledge_heavy_blow"
+			]
 		},
 		"count": 1,
 		"id": "minecraft:enchanted_book"

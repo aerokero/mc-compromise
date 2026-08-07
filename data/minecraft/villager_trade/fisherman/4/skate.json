@@ -11,13 +11,7 @@
 				"translate": "item.kleispack.fish.skate"
 			},
 			"minecraft:item_model": "skate",
-			"minecraft:lore": [
-				{
-					"text": "⭐⭐⭐⭐",
-					"color": "light_purple",
-					"italic": false
-				}
-			]
+			"minecraft:rarity": "epic"
 		},
 		"count": 1,
 		"id": "minecraft:salmon"

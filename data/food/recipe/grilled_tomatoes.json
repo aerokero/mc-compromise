@@ -5,16 +5,21 @@
 	"experience": 0.35,
 	"ingredient": "minecraft:beetroot",
 	"result": {
-		"id": "minecraft:poisonous_potato",
+		"id": "minecraft:beetroot",
 		"components": {
 			"minecraft:lore": [
 				{
-					"text": "❤❤",
+					"text": "When Eaten:",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "+4 HP Restored",
 					"color": "red",
 					"italic": false
 				},
 				{
-					"text": "🗡 Strength (0:10)",
+					"text": "Strength (0:10)",
 					"color": "#e65f33",
 					"italic": false
 				}
@@ -44,7 +49,6 @@
 					}
 				]
 			},
-			"minecraft:item_model": "minecraft:grilled_tomatoes",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.grilled_tomatoes"
 			},

@@ -7,9 +7,8 @@
 		"minecraft:glass_bottle"
 	],
 	"result": {
-		"id": "minecraft:poisonous_potato",
+		"id": "minecraft:glow_berries",
 		"components": {
-			"minecraft:item_model": "minecraft:glow_jam",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.glow_berry_jam"
 			},
@@ -40,12 +39,17 @@
 			"minecraft:max_stack_size": 64,
 			"minecraft:lore": [
 				{
-					"text": "❤❤",
+					"text": "When Eaten:",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "+4 HP Restored",
 					"color": "red",
 					"italic": false
 				},
 				{
-					"text": "☽ Aura (0:30)",
+					"text": "Aura (0:30)",
 					"color": "#0fffa3",
 					"italic": false
 				}

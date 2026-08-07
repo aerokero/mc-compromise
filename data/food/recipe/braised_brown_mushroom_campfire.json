@@ -5,11 +5,16 @@
 	"experience": 0.35,
 	"ingredient": "minecraft:brown_mushroom",
 	"result": {
-		"id": "minecraft:rabbit_foot",
+		"id": "minecraft:brown_mushroom",
 		"components": {
 			"minecraft:lore": [
 				{
-					"text": "❤",
+					"text": "When Eaten:",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "+2 HP Restored",
 					"color": "red",
 					"italic": false
 				}

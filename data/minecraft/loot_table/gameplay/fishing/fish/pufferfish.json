@@ -12,13 +12,7 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:lore": [
-									{
-										"text": "⭐",
-										"color": "gray",
-										"italic": false
-									}
-								]
+								"minecraft:rarity": "common"
 							}
 						}
 					]

@@ -1,6 +1,6 @@
 {
 	"type": "minecraft:crafting_shaped",
-	"group": "furnace",
+	"group": "smoker",
 	"category": "misc",
 	"key": {
 		"#": [
@@ -20,6 +20,6 @@
 	],
 	"result": {
 		"count": 1,
-		"id": "minecraft:furnace"
+		"id": "minecraft:smoker"
 	}
 }

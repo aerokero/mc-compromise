@@ -11,13 +11,7 @@
 				"translate": "item.kleispack.fish.guppy"
 			},
 			"minecraft:item_model": "guppy",
-			"minecraft:lore": [
-				{
-					"text": "⭐",
-					"color": "gray",
-					"italic": false
-				}
-			]
+			"minecraft:rarity": "common"
 		},
 		"count": 23,
 		"id": "minecraft:cod"

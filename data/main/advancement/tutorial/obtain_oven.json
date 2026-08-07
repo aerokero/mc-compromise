@@ -1,12 +1,12 @@
 {
   "parent": "main:tutorial/cook_food",
   "criteria": {
-    "get_furnace": {
+    "get_smoker": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:furnace"
+            "items": "minecraft:smoker"
           }
         ]
       }
@@ -18,7 +18,7 @@
     },
     "icon": {
       "count": 1,
-      "id": "minecraft:furnace"
+      "id": "minecraft:smoker"
     },
     "title": {
       "text": "Now You're Cooking"
@@ -27,7 +27,7 @@
   },
   "requirements": [
     [
-      "get_furnace"
+      "get_smoker"
     ]
   ]
 }

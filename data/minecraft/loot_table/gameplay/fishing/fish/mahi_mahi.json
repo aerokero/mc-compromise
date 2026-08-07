@@ -16,13 +16,7 @@
 									"translate": "item.kleispack.fish.mahi_mahi"
 								},
 								"minecraft:item_model": "mahi_mahi",
-								"minecraft:lore": [
-									{
-										"text": "⭐⭐",
-										"color": "green",
-										"italic": false
-									}
-								]
+								"minecraft:rarity": "uncommon"
 							}
 						}
 					]

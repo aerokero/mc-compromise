@@ -8,7 +8,12 @@
 			"minecraft:max_damage": 250,
 			"minecraft:lore": [
 				{
-					"text": "⛊ 1",
+					"text": "When on Head:",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "+1 Armor",
 					"color": "dark_green",
 					"italic": false
 				}

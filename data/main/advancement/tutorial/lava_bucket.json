@@ -1,0 +1,6 @@
+{
+  "parent": "main:tutorial/obtain_iron_ingot",
+  "criteria": {"lava_bucket": {"conditions": {"items": [{"items": "minecraft:lava_bucket"}]}, "trigger": "minecraft:inventory_changed"}},
+  "display": {"description": {"translate": "advancements.story.lava_bucket.description"}, "icon": {"id": "minecraft:lava_bucket"}, "title": {"translate": "advancements.story.lava_bucket.title"}},
+  "requirements": [["lava_bucket"]]
+}

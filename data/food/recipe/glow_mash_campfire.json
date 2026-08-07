@@ -5,16 +5,21 @@
 	"experience": 0.35,
 	"ingredient": "minecraft:glow_berries",
 	"result": {
-		"id": "minecraft:rotten_flesh",
+		"id": "minecraft:glow_berries",
 		"components": {
 			"minecraft:lore": [
 				{
-					"text": "❤",
+					"text": "When Eaten:",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "+2 HP Restored",
 					"color": "red",
 					"italic": false
 				},
 				{
-					"text": "☽ Aura (0:03)",
+					"text": "Aura (0:03)",
 					"color": "#0fffa3",
 					"italic": false
 				}

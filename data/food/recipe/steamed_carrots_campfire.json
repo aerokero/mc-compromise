@@ -5,16 +5,21 @@
 	"experience": 0.35,
 	"ingredient": "minecraft:carrot",
 	"result": {
-		"id": "minecraft:poisonous_potato",
+		"id": "minecraft:carrot",
 		"components": {
 			"minecraft:lore": [
 				{
-					"text": "❤",
+					"text": "When Eaten:",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "+2 HP Restored",
 					"color": "red",
 					"italic": false
 				},
 				{
-					"text": "👁 Night Vision (0:10)",
+					"text": "Night Vision (0:10)",
 					"color": "green",
 					"italic": false
 				}
@@ -45,7 +50,6 @@
 					}
 				]
 			},
-			"minecraft:item_model": "minecraft:steamed_carrots",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.steamed_carrots"
 			},

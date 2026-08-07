@@ -46,17 +46,22 @@
 			},
 			"minecraft:lore": [
 				{
-					"text": "⛏ 5",
+					"text": "When in Main Hand:",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "+5 Mining Speed",
 					"color": "blue",
 					"italic": false
 				},
 				{
-					"text": "🗡 5",
+					"text": "+5 Attack Damage",
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "🕒 0.8",
+					"text": "+0.8 Attack Speed",
 					"color": "dark_green",
 					"italic": false
 				}

@@ -17,17 +17,13 @@
 			"minecraft:stored_enchantments": {
 				"minecraft:feather_falling": 2
 			},
-			"minecraft:item_name": {
-				"translate": "item.kleispack.knowledge"
-			},
 			"minecraft:lore": [
 				{
 					"translate": "item.kleispack.knowledge.feather_falling",
 					"color": "dark_gray",
 					"italic": false
 				}
-			],
-			"minecraft:item_model": "minecraft:knowledge_feather_falling"
+			]
 		},
 		"count": 1,
 		"id": "minecraft:enchanted_book"

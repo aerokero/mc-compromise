@@ -16,13 +16,7 @@
 									"translate": "item.kleispack.fish.walleye"
 								},
 								"minecraft:item_model": "walleye",
-								"minecraft:lore": [
-									{
-										"text": "⭐⭐",
-										"color": "green",
-										"italic": false
-									}
-								]
+								"minecraft:rarity": "uncommon"
 							}
 						}
 					]

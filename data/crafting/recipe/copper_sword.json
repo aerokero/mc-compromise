@@ -16,12 +16,17 @@
 			"minecraft:item_model": "minecraft:copper_sword",
 			"minecraft:lore": [
 				{
-					"text": "🗡 5",
+					"text": "When in Main Hand:",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "+5 Attack Damage",
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "🕒 1.6",
+					"text": "+1.6 Attack Speed",
 					"color": "dark_green",
 					"italic": false
 				}

@@ -5,16 +5,21 @@
 	"experience": 0.35,
 	"ingredient": "minecraft:crimson_fungus",
 	"result": {
-		"id": "minecraft:poisonous_potato",
+		"id": "minecraft:crimson_fungus",
 		"components": {
 			"minecraft:lore": [
 				{
-					"text": "❤",
+					"text": "When Eaten:",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "+2 HP Restored",
 					"color": "red",
 					"italic": false
 				},
 				{
-					"text": "🥀 Weakness (00:30)",
+					"text": "Weakness (00:30)",
 					"color": "#b6a09a",
 					"italic": false
 				}
@@ -44,7 +49,6 @@
 					}
 				]
 			},
-			"minecraft:item_model": "minecraft:braised_crimson_fungus",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.braised_crimson_fungus",
 				"color": "#c54457"

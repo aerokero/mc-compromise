@@ -15,17 +15,13 @@
 			"minecraft:stored_enchantments": {
 				"minecraft:bane_of_arthropods": 5
 			},
-			"minecraft:item_name": {
-				"translate": "item.kleispack.knowledge"
-			},
 			"minecraft:lore": [
 				{
 					"translate": "item.kleispack.knowledge.bane_of_arthropods",
 					"color": "dark_gray",
 					"italic": false
 				}
-			],
-			"minecraft:item_model": "minecraft:knowledge_bane_of_arthropods"
+			]
 		},
 		"count": 1,
 		"id": "minecraft:enchanted_book"

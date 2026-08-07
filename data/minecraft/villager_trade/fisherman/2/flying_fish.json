@@ -11,13 +11,7 @@
 				"translate": "item.kleispack.fish.flying_fish"
 			},
 			"minecraft:item_model": "flying_fish",
-			"minecraft:lore": [
-				{
-					"text": "⭐⭐",
-					"color": "green",
-					"italic": false
-				}
-			]
+			"minecraft:rarity": "uncommon"
 		},
 		"count": 12,
 		"id": "minecraft:cod"
