@@ -1,0 +1,36 @@
+{
+  "parent": "main:hell/root",
+  "criteria": {
+    "struck_villager": {
+      "trigger": "minecraft:channeled_lightning",
+      "conditions": {
+        "victims": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:entity_type": "minecraft:villager"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "struck_villager"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "item": "minecraft:trident"
+    },
+    "title": {
+      "translate": "advancements.nether.very_very_frightening.title"
+    },
+    "description": {
+      "translate": "advancements.nether.very_very_frightening.description"
+    },
+    "hidden": false
+  }
+}

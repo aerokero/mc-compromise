@@ -1,0 +1,34 @@
+{
+  "parent": "main:husbandry/root",
+  "criteria": {
+    "netherite_hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_hoe"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "netherite_hoe"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_hoe"
+    },
+    "title": {
+      "translate": "advancements.husbandry.obtain_netherite_hoe.title"
+    },
+    "description": {
+      "translate": "advancements.husbandry.obtain_netherite_hoe.description"
+    },
+    "hidden": false,
+    "frame": "challenge"
+  },
+  "sends_telemetry_event": true
+}

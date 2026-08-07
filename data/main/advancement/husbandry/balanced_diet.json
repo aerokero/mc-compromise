@@ -1,0 +1,28 @@
+{
+  "parent": "main:husbandry/root",
+  "criteria": {
+    "balanced_diet": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {}
+    }
+  },
+  "requirements": [
+    [
+      "balanced_diet"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "item": "minecraft:apple"
+    },
+    "title": {
+      "translate": "advancements.husbandry.balanced_diet.title"
+    },
+    "description": {
+      "translate": "advancements.husbandry.balanced_diet.description"
+    },
+    "hidden": false,
+    "frame": "challenge"
+  },
+  "sends_telemetry_event": true
+}

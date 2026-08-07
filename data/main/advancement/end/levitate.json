@@ -1,0 +1,32 @@
+{
+  "parent": "main:end/root",
+  "criteria": {
+    "levitated": {
+      "trigger": "minecraft:levitation",
+      "conditions": {
+        "distance": {
+          "horizontal": {
+            "min": 50
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "levitated"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "item": "minecraft:shulker_shell"
+    },
+    "title": {
+      "translate": "advancements.end.levitate.title"
+    },
+    "description": {
+      "translate": "advancements.end.levitate.description"
+    },
+    "hidden": false
+  }
+}

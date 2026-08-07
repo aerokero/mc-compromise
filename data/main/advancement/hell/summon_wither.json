@@ -1,0 +1,38 @@
+{
+  "parent": "main:hell/get_wither_skull",
+  "criteria": {
+    "summoned_wither": {
+      "trigger": "minecraft:summoned_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:entity_type": "minecraft:wither"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "summoned_wither"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "item": "minecraft:nether_star"
+    },
+    "title": {
+      "translate": "advancements.nether.summon_wither.title"
+    },
+    "description": {
+      "translate": "advancements.nether.summon_wither.description"
+    },
+    "hidden": false,
+    "frame": "challenge"
+  },
+  "sends_telemetry_event": true
+}

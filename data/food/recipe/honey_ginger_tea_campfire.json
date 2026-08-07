@@ -9,7 +9,7 @@
 		"components": {
 			"minecraft:lore": [
 				{
-					"text": "When Eaten:",
+					"text": "When Drunk:",
 					"color": "gray",
 					"italic": false
 				},

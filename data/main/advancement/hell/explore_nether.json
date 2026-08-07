@@ -1,0 +1,108 @@
+{
+  "parent": "main:hell/root",
+  "criteria": {
+    "biome_0": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:location": {
+                "biomes": "minecraft:nether_wastes"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "biome_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:location": {
+                "biomes": "minecraft:crimson_forest"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "biome_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:location": {
+                "biomes": "minecraft:warped_forest"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "biome_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:location": {
+                "biomes": "minecraft:soul_sand_valley"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "biome_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:location": {
+                "biomes": "minecraft:basalt_deltas"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "biome_0",
+      "biome_1",
+      "biome_2",
+      "biome_3",
+      "biome_4"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "item": "minecraft:netherrack"
+    },
+    "title": {
+      "translate": "advancements.nether.explore_nether.title"
+    },
+    "description": {
+      "translate": "advancements.nether.explore_nether.description"
+    },
+    "hidden": false,
+    "frame": "challenge"
+  },
+  "sends_telemetry_event": true
+}

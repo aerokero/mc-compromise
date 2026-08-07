@@ -1,0 +1,26 @@
+{
+  "parent": "main:adventure/root",
+  "criteria": {
+    "trade": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {}
+    }
+  },
+  "requirements": [
+    [
+      "trade"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "item": "minecraft:emerald"
+    },
+    "title": {
+      "translate": "advancements.adventure.trade.title"
+    },
+    "description": {
+      "translate": "advancements.adventure.trade.description"
+    },
+    "hidden": false
+  }
+}

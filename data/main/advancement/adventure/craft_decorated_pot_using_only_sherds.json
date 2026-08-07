@@ -1,0 +1,28 @@
+{
+  "parent": "main:adventure/root",
+  "criteria": {
+    "crafted": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:decorated_pot"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "crafted"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "item": "minecraft:decorated_pot"
+    },
+    "title": {
+      "translate": "advancements.adventure.craft_decorated_pot_using_only_sherds.title"
+    },
+    "description": {
+      "translate": "advancements.adventure.craft_decorated_pot_using_only_sherds.description"
+    },
+    "hidden": false
+  }
+}

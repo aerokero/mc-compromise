@@ -1,0 +1,30 @@
+{
+  "parent": "main:husbandry/root",
+  "criteria": {
+    "wax_on": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "items": "#minecraft:trim_templates"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "wax_on"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "item": "minecraft:honeycomb"
+    },
+    "title": {
+      "translate": "advancements.husbandry.wax_on.title"
+    },
+    "description": {
+      "translate": "advancements.husbandry.wax_on.description"
+    },
+    "hidden": false
+  }
+}

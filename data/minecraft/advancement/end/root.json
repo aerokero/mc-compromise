@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "never": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#main:never"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "never"
+    ]
+  ]
+}

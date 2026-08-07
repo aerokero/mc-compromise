@@ -1,0 +1,30 @@
+{
+  "parent": "main:adventure/root",
+  "criteria": {
+    "used_totem": {
+      "trigger": "minecraft:used_totem",
+      "conditions": {
+        "item": {
+          "items": "minecraft:totem_of_undying"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "used_totem"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "item": "minecraft:totem_of_undying"
+    },
+    "title": {
+      "translate": "advancements.adventure.totem_of_undying.title"
+    },
+    "description": {
+      "translate": "advancements.adventure.totem_of_undying.description"
+    },
+    "hidden": false
+  }
+}

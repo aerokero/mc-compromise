@@ -1,0 +1,30 @@
+{
+  "parent": "main:adventure/root",
+  "criteria": {
+    "spyglass_at_parrot": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:spyglass"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "spyglass_at_parrot"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "item": "minecraft:parrot_spawn_egg"
+    },
+    "title": {
+      "translate": "advancements.adventure.spyglass_at_parrot.title"
+    },
+    "description": {
+      "translate": "advancements.adventure.spyglass_at_parrot.description"
+    },
+    "hidden": false
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "parent": "main:adventure/root",
+  "criteria": {
+    "spyglass_at_ghast": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:spyglass"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "spyglass_at_ghast"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "item": "minecraft:ghast_spawn_egg"
+    },
+    "title": {
+      "translate": "advancements.adventure.spyglass_at_ghast.title"
+    },
+    "description": {
+      "translate": "advancements.adventure.spyglass_at_ghast.description"
+    },
+    "hidden": false
+  }
+}

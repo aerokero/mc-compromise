@@ -1,0 +1,32 @@
+{
+  "parent": "main:hell/root",
+  "criteria": {
+    "wither_skull": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wither_skeleton_skull"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "wither_skull"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    "title": {
+      "translate": "advancements.nether.get_wither_skull.title"
+    },
+    "description": {
+      "translate": "advancements.nether.get_wither_skull.description"
+    },
+    "hidden": false
+  }
+}

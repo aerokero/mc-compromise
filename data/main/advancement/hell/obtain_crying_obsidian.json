@@ -1,0 +1,32 @@
+{
+  "parent": "main:hell/root",
+  "criteria": {
+    "crying_obsidian": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crying_obsidian"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "crying_obsidian"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "title": {
+      "translate": "advancements.nether.obtain_crying_obsidian.title"
+    },
+    "description": {
+      "translate": "advancements.nether.obtain_crying_obsidian.description"
+    },
+    "hidden": false
+  }
+}

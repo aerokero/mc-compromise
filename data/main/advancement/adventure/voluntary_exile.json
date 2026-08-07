@@ -1,0 +1,57 @@
+{
+  "parent": "main:adventure/root",
+  "criteria": {
+    "killed_captain": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:equipment": {
+                "head": {
+                  "items": [
+                    "minecraft:white_banner",
+                    "minecraft:light_gray_banner",
+                    "minecraft:gray_banner",
+                    "minecraft:black_banner",
+                    "minecraft:brown_banner",
+                    "minecraft:red_banner",
+                    "minecraft:orange_banner",
+                    "minecraft:yellow_banner",
+                    "minecraft:lime_banner",
+                    "minecraft:green_banner",
+                    "minecraft:cyan_banner",
+                    "minecraft:light_blue_banner",
+                    "minecraft:blue_banner",
+                    "minecraft:purple_banner",
+                    "minecraft:magenta_banner",
+                    "minecraft:pink_banner"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "killed_captain"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "item": "minecraft:ominous_banner"
+    },
+    "title": {
+      "translate": "advancements.adventure.voluntary_exile.title"
+    },
+    "description": {
+      "translate": "advancements.adventure.voluntary_exile.description"
+    },
+    "hidden": false
+  }
+}

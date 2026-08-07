@@ -1,0 +1,36 @@
+{
+  "parent": "main:adventure/root",
+  "criteria": {
+    "summoned_iron_golem": {
+      "trigger": "minecraft:summoned_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:entity_type": "minecraft:iron_golem"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "summoned_iron_golem"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "item": "minecraft:carved_pumpkin"
+    },
+    "title": {
+      "translate": "advancements.adventure.summoned_iron_golem.title"
+    },
+    "description": {
+      "translate": "advancements.adventure.summoned_iron_golem.description"
+    },
+    "hidden": false
+  }
+}

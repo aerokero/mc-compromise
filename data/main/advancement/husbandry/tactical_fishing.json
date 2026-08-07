@@ -1,0 +1,35 @@
+{
+  "parent": "main:husbandry/fishy_business",
+  "criteria": {
+    "tactical_fishing": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:pufferfish"
+          },
+          {
+            "items": "minecraft:tropical_fish"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "tactical_fishing"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "item": "minecraft:pufferfish_bucket"
+    },
+    "title": {
+      "translate": "advancements.husbandry.tactical_fishing.title"
+    },
+    "description": {
+      "translate": "advancements.husbandry.tactical_fishing.description"
+    },
+    "hidden": false
+  }
+}

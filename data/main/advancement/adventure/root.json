@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "requirements": [
+    [
+      "tick"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "item": "minecraft:map"
+    },
+    "title": {
+      "translate": "advancements.adventure.root.title"
+    },
+    "description": {
+      "translate": "advancements.adventure.root.description"
+    },
+    "background": "minecraft:block/stone_bricks",
+    "show_toast": false,
+    "announce_to_chat": false
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "parent": "main:hell/root",
+  "criteria": {
+    "charged": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:respawn_anchor"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "charged"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "item": "minecraft:respawn_anchor"
+    },
+    "title": {
+      "translate": "advancements.nether.charge_respawn_anchor.title"
+    },
+    "description": {
+      "translate": "advancements.nether.charge_respawn_anchor.description"
+    },
+    "hidden": false
+  }
+}

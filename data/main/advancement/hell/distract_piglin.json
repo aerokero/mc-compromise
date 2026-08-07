@@ -1,0 +1,32 @@
+{
+  "parent": "main:hell/root",
+  "criteria": {
+    "gold_given": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:gold_ingot"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "gold_given"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "item": "minecraft:gold_ingot"
+    },
+    "title": {
+      "translate": "advancements.nether.distract_piglin.title"
+    },
+    "description": {
+      "translate": "advancements.nether.distract_piglin.description"
+    },
+    "hidden": false
+  }
+}

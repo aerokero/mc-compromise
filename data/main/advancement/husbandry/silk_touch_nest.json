@@ -1,0 +1,39 @@
+{
+  "parent": "main:husbandry/safely_harvest_honey",
+  "criteria": {
+    "silk_touch_nest": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:bee_nest"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "silk_touch_nest"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "item": "minecraft:silk_touch"
+    },
+    "title": {
+      "translate": "advancements.husbandry.silk_touch_nest.title"
+    },
+    "description": {
+      "translate": "advancements.husbandry.silk_touch_nest.description"
+    },
+    "hidden": false
+  }
+}

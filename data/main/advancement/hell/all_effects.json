@@ -1,0 +1,196 @@
+{
+  "parent": "main:hell/all_potions",
+  "criteria": {
+    "all_effects": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:speed": {
+            "amplifier": {
+              "min": 0
+            }
+          },
+          "minecraft:strength": {
+            "amplifier": {
+              "min": 0
+            }
+          },
+          "minecraft:instant_health": {
+            "amplifier": {
+              "min": 0
+            }
+          },
+          "minecraft:jump_boost": {
+            "amplifier": {
+              "min": 0
+            }
+          },
+          "minecraft:regeneration": {
+            "amplifier": {
+              "min": 0
+            }
+          },
+          "minecraft:fire_resistance": {
+            "amplifier": {
+              "min": 0
+            }
+          },
+          "minecraft:water_breathing": {
+            "amplifier": {
+              "min": 0
+            }
+          },
+          "minecraft:invisibility": {
+            "amplifier": {
+              "min": 0
+            }
+          },
+          "minecraft:night_vision": {
+            "amplifier": {
+              "min": 0
+            }
+          },
+          "minecraft:weakness": {
+            "amplifier": {
+              "min": 0
+            }
+          },
+          "minecraft:poison": {
+            "amplifier": {
+              "min": 0
+            }
+          },
+          "minecraft:slowness": {
+            "amplifier": {
+              "min": 0
+            }
+          },
+          "minecraft:haste": {
+            "amplifier": {
+              "min": 0
+            }
+          },
+          "minecraft:mining_fatigue": {
+            "amplifier": {
+              "min": 0
+            }
+          },
+          "minecraft:instant_damage": {
+            "amplifier": {
+              "min": 0
+            }
+          },
+          "minecraft:nausea": {
+            "amplifier": {
+              "min": 0
+            }
+          },
+          "minecraft:resistance": {
+            "amplifier": {
+              "min": 0
+            }
+          },
+          "minecraft:blindness": {
+            "amplifier": {
+              "min": 0
+            }
+          },
+          "minecraft:hunger": {
+            "amplifier": {
+              "min": 0
+            }
+          },
+          "minecraft:wither": {
+            "amplifier": {
+              "min": 0
+            }
+          },
+          "minecraft:health_boost": {
+            "amplifier": {
+              "min": 0
+            }
+          },
+          "minecraft:absorption": {
+            "amplifier": {
+              "min": 0
+            }
+          },
+          "minecraft:saturation": {
+            "amplifier": {
+              "min": 0
+            }
+          },
+          "minecraft:glowing": {
+            "amplifier": {
+              "min": 0
+            }
+          },
+          "minecraft:levitation": {
+            "amplifier": {
+              "min": 0
+            }
+          },
+          "minecraft:luck": {
+            "amplifier": {
+              "min": 0
+            }
+          },
+          "minecraft:unluck": {
+            "amplifier": {
+              "min": 0
+            }
+          },
+          "minecraft:slow_falling": {
+            "amplifier": {
+              "min": 0
+            }
+          },
+          "minecraft:conduit_power": {
+            "amplifier": {
+              "min": 0
+            }
+          },
+          "minecraft:dolphins_grace": {
+            "amplifier": {
+              "min": 0
+            }
+          },
+          "minecraft:bad_omen": {
+            "amplifier": {
+              "min": 0
+            }
+          },
+          "minecraft:hero_of_the_village": {
+            "amplifier": {
+              "min": 0
+            }
+          },
+          "minecraft:darkness": {
+            "amplifier": {
+              "min": 0
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "all_effects"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "item": "minecraft:pufferfish"
+    },
+    "title": {
+      "translate": "advancements.nether.all_effects.title"
+    },
+    "description": {
+      "translate": "advancements.nether.all_effects.description"
+    },
+    "hidden": false,
+    "frame": "challenge"
+  },
+  "sends_telemetry_event": true
+}

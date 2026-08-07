@@ -1,0 +1,28 @@
+{
+  "parent": "main:adventure/root",
+  "criteria": {
+    "crafted": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:crafter"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "crafted"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "item": "minecraft:crafter"
+    },
+    "title": {
+      "translate": "advancements.adventure.crafters_crafting_crafters.title"
+    },
+    "description": {
+      "translate": "advancements.adventure.crafters_crafting_crafters.description"
+    },
+    "hidden": false
+  }
+}

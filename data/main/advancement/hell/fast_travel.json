@@ -1,0 +1,32 @@
+{
+  "parent": "main:hell/root",
+  "criteria": {
+    "travelled": {
+      "trigger": "minecraft:nether_travel",
+      "conditions": {
+        "distance": {
+          "horizontal": {
+            "min": 7000
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "travelled"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_boots"
+    },
+    "title": {
+      "translate": "advancements.nether.fast_travel.title"
+    },
+    "description": {
+      "translate": "advancements.nether.fast_travel.description"
+    },
+    "hidden": false
+  }
+}

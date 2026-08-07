@@ -1,0 +1,28 @@
+{
+  "parent": "main:adventure/voluntary_exile",
+  "criteria": {
+    "hero_of_the_village": {
+      "trigger": "minecraft:hero_of_the_village",
+      "conditions": {}
+    }
+  },
+  "requirements": [
+    [
+      "hero_of_the_village"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "item": "minecraft:totem_of_undying"
+    },
+    "title": {
+      "translate": "advancements.adventure.hero_of_the_village.title"
+    },
+    "description": {
+      "translate": "advancements.adventure.hero_of_the_village.description"
+    },
+    "hidden": false,
+    "frame": "challenge"
+  },
+  "sends_telemetry_event": true
+}

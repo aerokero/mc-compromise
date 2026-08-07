@@ -1,0 +1,39 @@
+{
+  "parent": "main:adventure/root",
+  "criteria": {
+    "fall_from_world_height": {
+      "trigger": "minecraft:fall_from_height",
+      "conditions": {
+        "start_position": {
+          "y": {
+            "min": 319
+          }
+        },
+        "distance": {
+          "y": {
+            "min": 383
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "fall_from_world_height"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "item": "minecraft:feather"
+    },
+    "title": {
+      "translate": "advancements.adventure.fall_from_world_height.title"
+    },
+    "description": {
+      "translate": "advancements.adventure.fall_from_world_height.description"
+    },
+    "hidden": false,
+    "frame": "challenge"
+  },
+  "sends_telemetry_event": true
+}

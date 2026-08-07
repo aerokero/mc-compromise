@@ -1,0 +1,39 @@
+{
+  "parent": "main:adventure/root",
+  "criteria": {
+    "read_power": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:chiseled_bookshelf"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "read_power"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "item": "minecraft:chiseled_bookshelf"
+    },
+    "title": {
+      "translate": "advancements.adventure.read_power_of_chiseled_bookshelf.title"
+    },
+    "description": {
+      "translate": "advancements.adventure.read_power_of_chiseled_bookshelf.description"
+    },
+    "hidden": false
+  }
+}

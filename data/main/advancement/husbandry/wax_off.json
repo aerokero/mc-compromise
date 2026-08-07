@@ -1,0 +1,26 @@
+{
+  "parent": "main:husbandry/wax_on",
+  "criteria": {
+    "wax_off": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {}
+    }
+  },
+  "requirements": [
+    [
+      "wax_off"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "item": "minecraft:stone_axe"
+    },
+    "title": {
+      "translate": "advancements.husbandry.wax_off.title"
+    },
+    "description": {
+      "translate": "advancements.husbandry.wax_off.description"
+    },
+    "hidden": false
+  }
+}

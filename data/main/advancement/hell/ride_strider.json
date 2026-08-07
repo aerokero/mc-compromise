@@ -1,0 +1,26 @@
+{
+  "parent": "main:hell/root",
+  "criteria": {
+    "used_strider": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {}
+    }
+  },
+  "requirements": [
+    [
+      "used_strider"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "item": "minecraft:warped_fungus_on_a_stick"
+    },
+    "title": {
+      "translate": "advancements.nether.ride_strider.title"
+    },
+    "description": {
+      "translate": "advancements.nether.ride_strider.description"
+    },
+    "hidden": false
+  }
+}

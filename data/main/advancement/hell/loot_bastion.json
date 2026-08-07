@@ -1,0 +1,26 @@
+{
+  "parent": "main:hell/find_bastion",
+  "criteria": {
+    "looted": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {}
+    }
+  },
+  "requirements": [
+    [
+      "looted"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "item": "minecraft:chest"
+    },
+    "title": {
+      "translate": "advancements.nether.loot_bastion.title"
+    },
+    "description": {
+      "translate": "advancements.nether.loot_bastion.description"
+    },
+    "hidden": false
+  }
+}

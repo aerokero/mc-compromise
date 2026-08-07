@@ -1,0 +1,40 @@
+{
+  "parent": "main:adventure/root",
+  "criteria": {
+    "salvage_sherd": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:suspicious_sand",
+                  "minecraft:suspicious_gravel"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "salvage_sherd"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "item": "minecraft:brush"
+    },
+    "title": {
+      "translate": "advancements.adventure.salvage_sherd.title"
+    },
+    "description": {
+      "translate": "advancements.adventure.salvage_sherd.description"
+    },
+    "hidden": false
+  }
+}

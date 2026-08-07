@@ -1,0 +1,91 @@
+{
+  "parent": "main:hell/create_beacon",
+  "criteria": {
+    "all_effects": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:speed": {
+            "amplifier": {
+              "min": 0
+            }
+          },
+          "minecraft:strength": {
+            "amplifier": {
+              "min": 0
+            }
+          },
+          "minecraft:instant_health": {
+            "amplifier": {
+              "min": 0
+            }
+          },
+          "minecraft:jump_boost": {
+            "amplifier": {
+              "min": 0
+            }
+          },
+          "minecraft:regeneration": {
+            "amplifier": {
+              "min": 0
+            }
+          },
+          "minecraft:fire_resistance": {
+            "amplifier": {
+              "min": 0
+            }
+          },
+          "minecraft:water_breathing": {
+            "amplifier": {
+              "min": 0
+            }
+          },
+          "minecraft:invisibility": {
+            "amplifier": {
+              "min": 0
+            }
+          },
+          "minecraft:night_vision": {
+            "amplifier": {
+              "min": 0
+            }
+          },
+          "minecraft:weakness": {
+            "amplifier": {
+              "min": 0
+            }
+          },
+          "minecraft:poison": {
+            "amplifier": {
+              "min": 0
+            }
+          },
+          "minecraft:slowness": {
+            "amplifier": {
+              "min": 0
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "all_effects"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "item": "minecraft:brewing_stand"
+    },
+    "title": {
+      "translate": "advancements.nether.all_potions.title"
+    },
+    "description": {
+      "translate": "advancements.nether.all_potions.description"
+    },
+    "hidden": false,
+    "frame": "challenge"
+  },
+  "sends_telemetry_event": true
+}

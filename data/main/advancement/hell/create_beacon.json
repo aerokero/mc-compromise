@@ -1,0 +1,30 @@
+{
+  "parent": "main:hell/root",
+  "criteria": {
+    "beacon": {
+      "trigger": "minecraft:construct_beacon",
+      "conditions": {
+        "level": {
+          "min": 1
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "beacon"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "item": "minecraft:beacon"
+    },
+    "title": {
+      "translate": "advancements.nether.create_beacon.title"
+    },
+    "description": {
+      "translate": "advancements.nether.create_beacon.description"
+    },
+    "hidden": false
+  }
+}

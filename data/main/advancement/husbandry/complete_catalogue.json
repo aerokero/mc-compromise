@@ -1,0 +1,188 @@
+{
+  "parent": "main:husbandry/breed_an_animal",
+  "criteria": {
+    "cat_0": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:entity_type": "minecraft:cat"
+            }
+          }
+        ]
+      }
+    },
+    "cat_1": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:entity_type": "minecraft:cat"
+            }
+          }
+        ]
+      }
+    },
+    "cat_2": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:entity_type": "minecraft:cat"
+            }
+          }
+        ]
+      }
+    },
+    "cat_3": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:entity_type": "minecraft:cat"
+            }
+          }
+        ]
+      }
+    },
+    "cat_4": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:entity_type": "minecraft:cat"
+            }
+          }
+        ]
+      }
+    },
+    "cat_5": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:entity_type": "minecraft:cat"
+            }
+          }
+        ]
+      }
+    },
+    "cat_6": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:entity_type": "minecraft:cat"
+            }
+          }
+        ]
+      }
+    },
+    "cat_7": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:entity_type": "minecraft:cat"
+            }
+          }
+        ]
+      }
+    },
+    "cat_8": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:entity_type": "minecraft:cat"
+            }
+          }
+        ]
+      }
+    },
+    "cat_9": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:entity_type": "minecraft:cat"
+            }
+          }
+        ]
+      }
+    },
+    "cat_10": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:entity_type": "minecraft:cat"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cat_0",
+      "cat_1",
+      "cat_2",
+      "cat_3",
+      "cat_4",
+      "cat_5",
+      "cat_6",
+      "cat_7",
+      "cat_8",
+      "cat_9",
+      "cat_10"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "item": "minecraft:cod"
+    },
+    "title": {
+      "translate": "advancements.husbandry.complete_catalogue.title"
+    },
+    "description": {
+      "translate": "advancements.husbandry.complete_catalogue.description"
+    },
+    "hidden": false,
+    "frame": "challenge"
+  },
+  "sends_telemetry_event": true
+}

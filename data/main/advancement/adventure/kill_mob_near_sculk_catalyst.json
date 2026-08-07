@@ -1,0 +1,26 @@
+{
+  "parent": "main:adventure/root",
+  "criteria": {
+    "kill_mob_near_sculk_catalyst": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {}
+    }
+  },
+  "requirements": [
+    [
+      "kill_mob_near_sculk_catalyst"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "item": "minecraft:sculk_catalyst"
+    },
+    "title": {
+      "translate": "advancements.adventure.kill_mob_near_sculk_catalyst.title"
+    },
+    "description": {
+      "translate": "advancements.adventure.kill_mob_near_sculk_catalyst.description"
+    },
+    "hidden": false
+  }
+}

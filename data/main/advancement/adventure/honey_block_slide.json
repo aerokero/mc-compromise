@@ -1,0 +1,39 @@
+{
+  "parent": "main:adventure/root",
+  "criteria": {
+    "slide": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:honey_block"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "slide"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "item": "minecraft:honey_block"
+    },
+    "title": {
+      "translate": "advancements.adventure.honey_block_slide.title"
+    },
+    "description": {
+      "translate": "advancements.adventure.honey_block_slide.description"
+    },
+    "hidden": false
+  }
+}

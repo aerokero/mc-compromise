@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "requirements": [
+    [
+      "tick"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "item": "minecraft:wheat"
+    },
+    "title": {
+      "translate": "advancements.husbandry.root.title"
+    },
+    "description": {
+      "translate": "advancements.husbandry.root.description"
+    },
+    "background": "minecraft:block/farmland",
+    "show_toast": false,
+    "announce_to_chat": false
+  }
+}

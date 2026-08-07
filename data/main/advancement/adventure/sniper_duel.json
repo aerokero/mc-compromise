@@ -1,0 +1,53 @@
+{
+  "parent": "main:adventure/root",
+  "criteria": {
+    "killed_skeleton": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_projectile",
+                "expected": true
+              }
+            ]
+          },
+          "distance": {
+            "horizontal": {
+              "min": 50
+            }
+          }
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "#minecraft:skeletons"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "killed_skeleton"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "item": "minecraft:arrow"
+    },
+    "title": {
+      "translate": "advancements.adventure.sniper_duel.title"
+    },
+    "description": {
+      "translate": "advancements.adventure.sniper_duel.description"
+    },
+    "hidden": false,
+    "frame": "challenge"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "tag": "main:never"
+  },
+  "base": {
+    "tag": "main:never"
+  },
+  "addition": {
+    "tag": "main:never"
+  },
+  "result": {
+    "id": "minecraft:netherite_leggings"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "parent": "main:end/root",
+  "criteria": {
+    "in_structure": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:location": {
+                "structures": [
+                  "minecraft:end_city"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "in_structure"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "item": "minecraft:purpur_block"
+    },
+    "title": {
+      "translate": "advancements.end.find_end_city.title"
+    },
+    "description": {
+      "translate": "advancements.end.find_end_city.description"
+    },
+    "hidden": false
+  }
+}

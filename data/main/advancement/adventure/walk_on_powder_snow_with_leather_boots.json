@@ -1,0 +1,38 @@
+{
+  "parent": "main:adventure/root",
+  "criteria": {
+    "walk_on_powder_snow": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:location": {
+                "biomes": "minecraft:snowy_slopes"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "walk_on_powder_snow"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "item": "minecraft:leather_boots"
+    },
+    "title": {
+      "translate": "advancements.adventure.walk_on_powder_snow_with_leather_boots.title"
+    },
+    "description": {
+      "translate": "advancements.adventure.walk_on_powder_snow_with_leather_boots.description"
+    },
+    "hidden": false
+  }
+}

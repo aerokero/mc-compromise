@@ -1,0 +1,46 @@
+{
+  "parent": "main:hell/root",
+  "criteria": {
+    "blaze_with_fireball": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_projectile",
+                "expected": true
+              }
+            ]
+          }
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:entity_type": "minecraft:ghast"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "blaze_with_fireball"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "item": "minecraft:fire_charge"
+    },
+    "title": {
+      "translate": "advancements.nether.return_to_sender.title"
+    },
+    "description": {
+      "translate": "advancements.nether.return_to_sender.description"
+    },
+    "hidden": false
+  }
+}
