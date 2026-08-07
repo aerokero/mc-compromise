@@ -14,14 +14,14 @@
   },
   "display": {
     "description": {
-      "text": "Blast Furnaces burn hotter than Basic Furnaces, able to melt more durable Metals"
+      "text": "Construct a blast furnace, able to smelt more durable metals"
     },
     "icon": {
       "count": 1,
       "id": "minecraft:blast_furnace"
     },
     "title": {
-      "text": "Burgeoning Metallurge"
+      "text": "Hot Topic"
     },
     "hidden": false
   },
