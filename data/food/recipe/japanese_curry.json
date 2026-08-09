@@ -1,5 +1,5 @@
 {
-	"type": "minecraft:smelting",
+	"type": "minecraft:smoking",
 	"category": "food",
 	"cookingtime": 300,
 	"experience": 0.35,

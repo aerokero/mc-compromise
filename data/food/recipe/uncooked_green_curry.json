@@ -3,7 +3,6 @@
 	"category": "misc",
 	"ingredients": [
 		"minecraft:green_dye",
-		"minecraft:glowstone_dust",
 		"minecraft:sugar",
 		"minecraft:beetroot_soup",
 		[
@@ -18,7 +17,14 @@
 			"minecraft:rarity": "uncommon",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.green_curry_stock"
-			}
+			},
+			"minecraft:lore": [
+				{
+					"text": "Uncooked",
+					"color": "gray",
+					"italic": false
+				}
+			]
 		}
 	}
 }

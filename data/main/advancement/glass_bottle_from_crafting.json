@@ -491,12 +491,12 @@
 			}
 			
 		},
-		"made_warped_stroganoff": {
+		"made_pickled_warped_fungus": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "food:warped_stroganoff"
+				"recipe_id": "food:pickled_warped_fungus"
 			}
-			
+
 		},
 		"made_chorus_pie": {
 			"trigger": "minecraft:recipe_crafted",
@@ -578,7 +578,7 @@
 			"made_lily_of_the_valley",
 			"made_glow_berry_crumble",
 			"made_latkes",
-			"made_warped_stroganoff",
+			"made_pickled_warped_fungus",
 			"made_chorus_pie",
 			"clone_cornflower",
 			"clone_wither_rose",

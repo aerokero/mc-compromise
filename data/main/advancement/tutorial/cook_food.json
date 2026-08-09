@@ -138,13 +138,10 @@
 		},
 		"icon": {
 			"components": {
-				"minecraft:item_model": "minecraft:grilled_melon"
-			},
-			"count": 1,
-			"id": "minecraft:poisonous_potato"
+				"minecraft:item_model": "minecraft:melon_slice"
 		},
 		"title": {
-			"text": "Powerful Flavours"
+			"text": "Mmm, tasty!"
 		},
 		"hidden": false
 	},

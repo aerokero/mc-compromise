@@ -37,34 +37,16 @@
 				"recipe_id": "food:glow_jam"
 			}
 		},
-		"rind_jam": {
-			"trigger": "minecraft:recipe_crafted",
-			"conditions": {
-				"recipe_id": "food:rind_jam"
-			}
-		},
 		"pickled_potatoes": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
 				"recipe_id": "food:pickled_potatoes"
 			}
 		},
-		"sweet_berry_jam": {
-			"trigger": "minecraft:recipe_crafted",
-			"conditions": {
-				"recipe_id": "food:sweet_berry_jam"
-			}
-		},
 		"mead": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
 				"recipe_id": "food:mead"
-			}
-		},
-		"pumpkin_jam": {
-			"trigger": "minecraft:recipe_crafted",
-			"conditions": {
-				"recipe_id": "food:pumpkin_jam"
 			}
 		},
 		"pickled_mushrooms": {
@@ -133,15 +115,6 @@
 		],
 		[
 			"preserve_tomatoes"
-		],
-		[
-			"pumpkin_jam"
-		],
-		[
-			"rind_jam"
-		],
-		[
-			"sweet_berry_jam"
 		],
 		[
 			"pickled_mushrooms"

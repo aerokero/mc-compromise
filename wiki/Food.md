@@ -34,46 +34,46 @@ These dishes should have yellow level tier/rarity.
 
 | Nazwa | Wygląd | Receptura | Metoda | Właściwości |
 |---|---|---|---|---|---|
-| Baked Apple | `apple` | Apple | Campfire / Furnace | Baked Apple | +2 HP, Regen (0:10) |
-| Baked Golden Apple | `golden_apple` | Golden Apple | Campfire / Furnace | +8 HP, Absorption (2:00), Regen (1:00) |
-| Grilled Melon Slice | `melon_slice`  | Melon Slice | Campfire / Furnace | +2 HP, Fire Resistance (0:10) |
-| Grilled Beetroot | `beetroot`  | Beetroot | Campfire / Furnace  | +4 HP, Strength (0:10) |
-| Steamed Glow Berries | `glow_berries`| Glow Berries | Campfire / Furnace| +2 HP, Aura (0:03) |
-| Steamed Golden Carrots | `golden_carrot`  | Golden Carrot | Campfire / Furnace| +2 HP, Night Vision (1:00) |
-| Steamed Carrots | `carrot` | Carrot | Campfire / Furnace | +2 HP, Night Vision (0:10) |
-| Steamed Sweet Berries | `sweet_berries` | Sweet Berries | Campfire / Furnace | +2 HP, Absorption (0:10) |
+| Baked Apple | `apple` | Apple | Campfire / Smoker | Baked Apple | +2 HP, Regen (0:10) |
+| Baked Golden Apple | `golden_apple` | Golden Apple | Campfire / Smoker | +8 HP, Absorption (2:00), Regen (1:00) |
+| Grilled Melon Slice | `melon_slice`  | Melon Slice | Campfire / Smoker | +2 HP, Fire Resistance (0:10) |
+| Grilled Beetroot | `beetroot`  | Beetroot | Campfire / Smoker  | +4 HP, Strength (0:10) |
+| Steamed Glow Berries | `glow_berries`| Glow Berries | Campfire / Smoker| +2 HP, Aura (0:03) |
+| Steamed Golden Carrots | `golden_carrot`  | Golden Carrot | Campfire / Smoker| +2 HP, Night Vision (1:00) |
+| Steamed Carrots | `carrot` | Carrot | Campfire / Smoker | +2 HP, Night Vision (0:10) |
+| Steamed Sweet Berries | `sweet_berries` | Sweet Berries | Campfire / Smoker | +2 HP, Absorption (0:10) |
 
 ### Existing vanilla food reworked
 These dishes should have regular common (white) tier/rarity.
 
 | Nazwa | Wygląd | Receptura / źródło | Metoda | Wynik | Właściwości |
 |---|---|---|---|---|---|
-| Apple | `apple` | Oak / Dark Oak / Loot | Drop | +0,5 HP |
+| Apple | `apple` | Oak / Dark Oak / Loot | Drop | +1 HP |
 | Baked Potato | `baked_potato` | Potato | Campfire / Smoker (10 s) | +5 HP |
-| Carrot | `carrot`| Uprawa / loot skrzyń | Zbiór | Carrot | +0,5 HP |
+| Carrot | `carrot`| Uprawa / loot skrzyń | Zbiór | Carrot | +1 HP |
 | Cooked Beef | `cooked_beef` | Beef | Campfire / Smoker (10 s) | Cooked Beef | +4 HP |
 | Cooked Chicken | `cooked_chicken` | Chicken | Campfire / Smoker (10 s) | Cooked Chicken | +3 HP |
-| Cooked Cod | `cooked_cod` | Cod / Tropical Fish | Campfire / Smoker (10 s) | Cooked Cod | +2.5 HP |
+| Cooked Cod | `cooked_cod` | Cod / Tropical Fish | Campfire / Smoker (10 s) | Cooked Cod | +2 HP |
 | Cooked Mutton | `cooked_mutton` | Mutton | Campfire / Smoker (10 s) | Cooked Mutton | +3 HP |
-| Cooked Porkchop | `cooked_porkchop` | Porkchop | Campfire / Smoker (10 s) | Cooked Porkchop | +3.5 HP |
-| Cooked Rabbit | `cooked_rabbit` | Rabbit | Campfire / Smoker (10 s) | Cooked Rabbit | +2.5 HP |
-| Cooked Salmon | `cooked_salmon` | Salmon | Campfire / Smoker (10 s) | Cooked Salmon | +2.5 HP |
-| Dried Kelp | `dried_kelp`  | Kelp | Campfire / Furnace / Crafting Table | Dried Kelp | +1 HP, Gills (0:10) |
+| Cooked Porkchop | `cooked_porkchop` | Porkchop | Campfire / Smoker (10 s) | Cooked Porkchop | +3 HP |
+| Cooked Rabbit | `cooked_rabbit` | Rabbit | Campfire / Smoker (10 s) | Cooked Rabbit | +2 HP |
+| Cooked Salmon | `cooked_salmon` | Salmon | Campfire / Smoker (10 s) | Cooked Salmon | +2 HP |
+| Dried Kelp | `dried_kelp`  | Kelp | Campfire / Smoker / Crafting Table | Dried Kelp | +1 HP, Gills (0:10) |
 | Golden Carrot | `golden_carrot`  | Carrot + 8 Gold Nuggets | Crafting Table | Golden Carrot | +2 HP, Night Vision (0:30) |
-| Chorus Fruit | `chorus_fruit` | Chorus Plant | Zbiór | Chorus Fruit | +0,5 HP |
-| Glow Berries | `glow_berries`| Cave Vines / loot skrzyń | Zbiór | Glow Berries | +0,5 HP |
-| Melon Slice | `melon_slice`  | Melon | Zbiór | Melon Slice | +0,5 HP |
-| Raw Beef | `beef` | Cow | Drop | Raw Beef | +0,5 HP |
-| Raw Chicken | `chicken`  | Chicken | Drop | Raw Chicken | +0,5 HP |
-| Raw Mutton | `mutton` | Sheep | Drop | Raw Mutton | +0,5 HP |
-| Raw Porkchop | `porkchop`  | Pig / Hoglin | Drop | Raw Porkchop | +0,5 HP |
-| Raw Rabbit | `rabbit` | Rabbit | Drop | Raw Rabbit | +0,5 HP |
-| Raw Cod | `cod`  | Fishing / Cod | Łowienie / Drop | Raw Cod | +0,5 HP |
-| Raw Salmon | `salmon` | Fishing / Salmon | Łowienie / Drop | Raw Salmon | +0,5 HP |
-| Raw Tropical Fish | `tropical_fish` | Fishing / Tropical Fish | Łowienie / Drop | Raw Tropical Fish | +0,5 HP |
-| Sweet Berries | `sweet_berries` | Sweet Berry Bush / loot skrzyń | Zbiór | Sweet Berries | +0,5 HP |
+| Chorus Fruit | `chorus_fruit` | Chorus Plant | Zbiór | Chorus Fruit | +1 HP |
+| Glow Berries | `glow_berries`| Cave Vines / loot skrzyń | Zbiór | Glow Berries | +1 HP |
+| Melon Slice | `melon_slice`  | Melon | Zbiór | Melon Slice | +1 HP |
+| Raw Beef | `beef` | Cow | Drop | Raw Beef | +1 HP |
+| Raw Chicken | `chicken`  | Chicken | Drop | Raw Chicken | +1 HP |
+| Raw Mutton | `mutton` | Sheep | Drop | Raw Mutton | +1 HP |
+| Raw Porkchop | `porkchop`  | Pig / Hoglin | Drop | Raw Porkchop | +1 HP |
+| Raw Rabbit | `rabbit` | Rabbit | Drop | Raw Rabbit | +1 HP |
+| Raw Cod | `cod`  | Fishing / Cod | Łowienie / Drop | Raw Cod | +1 HP |
+| Raw Salmon | `salmon` | Fishing / Salmon | Łowienie / Drop | Raw Salmon | +1 HP |
+| Raw Tropical Fish | `tropical_fish` | Fishing / Tropical Fish | Łowienie / Drop | Raw Tropical Fish | +1 HP |
+| Sweet Berries | `sweet_berries` | Sweet Berry Bush / loot skrzyń | Zbiór | Sweet Berries | +1 HP |
 | Honey Bottle | `honey_bottle`  | Honey Bottle | Vanilla Honey given these attributes | Honey Bottle | +2 HP, Speed (0:30), Cleanse Maleffect |
-| Popped Chorus Fruit | `popped_chorus_fruit`  | Chorus Fruit | Campfire / Furnace (5 s) | Popped Chorus Fruit | +2 HP, Levitation III (0:03) |
+| Popped Chorus Fruit | `popped_chorus_fruit`  | Chorus Fruit | Campfire / Smoker (5 s) | Popped Chorus Fruit | +2 HP, Levitation III (0:03) |
 
 ## Spalone jedzenie
 
@@ -103,7 +103,7 @@ Regen (3:00)
 
 ### Cookies
 1st Tier:
-| common | Cookie | `cookie` | Sugar + Wheat | Campfire / Furnace (10 s) | +2 HP, Haste (0:30) |
+| common | Cookie | `cookie` | Sugar + Wheat | Campfire / Smoker (10 s) | +2 HP, Haste (0:30) |
 
 2nd Tier:
 | uncommon | Brownie Cookie | `cookie` | Sugar + Wheat + Cocoa Beans | Crafting Table | +4 HP |
@@ -115,22 +115,23 @@ Regen (3:00)
 #### 1st Tier:
 | common | Bread | 3 Wheat | Crafted | +4 HP, Cleanse Maleffect |
 2nd Tier:
-| uncommon | French Toast | `bread` | Egg + Sugar + Glowstone Dust + Bread | Crafting Table | +10 HP |
-| uncommon | Fried Egg | `bread` | Egg | Campfire / Furnace | +2 HP; jadalne |
-| uncommon | Gimmari | `bread` | Dried Kelp + Carrot + Sugar + Egg + Wheat | Crafting Table | +6 HP, Gills (8:00) |
+| uncommon | Egg Bread | `bread` | Egg + Sugar + Bread | Crafting Table | +10 HP |
+| uncommon | Fried Egg | `egg` | Egg | Campfire / Smoker | +2 HP; jadalne |
+| uncommon | Kelp Bread | `bread` | Dried Kelp + Carrot + Sugar + Egg + Wheat | Crafting Table | +6 HP, Gills (8:00) |
 | uncommon | Potato Bread | `bread` | Baked Potato + Egg + Bread + Beetroot Soup | Crafting Table | +16 HP |
-| uncommon | Pupusa Bread | `bread` | Wheat + Cookie + Cooked Porkchop/Chicken | Crafting Table | +3 HP |
-| uncommon | Bruschetta | Bread + 2x Beetroot  | Crafting Table | +6 HP, Strength II (3:00) |
+| uncommon | Meat Bread | `bread` | Wheat + Cookie + Cooked Porkchop/Chicken | Crafting Table | +3 HP |
+| uncommon | Beetroot Bread | Bread + 2x Beetroot  | Crafting Table | +6 HP, Strength II (3:00) |
 | uncommon | Chocolate Bread | Bread + Sugar + Cocoa Beans ×2 | Crafting Table | +6 HP, Haste II (3:00) |
 | uncommon | Sweet Berry Bread | Bread + Sugar + Sweet Berries | Crafting Table | +6 HP, Absorption (3:00) |
 | uncommon | Glow Berry Bread | Bread + Sugar + Glow Berries | Crafting Table | +6 HP, Aura (3:00) |
 | uncommon | Apple Bread | Bread + Sugar + Baked Apple  | Crafting Table | +6 HP, Regen (1:00) |
 | uncommon | Carrot Bread | Bread + Sugar + Carrot | Crafting Table | +6 HP, Night Vision (3:00) |
+| uncommon | Chocolate Carrot Bread | Carrot + Sugar + Cocoa Beans + Wheat | Crafting Table | +8 HP, Night Vision (10:00) |
 
 | rare | Golden Apple Bread | Bread + Sugar + Baked Golden Apple | Crafting Table | +8 HP, Absorption (2:00), Regen II (0:20) |
 
 Special recipe:
-| uncommon | Honey French Toast | `bread` | Bread + Sugar + Honey Bottle + Egg | Crafting Table | +10 HP, Speed (3:00) |
+| uncommon | Honey Egg Bread | `bread` | Bread + Sugar + Honey Bottle + Egg | Crafting Table | +10 HP, Speed (3:00) |
 
 ### Mead
 Special recipe; level in-between bread and stew.
@@ -142,9 +143,9 @@ Special recipe; level in-between bread and stew.
 
 #### 2nd Tier:
 | uncommon | Chorus Pie | `pumpkin_pie` | Popped Chorus Fruit + Snowball + Sugar + Beetroot Soup + Wheat | Crafting Table | +8 HP, Levitation (3:00) |
-| uncommon | Golden Apple Pie | `pumpkin_pie` | Golden Apple + Sugar + Glowstone Dust + Wheat | Crafting Table | +8 HP, Absorption (4:00), Regen II (0:45) |
-| uncommon | Golden Carrot Pie | `pumpkin_pie` | Golden Carrot + Sugar + Glowstone Dust + Cocoa Beans + Wheat | Crafting Table | +8 HP, Night Vision (20:00) |
-| uncommon | Melon Pie | `pumpkin_pie` | Melon Slice + Snowball + Sugar + Glass Bottle | Crafting Table | +4 HP, Fire Resistance (10:00) |
+| uncommon | Golden Apple Pie | `pumpkin_pie` | Golden Apple + Sugar + Wheat | Crafting Table | +8 HP, Absorption (4:00), Regen II (0:45) |
+| uncommon | Golden Carrot Pie | `pumpkin_pie` | Golden Carrot + Sugar + Cocoa Beans + Wheat | Crafting Table | +8 HP, Night Vision (20:00) |
+| uncommon | Frozen Melon Pie | `pumpkin_pie` | Melon Slice + Snowball + Sugar + Glass Bottle | Crafting Table | +4 HP, Fire Resistance (10:00) |
 | uncommon | Apple Pie | `pumpkin_pie` | Pumpkin + Sugar + Egg + Apple | Crafting Table | +8 HP, Regen (3:00) |
 | uncommon | Melon Pie | `pumpkin_pie` | Pumpkin + Sugar + Egg + Melon | Crafting Table | +8 HP, Fire Resistance (3:00) |
 | uncommon | Sweet Berry Pie | `pumpkin_pie` | Pumpkin + Sugar + Egg + Sweet Berries | Crafting Table | +8 HP, Absorption (3:00) |
@@ -158,32 +159,35 @@ Any mushroom can be used, unless specified otherwise.
 | common | Mushroom Stew | `mushroom_stew` | Bowl + Brown Mushroom + Red Mushroom | Crafting Table | +4 HP |
 
 #### 2nd Tier:
-| uncommon | Gnocchi Stew | `mushroom_stew` | Baked Potato + Cookie + Egg + Wheat + Bowl | Crafting Table | +16 HP |
-| uncommon | Golden Carrot Stew | `mushroom_stew` | Golden Carrot + Brown Mushroom + Glass Bottle | Crafting Table | +4 HP, Night Vision (10:00) |
-| uncommon | Carrot Stew | `mushroom_stew` | Carrot + Brown Mushroom + Glass Bottle | Crafting Table | +4 HP, Night Vision (5:00) |
-| uncommon | Potato Stew | `mushroom_stew` | Baked Potato + Brown Mushroom + Glass Bottle | Crafting Table | +10 HP |
-| uncommon | Ramen Stew | `mushroom_stew` | Ramen Stock | Furnace (15 s) | +20 HP, Haste II (30:00) |
-| uncommon | Paneer Curry Stock | `mushroom_stew` | Beetroot Soup + Cookie + Sugar | Crafting Table | +6 HP |
+| uncommon | Loaded Potato Stew | `mushroom_stew` | Baked Potato + Cookie + Egg + Wheat + Bowl | Crafting Table | +16 HP |
+| uncommon | Golden Carrot Stew | `mushroom_stew` | Golden Carrot + Brown Mushroom + Bowl | Crafting Table | +4 HP, Night Vision (10:00) |
+| uncommon | Carrot Stew | `mushroom_stew` | Carrot + Brown Mushroom + Bowl | Crafting Table | +4 HP, Night Vision (5:00) |
+| uncommon | Potato Stew | `mushroom_stew` | Baked Potato + Brown Mushroom + Bowl | Crafting Table | +10 HP |
+| uncommon | Dried Kelp Stew | `mushroom_stew` | Dried Kelp Stock | Smoker (15 s) | +20 HP, Haste II (30:00) |
+| uncommon | Beetroot Curry Stock | `mushroom_stew` | Beetroot Soup + Cookie + Sugar | Crafting Table | +6 HP |
 | uncommon | Curry Stock | `mushroom_stew` | Bowl + Potato + Carrot + Beef/Mutton/Rabbit + Wheat + Sugar | Crafting Table | +8 HP |
 | uncommon | Green Curry Stock | `mushroom_stew` | Beetroot Soup + Cod/Salmon + Green Dye + Wheat + Sugar | Crafting Table | +10 HP |
-| uncommon | Ramen Stock | `mushroom_stew` | Bowl + Brown Mushroom + Dried Kelp + Egg + Wheat + Porkchop/Chicken | Crafting Table | Ramen Stock | +12 HP
+| uncommon | Dried Kelp Stock | `mushroom_stew` | Bowl + Brown Mushroom + Dried Kelp + Egg + Wheat + Porkchop/Chicken | Crafting Table | Dried Kelp Stock | +12 HP
 
 #### 2nd Tier:
-| uncommon | Bokguk | `mushroom_stew`| Bowl + Mushroom + Carrot/Potato + Dried Kelp + Cooked Cod/Salmon | Crafting Table | +12 HP, Conduit Power (8:00) |
+| uncommon | Pufferfish Stew | `mushroom_stew`| Bowl + Mushroom + Carrot/Potato + Dried Kelp + Cooked Cod/Salmon | Crafting Table | +12 HP, Conduit Power (8:00) |
 | uncommon | Sweet Berry Stew | `mushroom_stew` | Bowl + Mushroom + Carrot/Potato + 2x Sweet Berries | Crafting Table | +12 HP, Absorption (8:00) |
 
 
 #### 3rd Tier:
 Special stews.
 
-| rare | Mushroom Stew | `mushroom_stew` | Rabbit Foot + Cooked Beef + Wheat + Beetroot Soup + Bowl | Crafting Table | Mushroom Stew | +16 HP |
-| rare | Green Curry | `mushroom_stew` | Green Curry Stock | Furnace (15 s) | Green Curry | +20 HP, +40% Speed (30:00) |
-| rare | Japanese Curry | `mushroom_stew` | Curry Stock | Furnace (15 s) | Japanese Curry | +20 HP, Strength (30:00) |
-| rare | Paneer Makhani | `rabbit_stew`  | Paneer Curry Stock | Furnace (15 s) | Paneer Makhani | +20 HP, Regen (10:00) |
+| rare | Green Curry | `mushroom_stew` | Green Curry Stock | Smoker (15 s) | Green Curry | +20 HP, +40% Speed (30:00) |
+| rare | Meat Curry | `mushroom_stew` | Curry Stock | Smoker (15 s) | Meat Curry | +20 HP, Strength (30:00) |
+| rare | Beetroot Curry | `rabbit_stew`  | Beetroot Curry Stock | Smoker (15 s) | Beetroot Curry | +20 HP, Regen (10:00) |
 
 ### Suspicious Stews
 | rare | Crimson Fungus Stew | `suspicious_stew` | Crimson Fungus + Brown Mushroom + Glass Bottle | Crafting Table | Weakness II (1:00) |
 | rare | Red Mushroom Stew | `suspicious_stew` | Red Mushroom + Brown Mushroom + Glass Bottle | Crafting Table | Poison II (1:00) |
+| rare | Warped Fungus Stew | `suspicious_stew` | Warped Fungus + Brown Mushroom + Glass Bottle | Crafting Table | +4 HP, Invisibility (5:00) |
+
+### Preserved Foods
+| uncommon | Pickled Beetroot | `beetroot` | Beetroot + Brown Mushroom + Glass Bottle | Crafting Table | +6 HP, Strength (5:00) |
 
 # Cakes
 Alternative cake recipe.

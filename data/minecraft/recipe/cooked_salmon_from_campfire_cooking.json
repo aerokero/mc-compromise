@@ -1,13 +1,12 @@
 {
-	"type": "minecraft:smoking",
+	"type": "minecraft:campfire_cooking",
 	"category": "food",
-	"cookingtime": 100,
+	"cookingtime": 200,
 	"experience": 0.35,
-	"ingredient": "minecraft:wheat",
+	"ingredient": "minecraft:salmon",
 	"result": {
-		"id": "minecraft:bread",
+		"id": "minecraft:cooked_salmon",
 		"components": {
-			"minecraft:rarity": "common",
 			"minecraft:lore": [
 				{
 					"text": "When Eaten:",
@@ -27,8 +26,8 @@
 						"effects": [
 							{
 								"id": "minecraft:regeneration",
-								"amplifier": 3,
-								"duration": 15,
+								"amplifier": 2,
+								"duration": 30,
 								"show_particles": false,
 								"show_icon": false
 							}
@@ -37,9 +36,7 @@
 					}
 				]
 			},
-			"minecraft:item_name": {
-				"translate": "item.kleispack.naan"
-			},
+			"minecraft:item_model": "minecraft:cooked_salmon",
 			"minecraft:food": {
 				"nutrition": 0,
 				"saturation": 0,

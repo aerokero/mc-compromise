@@ -4,7 +4,7 @@
 	"ingredients": [
 		"minecraft:carrot",
 		"minecraft:brown_mushroom",
-		"minecraft:glass_bottle"
+		"minecraft:bowl"
 	],
 	"result": {
 		"id": "minecraft:mushroom_stew",
@@ -60,7 +60,7 @@
 				}
 			],
 			"minecraft:use_remainder": {
-				"id": "minecraft:glass_bottle"
+				"id": "minecraft:bowl"
 			}
 		},
 		"count": 1

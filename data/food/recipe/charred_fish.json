@@ -5,9 +5,7 @@
 	"experience": 0.35,
 	"ingredient": [
 		"minecraft:tropical_fish",
-		"minecraft:pufferfish",
-		"minecraft:cod",
-		"minecraft:salmon"
+		"minecraft:pufferfish"
 	],
 	"result": {
 		"id": "minecraft:charcoal",

@@ -18,7 +18,14 @@
 			"minecraft:rarity": "uncommon",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.ramen_stock"
-			}
+			},
+			"minecraft:lore": [
+				{
+					"text": "Uncooked",
+					"color": "gray",
+					"italic": false
+				}
+			]
 		}
 	}
 }

@@ -2,7 +2,6 @@
 	"type": "minecraft:crafting_shapeless",
 	"category": "misc",
 	"ingredients": [
-		"minecraft:glowstone_dust",
 		"minecraft:sugar",
 		"minecraft:wheat",
 		"minecraft:potato",
@@ -20,7 +19,14 @@
 			"minecraft:rarity": "uncommon",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.curry_stock"
-			}
+			},
+			"minecraft:lore": [
+				{
+					"text": "Uncooked",
+					"color": "gray",
+					"italic": false
+				}
+			]
 		}
 	}
 }

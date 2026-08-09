@@ -2,14 +2,13 @@
 	"type": "minecraft:crafting_shapeless",
 	"category": "misc",
 	"ingredients": [
-		"minecraft:rabbit_foot",
 		"minecraft:brown_mushroom",
-		"minecraft:glass_bottle"
+		"minecraft:red_mushroom",
+		"minecraft:bowl"
 	],
 	"result": {
 		"id": "minecraft:mushroom_stew",
 		"components": {
-			"minecraft:rarity": "uncommon",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.pickled_mushrooms"
 			},
@@ -27,7 +26,7 @@
 							{
 								"id": "minecraft:regeneration",
 								"amplifier": 2,
-								"duration": 72,
+								"duration": 48,
 								"show_particles": false,
 								"show_icon": false
 							}
@@ -43,13 +42,13 @@
 					"italic": false
 				},
 				{
-					"text": "+6 HP Restored",
+					"text": "+4 HP Restored",
 					"color": "red",
 					"italic": false
 				}
 			],
 			"minecraft:use_remainder": {
-				"id": "minecraft:glass_bottle"
+				"id": "minecraft:bowl"
 			}
 		},
 		"count": 1

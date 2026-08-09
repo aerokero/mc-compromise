@@ -3,9 +3,9 @@
 	"category": "food",
 	"cookingtime": 200,
 	"experience": 0.35,
-	"ingredient": "minecraft:porkchop",
+	"ingredient": "minecraft:rabbit",
 	"result": {
-		"id": "minecraft:cooked_porkchop",
+		"id": "minecraft:cooked_rabbit",
 		"components": {
 			"minecraft:lore": [
 				{
@@ -14,7 +14,7 @@
 					"italic": false
 				},
 				{
-					"text": "+3.5 HP Restored",
+					"text": "+2 HP Restored",
 					"color": "red",
 					"italic": false
 				}
@@ -27,7 +27,7 @@
 							{
 								"id": "minecraft:regeneration",
 								"amplifier": 2,
-								"duration": 42,
+								"duration": 30,
 								"show_particles": false,
 								"show_icon": false
 							}
@@ -36,7 +36,7 @@
 					}
 				]
 			},
-			"minecraft:item_model": "minecraft:cooked_porkchop",
+			"minecraft:item_model": "minecraft:cooked_rabbit",
 			"minecraft:food": {
 				"nutrition": 0,
 				"saturation": 0,

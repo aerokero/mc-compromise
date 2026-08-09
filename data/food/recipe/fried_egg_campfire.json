@@ -5,7 +5,7 @@
 	"experience": 0.35,
 	"ingredient": "#minecraft:eggs",
 	"result": {
-		"id": "minecraft:bread",
+		"id": "minecraft:egg",
 		"components": {
 			"minecraft:rarity": "common",
 			"minecraft:lore": [

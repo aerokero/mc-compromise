@@ -4,7 +4,6 @@
 	"ingredients": [
 		"minecraft:golden_apple",
 		"minecraft:sugar",
-		"minecraft:glowstone_dust",
 		"minecraft:wheat"
 	],
 	"result": {

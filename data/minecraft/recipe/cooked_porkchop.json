@@ -3,13 +3,7 @@
 	"category": "misc",
 	"cookingtime": 100,
 	"experience": 0.35,
-	"ingredient": [
-		"minecraft:rabbit",
-		"minecraft:chicken",
-		"minecraft:beef",
-		"minecraft:porkchop",
-		"minecraft:mutton"
-	],
+	"ingredient": "minecraft:porkchop",
 	"result": {
 		"id": "minecraft:charcoal",
 		"count": 1

@@ -21,8 +21,7 @@
 	],
 	"rewards": {
 		"recipes": [
-			"food:pickled_mushrooms",
-			"food:stroganoff"
+			"food:pickled_mushrooms"
 		]
 	}
 }

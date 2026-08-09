@@ -1,11 +1,11 @@
 {
-	"type": "minecraft:campfire_cooking",
+	"type": "minecraft:smoking",
 	"category": "food",
 	"cookingtime": 200,
 	"experience": 0.35,
-	"ingredient": "minecraft:cod",
+	"ingredient": "minecraft:salmon",
 	"result": {
-		"id": "minecraft:cooked_cod",
+		"id": "minecraft:cooked_salmon",
 		"components": {
 			"minecraft:lore": [
 				{
@@ -14,7 +14,7 @@
 					"italic": false
 				},
 				{
-					"text": "+2.5 HP Restored",
+					"text": "+2 HP Restored",
 					"color": "red",
 					"italic": false
 				}
@@ -36,7 +36,7 @@
 					}
 				]
 			},
-			"minecraft:item_model": "minecraft:cooked_cod",
+			"minecraft:item_model": "minecraft:cooked_salmon",
 			"minecraft:food": {
 				"nutrition": 0,
 				"saturation": 0,

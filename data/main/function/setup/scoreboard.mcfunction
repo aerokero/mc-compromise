@@ -53,3 +53,16 @@ scoreboard objectives add motion_y1 dummy
 scoreboard objectives add motion_y2 dummy
 scoreboard objectives add motion_z1 dummy
 scoreboard objectives add motion_z2 dummy
+
+# Hoe durability on instant-break plants (short_grass, tall_grass, fern, large_fern,
+# dead_bush, seagrass, tall_seagrass never damage tools in vanilla because these
+# blocks have 0 hardness). These stat-linked objectives detect the break and are
+# reset to 0 every tick by main:mechanic/hoe_wear/tick once handled.
+scoreboard objectives add hw_short_grass minecraft.mined:minecraft.short_grass
+scoreboard objectives add hw_tall_grass minecraft.mined:minecraft.tall_grass
+scoreboard objectives add hw_fern minecraft.mined:minecraft.fern
+scoreboard objectives add hw_large_fern minecraft.mined:minecraft.large_fern
+scoreboard objectives add hw_dead_bush minecraft.mined:minecraft.dead_bush
+scoreboard objectives add hw_seagrass minecraft.mined:minecraft.seagrass
+scoreboard objectives add hw_tall_seagrass minecraft.mined:minecraft.tall_seagrass
+scoreboard objectives add hw_roll dummy
