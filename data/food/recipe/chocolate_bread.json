@@ -1,7 +1,8 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "group": "bread",
   "category": "misc",
-  "ingredients": ["minecraft:bread", "minecraft:sugar", "minecraft:cocoa_beans", "minecraft:cocoa_beans"],
+  "ingredients": ["minecraft:wheat", "minecraft:wheat", "minecraft:wheat", "minecraft:sugar", "minecraft:cocoa_beans", "minecraft:cocoa_beans"],
   "result": {
     "id": "minecraft:bread",
     "components": {

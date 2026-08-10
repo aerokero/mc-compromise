@@ -1,5 +1,6 @@
 {
 	"type": "minecraft:crafting_shapeless",
+	"group": "cookie",
 	"category": "misc",
 	"ingredients": [
 		"minecraft:popped_chorus_fruit",

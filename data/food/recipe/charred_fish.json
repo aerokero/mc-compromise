@@ -1,5 +1,6 @@
 {
 	"type": "minecraft:smelting",
+	"group": "charred_food",
 	"category": "misc",
 	"cookingtime": 100,
 	"experience": 0.35,

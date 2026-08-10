@@ -1,5 +1,6 @@
 {
 	"type": "minecraft:campfire_cooking",
+	"group": "cookie",
 	"category": "food",
 	"cookingtime": 200,
 	"experience": 0.35,

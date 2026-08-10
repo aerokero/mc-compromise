@@ -1,5 +1,6 @@
 {
 	"type": "minecraft:campfire_cooking",
+	"group": "bread",
 	"category": "food",
 	"cookingtime": 200,
 	"experience": 0.35,

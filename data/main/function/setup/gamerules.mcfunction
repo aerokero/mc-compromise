@@ -1,4 +1,5 @@
 gamerule natural_health_regeneration false
+gamerule advance_time true
 gamerule spawn_phantoms false
 gamerule keep_inventory true
 gamerule block_explosion_drop_decay false

@@ -1,5 +1,6 @@
 {
 	"type": "minecraft:crafting_shapeless",
+	"group": "suspicious_stew",
 	"category": "misc",
 	"ingredients": [
 		"minecraft:crimson_fungus",

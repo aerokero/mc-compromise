@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "group": "stew",
   "category": "misc",
   "ingredients": ["minecraft:bowl", ["minecraft:brown_mushroom", "minecraft:red_mushroom"], ["minecraft:carrot", "minecraft:potato"], "minecraft:sweet_berries", "minecraft:sweet_berries"],
   "result": {

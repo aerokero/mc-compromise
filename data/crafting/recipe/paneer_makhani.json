@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "group": "rabbit_stew",
   "category": "misc",
   "key": {
     "P": "minecraft:cookie",

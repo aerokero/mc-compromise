@@ -1,5 +1,6 @@
 {
 	"type": "minecraft:crafting_shapeless",
+	"group": "stew",
 	"category": "misc",
 	"ingredients": [
 		"minecraft:carrot",
