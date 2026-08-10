@@ -1,1 +1,0 @@
-function main:environmental/day_cycle_extender

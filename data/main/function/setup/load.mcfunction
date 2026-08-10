@@ -1,4 +1,3 @@
-function main:environmental/load_day_cycle_extender
 function main:setup/scoreboard
 function main:setup/gamerules
 tellraw @a {"bold":false,"color":"#ffffff","text":"You are not able to satisfy your hunger anymore."}

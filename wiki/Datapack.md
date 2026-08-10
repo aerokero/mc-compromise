@@ -191,19 +191,13 @@ The End dimension does not have a completely new generator, but several progress
 - Ender Pearl has an additional Librarian/Mouthpiece trade,
 - Bronze Elytra is crafted at the smithing table,
 - End advancements have custom titles, descriptions and icons,
-- the first Ender Dragon kill gives Divine Star and sets the `gamerule_safe_surface` scoreboard.
+- the first Ender Dragon kill gives Divine Star.
 
 Enderman still drops Ender Pearls. The End City loot table is replaced with a custom reward set.
 
 ## 7. Day, night and sleep
 
-The datapack changes the day/night cycle:
-
-- `gamerule advance_time` is disabled,
-- time is manually advanced every 3 ticks,
-- a full day/night cycle lasts about three times longer than in vanilla,
-- sleeping adds a separate amount of time through a sleep function,
-- the perceived length of day and night therefore differs from normal Minecraft.
+The day/night cycle and sleeping are vanilla. The former extended-cycle system (manual `time add 1` every 3 ticks, disabled `advance_time` gamerule, custom sleep-time acceleration) and the post-dragon "no surface spawns" mob-spawn filter (`check_mob_spawn`/`safe_surface`, `sky_spawn`/`surface_spawn` predicates, `gamerule_safe_surface` scoreboard) were removed. The custom per-mob attribute changes for `#main:mundane_hostiles` (weaker skeletons/creepers/cave spiders, faster zombies, stronger-but-slower husks, no armour/weapon drops) were removed as well; mob spawning, health, speed, damage and drop chances are vanilla again.
 
 ## 8. Food, cooking and fishing
 
@@ -319,5 +313,6 @@ If the goal is to bring the pack closer to vanilla, the largest impact would com
 3. deciding whether to keep Knowledge or restore normal enchantments,
 4. reducing the custom food and fishing systems,
 5. restoring vanilla mob and structure loot tables,
-6. restoring the normal day/night cycle,
-7. organizing the names of blocks, ores and villager professions.
+6. organizing the names of blocks, ores and villager professions.
+
+The day/night cycle, sleep timing and the custom mob spawn-filter/attribute system (item 6 in a previous revision of this list) have already been restored to vanilla.

@@ -45,8 +45,6 @@ scoreboard objectives add boating minecraft.custom:minecraft.boat_one_cm
 scoreboard objectives add anvil_interaction minecraft.custom:minecraft.interact_with_anvil
 scoreboard players set 1 anvil_interaction 1
 
-scoreboard objectives add gamerule_safe_surface dummy
-
 scoreboard objectives add motion_x1 dummy
 scoreboard objectives add motion_x2 dummy
 scoreboard objectives add motion_y1 dummy
