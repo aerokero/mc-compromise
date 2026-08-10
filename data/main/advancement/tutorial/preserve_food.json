@@ -1,12 +1,6 @@
 {
 	"parent": "main:tutorial/obtain_oven",
 	"criteria": {
-		"preserve_tomatoes": {
-			"trigger": "minecraft:recipe_crafted",
-			"conditions": {
-				"recipe_id": "food:pickled_tomatoes"
-			}
-		},
 		"golden_pickled_carrots": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
@@ -99,7 +93,6 @@
 			"mead",
 			"pickled_carrots",
 			"pickled_potatoes",
-			"preserve_tomatoes",
 			"pickled_mushrooms",
 			"pickled_red_mushrooms",
 			"pickled_warped_fungus",

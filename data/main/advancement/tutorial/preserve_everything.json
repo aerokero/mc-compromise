@@ -1,12 +1,6 @@
 {
 	"parent": "main:tutorial/preserve_food",
 	"criteria": {
-		"preserve_tomatoes": {
-			"trigger": "minecraft:recipe_crafted",
-			"conditions": {
-				"recipe_id": "food:pickled_tomatoes"
-			}
-		},
 		"golden_pickled_carrots": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
@@ -112,9 +106,6 @@
 		],
 		[
 			"pickled_potatoes"
-		],
-		[
-			"preserve_tomatoes"
 		],
 		[
 			"pickled_mushrooms"

@@ -101,15 +101,18 @@ When Eaten:
 +8 HP Restored
 Regen (3:00)
 
+Balans (2025): efekty dodatkowe skalują się płasko wg kategorii, niezależnie od rzadkości w jej obrębie: Cookie = 0:30, Bread = 3:00, Pie = 8:00, Stew = 15:00. Rzadkie (rare) pozycje w danej kategorii dostają 2× tę wartość (Bread rare = 6:00, Pie rare = 16:00, Stew rare = 30:00). Reguła nie dotyczy 1. tieru (zostaje jak było) ani debuffów (Weakness/Poison w Suspicious Stew — kara, nie nagroda). Cookies craftują się w ilości ×4. Stack size: Cookie/Bread = 8, Pie/Stew = 16.
+
 ### Cookies
 1st Tier:
 | common | Cookie | `cookie` | Sugar + Wheat | Campfire / Smoker (10 s) | +2 HP, Haste (0:30) |
 
-2nd Tier:
-| uncommon | Brownie Cookie | `cookie` | Sugar + Wheat + Cocoa Beans | Crafting Table | +4 HP |
+2nd Tier (×4 na craft):
 | uncommon | Sweet Berry Cookie | `cookie` | Sweet Berries + Sugar + Glass Bottle | Crafting Table | +4 HP, Regeneration (0:30) |
 | uncommon | Glow Berry Cookie | `cookie` | Rotten Flesh + Sugar + Glass Bottle | Crafting Table | +4 HP, Aura (0:30) |
-| uncommon | Chocolate Cookie | `cookie`| Sugar + Wheat + Cocoa Beans | Crafting Table | +4 HP, Haste (5:00) |
+| uncommon | Chocolate Cookie | `cookie`| Sugar + Wheat + Cocoa Beans | Crafting Table | +4 HP, Haste (0:30) |
+| uncommon | Sugar Cane Cookie | `cookie` | Sugar Cane + Sugar + Wheat | Crafting Table | +2 HP, Regen (0:30) |
+| uncommon | Chorus Cookie | `cookie` | Popped Chorus Fruit + Sugar + Wheat | Crafting Table | +4 HP, Levitation (0:30) |
 
 ### Bread
 #### 1st Tier:
@@ -117,18 +120,18 @@ Regen (3:00)
 2nd Tier:
 | uncommon | Egg Bread | `bread` | Egg + Sugar + Bread | Crafting Table | +10 HP |
 | uncommon | Fried Egg | `egg` | Egg | Campfire / Smoker | +2 HP; jadalne |
-| uncommon | Kelp Bread | `bread` | Dried Kelp + Carrot + Sugar + Egg + Wheat | Crafting Table | +6 HP, Gills (8:00) |
+| uncommon | Kelp Bread | `bread` | Dried Kelp + Carrot + Sugar + Egg + Wheat | Crafting Table | +6 HP, Gills (3:00) |
 | uncommon | Potato Bread | `bread` | Baked Potato + Egg + Bread + Beetroot Soup | Crafting Table | +16 HP |
-| uncommon | Meat Bread | `bread` | Wheat + Cookie + Cooked Porkchop/Chicken | Crafting Table | +3 HP |
+| uncommon | Meat Bread | `bread` | Wheat + Cookie + Cooked Porkchop/Chicken | Crafting Table | +6 HP |
 | uncommon | Beetroot Bread | Bread + 2x Beetroot  | Crafting Table | +6 HP, Strength II (3:00) |
-| uncommon | Chocolate Bread | Bread + Sugar + Cocoa Beans ×2 | Crafting Table | +6 HP, Haste II (3:00) |
+| uncommon | Chocolate Bread | Bread + Sugar + Cocoa Beans ×2 | Crafting Table | +6 HP, Haste (3:00) |
 | uncommon | Sweet Berry Bread | Bread + Sugar + Sweet Berries | Crafting Table | +6 HP, Absorption (3:00) |
 | uncommon | Glow Berry Bread | Bread + Sugar + Glow Berries | Crafting Table | +6 HP, Aura (3:00) |
-| uncommon | Apple Bread | Bread + Sugar + Baked Apple  | Crafting Table | +6 HP, Regen (1:00) |
+| uncommon | Apple Bread | Bread + Sugar + Baked Apple  | Crafting Table | +6 HP, Regen (3:00) |
 | uncommon | Carrot Bread | Bread + Sugar + Carrot | Crafting Table | +6 HP, Night Vision (3:00) |
-| uncommon | Chocolate Carrot Bread | Carrot + Sugar + Cocoa Beans + Wheat | Crafting Table | +8 HP, Night Vision (10:00) |
+| uncommon | Chocolate Carrot Bread | Carrot + Sugar + Cocoa Beans + Wheat | Crafting Table | +8 HP, Night Vision (3:00) |
 
-| rare | Golden Apple Bread | Bread + Sugar + Baked Golden Apple | Crafting Table | +8 HP, Absorption (2:00), Regen II (0:20) |
+| rare | Golden Apple Bread | Bread + Sugar + Baked Golden Apple | Crafting Table | +8 HP, Absorption (6:00), Regen II (0:20) |
 
 Special recipe:
 | uncommon | Honey Egg Bread | `bread` | Bread + Sugar + Honey Bottle + Egg | Crafting Table | +10 HP, Speed (3:00) |
@@ -142,15 +145,14 @@ Special recipe; level in-between bread and stew.
 | common | Pumpkin Pie | `pumpkin_pie` | Pumpkin + Sugar + Egg | Crafting Table | +2 HP, Resistance (0:10) |
 
 #### 2nd Tier:
-| uncommon | Chorus Pie | `pumpkin_pie` | Popped Chorus Fruit + Snowball + Sugar + Beetroot Soup + Wheat | Crafting Table | +8 HP, Levitation (3:00) |
-| uncommon | Golden Apple Pie | `pumpkin_pie` | Golden Apple + Sugar + Wheat | Crafting Table | +8 HP, Absorption (4:00), Regen II (0:45) |
-| uncommon | Golden Carrot Pie | `pumpkin_pie` | Golden Carrot + Sugar + Cocoa Beans + Wheat | Crafting Table | +8 HP, Night Vision (20:00) |
-| uncommon | Frozen Melon Pie | `pumpkin_pie` | Melon Slice + Snowball + Sugar + Glass Bottle | Crafting Table | +4 HP, Fire Resistance (10:00) |
-| uncommon | Apple Pie | `pumpkin_pie` | Pumpkin + Sugar + Egg + Apple | Crafting Table | +8 HP, Regen (3:00) |
-| uncommon | Melon Pie | `pumpkin_pie` | Pumpkin + Sugar + Egg + Melon | Crafting Table | +8 HP, Fire Resistance (3:00) |
-| uncommon | Sweet Berry Pie | `pumpkin_pie` | Pumpkin + Sugar + Egg + Sweet Berries | Crafting Table | +8 HP, Absorption (3:00) |
-| uncommon | Glow Berry Pie | `pumpkin_pie` | Pumpkin + Sugar + Egg + Glow Berries | Crafting Table | +8 HP, Aura (3:00) |
-| uncommon | Beetroot Pie | `pumpkin_pie` | Pumpkin + Sugar + Egg + Beetroot | Crafting Table | | +8 HP, Strength (3:00) |
+| uncommon | Golden Carrot Pie | `pumpkin_pie` | Golden Carrot + Sugar + Cocoa Beans + Wheat | Crafting Table | +8 HP, Night Vision (8:00) |
+| uncommon | Apple Pie | `pumpkin_pie` | Pumpkin + Sugar + Egg + Apple | Crafting Table | +8 HP, Regen (8:00) |
+| uncommon | Melon Pie | `pumpkin_pie` | Pumpkin + Sugar + Egg + Melon | Crafting Table | +8 HP, Fire Resistance (8:00) |
+| uncommon | Sweet Berry Pie | `pumpkin_pie` | Pumpkin + Sugar + Egg + Sweet Berries | Crafting Table | +8 HP, Absorption (8:00) |
+| uncommon | Glow Berry Pie | `pumpkin_pie` | Pumpkin + Sugar + Egg + Glow Berries | Crafting Table | +8 HP, Aura (8:00) |
+| uncommon | Beetroot Pie | `pumpkin_pie` | Pumpkin + Sugar + Egg + Beetroot | Crafting Table | +8 HP, Strength (8:00) |
+
+| rare | Golden Apple Pie | `pumpkin_pie` | Golden Apple + Sugar + Wheat | Crafting Table | +8 HP, Absorption (16:00), Regen II (0:45) |
 
 ### Stews
 Any mushroom can be used, unless specified otherwise.
@@ -160,18 +162,15 @@ Any mushroom can be used, unless specified otherwise.
 
 #### 2nd Tier:
 | uncommon | Loaded Potato Stew | `mushroom_stew` | Baked Potato + Cookie + Egg + Wheat + Bowl | Crafting Table | +16 HP |
-| uncommon | Golden Carrot Stew | `mushroom_stew` | Golden Carrot + Brown Mushroom + Bowl | Crafting Table | +4 HP, Night Vision (10:00) |
-| uncommon | Carrot Stew | `mushroom_stew` | Carrot + Brown Mushroom + Bowl | Crafting Table | +4 HP, Night Vision (5:00) |
-| uncommon | Potato Stew | `mushroom_stew` | Baked Potato + Brown Mushroom + Bowl | Crafting Table | +10 HP |
-| uncommon | Dried Kelp Stew | `mushroom_stew` | Dried Kelp Stock | Smoker (15 s) | +20 HP, Haste II (30:00) |
+| uncommon | Golden Carrot Stew | `mushroom_stew` | Golden Carrot + Brown Mushroom + Bowl | Crafting Table | +10 HP, Night Vision (15:00) |
+| uncommon | Carrot Stew | `mushroom_stew` | Carrot + Brown Mushroom + Bowl | Crafting Table | +4 HP, Night Vision (15:00) |
+| uncommon | Potato Stew | `mushroom_stew` | Baked Potato + Brown Mushroom + Bowl | Crafting Table | +10 HP, Resistance (15:00) |
 | uncommon | Beetroot Curry Stock | `mushroom_stew` | Beetroot Soup + Cookie + Sugar | Crafting Table | +6 HP |
 | uncommon | Curry Stock | `mushroom_stew` | Bowl + Potato + Carrot + Beef/Mutton/Rabbit + Wheat + Sugar | Crafting Table | +8 HP |
 | uncommon | Green Curry Stock | `mushroom_stew` | Beetroot Soup + Cod/Salmon + Green Dye + Wheat + Sugar | Crafting Table | +10 HP |
-| uncommon | Dried Kelp Stock | `mushroom_stew` | Bowl + Brown Mushroom + Dried Kelp + Egg + Wheat + Porkchop/Chicken | Crafting Table | Dried Kelp Stock | +12 HP
-
-#### 2nd Tier:
-| uncommon | Pufferfish Stew | `mushroom_stew`| Bowl + Mushroom + Carrot/Potato + Dried Kelp + Cooked Cod/Salmon | Crafting Table | +12 HP, Conduit Power (8:00) |
-| uncommon | Sweet Berry Stew | `mushroom_stew` | Bowl + Mushroom + Carrot/Potato + 2x Sweet Berries | Crafting Table | +12 HP, Absorption (8:00) |
+| uncommon | Dried Kelp Stock | `mushroom_stew` | Bowl + Brown Mushroom + Dried Kelp + Egg + Wheat + Porkchop/Chicken | Crafting Table | +12 HP |
+| uncommon | Pufferfish Stew | `mushroom_stew`| Dried Kelp + Carrot + Pufferfish + Rabbit Foot + Cooked Cod/Salmon + Bowl | Crafting Table | +12 HP, Conduit Power (15:00) |
+| uncommon | Sweet Berry Stew | `mushroom_stew` | Bowl + Mushroom + Carrot/Potato + 2x Sweet Berries | Crafting Table | +12 HP, Absorption (15:00) |
 
 
 #### 3rd Tier:
@@ -179,15 +178,14 @@ Special stews.
 
 | rare | Green Curry | `mushroom_stew` | Green Curry Stock | Smoker (15 s) | Green Curry | +20 HP, +40% Speed (30:00) |
 | rare | Meat Curry | `mushroom_stew` | Curry Stock | Smoker (15 s) | Meat Curry | +20 HP, Strength (30:00) |
-| rare | Beetroot Curry | `rabbit_stew`  | Beetroot Curry Stock | Smoker (15 s) | Beetroot Curry | +20 HP, Regen (10:00) |
+| rare | Beetroot Curry | `rabbit_stew`  | Beetroot Curry Stock | Smoker (15 s) | Beetroot Curry | +20 HP, Regen (30:00) |
+| rare | Dried Kelp Stew | `mushroom_stew` | Dried Kelp Stock | Smoker (15 s) | +20 HP, Haste II (30:00) |
 
 ### Suspicious Stews
-| rare | Crimson Fungus Stew | `suspicious_stew` | Crimson Fungus + Brown Mushroom + Glass Bottle | Crafting Table | Weakness II (1:00) |
-| rare | Red Mushroom Stew | `suspicious_stew` | Red Mushroom + Brown Mushroom + Glass Bottle | Crafting Table | Poison II (1:00) |
-| rare | Warped Fungus Stew | `suspicious_stew` | Warped Fungus + Brown Mushroom + Glass Bottle | Crafting Table | +4 HP, Invisibility (5:00) |
-
-### Preserved Foods
-| uncommon | Pickled Beetroot | `beetroot` | Beetroot + Brown Mushroom + Glass Bottle | Crafting Table | +6 HP, Strength (5:00) |
+Debuffy (Weakness/Poison) to ryzyko/kara — nie skalują się z tierem.
+| rare | Crimson Fungus Stew | `suspicious_stew` | Crimson Fungus + Brown Mushroom + Bowl | Crafting Table | Weakness II (1:00) |
+| rare | Red Mushroom Stew | `suspicious_stew` | Red Mushroom + Brown Mushroom + Bowl | Crafting Table | Poison II (1:00) |
+| rare | Warped Fungus Stew | `suspicious_stew` | Warped Fungus + Brown Mushroom + Bowl | Crafting Table | +4 HP, Invisibility (5:00) |
 
 # Cakes
 Alternative cake recipe.

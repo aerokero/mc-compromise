@@ -27,7 +27,7 @@
 						"effects": [
 							{
 								"id": "minecraft:night_vision",
-								"duration": 24000,
+								"duration": 9600,
 								"show_particles": false,
 								"show_icon": true
 							},
@@ -42,7 +42,7 @@
 					}
 				]
 			},
-			"minecraft:max_stack_size": 64,
+			"minecraft:max_stack_size": 16,
 			"minecraft:lore": [
 				{
 					"text": "When Eaten:",
@@ -55,7 +55,7 @@
 					"italic": false
 				},
 				{
-					"text": "Night Vision (20:00)",
+					"text": "Night Vision (8:00)",
 					"color": "green",
 					"italic": false
 				}

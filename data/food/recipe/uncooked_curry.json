@@ -20,6 +20,7 @@
 			"minecraft:item_name": {
 				"translate": "item.kleispack.curry_stock"
 			},
+			"minecraft:max_stack_size": 16,
 			"minecraft:lore": [
 				{
 					"text": "Uncooked",

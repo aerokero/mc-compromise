@@ -21,7 +21,7 @@
 					"italic": false
 				},
 				{
-					"text": "Haste (5:00)",
+					"text": "Haste (0:30)",
 					"color": "yellow",
 					"italic": false
 				}
@@ -42,7 +42,7 @@
 							{
 								"id": "minecraft:haste",
 								"amplifier": 0,
-								"duration": 6000,
+								"duration": 600,
 								"show_particles": false,
 								"show_icon": true
 							}
@@ -58,7 +58,9 @@
 				"nutrition": 0,
 				"saturation": 0,
 				"can_always_eat": true
-			}
-		}
+			},
+			"minecraft:max_stack_size": 8
+		},
+		"count": 4
 	}
 }

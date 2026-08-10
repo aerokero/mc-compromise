@@ -21,7 +21,6 @@
 	],
 	"rewards": {
 		"recipes": [
-			"food:brownie",
 			"food:chocolate_chip_cookie"
 		]
 	}

@@ -26,7 +26,7 @@
 						"effects": [
 							{
 								"id": "minecraft:regeneration",
-								"duration": 3600,
+								"duration": 9600,
 								"show_particles": false,
 								"show_icon": true
 							},
@@ -41,7 +41,7 @@
 					}
 				]
 			},
-			"minecraft:max_stack_size": 64,
+			"minecraft:max_stack_size": 16,
 			"minecraft:lore": [
 				{
 					"text": "When Eaten:",
@@ -54,7 +54,7 @@
 					"italic": false
 				},
 				{
-					"text": "Regen (3:00)",
+					"text": "Regen (8:00)",
 					"color": "#e85e8f",
 					"italic": false
 				}

@@ -21,7 +21,6 @@
 	],
 	"rewards": {
 		"recipes": [
-			"food:pickled_tomatoes",
 			"food:bruschetta"
 		]
 	}

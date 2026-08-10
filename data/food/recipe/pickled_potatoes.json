@@ -26,7 +26,7 @@
 						"effects": [
 							{
 								"id": "minecraft:resistance",
-								"duration": 6000,
+								"duration": 18000,
 								"show_particles": false,
 								"show_icon": true
 							},
@@ -41,7 +41,7 @@
 					}
 				]
 			},
-			"minecraft:max_stack_size": 64,
+			"minecraft:max_stack_size": 16,
 			"minecraft:lore": [
 				{
 					"text": "When Eaten:",
@@ -51,6 +51,11 @@
 				{
 					"text": "+10 HP Restored",
 					"color": "red",
+					"italic": false
+				},
+				{
+					"text": "Resistance (15:00)",
+					"color": "blue",
 					"italic": false
 				}
 			],

@@ -27,14 +27,14 @@
 						"effects": [
 							{
 								"id": "minecraft:night_vision",
-								"duration": 12000,
+								"duration": 18000,
 								"show_particles": false,
 								"show_icon": true
 							},
 							{
 								"id": "minecraft:regeneration",
 								"amplifier": 2,
-								"duration": 48,
+								"duration": 120,
 								"show_particles": false,
 								"show_icon": false
 							}
@@ -42,7 +42,7 @@
 					}
 				]
 			},
-			"minecraft:max_stack_size": 64,
+			"minecraft:max_stack_size": 16,
 			"minecraft:lore": [
 				{
 					"text": "When Eaten:",
@@ -50,12 +50,12 @@
 					"italic": false
 				},
 				{
-					"text": "+4 HP Restored",
+					"text": "+10 HP Restored",
 					"color": "red",
 					"italic": false
 				},
 				{
-					"text": "Night Vision (10:00)",
+					"text": "Night Vision (15:00)",
 					"color": "green",
 					"italic": false
 				}

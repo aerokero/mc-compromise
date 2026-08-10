@@ -3,13 +3,11 @@
 	"category": "misc",
 	"ingredients": [
 		"minecraft:popped_chorus_fruit",
-		"minecraft:snowball",
 		"minecraft:sugar",
-		"minecraft:beetroot_soup",
 		"minecraft:wheat"
 	],
 	"result": {
-		"id": "minecraft:pumpkin_pie",
+		"id": "minecraft:cookie",
 		"components": {
 			"minecraft:rarity": "uncommon",
 			"minecraft:item_name": {
@@ -29,15 +27,22 @@
 							{
 								"id": "minecraft:levitation",
 								"amplifier": 0,
-								"duration": 3600,
+								"duration": 600,
 								"show_particles": false,
 								"show_icon": true
 							},
+							{
+								"id": "minecraft:regeneration",
+								"amplifier": 2,
+								"duration": 48,
+								"show_particles": false,
+								"show_icon": false
+							}
 						]
 					}
 				]
 			},
-			"minecraft:max_stack_size": 64,
+			"minecraft:max_stack_size": 8,
 			"minecraft:lore": [
 				{
 					"text": "When Eaten:",
@@ -45,17 +50,17 @@
 					"italic": false
 				},
 				{
-					"text": "+8 HP Restored",
+					"text": "+4 HP Restored",
 					"color": "red",
 					"italic": false
 				},
 				{
-					"text": "Levitation (3:00)",
+					"text": "Levitation (0:30)",
 					"color": "yellow",
 					"italic": false
 				}
 			]
 		},
-		"count": 1
+		"count": 4
 	}
 }

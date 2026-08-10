@@ -21,7 +21,6 @@
 	],
 	"rewards": {
 		"recipes": [
-			"food:melon_sorbet",
 			"food:melon_pie"
 		]
 	}
