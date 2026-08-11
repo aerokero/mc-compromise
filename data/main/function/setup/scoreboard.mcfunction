@@ -13,6 +13,11 @@ scoreboard players set 45 sneaking 45
 
 scoreboard objectives add Hunger food
 
+# Sprint stamina: the hunger bar doubles as a sprint bar, see mechanic/manage_hunger
+scoreboard objectives add SprintDrainTimer dummy
+scoreboard objectives add SprintIdleTimer dummy
+scoreboard objectives add SprintRegenTimer dummy
+
 scoreboard objectives add HealthPoints health
 scoreboard objectives add deaths deathCount
 scoreboard objectives add Hearts dummy

@@ -50,32 +50,6 @@
           },
           {
             "type": "item",
-            "weight": 2,
-            "name": "minecraft:compass",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 1
-              },
-              {
-                "function": "set_components",
-                "components": {
-                  "minecraft:item_model": "copper_compass"
-                }
-              },
-              {
-                "function": "set_name",
-                "name": [
-                  {
-                    "text": "Copper Compass"
-                  }
-                ],
-                "target": "item_name"
-              }
-            ]
-          },
-          {
-            "type": "item",
             "weight": 9,
             "name": "minecraft:paper",
             "functions": [

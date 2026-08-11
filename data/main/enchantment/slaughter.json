@@ -18,7 +18,19 @@
 					"condition": "minecraft:entity_properties",
 					"entity": "this",
 					"predicate": {
-						"minecraft:entity_type": "#main:livestock"
+						"minecraft:entity_type": [
+							"minecraft:chicken",
+							"minecraft:cow",
+							"minecraft:pig",
+							"minecraft:sheep",
+							"minecraft:goat",
+							"minecraft:rabbit",
+							"minecraft:mooshroom",
+							"minecraft:horse",
+							"minecraft:donkey",
+							"minecraft:mule",
+							"minecraft:camel"
+						]
 					}
 				}
 			}

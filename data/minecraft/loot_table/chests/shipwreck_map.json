@@ -154,15 +154,6 @@
 				}
 			],
 			"rolls": 1
-		},
-		{
-			"rolls": 1,
-			"entries": [
-				{
-					"type": "minecraft:loot_table",
-					"value": "minecraft:chests/equipment/special_compass"
-				}
-			]
 		}
 	],
 	"random_sequence": "minecraft:chests/shipwreck_map"
