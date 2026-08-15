@@ -93,7 +93,7 @@
   ],
   "display": {
     "icon": {
-      "item": "minecraft:netherrack"
+      "id": "minecraft:netherrack"
     },
     "title": {
       "translate": "advancements.nether.explore_nether.title"
@@ -106,3 +106,4 @@
   },
   "sends_telemetry_event": true
 }
+

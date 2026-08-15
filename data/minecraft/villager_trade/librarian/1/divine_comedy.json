@@ -18,14 +18,15 @@
 		"id": "minecraft:book",
 		"components": {
 			"minecraft:item_name": {
-				"translate": "item.minecraft.divine_comedy"
+				"translate": "item.minecraft.crystal_heart_book"
 			},
 			"minecraft:rarity": "uncommon",
 			"minecraft:max_stack_size": 64,
-			"minecraft:item_model": "minecraft:divine_comedy",
+			"minecraft:item_model": "minecraft:enchanted_book",
+				"minecraft:enchantment_glint_override": true,
 			"minecraft:lore": [
 				{
-					"translate": "item.minecraft.divine_comedy.desc",
+					"translate": "item.minecraft.crystal_heart_book.desc",
 					"color": "gray",
 					"italic": false
 				}
@@ -34,3 +35,4 @@
 	},
 	"xp": 20
 }
+

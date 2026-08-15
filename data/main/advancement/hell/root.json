@@ -18,6 +18,7 @@
 			"id": "minecraft:netherrack"
 		},
 		"show_toast": false,
+		"hidden": true,
 		"title": {
 			"text": "Through Hell"
 		}

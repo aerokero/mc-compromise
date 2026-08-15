@@ -1,26 +1,28 @@
 {
   "criteria": {
-    "tick": {
-      "trigger": "minecraft:tick"
+    "consumed_item": {
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:gui/advancements/backgrounds/husbandry",
+    "description": {
+      "translate": "advancements.husbandry.root.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:hay_block"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.husbandry.root.title"
     }
   },
   "requirements": [
     [
-      "tick"
+      "consumed_item"
     ]
   ],
-	"display": {
-		"icon": {
-			"id": "minecraft:wheat"
-    },
-    "title": {
-      "translate": "advancements.husbandry.root.title"
-    },
-    "description": {
-      "translate": "advancements.husbandry.root.description"
-    },
-    "background": "minecraft:block/farmland",
-    "show_toast": false,
-    "announce_to_chat": false
-  }
+  "sends_telemetry_event": true
 }

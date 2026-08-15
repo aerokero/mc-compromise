@@ -2,12 +2,45 @@
   "parent": "main:adventure/ol_betsy",
   "criteria": {
     "two_birds": {
-      "trigger": "minecraft:killed_by_arrow",
       "conditions": {
-        "unique_entity_types": {
-          "min": 2
-        }
-      }
+        "fired_from_weapon": {
+          "items": "minecraft:crossbow"
+        },
+        "victims": [
+          [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:phantom"
+              }
+            }
+          ],
+          [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:phantom"
+              }
+            }
+          ]
+        ]
+      },
+      "trigger": "minecraft:killed_by_arrow"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.adventure.two_birds_one_arrow.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:crossbow"
+    },
+    "title": {
+      "translate": "advancements.adventure.two_birds_one_arrow.title"
     }
   },
   "requirements": [
@@ -15,18 +48,8 @@
       "two_birds"
     ]
   ],
-  "display": {
-    "icon": {
-      "item": "minecraft:bow"
-    },
-    "title": {
-      "translate": "advancements.adventure.two_birds_one_arrow.title"
-    },
-    "description": {
-      "translate": "advancements.adventure.two_birds_one_arrow.description"
-    },
-    "hidden": false,
-    "frame": "challenge"
+  "rewards": {
+    "experience": 65
   },
   "sends_telemetry_event": true
 }

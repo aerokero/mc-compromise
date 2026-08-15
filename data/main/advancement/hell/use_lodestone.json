@@ -26,7 +26,7 @@
   ],
   "display": {
     "icon": {
-      "item": "minecraft:lodestone"
+      "id": "minecraft:lodestone"
     },
     "title": {
       "translate": "advancements.nether.use_lodestone.title"
@@ -37,3 +37,4 @@
     "hidden": false
   }
 }
+

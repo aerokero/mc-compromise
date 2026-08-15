@@ -28,7 +28,7 @@
   ],
   "display": {
     "icon": {
-      "item": "minecraft:netherite_chestplate"
+      "id": "minecraft:netherite_chestplate"
     },
     "title": {
       "translate": "advancements.nether.netherite_armor.title"
@@ -39,3 +39,4 @@
     "hidden": false
   }
 }
+

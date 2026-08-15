@@ -1,0 +1,12 @@
+{
+	"model": {
+		"type": "minecraft:model",
+		"model": "minecraft:block/sturdy_leather_helmet",
+		"tints": [
+			{
+				"type": "minecraft:dye",
+				"default": -6265536
+			}
+		]
+	}
+}

@@ -6,9 +6,7 @@
 			"conditions": {
 				"items": [
 					{
-						"components": {
-							"minecraft:item_model": "minecraft:grilled_melon"
-						}
+						"components": {"minecraft:item_name": {"translate": "item.minecraft.grilled_melon"}}
 					}
 				]
 			}
@@ -18,9 +16,7 @@
 			"conditions": {
 				"items": [
 					{
-						"components": {
-							"minecraft:item_model": "minecraft:steamed_carrots"
-						}
+						"components": {"minecraft:item_name": {"translate": "item.minecraft.steamed_carrots"}}
 					}
 				]
 			}
@@ -30,9 +26,7 @@
 			"conditions": {
 				"items": [
 					{
-						"components": {
-							"minecraft:item_model": "minecraft:fermented_spider_eye"
-						}
+						"components": {"minecraft:item_name": {"translate": "item.minecraft.baked_apple"}}
 					}
 				]
 			}
@@ -42,9 +36,7 @@
 			"conditions": {
 				"items": [
 					{
-						"components": {
-							"minecraft:item_model": "minecraft:grilled_tomatoes"
-						}
+						"components": {"minecraft:item_name": {"translate": "item.minecraft.grilled_tomatoes"}}
 					}
 				]
 			}
@@ -54,9 +46,7 @@
 			"conditions": {
 				"items": [
 					{
-						"components": {
-							"minecraft:item_model": "minecraft:rotten_flesh"
-						}
+						"components": {"minecraft:custom_data": {"compromise_cooked_food": "glow_mash"}}
 					}
 				]
 			}
@@ -66,7 +56,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:dried_kelp"
+						"components": {"minecraft:custom_data": {"compromise_cooked_food": "dried_kelp"}}
 					}
 				]
 			}
@@ -76,9 +66,7 @@
 			"conditions": {
 				"items": [
 					{
-						"components": {
-							"minecraft:item_model": "minecraft:magma_cream"
-						}
+						"components": {"minecraft:custom_data": {"compromise_cooked_food": "sweet_berry_mash"}}
 					}
 				]
 			}
@@ -88,9 +76,7 @@
 			"conditions": {
 				"items": [
 					{
-						"components": {
-							"minecraft:item_model": "minecraft:honey_ginger_tea"
-						}
+						"components": {"minecraft:item_name": {"translate": "item.minecraft.honey_ginger_tea"}}
 					}
 				]
 			}
@@ -100,9 +86,7 @@
 			"conditions": {
 				"items": [
 					{
-						"components": {
-							"minecraft:item_model": "minecraft:mushroom_stew"
-						}
+						"components": {"minecraft:custom_data": {"compromise_cooked_food": "chocolate"}}
 					}
 				]
 			}
@@ -112,9 +96,7 @@
 			"conditions": {
 				"items": [
 					{
-						"components": {
-							"minecraft:item_model": "minecraft:breeze_rod"
-						}
+						"components": {"minecraft:item_name": {"translate": "item.minecraft.golden_steamed_carrots"}}
 					}
 				]
 			}
@@ -124,9 +106,7 @@
 			"conditions": {
 				"items": [
 					{
-						"components": {
-							"minecraft:item_model": "minecraft:braised_red_mushroom"
-						}
+						"components": {"minecraft:item_name": {"translate": "item.minecraft.braised_red_mushroom"}}
 					}
 				]
 			}

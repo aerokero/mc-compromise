@@ -76,7 +76,7 @@
   ],
   "display": {
     "icon": {
-      "item": "minecraft:brewing_stand"
+      "id": "minecraft:brewing_stand"
     },
     "title": {
       "translate": "advancements.nether.all_potions.title"
@@ -89,3 +89,4 @@
   },
   "sends_telemetry_event": true
 }
+

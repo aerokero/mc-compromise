@@ -23,7 +23,7 @@
   ],
   "display": {
     "icon": {
-      "item": "minecraft:trident"
+      "id": "minecraft:trident"
     },
     "title": {
       "translate": "advancements.nether.very_very_frightening.title"
@@ -34,3 +34,4 @@
     "hidden": false
   }
 }
+

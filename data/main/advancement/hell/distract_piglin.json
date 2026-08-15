@@ -19,7 +19,7 @@
   ],
   "display": {
     "icon": {
-      "item": "minecraft:gold_ingot"
+      "id": "minecraft:gold_ingot"
     },
     "title": {
       "translate": "advancements.nether.distract_piglin.title"
@@ -30,3 +30,4 @@
     "hidden": false
   }
 }
+

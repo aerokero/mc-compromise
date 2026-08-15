@@ -181,7 +181,7 @@
   ],
   "display": {
     "icon": {
-      "item": "minecraft:pufferfish"
+      "id": "minecraft:pufferfish"
     },
     "title": {
       "translate": "advancements.nether.all_effects.title"
@@ -194,3 +194,4 @@
   },
   "sends_telemetry_event": true
 }
+

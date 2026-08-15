@@ -7,6 +7,7 @@
 	"result": {
 		"id": "minecraft:sweet_berries",
 		"components": {
+			"minecraft:custom_data": {"compromise_cooked_food": "sweet_berry_mash"},
 			"minecraft:lore": [
 				{
 					"text": "When Eaten:",

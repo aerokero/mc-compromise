@@ -1,28 +1,29 @@
 {
   "parent": "main:adventure/root",
   "criteria": {
-    "crafted": {
-      "trigger": "minecraft:recipe_crafted",
+    "crafter_crafted_crafter": {
       "conditions": {
         "recipe_id": "minecraft:crafter"
-      }
+      },
+      "trigger": "minecraft:crafter_recipe_crafted"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.adventure.crafters_crafting_crafters.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:crafter"
+    },
+    "title": {
+      "translate": "advancements.adventure.crafters_crafting_crafters.title"
     }
   },
   "requirements": [
     [
-      "crafted"
+      "crafter_crafted_crafter"
     ]
   ],
-  "display": {
-    "icon": {
-      "item": "minecraft:crafter"
-    },
-    "title": {
-      "translate": "advancements.adventure.crafters_crafting_crafters.title"
-    },
-    "description": {
-      "translate": "advancements.adventure.crafters_crafting_crafters.description"
-    },
-    "hidden": false
-  }
+  "sends_telemetry_event": true
 }

@@ -2,8 +2,19 @@
   "parent": "main:adventure/root",
   "criteria": {
     "avoid_vibration": {
-      "trigger": "minecraft:avoid_vibration",
-      "conditions": {}
+      "trigger": "minecraft:avoid_vibration"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.adventure.avoid_vibration.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:sculk_sensor"
+    },
+    "title": {
+      "translate": "advancements.adventure.avoid_vibration.title"
     }
   },
   "requirements": [
@@ -11,16 +22,5 @@
       "avoid_vibration"
     ]
   ],
-  "display": {
-    "icon": {
-      "item": "minecraft:sculk_sensor"
-    },
-    "title": {
-      "translate": "advancements.adventure.avoid_vibration.title"
-    },
-    "description": {
-      "translate": "advancements.adventure.avoid_vibration.description"
-    },
-    "hidden": false
-  }
+  "sends_telemetry_event": true
 }

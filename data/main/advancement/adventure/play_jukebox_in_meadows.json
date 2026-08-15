@@ -1,18 +1,41 @@
 {
-  "parent": "main:adventure/root",
+  "parent": "main:adventure/sleep_in_bed",
   "criteria": {
     "play_jukebox_in_meadows": {
-      "trigger": "minecraft:item_used_on_block",
       "conditions": {
         "location": [
           {
             "condition": "minecraft:location_check",
             "predicate": {
-              "biomes": "minecraft:meadow"
+              "biomes": "minecraft:meadow",
+              "block": {
+                "blocks": "minecraft:jukebox"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "predicates": {
+                "minecraft:jukebox_playable": {}
+              }
             }
           }
         ]
-      }
+      },
+      "trigger": "minecraft:item_used_on_block"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.adventure.play_jukebox_in_meadows.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:jukebox"
+    },
+    "title": {
+      "translate": "advancements.adventure.play_jukebox_in_meadows.title"
     }
   },
   "requirements": [
@@ -20,16 +43,5 @@
       "play_jukebox_in_meadows"
     ]
   ],
-  "display": {
-    "icon": {
-      "item": "minecraft:jukebox"
-    },
-    "title": {
-      "translate": "advancements.adventure.play_jukebox_in_meadows.title"
-    },
-    "description": {
-      "translate": "advancements.adventure.play_jukebox_in_meadows.description"
-    },
-    "hidden": false
-  }
+  "sends_telemetry_event": true
 }

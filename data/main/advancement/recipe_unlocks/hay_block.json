@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:recipes/root",
-  "criteria": {
-    "has_bricks": {
+	"criteria": {
+	    "has_bricks": {
       "conditions": {
         "items": [
           {
@@ -10,24 +10,16 @@
         ]
       },
       "trigger": "minecraft:inventory_changed"
-    },
-    "has_the_recipe": {
-      "conditions": {
-        "recipe": "crafting:hay_bed"
-      },
-      "trigger": "minecraft:recipe_unlocked"
-    }
+	    }
   },
   "requirements": [
-    [
-      "has_the_recipe",
-      "has_bricks"
-    ]
+	    [
+	      "has_bricks"
+	    ]
   ],
   "rewards": {
     "recipes": [
-      "crafting:yellow_bed",
-      "crafting:yellow_carpet"
+	      "crafting:yellow_carpet"
     ]
   }
 }

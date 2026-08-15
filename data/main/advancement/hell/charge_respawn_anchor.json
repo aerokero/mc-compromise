@@ -26,7 +26,7 @@
   ],
   "display": {
     "icon": {
-      "item": "minecraft:respawn_anchor"
+      "id": "minecraft:respawn_anchor"
     },
     "title": {
       "translate": "advancements.nether.charge_respawn_anchor.title"
@@ -37,3 +37,4 @@
     "hidden": false
   }
 }
+

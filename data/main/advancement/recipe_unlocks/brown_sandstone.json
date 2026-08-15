@@ -16,10 +16,5 @@
 		[
 			"has_primary_material"
 		]
-	],
-	"rewards": {
-		"recipes": [
-			"crafting:sandstone_from_brown_sandstone"
-		]
-	}
+	]
 }

@@ -1,26 +1,36 @@
 {
-  "parent": "main:adventure/root",
+  "parent": "main:adventure/ol_betsy",
   "criteria": {
     "kill_pillager": {
-      "trigger": "minecraft:player_hurt_entity",
       "conditions": {
-        "damage": {
-          "type": {
-            "direct_entity": {
-              "type": "minecraft:crossbow"
-            }
-          }
+        "fired_from_weapon": {
+          "items": "minecraft:crossbow"
         },
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "minecraft:entity_type": "minecraft:pillager"
+        "victims": [
+          [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:pillager"
+              }
             }
-          }
+          ]
         ]
-      }
+      },
+      "trigger": "minecraft:killed_by_arrow"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.adventure.whos_the_pillager_now.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:crossbow"
+    },
+    "title": {
+      "translate": "advancements.adventure.whos_the_pillager_now.title"
     }
   },
   "requirements": [
@@ -28,16 +38,5 @@
       "kill_pillager"
     ]
   ],
-  "display": {
-    "icon": {
-      "item": "minecraft:crossbow"
-    },
-    "title": {
-      "translate": "advancements.adventure.whos_the_pillager_now.title"
-    },
-    "description": {
-      "translate": "advancements.adventure.whos_the_pillager_now.description"
-    },
-    "hidden": false
-  }
+  "sends_telemetry_event": true
 }

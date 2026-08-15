@@ -17,7 +17,7 @@
   ],
   "display": {
     "icon": {
-      "item": "minecraft:beacon"
+      "id": "minecraft:beacon"
     },
     "title": {
       "translate": "advancements.nether.create_beacon.title"
@@ -28,3 +28,4 @@
     "hidden": false
   }
 }
+

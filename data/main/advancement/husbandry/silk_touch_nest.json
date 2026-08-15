@@ -1,22 +1,36 @@
 {
-  "parent": "main:husbandry/safely_harvest_honey",
+  "parent": "main:husbandry/root",
   "criteria": {
     "silk_touch_nest": {
-      "trigger": "minecraft:item_used_on_block",
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:location_check",
-            "predicate": {
-              "block": {
-                "blocks": [
-                  "minecraft:bee_nest"
-                ]
+        "block": "minecraft:bee_nest",
+        "item": {
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "minecraft:silk_touch",
+                "levels": {
+                  "min": 1
+                }
               }
-            }
+            ]
           }
-        ]
-      }
+        },
+        "num_bees_inside": 3
+      },
+      "trigger": "minecraft:bee_nest_destroyed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.husbandry.silk_touch_nest.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:bee_nest"
+    },
+    "title": {
+      "translate": "advancements.husbandry.silk_touch_nest.title"
     }
   },
   "requirements": [
@@ -24,16 +38,5 @@
       "silk_touch_nest"
     ]
   ],
-  "display": {
-    "icon": {
-      "item": "minecraft:silk_touch"
-    },
-    "title": {
-      "translate": "advancements.husbandry.silk_touch_nest.title"
-    },
-    "description": {
-      "translate": "advancements.husbandry.silk_touch_nest.description"
-    },
-    "hidden": false
-  }
+  "sends_telemetry_event": true
 }

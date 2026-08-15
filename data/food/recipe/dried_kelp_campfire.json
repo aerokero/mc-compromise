@@ -7,6 +7,7 @@
 	"result": {
 		"id": "minecraft:dried_kelp",
 		"components": {
+			"minecraft:custom_data": {"compromise_cooked_food": "dried_kelp"},
 			"minecraft:lore": [
 				{
 					"text": "When Eaten:",

@@ -1,0 +1,141 @@
+{
+	"parent": "main:nether/craft_knowledge_book",
+	"criteria": {
+		"bane_of_arthopods": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "knowledge:bane_of_arthopods"
+			}
+		},
+		"channeling_smite": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "knowledge:channeling_smite"
+			}
+		},
+		"depth_strider_riptide_aqua_affinity_respiration": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "knowledge:depth_strider_riptide_aqua_affinity_respiration"
+			}
+		},
+		"efficiency_unbreaking": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "knowledge:efficiency_unbreaking"
+			}
+		},
+		"feather_falling": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "knowledge:feather_falling"
+			}
+		},
+		"flame_fire_aspect_fire_protection": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "knowledge:flame_fire_aspect_fire_protection"
+			}
+		},
+		"infinity": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "knowledge:infinity"
+			}
+		},
+		"mending": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "knowledge:mending"
+			}
+		},
+		"reach": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "knowledge:reach"
+			}
+		},
+		"silk_touch": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "knowledge:silk_touch"
+			}
+		},
+		"traversal": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "knowledge:traversal"
+			}
+		},
+		"unbreaking": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "knowledge:unbreaking"
+			}
+		},
+		"warding": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "knowledge:warding"
+			}
+		},
+		"frost_walker_frost_protection": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "knowledge:frost_walker_frost_protection"
+			}
+		},
+		"wind_burst_anemos": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "knowledge:wind_burst_anemos"
+			}
+		},
+		"zephyr": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "knowledge:zephyr"
+			}
+		}
+	},
+	"display": {
+		"description": {
+			"text": "Apply your knowledge to enchanted books"
+		},
+		"icon": {
+			"components": {
+				"minecraft:stored_enchantments": {
+					"minecraft:flame": 1
+				},
+				"minecraft:item_model": "minecraft:knowledge_unbreaking"
+			},
+			"count": 1,
+			"id": "minecraft:enchanted_book"
+		},
+		"title": {
+			"text": "Applied Knowledge"
+		},
+		"frame": "goal",
+		"hidden": false
+	},
+	"requirements": [
+		[
+			"bane_of_arthopods",
+			"channeling_smite",
+			"depth_strider_riptide_aqua_affinity_respiration",
+			"efficiency_unbreaking",
+			"feather_falling",
+			"flame_fire_aspect_fire_protection",
+			"frost_walker_frost_protection",
+			"infinity",
+			"mending",
+			"reach",
+			"silk_touch",
+			"traversal",
+			"unbreaking",
+			"warding",
+			"wind_burst_anemos",
+			"zephyr"
+		]
+	]
+}

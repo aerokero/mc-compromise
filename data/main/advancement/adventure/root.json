@@ -1,26 +1,32 @@
 {
   "criteria": {
-    "tick": {
-      "trigger": "minecraft:tick"
+    "killed_by_something": {
+      "trigger": "minecraft:entity_killed_player"
+    },
+    "killed_something": {
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:gui/advancements/backgrounds/adventure",
+    "description": {
+      "translate": "advancements.adventure.root.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:map"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.adventure.root.title"
     }
   },
   "requirements": [
     [
-      "tick"
+      "killed_something",
+      "killed_by_something"
     ]
   ],
-	"display": {
-		"icon": {
-			"id": "minecraft:map"
-    },
-    "title": {
-      "translate": "advancements.adventure.root.title"
-    },
-    "description": {
-      "translate": "advancements.adventure.root.description"
-    },
-    "background": "minecraft:block/stone_bricks",
-    "show_toast": false,
-    "announce_to_chat": false
-  }
+  "sends_telemetry_event": true
 }

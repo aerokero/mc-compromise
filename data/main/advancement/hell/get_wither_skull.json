@@ -19,7 +19,7 @@
   ],
   "display": {
     "icon": {
-      "item": "minecraft:wither_skeleton_skull"
+      "id": "minecraft:wither_skeleton_skull"
     },
     "title": {
       "translate": "advancements.nether.get_wither_skull.title"
@@ -30,3 +30,4 @@
     "hidden": false
   }
 }
+

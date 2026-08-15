@@ -2,19 +2,48 @@
   "parent": "main:adventure/root",
   "criteria": {
     "fall_from_world_height": {
-      "trigger": "minecraft:fall_from_height",
       "conditions": {
-        "start_position": {
-          "y": {
-            "min": 319
-          }
-        },
         "distance": {
           "y": {
-            "min": 383
+            "min": 379.0
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "position": {
+                  "y": {
+                    "max": -59.0
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "start_position": {
+          "position": {
+            "y": {
+              "min": 319.0
+            }
           }
         }
-      }
+      },
+      "trigger": "minecraft:fall_from_height"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.adventure.fall_from_world_height.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:water_bucket"
+    },
+    "title": {
+      "translate": "advancements.adventure.fall_from_world_height.title"
     }
   },
   "requirements": [
@@ -22,18 +51,5 @@
       "fall_from_world_height"
     ]
   ],
-  "display": {
-    "icon": {
-      "item": "minecraft:feather"
-    },
-    "title": {
-      "translate": "advancements.adventure.fall_from_world_height.title"
-    },
-    "description": {
-      "translate": "advancements.adventure.fall_from_world_height.description"
-    },
-    "hidden": false,
-    "frame": "challenge"
-  },
   "sends_telemetry_event": true
 }

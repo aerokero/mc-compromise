@@ -8,6 +8,7 @@
 	"result": {
 		"id": "minecraft:cookie",
 		"components": {
+			"minecraft:custom_data": {"compromise_cooked_food": "chocolate"},
 			"minecraft:lore": [
 				{
 					"text": "When Eaten:",

@@ -1,26 +1,38 @@
 {
   "parent": "main:husbandry/root",
   "criteria": {
-    "allay_deliver": {
-      "trigger": "minecraft:allay_drop_item_on_block",
-      "conditions": {}
+    "allay_deliver_item_to_player": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:allay"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:thrown_item_picked_up_by_player"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.husbandry.allay_deliver_item_to_player.description"
+    },
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:cookie"
+    },
+    "title": {
+      "translate": "advancements.husbandry.allay_deliver_item_to_player.title"
     }
   },
   "requirements": [
     [
-      "allay_deliver"
+      "allay_deliver_item_to_player"
     ]
   ],
-  "display": {
-    "icon": {
-      "item": "minecraft:allay_spawn_egg"
-    },
-    "title": {
-      "translate": "advancements.husbandry.allay_deliver_item_to_player.title"
-    },
-    "description": {
-      "translate": "advancements.husbandry.allay_deliver_item_to_player.description"
-    },
-    "hidden": false
-  }
+  "sends_telemetry_event": true
 }

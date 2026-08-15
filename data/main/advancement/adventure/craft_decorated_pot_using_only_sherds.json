@@ -1,28 +1,51 @@
 {
-  "parent": "main:adventure/root",
+  "parent": "main:adventure/salvage_sherd",
   "criteria": {
-    "crafted": {
-      "trigger": "minecraft:recipe_crafted",
+    "pot_crafted_using_only_sherds": {
       "conditions": {
+        "ingredients": [
+          {
+            "items": "#minecraft:decorated_pot_sherds"
+          },
+          {
+            "items": "#minecraft:decorated_pot_sherds"
+          },
+          {
+            "items": "#minecraft:decorated_pot_sherds"
+          },
+          {
+            "items": "#minecraft:decorated_pot_sherds"
+          }
+        ],
         "recipe_id": "minecraft:decorated_pot"
-      }
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.adventure.craft_decorated_pot_using_only_sherds.description"
+    },
+    "icon": {
+      "components": {
+        "minecraft:pot_decorations": [
+          "minecraft:brick",
+          "minecraft:heart_pottery_sherd",
+          "minecraft:brick",
+          "minecraft:explorer_pottery_sherd"
+        ]
+      },
+      "count": 1,
+      "id": "minecraft:decorated_pot"
+    },
+    "title": {
+      "translate": "advancements.adventure.craft_decorated_pot_using_only_sherds.title"
     }
   },
   "requirements": [
     [
-      "crafted"
+      "pot_crafted_using_only_sherds"
     ]
   ],
-  "display": {
-    "icon": {
-      "item": "minecraft:decorated_pot"
-    },
-    "title": {
-      "translate": "advancements.adventure.craft_decorated_pot_using_only_sherds.title"
-    },
-    "description": {
-      "translate": "advancements.adventure.craft_decorated_pot_using_only_sherds.description"
-    },
-    "hidden": false
-  }
+  "sends_telemetry_event": true
 }
