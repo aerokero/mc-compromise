@@ -31,8 +31,6 @@ scoreboard objectives add sleepTimerScore dummy
 
 scoreboard objectives add divinity dummy
 scoreboard players set 0 divinity 0
-scoreboard objectives add apotropaic dummy
-scoreboard players set 0 apotropaic 0
 
 stopwatch create divinity30s
 stopwatch create divinity15s

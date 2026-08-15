@@ -66,7 +66,7 @@ SBS
 EIE
 ```
 
-- `S` = Prismarine Crystals (Silver Bullion),
+- `S` = vanilla Prismarine Crystals,
 - `E` = Glowstone Dust,
 - `I` = Iron Ingot.
 
@@ -255,7 +255,7 @@ SFS
 
 - `S` = Spectral Arrow,
 - `F` = Porkchop,
-- `b` = Prismarine Crystals (Silver Bullion).
+- `b` = vanilla Prismarine Crystals.
 
 Result: Power II and Multishot I.
 
@@ -335,22 +335,6 @@ EDE
 
 Result: Unbreaking II.
 
-### Warding + Smite — Warding
-
-Recipe: `knowledge:warding`
-
-```text
-SsS
-LBL
-SLS
-```
-
-- `S` = Glistering Melon Slice (Nazar),
-- `s` = Prismarine Crystals (Silver Bullion),
-- `L` = Lapis Lazuli.
-
-Result: custom Warding II and Smite II.
-
 ### Wind Burst + Anemos — Wind Burst
 
 Recipe: `knowledge:wind_burst_anemos`
@@ -428,7 +412,6 @@ In addition to vanilla enchantments, the pack contains:
 - Sanguine,
 - Slaughter,
 - Traversal,
-- Warding,
 - Zephyr.
 
 Their behavior is implemented through datapack functions, including changes to damage, movement, reach, regeneration, resistance and effects against undead mobs.

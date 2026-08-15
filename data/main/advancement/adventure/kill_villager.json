@@ -1,0 +1,39 @@
+{
+  "parent": "main:adventure/trade_for_asylum_seeker",
+  "criteria": {
+    "killed_villager": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "killed_wandering_traveller": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wandering_trader"
+        }
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Kill a villager or wandering trader"
+    },
+    "icon": {
+      "id": "minecraft:emerald"
+    },
+    "title": {
+      "text": "A Terrible Mistake"
+    },
+    "hidden": true
+  },
+  "requirements": [
+    [
+      "killed_villager",
+      "killed_wandering_traveller"
+    ]
+  ]
+}

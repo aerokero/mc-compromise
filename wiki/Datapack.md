@@ -6,7 +6,7 @@ Detailed documents:
 
 - [Progression](Progression.md) — Early Game, Nether, Deep Dark and End.
 - [Enchants / Knowledge](Enchants_Knowledge.md) — enchantments, Knowledge and Divine Star.
-- [Alloys](Alloys.md) — Bronze, Shakudo, Steel, Silver, Electrum and Netherite (formerly Adamant).
+- [Alloys](Alloys.md) — Bronze, Shakudo, Steel, Electrum and Netherite (formerly Adamant).
 - [Food](Food.md) — cooking, custom ingredients, fish and trading.
 
 This document describes the current state of the datapack and resource pack after the changes made during this session.
@@ -34,11 +34,8 @@ Important distinction:
 | `minecraft:heart_of_the_sea` | Electrum Alloy | Electrum material |
 | `minecraft:netherite_ingot` | Netherite Ingot | highest-tier material |
 | `minecraft:netherite_scrap` | Netherite Scrap | Netherite Ingot ingredient |
-| `minecraft:prismarine_shard` | Raw Silver | raw silver |
-| `minecraft:prismarine_crystals` | Silver Bullion | processed silver |
 | `minecraft:piglin_brute_spawn_egg` | Carbon-Rich Iron | steel production ingredient |
 | `minecraft:glow_ink_sac` | Phosphor | phosphor system ingredient |
-| `minecraft:glistering_melon_slice` | Nazar | potion and chemistry ingredient |
 | `minecraft:rabbit_hide` | Tattered Leather | alternative leather material |
 | `minecraft:leather` | Sturdy Leather | stronger/separate leather category |
 | `minecraft:redstone` | Redstone | name and function restored |
@@ -57,8 +54,6 @@ Important distinction:
 |---|---|
 | `minecraft:nether_quartz_ore` | Nether Quartz Ore |
 | `minecraft:lapis_ore` | Quartz Ore |
-| `minecraft:emerald_ore` | Silver Ore |
-| `minecraft:deepslate_emerald_ore` | Deepslate Silver Ore |
 | `minecraft:end_stone_bricks` | Brown Sandstone |
 | `minecraft:end_stone_brick_stairs` | Brown Sandstone Stairs |
 | `minecraft:end_stone_brick_slab` | Brown Sandstone Slab |
@@ -107,14 +102,12 @@ The pack reuses vanilla item IDs as alloy materials.
 - Steel upgrades Iron Equipment and adds tools, armor, Spear, Mattock, Dolabra and Shears,
 - steel recipes also exist for selected iron construction items.
 
-### Electrum and Silver
+### Electrum
 
 - `heart_of_the_sea` is Electrum Alloy,
 - Electrum uses Gold Ingots, Echo Shard and Prismarine Crystals,
-- `prismarine_shard` is Raw Silver,
-- `prismarine_crystals` are Silver Bullion,
-- Silver is obtained by smelting Raw Silver,
-- silver and Electrum tools and armor are added.
+- Electrum uses vanilla Prismarine Crystals as a catalyst,
+- Electrum tools and armor are added.
 
 ### Netherite
 
@@ -251,7 +244,6 @@ In addition to Knowledge, the pack contains custom enchantments and effects:
 - Sanguine,
 - Slaughter,
 - Traversal,
-- Apotropaic/Warding,
 - Zephyr.
 
 These effects are implemented through datapack functions and can change damage, reach, movement, effect cleansing, elemental protection, regeneration and damage against undead mobs.

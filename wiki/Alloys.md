@@ -77,17 +77,6 @@ The pack also includes steel recipes for selected construction items:
 - Iron Trapdoor,
 - Minecart.
 
-## Silver
-
-Technical items:
-
-- `minecraft:prismarine_shard` = Raw Silver,
-- `minecraft:prismarine_crystals` = Silver Bullion,
-- `minecraft:emerald_ore` = Silver Ore,
-- `minecraft:deepslate_emerald_ore` = Deepslate Silver Ore.
-
-Raw Silver is smelted or blasted into Silver Bullion. Silver has its own tutorials, recipes and at least a Silver Sword.
-
 ## Electrum
 
 Technical item: `minecraft:heart_of_the_sea`.
@@ -133,7 +122,7 @@ Netherite is the highest tier and provides:
 - Bronze uses Copper.
 - Shakudo uses Copper and Shulker Shell.
 - Steel uses Iron and Coal.
-- Silver uses Prismarine.
+- Electrum uses vanilla Prismarine Crystals as a catalyst.
 - Electrum uses Gold, Prismarine and Echo Shard.
 - Netherite uses Netherite Scrap, Gold and Echo Shard.
 - Some alloys are made at the smithing table and therefore depend on obtaining a Smithing Table and the required templates/triggers.

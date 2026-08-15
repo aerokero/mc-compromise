@@ -62,7 +62,6 @@ The pack also adds alternative steel recipes for several items normally made fro
 - Blaze Powder is restored as Blaze Powder.
 - Glowstone Dust is restored as Glowstone Dust.
 - Glowstone is restored as Glowstone.
-- Glistering Melon Slice is Nazar.
 
 ### Blaze Powder and chemistry
 

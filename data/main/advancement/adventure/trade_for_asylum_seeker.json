@@ -1,0 +1,35 @@
+{
+  "parent": "main:adventure/obtain_emerald",
+  "criteria": {
+    "traded": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {},
+        "item": {
+          "items": "minecraft:villager_spawn_egg"
+        }
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Give shelter to a wandering villager"
+    },
+    "icon": {
+      "components": {
+        "minecraft:item_model": "minecraft:application"
+      },
+      "count": 1,
+      "id": "minecraft:villager_spawn_egg"
+    },
+    "title": {
+      "text": "A Helping Hand"
+    },
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "traded"
+    ]
+  ]
+}

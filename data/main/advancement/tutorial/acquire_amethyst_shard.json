@@ -1,0 +1,30 @@
+{
+	"parent": "main:tutorial/echoes_of_the_world",
+	"criteria": {
+		"acquire_amethyst_shard": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:amethyst_shard"
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"icon": {
+			"id": "minecraft:amethyst_shard"
+		},
+		"title": {
+			"text": "Acquire an Amethyst Shard"
+		},
+		"description": {
+			"text": "Acquire an Amethyst Shard — a crystal that carries resonance and knowledge"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	}
+}

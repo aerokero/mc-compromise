@@ -1,59 +1,58 @@
 {
-	"type": "minecraft:smithing_transform",
-	"addition": "minecraft:heart_of_the_sea",
-	"base": "minecraft:diamond_spear",
-	"result": {
-		"id": "minecraft:stone_spear",
-		"components": {
-			"minecraft:max_damage": 3000,
-			"minecraft:item_name": {
-				"translate": "item.minecraft.electrum_spear",
-				"color": "yellow"
-			},
-			"minecraft:item_model": "minecraft:electrum_spear",
-			"minecraft:attribute_modifiers": [
-				{
-					"type": "minecraft:attack_damage",
-					"id": "damage",
-					"amount": 3,
-					"operation": "add_value",
-					"slot": "mainhand"
-				}
-			],
-			"minecraft:lore": [
-				{
-					"text": "When in Main Hand:",
-					"color": "gray",
-					"italic": false
-				},
-				{
-					"text": "+4 Attack Damage",
-					"color": "dark_green",
-					"italic": false
-				},
-				{
-					"text": "+1.18 Attack Speed",
-					"color": "dark_green",
-					"italic": false
-				}
-			],
-			"minecraft:tooltip_display": {
-				"hidden_components": [
-					"minecraft:attribute_modifiers"
-				]
-			},
-			"minecraft:enchantments": {
-				"minecraft:smite": 2,
-				"minecraft:looting": 2,
-				"main:warding2": 1
-			},
-			"minecraft:repairable": {
-				"items": [
-					"minecraft:gold_ingot",
-					"minecraft:diamond"
-				]
-			}
-		}
-	},
-	"template": "minecraft:diamond"
+  "type": "minecraft:smithing_transform",
+  "addition": "minecraft:heart_of_the_sea",
+  "base": "minecraft:diamond_spear",
+  "result": {
+    "id": "minecraft:stone_spear",
+    "components": {
+      "minecraft:max_damage": 3000,
+      "minecraft:item_name": {
+        "translate": "item.minecraft.electrum_spear",
+        "color": "yellow"
+      },
+      "minecraft:item_model": "minecraft:electrum_spear",
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:attack_damage",
+          "id": "damage",
+          "amount": 3,
+          "operation": "add_value",
+          "slot": "mainhand"
+        }
+      ],
+      "minecraft:lore": [
+        {
+          "text": "When in Main Hand:",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "+4 Attack Damage",
+          "color": "dark_green",
+          "italic": false
+        },
+        {
+          "text": "+1.18 Attack Speed",
+          "color": "dark_green",
+          "italic": false
+        }
+      ],
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
+      },
+      "minecraft:enchantments": {
+        "minecraft:smite": 2,
+        "minecraft:looting": 2
+      },
+      "minecraft:repairable": {
+        "items": [
+          "minecraft:gold_ingot",
+          "minecraft:diamond"
+        ]
+      }
+    }
+  },
+  "template": "minecraft:diamond"
 }

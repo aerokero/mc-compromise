@@ -1,5 +1,5 @@
 {
-  "parent": "main:tutorial/obtain_silver",
+  "parent": "main:tutorial/obtain_smithing_table",
   "criteria": {
     "get_electrum": {
       "trigger": "minecraft:inventory_changed",

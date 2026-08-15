@@ -1,5 +1,5 @@
 {
-	"parent": "main:hell/obtain_stabilised_estus",
+	"parent": "main:tutorial/echoes_of_the_world",
 	"criteria": {
 		"knowledge_book": {
 			"trigger": "minecraft:recipe_crafted",

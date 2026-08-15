@@ -1,0 +1,23 @@
+{
+	"parent": "main:tutorial/root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	},
+	"display": {
+		"icon": {
+			"id": "minecraft:sculk"
+		},
+		"title": {
+			"text": "Echoes of the World"
+		},
+		"description": {
+			"text": "The world remembers what crossed the rifts"
+		},
+		"background": "minecraft:textures/block/sculk.png",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false
+	}
+}

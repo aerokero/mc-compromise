@@ -1,5 +1,5 @@
 {
-	"parent": "main:tutorial/obtain_divine_fragment",
+	"parent": "main:tutorial/across_the_rift",
 	"criteria": {
 		"get_heart": {
 			"trigger": "minecraft:inventory_changed",
