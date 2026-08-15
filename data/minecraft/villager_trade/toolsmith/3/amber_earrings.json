@@ -8,7 +8,7 @@
 		"components": {
 			"minecraft:item_model": "minecraft:amber",
 			"minecraft:item_name": {
-				"translate": "item.kleispack.amber",
+				"translate": "item.minecraft.amber",
 				"color": "gold"
 			}
 		}
@@ -30,7 +30,7 @@
 				}
 			],
 			"minecraft:item_name": {
-				"translate": "item.kleispack.amber_earrings",
+				"translate": "item.minecraft.amber_earrings",
 				"color": "#e58904"
 			},
 			"minecraft:attribute_modifiers": [

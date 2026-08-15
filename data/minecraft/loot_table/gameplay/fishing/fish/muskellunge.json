@@ -13,7 +13,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:item_name": {
-									"translate": "item.kleispack.fish.muskellunge"
+									"translate": "item.minecraft.fish.muskellunge"
 								},
 								"minecraft:item_model": "muskellunge",
 								"minecraft:rarity": "epic"

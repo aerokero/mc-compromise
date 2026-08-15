@@ -8,7 +8,7 @@
 		"components": {
 			"minecraft:item_model": "exotic_seed_bundle",
 			"minecraft:item_name": {
-				"translate": "item.kleispack.bundle.exotic_seed"
+				"translate": "item.minecraft.bundle.exotic_seed"
 			},
 			"minecraft:bundle_contents": [
 				{

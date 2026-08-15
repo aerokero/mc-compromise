@@ -6,7 +6,7 @@
 		"id": "minecraft:stone_hoe",
 		"components": {
 			"minecraft:item_name": {
-				"translate": "item.kleispack.steel_hoe"
+				"translate": "item.minecraft.steel_hoe"
 			},
 			"minecraft:tooltip_display": {
 				"hidden_components": [

@@ -8,7 +8,7 @@
 				"variant": "minecraft:temperate"
 			},
 			"minecraft:item_name": {
-				"translate": "item.kleispack.baby_temperate_cow"
+				"translate": "item.minecraft.baby_temperate_cow"
 			},
 			"minecraft:max_stack_size": 1,
 			"minecraft:item_model": "crate_temperate_cow"

@@ -10,17 +10,17 @@
 				}
 			},
 			"minecraft:item_name": {
-				"translate": "item.kleispack.trade.bulk_andesite"
+				"translate": "item.minecraft.trade.bulk_andesite"
 			},
 			"minecraft:item_model": "minecraft:andesite",
 			"minecraft:lore": [
 				{
-					"translate": "item.kleispack.trade.bulk_andesite.desc",
+					"translate": "item.minecraft.trade.bulk_andesite.desc",
 					"color": "gray",
 					"italic": false
 				},
 				{
-					"translate": "item.kleispack.trade.bulk.desc",
+					"translate": "item.minecraft.trade.bulk.desc",
 					"color": "dark_gray",
 					"italic": false
 				}

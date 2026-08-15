@@ -18,7 +18,7 @@
 				"damage_per_block": 1
 			},
 			"minecraft:item_name": {
-				"translate": "item.kleispack.shakudo_shovel",
+				"translate": "item.minecraft.shakudo_shovel",
 				"color": "#c96691"
 			},
 			"minecraft:item_model": "minecraft:shakudo_shovel",

@@ -21,8 +21,7 @@
 	],
 	"rewards": {
 		"recipes": [
-			"food:glow_berry_crumble",
-			"food:glow_jam"
+			"food:glow_berry_cookie"
 		]
 	}
 }

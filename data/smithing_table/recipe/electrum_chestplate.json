@@ -24,7 +24,7 @@
 				}
 			],
 			"minecraft:item_name": {
-				"translate": "item.kleispack.electrum_chestplate",
+				"translate": "item.minecraft.electrum_chestplate",
 				"color": "yellow"
 			},
 			"minecraft:attribute_modifiers": [

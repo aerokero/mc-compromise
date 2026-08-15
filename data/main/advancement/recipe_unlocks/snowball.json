@@ -18,8 +18,6 @@
 		]
 	],
 	"rewards": {
-		"recipes": [
-			"crafting:snow_shovel"
-		]
+		"recipes": []
 	}
 }

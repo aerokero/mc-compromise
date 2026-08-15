@@ -1,7 +1,7 @@
 {
   "category.modmenu.name": "Menu Modów",
   "key.modmenu.open_menu": "Otwórz menu modów",
-  "modmenu.title": "Mody...",
+  "modmenu.title": "Mody i biblioteki...",
   "modmenu.descriptionTranslation.modmenu": "Dodaje menu modów umożliwiające wyświetlenie listy z zainstalowanymi modami.",
   "modmenu.loaded": "(%s załadowanych)",
   "modmenu.loaded.short": "(%s)",

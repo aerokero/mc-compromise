@@ -8,7 +8,7 @@
 	"wants": {
 		"components": {
 			"minecraft:item_name": {
-				"translate": "item.kleispack.fish.skate"
+				"translate": "item.minecraft.fish.skate"
 			},
 			"minecraft:item_model": "skate",
 			"minecraft:rarity": "epic"

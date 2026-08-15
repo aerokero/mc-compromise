@@ -9,7 +9,7 @@
 				"variant": "minecraft:warm"
 			},
 			"minecraft:item_name": {
-				"translate": "item.kleispack.fertilised_brown_egg"
+				"translate": "item.minecraft.fertilised_brown_egg"
 			}
 		},
 		"count": 1

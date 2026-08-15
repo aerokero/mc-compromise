@@ -53,7 +53,7 @@
 				]
 			},
 			"minecraft:item_name": {
-				"translate": "item.kleispack.chocolate_chip_cookie"
+				"translate": "item.minecraft.chocolate_chip_cookie"
 			},
 			"minecraft:food": {
 				"nutrition": 0,

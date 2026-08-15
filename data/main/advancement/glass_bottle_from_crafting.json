@@ -137,7 +137,7 @@
 		"made_green_curry": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "food:uncooked_green_curry"
+				"recipe_id": "food:green_curry_stock"
 			}
 			
 		},
@@ -263,7 +263,7 @@
 		"made_paneer_makhani": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "food:uncooked_paneer_makhani"
+				"recipe_id": "food:beetroot_curry_stock"
 			}
 			
 		},
@@ -477,17 +477,10 @@
 			}
 			
 		},
-		"made_glow_berry_crumble": {
-			"trigger": "minecraft:recipe_crafted",
-			"conditions": {
-				"recipe_id": "food:glow_berry_crumble"
-			}
-			
-		},
 		"made_latkes": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "food:latke"
+				"recipe_id": "food:potato_bread"
 			}
 			
 		},
@@ -502,13 +495,6 @@
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
 				"recipe_id": "food:chorus_pie"
-			}
-			
-		},
-		"made_cake": {
-			"trigger": "minecraft:recipe_crafted",
-			"conditions": {
-				"recipe_id": "food:cake"
 			}
 			
 		},
@@ -576,7 +562,6 @@
 			"made_mud_from_dirt_and_potion",
 			"made_stabilised_estus",
 			"made_lily_of_the_valley",
-			"made_glow_berry_crumble",
 			"made_latkes",
 			"made_pickled_warped_fungus",
 			"made_chorus_pie",
@@ -594,7 +579,6 @@
 			"clone_orange_tulip",
 			"clone_pink_tulip",
 			"clone_white_tulip",
-			"made_cake",
 			"made_knowledge_book"
 		]
 	],

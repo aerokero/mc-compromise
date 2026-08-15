@@ -19,7 +19,7 @@
 			},
 			"minecraft:lore": [
 				{
-					"translate": "item.kleispack.knowledge.feather_falling",
+					"translate": "item.minecraft.knowledge.feather_falling",
 					"color": "dark_gray",
 					"italic": false
 				}

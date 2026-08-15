@@ -10,17 +10,17 @@
 				}
 			},
 			"minecraft:item_name": {
-				"translate": "item.kleispack.trade.bulk_tuff"
+				"translate": "item.minecraft.trade.bulk_tuff"
 			},
 			"minecraft:item_model": "minecraft:tuff",
 			"minecraft:lore": [
 				{
-					"translate": "item.kleispack.trade.bulk_tuff.desc",
+					"translate": "item.minecraft.trade.bulk_tuff.desc",
 					"color": "gray",
 					"italic": false
 				},
 				{
-					"translate": "item.kleispack.trade.bulk.desc",
+					"translate": "item.minecraft.trade.bulk.desc",
 					"color": "dark_gray",
 					"italic": false
 				}

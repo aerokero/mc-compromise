@@ -24,7 +24,7 @@
 				}
 			],
 			"minecraft:item_name": {
-				"translate": "item.kleispack.electrum_helmet",
+				"translate": "item.minecraft.electrum_helmet",
 				"color": "yellow"
 			},
 			"minecraft:attribute_modifiers": [

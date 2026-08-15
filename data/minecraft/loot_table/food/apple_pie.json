@@ -21,7 +21,7 @@
 							"components": {
 								"minecraft:rarity": "uncommon",
 								"minecraft:item_name": {
-									"translate": "item.kleispack.apple_pie"
+									"translate": "item.minecraft.apple_pie"
 								},
 								"minecraft:food": {
 									"nutrition": 0,

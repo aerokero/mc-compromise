@@ -20,7 +20,7 @@
 			},
 			"minecraft:lore": [
 				{
-					"translate": "item.kleispack.knowledge.piercing_trident",
+					"translate": "item.minecraft.knowledge.piercing_trident",
 					"color": "dark_gray",
 					"italic": false
 				}

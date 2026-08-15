@@ -20,7 +20,7 @@
 			},
 			"minecraft:lore": [
 				{
-					"translate": "item.kleispack.knowledge.frostwalker",
+					"translate": "item.minecraft.knowledge.frostwalker",
 					"color": "dark_gray",
 					"italic": false
 				}

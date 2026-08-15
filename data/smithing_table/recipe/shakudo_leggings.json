@@ -24,7 +24,7 @@
 				}
 			],
 			"minecraft:item_name": {
-				"translate": "item.kleispack.shakudo_leggings",
+				"translate": "item.minecraft.shakudo_leggings",
 				"color": "#c96691"
 			},
 			"minecraft:attribute_modifiers": [

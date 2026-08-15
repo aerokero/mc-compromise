@@ -38,7 +38,7 @@
 				]
 			},
 			"minecraft:item_name": {
-				"translate": "item.kleispack.braised_brown_mushroom"
+				"translate": "item.minecraft.braised_brown_mushroom"
 			},
 			"minecraft:food": {
 				"nutrition": 0,

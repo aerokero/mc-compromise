@@ -44,8 +44,8 @@ Important distinction:
 | `minecraft:redstone` | Redstone | name and function restored |
 | `minecraft:gunpowder` | Gunpowder | name restored; sulfur remains separate |
 | `minecraft:quartz` | Quartz | current name retained |
-| `minecraft:blaze_powder` | Blaze Powder | Blaze Flask ingredient; crafted from Blaze Rods |
-| `minecraft:blaze_rod` | Blaze Rod | Warding Stone and other progression ingredient |
+| `minecraft:blaze_powder` | Blaze Powder | crafted from Blaze Rods |
+| `minecraft:blaze_rod` | Blaze Rod | progression ingredient |
 | `minecraft:glowstone_dust` | Glowstone Dust | vanilla name restored |
 | `minecraft:cookie` | Cheese | changed food product |
 | `minecraft:enchanted_book` | Enchanted Book | output of the Knowledge system |
@@ -142,7 +142,6 @@ Echo Shard retains its vanilla uses and additionally takes over the former Divin
 - Electrum Alloy,
 - Netherite Ingot,
 - Crystal Heart,
-- Bedrock Buster,
 - Knowledge of Unbreaking,
 - selected structure and mob loot that previously returned Turtle Scute as Divine Fragment.
 
@@ -279,16 +278,14 @@ Biome files change or preserve spawning settings in many biomes. The End remains
 
 The pack also includes:
 
-- Copper tools, armor, Mattock, Dolabra, Shears and Copper Compass,
+- Copper tools, armor, Mattock, Dolabra and Shears,
 - alloy tools and weapons,
 - Bronze Elytra,
-- Bedrock Buster,
 - Crystal Heart/Heart Container,
-- Warding Stone,
-- additional compasses, including Golden and Titanium Compass,
+- an additional Titanium Compass,
 - invisible item frames,
 - seed and material bundles,
-- Ofuda and Wooden Cross,
+- Ofuda,
 - custom books: Quran, Tanakh, Avesta, Paradise Lost, Divine Comedy, Book of Enoch and Key of Solomon,
 - Clay Fetishes,
 - additional advancements and tutorial systems,

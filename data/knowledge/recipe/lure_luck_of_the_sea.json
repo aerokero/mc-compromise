@@ -20,7 +20,7 @@
 			},
 			"minecraft:lore": [
 				{
-					"translate": "item.kleispack.knowledge.master_angler",
+					"translate": "item.minecraft.knowledge.master_angler",
 					"color": "dark_gray",
 					"italic": false
 				}

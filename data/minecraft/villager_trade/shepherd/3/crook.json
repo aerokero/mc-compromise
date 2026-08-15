@@ -4,7 +4,7 @@
 		"components": {
 			"minecraft:item_model": "minecraft:crook",
 			"minecraft:item_name": {
-				"translate": "item.kleispack.crook"
+				"translate": "item.minecraft.crook"
 			},
 			"minecraft:max_damage": 300,
 			"minecraft:repairable": {

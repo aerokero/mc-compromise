@@ -1,4 +1,5 @@
 {
+	"group": "enchanted_book",
 	"type": "minecraft:crafting_shaped",
 	"category": "misc",
 	"pattern": [
@@ -20,7 +21,7 @@
 			"minecraft:rarity": "epic",
 			"minecraft:lore": [
 				{
-					"translate": "item.kleispack.knowledge.mending",
+					"translate": "item.minecraft.knowledge.mending",
 					"color": "dark_gray",
 					"italic": false
 				}

@@ -28,7 +28,7 @@
 				"damage_per_block": 1
 			},
 			"minecraft:item_name": {
-				"translate": "item.kleispack.diamond_mattock"
+				"translate": "item.minecraft.diamond_mattock"
 			},
 			"minecraft:max_damage": 2500,
 			"minecraft:item_model": "minecraft:diamond_mattock",

@@ -14,7 +14,7 @@
 							"components": {
 								"minecraft:item_model": "minecraft:opal",
 								"minecraft:item_name": {
-									"translate": "item.kleispack.opal",
+									"translate": "item.minecraft.opal",
 									"color": "#ab85ad"
 								}
 							}

@@ -62,7 +62,7 @@
 				]
 			},
 			"minecraft:item_name": {
-				"translate": "item.kleispack.baked_golden_apple",
+				"translate": "item.minecraft.baked_golden_apple",
 				"color": "yellow"
 			},
 			"minecraft:food": {

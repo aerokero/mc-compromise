@@ -18,9 +18,10 @@
 				"Invisible": true
 			},
 			"minecraft:item_name": {
-				"translate": "item.kleispack.invisible_item_frame"
+				"translate": "item.minecraft.invisible_item_frame"
 			},
-			"minecraft:item_model": "invisible_item_frame"
+			"minecraft:item_model": "minecraft:item_frame",
+			"minecraft:enchantment_glint_override": true
 		},
 		"count": 1,
 		"id": "minecraft:item_frame"

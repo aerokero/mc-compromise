@@ -24,7 +24,7 @@
 				}
 			],
 			"minecraft:item_name": {
-				"translate": "item.kleispack.electrum_sword",
+				"translate": "item.minecraft.electrum_sword",
 				"color": "yellow"
 			},
 			"minecraft:attribute_modifiers": [

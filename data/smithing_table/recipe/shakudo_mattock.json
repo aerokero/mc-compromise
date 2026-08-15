@@ -45,7 +45,7 @@
 				}
 			],
 			"minecraft:item_name": {
-				"translate": "item.kleispack.shakudo_mattock",
+				"translate": "item.minecraft.shakudo_mattock",
 				"color": "#c96691"
 			},
 			"minecraft:item_model": "minecraft:shakudo_mattock",

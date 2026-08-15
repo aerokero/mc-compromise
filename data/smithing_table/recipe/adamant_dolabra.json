@@ -61,7 +61,7 @@
 				]
 			},
 			"minecraft:item_name": {
-				"translate": "item.kleispack.adamant_dolabra",
+				"translate": "item.minecraft.adamant_dolabra",
 				"color": "gold"
 			},
 			"minecraft:item_model": "minecraft:adamant_dolabra"

@@ -10,17 +10,17 @@
 				}
 			},
 			"minecraft:item_name": {
-				"translate": "item.kleispack.trade.bulk_calcite"
+				"translate": "item.minecraft.trade.bulk_calcite"
 			},
 			"minecraft:item_model": "minecraft:calcite",
 			"minecraft:lore": [
 				{
-					"translate": "item.kleispack.trade.bulk_calcite.desc",
+					"translate": "item.minecraft.trade.bulk_calcite.desc",
 					"color": "gray",
 					"italic": false
 				},
 				{
-					"translate": "item.kleispack.trade.bulk.desc",
+					"translate": "item.minecraft.trade.bulk.desc",
 					"color": "dark_gray",
 					"italic": false
 				}

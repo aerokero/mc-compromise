@@ -8,7 +8,7 @@
 	"wants": {
 		"components": {
 			"minecraft:item_name": {
-				"translate": "item.kleispack.fish.northern_pike"
+				"translate": "item.minecraft.fish.northern_pike"
 			},
 			"minecraft:item_model": "northern_pike",
 			"minecraft:rarity": "rare"

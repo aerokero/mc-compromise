@@ -8,7 +8,8 @@
 	},
 	"pattern": [
 		" X ",
-		"X#X"
+		"X#X",
+		" X "
 	],
 	"result": {
 		"count": 1,

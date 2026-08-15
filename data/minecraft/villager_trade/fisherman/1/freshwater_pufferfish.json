@@ -8,7 +8,7 @@
 	"wants": {
 		"components": {
 			"minecraft:item_name": {
-				"translate": "item.kleispack.fish.freshwater_pufferfish"
+				"translate": "item.minecraft.fish.freshwater_pufferfish"
 			},
 			"minecraft:item_model": "freshwater_pufferfish",
 			"minecraft:rarity": "common"

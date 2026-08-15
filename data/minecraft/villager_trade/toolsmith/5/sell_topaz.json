@@ -4,7 +4,7 @@
 		"components": {
 			"minecraft:item_model": "minecraft:topaz",
 			"minecraft:item_name": {
-				"translate": "item.kleispack.topaz",
+				"translate": "item.minecraft.topaz",
 				"color": "yellow"
 			}
 		}

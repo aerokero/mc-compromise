@@ -18,28 +18,16 @@
 										"italic": false
 									},
 									{
-										"text": "+1 HP Restored",
-										"color": "red",
+										"text": "Can be cooked",
+										"color": "gray",
 										"italic": false
 									}
-								],
-								"minecraft:consumable": {
-									"on_consume_effects": [
-										{
-											"type": "minecraft:apply_effects",
-											"effects": [
-												{
-													"id": "minecraft:regeneration",
-													"amplifier": 2,
-													"duration": 20,
-													"show_particles": false,
-													"show_icon": false
-												}
-											]
-										}
-									]
-								}
+								]
 							}
+						},
+						{
+							"function": "minecraft:remove_components",
+							"components": ["minecraft:food", "minecraft:consumable"]
 						}
 					]
 				}

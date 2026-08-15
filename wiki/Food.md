@@ -118,27 +118,24 @@ Balans (2025): efekty dodatkowe skalują się płasko wg kategorii, niezależnie
 #### 1st Tier:
 | common | Bread | 3 Wheat | Crafted | +4 HP, Cleanse Maleffect |
 2nd Tier:
-| uncommon | Egg Bread | `bread` | Egg + Sugar + Bread | Crafting Table | +10 HP |
 | uncommon | Fried Egg | `egg` | Egg | Campfire / Smoker | +2 HP; jadalne |
 | uncommon | Kelp Bread | `bread` | Dried Kelp + Carrot + Sugar + Egg + Wheat | Crafting Table | +6 HP, Gills (3:00) |
 | uncommon | Potato Bread | `bread` | Baked Potato + Egg + Bread + Beetroot Soup | Crafting Table | +16 HP |
-| uncommon | Meat Bread | `bread` | Wheat + Cookie + Cooked Porkchop/Chicken | Crafting Table | +6 HP |
 | uncommon | Beetroot Bread | Bread + 2x Beetroot  | Crafting Table | +6 HP, Strength II (3:00) |
 | uncommon | Chocolate Bread | Bread + Sugar + Cocoa Beans ×2 | Crafting Table | +6 HP, Haste (3:00) |
 | uncommon | Sweet Berry Bread | Bread + Sugar + Sweet Berries | Crafting Table | +6 HP, Absorption (3:00) |
 | uncommon | Glow Berry Bread | Bread + Sugar + Glow Berries | Crafting Table | +6 HP, Aura (3:00) |
 | uncommon | Apple Bread | Bread + Sugar + Baked Apple  | Crafting Table | +6 HP, Regen (3:00) |
 | uncommon | Carrot Bread | Bread + Sugar + Carrot | Crafting Table | +6 HP, Night Vision (3:00) |
-| uncommon | Chocolate Carrot Bread | Carrot + Sugar + Cocoa Beans + Wheat | Crafting Table | +8 HP, Night Vision (3:00) |
 
 | rare | Golden Apple Bread | Bread + Sugar + Baked Golden Apple | Crafting Table | +8 HP, Absorption (6:00), Regen II (0:20) |
 
 Special recipe:
 | uncommon | Honey Egg Bread | `bread` | Bread + Sugar + Honey Bottle + Egg | Crafting Table | +10 HP, Speed (3:00) |
 
-### Mead
+### Honey Mead
 Special recipe; level in-between bread and stew.
-| uncommon | Mead | `honey_bottle`| Honey Bottle + Sugar + Sweet Berry/Apple/Glow Berry | Crafting Table | +6 HP, Speed (5:00) |
+| uncommon | Honey Mead | `honey_bottle`| Honey Bottle + Sugar + Sweet Berry/Apple/Glow Berry | Crafting Table | +6 HP, Speed (5:00) |
 
 ### Pies
 #### 1st Tier:
@@ -161,7 +158,6 @@ Any mushroom can be used, unless specified otherwise.
 | common | Mushroom Stew | `mushroom_stew` | Bowl + Brown Mushroom + Red Mushroom | Crafting Table | +4 HP |
 
 #### 2nd Tier:
-| uncommon | Loaded Potato Stew | `mushroom_stew` | Baked Potato + Cookie + Egg + Wheat + Bowl | Crafting Table | +16 HP |
 | uncommon | Golden Carrot Stew | `mushroom_stew` | Golden Carrot + Brown Mushroom + Bowl | Crafting Table | +10 HP, Night Vision (15:00) |
 | uncommon | Carrot Stew | `mushroom_stew` | Carrot + Brown Mushroom + Bowl | Crafting Table | +4 HP, Night Vision (15:00) |
 | uncommon | Potato Stew | `mushroom_stew` | Baked Potato + Brown Mushroom + Bowl | Crafting Table | +10 HP, Resistance (15:00) |
@@ -169,7 +165,7 @@ Any mushroom can be used, unless specified otherwise.
 | uncommon | Curry Stock | `mushroom_stew` | Bowl + Potato + Carrot + Beef/Mutton/Rabbit + Wheat + Sugar | Crafting Table | +8 HP |
 | uncommon | Green Curry Stock | `mushroom_stew` | Beetroot Soup + Cod/Salmon + Green Dye + Wheat + Sugar | Crafting Table | +10 HP |
 | uncommon | Dried Kelp Stock | `mushroom_stew` | Bowl + Brown Mushroom + Dried Kelp + Egg + Wheat + Porkchop/Chicken | Crafting Table | +12 HP |
-| uncommon | Pufferfish Stew | `mushroom_stew`| Dried Kelp + Carrot + Pufferfish + Rabbit Foot + Cooked Cod/Salmon + Bowl | Crafting Table | +12 HP, Conduit Power (15:00) |
+| uncommon | Pufferfish Stew | `mushroom_stew`| Dried Kelp + Carrot + Pufferfish + Brown Mushroom + Cooked Cod/Salmon + Bowl | Crafting Table | +12 HP, Conduit Power (15:00) |
 | uncommon | Sweet Berry Stew | `mushroom_stew` | Bowl + Mushroom + Carrot/Potato + 2x Sweet Berries | Crafting Table | +12 HP, Absorption (15:00) |
 
 

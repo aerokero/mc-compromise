@@ -10,17 +10,17 @@
 				}
 			},
 			"minecraft:item_name": {
-				"translate": "item.kleispack.trade.bulk_smooth_sandstone"
+				"translate": "item.minecraft.trade.bulk_smooth_sandstone"
 			},
 			"minecraft:item_model": "minecraft:smooth_sandstone",
 			"minecraft:lore": [
 				{
-					"translate": "item.kleispack.trade.bulk_smooth_sandstone.desc",
+					"translate": "item.minecraft.trade.bulk_smooth_sandstone.desc",
 					"color": "gray",
 					"italic": false
 				},
 				{
-					"translate": "item.kleispack.trade.bulk.desc",
+					"translate": "item.minecraft.trade.bulk.desc",
 					"color": "dark_gray",
 					"italic": false
 				}

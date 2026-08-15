@@ -8,7 +8,7 @@
 				"Color": 0
 			},
 			"minecraft:item_name": {
-				"translate": "item.kleispack.baby_temperate_sheep"
+				"translate": "item.minecraft.baby_temperate_sheep"
 			},
 			"minecraft:max_stack_size": 1,
 			"minecraft:item_model": "crate_sheep_white"

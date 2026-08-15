@@ -24,7 +24,7 @@
 				}
 			],
 			"minecraft:item_name": {
-				"translate": "item.kleispack.bronze_helmet",
+				"translate": "item.minecraft.bronze_helmet",
 				"color": "#ac7b5c"
 			},
 			"minecraft:attribute_modifiers": [

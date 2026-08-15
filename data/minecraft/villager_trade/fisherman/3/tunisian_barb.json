@@ -8,7 +8,7 @@
 	"wants": {
 		"components": {
 			"minecraft:item_name": {
-				"translate": "item.kleispack.fish.tunisian_barb"
+				"translate": "item.minecraft.fish.tunisian_barb"
 			},
 			"minecraft:item_model": "tunisian_barb",
 			"minecraft:rarity": "rare"

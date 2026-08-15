@@ -39,7 +39,7 @@
 				]
 			},
 			"minecraft:item_name": {
-				"translate": "item.kleispack.fried_egg"
+				"translate": "item.minecraft.fried_egg"
 			},
 			"minecraft:food": {
 				"nutrition": 0,

@@ -15,7 +15,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:item_name": {
-									"translate": "item.kleispack.quran"
+									"translate": "item.minecraft.quran"
 								},
 								"minecraft:rarity": "rare",
 								"minecraft:max_stack_size": 64,

@@ -20,7 +20,7 @@
 			},
 			"minecraft:lore": [
 				{
-					"translate": "item.kleispack.knowledge.sharpshooter",
+					"translate": "item.minecraft.knowledge.sharpshooter",
 					"color": "dark_gray",
 					"italic": false
 				}

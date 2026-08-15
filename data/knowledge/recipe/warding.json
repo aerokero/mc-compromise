@@ -21,7 +21,7 @@
 			"minecraft:rarity": "rare",
 			"minecraft:lore": [
 				{
-					"translate": "item.kleispack.knowledge.warding",
+					"translate": "item.minecraft.knowledge.warding",
 					"color": "dark_gray",
 					"italic": false
 				}

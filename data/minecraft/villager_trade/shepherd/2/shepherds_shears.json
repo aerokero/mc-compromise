@@ -4,7 +4,7 @@
 		"components": {
 			"minecraft:item_model": "minecraft:bronze_shears",
 			"minecraft:item_name": {
-				"translate": "item.kleispack.shepherds_shears"
+				"translate": "item.minecraft.shepherds_shears"
 			},
 			"minecraft:max_damage": 3000,
 			"minecraft:repairable": {

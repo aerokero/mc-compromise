@@ -20,7 +20,7 @@
 			},
 			"minecraft:lore": [
 				{
-					"translate": "item.kleispack.knowledge.swift_strider",
+					"translate": "item.minecraft.knowledge.swift_strider",
 					"color": "dark_gray",
 					"italic": false
 				}

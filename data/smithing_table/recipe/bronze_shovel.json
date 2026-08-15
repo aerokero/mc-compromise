@@ -45,7 +45,7 @@
 				}
 			],
 			"minecraft:item_name": {
-				"translate": "item.kleispack.bronze_shovel",
+				"translate": "item.minecraft.bronze_shovel",
 				"color": "#ac7b5c"
 			},
 			"minecraft:item_model": "minecraft:bronze_shovel",

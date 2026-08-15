@@ -54,7 +54,7 @@
 				]
 			},
 			"minecraft:item_name": {
-				"translate": "item.kleispack.green_curry"
+				"translate": "item.minecraft.green_curry"
 			},
 			"minecraft:food": {
 				"nutrition": 0,

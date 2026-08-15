@@ -4,7 +4,7 @@
 		"get_food": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "food:paneer_makhani"
+				"recipe_id": "food:beetroot_curry"
 			}
 		}
 	},

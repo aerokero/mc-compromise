@@ -4,7 +4,7 @@
 		"components": {
 			"minecraft:item_model": "seed_bundle",
 			"minecraft:item_name": {
-				"translate": "item.kleispack.bundle.seed"
+				"translate": "item.minecraft.bundle.seed"
 			},
 			"minecraft:bundle_contents": [
 				{

@@ -139,6 +139,7 @@
 		"icon": {
 			"components": {
 				"minecraft:item_model": "minecraft:melon_slice"
+			}
 		},
 		"title": {
 			"text": "Mmm, tasty!"

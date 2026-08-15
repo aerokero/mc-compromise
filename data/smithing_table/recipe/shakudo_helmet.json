@@ -29,7 +29,7 @@
 				}
 			],
 			"minecraft:item_name": {
-				"translate": "item.kleispack.shakudo_helmet",
+				"translate": "item.minecraft.shakudo_helmet",
 				"color": "#c96691"
 			},
 			"minecraft:attribute_modifiers": [

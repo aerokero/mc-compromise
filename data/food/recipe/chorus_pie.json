@@ -12,7 +12,7 @@
 		"components": {
 			"minecraft:rarity": "uncommon",
 			"minecraft:item_name": {
-				"translate": "item.kleispack.chorus_pie"
+				"translate": "item.minecraft.chorus_pie"
 			},
 			"minecraft:food": {
 				"nutrition": 0,

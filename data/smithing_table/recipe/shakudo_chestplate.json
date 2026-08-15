@@ -29,7 +29,7 @@
 				}
 			],
 			"minecraft:item_name": {
-				"translate": "item.kleispack.shakudo_chestplate",
+				"translate": "item.minecraft.shakudo_chestplate",
 				"color": "#c96691"
 			},
 			"minecraft:attribute_modifiers": [

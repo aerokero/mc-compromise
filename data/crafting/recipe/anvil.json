@@ -3,7 +3,7 @@
 	"group": "anvil",
 	"category": "equipment",
 	"key": {
-		"I": "minecraft:resin_brick",
+		"I": "minecraft:iron_block",
 		"i": "minecraft:iron_ingot"
 	},
 	"pattern": [

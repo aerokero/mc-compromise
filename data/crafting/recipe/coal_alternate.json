@@ -3,7 +3,7 @@
   "group": "coal_block",
   "category": "building",
   "key": {
-    "#": "#minecraft:coals"
+    "#": "minecraft:coal"
   },
   "pattern": [
     "###",

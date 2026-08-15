@@ -29,7 +29,7 @@
 				"damage_per_block": 1
 			},
 			"minecraft:item_name": {
-				"translate": "item.kleispack.diamond_dolabra"
+				"translate": "item.minecraft.diamond_dolabra"
 			},
 			"minecraft:max_damage": 2500,
 			"minecraft:item_model": "minecraft:diamond_dolabra",

@@ -8,7 +8,7 @@
 		"id": "minecraft:apple",
 		"components": {
 			"minecraft:item_name": {
-				"translate": "item.kleispack.baked_apple"
+				"translate": "item.minecraft.baked_apple"
 			},
 			"minecraft:lore": [
 				{

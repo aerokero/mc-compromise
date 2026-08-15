@@ -6,7 +6,7 @@
 		"id": "minecraft:stone_sword",
 		"components": {
 			"minecraft:item_name": {
-				"translate": "item.kleispack.steel_sword"
+				"translate": "item.minecraft.steel_sword"
 			},
 			"minecraft:max_damage": 3000,
 			"minecraft:attribute_modifiers": [

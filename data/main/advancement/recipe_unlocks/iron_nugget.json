@@ -19,7 +19,6 @@
 	],
 	"rewards": {
 		"recipes": [
-			"crafting:red_sand_from_sand_and_iron",
 			"crafting:lantern",
 			"crafting:iron_chain"
 		]

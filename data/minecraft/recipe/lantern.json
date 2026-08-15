@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "lantern",
+	"category": "misc",
+	"pattern": [
+		"bbb",
+		"b#b",
+		"bbb"
+	],
+	"key": {
+		"b": "minecraft:barrier",
+		"#": "minecraft:torch"
+	},
+	"result": {
+		"count": 1,
+		"id": "minecraft:lantern"
+	}
+}

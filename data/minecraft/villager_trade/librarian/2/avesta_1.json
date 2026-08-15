@@ -3,11 +3,11 @@
 		"id": "minecraft:enchanted_book",
 		"components": {
 			"minecraft:item_name": {
-				"translate": "item.kleispack.ofuda"
+				"translate": "item.minecraft.ofuda"
 			},
 			"minecraft:lore": [
 				{
-					"translate": "item.kleispack.knowledge.protection",
+					"translate": "item.minecraft.knowledge.protection",
 					"color": "dark_gray",
 					"italic": false
 				}
@@ -26,7 +26,7 @@
 		"id": "minecraft:book",
 		"components": {
 			"minecraft:item_name": {
-				"translate": "item.kleispack.avesta"
+				"translate": "item.minecraft.avesta"
 			},
 			"minecraft:rarity": "rare",
 			"minecraft:max_stack_size": 64

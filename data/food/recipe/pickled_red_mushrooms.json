@@ -35,7 +35,7 @@
 				}
 			],
 			"minecraft:custom_name": {
-				"translate": "item.kleispack.pickled_red_mushrooms",
+				"translate": "item.minecraft.pickled_red_mushrooms",
 				"italic": false
 			}
 		},

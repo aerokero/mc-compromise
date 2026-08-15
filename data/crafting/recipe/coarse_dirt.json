@@ -4,15 +4,14 @@
   "category": "building",
   "key": {
     "D": "minecraft:dirt",
-    "G": "minecraft:flint"
+    "G": "minecraft:gravel"
   },
   "pattern": [
-    "DGD",
-    "GDG",
-    "DDD"
+    "DG",
+    "GD"
   ],
   "result": {
-    "count": 6,
+    "count": 4,
     "id": "minecraft:coarse_dirt"
   }
 }

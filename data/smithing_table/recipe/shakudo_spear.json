@@ -7,7 +7,7 @@
 		"components": {
 			"minecraft:max_damage": 1000,
 			"minecraft:item_name": {
-				"translate": "item.kleispack.shakudo_spear",
+				"translate": "item.minecraft.shakudo_spear",
 				"color": "#c96691"
 			},
 			"minecraft:item_model": "minecraft:shakudo_spear",

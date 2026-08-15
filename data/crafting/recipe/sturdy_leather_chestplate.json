@@ -60,7 +60,7 @@
 				"asset_id": "minecraft:sturdy_leather"
 			},
 			"minecraft:item_name": {
-				"translate": "item.kleispack.sturdy_leather_chestplate",
+				"translate": "item.minecraft.sturdy_leather_chestplate",
 				"color": "white"
 			}
 		},

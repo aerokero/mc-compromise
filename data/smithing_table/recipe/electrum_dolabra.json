@@ -45,7 +45,7 @@
 				}
 			],
 			"minecraft:item_name": {
-				"translate": "item.kleispack.electrum_dolabra",
+				"translate": "item.minecraft.electrum_dolabra",
 				"color": "yellow"
 			},
 			"minecraft:item_model": "minecraft:electrum_dolabra",

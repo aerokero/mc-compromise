@@ -40,7 +40,7 @@
 				}
 			],
 			"minecraft:item_name": {
-				"translate": "item.kleispack.electrum_shovel",
+				"translate": "item.minecraft.electrum_shovel",
 				"color": "yellow"
 			},
 			"minecraft:item_model": "minecraft:electrum_shovel",

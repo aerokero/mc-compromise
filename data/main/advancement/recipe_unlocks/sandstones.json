@@ -21,8 +21,6 @@
 		]
 	],
 	"rewards": {
-		"recipes": [
-			"crafting:brown_sandstone"
-		]
+		"recipes": []
 	}
 }

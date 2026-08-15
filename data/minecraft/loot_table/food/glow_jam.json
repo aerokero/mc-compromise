@@ -21,7 +21,7 @@
 								"components": {
 									"minecraft:rarity": "uncommon",
 								"minecraft:item_name": {
-									"translate": "item.kleispack.glow_berry_jam"
+									"translate": "item.minecraft.glow_berry_cookie"
 								},
 								"minecraft:food": {
 									"nutrition": 0,

@@ -7,7 +7,7 @@
 		"components": {
 			"minecraft:max_damage": 3000,
 			"minecraft:item_name": {
-				"translate": "item.kleispack.electrum_spear",
+				"translate": "item.minecraft.electrum_spear",
 				"color": "yellow"
 			},
 			"minecraft:item_model": "minecraft:electrum_spear",

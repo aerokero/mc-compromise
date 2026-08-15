@@ -3,6 +3,6 @@
 	"range": 16,
 	"use_duration": 30,
 	"description": {
-		"translate": "item.kleispack.mournful_clay_statue.desc"
+		"translate": "item.minecraft.mournful_clay_statue.desc"
 	}
 }

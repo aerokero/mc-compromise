@@ -3,16 +3,17 @@
 	"group": "pie",
 	"category": "misc",
 	"ingredients": [
-		"minecraft:apple",
+		"minecraft:pumpkin",
 		"minecraft:sugar",
-		"minecraft:egg"
+		"#minecraft:eggs",
+		"minecraft:apple"
 	],
 	"result": {
 		"id": "minecraft:pumpkin_pie",
 		"components": {
 			"minecraft:rarity": "uncommon",
 			"minecraft:item_name": {
-				"translate": "item.kleispack.apple_pie"
+				"translate": "item.minecraft.apple_pie"
 			},
 			"minecraft:food": {
 				"nutrition": 0,

@@ -15,7 +15,7 @@
 							"components": {
 								"minecraft:item_model": "fish_bones",
 								"minecraft:item_name": {
-									"translate": "item.kleispack.fish.fish_bones"
+									"translate": "item.minecraft.fish.fish_bones"
 								}
 							}
 						}

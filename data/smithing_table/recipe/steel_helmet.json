@@ -29,7 +29,7 @@
 				}
 			],
 			"minecraft:item_name": {
-				"translate": "item.kleispack.steel_helmet",
+				"translate": "item.minecraft.steel_helmet",
 				"color": "white"
 			},
 			"minecraft:attribute_modifiers": [

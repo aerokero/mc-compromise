@@ -1,0 +1,67 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "pie",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:pumpkin",
+		"minecraft:sugar",
+		"minecraft:carrot",
+		"#minecraft:eggs"
+	],
+	"result": {
+		"id": "minecraft:pumpkin_pie",
+		"components": {
+			"minecraft:rarity": "uncommon",
+			"minecraft:item_name": {
+				"translate": "item.minecraft.carrot_pie",
+				"color": "yellow"
+			},
+			"minecraft:food": {
+				"nutrition": 0,
+				"saturation": 0,
+				"can_always_eat": true
+			},
+			"minecraft:consumable": {
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+							{
+								"id": "minecraft:night_vision",
+								"duration": 9600,
+								"show_particles": false,
+								"show_icon": true
+							},
+							{
+								"id": "minecraft:regeneration",
+								"amplifier": 2,
+								"duration": 96,
+								"show_particles": false,
+								"show_icon": false
+							}
+						]
+					}
+				]
+			},
+			"minecraft:max_stack_size": 16,
+			"minecraft:lore": [
+				{
+					"text": "When Eaten:",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "+8 HP Restored",
+					"color": "red",
+					"italic": false
+				},
+				{
+					"text": "Night Vision (8:00)",
+					"color": "green",
+					"italic": false
+				}
+			]
+		},
+		"count": 1
+	}
+}

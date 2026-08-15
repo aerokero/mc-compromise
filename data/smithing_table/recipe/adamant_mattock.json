@@ -61,7 +61,7 @@
 				]
 			},
 			"minecraft:item_name": {
-				"translate": "item.kleispack.adamant_mattock",
+				"translate": "item.minecraft.adamant_mattock",
 				"color": "gold"
 			},
 			"minecraft:item_model": "minecraft:adamant_mattock"

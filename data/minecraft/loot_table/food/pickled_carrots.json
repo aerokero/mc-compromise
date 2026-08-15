@@ -21,7 +21,7 @@
 								"components": {
 									"minecraft:rarity": "uncommon",
 								"minecraft:item_name": {
-									"translate": "item.kleispack.pickled_carrots"
+									"translate": "item.minecraft.pickled_carrots"
 								},
 								"minecraft:food": {
 									"nutrition": 0,

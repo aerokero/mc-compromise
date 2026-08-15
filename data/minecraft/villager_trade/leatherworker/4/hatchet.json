@@ -33,7 +33,7 @@
 				"damage_per_block": 1
 			},
 			"minecraft:item_name": {
-				"translate": "item.kleispack.hatchet",
+				"translate": "item.minecraft.hatchet",
 				"color": "white"
 			},
 			"minecraft:tooltip_display": {

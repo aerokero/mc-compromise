@@ -7,7 +7,7 @@
 		"components": {
 			"minecraft:max_damage": 1000,
 			"minecraft:item_name": {
-				"translate": "item.kleispack.bronze_spear",
+				"translate": "item.minecraft.bronze_spear",
 				"color": "#ac7b5c"
 			},
 			"minecraft:item_model": "minecraft:bronze_spear",

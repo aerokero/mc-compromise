@@ -29,7 +29,7 @@
 				}
 			],
 			"minecraft:item_name": {
-				"translate": "item.kleispack.steel_leggings",
+				"translate": "item.minecraft.steel_leggings",
 				"color": "white"
 			},
 			"minecraft:attribute_modifiers": [

@@ -13,7 +13,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:item_name": {
-									"translate": "item.kleispack.fish.european_eel"
+									"translate": "item.minecraft.fish.european_eel"
 								},
 								"minecraft:item_model": "european_eel",
 								"minecraft:rarity": "epic"

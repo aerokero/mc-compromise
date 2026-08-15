@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "soul_lantern",
+	"category": "misc",
+	"pattern": [
+		"bbb",
+		"b#b",
+		"bbb"
+	],
+	"key": {
+		"b": "minecraft:barrier",
+		"#": "minecraft:soul_torch"
+	},
+	"result": {
+		"count": 1,
+		"id": "minecraft:soul_lantern"
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "weathered_copper_bulb",
+	"category": "redstone",
+	"pattern": ["bbb", "b#b", "bbb"],
+	"key": {"b": "minecraft:barrier", "#": "minecraft:weathered_copper"},
+	"result": {"count": 1, "id": "minecraft:weathered_copper_bulb"}
+}

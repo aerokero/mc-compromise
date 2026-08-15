@@ -50,7 +50,7 @@
 				]
 			},
 			"minecraft:item_name": {
-				"translate": "item.kleispack.braised_crimson_fungus",
+				"translate": "item.minecraft.braised_crimson_fungus",
 				"color": "#c54457"
 			},
 			"minecraft:food": {

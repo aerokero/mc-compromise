@@ -6,7 +6,7 @@
 		"id": "minecraft:stone_sword",
 		"components": {
 			"minecraft:item_name": {
-				"translate": "item.kleispack.butcher_knife"
+				"translate": "item.minecraft.butcher_knife"
 			},
 			"minecraft:max_damage": 1500,
 			"minecraft:attribute_modifiers": [

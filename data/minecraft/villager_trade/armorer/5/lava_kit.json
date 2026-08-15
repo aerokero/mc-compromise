@@ -32,7 +32,7 @@
 				}
 			],
 			"minecraft:item_name": {
-				"translate": "item.kleispack.bundle.lava_kit"
+				"translate": "item.minecraft.bundle.lava_kit"
 			}
 		}
 	},

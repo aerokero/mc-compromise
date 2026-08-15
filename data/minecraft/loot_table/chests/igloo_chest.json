@@ -26,7 +26,7 @@
 							"components": {
 								"minecraft:item_model": "minecraft:tallow",
 								"minecraft:item_name": {
-									"translate": "item.kleispack.tallow"
+									"translate": "item.minecraft.tallow"
 								}
 							}
 						},

@@ -3,10 +3,7 @@
   "group": "spyglass",
   "category": "equipment",
   "key": {
-    "#": [
-      "minecraft:glass",
-      "minecraft:amethyst_shard"
-    ],
+		"#": "minecraft:amethyst_shard",
     "X": "minecraft:copper_ingot"
   },
   "pattern": [

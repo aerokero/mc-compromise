@@ -25,7 +25,5 @@
 			"entered"
 		]
 	],
-	"rewards": {
-		"function": "main:mechanic/warding_stone_forbidden"
-	}
+	"rewards": {}
 }

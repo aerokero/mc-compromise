@@ -22,7 +22,7 @@
 			},
 			"minecraft:lore": [
 				{
-					"translate": "item.kleispack.knowledge.durability",
+					"translate": "item.minecraft.knowledge.durability",
 					"color": "dark_gray",
 					"italic": false
 				}

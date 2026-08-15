@@ -24,7 +24,7 @@
 				}
 			],
 			"minecraft:item_name": {
-				"translate": "item.kleispack.electrum_leggings",
+				"translate": "item.minecraft.electrum_leggings",
 				"color": "yellow"
 			},
 			"minecraft:attribute_modifiers": [

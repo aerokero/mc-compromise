@@ -9,9 +9,9 @@
       "tick"
     ]
   ],
-  "display": {
-    "icon": {
-      "item": "minecraft:wheat"
+	"display": {
+		"icon": {
+			"id": "minecraft:wheat"
     },
     "title": {
       "translate": "advancements.husbandry.root.title"

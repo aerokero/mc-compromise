@@ -45,7 +45,7 @@
 				}
 			],
 			"minecraft:item_name": {
-				"translate": "item.kleispack.bronze_hoe",
+				"translate": "item.minecraft.bronze_hoe",
 				"color": "#ac7b5c"
 			},
 			"minecraft:item_model": "minecraft:bronze_hoe",

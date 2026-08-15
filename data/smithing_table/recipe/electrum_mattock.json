@@ -45,7 +45,7 @@
 				}
 			],
 			"minecraft:item_name": {
-				"translate": "item.kleispack.electrum_mattock",
+				"translate": "item.minecraft.electrum_mattock",
 				"color": "yellow"
 			},
 			"minecraft:item_model": "minecraft:electrum_mattock",

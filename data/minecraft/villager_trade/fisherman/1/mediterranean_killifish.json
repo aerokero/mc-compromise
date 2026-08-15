@@ -8,7 +8,7 @@
 	"wants": {
 		"components": {
 			"minecraft:item_name": {
-				"translate": "item.kleispack.fish.mediterranean_killifish"
+				"translate": "item.minecraft.fish.mediterranean_killifish"
 			},
 			"minecraft:item_model": "mediterranean_killifish",
 			"minecraft:rarity": "common"

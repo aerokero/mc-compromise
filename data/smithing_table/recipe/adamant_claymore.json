@@ -7,7 +7,7 @@
 		"components": {
 			"minecraft:max_damage": 5000,
 			"minecraft:item_name": {
-				"translate": "item.kleispack.adamant_claymore",
+				"translate": "item.minecraft.adamant_claymore",
 				"color": "gold"
 			},
 			"minecraft:item_model": "minecraft:adamant_claymore",

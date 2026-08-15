@@ -24,7 +24,7 @@
 				}
 			],
 			"minecraft:item_name": {
-				"translate": "item.kleispack.bronze_elytra",
+				"translate": "item.minecraft.bronze_elytra",
 				"color": "#ac7b5c"
 			},
 			"minecraft:attribute_modifiers": [

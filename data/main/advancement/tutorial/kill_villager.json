@@ -23,9 +23,6 @@
 			"text": "Commit great evil"
 		},
 		"icon": {
-			"components": {
-				"minecraft:item_model": "minecraft:wooden_cross"
-			},
 			"count": 1,
 			"id": "minecraft:emerald"
 		},

@@ -24,7 +24,7 @@
 				}
 			],
 			"minecraft:item_name": {
-				"translate": "item.kleispack.bronze_chestplate",
+				"translate": "item.minecraft.bronze_chestplate",
 				"color": "#ac7b5c"
 			},
 			"minecraft:attribute_modifiers": [

@@ -19,10 +19,10 @@
 	],
 	"rewards": {
 		"recipes": [
-			"food:uncooked_ramen",
-			"food:uncooked_green_curry",
-			"food:uncooked_paneer_makhani",
-			"food:uncooked_curry"
+			"food:dried_kelp_stock",
+			"food:green_curry_stock",
+			"food:beetroot_curry_stock",
+			"food:curry_stock"
 		]
 	}
 }

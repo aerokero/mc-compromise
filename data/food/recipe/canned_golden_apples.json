@@ -10,7 +10,7 @@
 		"id": "minecraft:golden_apple",
 		"components": {
 			"minecraft:item_name": {
-				"translate": "item.kleispack.canned_golden_apples",
+				"translate": "item.minecraft.canned_golden_apples",
 				"color": "yellow"
 			},
 			"minecraft:food": {

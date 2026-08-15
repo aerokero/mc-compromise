@@ -13,14 +13,14 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:item_name": {
-									"translate": "item.kleispack.paradise_lost"
+									"translate": "item.minecraft.paradise_lost"
 								},
 								"minecraft:rarity": "uncommon",
 								"minecraft:max_stack_size": 64,
 								"minecraft:item_model": "minecraft:paradise_lost",
 								"minecraft:lore": [
 									{
-										"translate": "item.kleispack.paradise_lost.desc",
+										"translate": "item.minecraft.paradise_lost.desc",
 										"color": "gray",
 										"italic": false
 									}

@@ -24,7 +24,7 @@
 				}
 			],
 			"minecraft:item_name": {
-				"translate": "item.kleispack.shakudo_boots",
+				"translate": "item.minecraft.shakudo_boots",
 				"color": "#c96691"
 			},
 			"minecraft:attribute_modifiers": [

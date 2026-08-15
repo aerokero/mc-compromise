@@ -19,7 +19,6 @@
 	],
 	"rewards": {
 		"recipes": [
-			"crafting:soul_campfire",
 			"crafting:soul_torch",
 			"crafting:soul_lantern"
 		]

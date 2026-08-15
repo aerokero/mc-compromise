@@ -6,7 +6,7 @@
 		"id": "minecraft:stone_axe",
 		"components": {
 			"minecraft:item_name": {
-				"translate": "item.kleispack.steel_axe"
+				"translate": "item.minecraft.steel_axe"
 			},
 			"minecraft:max_damage": 3000,
 			"minecraft:tool": {

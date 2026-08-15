@@ -6,10 +6,11 @@
     "#": "minecraft:torch",
     "X": "minecraft:iron_nugget"
   },
-  "pattern": [
-    " X ",
-    "X#X"
-  ],
+	"pattern": [
+		" X ",
+		"X#X",
+		" X "
+	],
   "result": {
     "count": 1,
     "id": "minecraft:lantern"

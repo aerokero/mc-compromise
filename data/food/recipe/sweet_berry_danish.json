@@ -5,14 +5,14 @@
 	"ingredients": [
 		"minecraft:sweet_berries",
 		"minecraft:sugar",
-		"minecraft:glass_bottle"
+		"minecraft:wheat"
 	],
 	"result": {
 		"id": "minecraft:cookie",
 		"components": {
 			"minecraft:rarity": "uncommon",
 			"minecraft:item_name": {
-				"translate": "item.kleispack.sweet_berry_danish"
+				"translate": "item.minecraft.sweet_berry_danish"
 			},
 			"minecraft:food": {
 				"nutrition": 0,
@@ -59,10 +59,7 @@
 					"color": "#e85e8f",
 					"italic": false
 				}
-			],
-			"minecraft:use_remainder": {
-				"id": "minecraft:glass_bottle"
-			}
+			]
 		},
 		"count": 4
 	}

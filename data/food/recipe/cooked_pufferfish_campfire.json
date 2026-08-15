@@ -54,7 +54,7 @@
 				"can_always_eat": true
 			},
 			"minecraft:item_name": {
-				"translate": "item.kleispack.fish.cooked_pufferfish"
+				"translate": "item.minecraft.cooked_pufferfish"
 			}
 		}
 	}

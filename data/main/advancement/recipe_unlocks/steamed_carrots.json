@@ -21,8 +21,7 @@
 	],
 	"rewards": {
 		"recipes": [
-			"food:pickled_carrots",
-			"food:carrot_cupcake"
+			"food:pickled_carrots"
 		]
 	}
 }

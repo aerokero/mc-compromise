@@ -13,7 +13,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:item_name": {
-									"translate": "item.kleispack.fish.monkfish"
+									"translate": "item.minecraft.fish.monkfish"
 								},
 								"minecraft:item_model": "monkfish",
 								"minecraft:rarity": "rare"

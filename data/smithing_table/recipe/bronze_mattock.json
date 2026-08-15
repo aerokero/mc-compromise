@@ -23,7 +23,7 @@
 				"damage_per_block": 1
 			},
 			"minecraft:item_name": {
-				"translate": "item.kleispack.bronze_mattock",
+				"translate": "item.minecraft.bronze_mattock",
 				"color": "#ac7b5c"
 			},
 			"minecraft:item_model": "minecraft:bronze_mattock",

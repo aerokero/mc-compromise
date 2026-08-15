@@ -24,7 +24,7 @@
 				}
 			],
 			"minecraft:item_name": {
-				"translate": "item.kleispack.electrum_boots",
+				"translate": "item.minecraft.electrum_boots",
 				"color": "yellow"
 			},
 			"minecraft:attribute_modifiers": [

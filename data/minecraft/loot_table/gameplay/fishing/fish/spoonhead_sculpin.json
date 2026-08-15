@@ -13,7 +13,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:item_name": {
-									"translate": "item.kleispack.fish.spoonhead_sculpin"
+									"translate": "item.minecraft.fish.spoonhead_sculpin"
 								},
 								"minecraft:item_model": "spoonhead_sculpin",
 								"minecraft:rarity": "uncommon"

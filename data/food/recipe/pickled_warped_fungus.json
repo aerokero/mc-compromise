@@ -12,7 +12,7 @@
 		"components": {
 			"minecraft:rarity": "rare",
 			"minecraft:item_name": {
-				"translate": "item.kleispack.pickled_warped_fungus",
+				"translate": "item.minecraft.pickled_warped_fungus",
 				"color": "#3cc6c8"
 			},
 			"minecraft:food": {

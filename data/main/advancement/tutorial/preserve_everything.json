@@ -4,7 +4,7 @@
 		"golden_pickled_carrots": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "food:golden_pickled_carrots"
+				"recipe_id": "food:golden_carrot_stew"
 			}
 		},
 		"pickled_carrots": {
@@ -28,7 +28,7 @@
 		"glow_jam": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "food:glow_jam"
+				"recipe_id": "food:glow_berry_cookie"
 			}
 		},
 		"pickled_potatoes": {

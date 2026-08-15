@@ -50,7 +50,7 @@
 				]
 			},
 			"minecraft:item_name": {
-				"translate": "item.kleispack.grilled_tomatoes"
+				"translate": "item.minecraft.grilled_tomatoes"
 			},
 			"minecraft:food": {
 				"nutrition": 0,

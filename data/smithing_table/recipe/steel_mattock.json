@@ -6,7 +6,7 @@
 		"id": "minecraft:stone_hoe",
 		"components": {
 			"minecraft:item_name": {
-				"translate": "item.kleispack.steel_mattock"
+				"translate": "item.minecraft.steel_mattock"
 			},
 			"minecraft:max_damage": 3000,
 			"minecraft:tool": {

@@ -21,7 +21,7 @@
 								"components": {
 									"minecraft:rarity": "uncommon",
 								"minecraft:item_name": {
-									"translate": "item.kleispack.bruschetta"
+									"translate": "item.minecraft.beetroot_bread"
 								},
 								"minecraft:food": {
 									"nutrition": 0,

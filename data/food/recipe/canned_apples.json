@@ -10,7 +10,7 @@
 		"id": "minecraft:apple",
 		"components": {
 			"minecraft:item_name": {
-				"translate": "item.kleispack.canned_apples"
+				"translate": "item.minecraft.canned_apples"
 			},
 			"minecraft:food": {
 				"nutrition": 0,

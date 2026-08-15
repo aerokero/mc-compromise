@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "exposed_copper_bulb",
+	"category": "redstone",
+	"pattern": ["bbb", "b#b", "bbb"],
+	"key": {"b": "minecraft:barrier", "#": "minecraft:exposed_copper"},
+	"result": {"count": 1, "id": "minecraft:exposed_copper_bulb"}
+}

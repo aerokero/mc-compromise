@@ -66,7 +66,7 @@ The pack also adds alternative steel recipes for several items normally made fro
 
 ### Blaze Powder and chemistry
 
-The pack contains a Blaze Flask, potion, sulfur and chemical-substance system. Blaze Powder is crafted from Blaze Rods and is no longer automatically consumed or generated as a custom mob drop.
+The pack contains potion, sulfur and chemical-substance systems. Blaze Powder is crafted from Blaze Rods and is no longer automatically consumed or generated as a custom mob drop.
 
 ### Netherite (formerly Adamant)
 
@@ -85,7 +85,6 @@ They can be used for:
 - Electrum Alloy,
 - Netherite Ingot,
 - Crystal Heart,
-- Bedrock Buster,
 - Knowledge of Unbreaking.
 
 Echo Shards are obtained, among other places, in Ancient Cities and other custom loot tables.

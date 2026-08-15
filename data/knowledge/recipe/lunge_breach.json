@@ -24,7 +24,7 @@
 			},
 			"minecraft:lore": [
 				{
-					"translate": "item.kleispack.knowledge.armor_breaker",
+					"translate": "item.minecraft.knowledge.armor_breaker",
 					"color": "dark_gray",
 					"italic": false
 				}

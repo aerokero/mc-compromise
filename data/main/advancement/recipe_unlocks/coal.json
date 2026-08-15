@@ -5,10 +5,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": [
-							"minecraft:coal",
-							"minecraft:charcoal"
-						]
+						"items": "minecraft:coal"
 					}
 				]
 			},

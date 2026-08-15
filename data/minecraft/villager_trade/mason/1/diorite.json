@@ -10,17 +10,17 @@
 				}
 			},
 			"minecraft:item_name": {
-				"translate": "item.kleispack.trade.bulk_diorite"
+				"translate": "item.minecraft.trade.bulk_diorite"
 			},
 			"minecraft:item_model": "minecraft:diorite",
 			"minecraft:lore": [
 				{
-					"translate": "item.kleispack.trade.bulk_diorite.desc",
+					"translate": "item.minecraft.trade.bulk_diorite.desc",
 					"color": "gray",
 					"italic": false
 				},
 				{
-					"translate": "item.kleispack.trade.bulk.desc",
+					"translate": "item.minecraft.trade.bulk.desc",
 					"color": "dark_gray",
 					"italic": false
 				}

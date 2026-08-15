@@ -49,7 +49,7 @@
 				]
 			},
 			"minecraft:item_name": {
-				"translate": "item.kleispack.grilled_melon"
+				"translate": "item.minecraft.grilled_melon"
 			},
 			"minecraft:food": {
 				"nutrition": 0,

@@ -8,7 +8,7 @@
 			"minecraft:unbreakable": {},
 			"minecraft:item_model": "archaeologists_brush",
 			"minecraft:item_name": {
-				"translate": "item.kleispack.archaeologists_brush"
+				"translate": "item.minecraft.archaeologists_brush"
 			}
 		}
 	},

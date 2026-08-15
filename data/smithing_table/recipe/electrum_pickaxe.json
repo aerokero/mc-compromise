@@ -40,7 +40,7 @@
 				}
 			],
 			"minecraft:item_name": {
-				"translate": "item.kleispack.electrum_pickaxe",
+				"translate": "item.minecraft.electrum_pickaxe",
 				"color": "yellow"
 			},
 			"minecraft:item_model": "minecraft:electrum_pickaxe",

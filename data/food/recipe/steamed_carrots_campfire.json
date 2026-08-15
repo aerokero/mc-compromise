@@ -51,7 +51,7 @@
 				]
 			},
 			"minecraft:item_name": {
-				"translate": "item.kleispack.steamed_carrots"
+				"translate": "item.minecraft.steamed_carrots"
 			},
 			"minecraft:food": {
 				"nutrition": 0,

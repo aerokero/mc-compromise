@@ -8,7 +8,7 @@
 		"components": {
 			"minecraft:item_model": "minecraft:topaz",
 			"minecraft:item_name": {
-				"translate": "item.kleispack.topaz",
+				"translate": "item.minecraft.topaz",
 				"color": "yellow"
 			}
 		}
@@ -30,7 +30,7 @@
 				}
 			],
 			"minecraft:item_name": {
-				"translate": "item.kleispack.topaz_earrings",
+				"translate": "item.minecraft.topaz_earrings",
 				"color": "yellow"
 			},
 			"minecraft:attribute_modifiers": [

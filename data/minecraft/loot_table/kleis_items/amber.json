@@ -14,7 +14,7 @@
 							"components": {
 								"minecraft:item_model": "minecraft:amber",
 								"minecraft:item_name": {
-									"translate": "item.kleispack.amber",
+									"translate": "item.minecraft.amber",
 									"color": "gold"
 								}
 							}

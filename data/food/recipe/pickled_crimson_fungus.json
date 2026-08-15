@@ -35,7 +35,7 @@
 				}
 			],
 			"minecraft:custom_name": {
-				"translate": "item.kleispack.pickled_crimson_fungus",
+				"translate": "item.minecraft.pickled_crimson_fungus",
 				"color": "#c54457",
 				"italic": false
 			}

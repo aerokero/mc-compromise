@@ -8,7 +8,7 @@
 	"wants": {
 		"components": {
 			"minecraft:item_name": {
-				"translate": "item.kleispack.fish.humpback_whitefish"
+				"translate": "item.minecraft.fish.humpback_whitefish"
 			},
 			"minecraft:item_model": "humpback_whitefish",
 			"minecraft:rarity": "common"

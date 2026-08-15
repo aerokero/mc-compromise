@@ -9,9 +9,9 @@
       "tick"
     ]
   ],
-  "display": {
-    "icon": {
-      "item": "minecraft:map"
+	"display": {
+		"icon": {
+			"id": "minecraft:map"
     },
     "title": {
       "translate": "advancements.adventure.root.title"

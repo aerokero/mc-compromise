@@ -11,7 +11,7 @@
 		"id": "minecraft:mushroom_stew",
 		"components": {
 			"minecraft:item_name": {
-				"translate": "item.kleispack.pickled_mushrooms"
+				"translate": "item.minecraft.pickled_mushrooms"
 			},
 			"minecraft:food": {
 				"nutrition": 0,

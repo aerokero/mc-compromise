@@ -6,7 +6,7 @@
 		"id": "minecraft:stone_pickaxe",
 		"components": {
 			"minecraft:item_name": {
-				"translate": "item.kleispack.steel_pickaxe"
+				"translate": "item.minecraft.steel_pickaxe"
 			},
 			"minecraft:max_damage": 3000,
 			"minecraft:tool": {

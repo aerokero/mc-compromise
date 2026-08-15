@@ -10,17 +10,17 @@
 				}
 			},
 			"minecraft:item_name": {
-				"translate": "item.kleispack.trade.bulk_stone"
+				"translate": "item.minecraft.trade.bulk_stone"
 			},
 			"minecraft:item_model": "minecraft:stone",
 			"minecraft:lore": [
 				{
-					"translate": "item.kleispack.trade.bulk_stone.desc",
+					"translate": "item.minecraft.trade.bulk_stone.desc",
 					"color": "gray",
 					"italic": false
 				},
 				{
-					"translate": "item.kleispack.trade.bulk.desc",
+					"translate": "item.minecraft.trade.bulk.desc",
 					"color": "dark_gray",
 					"italic": false
 				}

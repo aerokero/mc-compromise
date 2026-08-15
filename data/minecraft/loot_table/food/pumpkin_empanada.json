@@ -21,7 +21,7 @@
 								"components": {
 									"minecraft:rarity": "uncommon",
 								"minecraft:item_name": {
-									"translate": "item.kleispack.pumpkin_empanada"
+									"translate": "item.minecraft.pumpkin_empanada"
 								},
 								"minecraft:food": {
 									"nutrition": 0,

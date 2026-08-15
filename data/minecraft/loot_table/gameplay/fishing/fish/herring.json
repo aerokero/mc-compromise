@@ -13,7 +13,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:item_name": {
-									"translate": "item.kleispack.fish.herring"
+									"translate": "item.minecraft.fish.herring"
 								},
 								"minecraft:item_model": "herring",
 								"minecraft:rarity": "uncommon"

@@ -4,7 +4,7 @@
 		"components": {
 			"minecraft:item_model": "floral_bundle",
 			"minecraft:item_name": {
-				"translate": "item.kleispack.bundle.floral"
+				"translate": "item.minecraft.bundle.floral"
 			},
 			"minecraft:bundle_contents": [
 				{
