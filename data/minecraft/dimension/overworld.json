@@ -451,7 +451,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:forest"
+          "biome": "minecraft:dappled_forest"
         },
         {
           "parameters": {
@@ -751,7 +751,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:forest"
+          "biome": "minecraft:dappled_forest"
         },
         {
           "parameters": {
@@ -1081,7 +1081,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:forest"
+          "biome": "minecraft:dappled_forest"
         },
         {
           "parameters": {
@@ -1381,7 +1381,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:forest"
+          "biome": "minecraft:dappled_forest"
         },
         {
           "parameters": {
@@ -1471,7 +1471,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:forest"
+          "biome": "minecraft:dappled_forest"
         },
         {
           "parameters": {
@@ -1741,7 +1741,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:forest"
+          "biome": "minecraft:dappled_forest"
         },
         {
           "parameters": {
@@ -1831,7 +1831,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -1891,7 +1891,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:forest"
+          "biome": "minecraft:dappled_forest"
         },
         {
           "parameters": {
@@ -1921,7 +1921,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:forest"
+          "biome": "minecraft:dappled_forest"
         },
         {
           "parameters": {
@@ -2341,7 +2341,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:forest"
+          "biome": "minecraft:dappled_forest"
         },
         {
           "parameters": {
@@ -2731,7 +2731,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:forest"
+          "biome": "minecraft:dappled_forest"
         },
         {
           "parameters": {
@@ -2821,7 +2821,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:forest"
+          "biome": "minecraft:dappled_forest"
         },
         {
           "parameters": {
@@ -3061,7 +3061,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:forest"
+          "biome": "minecraft:dappled_forest"
         },
         {
           "parameters": {
@@ -3211,7 +3211,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:forest"
+          "biome": "minecraft:dappled_forest"
         },
         {
           "parameters": {
@@ -3241,7 +3241,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:forest"
+          "biome": "minecraft:dappled_forest"
         },
         {
           "parameters": {
@@ -3301,7 +3301,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -3661,7 +3661,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:forest"
+          "biome": "minecraft:dappled_forest"
         },
         {
           "parameters": {
@@ -4171,7 +4171,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:forest"
+          "biome": "minecraft:dappled_forest"
         },
         {
           "parameters": {
@@ -4261,7 +4261,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:forest"
+          "biome": "minecraft:dappled_forest"
         },
         {
           "parameters": {
@@ -4471,7 +4471,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:forest"
+          "biome": "minecraft:dappled_forest"
         },
         {
           "parameters": {
@@ -4591,7 +4591,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:forest"
+          "biome": "minecraft:dappled_forest"
         },
         {
           "parameters": {
@@ -4621,7 +4621,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:forest"
+          "biome": "minecraft:dappled_forest"
         },
         {
           "parameters": {
@@ -7201,7 +7201,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -8281,7 +8281,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -10981,7 +10981,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -13471,7 +13471,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -14911,7 +14911,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -15901,7 +15901,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -17011,7 +17011,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -17881,7 +17881,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:pale_garden"
+          "biome": "minecraft:dark_forest"
         },
         {
           "parameters": {
@@ -18961,7 +18961,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -20521,7 +20521,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:pale_garden"
+          "biome": "minecraft:dark_forest"
         },
         {
           "parameters": {
@@ -20701,7 +20701,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -22651,7 +22651,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:pale_garden"
+          "biome": "minecraft:dark_forest"
         },
         {
           "parameters": {
@@ -22771,7 +22771,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -24661,7 +24661,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:pale_garden"
+          "biome": "minecraft:dark_forest"
         },
         {
           "parameters": {
@@ -26221,7 +26221,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -27391,7 +27391,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:pale_garden"
+          "biome": "minecraft:dark_forest"
         },
         {
           "parameters": {
@@ -27751,7 +27751,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -29161,7 +29161,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:pale_garden"
+          "biome": "minecraft:dark_forest"
         },
         {
           "parameters": {
@@ -32671,7 +32671,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:pale_garden"
+          "biome": "minecraft:dark_forest"
         },
         {
           "parameters": {
@@ -32791,7 +32791,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -34921,7 +34921,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -36391,7 +36391,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -40291,7 +40291,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -41371,7 +41371,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -44071,7 +44071,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -46561,7 +46561,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -48001,7 +48001,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -48991,7 +48991,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -50101,7 +50101,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -50971,7 +50971,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:pale_garden"
+          "biome": "minecraft:dark_forest"
         },
         {
           "parameters": {
@@ -52051,7 +52051,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -53611,7 +53611,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:pale_garden"
+          "biome": "minecraft:dark_forest"
         },
         {
           "parameters": {
@@ -53791,7 +53791,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -55741,7 +55741,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:pale_garden"
+          "biome": "minecraft:dark_forest"
         },
         {
           "parameters": {
@@ -55861,7 +55861,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -57751,7 +57751,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:pale_garden"
+          "biome": "minecraft:dark_forest"
         },
         {
           "parameters": {
@@ -59311,7 +59311,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -60481,7 +60481,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:pale_garden"
+          "biome": "minecraft:dark_forest"
         },
         {
           "parameters": {
@@ -60841,7 +60841,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -62251,7 +62251,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:pale_garden"
+          "biome": "minecraft:dark_forest"
         },
         {
           "parameters": {
@@ -65761,7 +65761,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:pale_garden"
+          "biome": "minecraft:dark_forest"
         },
         {
           "parameters": {
@@ -65881,7 +65881,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {

@@ -1,16 +1,16 @@
 {
-	"condition": "minecraft:all_of",
-	"terms": [
-		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"location": {
-					"structures": [
-						"minecraft:trial_chambers"
-					]
-				}
-			}
-		}
-	]
+  "type": "minecraft:all_of",
+  "terms": [
+    {
+      "type": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "minecraft:location": {
+          "structures": [
+            "minecraft:trial_chambers"
+          ]
+        }
+      }
+    }
+  ]
 }

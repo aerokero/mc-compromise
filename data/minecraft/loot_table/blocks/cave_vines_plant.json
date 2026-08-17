@@ -1,43 +1,44 @@
 {
-	"type": "minecraft:block",
-	"pools": [
-		{
-			"bonus_rolls": 0,
-			"conditions": [
-				{
-					"block": "minecraft:cave_vines_plant",
-					"condition": "minecraft:block_state_property",
-					"properties": {
-						"berries": "true"
-					}
-				}
-			],
-			"entries": [
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:glow_berries",
-					"functions": [
-						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:lore": [
-									{
-										"text": "Can be cooked",
-										"color": "gray",
-										"italic": false
-									}
-								]
-							}
-						},
-						{
-							"function": "minecraft:remove_components",
-							"components": ["minecraft:food", "minecraft:consumable"]
-						}
-					]
-				}
-			],
-			"rolls": 1
-		}
-	],
-	"random_sequence": "minecraft:blocks/cave_vines_plant"
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "condition": {
+        "type": "minecraft:match_block",
+        "blocks": "minecraft:cave_vines_plant",
+        "state": {
+          "berries": "true"
+        }
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glow_berries",
+          "modifier": [
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:lore": [
+                  {
+                    "text": "Can be cooked",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              }
+            },
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "!minecraft:food": {},
+                "!minecraft:consumable": {}
+              }
+            }
+          ]
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "minecraft:blocks/cave_vines_plant"
 }

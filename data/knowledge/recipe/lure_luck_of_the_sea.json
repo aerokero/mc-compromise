@@ -1,32 +1,32 @@
 {
-	"type": "minecraft:crafting_shaped",
-	"category": "misc",
-	"pattern": [
-		" b ",
-		"FBF",
-		" F "
-	],
-	"key": {
-		"B": "minecraft:knowledge_book",
-		"F": "minecraft:nautilus_shell",
-		"b": "minecraft:azure_bluet"
-	},
-	"result": {
-		"components": {
-			"minecraft:stored_enchantments": {
-				"minecraft:luck_of_the_sea": 3,
-				"minecraft:lure": 3,
-				"minecraft:loyalty": 1
-			},
-			"minecraft:lore": [
-				{
-					"translate": "item.minecraft.knowledge.master_angler",
-					"color": "dark_gray",
-					"italic": false
-				}
-			]
-		},
-		"count": 1,
-		"id": "minecraft:enchanted_book"
-	}
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " b ",
+    "FBF",
+    " F "
+  ],
+  "key": {
+    "B": "minecraft:knowledge_book",
+    "b": "minecraft:azure_bluet",
+    "F": "minecraft:nautilus_shell"
+  },
+  "result": {
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:luck_of_the_sea": 3,
+        "minecraft:lure": 3,
+        "minecraft:loyalty": 1
+      },
+      "minecraft:lore": [
+        {
+          "translate": "item.minecraft.knowledge.master_angler",
+          "color": "dark_gray",
+          "italic": false
+        }
+      ]
+    },
+    "count": 1,
+    "id": "minecraft:enchanted_book"
+  }
 }

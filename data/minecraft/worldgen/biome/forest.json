@@ -57,11 +57,14 @@
     ],
     [
       "minecraft:glow_lichen",
+      "minecraft:forest_flowers",
       "compromise:trees_seasonal_forest",
       "minecraft:flower_warm",
-      "minecraft:patch_grass_forest",
-      "minecraft:brown_mushroom_normal",
-      "minecraft:red_mushroom_normal",
+      "compromise:forest_floor",
+      "compromise:patch_large_fern_no_sand",
+      "compromise:brown_mushroom_forest",
+      "compromise:red_mushroom_forest",
+      "minecraft:patch_leaf_litter",
       "minecraft:patch_pumpkin",
       "minecraft:patch_sugar_cane",
       "minecraft:seagrass_normal"

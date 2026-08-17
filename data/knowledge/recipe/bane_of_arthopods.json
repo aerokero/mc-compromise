@@ -1,23 +1,23 @@
 {
-	"group": "enchanted_book",
-	"type": "minecraft:crafting_shaped",
-	"category": "misc",
-	"pattern": [
-		" S ",
-		"SBS",
-		" S "
-	],
-	"key": {
-		"S": "minecraft:spider_eye",
-		"B": "minecraft:knowledge_book"
-	},
-	"result": {
-		"components": {
-			"minecraft:stored_enchantments": {
-				"minecraft:bane_of_arthropods": 5
-			},
-		},
-		"count": 1,
-		"id": "minecraft:enchanted_book"
-	}
+  "group": "enchanted_book",
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " S ",
+    "SBS",
+    " S "
+  ],
+  "key": {
+    "S": "minecraft:spider_eye",
+    "B": "minecraft:knowledge_book"
+  },
+  "result": {
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:bane_of_arthropods": 5
+      }
+    },
+    "count": 1,
+    "id": "minecraft:enchanted_book"
+  }
 }

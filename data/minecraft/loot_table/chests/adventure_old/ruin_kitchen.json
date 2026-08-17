@@ -12,9 +12,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:glass_bottle",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
@@ -27,9 +27,9 @@
           "type": "minecraft:item",
           "quality": 2,
           "name": "minecraft:suspicious_stew",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_stew_effect",
+              "type": "minecraft:set_stew_effect",
               "effects": [
                 {
                   "type": "minecraft:regeneration",
@@ -46,9 +46,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:suspicious_stew",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_stew_effect",
+              "type": "minecraft:set_stew_effect",
               "effects": [
                 {
                   "type": "minecraft:poison",
@@ -66,9 +66,9 @@
           "type": "minecraft:item",
           "weight": 2,
           "name": "minecraft:stone_sword",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "name": {
                 "text": "Knife",
                 "italic": false

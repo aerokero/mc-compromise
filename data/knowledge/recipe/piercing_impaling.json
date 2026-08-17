@@ -1,32 +1,32 @@
 {
-	"type": "minecraft:crafting_shaped",
-	"category": "misc",
-	"pattern": [
-		"SbS",
-		"FBF",
-		"SFS"
-	],
-	"key": {
-		"S": "minecraft:spectral_arrow",
-		"B": "minecraft:knowledge_book",
-		"F": "minecraft:gold_ingot",
-		"b": "minecraft:disc_fragment_5"
-	},
-	"result": {
-		"components": {
-			"minecraft:stored_enchantments": {
-				"minecraft:impaling": 3,
-				"minecraft:piercing": 2
-			},
-			"minecraft:lore": [
-				{
-					"translate": "item.minecraft.knowledge.piercing_trident",
-					"color": "dark_gray",
-					"italic": false
-				}
-			]
-		},
-		"count": 1,
-		"id": "minecraft:enchanted_book"
-	}
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SbS",
+    "FBF",
+    "SFS"
+  ],
+  "key": {
+    "S": "minecraft:spectral_arrow",
+    "B": "minecraft:knowledge_book",
+    "b": "minecraft:disc_fragment_5",
+    "F": "minecraft:gold_ingot"
+  },
+  "result": {
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:impaling": 3,
+        "minecraft:piercing": 2
+      },
+      "minecraft:lore": [
+        {
+          "translate": "item.minecraft.knowledge.piercing_trident",
+          "color": "dark_gray",
+          "italic": false
+        }
+      ]
+    },
+    "count": 1,
+    "id": "minecraft:enchanted_book"
+  }
 }

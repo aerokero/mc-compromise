@@ -4,7 +4,7 @@
     "type": "minecraft:cache_2d",
     "input": {
       "type": "minecraft:shift_a",
-      "noise": "minecraft:offset"
+      "noise": "minecraft:overworld/offset"
     }
   }
 }

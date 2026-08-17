@@ -1,28 +1,28 @@
 {
-	"parent": "minecraft:recipes/root",
-	"criteria": {
-		"has_primary_material": {
-			"conditions": {
-				"items": [
-					{
-						"items": "minecraft:bowl"
-					}
-				]
-			},
-			"trigger": "minecraft:inventory_changed"
-		}
-	},
-	"requirements": [
-		[
-			"has_primary_material"
-		]
-	],
-	"rewards": {
-		"recipes": [
-			"food:dried_kelp_stock",
-			"food:green_curry_stock",
-			"food:beetroot_curry_stock",
-			"food:curry_stock"
-		]
-	}
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_primary_material": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bowl"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_primary_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "food:dried_kelp_stock",
+      "food:green_curry_stock",
+      "food:beetroot_curry_stock",
+      "food:curry_stock"
+    ]
+  }
 }

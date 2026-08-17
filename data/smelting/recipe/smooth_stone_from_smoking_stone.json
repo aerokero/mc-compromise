@@ -3,6 +3,8 @@
   "category": "blocks",
   "experience": 0.1,
   "ingredient": "minecraft:stone",
-  "result": { "id": "minecraft:smooth_stone" },
+  "result": {
+    "id": "minecraft:smooth_stone"
+  },
   "cookingtime": 200
 }

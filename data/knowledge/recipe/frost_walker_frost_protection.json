@@ -1,32 +1,32 @@
 {
-	"type": "minecraft:crafting_shaped",
-	"category": "misc",
-	"pattern": [
-		"SbS",
-		"FBF",
-		"SFS"
-	],
-	"key": {
-		"S": "minecraft:golden_apple",
-		"B": "minecraft:knowledge_book",
-		"F": "minecraft:blue_ice",
-		"b": "minecraft:golden_hoe"
-	},
-	"result": {
-		"components": {
-			"minecraft:stored_enchantments": {
-				"minecraft:frost_walker": 2,
-				"main:freezing_protection": 2
-			},
-			"minecraft:lore": [
-				{
-					"translate": "item.minecraft.knowledge.frostwalker",
-					"color": "dark_gray",
-					"italic": false
-				}
-			]
-		},
-		"count": 1,
-		"id": "minecraft:enchanted_book"
-	}
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SbS",
+    "FBF",
+    "SFS"
+  ],
+  "key": {
+    "S": "minecraft:golden_apple",
+    "B": "minecraft:knowledge_book",
+    "b": "minecraft:golden_hoe",
+    "F": "minecraft:blue_ice"
+  },
+  "result": {
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:frost_walker": 2,
+        "main:freezing_protection": 2
+      },
+      "minecraft:lore": [
+        {
+          "translate": "item.minecraft.knowledge.frostwalker",
+          "color": "dark_gray",
+          "italic": false
+        }
+      ]
+    },
+    "count": 1,
+    "id": "minecraft:enchanted_book"
+  }
 }

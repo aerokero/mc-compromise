@@ -20,11 +20,11 @@
 						"tags": [
 							{
 								"expected": true,
-								"id": "minecraft:is_freezing"
+								"id": "#minecraft:is_freezing"
 							},
 							{
 								"expected": false,
-								"id": "minecraft:bypasses_invulnerability"
+								"id": "#minecraft:bypasses_invulnerability"
 							}
 						]
 					}

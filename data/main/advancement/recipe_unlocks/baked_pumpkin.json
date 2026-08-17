@@ -1,30 +1,30 @@
 {
-	"parent": "minecraft:recipes/root",
-	"criteria": {
-		"cooked_the_food": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"components": {
-							"minecraft:item_model": "breeze_rod"
-						}
-					}
-				]
-			}
-		}
-	},
-	"requirements": [
-		[
-			"cooked_the_food"
-		]
-	],
-	"rewards": {
-		"recipes": [
-			"food:melon_pie",
-			"food:sweet_berry_pie",
-			"food:glow_berry_pie",
-			"food:beetroot_pie"
-		]
-	}
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "cooked_the_food": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:item_model": "breeze_rod"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cooked_the_food"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "food:melon_pie",
+      "food:sweet_berry_pie",
+      "food:glow_berry_pie",
+      "food:beetroot_pie"
+    ]
+  }
 }

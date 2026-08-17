@@ -1,26 +1,26 @@
 {
-	"parent": "minecraft:recipes/root",
-	"criteria": {
-		"has_primary_material": {
-			"conditions": {
-				"items": [
-					{
-						"items": "minecraft:iron_nugget"
-					}
-				]
-			},
-			"trigger": "minecraft:inventory_changed"
-		}
-	},
-	"requirements": [
-		[
-			"has_primary_material"
-		]
-	],
-	"rewards": {
-		"recipes": [
-			"crafting:lantern",
-			"crafting:iron_chain"
-		]
-	}
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_primary_material": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_nugget"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_primary_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "crafting:lantern",
+      "crafting:iron_chain"
+    ]
+  }
 }

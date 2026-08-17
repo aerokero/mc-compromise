@@ -1,25 +1,25 @@
 {
-	"parent": "minecraft:recipes/root",
-	"criteria": {
-		"has_primary_material": {
-			"conditions": {
-				"items": [
-					{
-						"items": "minecraft:ender_pearl"
-					}
-				]
-			},
-			"trigger": "minecraft:inventory_changed"
-		}
-	},
-	"requirements": [
-		[
-			"has_primary_material"
-		]
-	],
-	"rewards": {
-		"recipes": [
-			"crafting:stabilised_estus"
-		]
-	}
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_primary_material": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:ender_pearl"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_primary_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "crafting:stabilised_estus"
+    ]
+  }
 }

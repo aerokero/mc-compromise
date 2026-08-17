@@ -1,28 +1,28 @@
 {
-	"parent": "minecraft:recipes/root",
-	"criteria": {
-		"has_primary_material": {
-			"conditions": {
-				"items": [
-					{
-						"items": [
-							"minecraft:ancient_debris",
-							"minecraft:netherite_scrap"
-						]
-					}
-				]
-			},
-			"trigger": "minecraft:inventory_changed"
-		},
-	},
-	"requirements": [
-		[
-			"has_primary_material"
-		]
-	],
-	"rewards": {
-		"recipes": [
-			"minecraft:netherite_scrap"
-		]
-	}
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_primary_material": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:ancient_debris",
+              "minecraft:netherite_scrap"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_primary_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:netherite_scrap"
+    ]
+  }
 }

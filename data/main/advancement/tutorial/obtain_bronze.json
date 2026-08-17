@@ -1,5 +1,5 @@
 {
-	"parent": "main:tutorial/obtain_smithing_table",
+  "parent": "main:tutorial/obtain_smithing_table",
   "criteria": {
     "get_smithing": {
       "trigger": "minecraft:inventory_changed",

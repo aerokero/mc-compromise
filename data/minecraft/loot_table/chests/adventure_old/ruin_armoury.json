@@ -12,9 +12,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_sword",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "name": {
                 "text": "Rusty Sword",
                 "color": "gray",
@@ -22,7 +22,7 @@
               }
             },
             {
-              "function": "minecraft:set_damage",
+              "type": "minecraft:set_damage",
               "damage": {
                 "type": "minecraft:uniform",
                 "min": 0.1,
@@ -34,9 +34,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_axe",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_damage",
+              "type": "minecraft:set_damage",
               "damage": {
                 "type": "minecraft:uniform",
                 "min": 0.1,
@@ -44,7 +44,7 @@
               }
             },
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "name": {
                 "text": "Rusty Axe",
                 "color": "gray",
@@ -56,9 +56,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:bow",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_damage",
+              "type": "minecraft:set_damage",
               "damage": {
                 "type": "minecraft:uniform",
                 "min": 0.1,
@@ -66,7 +66,7 @@
               }
             },
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "name": {
                 "text": "Broken Bow",
                 "color": "gray",
@@ -87,9 +87,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_helmet",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "name": {
                 "text": "Rusty Helmet",
                 "color": "gray",
@@ -97,7 +97,7 @@
               }
             },
             {
-              "function": "minecraft:set_damage",
+              "type": "minecraft:set_damage",
               "damage": {
                 "type": "minecraft:uniform",
                 "min": 0.1,
@@ -109,17 +109,18 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_chestplate",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_damage",
+              "type": "minecraft:set_damage",
               "damage": {
+                "type": "minecraft:uniform",
                 "min": 0.1,
                 "max": 0.3
               },
               "add": false
             },
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "name": {
                 "text": "Rusty Chestplate",
                 "color": "gray",
@@ -131,9 +132,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_leggings",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_damage",
+              "type": "minecraft:set_damage",
               "damage": {
                 "type": "minecraft:uniform",
                 "min": 0.1,
@@ -141,7 +142,7 @@
               }
             },
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "name": {
                 "text": "Rusty Leggings",
                 "color": "gray",
@@ -153,9 +154,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_boots",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "name": {
                 "text": "Rusty Boots",
                 "color": "gray",
@@ -163,7 +164,7 @@
               }
             },
             {
-              "function": "minecraft:set_damage",
+              "type": "minecraft:set_damage",
               "damage": {
                 "type": "minecraft:uniform",
                 "min": 0.1,
@@ -175,9 +176,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:shield",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_damage",
+              "type": "minecraft:set_damage",
               "damage": {
                 "type": "minecraft:uniform",
                 "min": 0.1,
@@ -185,7 +186,7 @@
               }
             },
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "name": {
                 "text": "Busted Shield",
                 "color": "gray",
@@ -212,13 +213,13 @@
           "type": "minecraft:item",
           "weight": 2,
           "name": "minecraft:tipped_arrow",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_potion",
+              "type": "minecraft:set_potion",
               "id": "minecraft:healing"
             },
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "name": {
                 "text": "Arrow of Fae-Slaying",
                 "color": "yellow",
@@ -231,13 +232,13 @@
           "type": "minecraft:item",
           "weight": 1,
           "name": "minecraft:tipped_arrow",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_potion",
+              "type": "minecraft:set_potion",
               "id": "minecraft:strong_healing"
             },
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "name": {
                 "text": "Arrow of Fae's Bane",
                 "color": "yellow",

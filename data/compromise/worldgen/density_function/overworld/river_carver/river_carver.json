@@ -53,9 +53,11 @@
                 "type": "minecraft:mul",
                 "left": 0.4,
                 "right": {
-                  "type": "y_clamped_gradient",
-                  "from_y": 24,
-                  "to_y": 64,
+                  "type": "minecraft:gradient",
+                    "axis": "y",
+                    "tiling": "clamp_to_edge",
+                  "from_coordinate": 24,
+                  "to_coordinate": 64,
                   "from_value": -1,
                   "to_value": 0
                 }
@@ -70,9 +72,11 @@
                 "type": "minecraft:mul",
                 "left": "minecraft:overworld/ridges",
                 "right": {
-                  "type": "y_clamped_gradient",
-                  "from_y": 50,
-                  "to_y": 96,
+                  "type": "minecraft:gradient",
+                    "axis": "y",
+                    "tiling": "clamp_to_edge",
+                  "from_coordinate": 50,
+                  "to_coordinate": 96,
                   "from_value": 2.25,
                   "to_value": 0
                 }
@@ -136,16 +140,20 @@
                     "min_inclusive": -1000,
                     "max_exclusive": -0.375,
                     "when_in_range": {
-                      "type": "y_clamped_gradient",
-                      "from_y": -16,
-                      "to_y": 152,
+                      "type": "minecraft:gradient",
+                    "axis": "y",
+                    "tiling": "clamp_to_edge",
+                      "from_coordinate": -16,
+                      "to_coordinate": 152,
                       "from_value": -1,
                       "to_value": 1
                     },
                     "when_out_of_range": {
-                      "type": "y_clamped_gradient",
-                      "from_y": 24,
-                      "to_y": 64,
+                      "type": "minecraft:gradient",
+                    "axis": "y",
+                    "tiling": "clamp_to_edge",
+                      "from_coordinate": 24,
+                      "to_coordinate": 64,
                       "from_value": -1,
                       "to_value": 0
                     }
@@ -158,9 +166,11 @@
                   "type": "minecraft:mul",
                   "left": "minecraft:overworld/ridges",
                   "right": {
-                    "type": "y_clamped_gradient",
-                    "from_y": 64,
-                    "to_y": 112,
+                    "type": "minecraft:gradient",
+                    "axis": "y",
+                    "tiling": "clamp_to_edge",
+                    "from_coordinate": 64,
+                    "to_coordinate": 112,
                     "from_value": 1.5,
                     "to_value": 4
                   }
@@ -175,9 +185,11 @@
                   "type": "minecraft:mul",
                   "left": 0.4,
                   "right": {
-                    "type": "y_clamped_gradient",
-                    "from_y": 24,
-                    "to_y": 64,
+                    "type": "minecraft:gradient",
+                    "axis": "y",
+                    "tiling": "clamp_to_edge",
+                    "from_coordinate": 24,
+                    "to_coordinate": 64,
                     "from_value": -1,
                     "to_value": 0
                   }
@@ -189,9 +201,11 @@
                   "type": "minecraft:mul",
                   "left": "minecraft:overworld/ridges",
                   "right": {
-                    "type": "y_clamped_gradient",
-                    "from_y": 50,
-                    "to_y": 96,
+                    "type": "minecraft:gradient",
+                    "axis": "y",
+                    "tiling": "clamp_to_edge",
+                    "from_coordinate": 50,
+                    "to_coordinate": 96,
                     "from_value": 2.25,
                     "to_value": 0
                   }

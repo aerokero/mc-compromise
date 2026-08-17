@@ -64,20 +64,19 @@
     [
       "minecraft:glow_lichen",
       "minecraft:forest_flowers",
-      "compromise:trees_birch_and_oak_leaf_litter",
+      "compromise:trees_poplar_forest",
       "minecraft:patch_bush",
       "minecraft:flower_default",
       "minecraft:patch_grass_forest",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
-      "minecraft:patch_pumpkin",
+      "compromise:patch_pumpkin_dappled",
       "minecraft:patch_sugar_cane",
       "minecraft:patch_firefly_bush_near_water",
       "minecraft:seagrass_normal"
     ],
     [
       "minecraft:glow_lichen",
-      "minecraft:trees_dappled_forest",
       "minecraft:brown_mushroom_dappled_forest",
       "minecraft:patch_red_shrub",
       "minecraft:patch_grass_forest"

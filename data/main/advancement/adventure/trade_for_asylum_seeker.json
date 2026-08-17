@@ -4,7 +4,11 @@
     "traded": {
       "trigger": "minecraft:villager_trade",
       "conditions": {
-        "villager": {},
+        "villager": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {}
+        },
         "item": {
           "items": "minecraft:villager_spawn_egg"
         }

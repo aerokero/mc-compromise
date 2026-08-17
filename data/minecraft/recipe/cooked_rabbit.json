@@ -1,12 +1,12 @@
 {
-	"type": "minecraft:smelting",
-	"group": "charred_food",
-	"category": "misc",
-	"cookingtime": 100,
-	"experience": 0.35,
-	"ingredient": "minecraft:rabbit",
-	"result": {
-		"id": "minecraft:charcoal",
-		"count": 1
-	}
+  "type": "minecraft:smelting",
+  "group": "charred_food",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredient": "minecraft:rabbit",
+  "result": {
+    "id": "minecraft:charcoal",
+    "count": 1
+  }
 }

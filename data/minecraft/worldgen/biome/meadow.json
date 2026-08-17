@@ -60,8 +60,8 @@
     ],
     [
       "minecraft:glow_lichen",
-      "minecraft:patch_tall_grass_2",
       "compromise:patch_grass_plain",
+      "compromise:patch_dry_grass_sand",
       "minecraft:flower_meadow",
       "minecraft:trees_meadow",
       "minecraft:wildflowers_meadow"

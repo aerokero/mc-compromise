@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:random_selector",
+  "features": [
+    {
+      "feature": "minecraft:fallen_birch_tree",
+      "chance": 0.01
+    },
+    {
+      "feature": "minecraft:fallen_oak_tree",
+      "chance": 0.03
+    },
+    {
+      "feature": "minecraft:birch_bees_0002_leaf_litter",
+      "chance": 0.15
+    },
+    {
+      "feature": "compromise:fancy_oak_seasonal",
+      "chance": 0.015
+    },
+    {
+      "feature": "compromise:fancy_oak_bees_002_seasonal",
+      "chance": 0.005
+    }
+  ],
+  "default": "compromise:oak_seasonal"
+}

@@ -1,40 +1,40 @@
 {
-	"type": "minecraft:crafting_shaped",
-	"category": "equipment",
-	"key": {
-		"X": "minecraft:diamond"
-	},
-	"pattern": [
-		"X X",
-		"X X"
-	],
-	"result": {
-		"components": {
-			"minecraft:lore": [
-				{
-					"text": "When on Feet:",
-					"color": "gray",
-					"italic": false
-				},
-				{
-					"text": "+3 Armor",
-					"color": "dark_green",
-					"italic": false
-				},
-				{
-					"text": "+2 Armor Toughness",
-					"color": "dark_green",
-					"italic": false
-				}
-			],
-			"minecraft:tooltip_display": {
-				"hidden_components": [
-					"minecraft:attribute_modifiers"
-				]
-			},
-			"minecraft:max_damage": 800
-		},
-		"count": 1,
-		"id": "minecraft:diamond_boots"
-	}
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": "minecraft:diamond"
+  },
+  "pattern": [
+    "X X",
+    "X X"
+  ],
+  "result": {
+    "components": {
+      "minecraft:lore": [
+        {
+          "text": "When on Feet:",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "+3 Armor",
+          "color": "dark_green",
+          "italic": false
+        },
+        {
+          "text": "+2 Armor Toughness",
+          "color": "dark_green",
+          "italic": false
+        }
+      ],
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
+      },
+      "minecraft:max_damage": 800
+    },
+    "count": 1,
+    "id": "minecraft:diamond_boots"
+  }
 }

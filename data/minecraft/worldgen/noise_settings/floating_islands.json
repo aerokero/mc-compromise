@@ -38,11 +38,13 @@
               "right": {
                 "type": "minecraft:mul",
                 "left": {
-                  "type": "minecraft:y_clamped_gradient",
+                  "type": "minecraft:gradient",
+              "axis": "y",
+              "tiling": "clamp_to_edge",
                   "from_value": 0.0,
-                  "from_y": 4,
+                  "from_coordinate": 4,
                   "to_value": 1.0,
-                  "to_y": 32
+                  "to_coordinate": 32
                 },
                 "right": {
                   "type": "minecraft:add",
@@ -53,11 +55,13 @@
                     "right": {
                       "type": "minecraft:mul",
                       "left": {
-                        "type": "minecraft:y_clamped_gradient",
+                        "type": "minecraft:gradient",
+              "axis": "y",
+              "tiling": "clamp_to_edge",
                         "from_value": 1.0,
-                        "from_y": 184,
+                        "from_coordinate": 184,
                         "to_value": 0.0,
-                        "to_y": 440
+                        "to_coordinate": 440
                       },
                       "right": {
                         "type": "minecraft:add",
@@ -80,7 +84,7 @@
     "ridges": 0.0,
     "temperature": {
       "type": "minecraft:shifted_noise",
-      "noise": "minecraft:temperature",
+      "noise": "minecraft:overworld/temperature",
       "shift_x": "minecraft:shift_x",
       "shift_y": 0.0,
       "shift_z": "minecraft:shift_z",

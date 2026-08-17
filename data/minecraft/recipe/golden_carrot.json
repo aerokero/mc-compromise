@@ -1,18 +1,17 @@
 {
-	"type": "minecraft:crafting_shaped",
-	"group": "golden_carrot",
-	"category": "food",
-	"pattern": [
-		"bbb",
-		"b#b",
-		"bbb"
-	],
-	"key": {
-		"b": "minecraft:barrier",
-		"#": "minecraft:carrot"
-	},
-	"result": {
-		"count": 1,
-		"id": "minecraft:golden_carrot"
-	}
+  "type": "minecraft:crafting_shaped",
+  "group": "golden_carrot",
+  "pattern": [
+    "bbb",
+    "b#b",
+    "bbb"
+  ],
+  "key": {
+    "b": "minecraft:barrier",
+    "#": "minecraft:carrot"
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:golden_carrot"
+  }
 }

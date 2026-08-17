@@ -1,35 +1,35 @@
 {
-	"type": "minecraft:crafting_shaped",
-	"category": "equipment",
-	"key": {
-		"X": "minecraft:copper_ingot"
-	},
-	"pattern": [
-		"X X",
-		"X X"
-	],
-	"result": {
-		"components": {
-			"minecraft:lore": [
-				{
-					"text": "When on Feet:",
-					"color": "gray",
-					"italic": false
-				},
-				{
-					"text": "+1 Armor",
-					"color": "dark_green",
-					"italic": false
-				}
-			],
-			"minecraft:tooltip_display": {
-				"hidden_components": [
-					"minecraft:attribute_modifiers"
-				]
-			},
-			"minecraft:max_damage": 200
-		},
-		"count": 1,
-		"id": "minecraft:copper_boots"
-	}
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": "minecraft:copper_ingot"
+  },
+  "pattern": [
+    "X X",
+    "X X"
+  ],
+  "result": {
+    "components": {
+      "minecraft:lore": [
+        {
+          "text": "When on Feet:",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "+1 Armor",
+          "color": "dark_green",
+          "italic": false
+        }
+      ],
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
+      },
+      "minecraft:max_damage": 200
+    },
+    "count": 1,
+    "id": "minecraft:copper_boots"
+  }
 }

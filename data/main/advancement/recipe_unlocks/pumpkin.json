@@ -1,26 +1,26 @@
 {
-	"parent": "minecraft:recipes/root",
-	"criteria": {
-		"has_primary_material": {
-			"conditions": {
-				"items": [
-					{
-						"items": "minecraft:pumpkin"
-					}
-				]
-			},
-			"trigger": "minecraft:inventory_changed"
-		}
-	},
-	"requirements": [
-		[
-			"has_primary_material"
-		]
-	],
-	"rewards": {
-		"recipes": [
-			"minecraft:pumpkin_pie",
-			"food:golden_carrot_pie"
-		]
-	}
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_primary_material": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:pumpkin"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_primary_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:pumpkin_pie",
+      "food:golden_carrot_pie"
+    ]
+  }
 }

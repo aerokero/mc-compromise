@@ -1,15 +1,15 @@
 {
-	"type": "minecraft:crafting_shaped",
-	"category": "building",
-	"key": {
-		"G": "minecraft:gunpowder"
-	},
-	"pattern": [
-		"GG",
-		"GG"
-	],
-	"result": {
-		"id": "minecraft:sulfur",
-		"count": 4
-	}
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "G": "minecraft:gunpowder"
+  },
+  "pattern": [
+    "GG",
+    "GG"
+  ],
+  "result": {
+    "id": "minecraft:sulfur",
+    "count": 4
+  }
 }

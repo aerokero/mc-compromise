@@ -1,30 +1,30 @@
 {
-	"parent": "main:tutorial/echoes_of_the_world",
-	"criteria": {
-		"knowledge_book": {
-			"trigger": "minecraft:recipe_crafted",
-			"conditions": {
-				"recipe_id": "knowledge:knowledge_book"
-			}
-		}
-	},
-	"display": {
-		"description": {
-			"text": "Craft a Knowledge Book"
-		},
-		"icon": {
-			"count": 1,
-			"id": "minecraft:knowledge_book"
-		},
-		"title": {
-			"text": "Arcane Knowledge"
-		},
-		"frame": "task",
-		"hidden": false
-	},
-	"requirements": [
-		[
-			"knowledge_book"
-		]
-	]
+  "parent": "main:tutorial/echoes_of_the_world",
+  "criteria": {
+    "knowledge_book": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "knowledge:knowledge_book"
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Craft a Knowledge Book"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:knowledge_book"
+    },
+    "title": {
+      "text": "Arcane Knowledge"
+    },
+    "frame": "task",
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "knowledge_book"
+    ]
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:recipes/root",
-	"criteria": {
-	    "has_bricks": {
+  "criteria": {
+    "has_bricks": {
       "conditions": {
         "items": [
           {
@@ -10,16 +10,16 @@
         ]
       },
       "trigger": "minecraft:inventory_changed"
-	    }
+    }
   },
   "requirements": [
-	    [
-	      "has_bricks"
-	    ]
+    [
+      "has_bricks"
+    ]
   ],
   "rewards": {
     "recipes": [
-	      "crafting:yellow_carpet"
+      "crafting:yellow_carpet"
     ]
   }
 }

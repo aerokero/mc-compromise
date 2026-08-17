@@ -1,58 +1,58 @@
 {
-	"type": "minecraft:crafting_shaped",
-	"category": "equipment",
-	"key": {
-		"#": "minecraft:stick",
-		"X": "iron_ingot"
-	},
-	"pattern": [
-		"XXX",
-		" # ",
-		" # "
-	],
-	"result": {
-		"components": {
-			"minecraft:tool": {
-				"rules": [
-					{
-						"blocks": "#minecraft:mineable/pickaxe",
-						"speed": 7,
-						"correct_for_drops": true
-					}
-				],
-				"default_mining_speed": 1,
-				"damage_per_block": 1
-			},
-			"minecraft:lore": [
-				{
-					"text": "When in Main Hand:",
-					"color": "gray",
-					"italic": false
-				},
-				{
-					"text": "+7 Mining Speed",
-					"color": "blue",
-					"italic": false
-				},
-				{
-					"text": "+4 Attack Damage",
-					"color": "dark_green",
-					"italic": false
-				},
-				{
-					"text": "+1.2 Attack Speed",
-					"color": "dark_green",
-					"italic": false
-				}
-			],
-			"minecraft:max_damage": 500,
-			"minecraft:tooltip_display": {
-				"hidden_components": [
-					"minecraft:attribute_modifiers"
-				]
-			}
-		},
-		"count": 1,
-		"id": "minecraft:iron_pickaxe"
-	}
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:stick",
+    "X": "iron_ingot"
+  },
+  "pattern": [
+    "XXX",
+    " # ",
+    " # "
+  ],
+  "result": {
+    "components": {
+      "minecraft:tool": {
+        "rules": [
+          {
+            "blocks": "#minecraft:mineable/pickaxe",
+            "speed": 7,
+            "correct_for_drops": true
+          }
+        ],
+        "default_mining_speed": 1,
+        "damage_per_block": 1
+      },
+      "minecraft:lore": [
+        {
+          "text": "When in Main Hand:",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "+7 Mining Speed",
+          "color": "blue",
+          "italic": false
+        },
+        {
+          "text": "+4 Attack Damage",
+          "color": "dark_green",
+          "italic": false
+        },
+        {
+          "text": "+1.2 Attack Speed",
+          "color": "dark_green",
+          "italic": false
+        }
+      ],
+      "minecraft:max_damage": 500,
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
+      }
+    },
+    "count": 1,
+    "id": "minecraft:iron_pickaxe"
+  }
 }

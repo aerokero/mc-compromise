@@ -1,31 +1,31 @@
 {
-	"group": "enchanted_book",
-	"type": "minecraft:crafting_shaped",
-	"category": "misc",
-	"pattern": [
-		"ASA",
-		"SBS",
-		"ASA"
-	],
-	"key": {
-		"S": "minecraft:shulker_shell",
-		"B": "minecraft:knowledge_book",
-		"A": "minecraft:glowstone_dust"
-	},
-	"result": {
-		"components": {
-			"minecraft:stored_enchantments": {
-				"minecraft:silk_touch": 1
-			},
-			"minecraft:lore": [
-				{
-					"translate": "item.minecraft.knowledge.silk_touch",
-					"color": "dark_gray",
-					"italic": false
-				}
-			]
-		},
-		"count": 1,
-		"id": "minecraft:enchanted_book"
-	}
+  "group": "enchanted_book",
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ASA",
+    "SBS",
+    "ASA"
+  ],
+  "key": {
+    "S": "minecraft:shulker_shell",
+    "B": "minecraft:knowledge_book",
+    "A": "minecraft:glowstone_dust"
+  },
+  "result": {
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:silk_touch": 1
+      },
+      "minecraft:lore": [
+        {
+          "translate": "item.minecraft.knowledge.silk_touch",
+          "color": "dark_gray",
+          "italic": false
+        }
+      ]
+    },
+    "count": 1,
+    "id": "minecraft:enchanted_book"
+  }
 }

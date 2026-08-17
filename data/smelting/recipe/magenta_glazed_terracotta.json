@@ -3,6 +3,8 @@
   "category": "blocks",
   "experience": 0.1,
   "ingredient": "minecraft:magenta_terracotta",
-  "result": { "id": "minecraft:magenta_glazed_terracotta" },
+  "result": {
+    "id": "minecraft:magenta_glazed_terracotta"
+  },
   "cookingtime": 200
 }

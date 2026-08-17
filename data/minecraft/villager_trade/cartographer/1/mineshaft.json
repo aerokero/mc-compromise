@@ -2,19 +2,19 @@
 	"given_item_modifier": [
 		{
 			"decoration": "minecraft:red_x",
-			"destination": "minecraft:on_mineshaft_explorer_maps",
-			"function": "minecraft:exploration_map",
+			"destination": "#minecraft:on_mineshaft_explorer_maps",
+			"type": "minecraft:exploration_map",
 			"search_radius": 100
 		},
 		{
-			"function": "minecraft:set_name",
+			"type": "minecraft:set_name",
 			"name": {
 				"translate": "filled_map.mineshaft"
 			},
 			"target": "item_name"
 		},
 		{
-			"function": "minecraft:filtered",
+			"type": "minecraft:filtered",
 			"item_filter": {
 				"items": "minecraft:filled_map",
 				"predicates": {
@@ -22,7 +22,7 @@
 				}
 			},
 			"on_fail": {
-				"function": "minecraft:discard"
+				"type": "minecraft:discard"
 			}
 		}
 	],

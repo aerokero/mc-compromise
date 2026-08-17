@@ -1,32 +1,32 @@
 {
-	"type": "minecraft:crafting_shaped",
-	"category": "misc",
-	"pattern": [
-		"SbS",
-		"FBF",
-		"SFS"
-	],
-	"key": {
-		"S": "minecraft:spectral_arrow",
-		"B": "minecraft:knowledge_book",
-		"F": "minecraft:porkchop",
-		"b": "minecraft:prismarine_crystals"
-	},
-	"result": {
-		"components": {
-			"minecraft:stored_enchantments": {
-				"minecraft:power": 2,
-				"minecraft:multishot": 1
-			},
-			"minecraft:lore": [
-				{
-					"translate": "item.minecraft.knowledge.sharpshooter",
-					"color": "dark_gray",
-					"italic": false
-				}
-			]
-		},
-		"count": 1,
-		"id": "minecraft:enchanted_book"
-	}
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SbS",
+    "FBF",
+    "SFS"
+  ],
+  "key": {
+    "S": "minecraft:spectral_arrow",
+    "B": "minecraft:knowledge_book",
+    "b": "minecraft:prismarine_crystals",
+    "F": "minecraft:porkchop"
+  },
+  "result": {
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:power": 2,
+        "minecraft:multishot": 1
+      },
+      "minecraft:lore": [
+        {
+          "translate": "item.minecraft.knowledge.sharpshooter",
+          "color": "dark_gray",
+          "italic": false
+        }
+      ]
+    },
+    "count": 1,
+    "id": "minecraft:enchanted_book"
+  }
 }

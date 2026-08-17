@@ -1,30 +1,30 @@
 {
-	"parent": "minecraft:recipes/root",
-	"criteria": {
-		"has_primary_material": {
-			"conditions": {
-				"items": [
-					{
-						"items": "minecraft:bread"
-					}
-				]
-			},
-			"trigger": "minecraft:inventory_changed"
-		}
-	},
-	"requirements": [
-		[
-			"has_primary_material"
-		]
-	],
-	"rewards": {
-		"recipes": [
-			"food:chocolate_bread",
-			"food:sweet_berry_bread",
-			"food:glow_berry_bread",
-			"food:apple_bread",
-			"food:carrot_bread",
-			"food:golden_apple_bread"
-		]
-	}
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_primary_material": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bread"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_primary_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "food:chocolate_bread",
+      "food:sweet_berry_bread",
+      "food:glow_berry_bread",
+      "food:apple_bread",
+      "food:carrot_bread",
+      "food:golden_apple_bread"
+    ]
+  }
 }

@@ -16,45 +16,103 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:red_mushroom",
-          "conditions": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "minecraft:vehicle": {
-                  "minecraft:entity_type": "minecraft:zombie_horse"
-                }
+          "condition": {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:vehicle": {
+                "minecraft:entity_type": "minecraft:zombie_horse"
               }
             }
-          ],
-          "functions": [
-            { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 0, "max": 1 } },
-            { "function": "minecraft:enchanted_count_increase", "enchantment": "minecraft:looting", "count": { "type": "minecraft:uniform", "min": 0, "max": 1 } }
+          },
+          "modifier": [
+            {
+              "type": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "type": "minecraft:enchanted_count_increase",
+              "enchantment": "minecraft:looting",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 1
+              }
+            }
           ]
         }
       ]
     },
     {
       "rolls": 1,
-      "conditions": [
-        { "condition": "minecraft:killed_by_player" },
-        { "condition": "minecraft:random_chance_with_enchanted_bonus", "unenchanted_chance": 0.025, "enchanted_chance": { "type": "minecraft:linear", "base": 0.035, "per_level_above_first": 0.01 }, "enchantment": "minecraft:looting" }
-      ],
+      "condition": {
+        "type": "minecraft:all_of",
+        "terms": [
+          {
+            "type": "minecraft:killed_by_player"
+          },
+          {
+            "type": "minecraft:random_chance_with_enchanted_bonus",
+            "unenchanted_chance": 0.025,
+            "enchanted_chance": {
+              "type": "minecraft:linear",
+              "base": 0.035,
+              "per_level_above_first": 0.01
+            },
+            "enchantment": "minecraft:looting"
+          }
+        ]
+      },
       "entries": [
-        { "type": "minecraft:item", "name": "minecraft:iron_ingot" },
-        { "type": "minecraft:item", "name": "minecraft:carrot" },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot"
+        },
         {
           "type": "minecraft:item",
           "name": "minecraft:potato",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:furnace_smelt",
-              "conditions": [
-                { "condition": "minecraft:any_of", "terms": [
-                  { "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "minecraft:flags": { "is_on_fire": true } } },
-                  { "condition": "minecraft:entity_properties", "entity": "direct_attacker", "predicate": { "minecraft:equipment": { "mainhand": { "predicates": { "minecraft:enchantments": [ { "enchantments": "#minecraft:smelts_loot" } ] } } } } }
-                ] }
-              ]
+              "type": "minecraft:furnace_smelt",
+              "condition": {
+                "type": "minecraft:any_of",
+                "terms": [
+                  {
+                    "type": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "minecraft:flags": {
+                        "is_on_fire": true
+                      }
+                    }
+                  },
+                  {
+                    "type": "minecraft:entity_properties",
+                    "entity": "direct_attacker",
+                    "predicate": {
+                      "minecraft:equipment": {
+                        "mainhand": {
+                          "predicates": {
+                            "minecraft:enchantments": [
+                              {
+                                "enchantments": "#minecraft:smelts_loot"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
             }
           ]
         }
@@ -62,11 +120,32 @@
     },
     {
       "rolls": 1,
-      "conditions": [
-        { "condition": "minecraft:killed_by_player" },
-        { "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "minecraft:flags": { "is_baby": true }, "minecraft:vehicle": { "minecraft:entity_type": "minecraft:chicken" } } }
-      ],
-      "entries": [ { "type": "minecraft:item", "name": "minecraft:music_disc_lava_chicken" } ]
+      "condition": {
+        "type": "minecraft:all_of",
+        "terms": [
+          {
+            "type": "minecraft:killed_by_player"
+          },
+          {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:flags": {
+                "is_baby": true
+              },
+              "minecraft:vehicle": {
+                "minecraft:entity_type": "minecraft:chicken"
+              }
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_lava_chicken"
+        }
+      ]
     }
   ],
   "random_sequence": "minecraft:entities/zombie"

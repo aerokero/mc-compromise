@@ -4,91 +4,91 @@
     "bane_of_arthopods": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipe_id": "knowledge:bane_of_arthopods"
+        "recipes": "knowledge:bane_of_arthopods"
       }
     },
     "channeling_smite": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipe_id": "knowledge:channeling_smite"
+        "recipes": "knowledge:channeling_smite"
       }
     },
     "depth_strider_riptide_aqua_affinity_respiration": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipe_id": "knowledge:depth_strider_riptide_aqua_affinity_respiration"
+        "recipes": "knowledge:depth_strider_riptide_aqua_affinity_respiration"
       }
     },
     "efficiency_unbreaking": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipe_id": "knowledge:efficiency_unbreaking"
+        "recipes": "knowledge:efficiency_unbreaking"
       }
     },
     "feather_falling": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipe_id": "knowledge:feather_falling"
+        "recipes": "knowledge:feather_falling"
       }
     },
     "flame_fire_aspect_fire_protection": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipe_id": "knowledge:flame_fire_aspect_fire_protection"
+        "recipes": "knowledge:flame_fire_aspect_fire_protection"
       }
     },
     "infinity": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipe_id": "knowledge:infinity"
+        "recipes": "knowledge:infinity"
       }
     },
     "mending": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipe_id": "knowledge:mending"
+        "recipes": "knowledge:mending"
       }
     },
     "reach": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipe_id": "knowledge:reach"
+        "recipes": "knowledge:reach"
       }
     },
     "silk_touch": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipe_id": "knowledge:silk_touch"
+        "recipes": "knowledge:silk_touch"
       }
     },
     "traversal": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipe_id": "knowledge:traversal"
+        "recipes": "knowledge:traversal"
       }
     },
     "unbreaking": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipe_id": "knowledge:unbreaking"
+        "recipes": "knowledge:unbreaking"
       }
     },
     "frost_walker_frost_protection": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipe_id": "knowledge:frost_walker_frost_protection"
+        "recipes": "knowledge:frost_walker_frost_protection"
       }
     },
     "wind_burst_anemos": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipe_id": "knowledge:wind_burst_anemos"
+        "recipes": "knowledge:wind_burst_anemos"
       }
     },
     "zephyr": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipe_id": "knowledge:zephyr"
+        "recipes": "knowledge:zephyr"
       }
     }
   },
@@ -105,5 +105,21 @@
     "frame": "goal",
     "hidden": false
   },
-  "requirements": []
+  "requirements": [
+    ["bane_of_arthopods"],
+    ["channeling_smite"],
+    ["depth_strider_riptide_aqua_affinity_respiration"],
+    ["efficiency_unbreaking"],
+    ["feather_falling"],
+    ["flame_fire_aspect_fire_protection"],
+    ["infinity"],
+    ["mending"],
+    ["reach"],
+    ["silk_touch"],
+    ["traversal"],
+    ["unbreaking"],
+    ["frost_walker_frost_protection"],
+    ["wind_burst_anemos"],
+    ["zephyr"]
+  ]
 }

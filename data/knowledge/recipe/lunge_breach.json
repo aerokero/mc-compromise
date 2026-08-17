@@ -1,36 +1,36 @@
 {
-	"type": "minecraft:crafting_shaped",
-	"category": "misc",
-	"pattern": [
-		" b ",
-		"aBc",
-		" F "
-	],
-	"key": {
-		"B": "minecraft:knowledge_book",
-		"F": "minecraft:iron_helmet",
-		"b": "minecraft:red_dye",
-		"a": [
-			"minecraft:iron_sword",
-			"minecraft:iron_spear"
-		],
-		"c": "minecraft:shield"
-	},
-	"result": {
-		"components": {
-			"minecraft:stored_enchantments": {
-				"minecraft:lunge": 2,
-				"minecraft:breach": 2
-			},
-			"minecraft:lore": [
-				{
-					"translate": "item.minecraft.knowledge.armor_breaker",
-					"color": "dark_gray",
-					"italic": false
-				}
-			]
-		},
-		"count": 1,
-		"id": "minecraft:enchanted_book"
-	}
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " b ",
+    "aBc",
+    " F "
+  ],
+  "key": {
+    "B": "minecraft:knowledge_book",
+    "b": "minecraft:red_dye",
+    "F": "minecraft:iron_helmet",
+    "a": [
+      "minecraft:iron_sword",
+      "minecraft:iron_spear"
+    ],
+    "c": "minecraft:shield"
+  },
+  "result": {
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:lunge": 2,
+        "minecraft:breach": 2
+      },
+      "minecraft:lore": [
+        {
+          "translate": "item.minecraft.knowledge.armor_breaker",
+          "color": "dark_gray",
+          "italic": false
+        }
+      ]
+    },
+    "count": 1,
+    "id": "minecraft:enchanted_book"
+  }
 }

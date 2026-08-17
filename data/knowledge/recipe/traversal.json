@@ -1,32 +1,32 @@
 {
-	"group": "enchanted_book",
-	"type": "minecraft:crafting_shaped",
-	"category": "misc",
-	"pattern": [
-		"CLC",
-		"WBW",
-		"   "
-	],
-	"key": {
-		"B": "minecraft:knowledge_book",
-		"C": "minecraft:emerald",
-		"W": "#minecraft:wool",
-		"L": "minecraft:leather_boots"
-	},
-	"result": {
-		"components": {
-			"minecraft:stored_enchantments": {
-				"main:traversal": 3
-			},
-			"minecraft:lore": [
-				{
-					"translate": "item.minecraft.knowledge.traversal",
-					"color": "dark_gray",
-					"italic": false
-				}
-			]
-		},
-		"count": 1,
-		"id": "minecraft:enchanted_book"
-	}
+  "group": "enchanted_book",
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CLC",
+    "WBW",
+    "   "
+  ],
+  "key": {
+    "B": "minecraft:knowledge_book",
+    "C": "minecraft:emerald",
+    "W": "#minecraft:wool",
+    "L": "minecraft:leather_boots"
+  },
+  "result": {
+    "components": {
+      "minecraft:stored_enchantments": {
+        "main:traversal": 3
+      },
+      "minecraft:lore": [
+        {
+          "translate": "item.minecraft.knowledge.traversal",
+          "color": "dark_gray",
+          "italic": false
+        }
+      ]
+    },
+    "count": 1,
+    "id": "minecraft:enchanted_book"
+  }
 }

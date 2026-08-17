@@ -1,9 +1,9 @@
 {
-	"type": "minecraft:stonecutting",
-	"group": "chain",
-	"ingredient": "minecraft:iron_ingot",
-	"result": {
-		"count": 6,
-		"id": "minecraft:chain"
-	}
+  "type": "minecraft:stonecutting",
+  "group": "chain",
+  "ingredient": "minecraft:iron_ingot",
+  "result": {
+    "count": 6,
+    "id": "minecraft:iron_chain"
+  }
 }

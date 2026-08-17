@@ -1,27 +1,25 @@
 {
-	"criteria": {
-		"use_item": {
-			"trigger": "minecraft:item_used_on_block",
-			"conditions": {
-				"location": [
-					{
-						"condition": "minecraft:match_tool",
-						"predicate": {
-							"components": {
-								"minecraft:item_model": "minecraft:application"
-							}
-						}
-					}
-				]
-			}
-		}
-	},
-	"requirements": [
-		[
-			"use_item"
-		]
-	],
-	"rewards": {
-		"function": "main:mechanic/application"
-	}
+  "criteria": {
+    "use_item": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "type": "minecraft:match_tool",
+          "predicate": {
+            "components": {
+              "minecraft:item_model": "minecraft:application"
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "use_item"
+    ]
+  ],
+  "rewards": {
+    "function": "main:mechanic/application"
+  }
 }

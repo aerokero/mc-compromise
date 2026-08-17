@@ -1,32 +1,32 @@
 {
-	"group": "enchanted_book",
-	"type": "minecraft:crafting_shaped",
-	"category": "misc",
-	"pattern": [
-		"ESE",
-		"DBD",
-		"EDE"
-	],
-	"key": {
-		"S": "minecraft:echo_shard",
-		"B": "minecraft:knowledge_book",
-		"E": "minecraft:glowstone_dust",
-		"D": "minecraft:diamond"
-	},
-	"result": {
-		"components": {
-			"minecraft:stored_enchantments": {
-				"minecraft:unbreaking": 2
-			},
-			"minecraft:lore": [
-				{
-					"translate": "item.minecraft.knowledge.unbreaking",
-					"color": "dark_gray",
-					"italic": false
-				}
-			]
-		},
-		"count": 1,
-		"id": "minecraft:enchanted_book"
-	}
+  "group": "enchanted_book",
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ESE",
+    "DBD",
+    "EDE"
+  ],
+  "key": {
+    "S": "minecraft:echo_shard",
+    "B": "minecraft:knowledge_book",
+    "E": "minecraft:glowstone_dust",
+    "D": "minecraft:diamond"
+  },
+  "result": {
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:unbreaking": 2
+      },
+      "minecraft:lore": [
+        {
+          "translate": "item.minecraft.knowledge.unbreaking",
+          "color": "dark_gray",
+          "italic": false
+        }
+      ]
+    },
+    "count": 1,
+    "id": "minecraft:enchanted_book"
+  }
 }

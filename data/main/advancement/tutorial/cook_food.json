@@ -1,144 +1,189 @@
 {
-	"parent": "main:tutorial/light_campfire",
-	"criteria": {
-		"cook_melon": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"components": {"minecraft:item_name": {"translate": "item.minecraft.grilled_melon"}}
-					}
-				]
-			}
-		},
-		"cook_carrot": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"components": {"minecraft:item_name": {"translate": "item.minecraft.steamed_carrots"}}
-					}
-				]
-			}
-		},
-		"cook_apple": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"components": {"minecraft:item_name": {"translate": "item.minecraft.baked_apple"}}
-					}
-				]
-			}
-		},
-		"cook_tomatoes": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"components": {"minecraft:item_name": {"translate": "item.minecraft.grilled_tomatoes"}}
-					}
-				]
-			}
-		},
-		"cook_glow_berries": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"components": {"minecraft:custom_data": {"compromise_cooked_food": "glow_mash"}}
-					}
-				]
-			}
-		},
-		"cook_kelp": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"components": {"minecraft:custom_data": {"compromise_cooked_food": "dried_kelp"}}
-					}
-				]
-			}
-		},
-		"cook_sweet_berries": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"components": {"minecraft:custom_data": {"compromise_cooked_food": "sweet_berry_mash"}}
-					}
-				]
-			}
-		},
-		"cook_honey": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"components": {"minecraft:item_name": {"translate": "item.minecraft.honey_ginger_tea"}}
-					}
-				]
-			}
-		},
-		"cook_cocoa": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"components": {"minecraft:custom_data": {"compromise_cooked_food": "chocolate"}}
-					}
-				]
-			}
-		},
-		"cook_pumpkin": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"components": {"minecraft:item_name": {"translate": "item.minecraft.golden_steamed_carrots"}}
-					}
-				]
-			}
-		},
-		"cook_red_mushroom": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"components": {"minecraft:item_name": {"translate": "item.minecraft.braised_red_mushroom"}}
-					}
-				]
-			}
-		}
-	},
-	"display": {
-		"description": {
-			"text": "Reveal the hidden aspect of a Food by cooking it on a Campfire or a Basic Furnace."
-		},
-		"icon": {
-			"components": {
-				"minecraft:item_model": "minecraft:melon_slice"
-			}
-		},
-		"title": {
-			"text": "Mmm, tasty!"
-		},
-		"hidden": false
-	},
-	"requirements": [
-		[
-			"cook_melon",
-			"cook_carrot",
-			"cook_apple",
-			"cook_tomatoes",
-			"cook_glow_berries",
-			"cook_kelp",
-			"cook_sweet_berries",
-			"cook_honey",
-			"cook_cocoa",
-			"cook_pumpkin",
-			"cook_red_mushroom"
-		]
-	]
+  "parent": "main:tutorial/light_campfire",
+  "criteria": {
+    "cook_melon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:item_name": {
+                "translate": "item.minecraft.grilled_melon"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "cook_carrot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:item_name": {
+                "translate": "item.minecraft.steamed_carrots"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "cook_apple": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:item_name": {
+                "translate": "item.minecraft.baked_apple"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "cook_tomatoes": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:item_name": {
+                "translate": "item.minecraft.grilled_tomatoes"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "cook_glow_berries": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:custom_data": {
+                "compromise_cooked_food": "glow_mash"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "cook_kelp": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:custom_data": {
+                "compromise_cooked_food": "dried_kelp"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "cook_sweet_berries": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:custom_data": {
+                "compromise_cooked_food": "sweet_berry_mash"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "cook_honey": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:item_name": {
+                "translate": "item.minecraft.honey_ginger_tea"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "cook_cocoa": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:custom_data": {
+                "compromise_cooked_food": "chocolate"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "cook_pumpkin": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:item_name": {
+                "translate": "item.minecraft.golden_steamed_carrots"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "cook_red_mushroom": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:item_name": {
+                "translate": "item.minecraft.braised_red_mushroom"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Reveal the hidden aspect of a Food by cooking it on a Campfire or a Basic Furnace."
+    },
+    "icon": {
+      "id": "minecraft:melon_slice",
+      "components": {
+        "minecraft:item_model": "minecraft:melon_slice"
+      }
+    },
+    "title": {
+      "text": "Mmm, tasty!"
+    },
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "cook_melon",
+      "cook_carrot",
+      "cook_apple",
+      "cook_tomatoes",
+      "cook_glow_berries",
+      "cook_kelp",
+      "cook_sweet_berries",
+      "cook_honey",
+      "cook_cocoa",
+      "cook_pumpkin",
+      "cook_red_mushroom"
+    ]
+  ]
 }

@@ -60,14 +60,14 @@
     ],
     [
       "minecraft:glow_lichen",
-      "minecraft:pale_garden_vegetation",
-      "minecraft:pale_moss_patch",
+      "compromise:pale_garden_vegetation_no_sand",
+      "compromise:pale_moss_patch_no_sand",
       "minecraft:pale_garden_flowers",
       "minecraft:flower_pale_garden",
-      "minecraft:patch_grass_forest",
+      "compromise:patch_grass_forest_no_sand",
       "minecraft:patch_pumpkin",
-      "minecraft:patch_sugar_cane",
-      "minecraft:patch_firefly_bush_near_water",
+      "compromise:patch_sugar_cane_no_sand",
+      "compromise:patch_firefly_bush_near_water_no_sand",
       "minecraft:seagrass_normal"
     ],
     [

@@ -1,14 +1,48 @@
 {
   "type": "minecraft:entity",
   "pools": [
-    { "rolls": 1, "entries": [ { "type": "minecraft:loot_table", "value": "compromise:tattered_rotten_flesh" } ] },
     {
       "rolls": 1,
-      "conditions": [ { "condition": "minecraft:killed_by_player" }, { "condition": "minecraft:random_chance_with_enchanted_bonus", "unenchanted_chance": 0.025, "enchanted_chance": { "type": "minecraft:linear", "base": 0.035, "per_level_above_first": 0.01 }, "enchantment": "minecraft:looting" } ],
       "entries": [
-        { "type": "minecraft:item", "name": "minecraft:iron_ingot" },
-        { "type": "minecraft:item", "name": "minecraft:carrot" },
-        { "type": "minecraft:item", "name": "minecraft:potato" }
+        {
+          "type": "minecraft:loot_table",
+          "value": "compromise:tattered_rotten_flesh"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "condition": {
+        "type": "minecraft:all_of",
+        "terms": [
+          {
+            "type": "minecraft:killed_by_player"
+          },
+          {
+            "type": "minecraft:random_chance_with_enchanted_bonus",
+            "unenchanted_chance": 0.025,
+            "enchanted_chance": {
+              "type": "minecraft:linear",
+              "base": 0.035,
+              "per_level_above_first": 0.01
+            },
+            "enchantment": "minecraft:looting"
+          }
+        ]
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potato"
+        }
       ]
     }
   ],

@@ -1,51 +1,51 @@
 {
-	"type": "minecraft:crafting_shaped",
-	"category": "equipment",
-	"key": {
-		"#": "minecraft:stick",
-		"X": "iron_ingot"
-	},
-	"pattern": [
-		"X",
-		"X",
-		"#"
-	],
-	"result": {
-		"components": {
-			"minecraft:attribute_modifiers": [
-				{
-					"type": "minecraft:attack_damage",
-					"id": "attack_damage",
-					"amount": 5,
-					"operation": "add_value",
-					"slot": "mainhand"
-				}
-			],
-			"minecraft:lore": [
-				{
-					"text": "When in Main Hand:",
-					"color": "gray",
-					"italic": false
-				},
-				{
-					"text": "+6 Attack Damage",
-					"color": "dark_green",
-					"italic": false
-				},
-				{
-					"text": "+1.6 Attack Speed",
-					"color": "dark_green",
-					"italic": false
-				}
-			],
-			"minecraft:max_damage": 500,
-			"minecraft:tooltip_display": {
-				"hidden_components": [
-					"minecraft:attribute_modifiers"
-				]
-			}
-		},
-		"count": 1,
-		"id": "minecraft:iron_sword"
-	}
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:stick",
+    "X": "iron_ingot"
+  },
+  "pattern": [
+    "X",
+    "X",
+    "#"
+  ],
+  "result": {
+    "components": {
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:attack_damage",
+          "id": "attack_damage",
+          "amount": 5,
+          "operation": "add_value",
+          "slot": "mainhand"
+        }
+      ],
+      "minecraft:lore": [
+        {
+          "text": "When in Main Hand:",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "+6 Attack Damage",
+          "color": "dark_green",
+          "italic": false
+        },
+        {
+          "text": "+1.6 Attack Speed",
+          "color": "dark_green",
+          "italic": false
+        }
+      ],
+      "minecraft:max_damage": 500,
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
+      }
+    },
+    "count": 1,
+    "id": "minecraft:iron_sword"
+  }
 }

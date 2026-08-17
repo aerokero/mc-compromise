@@ -2,8 +2,14 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {"tag": "main:never"}
+    "#": "#main:never"
   },
-  "pattern": ["###", "###", "###"],
-  "result": {"id": "minecraft:blast_furnace"}
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "id": "minecraft:blast_furnace"
+  }
 }

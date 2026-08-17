@@ -1,33 +1,33 @@
 {
-	"group": "enchanted_book",
-	"type": "minecraft:crafting_shaped",
-	"category": "misc",
-	"pattern": [
-		" S ",
-		"SBS",
-		" S "
-	],
-	"key": {
-		"S": "minecraft:nautilus_shell",
-		"B": "minecraft:knowledge_book"
-	},
-	"result": {
-		"components": {
-			"minecraft:stored_enchantments": {
-				"minecraft:depth_strider": 2,
-				"minecraft:riptide": 1,
-				"minecraft:aqua_affinity": 1,
-				"minecraft:respiration": 2
-			},
-			"minecraft:lore": [
-				{
-					"translate": "item.minecraft.knowledge.aquatic_mastery",
-					"color": "dark_gray",
-					"italic": false
-				}
-			]
-		},
-		"count": 1,
-		"id": "minecraft:enchanted_book"
-	}
+  "group": "enchanted_book",
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " S ",
+    "SBS",
+    " S "
+  ],
+  "key": {
+    "S": "minecraft:nautilus_shell",
+    "B": "minecraft:knowledge_book"
+  },
+  "result": {
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:depth_strider": 2,
+        "minecraft:riptide": 1,
+        "minecraft:aqua_affinity": 1,
+        "minecraft:respiration": 2
+      },
+      "minecraft:lore": [
+        {
+          "translate": "item.minecraft.knowledge.aquatic_mastery",
+          "color": "dark_gray",
+          "italic": false
+        }
+      ]
+    },
+    "count": 1,
+    "id": "minecraft:enchanted_book"
+  }
 }

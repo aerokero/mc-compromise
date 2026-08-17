@@ -1,7 +1,15 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
-  "key": {"#": {"tag": "main:never"}},
-  "pattern": ["###", "###", "###"],
-  "result": {"id": "minecraft:stone_shovel"}
+  "key": {
+    "#": "#main:never"
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "id": "minecraft:stone_shovel"
+  }
 }

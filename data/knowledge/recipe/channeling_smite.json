@@ -1,33 +1,33 @@
 {
-	"group": "enchanted_book",
-	"type": "minecraft:crafting_shaped",
-	"category": "misc",
-	"pattern": [
-		"ESE",
-		"SBS",
-		"EIE"
-	],
-	"key": {
-		"S": "minecraft:prismarine_crystals",
-		"B": "minecraft:knowledge_book",
-		"I": "iron_ingot",
-		"E": "minecraft:glowstone_dust"
-	},
-	"result": {
-		"components": {
-			"minecraft:stored_enchantments": {
-				"minecraft:smite": 3,
-				"minecraft:channeling": 1
-			},
-			"minecraft:lore": [
-				{
-					"translate": "item.minecraft.knowledge.storm_channeling",
-					"color": "dark_gray",
-					"italic": false
-				}
-			]
-		},
-		"count": 1,
-		"id": "minecraft:enchanted_book"
-	}
+  "group": "enchanted_book",
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ESE",
+    "SBS",
+    "EIE"
+  ],
+  "key": {
+    "S": "minecraft:prismarine_crystals",
+    "B": "minecraft:knowledge_book",
+    "I": "iron_ingot",
+    "E": "minecraft:glowstone_dust"
+  },
+  "result": {
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:smite": 3,
+        "minecraft:channeling": 1
+      },
+      "minecraft:lore": [
+        {
+          "translate": "item.minecraft.knowledge.storm_channeling",
+          "color": "dark_gray",
+          "italic": false
+        }
+      ]
+    },
+    "count": 1,
+    "id": "minecraft:enchanted_book"
+  }
 }

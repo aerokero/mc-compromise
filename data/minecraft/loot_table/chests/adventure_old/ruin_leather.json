@@ -8,10 +8,11 @@
           "type": "item",
           "weight": 1,
           "name": "minecraft:cobweb",
-          "functions": [
+          "modifier": [
             {
-              "function": "set_count",
+              "type": "set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 3
               }
@@ -27,9 +28,9 @@
           "type": "item",
           "weight": 20,
           "name": "minecraft:leather",
-          "functions": [
+          "modifier": [
             {
-              "function": "set_count",
+              "type": "set_count",
               "count": 1
             }
           ]
@@ -38,13 +39,13 @@
           "type": "item",
           "weight": 30,
           "name": "minecraft:rabbit_hide",
-          "functions": [
+          "modifier": [
             {
-              "function": "set_count",
+              "type": "set_count",
               "count": 1
             },
             {
-              "function": "set_components",
+              "type": "set_components",
               "components": {
                 "minecraft:custom_model_data": {
                   "strings": [
@@ -54,7 +55,7 @@
               }
             },
             {
-              "function": "set_name",
+              "type": "set_name",
               "name": [
                 {
                   "italic": false,
@@ -64,7 +65,7 @@
               "target": "item_name"
             },
             {
-              "function": "set_lore",
+              "type": "set_lore",
               "lore": [
                 {
                   "color": "dark_gray",
@@ -81,19 +82,19 @@
           "weight": 1,
           "quality": 2,
           "name": "minecraft:leather_leggings",
-          "functions": [
+          "modifier": [
             {
-              "function": "set_count",
+              "type": "set_count",
               "count": 1
             },
             {
-              "function": "set_components",
+              "type": "set_components",
               "components": {
                 "minecraft:dyed_color": 15452301
               }
             },
             {
-              "function": "set_name",
+              "type": "set_name",
               "name": [
                 {
                   "italic": false,
@@ -102,7 +103,7 @@
               ]
             },
             {
-              "function": "set_lore",
+              "type": "set_lore",
               "lore": [
                 {
                   "color": "dark_gray",
@@ -119,13 +120,13 @@
           "weight": 1,
           "quality": 4,
           "name": "minecraft:leather_boots",
-          "functions": [
+          "modifier": [
             {
-              "function": "set_count",
+              "type": "set_count",
               "count": 1
             },
             {
-              "function": "set_components",
+              "type": "set_components",
               "components": {
                 "minecraft:custom_data": {
                   "Traversal": "1"
@@ -138,11 +139,11 @@
               }
             },
             {
-              "function": "set_damage",
+              "type": "set_damage",
               "damage": 25
             },
             {
-              "function": "set_name",
+              "type": "set_name",
               "name": [
                 {
                   "color": "yellow",
@@ -152,7 +153,7 @@
               ]
             },
             {
-              "function": "set_lore",
+              "type": "set_lore",
               "lore": [
                 {
                   "color": "gray",

@@ -1,27 +1,27 @@
 {
-	"parent": "minecraft:recipes/root",
-	"criteria": {
-		"cooked_the_food": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"items": "minecraft:apple"
-					}
-				]
-			}
-		}
-	},
-	"requirements": [
-		[
-			"cooked_the_food"
-		]
-	],
-	"rewards": {
-		"recipes": [
-			"food:canned_apples",
-			"food:apple_pie",
-			"food:apple_bread"
-		]
-	}
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "cooked_the_food": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:apple"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cooked_the_food"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "food:canned_apples",
+      "food:apple_pie",
+      "food:apple_bread"
+    ]
+  }
 }

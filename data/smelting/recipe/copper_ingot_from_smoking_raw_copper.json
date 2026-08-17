@@ -3,6 +3,8 @@
   "category": "misc",
   "experience": 0.7,
   "ingredient": "minecraft:raw_copper",
-  "result": { "id": "minecraft:copper_ingot" },
+  "result": {
+    "id": "minecraft:copper_ingot"
+  },
   "cookingtime": 200
 }

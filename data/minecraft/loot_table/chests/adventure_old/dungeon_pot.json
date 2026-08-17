@@ -10,10 +10,11 @@
           "weight": 3,
           "quality": 1,
           "name": "minecraft:gunpowder",
-          "functions": [
+          "modifier": [
             {
-              "function": "set_count",
+              "type": "set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 3
               }
@@ -24,10 +25,11 @@
           "type": "item",
           "weight": 2,
           "name": "minecraft:raw_copper",
-          "functions": [
+          "modifier": [
             {
-              "function": "set_count",
+              "type": "set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 4
               }
@@ -38,10 +40,11 @@
           "type": "item",
           "weight": 5,
           "name": "minecraft:arrow",
-          "functions": [
+          "modifier": [
             {
-              "function": "set_count",
+              "type": "set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 4,
                 "max": 6
               }
@@ -52,9 +55,9 @@
           "type": "item",
           "weight": 2,
           "name": "minecraft:leather",
-          "functions": [
+          "modifier": [
             {
-              "function": "set_count",
+              "type": "set_count",
               "count": 1
             }
           ]
@@ -63,10 +66,11 @@
           "type": "item",
           "weight": 3,
           "name": "minecraft:wheat",
-          "functions": [
+          "modifier": [
             {
-              "function": "set_count",
+              "type": "set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 3
               }
@@ -77,10 +81,11 @@
           "type": "item",
           "weight": 3,
           "name": "minecraft:bone",
-          "functions": [
+          "modifier": [
             {
-              "function": "set_count",
+              "type": "set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 3
               }
@@ -91,10 +96,11 @@
           "type": "item",
           "weight": 3,
           "name": "minecraft:redstone",
-          "functions": [
+          "modifier": [
             {
-              "function": "set_count",
+              "type": "set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 4
               }
@@ -109,20 +115,19 @@
         {
           "type": "item",
           "weight": 4,
-          "name": "minecraft:emerald",
-          "functions": []
+          "name": "minecraft:emerald"
         },
         {
           "type": "item",
           "weight": 5,
           "name": "minecraft:lapis_lazuli",
-          "functions": [
+          "modifier": [
             {
-              "function": "set_count",
+              "type": "set_count",
               "count": 1
             },
             {
-              "function": "set_components",
+              "type": "set_components",
               "components": {
                 "minecraft:custom_model_data": {
                   "strings": [
@@ -132,7 +137,7 @@
               }
             },
             {
-              "function": "set_name",
+              "type": "set_name",
               "name": [
                 {
                   "color": "dark_purple",
@@ -142,7 +147,7 @@
               ]
             },
             {
-              "function": "set_lore",
+              "type": "set_lore",
               "lore": [
                 {
                   "color": "dark_gray",
@@ -158,16 +163,17 @@
           "type": "item",
           "weight": 7,
           "name": "minecraft:lapis_lazuli",
-          "functions": [
+          "modifier": [
             {
-              "function": "set_count",
+              "type": "set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 2
               }
             },
             {
-              "function": "set_components",
+              "type": "set_components",
               "components": {
                 "minecraft:custom_model_data": {
                   "strings": [
@@ -177,7 +183,7 @@
               }
             },
             {
-              "function": "set_name",
+              "type": "set_name",
               "name": [
                 {
                   "color": "gold",
@@ -187,7 +193,7 @@
               ]
             },
             {
-              "function": "set_lore",
+              "type": "set_lore",
               "lore": [
                 {
                   "color": "dark_gray",

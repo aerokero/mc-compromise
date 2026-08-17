@@ -3,6 +3,8 @@
   "category": "blocks",
   "experience": 0.1,
   "ingredient": "minecraft:light_blue_terracotta",
-  "result": { "id": "minecraft:light_blue_glazed_terracotta" },
+  "result": {
+    "id": "minecraft:light_blue_glazed_terracotta"
+  },
   "cookingtime": 200
 }

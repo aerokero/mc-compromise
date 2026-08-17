@@ -3,6 +3,8 @@
   "category": "blocks",
   "experience": 0.1,
   "ingredient": "minecraft:quartz_block",
-  "result": { "id": "minecraft:smooth_quartz" },
+  "result": {
+    "id": "minecraft:smooth_quartz"
+  },
   "cookingtime": 200
 }

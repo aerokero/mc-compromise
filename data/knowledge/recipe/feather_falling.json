@@ -1,31 +1,31 @@
 {
-	"type": "minecraft:crafting_shaped",
-	"category": "misc",
-	"pattern": [
-		"SbS",
-		"FBF",
-		"SFS"
-	],
-	"key": {
-		"S": "minecraft:wind_charge",
-		"B": "minecraft:knowledge_book",
-		"F": "minecraft:feather",
-		"b": "minecraft:honeycomb"
-	},
-	"result": {
-		"components": {
-			"minecraft:stored_enchantments": {
-				"minecraft:feather_falling": 2
-			},
-			"minecraft:lore": [
-				{
-					"translate": "item.minecraft.knowledge.feather_falling",
-					"color": "dark_gray",
-					"italic": false
-				}
-			]
-		},
-		"count": 1,
-		"id": "minecraft:enchanted_book"
-	}
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SbS",
+    "FBF",
+    "SFS"
+  ],
+  "key": {
+    "S": "minecraft:wind_charge",
+    "B": "minecraft:knowledge_book",
+    "b": "minecraft:honeycomb",
+    "F": "minecraft:feather"
+  },
+  "result": {
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:feather_falling": 2
+      },
+      "minecraft:lore": [
+        {
+          "translate": "item.minecraft.knowledge.feather_falling",
+          "color": "dark_gray",
+          "italic": false
+        }
+      ]
+    },
+    "count": 1,
+    "id": "minecraft:enchanted_book"
+  }
 }

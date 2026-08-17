@@ -1,32 +1,32 @@
 {
-	"type": "minecraft:crafting_shaped",
-	"category": "misc",
-	"pattern": [
-		"aba",
-		"FBF",
-		"aFa"
-	],
-	"key": {
-		"B": "minecraft:knowledge_book",
-		"F": "minecraft:echo_shard",
-		"b": "minecraft:iron_hoe",
-		"a": "minecraft:sculk"
-	},
-	"result": {
-		"components": {
-			"minecraft:stored_enchantments": {
-				"minecraft:swift_sneak": 2,
-				"minecraft:soul_speed": 2
-			},
-			"minecraft:lore": [
-				{
-					"translate": "item.minecraft.knowledge.swift_strider",
-					"color": "dark_gray",
-					"italic": false
-				}
-			]
-		},
-		"count": 1,
-		"id": "minecraft:enchanted_book"
-	}
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "FBF",
+    "aFa"
+  ],
+  "key": {
+    "B": "minecraft:knowledge_book",
+    "b": "minecraft:iron_hoe",
+    "F": "minecraft:echo_shard",
+    "a": "minecraft:sculk"
+  },
+  "result": {
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:swift_sneak": 2,
+        "minecraft:soul_speed": 2
+      },
+      "minecraft:lore": [
+        {
+          "translate": "item.minecraft.knowledge.swift_strider",
+          "color": "dark_gray",
+          "italic": false
+        }
+      ]
+    },
+    "count": 1,
+    "id": "minecraft:enchanted_book"
+  }
 }

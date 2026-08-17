@@ -1,32 +1,30 @@
 {
-	"type": "minecraft:shearing",
-	"pools": [
-		{
-			"bonus_rolls": 0,
-			"entries": [
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:light_gray_wool",
-					"functions": []
-				}
-			],
-			"rolls": {
-				"type": "minecraft:uniform",
-				"max": 3,
-				"min": 1
-			},
-			"functions": [
-				{
-					"function": "minecraft:apply_bonus",
-					"enchantment": "minecraft:looting",
-					"formula": "minecraft:uniform_bonus_count",
-					"parameters": {
-						"bonusMultiplier": 3
-					}
-				}
-			],
-			"conditions": []
-		}
-	],
-	"random_sequence": "minecraft:shearing/sheep/light_gray"
+  "type": "minecraft:shearing",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:light_gray_wool"
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 3,
+        "min": 1
+      },
+      "modifier": [
+        {
+          "type": "minecraft:apply_bonus",
+          "enchantment": "minecraft:looting",
+          "formula": "minecraft:uniform_bonus_count",
+          "parameters": {
+            "bonusMultiplier": 3
+          }
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:shearing/sheep/light_gray"
 }

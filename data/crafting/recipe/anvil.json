@@ -1,18 +1,18 @@
 {
-	"type": "minecraft:crafting_shaped",
-	"group": "anvil",
-	"category": "equipment",
-	"key": {
-		"I": "minecraft:iron_block",
-		"i": "minecraft:iron_ingot"
-	},
-	"pattern": [
-		"III",
-		" i ",
-		"iii"
-	],
-	"result": {
-		"count": 1,
-		"id": "minecraft:anvil"
-	}
+  "type": "minecraft:crafting_shaped",
+  "group": "anvil",
+  "category": "equipment",
+  "key": {
+    "I": "minecraft:iron_block",
+    "i": "minecraft:iron_ingot"
+  },
+  "pattern": [
+    "III",
+    " i ",
+    "iii"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:anvil"
+  }
 }

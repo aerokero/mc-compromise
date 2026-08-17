@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:random_selector",
+  "features": [
+    {
+      "chance": 0.06,
+      "feature": "minecraft:fallen_poplar_tree"
+    },
+    {
+      "chance": 0.2,
+      "feature": "minecraft:yellow_poplar"
+    },
+    {
+      "chance": 0.2,
+      "feature": "minecraft:orange_poplar"
+    },
+    {
+      "chance": 0.2,
+      "feature": "minecraft:red_poplar"
+    },
+    {
+      "chance": 0.12,
+      "feature": "compromise:fancy_yellow_poplar"
+    },
+    {
+      "chance": 0.12,
+      "feature": "compromise:fancy_orange_poplar"
+    },
+    {
+      "chance": 0.12,
+      "feature": "compromise:fancy_red_poplar"
+    }
+  ],
+  "default": "minecraft:orange_poplar"
+}

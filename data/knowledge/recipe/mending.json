@@ -1,33 +1,33 @@
 {
-	"group": "enchanted_book",
-	"type": "minecraft:crafting_shaped",
-	"category": "misc",
-	"pattern": [
-		"ESE",
-		"EBE",
-		"EDE"
-	],
-	"key": {
-		"S": "minecraft:nether_star",
-		"B": "minecraft:knowledge_book",
-		"E": "minecraft:diamond",
-		"D": "minecraft:diamond_block"
-	},
-	"result": {
-		"components": {
-			"minecraft:stored_enchantments": {
-				"minecraft:mending": 1
-			},
-			"minecraft:rarity": "epic",
-			"minecraft:lore": [
-				{
-					"translate": "item.minecraft.knowledge.mending",
-					"color": "dark_gray",
-					"italic": false
-				}
-			]
-		},
-		"count": 1,
-		"id": "minecraft:enchanted_book"
-	}
+  "group": "enchanted_book",
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ESE",
+    "EBE",
+    "EDE"
+  ],
+  "key": {
+    "S": "minecraft:nether_star",
+    "B": "minecraft:knowledge_book",
+    "E": "minecraft:diamond",
+    "D": "minecraft:diamond_block"
+  },
+  "result": {
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:mending": 1
+      },
+      "minecraft:rarity": "epic",
+      "minecraft:lore": [
+        {
+          "translate": "item.minecraft.knowledge.mending",
+          "color": "dark_gray",
+          "italic": false
+        }
+      ]
+    },
+    "count": 1,
+    "id": "minecraft:enchanted_book"
+  }
 }

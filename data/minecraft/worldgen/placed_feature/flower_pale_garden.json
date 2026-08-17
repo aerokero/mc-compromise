@@ -1,0 +1,34 @@
+{
+  "feature": "minecraft:flower_pale_garden",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 32
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "MOTION_BLOCKING"
+    },
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:not",
+        "predicate": {
+          "type": "minecraft:matching_block_tag",
+          "tag": "minecraft:sand",
+          "offset": [
+            0,
+            -1,
+            0
+          ]
+        }
+      }
+    }
+  ]
+}

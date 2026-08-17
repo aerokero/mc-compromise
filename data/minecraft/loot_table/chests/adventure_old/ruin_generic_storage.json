@@ -7,25 +7,25 @@
         {
           "type": "minecraft:loot_table",
           "quality": -2,
-          "value": "minecraft:chests/ruin_grains",
+          "value": "minecraft:chests/adventure_old/ruin_grains",
           "weight": 10
         },
         {
           "type": "minecraft:loot_table",
           "quality": 0,
-          "value": "minecraft:chests/ruin_armoury",
+          "value": "minecraft:chests/adventure_old/ruin_armoury",
           "weight": 10
         },
         {
           "type": "minecraft:loot_table",
           "quality": 2,
-          "value": "minecraft:chests/ruin_kitchen",
+          "value": "minecraft:chests/adventure_old/ruin_kitchen",
           "weight": 5
         },
         {
           "type": "minecraft:loot_table",
           "quality": -1,
-          "value": "minecraft:chests/ruin_coal",
+          "value": "minecraft:chests/adventure_old/ruin_coal",
           "weight": 85
         }
       ],

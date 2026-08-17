@@ -4,7 +4,7 @@
 	},
 	"given_item_modifier": [
 		{
-			"function": "minecraft:discard"
+			"type": "minecraft:discard"
 		}
 	],
 	"max_uses": 16,

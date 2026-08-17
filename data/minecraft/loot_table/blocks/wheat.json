@@ -1,8 +1,8 @@
 {
   "type": "minecraft:block",
-  "functions": [
+  "modifier": [
     {
-      "function": "minecraft:explosion_decay"
+      "type": "minecraft:explosion_decay"
     }
   ],
   "pools": [
@@ -14,9 +14,9 @@
           "children": [
             {
               "type": "minecraft:item",
-              "functions": [
+              "modifier": [
                 {
-                  "function": "minecraft:set_count",
+                  "type": "minecraft:set_count",
                   "count": {
                     "type": "minecraft:uniform",
                     "min": 1,
@@ -24,15 +24,13 @@
                   }
                 }
               ],
-              "conditions": [
-                {
-                  "block": "minecraft:wheat",
-                  "condition": "minecraft:block_state_property",
-                  "properties": {
-                    "age": "7"
-                  }
+              "condition": {
+                "type": "minecraft:match_block",
+                "blocks": "minecraft:wheat",
+                "state": {
+                  "age": "7"
                 }
-              ],
+              },
               "name": "minecraft:tall_dry_grass"
             },
             {
@@ -46,23 +44,21 @@
     },
     {
       "bonus_rolls": 0,
-      "conditions": [
-        {
-          "block": "minecraft:wheat",
-          "condition": "minecraft:block_state_property",
-          "properties": {
-            "age": "7"
-          }
+      "condition": {
+        "type": "minecraft:match_block",
+        "blocks": "minecraft:wheat",
+        "state": {
+          "age": "7"
         }
-      ],
+      },
       "entries": [
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
+              "type": "minecraft:apply_bonus",
               "enchantment": "minecraft:fortune",
               "formula": "minecraft:binomial_with_bonus_count",
-              "function": "minecraft:apply_bonus",
               "parameters": {
                 "extra": 3,
                 "probability": 0.5714286

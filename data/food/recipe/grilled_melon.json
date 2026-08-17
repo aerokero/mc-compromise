@@ -1,61 +1,60 @@
 {
-	"type": "minecraft:smoking",
-	"category": "food",
-	"cookingtime": 200,
-	"experience": 0.35,
-	"ingredient": "minecraft:melon_slice",
-	"result": {
-		"id": "minecraft:melon_slice",
-		"components": {
-			"minecraft:lore": [
-				{
-					"text": "When Eaten:",
-					"color": "gray",
-					"italic": false
-				},
-				{
-					"text": "+2 HP Restored",
-					"color": "red",
-					"italic": false
-				},
-				{
-					"text": "Fire Resistance (0:10)",
-					"color": "gold",
-					"italic": false
-				}
-			],
-			"minecraft:consumable": {
-				"consume_seconds": 0.8,
-				"on_consume_effects": [
-					{
-						"type": "minecraft:apply_effects",
-						"effects": [
-							{
-								"id": "minecraft:regeneration",
-								"amplifier": 2,
-								"duration": 24,
-								"show_particles": false,
-								"show_icon": false
-							},
-							{
-								"id": "minecraft:fire_resistance",
-								"duration": 200,
-								"show_particles": false,
-								"show_icon": true
-							}
-						],
-						"probability": 1
-					}
-				]
-			},
-			"minecraft:item_name": {
-				"translate": "item.minecraft.grilled_melon"
-			},
-			"minecraft:food": {
-				"nutrition": 0,
-				"saturation": 0,
-				"can_always_eat": true
-			}
-		}
-	}
+  "type": "minecraft:smoking",
+  "cookingtime": 200,
+  "experience": 0.35,
+  "ingredient": "minecraft:melon_slice",
+  "result": {
+    "id": "minecraft:melon_slice",
+    "components": {
+      "minecraft:lore": [
+        {
+          "text": "When Eaten:",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "+2 HP Restored",
+          "color": "red",
+          "italic": false
+        },
+        {
+          "text": "Fire Resistance (0:10)",
+          "color": "gold",
+          "italic": false
+        }
+      ],
+      "minecraft:consumable": {
+        "consume_seconds": 0.8,
+        "on_consume_effects": [
+          {
+            "type": "minecraft:apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:regeneration",
+                "amplifier": 2,
+                "duration": 24,
+                "show_particles": false,
+                "show_icon": false
+              },
+              {
+                "id": "minecraft:fire_resistance",
+                "duration": 200,
+                "show_particles": false,
+                "show_icon": true
+              }
+            ],
+            "probability": 1
+          }
+        ]
+      },
+      "minecraft:item_name": {
+        "translate": "item.minecraft.grilled_melon"
+      },
+      "minecraft:food": {
+        "nutrition": 0,
+        "saturation": 0,
+        "can_always_eat": true
+      }
+    }
+  }
 }
