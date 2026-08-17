@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:block/orientable_with_all_sides",
+  "textures": {
+    "front": "minecraft:block/dispenser_front",
+    "east": "minecraft:block/dispenser_east",
+    "west": "minecraft:block/dispenser_west",
+    "top": "minecraft:block/dispenser_top",
+    "back": "minecraft:block/dispenser_back",
+    "down":"minecraft:block/dispenser_bottom"
+  }
+}

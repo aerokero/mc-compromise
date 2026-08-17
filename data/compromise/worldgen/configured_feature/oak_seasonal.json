@@ -16,7 +16,7 @@
           "then": {
             "type": "minecraft:simple_state_provider",
             "state": {
-              "Name": "minecraft:dirt"
+              "id": "minecraft:dirt"
             }
           }
         }
@@ -30,10 +30,10 @@
     },
     "trunk_provider": {
       "state": {
-        "Properties": {
+        "properties": {
           "axis": "y"
         },
-        "Name": "minecraft:oak_log"
+        "id": "minecraft:oak_log"
       },
       "type": "minecraft:simple_state_provider"
     },
@@ -45,11 +45,11 @@
     },
     "foliage_provider": {
       "state": {
-        "Properties": {
+        "properties": {
           "persistent": "false",
           "distance": "7"
         },
-        "Name": "minecraft:oak_leaves"
+        "id": "minecraft:oak_leaves"
       },
       "type": "minecraft:simple_state_provider"
     },

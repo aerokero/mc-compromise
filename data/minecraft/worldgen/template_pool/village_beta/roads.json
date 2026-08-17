@@ -1,5 +1,5 @@
 {
-	"name": "minecraft:village_beta/roads",
+	"id": "minecraft:village_beta/roads",
 	"fallback": "minecraft:empty",
 	"elements": [
 		{

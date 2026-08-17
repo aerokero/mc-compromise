@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:block/orientable_with_all_sides",
+  "textures": {
+    "front": "minecraft:block/dropper_front",
+    "east": "minecraft:block/dropper_east",
+    "west": "minecraft:block/dropper_west",
+    "top": "minecraft:block/dropper_top",
+    "back": "minecraft:block/dropper_back",
+    "down":"minecraft:block/dropper_bottom"
+  }
+}

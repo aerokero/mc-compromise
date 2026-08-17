@@ -1,5 +1,5 @@
 {
-	"name": "minecraft:village_beta/buildings",
+	"id": "minecraft:village_beta/buildings",
 	"fallback": "minecraft:empty",
 	"elements": [
 		{

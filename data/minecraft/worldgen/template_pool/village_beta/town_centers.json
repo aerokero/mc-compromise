@@ -1,5 +1,5 @@
 {
-	"name": "minecraft:village_beta/town_centers",
+	"id": "minecraft:village_beta/town_centers",
 	"fallback": "minecraft:empty",
 	"elements": [
 		{

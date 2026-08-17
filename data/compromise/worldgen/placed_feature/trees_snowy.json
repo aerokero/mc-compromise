@@ -36,8 +36,8 @@
       "predicate": {
         "type": "minecraft:would_survive",
         "state": {
-          "Name": "minecraft:spruce_sapling",
-          "Properties": {
+          "id": "minecraft:spruce_sapling",
+          "properties": {
             "stage": "0"
           }
         }
