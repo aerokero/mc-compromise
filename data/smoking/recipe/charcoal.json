@@ -1,9 +1,0 @@
-{
-	"type": "minecraft:smoking",
-	"experience": 0.15,
-	"ingredient": "#minecraft:logs_that_burn",
-	"result": {
-		"id": "minecraft:charcoal"
-	},
-	"cookingtime": 100
-}

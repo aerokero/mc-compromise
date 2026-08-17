@@ -3,7 +3,7 @@
   "group": "bundle",
   "category": "equipment",
   "key": {
-    "#": "minecraft:rabbit_hide",
+    "#": "minecraft:rotten_flesh",
     "-": "minecraft:string"
   },
   "pattern": [

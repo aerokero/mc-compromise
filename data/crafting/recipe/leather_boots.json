@@ -2,7 +2,7 @@
 	"type": "minecraft:crafting_shaped",
 	"category": "equipment",
 	"key": {
-		"X": "minecraft:rabbit_hide"
+		"X": "minecraft:rotten_flesh"
 	},
 	"pattern": [
 		"X X",

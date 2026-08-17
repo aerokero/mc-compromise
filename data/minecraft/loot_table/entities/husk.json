@@ -1,56 +1,30 @@
 {
-	"type": "minecraft:entity",
-	"pools": [
-		{
-			"rolls": 1,
-			"bonus_rolls": 0,
-			"entries": [
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:rabbit_hide",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"type": "minecraft:uniform",
-								"min": 2,
-								"max": 3
-							},
-							"add": false
-						},
-						{
-							"function": "minecraft:enchanted_count_increase",
-							"enchantment": "minecraft:looting",
-							"count": {
-								"type": "minecraft:uniform",
-								"min": 0,
-								"max": 1
-							}
-						}
-					]
-				}
-			],
-			"conditions": [
-				{
-					"condition": "minecraft:killed_by_player"
-				}
-			]
-		},
-		{
-			"rolls": 2,
-			"entries": [
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:emerald",
-					"weight": 1
-				}
-			],
-			"conditions": [
-				{
-					"condition": "minecraft:killed_by_player"
-				}
-			]
-		}
-	],
-	"random_sequence": "minecraft:entities/zombie"
+  "type": "minecraft:entity",
+  "pools": [
+    { "rolls": 1, "entries": [ { "type": "minecraft:loot_table", "value": "compromise:tattered_rotten_flesh" } ] },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rabbit_foot",
+          "conditions": [ { "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "minecraft:vehicle": { "minecraft:entity_type": "minecraft:camel_husk" } } } ],
+          "functions": [
+            { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 0, "max": 1 } },
+            { "function": "minecraft:enchanted_count_increase", "enchantment": "minecraft:looting", "count": { "type": "minecraft:uniform", "min": 0, "max": 1 } }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [ { "condition": "minecraft:killed_by_player" }, { "condition": "minecraft:random_chance_with_enchanted_bonus", "unenchanted_chance": 0.025, "enchanted_chance": { "type": "minecraft:linear", "base": 0.035, "per_level_above_first": 0.01 }, "enchantment": "minecraft:looting" } ],
+      "entries": [
+        { "type": "minecraft:item", "name": "minecraft:iron_ingot" },
+        { "type": "minecraft:item", "name": "minecraft:carrot" },
+        { "type": "minecraft:item", "name": "minecraft:potato" }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:entities/husk"
 }

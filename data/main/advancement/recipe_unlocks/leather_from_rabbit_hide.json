@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_rabbit_hide": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:rabbit_hide"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_rabbit_hide"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "crafting:leather_from_rabbit_hide"
+    ]
+  }
+}
