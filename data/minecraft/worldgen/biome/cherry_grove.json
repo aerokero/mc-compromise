@@ -65,8 +65,8 @@
       "minecraft:glow_lichen",
       "compromise:patch_grass_plain",
       "compromise:patch_dry_grass_sand",
-      "minecraft:flower_cherry",
-      "minecraft:trees_cherry",
+      "compromise:flower_cherry_sparse",
+      "compromise:cherry_grove_trees",
       "minecraft:seagrass_normal"
     ],
     [

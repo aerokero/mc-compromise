@@ -293,12 +293,7 @@
       },
       "right": "minecraft:overworld/caves/noodle"
     },
-    "fluid_level_floodedness": {
-      "type": "minecraft:noise",
-      "noise": "minecraft:aquifer_fluid_level_floodedness",
-      "xz_scale": 1.0,
-      "y_scale": 0.67
-    },
+    "fluid_level_floodedness": "compromise:overworld/fluid_level_floodedness",
     "fluid_level_spread": {
       "type": "minecraft:noise",
       "noise": "minecraft:aquifer_fluid_level_spread",
@@ -467,49 +462,97 @@
   "spawn_target": [
     {
       "continentalness": [
-        -0.11,
-        1.0
+        -0.25,
+        -0.18
       ],
       "depth": 0.0,
       "erosion": [
-        -1.0,
-        1.0
+        -0.2225,
+        0.45
       ],
       "humidity": [
-        -1.0,
+        -0.35,
         1.0
       ],
       "offset": 0.0,
       "temperature": [
-        -1.0,
-        1.0
+        -0.5,
+        0.5
       ],
       "weirdness": [
         -1.0,
-        -0.16
+        -0.935
       ]
     },
     {
       "continentalness": [
-        -0.11,
-        1.0
+        -0.25,
+        -0.18
       ],
       "depth": 0.0,
       "erosion": [
-        -1.0,
-        1.0
+        -0.2225,
+        0.45
       ],
       "humidity": [
-        -1.0,
+        -0.35,
         1.0
       ],
       "offset": 0.0,
       "temperature": [
-        -1.0,
-        1.0
+        -0.5,
+        0.5
       ],
       "weirdness": [
-        0.16,
+        -0.4,
+        -0.02
+      ]
+    },
+    {
+      "continentalness": [
+        -0.25,
+        -0.18
+      ],
+      "depth": 0.0,
+      "erosion": [
+        -0.2225,
+        0.45
+      ],
+      "humidity": [
+        -0.35,
+        1.0
+      ],
+      "offset": 0.0,
+      "temperature": [
+        -0.5,
+        0.5
+      ],
+      "weirdness": [
+        0.02,
+        0.4
+      ]
+    },
+    {
+      "continentalness": [
+        -0.25,
+        -0.18
+      ],
+      "depth": 0.0,
+      "erosion": [
+        -0.2225,
+        0.45
+      ],
+      "humidity": [
+        -0.35,
+        1.0
+      ],
+      "offset": 0.0,
+      "temperature": [
+        -0.5,
+        0.5
+      ],
+      "weirdness": [
+        0.935,
         1.0
       ]
     }

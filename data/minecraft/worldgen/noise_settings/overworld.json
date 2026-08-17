@@ -267,26 +267,12 @@
       },
       "right": "compromise:overworld/caves/noodle"
     },
-    "fluid_level_floodedness": {
-      "type": "range_choice",
-      "min_inclusive": 0.5,
-      "max_exclusive": 1.5,
-      "input": "compromise:overworld/river_carver/noise_selector",
-      "when_in_range": 1,
-      "when_out_of_range": "compromise:overworld/fluid_level_floodedness"
-    },
+    "fluid_level_floodedness": "compromise:overworld/fluid_level_floodedness",
     "fluid_level_spread": {
-      "type": "range_choice",
-      "min_inclusive": 0.5,
-      "max_exclusive": 1.5,
-      "input": "compromise:overworld/river_carver/noise_selector",
-      "when_in_range": 0.5,
-      "when_out_of_range": {
-        "type": "noise",
-        "noise": "minecraft:aquifer_fluid_level_spread",
-        "xz_scale": 1,
-        "y_scale": 0.7142857142857143
-      }
+      "type": "noise",
+      "noise": "minecraft:aquifer_fluid_level_spread",
+      "xz_scale": 1,
+      "y_scale": 0.7142857142857143
     },
     "lava": {
       "type": "minecraft:noise",
@@ -386,49 +372,97 @@
   "spawn_target": [
     {
       "continentalness": [
-        -0.11,
-        1.0
+        -0.25,
+        -0.18
       ],
       "depth": 0.0,
       "erosion": [
-        -1.0,
-        1.0
+        -0.2225,
+        0.45
       ],
       "humidity": [
-        -1.0,
+        -0.35,
         1.0
       ],
       "offset": 0.0,
       "temperature": [
-        -1.0,
-        1.0
+        -0.5,
+        0.5
       ],
       "weirdness": [
         -1.0,
-        -0.16
+        -0.935
       ]
     },
     {
       "continentalness": [
-        -0.11,
-        1.0
+        -0.25,
+        -0.18
       ],
       "depth": 0.0,
       "erosion": [
-        -1.0,
-        1.0
+        -0.2225,
+        0.45
       ],
       "humidity": [
-        -1.0,
+        -0.35,
         1.0
       ],
       "offset": 0.0,
       "temperature": [
-        -1.0,
-        1.0
+        -0.5,
+        0.5
       ],
       "weirdness": [
-        0.16,
+        -0.4,
+        -0.02
+      ]
+    },
+    {
+      "continentalness": [
+        -0.25,
+        -0.18
+      ],
+      "depth": 0.0,
+      "erosion": [
+        -0.2225,
+        0.45
+      ],
+      "humidity": [
+        -0.35,
+        1.0
+      ],
+      "offset": 0.0,
+      "temperature": [
+        -0.5,
+        0.5
+      ],
+      "weirdness": [
+        0.02,
+        0.4
+      ]
+    },
+    {
+      "continentalness": [
+        -0.25,
+        -0.18
+      ],
+      "depth": 0.0,
+      "erosion": [
+        -0.2225,
+        0.45
+      ],
+      "humidity": [
+        -0.35,
+        1.0
+      ],
+      "offset": 0.0,
+      "temperature": [
+        -0.5,
+        0.5
+      ],
+      "weirdness": [
+        0.935,
         1.0
       ]
     }

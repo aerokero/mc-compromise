@@ -1,0 +1,12 @@
+{
+  "feature": "compromise:super_birch_shelf_mushrooms",
+  "placement": [
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:would_survive",
+        "state": "minecraft:birch_sapling"
+      }
+    }
+  ]
+}

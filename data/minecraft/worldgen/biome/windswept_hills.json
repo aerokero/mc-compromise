@@ -54,8 +54,6 @@
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
       "minecraft:underwater_magma",
-      "minecraft:disk_sand",
-      "minecraft:disk_clay",
       "minecraft:disk_gravel",
       "minecraft:ore_emerald"
     ],
@@ -68,10 +66,12 @@
     ],
     [
       "minecraft:glow_lichen",
+      "compromise:patch_large_fern_no_sand",
       "minecraft:trees_windswept_hills",
       "minecraft:patch_bush",
       "minecraft:flower_default",
       "minecraft:patch_grass_badlands",
+      "compromise:windswept_floor",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:patch_pumpkin",

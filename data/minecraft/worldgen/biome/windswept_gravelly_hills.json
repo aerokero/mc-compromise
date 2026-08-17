@@ -60,9 +60,12 @@
     ],
     [
       "minecraft:glow_lichen",
+      "compromise:patch_large_fern_no_sand",
       "minecraft:trees_windswept_hills",
+      "minecraft:patch_bush",
       "minecraft:flower_default",
       "minecraft:patch_grass_badlands",
+      "compromise:windswept_floor",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:patch_pumpkin",

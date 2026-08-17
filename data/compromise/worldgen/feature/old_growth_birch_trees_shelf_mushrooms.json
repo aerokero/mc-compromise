@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:random_selector",
+  "default": "compromise:birch_shelf_mushrooms",
+  "features": [
+    {
+      "chance": 0.00625,
+      "feature": "minecraft:fallen_super_birch_tree"
+    },
+    {
+      "chance": 0.5,
+      "feature": "compromise:super_birch_shelf_mushrooms"
+    },
+    {
+      "chance": 0.0125,
+      "feature": "minecraft:fallen_birch_tree"
+    }
+  ]
+}

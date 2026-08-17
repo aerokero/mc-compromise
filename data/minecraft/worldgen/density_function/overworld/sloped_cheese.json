@@ -9,10 +9,38 @@
         "type": "minecraft:mul",
         "left": {
           "type": "minecraft:add",
-          "left": "minecraft:overworld/depth",
+          "left": {
+            "type": "minecraft:add",
+            "left": "minecraft:overworld/depth",
+            "right": {
+              "type": "minecraft:add",
+              "left": {
+                "type": "minecraft:mul",
+                "left": 0.34,
+                "right": "compromise:overworld/peak_gate"
+              },
+              "right": {
+                "type": "minecraft:mul",
+                "left": -0.12,
+                "right": "compromise:overworld/snowy_plains_gate"
+              }
+            }
+          },
           "right": {
             "type": "minecraft:mul",
-            "left": "minecraft:overworld/jaggedness",
+            "left": {
+              "type": "minecraft:mul",
+              "left": "minecraft:overworld/jaggedness",
+              "right": {
+                "type": "minecraft:add",
+                "left": 1.0,
+                "right": {
+                  "type": "minecraft:mul",
+                  "left": 1.25,
+                  "right": "compromise:overworld/peak_gate"
+                }
+              }
+            },
             "right": {
               "type": "minecraft:half_negative",
               "input": {
@@ -28,5 +56,25 @@
       }
     }
   },
-  "right": "minecraft:overworld/base_3d_noise"
+  "right": {
+    "type": "minecraft:mul",
+    "left": "minecraft:overworld/base_3d_noise",
+    "right": {
+      "type": "minecraft:add",
+      "left": 1.0,
+      "right": {
+        "type": "minecraft:add",
+        "left": {
+          "type": "minecraft:mul",
+          "left": 0.45,
+          "right": "compromise:overworld/peak_gate"
+        },
+        "right": {
+          "type": "minecraft:mul",
+          "left": -0.65,
+          "right": "compromise:overworld/snowy_plains_gate"
+        }
+      }
+    }
+  }
 }

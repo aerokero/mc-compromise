@@ -57,7 +57,7 @@
     ],
     [
       "minecraft:glow_lichen",
-      "minecraft:forest_flowers",
+      "compromise:forest_flowers_rebalanced",
       "compromise:trees_seasonal_forest",
       "minecraft:flower_warm",
       "compromise:forest_floor",

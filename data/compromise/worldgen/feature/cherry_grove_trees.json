@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:random_selector",
+  "default": "minecraft:cherry_bees_005",
+  "features": [
+    {
+      "chance": 0.5,
+      "feature": "minecraft:oak_checked"
+    }
+  ]
+}

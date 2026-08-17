@@ -1,9 +1,9 @@
 {
-  "feature": "minecraft:pumpkin",
+  "feature": "minecraft:large_fern",
   "placement": [
     {
       "type": "minecraft:rarity_filter",
-      "chance": 24
+      "chance": 3
     },
     {
       "type": "minecraft:in_square"
@@ -50,9 +50,12 @@
             "tag": "minecraft:air"
           },
           {
-            "type": "minecraft:matching_blocks",
-            "blocks": "minecraft:grass_block",
-            "offset": [0, -1, 0]
+            "type": "minecraft:not",
+            "predicate": {
+              "type": "minecraft:matching_block_tag",
+              "tag": "minecraft:sand",
+              "offset": [0, -1, 0]
+            }
           }
         ]
       }

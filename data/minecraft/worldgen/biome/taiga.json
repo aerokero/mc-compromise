@@ -57,10 +57,11 @@
     ],
     [
       "minecraft:glow_lichen",
-      "minecraft:patch_large_fern",
+      "compromise:patch_large_fern_frequent_no_sand",
       "compromise:trees_taiga",
       "minecraft:flower_default",
       "minecraft:patch_grass_taiga_2",
+      "compromise:taiga_floor",
       "minecraft:brown_mushroom_taiga",
       "minecraft:red_mushroom_taiga",
       "minecraft:patch_pumpkin",

@@ -19,12 +19,6 @@
         "recipes": "crafting:brown_concrete_from_concrete_powder"
       }
     },
-    "made_cheese": {
-      "trigger": "minecraft:recipe_crafted",
-      "conditions": {
-        "recipes": "food:cheese"
-      }
-    },
     "made_clay_from_mud_and_potion": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
@@ -113,12 +107,6 @@
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
         "recipes": "crafting:green_concrete_from_concrete_powder"
-      }
-    },
-    "made_green_curry": {
-      "trigger": "minecraft:recipe_crafted",
-      "conditions": {
-        "recipes": "food:green_curry_stock"
       }
     },
     "made_green_dye_from_patina": {
@@ -415,12 +403,6 @@
         "recipes": "food:potato_bread"
       }
     },
-    "made_pickled_warped_fungus": {
-      "trigger": "minecraft:recipe_crafted",
-      "conditions": {
-        "recipes": "food:pickled_warped_fungus"
-      }
-    },
     "made_chorus_pie": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
@@ -439,7 +421,6 @@
       "made_black_concrete_from_concrete_powder",
       "made_blue_concrete_from_concrete_powder",
       "made_brown_concrete_from_concrete_powder",
-      "made_cheese",
       "made_clay_from_mud_and_potion",
       "made_cyan_concrete_from_concrete_powder",
       "made_exposed_chiseled_copper_from_patina",
@@ -455,7 +436,6 @@
       "made_glow_ink_sac_alternate",
       "made_gray_concrete_from_concrete_powder",
       "made_green_concrete_from_concrete_powder",
-      "made_green_curry",
       "made_green_dye_from_patina",
       "made_light_blue_concrete_from_concrete_powder",
       "made_light_gray_concrete_from_concrete_powder",
@@ -491,7 +471,6 @@
       "made_stabilised_estus",
       "made_lily_of_the_valley",
       "made_latkes",
-      "made_pickled_warped_fungus",
       "made_chorus_pie",
       "clone_cornflower",
       "clone_wither_rose",

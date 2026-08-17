@@ -19,7 +19,6 @@
   ],
   "rewards": {
     "recipes": [
-      "food:pickled_potatoes",
       "food:potato_bread"
     ]
   }

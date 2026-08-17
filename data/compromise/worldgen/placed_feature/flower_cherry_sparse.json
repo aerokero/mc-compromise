@@ -1,9 +1,11 @@
 {
-  "feature": "minecraft:pumpkin",
+  "feature": "minecraft:flower_cherry",
   "placement": [
     {
-      "type": "minecraft:rarity_filter",
-      "chance": 24
+      "type": "minecraft:noise_threshold_count",
+      "above_noise": 5,
+      "below_noise": 2,
+      "noise_level": -0.8
     },
     {
       "type": "minecraft:in_square"
@@ -17,26 +19,26 @@
     },
     {
       "type": "minecraft:count",
-      "count": 96
+      "count": 48
     },
     {
       "type": "minecraft:offset",
       "x": {
         "type": "minecraft:trapezoid",
-        "min": -7,
-        "max": 7,
+        "min": -6,
+        "max": 6,
         "plateau": 0
       },
       "y": {
         "type": "minecraft:trapezoid",
-        "min": -3,
-        "max": 3,
+        "min": -2,
+        "max": 2,
         "plateau": 0
       },
       "z": {
         "type": "minecraft:trapezoid",
-        "min": -7,
-        "max": 7,
+        "min": -6,
+        "max": 6,
         "plateau": 0
       }
     },
@@ -50,9 +52,12 @@
             "tag": "minecraft:air"
           },
           {
-            "type": "minecraft:matching_blocks",
-            "blocks": "minecraft:grass_block",
-            "offset": [0, -1, 0]
+            "type": "minecraft:not",
+            "predicate": {
+              "type": "minecraft:matching_block_tag",
+              "tag": "minecraft:sand",
+              "offset": [0, -1, 0]
+            }
           }
         ]
       }

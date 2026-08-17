@@ -3,7 +3,7 @@
     "dry_foliage_color": "#8c3a04",
     "foliage_color": "#e68e30",
     "grass_color": "#df6827",
-    "water_color": "#375154"
+    "water_color": 4159204
   },
   "carvers": [
     "minecraft:cave",
@@ -52,8 +52,6 @@
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
       "minecraft:underwater_magma",
-      "minecraft:disk_sand",
-      "minecraft:disk_clay",
       "minecraft:disk_gravel"
     ],
     [],
@@ -63,13 +61,15 @@
     ],
     [
       "minecraft:glow_lichen",
+      "compromise:patch_large_fern_frequent_no_sand",
       "minecraft:forest_flowers",
       "compromise:trees_poplar_forest",
       "minecraft:patch_bush",
       "minecraft:flower_default",
-      "minecraft:patch_grass_forest",
+      "compromise:dappled_forest_floor",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
+      "compromise:dappled_leaf_litter",
       "compromise:patch_pumpkin_dappled",
       "minecraft:patch_sugar_cane",
       "minecraft:patch_firefly_bush_near_water",
@@ -78,8 +78,7 @@
     [
       "minecraft:glow_lichen",
       "minecraft:brown_mushroom_dappled_forest",
-      "minecraft:patch_red_shrub",
-      "minecraft:patch_grass_forest"
+      "minecraft:patch_red_shrub"
     ]
   ],
   "spawners": {
@@ -206,6 +205,6 @@
     },
     "minecraft:visual/fog_color": "#ccd8e2",
     "minecraft:visual/sky_color": "#7ca3ff",
-    "minecraft:visual/water_fog_color": "#375154"
+    "minecraft:visual/water_fog_color": 329011
   }
 }

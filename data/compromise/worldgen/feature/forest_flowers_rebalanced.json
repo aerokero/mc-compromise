@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:simple_block",
+  "to_place": {
+    "type": "minecraft:weighted_state_provider",
+    "entries": [
+      {
+        "data": "minecraft:poppy",
+        "weight": 5
+      },
+      {
+        "data": "minecraft:dandelion",
+        "weight": 4
+      },
+      {
+        "data": "minecraft:lilac",
+        "weight": 1
+      },
+      {
+        "data": "minecraft:rose_bush",
+        "weight": 1
+      },
+      {
+        "data": "minecraft:peony",
+        "weight": 1
+      },
+      {
+        "data": "minecraft:lily_of_the_valley",
+        "weight": 1
+      }
+    ]
+  }
+}
