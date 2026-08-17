@@ -1,5 +1,5 @@
 {
-	"given_item_modifiers": [
+	"given_item_modifier": [
 		{
 			"decoration": "minecraft:monument",
 			"destination": "minecraft:on_ocean_explorer_maps",

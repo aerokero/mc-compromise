@@ -1,12 +1,12 @@
 {
   "type": "minecraft:add",
-  "argument1": 0,
-  "argument2": {
+  "left": 0,
+  "right": {
     "type": "minecraft:mul",
-    "argument1": 4.0,
-    "argument2": {
+    "left": 4.0,
+    "right": {
       "type": "minecraft:square",
-      "argument": {
+      "input": {
         "type": "minecraft:noise",
         "noise": "minecraft:cave_layer",
         "xz_scale": 1.0,

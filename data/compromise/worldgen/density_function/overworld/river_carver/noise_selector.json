@@ -5,9 +5,9 @@
   "max_exclusive": 128,
   "when_in_range": {
     "type": "minecraft:flat_cache",
-    "argument": {
+    "input": {
       "type": "minecraft:cache_2d",
-      "argument": {
+      "input": {
         "type": "minecraft:range_choice",
         "input": "minecraft:overworld/ridges",
         "min_inclusive": -0.1,

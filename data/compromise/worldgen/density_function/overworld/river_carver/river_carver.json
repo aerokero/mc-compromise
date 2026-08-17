@@ -5,12 +5,12 @@
   "input": "compromise:overworld/river_carver/noise_selector",
   "when_in_range": {
     "type": "add",
-    "argument1": -0.0625,
-    "argument2": {
+    "left": -0.0625,
+    "right": {
       "type": "minecraft:add",
-      "argument1": {
+      "left": {
         "type": "minecraft:mul",
-        "argument1": {
+        "left": {
           "type": "minecraft:spline",
           "spline": {
             "coordinate": "minecraft:overworld/continents",
@@ -43,16 +43,16 @@
             ]
           }
         },
-        "argument2": {
+        "right": {
           "type": "add",
-          "argument1": {
+          "left": {
             "type": "minecraft:abs",
-            "argument": {
+            "input": {
               "type": "interpolated",
-              "argument": {
+              "input": {
                 "type": "minecraft:mul",
-                "argument1": 0.4,
-                "argument2": {
+                "left": 0.4,
+                "right": {
                   "type": "y_clamped_gradient",
                   "from_y": 24,
                   "to_y": 64,
@@ -62,14 +62,14 @@
               }
             }
           },
-          "argument2": {
+          "right": {
             "type": "minecraft:abs",
-            "argument": {
+            "input": {
               "type": "interpolated",
-              "argument": {
+              "input": {
                 "type": "minecraft:mul",
-                "argument1": "minecraft:overworld/ridges",
-                "argument2": {
+                "left": "minecraft:overworld/ridges",
+                "right": {
                   "type": "y_clamped_gradient",
                   "from_y": 50,
                   "to_y": 96,
@@ -81,9 +81,9 @@
           }
         }
       },
-      "argument2": {
+      "right": {
         "type": "minecraft:mul",
-        "argument1": {
+        "left": {
           "type": "minecraft:spline",
           "spline": {
             "coordinate": "minecraft:overworld/continents",
@@ -116,21 +116,21 @@
             ]
           }
         },
-        "argument2": {
+        "right": {
           "type": "minecraft:interpolated",
-          "argument": {
+          "input": {
             "type": "minecraft:range_choice",
             "input": "minecraft:overworld/erosion",
             "min_inclusive": -1000,
             "max_exclusive": -0.275,
             "when_in_range": {
               "type": "add",
-              "argument1": {
+              "left": {
                 "type": "minecraft:abs",
-                "argument": {
+                "input": {
                   "type": "minecraft:mul",
-                  "argument1": 0.4,
-                  "argument2": {
+                  "left": 0.4,
+                  "right": {
                     "type": "minecraft:range_choice",
                     "input": "minecraft:overworld/erosion",
                     "min_inclusive": -1000,
@@ -152,12 +152,12 @@
                   }
                 }
               },
-              "argument2": {
+              "right": {
                 "type": "minecraft:abs",
-                "argument": {
+                "input": {
                   "type": "minecraft:mul",
-                  "argument1": "minecraft:overworld/ridges",
-                  "argument2": {
+                  "left": "minecraft:overworld/ridges",
+                  "right": {
                     "type": "y_clamped_gradient",
                     "from_y": 64,
                     "to_y": 112,
@@ -169,12 +169,12 @@
             },
             "when_out_of_range": {
               "type": "add",
-              "argument1": {
+              "left": {
                 "type": "minecraft:abs",
-                "argument": {
+                "input": {
                   "type": "minecraft:mul",
-                  "argument1": 0.4,
-                  "argument2": {
+                  "left": 0.4,
+                  "right": {
                     "type": "y_clamped_gradient",
                     "from_y": 24,
                     "to_y": 64,
@@ -183,12 +183,12 @@
                   }
                 }
               },
-              "argument2": {
+              "right": {
                 "type": "minecraft:abs",
-                "argument": {
+                "input": {
                   "type": "minecraft:mul",
-                  "argument1": "minecraft:overworld/ridges",
-                  "argument2": {
+                  "left": "minecraft:overworld/ridges",
+                  "right": {
                     "type": "y_clamped_gradient",
                     "from_y": 50,
                     "to_y": 96,

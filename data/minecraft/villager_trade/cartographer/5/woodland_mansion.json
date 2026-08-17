@@ -1,5 +1,5 @@
 {
-	"given_item_modifiers": [
+	"given_item_modifier": [
 		{
 			"destination": "minecraft:on_woodland_explorer_maps",
 			"function": "minecraft:exploration_map",

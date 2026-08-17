@@ -3,7 +3,7 @@
 		"id": "minecraft:emerald",
 		"count": 1
 	},
-	"given_item_modifiers": [],
+	"given_item_modifier": [],
 	"max_uses": 999,
 	"wants": {
 		"components": {

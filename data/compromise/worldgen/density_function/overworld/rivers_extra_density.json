@@ -1,26 +1,26 @@
 {
   "type": "cache_once",
-  "argument": {
+  "input": {
     "type": "minecraft:mul",
-    "argument1": 1,
-    "argument2": {
+    "left": 1,
+    "right": {
       "type": "minecraft:clamp",
       "input": {
         "type": "minecraft:mul",
-        "argument1": {
+        "left": {
           "type": "minecraft:clamp",
           "input": {
             "type": "minecraft:add",
-            "argument1": 1,
-            "argument2": {
+            "left": 1,
+            "right": {
               "type": "minecraft:mul",
-              "argument1": -0.04,
-              "argument2": {
+              "left": -0.04,
+              "right": {
                 "type": "minecraft:square",
-                "argument": {
+                "input": {
                   "type": "minecraft:add",
-                  "argument1": "minecraft:y",
-                  "argument2": -64
+                  "left": "minecraft:y",
+                  "right": -64
                 }
               }
             }
@@ -28,18 +28,18 @@
           "min": 0,
           "max": 1
         },
-        "argument2": {
+        "right": {
           "type": "minecraft:add",
-          "argument1": 1,
-          "argument2": {
+          "left": 1,
+          "right": {
             "type": "minecraft:mul",
-            "argument1": -1,
-            "argument2": {
+            "left": -1,
+            "right": {
               "type": "minecraft:mul",
-              "argument1": 12.5,
-              "argument2": {
+              "left": 12.5,
+              "right": {
                 "type": "minecraft:abs",
-                "argument": "minecraft:overworld/ridges"
+                "input": "minecraft:overworld/ridges"
               }
             }
           }

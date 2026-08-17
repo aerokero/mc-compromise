@@ -2,7 +2,7 @@
 	"gives": {
 		"id": "minecraft:emerald"
 	},
-	"given_item_modifiers": [
+	"given_item_modifier": [
 		{
 			"function": "minecraft:discard"
 		}

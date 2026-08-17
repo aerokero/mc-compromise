@@ -28,7 +28,7 @@
 		},
 		"count": 4
 	},
-	"given_item_modifiers": [],
+	"given_item_modifier": [],
 	"max_uses": 999,
 	"reputation_discount": 0,
 	"wants": {

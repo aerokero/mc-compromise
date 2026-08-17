@@ -25,44 +25,44 @@
     "erosion": 0.0,
     "final_density": {
       "type": "minecraft:squeeze",
-      "argument": {
+      "input": {
         "type": "minecraft:mul",
-        "argument1": 0.64,
-        "argument2": {
+        "left": 0.64,
+        "right": {
           "type": "minecraft:interpolated",
-          "argument": {
+          "input": {
             "type": "minecraft:blend_density",
-            "argument": {
+            "input": {
               "type": "minecraft:add",
-              "argument1": 2.5,
-              "argument2": {
+              "left": 2.5,
+              "right": {
                 "type": "minecraft:mul",
-                "argument1": {
+                "left": {
                   "type": "minecraft:y_clamped_gradient",
                   "from_value": 0.0,
                   "from_y": -72,
                   "to_value": 1.0,
                   "to_y": -40
                 },
-                "argument2": {
+                "right": {
                   "type": "minecraft:add",
-                  "argument1": -2.5,
-                  "argument2": {
+                  "left": -2.5,
+                  "right": {
                     "type": "minecraft:add",
-                    "argument1": 0.9375,
-                    "argument2": {
+                    "left": 0.9375,
+                    "right": {
                       "type": "minecraft:mul",
-                      "argument1": {
+                      "left": {
                         "type": "minecraft:y_clamped_gradient",
                         "from_value": 1.0,
                         "from_y": 104,
                         "to_value": 0.0,
                         "to_y": 128
                       },
-                      "argument2": {
+                      "right": {
                         "type": "minecraft:add",
-                        "argument1": -0.9375,
-                        "argument2": "minecraft:nether/base_3d_noise"
+                        "left": -0.9375,
+                        "right": "minecraft:nether/base_3d_noise"
                       }
                     }
                   }
@@ -103,7 +103,7 @@
   "ore_veins_enabled": false,
   "sea_level": 32,
   "spawn_target": [],
-  "surface_rule": {
+  "material_rule": {
     "type": "minecraft:sequence",
     "sequence": [
       {

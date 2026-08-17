@@ -21,7 +21,7 @@
 	},
 	"xp": 30,
 	"merchant_predicate": {
-		"condition": "minecraft:location_check",
+		"type": "minecraft:location_check",
 		"predicate": {
 			"biomes": "#minecraft:spawns_warm_variant_farm_animals"
 		}

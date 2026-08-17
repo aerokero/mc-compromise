@@ -1,5 +1,5 @@
 {
-	"given_item_modifiers": [
+	"given_item_modifier": [
 		{
 			"decoration": "minecraft:village_plains",
 			"destination": "minecraft:on_trail_explorer_maps",
