@@ -1,18 +1,12 @@
 {
-  "attributes": {
-    "minecraft:gameplay/can_pillager_patrol_spawn": false,
-    "minecraft:gameplay/increased_fire_burnout": true,
-    "minecraft:visual/sky_color": "#77a8ff"
+  "effects": {
+    "water_color": 4159204
   },
   "carvers": [
     "minecraft:cave",
     "minecraft:cave_extra_underground",
     "minecraft:canyon"
   ],
-  "downfall": 1.0,
-  "effects": {
-    "water_color": "#a2b5dd"
-  },
   "features": [
     [],
     [
@@ -54,10 +48,7 @@
       "minecraft:ore_lapis",
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
-      "minecraft:underwater_magma",
-      "minecraft:disk_sand",
-      "minecraft:disk_clay",
-      "minecraft:disk_gravel"
+      "minecraft:underwater_magma"
     ],
     [],
     [
@@ -69,45 +60,61 @@
       "minecraft:mushroom_island_vegetation",
       "minecraft:brown_mushroom_taiga",
       "minecraft:red_mushroom_taiga",
+      "minecraft:patch_pumpkin",
       "minecraft:patch_sugar_cane",
-      "minecraft:patch_firefly_bush_near_water"
+      "minecraft:patch_firefly_bush_near_water",
+      "minecraft:seagrass_normal"
     ],
     [
       "minecraft:freeze_top_layer"
     ]
   ],
-  "has_precipitation": true,
-  "spawn_costs": {},
   "spawners": {
-    "ambient": [
-      {
-        "type": "minecraft:bat",
-        "maxCount": 8,
-        "minCount": 8,
-        "weight": 10
-      }
-    ],
-    "axolotls": [],
+    "monster": [],
     "creature": [
       {
         "type": "minecraft:mooshroom",
-        "maxCount": 8,
+        "weight": 8,
         "minCount": 4,
-        "weight": 8
+        "maxCount": 8
       }
     ],
-    "misc": [],
-    "monster": [],
+    "ambient": [
+      {
+        "type": "minecraft:bat",
+        "weight": 10,
+        "minCount": 8,
+        "maxCount": 8
+      }
+    ],
+    "axolotls": [],
     "underground_water_creature": [
       {
         "type": "minecraft:glow_squid",
-        "maxCount": 6,
+        "weight": 10,
         "minCount": 4,
-        "weight": 10
+        "maxCount": 6
       }
     ],
+    "water_creature": [],
     "water_ambient": [],
-    "water_creature": []
+    "misc": []
   },
-  "temperature": 0.9
+  "spawn_costs": {},
+  "has_precipitation": true,
+  "temperature": 0.9,
+  "downfall": 1.0,
+  "attributes": {
+    "minecraft:audio/ambient_sounds": {
+      "mood": {
+        "sound": "minecraft:ambient.cave",
+        "tick_delay": 6000,
+        "block_search_extent": 8,
+        "offset": 2.0
+      }
+    },
+    "minecraft:visual/sky_color": 7842047,
+    "minecraft:visual/fog_color": 12638463,
+    "minecraft:visual/water_fog_color": 329011
+  }
 }

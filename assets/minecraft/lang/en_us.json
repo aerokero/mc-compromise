@@ -415,8 +415,8 @@
   "item.minecraft.glow_berry_pie": "Glow Berry Pie",
   "item.minecraft.beetroot_pie": "Beetroot Pie",
   "item.minecraft.sweet_berry_stew": "Sweet Berry Stew",
-  "biome.hybrid_beta.autumnal_forest": "Autumnal Forest",
-  "biome.hybrid_beta.temperate_rainforest": "Temperate Rainforest",
-  "biome.hybrid_beta.rainforest": "Rainforest",
-  "biome.hybrid_beta.seasonal_forest": "Seasonal Forest"
+  "biome.compromise.autumnal_forest": "Autumnal Forest",
+  "biome.compromise.temperate_rainforest": "Temperate Rainforest",
+  "biome.compromise.rainforest": "Rainforest",
+  "biome.compromise.seasonal_forest": "Seasonal Forest"
 }

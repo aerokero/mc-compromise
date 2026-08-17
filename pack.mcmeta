@@ -1,11 +1,11 @@
 {
     "pack": {
-        "pack_format": 34,
+        "pack_format": 96,
     "min_format": 34,
-    "max_format": 100,
+    "max_format": 96,
     "supported_formats": {
       "min_inclusive": 34,
-      "max_inclusive": 100
+      "max_inclusive": 96
     },
     "description": "The classic and new look of Minecraft"
   },
@@ -41,10 +41,10 @@
       {
         "formats": {
           "min_inclusive": 42,
-          "max_inclusive": 100
+          "max_inclusive": 96
         },
         "min_format": 42,
-        "max_format": 100,
+        "max_format": 96,
         "directory": "overlay_42"
       },
       {
@@ -86,10 +86,10 @@
       {
         "formats": {
           "min_inclusive": 46,
-          "max_inclusive": 100
+          "max_inclusive": 96
         },
         "min_format": 46,
-        "max_format": 100,
+        "max_format": 96,
         "directory": "overlay_46"
       },
       {
@@ -104,10 +104,10 @@
       {
         "formats": {
           "min_inclusive": 53,
-          "max_inclusive": 100
+          "max_inclusive": 96
         },
         "min_format": 53,
-        "max_format": 100,
+        "max_format": 96,
         "directory": "overlay_53"
       },
       {
@@ -122,37 +122,37 @@
       {
         "formats": {
           "min_inclusive": 57,
-          "max_inclusive": 100
+          "max_inclusive": 96
         },
         "min_format": 57,
-        "max_format": 100,
+        "max_format": 96,
         "directory": "overlay_57"
       },
       {
         "formats": {
           "min_inclusive": 58,
-          "max_inclusive": 100
+          "max_inclusive": 96
         },
         "min_format": 58,
-        "max_format": 100,
+        "max_format": 96,
         "directory": "overlay_58"
       },
       {
         "formats": {
           "min_inclusive": 69,
-          "max_inclusive": 100
+          "max_inclusive": 96
         },
         "min_format": 69,
-        "max_format": 100,
+        "max_format": 96,
         "directory": "overlay_69"
       },
       {
         "formats": {
           "min_inclusive": 84,
-          "max_inclusive": 100
+          "max_inclusive": 96
         },
         "min_format": 84,
-        "max_format": 100,
+        "max_format": 96,
         "directory": "overlay_84"
       }
     ]

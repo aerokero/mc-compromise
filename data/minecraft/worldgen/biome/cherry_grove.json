@@ -1,15 +1,4 @@
 {
-  "attributes": {
-    "minecraft:audio/background_music": {
-      "default": {
-        "max_delay": 24000,
-        "min_delay": 12000,
-        "sound": "minecraft:music.overworld.cherry_grove"
-      }
-    },
-    "minecraft:visual/sky_color": "#9ebbf8",
-    "minecraft:visual/water_fog_color": "#5db7ef"
-  },
   "carvers": [
     "minecraft:cave",
     "minecraft:cave_extra_underground",
@@ -17,9 +6,9 @@
   ],
   "downfall": 0.8,
   "effects": {
-    "foliage_color": "#b6db61",
-    "grass_color": "#b6db61",
-    "water_color": "#a2c5dd"
+    "foliage_color": 11983713,
+    "grass_color": 11983713,
+    "water_color": 6141935
   },
   "features": [
     [],
@@ -63,9 +52,6 @@
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
       "minecraft:underwater_magma",
-      "minecraft:disk_sand",
-      "minecraft:disk_clay",
-      "minecraft:disk_gravel",
       "minecraft:ore_emerald"
     ],
     [
@@ -78,9 +64,10 @@
     [
       "minecraft:glow_lichen",
       "minecraft:patch_tall_grass_2",
-      "minecraft:patch_grass_plain",
+      "compromise:patch_grass_plain",
       "minecraft:flower_cherry",
-      "minecraft:trees_cherry"
+      "minecraft:trees_cherry",
+      "minecraft:seagrass_normal"
     ],
     [
       "minecraft:freeze_top_layer"
@@ -180,5 +167,26 @@
     "water_ambient": [],
     "water_creature": []
   },
-  "temperature": 0.5
+  "temperature": 0.5,
+  "attributes": {
+    "minecraft:audio/background_music": {
+      "default": {
+        "max_delay": 24000,
+        "min_delay": 12000,
+        "replace_current_music": false,
+        "sound": "minecraft:music.overworld.cherry_grove"
+      }
+    },
+    "minecraft:visual/fog_color": 12638463,
+    "minecraft:audio/ambient_sounds": {
+      "mood": {
+        "block_search_extent": 8,
+        "offset": 2.0,
+        "sound": "minecraft:ambient.cave",
+        "tick_delay": 6000
+      }
+    },
+    "minecraft:visual/sky_color": 8103167,
+    "minecraft:visual/water_fog_color": 6141935
+  }
 }
