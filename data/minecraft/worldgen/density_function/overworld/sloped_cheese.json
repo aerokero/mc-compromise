@@ -31,7 +31,7 @@
                 "type": "minecraft:add",
                 "left": {
                   "type": "minecraft:mul",
-                  "left": 0.75,
+                  "left": 0.4,
                   "right": "compromise:overworld/forest_beta_gate"
                 },
                 "right": {
@@ -59,7 +59,7 @@
                   },
                   "right": {
                     "type": "minecraft:mul",
-                    "left": 3.5,
+                    "left": 5.0,
                     "right": "compromise:overworld/forest_beta_gate"
                   }
                 }
@@ -101,7 +101,7 @@
           },
           "right": {
             "type": "minecraft:mul",
-            "left": 2.25,
+            "left": 1.6,
             "right": "compromise:overworld/forest_beta_gate"
           }
         },

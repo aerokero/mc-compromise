@@ -6,10 +6,10 @@
     "spline": {
       "coordinate": "minecraft:overworld/offset",
       "points": [
-        { "location": -0.2, "value": 7.0, "derivative": 0.0 },
-        { "location": 0.4, "value": 7.0, "derivative": 0.0 },
-        { "location": 0.48, "value": 6.5, "derivative": 0.0 },
-        { "location": 0.55, "value": 2.5, "derivative": 0.0 },
+        { "location": -0.2, "value": 8.5, "derivative": 0.0 },
+        { "location": 0.4, "value": 8.5, "derivative": 0.0 },
+        { "location": 0.48, "value": 8.0, "derivative": 0.0 },
+        { "location": 0.55, "value": 4.5, "derivative": 0.0 },
         { "location": 0.62, "value": 0.0, "derivative": 0.0 },
         { "location": 1.5, "value": 0.0, "derivative": 0.0 }
       ]
