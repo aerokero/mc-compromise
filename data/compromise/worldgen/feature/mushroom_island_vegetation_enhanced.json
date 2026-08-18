@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:random_boolean_selector",
+  "feature_false": {
+    "feature": "minecraft:mushroom_island_vegetation",
+    "placement": []
+  },
+  "feature_true": {
+    "feature": "compromise:mushroom_island_shelf_vegetation",
+    "placement": []
+  }
+}

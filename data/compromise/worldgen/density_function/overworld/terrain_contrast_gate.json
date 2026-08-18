@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:mul",
+  "left": {
+    "type": "minecraft:spline",
+    "spline": {
+      "coordinate": "minecraft:overworld/continents",
+      "points": [
+        { "location": -0.25, "value": 0.0, "derivative": 0.0 },
+        { "location": -0.18, "value": 1.0, "derivative": 0.0 },
+        { "location": 1.1, "value": 1.0, "derivative": 0.0 }
+      ]
+    }
+  },
+  "right": {
+    "type": "minecraft:add",
+    "left": 1.0,
+    "right": {
+      "type": "minecraft:mul",
+      "left": -1.0,
+      "right": {
+        "type": "minecraft:mul",
+        "left": {
+          "type": "minecraft:spline",
+          "spline": {
+            "coordinate": "compromise:overworld/temperature",
+            "points": [
+              { "location": 0.25, "value": 0.0, "derivative": 0.0 },
+              { "location": 0.35, "value": 1.0, "derivative": 0.0 },
+              { "location": 1.1, "value": 1.0, "derivative": 0.0 }
+            ]
+          }
+        },
+        "right": {
+          "type": "minecraft:spline",
+          "spline": {
+            "coordinate": "compromise:overworld/vegetation",
+            "points": [
+              { "location": -1.1, "value": 1.0, "derivative": 0.0 },
+              { "location": -0.3, "value": 1.0, "derivative": 0.0 },
+              { "location": -0.2, "value": 0.0, "derivative": 0.0 },
+              { "location": 1.1, "value": 0.0, "derivative": 0.0 }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

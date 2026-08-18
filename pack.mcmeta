@@ -9,6 +9,14 @@
     },
     "description": "The classic and new look of Minecraft"
   },
+  "filter": {
+    "block": [
+      {
+        "namespace": "minecraft",
+        "path": "advancement/(story|nether|end|adventure|husbandry)/.*"
+      }
+    ]
+  },
   "overlays": {
     "entries": [
       {

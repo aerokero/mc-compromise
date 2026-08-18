@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:mul",
+  "left": "compromise:overworld/non_mountain_terrain_contrast_gate",
+  "right": {
+    "type": "minecraft:spline",
+    "spline": {
+      "coordinate": "minecraft:overworld/offset",
+      "points": [
+        { "location": -0.15, "value": 0.0, "derivative": 0.0 },
+        { "location": -0.05, "value": 0.0, "derivative": 0.0 },
+        { "location": 0.0, "value": -0.01, "derivative": 0.0 },
+        { "location": 0.1, "value": -0.09, "derivative": 0.0 },
+        { "location": 0.25, "value": -0.21, "derivative": 0.0 },
+        { "location": 0.4, "value": -0.31, "derivative": 0.0 },
+        { "location": 0.48, "value": -0.3, "derivative": 0.0 },
+        { "location": 0.55, "value": -0.05, "derivative": 0.0 },
+        { "location": 0.6, "value": 0.05, "derivative": 0.0 },
+        { "location": 0.8, "value": 0.08, "derivative": 0.0 },
+        { "location": 1.5, "value": 0.08, "derivative": 0.0 }
+      ]
+    }
+  }
+}

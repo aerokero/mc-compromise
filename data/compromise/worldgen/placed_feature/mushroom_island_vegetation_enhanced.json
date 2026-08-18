@@ -1,0 +1,8 @@
+{
+  "feature": "compromise:mushroom_island_vegetation_enhanced",
+  "placement": [
+    { "type": "minecraft:in_square" },
+    { "type": "minecraft:heightmap", "heightmap": "MOTION_BLOCKING" },
+    { "type": "minecraft:biome" }
+  ]
+}

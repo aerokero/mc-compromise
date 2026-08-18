@@ -1,5 +1,43 @@
 {
-  "aquifers_enabled": true,
+  "aquifers": {
+    "barrier": {
+      "type": "minecraft:noise",
+      "noise": "minecraft:aquifer_barrier",
+      "xz_scale": 1.0,
+      "y_scale": 0.5
+    },
+    "exclusion": {
+      "type": "minecraft:min",
+      "left": {
+        "type": "minecraft:sub",
+        "left": -0.225,
+        "right": "minecraft:overworld/erosion"
+      },
+      "right": {
+        "type": "minecraft:max",
+        "left": {
+          "type": "minecraft:sub",
+          "left": "minecraft:overworld/depth",
+          "right": 0.9
+        },
+        "right": 0.0
+      }
+    },
+    "fluid_level_floodedness": "compromise:overworld/fluid_level_floodedness",
+    "fluid_level_spread": {
+      "type": "minecraft:noise",
+      "noise": "minecraft:aquifer_fluid_level_spread",
+      "xz_scale": 1.0,
+      "y_scale": 0.7142857142857143
+    },
+    "lava": {
+      "type": "minecraft:noise",
+      "noise": "minecraft:aquifer_lava",
+      "xz_scale": 1.0,
+      "y_scale": 1.0
+    },
+    "surface_level": "minecraft:overworld/preliminary_surface_level"
+  },
   "default_block": {
     "id": "minecraft:stone"
   },
@@ -141,12 +179,6 @@
         "min": -40.0
       }
     },
-    "barrier": {
-      "type": "minecraft:noise",
-      "noise": "minecraft:aquifer_barrier",
-      "xz_scale": 1.0,
-      "y_scale": 0.5
-    },
     "continents": "minecraft:overworld/continents",
     "depth": "minecraft:overworld/depth",
     "erosion": "minecraft:overworld/erosion",
@@ -267,19 +299,6 @@
       },
       "right": "compromise:overworld/caves/noodle"
     },
-    "fluid_level_floodedness": "compromise:overworld/fluid_level_floodedness",
-    "fluid_level_spread": {
-      "type": "noise",
-      "noise": "minecraft:aquifer_fluid_level_spread",
-      "xz_scale": 1,
-      "y_scale": 0.7142857142857143
-    },
-    "lava": {
-      "type": "minecraft:noise",
-      "noise": "minecraft:aquifer_lava",
-      "xz_scale": 1.0,
-      "y_scale": 1.0
-    },
     "ridges": "minecraft:overworld/ridges",
     "temperature": {
       "type": "minecraft:shifted_noise",
@@ -298,76 +317,28 @@
       "shift_z": "minecraft:shift_z",
       "xz_scale": 0.25,
       "y_scale": 0.0
-    },
-    "vein_gap": {
-      "type": "minecraft:noise",
-      "noise": "minecraft:ore_gap",
-      "xz_scale": 1.0,
-      "y_scale": 1.0
-    },
-    "vein_ridged": {
-      "type": "minecraft:add",
-      "left": -0.07999999821186066,
-      "right": {
-        "type": "minecraft:max",
-        "left": {
-          "type": "minecraft:abs",
-          "input": {
-            "type": "minecraft:interpolated",
-            "input": {
-              "type": "minecraft:range_choice",
-              "input": "minecraft:y",
-              "max_exclusive": 51.0,
-              "min_inclusive": -60.0,
-              "when_in_range": {
-                "type": "minecraft:noise",
-                "noise": "minecraft:ore_vein_a",
-                "xz_scale": 4.0,
-                "y_scale": 4.0
-              },
-              "when_out_of_range": 0.0
-            }
-          }
-        },
-        "right": {
-          "type": "minecraft:abs",
-          "input": {
-            "type": "minecraft:interpolated",
-            "input": {
-              "type": "minecraft:range_choice",
-              "input": "minecraft:y",
-              "max_exclusive": 51.0,
-              "min_inclusive": -60.0,
-              "when_in_range": {
-                "type": "minecraft:noise",
-                "noise": "minecraft:ore_vein_b",
-                "xz_scale": 4.0,
-                "y_scale": 4.0
-              },
-              "when_out_of_range": 0.0
-            }
-          }
-        }
-      }
-    },
-    "vein_toggle": {
-      "type": "minecraft:interpolated",
-      "input": {
-        "type": "minecraft:range_choice",
-        "input": "minecraft:y",
-        "max_exclusive": 51.0,
-        "min_inclusive": -60.0,
-        "when_in_range": {
-          "type": "minecraft:noise",
-          "noise": "minecraft:ore_veininess",
-          "xz_scale": 1.5,
-          "y_scale": 1.5
-        },
-        "when_out_of_range": 0.0
-      }
     }
   },
-  "ore_veins_enabled": true,
+  "ore_veins": [
+    {
+      "density": "minecraft:overworld/ore_vein/copper_density",
+      "filler_block": "minecraft:granite",
+      "filler_gap": "minecraft:overworld/ore_vein/gap",
+      "ore_block": "minecraft:copper_ore",
+      "raw_ore_block": "minecraft:raw_copper_block",
+      "raw_ore_chance": 0.02,
+      "richness": "minecraft:overworld/ore_vein/richness"
+    },
+    {
+      "density": "minecraft:overworld/ore_vein/iron_density",
+      "filler_block": "minecraft:tuff",
+      "filler_gap": "minecraft:overworld/ore_vein/gap",
+      "ore_block": "minecraft:deepslate_iron_ore",
+      "raw_ore_block": "minecraft:raw_iron_block",
+      "raw_ore_chance": 0.02,
+      "richness": "minecraft:overworld/ore_vein/richness"
+    }
+  ],
   "sea_level": 63,
   "spawn_target": [
     {

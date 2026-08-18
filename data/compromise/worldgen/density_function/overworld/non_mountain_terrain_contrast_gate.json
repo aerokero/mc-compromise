@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:mul",
+  "left": "compromise:overworld/terrain_contrast_gate",
+  "right": {
+    "type": "minecraft:add",
+    "left": 1.0,
+    "right": {
+      "type": "minecraft:mul",
+      "left": -1.0,
+        "right": {
+          "type": "minecraft:max",
+          "left": "compromise:overworld/peak_gate",
+          "right": "compromise:overworld/beta_mountain_gate"
+        }
+    }
+  }
+}

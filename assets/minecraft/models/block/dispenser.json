@@ -1,11 +1,16 @@
 {
-  "parent": "minecraft:block/orientable_with_all_sides",
+  "parent": "minecraft:block/cube",
   "textures": {
+    "particle": "minecraft:block/dispenser_front",
     "front": "minecraft:block/dispenser_front",
     "east": "minecraft:block/dispenser_east",
     "west": "minecraft:block/dispenser_west",
     "top": "minecraft:block/dispenser_top",
     "back": "minecraft:block/dispenser_back",
-    "down":"minecraft:block/dispenser_bottom"
+    "bottom": "minecraft:block/dispenser_bottom",
+    "north": "#front",
+    "south": "#back",
+    "up": "#top",
+    "down": "#bottom"
   }
 }
