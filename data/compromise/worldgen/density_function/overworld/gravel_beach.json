@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:flat_cache",
+  "input": {
+    "type": "minecraft:cache_2d",
+    "input": {
+      "type": "minecraft:noise",
+      "noise": "compromise:gravel_beach",
+      "xz_scale": 1.0,
+      "y_scale": 0.0
+    }
+  }
+}
