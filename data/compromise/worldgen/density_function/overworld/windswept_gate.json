@@ -1,0 +1,171 @@
+{
+  "type": "minecraft:max",
+  "left": {
+    "type": "minecraft:mul",
+    "left": {
+      "type": "minecraft:spline",
+      "spline": {
+        "coordinate": "minecraft:overworld/continents",
+        "points": [
+          {
+            "location": -1.1,
+            "value": 0.0,
+            "derivative": 0.0
+          },
+          {
+            "location": -0.25,
+            "value": 0.0,
+            "derivative": 0.0
+          },
+          {
+            "location": -0.18,
+            "value": 1.0,
+            "derivative": 0.0
+          },
+          {
+            "location": 1.1,
+            "value": 1.0,
+            "derivative": 0.0
+          }
+        ]
+      }
+    },
+    "right": {
+      "type": "minecraft:spline",
+      "spline": {
+        "coordinate": "compromise:overworld/temperature",
+        "points": [
+          {
+            "location": -1.1,
+            "value": 0.0,
+            "derivative": 0.0
+          },
+          {
+            "location": -0.58,
+            "value": 0.0,
+            "derivative": 0.0
+          },
+          {
+            "location": -0.5,
+            "value": 1.0,
+            "derivative": 0.0
+          },
+          {
+            "location": -0.12,
+            "value": 1.0,
+            "derivative": 0.0
+          },
+          {
+            "location": -0.05,
+            "value": 0.0,
+            "derivative": 0.0
+          },
+          {
+            "location": 1.1,
+            "value": 0.0,
+            "derivative": 0.0
+          }
+        ]
+      }
+    }
+  },
+  "right": {
+    "type": "minecraft:mul",
+    "left": {
+      "type": "minecraft:spline",
+      "spline": {
+        "coordinate": "minecraft:overworld/erosion",
+        "points": [
+          {
+            "location": -1.1,
+            "value": 0.0,
+            "derivative": 0.0
+          },
+          {
+            "location": 0.38,
+            "value": 0.0,
+            "derivative": 0.0
+          },
+          {
+            "location": 0.44,
+            "value": 1.0,
+            "derivative": 0.0
+          },
+          {
+            "location": 0.56,
+            "value": 1.0,
+            "derivative": 0.0
+          },
+          {
+            "location": 0.62,
+            "value": 0.0,
+            "derivative": 0.0
+          },
+          {
+            "location": 1.1,
+            "value": 0.0,
+            "derivative": 0.0
+          }
+        ]
+      }
+    },
+    "right": {
+      "type": "minecraft:spline",
+      "spline": {
+        "coordinate": "minecraft:weirdness",
+        "points": [
+          {
+            "location": -1.1,
+            "value": 1.0,
+            "derivative": 0.0
+          },
+          {
+            "location": -0.74,
+            "value": 1.0,
+            "derivative": 0.0
+          },
+          {
+            "location": -0.68,
+            "value": 0.0,
+            "derivative": 0.0
+          },
+          {
+            "location": 0.02,
+            "value": 0.0,
+            "derivative": 0.0
+          },
+          {
+            "location": 0.06,
+            "value": 1.0,
+            "derivative": 0.0
+          },
+          {
+            "location": 0.26,
+            "value": 1.0,
+            "derivative": 0.0
+          },
+          {
+            "location": 0.3,
+            "value": 0.0,
+            "derivative": 0.0
+          },
+          {
+            "location": 0.7,
+            "value": 0.0,
+            "derivative": 0.0
+          },
+          {
+            "location": 0.76,
+            "value": 1.0,
+            "derivative": 0.0
+          },
+          {
+            "location": 1.1,
+            "value": 1.0,
+            "derivative": 0.0
+          }
+        ]
+      }
+    }
+  }
+}

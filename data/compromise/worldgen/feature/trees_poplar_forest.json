@@ -6,27 +6,27 @@
       "feature": "minecraft:fallen_poplar_tree"
     },
     {
-      "chance": 0.2,
+      "chance": 0.25,
       "feature": "minecraft:yellow_poplar"
     },
     {
-      "chance": 0.2,
+      "chance": 0.25,
       "feature": "minecraft:orange_poplar"
     },
     {
-      "chance": 0.2,
+      "chance": 0.25,
       "feature": "minecraft:red_poplar"
     },
     {
-      "chance": 0.12,
+      "chance": 0.05,
       "feature": "compromise:fancy_yellow_poplar"
     },
     {
-      "chance": 0.12,
+      "chance": 0.05,
       "feature": "compromise:fancy_orange_poplar"
     },
     {
-      "chance": 0.12,
+      "chance": 0.05,
       "feature": "compromise:fancy_red_poplar"
     }
   ],

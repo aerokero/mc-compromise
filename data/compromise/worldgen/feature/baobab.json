@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:tree",
+  "decorators": [],
+  "ignore_vines": true,
+  "below_trunk_provider": {
+    "type": "minecraft:simple_state_provider",
+    "state": {
+      "id": "minecraft:dirt"
+    }
+  },
+  "minimum_size": {
+    "limit": 0,
+    "lower_size": 0,
+    "upper_size": 0,
+    "min_clipped_height": 4,
+    "type": "minecraft:two_layers_feature_size"
+  },
+  "trunk_provider": {
+    "type": "minecraft:simple_state_provider",
+    "state": {
+      "id": "minecraft:acacia_log",
+      "properties": {
+        "axis": "y"
+      }
+    }
+  },
+  "trunk_placer": {
+    "type": "minecraft:mega_jungle_trunk_placer",
+    "base_height": 10,
+    "height_rand_a": 3,
+    "height_rand_b": 2
+  },
+  "foliage_provider": {
+    "type": "minecraft:simple_state_provider",
+    "state": {
+      "id": "minecraft:acacia_leaves",
+      "properties": {
+        "persistent": "false",
+        "distance": "7"
+      }
+    }
+  },
+  "foliage_placer": {
+    "type": "minecraft:jungle_foliage_placer",
+    "radius": 3,
+    "offset": 1,
+    "height": 3
+  }
+}

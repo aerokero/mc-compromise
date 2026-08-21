@@ -1086,7 +1086,7 @@
                               "derivative": 0
                             },
                             {
-                              "location": -0.6,
+                              "location": 0.6,
                               "value": {
                                 "coordinate": "compromise:overworld/vegetation",
                                 "points": [
@@ -1228,7 +1228,7 @@
                               "derivative": 0
                             },
                             {
-                              "location": -0.8,
+                              "location": 0.8,
                               "value": {
                                 "coordinate": "compromise:overworld/vegetation",
                                 "points": [
@@ -2474,7 +2474,7 @@
                               "derivative": 0
                             },
                             {
-                              "location": -0.6,
+                              "location": 0.6,
                               "value": {
                                 "coordinate": "compromise:overworld/vegetation",
                                 "points": [

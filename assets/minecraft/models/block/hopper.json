@@ -1,12 +1,12 @@
 {
 	"credit": "Created by Stridey",
 	"ambientocclusion": false,
-	"textures": {
-		"top": "block/hopper_top",
-		"side": "block/hopper_outside",
-		"inside": "block/hopper_inside",
-		"particle": "block/break/hopper"
-	},
+    "textures": {
+        "top": "block/hopper_top",
+        "side": "block/hopper_outside",
+        "inside": "block/hopper_inside",
+        "particle": "block/hopper_inside"
+    },
 	"elements": [
 		{
 			"from": [0, 10, 0],

@@ -8,3 +8,4 @@ function main:particle/riding_boat
 function main:stopwatches
 function main:environmental/village_eerie_sound
 function main:mechanic/hoe_wear/tick
+execute as @a[tag=compromise_baobab_check] at @s run function main:mechanic/scan_baobab

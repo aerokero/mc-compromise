@@ -1,6 +1,6 @@
 {
     "textures": {
-        "particle": "block/break/composter",
+        "particle": "block/composter_compost",
         "inside": "block/composter_compost"
     },
     "elements": [
