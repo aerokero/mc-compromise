@@ -1,4 +1,7 @@
-# Drain the bar toward 4.5 points (9 half-icons). This leaves food usable at
-# all times without relying on player-NBT writes, which are blocked here.
-execute as @a run effect clear @s minecraft:hunger
+# Maintain hunger bar at strictly 9 half-icons (4.5 drumsticks) so food is always consumable
+execute as @a[scores={hungerLevel=..8}] run effect give @s minecraft:saturation 1 0 true
+execute as @a[scores={hungerLevel=9..}] run effect clear @s minecraft:saturation
+
 execute as @a[scores={hungerLevel=10..}] run effect give @s minecraft:hunger 1 40 true
+execute as @a[scores={hungerLevel=..9}] run effect clear @s minecraft:hunger
+
