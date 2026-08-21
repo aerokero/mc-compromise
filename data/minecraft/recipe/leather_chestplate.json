@@ -2,14 +2,33 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "#": "#main:never"
+    "X": "minecraft:rotten_flesh"
   },
   "pattern": [
-    "###",
-    "###",
-    "###"
+    "X X",
+    "XXX",
+    "XXX"
   ],
   "result": {
-    "id": "minecraft:leather_chestplate"
+    "count": 1,
+    "id": "minecraft:leather_chestplate",
+    "components": {
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:safe_fall_distance",
+          "id": "leather_chestplate",
+          "amount": 1.0,
+          "operation": "add_value",
+          "slot": "chest"
+        },
+        {
+          "type": "minecraft:armor",
+          "id": "armor_chestplate",
+          "amount": 3.0,
+          "operation": "add_value",
+          "slot": "chest"
+        }
+      ]
+    }
   }
 }

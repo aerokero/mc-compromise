@@ -19,19 +19,19 @@
   ],
   "rewards": {
     "recipes": [
-      "crafting:copper_helmet",
-      "crafting:copper_chestplate",
-      "crafting:copper_leggings",
-      "crafting:copper_boots",
-      "crafting:copper_pickaxe",
-      "crafting:copper_axe",
-      "crafting:copper_shovel",
-      "crafting:copper_hoe",
-      "crafting:copper_sword",
+      "minecraft:copper_helmet",
+      "minecraft:copper_chestplate",
+      "minecraft:copper_leggings",
+      "minecraft:copper_boots",
+      "minecraft:copper_pickaxe",
+      "minecraft:copper_axe",
+      "minecraft:copper_shovel",
+      "minecraft:copper_hoe",
+      "minecraft:copper_sword",
       "crafting:copper_mattock",
       "crafting:copper_dolabra",
       "crafting:copper_shears",
-      "crafting:copper_spear",
+      "minecraft:copper_spear",
       "crafting:bell"
     ]
   }

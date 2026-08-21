@@ -2,10 +2,10 @@
   "pack": {
     "pack_format": 96,
     "min_format": 34,
-    "max_format": 116,
+    "max_format": 120,
     "supported_formats": {
       "min_inclusive": 34,
-      "max_inclusive": 116
+      "max_inclusive": 120
     },
     "description": "The classic and new look of Minecraft"
   },
@@ -31,37 +31,37 @@
       {
         "formats": {
           "min_inclusive": 46,
-          "max_inclusive": 116
+          "max_inclusive": 120
         },
         "min_format": 46,
-        "max_format": 116,
+        "max_format": 120,
         "directory": "overlay_46"
       },
       {
         "formats": {
           "min_inclusive": 55,
-          "max_inclusive": 116
+          "max_inclusive": 120
         },
         "min_format": 55,
-        "max_format": 116,
+        "max_format": 120,
         "directory": "overlay_55"
       },
       {
         "formats": {
           "min_inclusive": 69,
-          "max_inclusive": 116
+          "max_inclusive": 120
         },
         "min_format": 69,
-        "max_format": 116,
+        "max_format": 120,
         "directory": "overlay_69"
       },
       {
         "formats": {
           "min_inclusive": 84,
-          "max_inclusive": 116
+          "max_inclusive": 120
         },
         "min_format": 84,
-        "max_format": 116,
+        "max_format": 120,
         "directory": "overlay_84"
       }
     ]

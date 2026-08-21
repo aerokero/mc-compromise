@@ -7,23 +7,15 @@
   },
   "structures": [
     {
-      "structure": "minecraft:ruined_portal",
-      "weight": 1
-    },
-    {
-      "structure": "minecraft:ruined_portal_desert",
-      "weight": 1
-    },
-    {
-      "structure": "minecraft:ruined_portal_jungle",
-      "weight": 1
-    },
-    {
-      "structure": "minecraft:ruined_portal_swamp",
-      "weight": 1
-    },
-    {
       "structure": "minecraft:ruined_portal_mountain",
+      "weight": 1
+    },
+    {
+      "structure": "minecraft:ruined_portal_ocean",
+      "weight": 1
+    },
+    {
+      "structure": "minecraft:ruined_portal_underground",
       "weight": 1
     },
     {

@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipes": "crafting:golden_pickaxe"
+        "recipes": "minecraft:golden_pickaxe"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,16 +26,16 @@
   ],
   "rewards": {
     "recipes": [
-      "crafting:golden_pickaxe",
-      "crafting:golden_axe",
-      "crafting:golden_shovel",
-      "crafting:golden_hoe",
-      "crafting:golden_sword",
-      "crafting:golden_spear",
-      "crafting:golden_helmet",
-      "crafting:golden_chestplate",
-      "crafting:golden_leggings",
-      "crafting:golden_boots"
+      "minecraft:golden_pickaxe",
+      "minecraft:golden_axe",
+      "minecraft:golden_shovel",
+      "minecraft:golden_hoe",
+      "minecraft:golden_sword",
+      "minecraft:golden_spear",
+      "minecraft:golden_helmet",
+      "minecraft:golden_chestplate",
+      "minecraft:golden_leggings",
+      "minecraft:golden_boots"
     ]
   }
 }

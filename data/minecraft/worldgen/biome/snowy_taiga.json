@@ -25,12 +25,9 @@
     [
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",
-      "compromise:ore_granite_upper",
-      "compromise:ore_granite_lower",
-      "compromise:ore_diorite_upper",
-      "compromise:ore_diorite_lower",
-      "compromise:ore_andesite_upper",
-      "compromise:ore_andesite_lower",
+      "minecraft:ore_granite_lower",
+      "minecraft:ore_diorite_lower",
+      "minecraft:ore_andesite_lower",
       "minecraft:ore_tuff",
       "minecraft:ore_coal_upper",
       "minecraft:ore_coal_lower",
@@ -67,7 +64,7 @@
       "minecraft:patch_pumpkin",
       "minecraft:patch_sugar_cane",
       "minecraft:patch_firefly_bush_near_water",
-      "minecraft:patch_berry_rare"
+      "minecraft:patch_berry_common"
     ],
     [
       "minecraft:freeze_top_layer"

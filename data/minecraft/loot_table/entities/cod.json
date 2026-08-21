@@ -10,58 +10,36 @@
           "name": "minecraft:cooked_cod",
           "conditions": [
             {
-              "type": "minecraft:any_of",
-              "terms": [
-                {
-                  "type": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "minecraft:flags": {
-                      "is_on_fire": true
-                    }
-                  }
-                },
-                {
-                  "type": "minecraft:entity_properties",
-                  "entity": "direct_attacker",
-                  "predicate": {
-                    "minecraft:equipment": {
-                      "mainhand": {
-                        "predicates": {
-                          "minecraft:enchantments": [
-                            {
-                              "enchantments": "#minecraft:smelts_loot"
-                            }
-                          ]
-                        }
-                      }
-                    }
-                  }
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "flags": {
+                  "is_on_fire": true
                 }
-              ]
+              }
             }
           ],
-          "modifier": [
+          "functions": [
             {
-              "type": "minecraft:set_count",
+              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 1,
-                "max": 1
+                "min": 1.0,
+                "max": 1.0
               },
               "add": false
             },
             {
-              "type": "minecraft:enchanted_count_increase",
+              "function": "minecraft:enchanted_count_increase",
               "enchantment": "minecraft:looting",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 0,
-                "max": 1
+                "min": 0.0,
+                "max": 1.0
               }
             },
             {
-              "type": "minecraft:set_components",
+              "function": "minecraft:set_components",
               "components": {
                 "minecraft:food": {
                   "nutrition": 0,
@@ -81,7 +59,7 @@
                           "show_icon": false
                         }
                       ],
-                      "probability": 1
+                      "probability": 1.0
                     }
                   ]
                 },
@@ -107,61 +85,39 @@
           "name": "minecraft:cod",
           "conditions": [
             {
-              "type": "minecraft:inverted",
+              "condition": "minecraft:inverted",
               "term": {
-                "type": "minecraft:any_of",
-                "terms": [
-                  {
-                    "type": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "minecraft:flags": {
-                        "is_on_fire": true
-                      }
-                    }
-                  },
-                  {
-                    "type": "minecraft:entity_properties",
-                    "entity": "direct_attacker",
-                    "predicate": {
-                      "minecraft:equipment": {
-                        "mainhand": {
-                          "predicates": {
-                            "minecraft:enchantments": [
-                              {
-                                "enchantments": "#minecraft:smelts_loot"
-                              }
-                            ]
-                          }
-                        }
-                      }
-                    }
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "flags": {
+                    "is_on_fire": true
                   }
-                ]
+                }
               }
             }
           ],
-          "modifier": [
+          "functions": [
             {
-              "type": "minecraft:set_count",
+              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 1,
-                "max": 1
+                "min": 1.0,
+                "max": 1.0
               },
               "add": false
             },
             {
-              "type": "minecraft:enchanted_count_increase",
+              "function": "minecraft:enchanted_count_increase",
               "enchantment": "minecraft:looting",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 0,
-                "max": 1
+                "min": 0.0,
+                "max": 1.0
               }
             },
             {
-              "type": "minecraft:set_components",
+              "function": "minecraft:set_components",
               "components": {
                 "minecraft:food": {
                   "nutrition": 0,
@@ -176,12 +132,12 @@
                         {
                           "id": "minecraft:regeneration",
                           "amplifier": 2,
-                          "duration": 20,
+                          "duration": 15,
                           "show_particles": false,
                           "show_icon": false
                         }
                       ],
-                      "probability": 1
+                      "probability": 1.0
                     }
                   ]
                 },
@@ -206,16 +162,36 @@
     {
       "rolls": 1,
       "bonus_rolls": 0,
-      "conditions": [
-        {
-          "type": "minecraft:random_chance",
-          "chance": 0.05
-        }
-      ],
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:bone_meal"
+          "name": "minecraft:bone_meal",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.05
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 2.0
+              },
+              "add": false
+            },
+            {
+              "function": "minecraft:enchanted_count_increase",
+              "enchantment": "minecraft:looting",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0.0,
+                "max": 1.0
+              }
+            }
+          ]
         }
       ]
     }

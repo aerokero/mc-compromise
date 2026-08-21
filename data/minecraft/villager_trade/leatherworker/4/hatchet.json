@@ -1,75 +1,48 @@
 {
-	"wants": {
-		"id": "minecraft:emerald"
-	},
-	"gives": {
-		"id": "minecraft:iron_axe",
-		"components": {
-			"minecraft:item_model": "minecraft:bloodrage_hatchet",
-			"minecraft:attribute_modifiers": [
-				{
-					"type": "minecraft:attack_damage",
-					"id": "attack_damage",
-					"amount": 8,
-					"operation": "add_value",
-					"slot": "mainhand"
-				},
-				{
-					"type": "minecraft:attack_speed",
-					"id": "attack_speed",
-					"amount": -3,
-					"operation": "add_value",
-					"slot": "mainhand"
-				}
-			],
-			"minecraft:tool": {
-				"rules": [
-					{
-						"blocks": "#minecraft:mineable/axe",
-						"speed": 10
-					}
-				],
-				"default_mining_speed": 1,
-				"damage_per_block": 1
-			},
-			"minecraft:item_name": {
-				"translate": "item.minecraft.hatchet",
-				"color": "white"
-			},
-			"minecraft:tooltip_display": {
-				"hidden_components": [
-					"minecraft:attribute_modifiers"
-				]
-			},
-			"minecraft:lore": [
-				{
-					"text": "When in Main Hand:",
-					"color": "gray",
-					"italic": false
-				},
-				{
-					"text": "+10 Mining Speed",
-					"color": "blue",
-					"italic": false
-				},
-				{
-					"text": "+9 Attack Damage",
-					"color": "dark_green",
-					"italic": false
-				},
-				{
-					"text": "+1 Attack Speed",
-					"color": "dark_green",
-					"italic": false
-				}
-			],
-			"minecraft:enchantments": {
-				"main:bloodrage": 1
-			},
-			"minecraft:enchantment_glint_override": false
-		}
-	},
-	"max_uses": 999,
-	"reputation_discount": 0,
-	"xp": 60
+  "wants": {
+    "id": "minecraft:emerald"
+  },
+  "gives": {
+    "id": "minecraft:iron_axe",
+    "components": {
+      "minecraft:item_model": "minecraft:bloodrage_hatchet",
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:attack_damage",
+          "id": "attack_damage",
+          "amount": 8,
+          "operation": "add_value",
+          "slot": "mainhand"
+        },
+        {
+          "type": "minecraft:attack_speed",
+          "id": "attack_speed",
+          "amount": -3,
+          "operation": "add_value",
+          "slot": "mainhand"
+        }
+      ],
+      "minecraft:tool": {
+        "rules": [
+          {
+            "blocks": "#minecraft:mineable/axe",
+            "speed": 10
+          }
+        ],
+        "default_mining_speed": 1,
+        "damage_per_block": 1
+      },
+      "minecraft:item_name": {
+        "translate": "item.minecraft.hatchet",
+        "color": "white"
+      },
+      "minecraft:enchantments": {
+        "main:bloodrage": 1
+      },
+      "minecraft:enchantment_glint_override": false
+    }
+  },
+  "max_uses": 999,
+  "reputation_discount": 0,
+  "xp": 60
 }

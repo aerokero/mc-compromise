@@ -28,12 +28,9 @@
     [
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",
-      "compromise:ore_granite_upper",
-      "compromise:ore_granite_lower",
-      "compromise:ore_diorite_upper",
-      "compromise:ore_diorite_lower",
-      "compromise:ore_andesite_upper",
-      "compromise:ore_andesite_lower",
+      "minecraft:ore_granite_lower",
+      "minecraft:ore_diorite_lower",
+      "minecraft:ore_andesite_lower",
       "minecraft:ore_tuff",
       "minecraft:ore_coal_upper",
       "minecraft:ore_coal_lower",
@@ -90,12 +87,36 @@
         "spawn_costs": {},
         "spawns_by_category": {
           "monster": [
-            { "type": "minecraft:spider", "count": 4, "weight": 100 },
-            { "type": "minecraft:zombie", "count": 4, "weight": 95 },
-            { "type": "minecraft:zombie_villager", "count": 1, "weight": 5 },
-            { "type": "minecraft:skeleton", "count": 4, "weight": 100 },
-            { "type": "minecraft:creeper", "count": 4, "weight": 100 },
-            { "type": "minecraft:slime", "count": 4, "weight": 100 },
+            {
+              "type": "minecraft:spider",
+              "count": 4,
+              "weight": 100
+            },
+            {
+              "type": "minecraft:zombie",
+              "count": 4,
+              "weight": 95
+            },
+            {
+              "type": "minecraft:zombie_villager",
+              "count": 1,
+              "weight": 5
+            },
+            {
+              "type": "minecraft:skeleton",
+              "count": 4,
+              "weight": 100
+            },
+            {
+              "type": "minecraft:creeper",
+              "count": 4,
+              "weight": 100
+            },
+            {
+              "type": "minecraft:slime",
+              "count": 4,
+              "weight": 100
+            },
             {
               "type": "minecraft:enderman",
               "count": {
@@ -105,13 +126,33 @@
               },
               "weight": 10
             },
-            { "type": "minecraft:witch", "count": 1, "weight": 5 }
+            {
+              "type": "minecraft:witch",
+              "count": 1,
+              "weight": 5
+            }
           ],
           "creature": [
-            { "type": "minecraft:sheep", "count": 4, "weight": 12 },
-            { "type": "minecraft:pig", "count": 4, "weight": 10 },
-            { "type": "minecraft:chicken", "count": 4, "weight": 10 },
-            { "type": "minecraft:cow", "count": 4, "weight": 8 },
+            {
+              "type": "minecraft:sheep",
+              "count": 4,
+              "weight": 12
+            },
+            {
+              "type": "minecraft:pig",
+              "count": 4,
+              "weight": 10
+            },
+            {
+              "type": "minecraft:chicken",
+              "count": 4,
+              "weight": 10
+            },
+            {
+              "type": "minecraft:cow",
+              "count": 4,
+              "weight": 8
+            },
             {
               "type": "minecraft:rabbit",
               "count": {
@@ -132,7 +173,11 @@
             }
           ],
           "ambient": [
-            { "type": "minecraft:bat", "count": 8, "weight": 10 }
+            {
+              "type": "minecraft:bat",
+              "count": 8,
+              "weight": 10
+            }
           ],
           "underground_water_creature": [
             {

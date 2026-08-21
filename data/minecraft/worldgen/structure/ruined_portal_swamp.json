@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:ruined_portal",
+  "biomes": [],
+  "setups": [],
+  "spawn_overrides": {},
+  "step": "surface_structures",
+  "terrain_adaptation": "none"
+}

@@ -2,14 +2,32 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "#": "#main:never"
+    "X": "minecraft:rotten_flesh"
   },
   "pattern": [
-    "###",
-    "###",
-    "###"
+    "X X",
+    "X X"
   ],
   "result": {
-    "id": "minecraft:leather_boots"
+    "count": 1,
+    "id": "minecraft:leather_boots",
+    "components": {
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:safe_fall_distance",
+          "id": "leather_boots",
+          "amount": 1.0,
+          "operation": "add_value",
+          "slot": "feet"
+        },
+        {
+          "type": "minecraft:armor",
+          "id": "armor_boots",
+          "amount": 1.0,
+          "operation": "add_value",
+          "slot": "feet"
+        }
+      ]
+    }
   }
 }

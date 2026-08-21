@@ -2,14 +2,15 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": "#main:never"
+    "#": "#minecraft:stone_tool_materials"
   },
   "pattern": [
     "###",
-    "###",
+    "# #",
     "###"
   ],
   "result": {
+    "count": 1,
     "id": "minecraft:furnace"
   }
 }

@@ -11,72 +11,46 @@
     " # "
   ],
   "result": {
+    "count": 1,
+    "id": "minecraft:diamond_hoe",
     "components": {
+      "minecraft:item_name": {
+        "translate": "item.minecraft.diamond_mattock"
+      },
+      "minecraft:item_model": "minecraft:diamond_mattock",
+      "minecraft:max_damage": 2500,
       "minecraft:tool": {
         "rules": [
           {
             "blocks": "#minecraft:mineable/hoe",
-            "speed": 8,
+            "speed": 8.0,
             "correct_for_drops": true
           },
           {
             "blocks": "#minecraft:mineable/shovel",
-            "speed": 8
+            "speed": 8.0,
+            "correct_for_drops": true
           }
         ],
-        "default_mining_speed": 1,
+        "default_mining_speed": 1.0,
         "damage_per_block": 1
-      },
-      "minecraft:item_name": {
-        "translate": "item.minecraft.diamond_mattock"
-      },
-      "minecraft:max_damage": 2500,
-      "minecraft:item_model": "minecraft:diamond_mattock",
-      "minecraft:lore": [
-        {
-          "text": "When in Main Hand:",
-          "color": "gray",
-          "italic": false
-        },
-        {
-          "text": "+8 Mining Speed",
-          "color": "blue",
-          "italic": false
-        },
-        {
-          "text": "+4 Attack Damage",
-          "color": "dark_green",
-          "italic": false
-        },
-        {
-          "text": "+3 Attack Speed",
-          "color": "dark_green",
-          "italic": false
-        }
-      ],
-      "minecraft:tooltip_display": {
-        "hidden_components": [
-          "minecraft:attribute_modifiers"
-        ]
       },
       "minecraft:attribute_modifiers": [
         {
           "type": "minecraft:attack_damage",
           "id": "attack_damage",
-          "amount": 3,
+          "amount": 3.0,
           "operation": "add_value",
           "slot": "mainhand"
         },
         {
           "type": "minecraft:attack_speed",
           "id": "attack_speed",
-          "amount": -1,
+          "amount": -1.0,
           "operation": "add_value",
           "slot": "mainhand"
         }
       ]
-    },
-    "count": 1,
-    "id": "minecraft:diamond_hoe"
+    }
   }
 }

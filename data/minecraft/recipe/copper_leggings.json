@@ -2,12 +2,12 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "#": "#main:never"
+    "X": "minecraft:copper_ingot"
   },
   "pattern": [
-    "###",
-    "###",
-    "###"
+    "XXX",
+    "X X",
+    "X X"
   ],
   "result": {
     "id": "minecraft:copper_leggings"

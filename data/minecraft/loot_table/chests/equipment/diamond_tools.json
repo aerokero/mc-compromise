@@ -21,33 +21,6 @@
                   ],
                   "default_mining_speed": 1,
                   "damage_per_block": 1
-                },
-                "minecraft:lore": [
-                  {
-                    "text": "When in Main Hand:",
-                    "color": "gray",
-                    "italic": false
-                  },
-                  {
-                    "text": "+9 Mining Speed",
-                    "color": "blue",
-                    "italic": false
-                  },
-                  {
-                    "text": "+5 Attack Damage",
-                    "color": "dark_green",
-                    "italic": false
-                  },
-                  {
-                    "text": "+1.2 Attack Speed",
-                    "color": "dark_green",
-                    "italic": false
-                  }
-                ],
-                "minecraft:tooltip_display": {
-                  "hidden_components": [
-                    "minecraft:attribute_modifiers"
-                  ]
                 }
               }
             },
@@ -75,33 +48,6 @@
                   ],
                   "default_mining_speed": 1,
                   "damage_per_block": 1
-                },
-                "minecraft:lore": [
-                  {
-                    "text": "When in Main Hand:",
-                    "color": "gray",
-                    "italic": false
-                  },
-                  {
-                    "text": "+9 Mining Speed",
-                    "color": "blue",
-                    "italic": false
-                  },
-                  {
-                    "text": "+9 Attack Damage",
-                    "color": "dark_green",
-                    "italic": false
-                  },
-                  {
-                    "text": "+1 Attack Speed",
-                    "color": "dark_green",
-                    "italic": false
-                  }
-                ],
-                "minecraft:tooltip_display": {
-                  "hidden_components": [
-                    "minecraft:attribute_modifiers"
-                  ]
                 }
               }
             },
@@ -129,33 +75,6 @@
                   ],
                   "default_mining_speed": 1,
                   "damage_per_block": 1
-                },
-                "minecraft:lore": [
-                  {
-                    "text": "When in Main Hand:",
-                    "color": "gray",
-                    "italic": false
-                  },
-                  {
-                    "text": "+9 Mining Speed",
-                    "color": "blue",
-                    "italic": false
-                  },
-                  {
-                    "text": "+5.5 Attack Damage",
-                    "color": "dark_green",
-                    "italic": false
-                  },
-                  {
-                    "text": "+1 Attack Speed",
-                    "color": "dark_green",
-                    "italic": false
-                  }
-                ],
-                "minecraft:tooltip_display": {
-                  "hidden_components": [
-                    "minecraft:attribute_modifiers"
-                  ]
                 }
               }
             },
@@ -183,33 +102,6 @@
                   ],
                   "default_mining_speed": 1,
                   "damage_per_block": 1
-                },
-                "minecraft:lore": [
-                  {
-                    "text": "When in Main Hand:",
-                    "color": "gray",
-                    "italic": false
-                  },
-                  {
-                    "text": "+9 Mining Speed",
-                    "color": "blue",
-                    "italic": false
-                  },
-                  {
-                    "text": "+1 Attack Damage",
-                    "color": "dark_green",
-                    "italic": false
-                  },
-                  {
-                    "text": "+4 Attack Speed",
-                    "color": "dark_green",
-                    "italic": false
-                  }
-                ],
-                "minecraft:tooltip_display": {
-                  "hidden_components": [
-                    "minecraft:attribute_modifiers"
-                  ]
                 }
               }
             },

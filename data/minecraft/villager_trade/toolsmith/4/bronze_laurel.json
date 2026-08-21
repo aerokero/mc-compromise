@@ -1,69 +1,47 @@
 {
-	"wants": {
-		"id": "minecraft:emerald",
-		"count": 10
-	},
-	"additional_wants": {
-		"id": "minecraft:phantom_membrane",
-		"components": {},
-		"count": 2
-	},
-	"gives": {
-		"id": "minecraft:copper_helmet",
-		"components": {
-			"minecraft:max_damage": 250,
-			"minecraft:lore": [
-				{
-					"text": "When on Head:",
-					"color": "gray",
-					"italic": false
-				},
-				{
-					"text": "+1 Armor",
-					"color": "dark_green",
-					"italic": false
-				},
-				{
-					"text": "+0.02 Speed",
-					"color": "dark_green",
-					"italic": false
-				}
-			],
-			"minecraft:item_name": {
-				"translate": "item.minecraft.bronze_laurel",
-				"color": "#ac7b5c"
-			},
-			"minecraft:attribute_modifiers": [
-				{
-					"type": "minecraft:movement_speed",
-					"id": "bronze_helmet",
-					"amount": 0.02,
-					"operation": "add_value",
-					"slot": "head"
-				},
-				{
-					"type": "minecraft:armor",
-					"id": "minecraft:armor.helmet",
-					"amount": 1,
-					"operation": "add_value",
-					"slot": "head"
-				}
-			],
-			"minecraft:tooltip_display": {
-				"hidden_components": [
-					"minecraft:attribute_modifiers"
-				]
-			},
-			"minecraft:item_model": "minecraft:bronze_laurel",
-			"minecraft:equippable": {
-				"slot": "head",
-				"asset_id": "minecraft:bronze_laurel"
-			},
-			"minecraft:unbreakable": {}
-		},
-		"count": 1
-	},
-	"max_uses": 999,
-	"reputation_discount": 0,
-	"xp": 250
+  "wants": {
+    "id": "minecraft:emerald",
+    "count": 10
+  },
+  "additional_wants": {
+    "id": "minecraft:phantom_membrane",
+    "components": {},
+    "count": 2
+  },
+  "gives": {
+    "id": "minecraft:copper_helmet",
+    "components": {
+      "minecraft:max_damage": 250,
+      "minecraft:item_name": {
+        "translate": "item.minecraft.bronze_laurel",
+        "color": "#ac7b5c"
+      },
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:movement_speed",
+          "id": "bronze_helmet",
+          "amount": 0.02,
+          "operation": "add_value",
+          "slot": "head"
+        },
+        {
+          "type": "minecraft:armor",
+          "id": "minecraft:armor.helmet",
+          "amount": 1,
+          "operation": "add_value",
+          "slot": "head"
+        }
+      ],
+      "minecraft:item_model": "minecraft:bronze_laurel",
+      "minecraft:equippable": {
+        "slot": "head",
+        "asset_id": "minecraft:bronze_laurel"
+      },
+      "minecraft:unbreakable": {}
+    },
+    "count": 1
+  },
+  "max_uses": 999,
+  "reputation_discount": 0,
+  "xp": 250
 }

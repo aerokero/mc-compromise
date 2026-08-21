@@ -2,14 +2,16 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": "#main:never"
+    "#": "#minecraft:logs",
+    "X": "minecraft:furnace"
   },
   "pattern": [
-    "###",
-    "###",
-    "###"
+    " # ",
+    "#X#",
+    " # "
   ],
   "result": {
+    "count": 1,
     "id": "minecraft:smoker"
   }
 }

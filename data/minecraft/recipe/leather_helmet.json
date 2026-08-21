@@ -2,14 +2,32 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "#": "#main:never"
+    "X": "minecraft:rotten_flesh"
   },
   "pattern": [
-    "###",
-    "###",
-    "###"
+    "XXX",
+    "X X"
   ],
   "result": {
-    "id": "minecraft:leather_helmet"
+    "count": 1,
+    "id": "minecraft:leather_helmet",
+    "components": {
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:safe_fall_distance",
+          "id": "leather_helmet",
+          "amount": 1.0,
+          "operation": "add_value",
+          "slot": "head"
+        },
+        {
+          "type": "minecraft:armor",
+          "id": "armor_helmet",
+          "amount": 1.0,
+          "operation": "add_value",
+          "slot": "head"
+        }
+      ]
+    }
   }
 }

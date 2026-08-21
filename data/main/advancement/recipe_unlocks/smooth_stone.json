@@ -19,7 +19,7 @@
   ],
   "rewards": {
     "recipes": [
-      "crafting:blast_furnace"
+      "minecraft:blast_furnace"
     ]
   }
 }

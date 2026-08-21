@@ -19,18 +19,18 @@
   ],
   "rewards": {
     "recipes": [
-      "crafting:diamond_pickaxe",
-      "crafting:diamond_axe",
-      "crafting:diamond_shovel",
-      "crafting:diamond_hoe",
-      "crafting:diamond_sword",
-      "crafting:diamond_helmet",
-      "crafting:diamond_chestplate",
-      "crafting:diamond_leggings",
-      "crafting:diamond_boots",
+      "minecraft:diamond_pickaxe",
+      "minecraft:diamond_axe",
+      "minecraft:diamond_shovel",
+      "minecraft:diamond_hoe",
+      "minecraft:diamond_sword",
+      "minecraft:diamond_helmet",
+      "minecraft:diamond_chestplate",
+      "minecraft:diamond_leggings",
+      "minecraft:diamond_boots",
       "crafting:diamond_mattock",
       "crafting:diamond_dolabra",
-      "crafting:diamond_spear"
+      "minecraft:diamond_spear"
     ]
   }
 }

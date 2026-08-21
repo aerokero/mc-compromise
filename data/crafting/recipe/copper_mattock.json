@@ -3,7 +3,7 @@
   "category": "equipment",
   "key": {
     "#": "minecraft:stick",
-    "X": "copper_ingot"
+    "X": "minecraft:copper_ingot"
   },
   "pattern": [
     "XX ",
@@ -11,56 +11,46 @@
     " # "
   ],
   "result": {
+    "count": 1,
+    "id": "minecraft:copper_hoe",
     "components": {
       "minecraft:item_name": {
         "translate": "item.minecraft.copper_mattock"
       },
+      "minecraft:item_model": "minecraft:copper_mattock",
+      "minecraft:max_damage": 350,
       "minecraft:tool": {
         "rules": [
           {
             "blocks": "#minecraft:mineable/hoe",
-            "speed": 5,
+            "speed": 5.0,
             "correct_for_drops": true
           },
           {
             "blocks": "#minecraft:mineable/shovel",
-            "speed": 5
+            "speed": 5.0,
+            "correct_for_drops": true
           }
         ],
-        "default_mining_speed": 1,
+        "default_mining_speed": 1.0,
         "damage_per_block": 1
       },
-      "minecraft:lore": [
+      "minecraft:attribute_modifiers": [
         {
-          "text": "When in Main Hand:",
-          "color": "gray",
-          "italic": false
+          "type": "minecraft:attack_damage",
+          "id": "attack_damage",
+          "amount": 0.0,
+          "operation": "add_value",
+          "slot": "mainhand"
         },
         {
-          "text": "+5 Mining Speed",
-          "color": "blue",
-          "italic": false
-        },
-        {
-          "text": "+1 Attack Damage",
-          "color": "dark_green",
-          "italic": false
-        },
-        {
-          "text": "+2 Attack Speed",
-          "color": "dark_green",
-          "italic": false
+          "type": "minecraft:attack_speed",
+          "id": "attack_speed",
+          "amount": -2.0,
+          "operation": "add_value",
+          "slot": "mainhand"
         }
-      ],
-      "minecraft:tooltip_display": {
-        "hidden_components": [
-          "minecraft:attribute_modifiers"
-        ]
-      },
-      "minecraft:item_model": "minecraft:copper_mattock",
-      "minecraft:max_damage": 350
-    },
-    "count": 1,
-    "id": "minecraft:copper_hoe"
+      ]
+    }
   }
 }

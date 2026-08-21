@@ -2,14 +2,33 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "#": "#main:never"
+    "X": "minecraft:rotten_flesh"
   },
   "pattern": [
-    "###",
-    "###",
-    "###"
+    "XXX",
+    "X X",
+    "X X"
   ],
   "result": {
-    "id": "minecraft:leather_leggings"
+    "count": 1,
+    "id": "minecraft:leather_leggings",
+    "components": {
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:safe_fall_distance",
+          "id": "leather_leggings",
+          "amount": 1.0,
+          "operation": "add_value",
+          "slot": "legs"
+        },
+        {
+          "type": "minecraft:armor",
+          "id": "armor_leggings",
+          "amount": 2.0,
+          "operation": "add_value",
+          "slot": "legs"
+        }
+      ]
+    }
   }
 }

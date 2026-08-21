@@ -25,12 +25,9 @@
     [
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",
-      "compromise:ore_granite_upper",
-      "compromise:ore_granite_lower",
-      "compromise:ore_diorite_upper",
-      "compromise:ore_diorite_lower",
-      "compromise:ore_andesite_upper",
-      "compromise:ore_andesite_lower",
+      "minecraft:ore_granite_lower",
+      "minecraft:ore_diorite_lower",
+      "minecraft:ore_andesite_lower",
       "minecraft:ore_tuff",
       "minecraft:ore_coal_upper",
       "minecraft:ore_coal_lower",
@@ -68,7 +65,11 @@
       "minecraft:patch_firefly_bush_near_water",
       "minecraft:vines",
       "minecraft:patch_melon_sparse",
-      "minecraft:seagrass_normal"
+      "minecraft:seagrass_normal",
+      "compromise:patch_jungle_vegetation",
+      "compromise:patch_jungle_bush",
+      "compromise:patch_jungle_tall_grass",
+      "compromise:patch_jungle_large_ferns"
     ],
     [
       "minecraft:freeze_top_layer"

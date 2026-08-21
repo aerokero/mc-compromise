@@ -19,10 +19,10 @@
   ],
   "rewards": {
     "recipes": [
-      "crafting:leather_boots",
-      "crafting:leather_chestplate",
-      "crafting:leather_pants",
-      "crafting:leather_helmet",
+      "minecraft:leather_boots",
+      "minecraft:leather_chestplate",
+      "minecraft:leather_leggings",
+      "minecraft:leather_helmet",
       "crafting:bundle"
     ]
   }

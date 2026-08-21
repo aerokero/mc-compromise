@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipes": "crafting:wooden_pickaxe"
+        "recipes": "minecraft:wooden_pickaxe"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,12 +26,12 @@
   ],
   "rewards": {
     "recipes": [
-      "crafting:wooden_pickaxe",
-      "crafting:wooden_axe",
-      "crafting:wooden_shovel",
-      "crafting:wooden_hoe",
-      "crafting:wooden_sword",
-      "crafting:wooden_spear",
+      "minecraft:wooden_pickaxe",
+      "minecraft:wooden_axe",
+      "minecraft:wooden_shovel",
+      "minecraft:wooden_hoe",
+      "minecraft:wooden_sword",
+      "minecraft:wooden_spear",
       "crafting:vanilla_chest_from_planks"
     ]
   }

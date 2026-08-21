@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipes": "crafting:iron_pickaxe"
+        "recipes": "minecraft:iron_pickaxe"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,22 +28,22 @@
     "recipes": [
       "crafting:minecart_from_iron",
       "crafting:iron_trapdoor_from_iron",
-      "crafting:iron_pickaxe",
-      "crafting:iron_hoe",
-      "crafting:iron_axe",
-      "crafting:iron_shovel",
-      "crafting:iron_sword",
-      "crafting:iron_spear",
-      "crafting:iron_helmet",
-      "crafting:iron_chestplate",
-      "crafting:iron_leggings",
-      "crafting:iron_boots",
+      "minecraft:iron_pickaxe",
+      "minecraft:iron_hoe",
+      "minecraft:iron_axe",
+      "minecraft:iron_shovel",
+      "minecraft:iron_sword",
+      "minecraft:iron_spear",
+      "minecraft:iron_helmet",
+      "minecraft:iron_chestplate",
+      "minecraft:iron_leggings",
+      "minecraft:iron_boots",
       "crafting:iron_mattock",
       "crafting:iron_door_from_iron",
-      "crafting:iron_chain",
-      "crafting:iron_bars",
+      "minecraft:iron_chain",
+      "minecraft:iron_bars",
       "crafting:iron_dolabra",
-      "crafting:iron_shears",
+      "minecraft:shears",
       "crafting:anvil",
       "crafting:cauldron_from_iron",
       "crafting:bucket_from_iron"

@@ -2,12 +2,13 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "#": "#main:never"
+    "#": "minecraft:stick",
+    "X": "minecraft:diamond"
   },
   "pattern": [
-    "###",
-    "###",
-    "###"
+    "XX ",
+    " # ",
+    " # "
   ],
   "result": {
     "id": "minecraft:diamond_hoe"

@@ -3,7 +3,7 @@
   "category": "equipment",
   "key": {
     "#": "minecraft:stick",
-    "X": "iron_ingot"
+    "X": "minecraft:iron_ingot"
   },
   "pattern": [
     "XX ",
@@ -11,65 +11,46 @@
     " # "
   ],
   "result": {
+    "count": 1,
+    "id": "minecraft:iron_hoe",
     "components": {
       "minecraft:item_name": {
         "translate": "item.minecraft.iron_mattock"
       },
+      "minecraft:item_model": "minecraft:iron_mattock",
+      "minecraft:max_damage": 500,
       "minecraft:tool": {
         "rules": [
           {
             "blocks": "#minecraft:mineable/hoe",
-            "speed": 6,
+            "speed": 6.0,
             "correct_for_drops": true
           },
           {
             "blocks": "#minecraft:mineable/shovel",
-            "speed": 6,
+            "speed": 6.0,
             "correct_for_drops": true
           }
         ],
-        "default_mining_speed": 1,
+        "default_mining_speed": 1.0,
         "damage_per_block": 1
       },
-      "minecraft:item_model": "minecraft:iron_mattock",
-      "minecraft:tooltip_display": {
-        "hidden_components": [
-          "minecraft:attribute_modifiers"
-        ]
-      },
-      "minecraft:lore": [
-        {
-          "text": "When in Main Hand:",
-          "color": "gray",
-          "italic": false
-        },
-        {
-          "text": "+6 Mining Speed",
-          "color": "blue",
-          "italic": false
-        },
-        {
-          "text": "+4 Attack Damage",
-          "color": "dark_green",
-          "italic": false
-        },
-        {
-          "text": "+3 Attack Speed",
-          "color": "dark_green",
-          "italic": false
-        }
-      ],
       "minecraft:attribute_modifiers": [
         {
           "type": "minecraft:attack_damage",
           "id": "attack_damage",
-          "amount": 3,
-          "operation": "add_value"
+          "amount": 3.0,
+          "operation": "add_value",
+          "slot": "mainhand"
+        },
+        {
+          "type": "minecraft:attack_speed",
+          "id": "attack_speed",
+          "amount": -1.0,
+          "operation": "add_value",
+          "slot": "mainhand"
         }
-      ],
-      "minecraft:max_damage": 500
-    },
-    "count": 1,
-    "id": "minecraft:iron_hoe"
+      ]
+    }
   }
 }

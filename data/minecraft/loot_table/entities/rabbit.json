@@ -10,58 +10,36 @@
           "name": "minecraft:cooked_rabbit",
           "conditions": [
             {
-              "type": "minecraft:any_of",
-              "terms": [
-                {
-                  "type": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "minecraft:flags": {
-                      "is_on_fire": true
-                    }
-                  }
-                },
-                {
-                  "type": "minecraft:entity_properties",
-                  "entity": "direct_attacker",
-                  "predicate": {
-                    "minecraft:equipment": {
-                      "mainhand": {
-                        "predicates": {
-                          "minecraft:enchantments": [
-                            {
-                              "enchantments": "#minecraft:smelts_loot"
-                            }
-                          ]
-                        }
-                      }
-                    }
-                  }
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "flags": {
+                  "is_on_fire": true
                 }
-              ]
+              }
             }
           ],
-          "modifier": [
+          "functions": [
             {
-              "type": "minecraft:set_count",
+              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 0,
-                "max": 1
+                "min": 1.0,
+                "max": 1.0
               },
               "add": false
             },
             {
-              "type": "minecraft:enchanted_count_increase",
+              "function": "minecraft:enchanted_count_increase",
               "enchantment": "minecraft:looting",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 0,
-                "max": 1
+                "min": 0.0,
+                "max": 1.0
               }
             },
             {
-              "type": "minecraft:set_components",
+              "function": "minecraft:set_components",
               "components": {
                 "minecraft:food": {
                   "nutrition": 0,
@@ -81,7 +59,7 @@
                           "show_icon": false
                         }
                       ],
-                      "probability": 1
+                      "probability": 1.0
                     }
                   ]
                 },
@@ -107,61 +85,39 @@
           "name": "minecraft:rabbit",
           "conditions": [
             {
-              "type": "minecraft:inverted",
+              "condition": "minecraft:inverted",
               "term": {
-                "type": "minecraft:any_of",
-                "terms": [
-                  {
-                    "type": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "minecraft:flags": {
-                        "is_on_fire": true
-                      }
-                    }
-                  },
-                  {
-                    "type": "minecraft:entity_properties",
-                    "entity": "direct_attacker",
-                    "predicate": {
-                      "minecraft:equipment": {
-                        "mainhand": {
-                          "predicates": {
-                            "minecraft:enchantments": [
-                              {
-                                "enchantments": "#minecraft:smelts_loot"
-                              }
-                            ]
-                          }
-                        }
-                      }
-                    }
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "flags": {
+                    "is_on_fire": true
                   }
-                ]
+                }
               }
             }
           ],
-          "modifier": [
+          "functions": [
             {
-              "type": "minecraft:set_count",
+              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 0,
-                "max": 1
+                "min": 1.0,
+                "max": 1.0
               },
               "add": false
             },
             {
-              "type": "minecraft:enchanted_count_increase",
+              "function": "minecraft:enchanted_count_increase",
               "enchantment": "minecraft:looting",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 0,
-                "max": 1
+                "min": 0.0,
+                "max": 1.0
               }
             },
             {
-              "type": "minecraft:set_components",
+              "function": "minecraft:set_components",
               "components": {
                 "minecraft:food": {
                   "nutrition": 0,
@@ -176,12 +132,12 @@
                         {
                           "id": "minecraft:regeneration",
                           "amplifier": 2,
-                          "duration": 20,
+                          "duration": 15,
                           "show_particles": false,
                           "show_icon": false
                         }
                       ],
-                      "probability": 1
+                      "probability": 1.0
                     }
                   ]
                 },
@@ -210,23 +166,23 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:rabbit_hide",
-          "modifier": [
+          "functions": [
             {
-              "type": "minecraft:set_count",
+              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 0,
-                "max": 1
+                "min": 0.0,
+                "max": 1.0
               },
               "add": false
             },
             {
-              "type": "minecraft:enchanted_count_increase",
+              "function": "minecraft:enchanted_count_increase",
               "enchantment": "minecraft:looting",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 0,
-                "max": 1
+                "min": 0.0,
+                "max": 1.0
               }
             }
           ]
@@ -236,25 +192,25 @@
     {
       "rolls": 1,
       "bonus_rolls": 0,
-      "conditions": [
-        {
-          "type": "minecraft:killed_by_player"
-        },
-        {
-          "type": "minecraft:random_chance_with_enchanted_bonus",
-          "enchantment": "minecraft:looting",
-          "unenchanted_chance": 0.1,
-          "enchanted_chance": {
-            "type": "minecraft:linear",
-            "base": 0.1,
-            "per_level_above_first": 0.03
-          }
-        }
-      ],
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:rabbit_foot"
+          "name": "minecraft:rabbit_foot",
+          "conditions": [
+            {
+              "condition": "minecraft:killed_by_player"
+            },
+            {
+              "condition": "minecraft:random_chance_with_enchanted_bonus",
+              "unenchanted_chance": 0.1,
+              "enchanted_chance": {
+                "type": "minecraft:linear",
+                "base": 0.13,
+                "per_level_above_first": 0.03
+              },
+              "enchantment": "minecraft:looting"
+            }
+          ]
         }
       ]
     }

@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipes": "crafting:campfire"
+        "recipes": "minecraft:campfire"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "crafting:campfire",
+      "minecraft:campfire",
       "crafting:chest_from_logs",
       "crafting:sticks_from_logs"
     ]

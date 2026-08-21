@@ -2,12 +2,13 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "#": "#main:never"
+    "#": "minecraft:stick",
+    "X": "#minecraft:stone_tool_materials"
   },
   "pattern": [
-    "###",
-    "###",
-    "###"
+    "X",
+    "#",
+    "#"
   ],
   "result": {
     "id": "minecraft:stone_shovel"
