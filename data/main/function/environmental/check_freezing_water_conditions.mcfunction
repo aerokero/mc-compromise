@@ -1,1 +1,0 @@
-execute at @a[gamemode=!creative] if block ~ ~1 ~ water run execute unless entity @p[nbt={equipment:{chest:{components:{"minecraft:enchantments":{"main:freezing_protection":3}}}}}] run execute if biome ~ ~ ~ #minecraft:is_frozen run function main:environmental/freezing_water

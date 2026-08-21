@@ -33,9 +33,17 @@
                 "right": "compromise:overworld/forest_beta_gate"
               },
               "right": {
-                "type": "minecraft:mul",
-                "left": 0.2,
-                "right": "compromise:overworld/stony_peak_gate"
+                "type": "minecraft:add",
+                "left": {
+                  "type": "minecraft:mul",
+                  "left": 0.2,
+                  "right": "compromise:overworld/stony_peak_gate"
+                },
+                "right": {
+                  "type": "minecraft:mul",
+                  "left": 0.25,
+                  "right": "compromise:overworld/badlands_monument_gate"
+                }
               }
             }
           }
@@ -62,58 +70,117 @@
           "right": "compromise:overworld/peak_gate"
         },
         "right": {
-          "type": "minecraft:mul",
+          "type": "minecraft:add",
           "left": {
             "type": "minecraft:mul",
-            "left": 6.0,
-            "right": "compromise:overworld/forest_beta_gate"
+            "left": {
+              "type": "minecraft:mul",
+              "left": 6.0,
+              "right": "compromise:overworld/forest_beta_gate"
+            },
+            "right": {
+              "type": "minecraft:spline",
+              "spline": {
+                "coordinate": "minecraft:y",
+                "points": [
+                  {
+                    "location": -64,
+                    "value": 0.15,
+                    "derivative": 0.0
+                  },
+                  {
+                    "location": 50,
+                    "value": 0.8,
+                    "derivative": 0.0
+                  },
+                  {
+                    "location": 85,
+                    "value": 1.3,
+                    "derivative": 0.0
+                  },
+                  {
+                    "location": 130,
+                    "value": 1.6,
+                    "derivative": 0.0
+                  },
+                  {
+                    "location": 170,
+                    "value": 1.1,
+                    "derivative": 0.0
+                  },
+                  {
+                    "location": 190,
+                    "value": 0.4,
+                    "derivative": 0.0
+                  },
+                  {
+                    "location": 205,
+                    "value": 0.0,
+                    "derivative": 0.0
+                  },
+                  {
+                    "location": 320,
+                    "value": 0.0,
+                    "derivative": 0.0
+                  }
+                ]
+              }
+            }
           },
           "right": {
-            "type": "minecraft:spline",
-            "spline": {
-              "coordinate": "minecraft:y",
-              "points": [
-                {
-                  "location": -64,
-                  "value": 0.15,
-                  "derivative": 0.0
-                },
-                {
-                  "location": 50,
-                  "value": 0.8,
-                  "derivative": 0.0
-                },
-                {
-                  "location": 85,
-                  "value": 1.3,
-                  "derivative": 0.0
-                },
-                {
-                  "location": 130,
-                  "value": 1.6,
-                  "derivative": 0.0
-                },
-                {
-                  "location": 170,
-                  "value": 1.1,
-                  "derivative": 0.0
-                },
-                {
-                  "location": 190,
-                  "value": 0.4,
-                  "derivative": 0.0
-                },
-                {
-                  "location": 205,
-                  "value": 0.0,
-                  "derivative": 0.0
-                },
-                {
-                  "location": 320,
-                  "value": 0.0,
-                  "derivative": 0.0
-                }
-              ]
+            "type": "minecraft:mul",
+            "left": {
+              "type": "minecraft:mul",
+              "left": 5.5,
+              "right": "compromise:overworld/badlands_monument_gate"
+            },
+            "right": {
+              "type": "minecraft:spline",
+              "spline": {
+                "coordinate": "minecraft:y",
+                "points": [
+                  {
+                    "location": -64,
+                    "value": 0.15,
+                    "derivative": 0.0
+                  },
+                  {
+                    "location": 50,
+                    "value": 0.6,
+                    "derivative": 0.0
+                  },
+                  {
+                    "location": 75,
+                    "value": 1.4,
+                    "derivative": 0.0
+                  },
+                  {
+                    "location": 120,
+                    "value": 1.6,
+                    "derivative": 0.0
+                  },
+                  {
+                    "location": 150,
+                    "value": 1.2,
+                    "derivative": 0.0
+                  },
+                  {
+                    "location": 165,
+                    "value": 0.2,
+                    "derivative": 0.0
+                  },
+                  {
+                    "location": 175,
+                    "value": 0.0,
+                    "derivative": 0.0
+                  },
+                  {
+                    "location": 320,
+                    "value": 0.0,
+                    "derivative": 0.0
+                  }
+                ]
+              }
             }
           }
         }

@@ -751,7 +751,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:forest"
         },
         {
           "parameters": {
@@ -1051,7 +1051,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:forest"
         },
         {
           "parameters": {
@@ -1381,7 +1381,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:forest"
         },
         {
           "parameters": {
@@ -1441,7 +1441,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:snowy_plains"
         },
         {
           "parameters": {
@@ -1471,7 +1471,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:grove"
+          "biome": "minecraft:snowy_taiga"
         },
         {
           "parameters": {
@@ -1501,7 +1501,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -1981,7 +1981,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:forest"
         },
         {
           "parameters": {
@@ -2041,7 +2041,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:forest"
         },
         {
           "parameters": {
@@ -2161,7 +2161,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -2221,7 +2221,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -2286,7 +2286,7 @@
         {
           "parameters": {
             "weirdness": [
-              -1,
+              -1.0,
               -0.02
             ],
             "continentalness": [
@@ -2311,7 +2311,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:plains"
         },
         {
           "parameters": {
@@ -2401,12 +2401,12 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:meadow"
+          "biome": "minecraft:plains"
         },
         {
           "parameters": {
             "weirdness": [
-              -1,
+              -1.0,
               -0.02
             ],
             "continentalness": [
@@ -2431,12 +2431,12 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:plains"
         },
         {
           "parameters": {
             "weirdness": [
-              -1,
+              -1.0,
               -0.02
             ],
             "continentalness": [
@@ -2461,7 +2461,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:dark_forest"
         },
         {
           "parameters": {
@@ -2641,7 +2641,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:meadow"
+          "biome": "minecraft:plains"
         },
         {
           "parameters": {
@@ -2791,7 +2791,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:forest"
         },
         {
           "parameters": {
@@ -2941,7 +2941,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:snowy_plains"
         },
         {
           "parameters": {
@@ -2971,7 +2971,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:grove"
+          "biome": "minecraft:snowy_taiga"
         },
         {
           "parameters": {
@@ -3001,7 +3001,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -3121,7 +3121,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:forest"
         },
         {
           "parameters": {
@@ -3181,7 +3181,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:forest"
         },
         {
           "parameters": {
@@ -3271,7 +3271,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -3286,786 +3286,6 @@
             "erosion": [
               -0.78,
               1
-            ],
-            "temperature": [
-              -0.5,
-              -0.15
-            ],
-            "humidity": [
-              0,
-              0.35
-            ],
-            "depth": [
-              0,
-              0
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:windswept_forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.935
-            ],
-            "continentalness": [
-              0.03,
-              0.3
-            ],
-            "erosion": [
-              -0.78,
-              1
-            ],
-            "temperature": [
-              -0.5,
-              -0.15
-            ],
-            "humidity": [
-              0.35,
-              1
-            ],
-            "depth": [
-              0,
-              0
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:old_growth_spruce_taiga"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.935
-            ],
-            "continentalness": [
-              0.03,
-              0.3
-            ],
-            "erosion": [
-              -0.78,
-              1
-            ],
-            "temperature": [
-              -0.15,
-              0.15
-            ],
-            "humidity": [
-              -1,
-              -0.35
-            ],
-            "depth": [
-              0,
-              0
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:plains"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.935
-            ],
-            "continentalness": [
-              0.03,
-              0.3
-            ],
-            "erosion": [
-              -0.78,
-              1
-            ],
-            "temperature": [
-              -0.15,
-              0.15
-            ],
-            "humidity": [
-              -0.35,
-              0
-            ],
-            "depth": [
-              0,
-              0
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:dappled_forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.935
-            ],
-            "continentalness": [
-              0.03,
-              0.3
-            ],
-            "erosion": [
-              -0.78,
-              1
-            ],
-            "temperature": [
-              -0.15,
-              0.15
-            ],
-            "humidity": [
-              0,
-              0.35
-            ],
-            "depth": [
-              0,
-              0
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:flower_forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.935
-            ],
-            "continentalness": [
-              0.03,
-              0.3
-            ],
-            "erosion": [
-              -0.78,
-              1
-            ],
-            "temperature": [
-              -0.15,
-              0.15
-            ],
-            "humidity": [
-              0.35,
-              1
-            ],
-            "depth": [
-              0,
-              0
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:dark_forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.935
-            ],
-            "continentalness": [
-              0.03,
-              0.3
-            ],
-            "erosion": [
-              -0.78,
-              1
-            ],
-            "temperature": [
-              0.15,
-              0.5
-            ],
-            "humidity": [
-              -0.35,
-              0
-            ],
-            "depth": [
-              0,
-              0
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:meadow"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.935
-            ],
-            "continentalness": [
-              0.03,
-              0.3
-            ],
-            "erosion": [
-              -0.78,
-              1
-            ],
-            "temperature": [
-              0.15,
-              0.5
-            ],
-            "humidity": [
-              0,
-              0.35
-            ],
-            "depth": [
-              0,
-              0
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:dappled_forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.935
-            ],
-            "continentalness": [
-              0.03,
-              0.3
-            ],
-            "erosion": [
-              -0.78,
-              1
-            ],
-            "temperature": [
-              0.15,
-              0.5
-            ],
-            "humidity": [
-              0.35,
-              1
-            ],
-            "depth": [
-              0,
-              0
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:dappled_forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.935
-            ],
-            "continentalness": [
-              0.03,
-              0.3
-            ],
-            "erosion": [
-              -0.78,
-              0.05
-            ],
-            "temperature": [
-              0.5,
-              1
-            ],
-            "humidity": [
-              0,
-              0.35
-            ],
-            "depth": [
-              0,
-              0
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:savanna"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.935
-            ],
-            "continentalness": [
-              0.03,
-              0.3
-            ],
-            "erosion": [
-              -0.78,
-              0.05
-            ],
-            "temperature": [
-              0.5,
-              1
-            ],
-            "humidity": [
-              0.7,
-              1
-            ],
-            "depth": [
-              0,
-              0
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:jungle"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.935
-            ],
-            "continentalness": [
-              0.03,
-              0.3
-            ],
-            "erosion": [
-              -0.78,
-              1
-            ],
-            "temperature": [
-              0.75,
-              1
-            ],
-            "humidity": [
-              0.35,
-              0.7
-            ],
-            "depth": [
-              0,
-              0
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:sparse_jungle"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.935
-            ],
-            "continentalness": [
-              0.03,
-              0.3
-            ],
-            "erosion": [
-              -0.375,
-              1
-            ],
-            "temperature": [
-              -1,
-              -0.5
-            ],
-            "humidity": [
-              -1,
-              0
-            ],
-            "depth": [
-              0,
-              0
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:snowy_plains"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.935
-            ],
-            "continentalness": [
-              0.03,
-              0.3
-            ],
-            "erosion": [
-              -0.375,
-              0.05
-            ],
-            "temperature": [
-              -0.5,
-              -0.15
-            ],
-            "humidity": [
-              -0.35,
-              0.35
-            ],
-            "depth": [
-              0,
-              0
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:windswept_forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.935
-            ],
-            "continentalness": [
-              0.03,
-              0.3
-            ],
-            "erosion": [
-              0.05,
-              1
-            ],
-            "temperature": [
-              -0.5,
-              -0.15
-            ],
-            "humidity": [
-              -0.35,
-              0
-            ],
-            "depth": [
-              0,
-              0
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:meadow"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.02
-            ],
-            "continentalness": [
-              0.03,
-              1
-            ],
-            "erosion": [
-              0.05,
-              1
-            ],
-            "temperature": [
-              0.55,
-              1
-            ],
-            "humidity": [
-              -1,
-              -0.7
-            ],
-            "depth": [
-              0,
-              0
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:desert"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.02
-            ],
-            "continentalness": [
-              0.03,
-              1
-            ],
-            "erosion": [
-              0.05,
-              1
-            ],
-            "temperature": [
-              0.15,
-              0.5
-            ],
-            "humidity": [
-              -0.7,
-              -0.35
-            ],
-            "depth": [
-              0,
-              0
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:savanna"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.02
-            ],
-            "continentalness": [
-              0.03,
-              1
-            ],
-            "erosion": [
-              0.05,
-              1
-            ],
-            "temperature": [
-              0.55,
-              1
-            ],
-            "humidity": [
-              -0.7,
-              -0.35
-            ],
-            "depth": [
-              0,
-              0
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:desert"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.02
-            ],
-            "continentalness": [
-              0.03,
-              1
-            ],
-            "erosion": [
-              0.05,
-              1
-            ],
-            "temperature": [
-              0.5,
-              0.75
-            ],
-            "humidity": [
-              -0.35,
-              0
-            ],
-            "depth": [
-              0,
-              0
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:savanna"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.02
-            ],
-            "continentalness": [
-              0.03,
-              1
-            ],
-            "erosion": [
-              0.05,
-              1
-            ],
-            "temperature": [
-              0.5,
-              0.75
-            ],
-            "humidity": [
-              0,
-              0.35
-            ],
-            "depth": [
-              0,
-              0
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:dappled_forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.02
-            ],
-            "continentalness": [
-              0.03,
-              1
-            ],
-            "erosion": [
-              0.05,
-              1
-            ],
-            "temperature": [
-              0.5,
-              0.75
-            ],
-            "humidity": [
-              0.7,
-              1
-            ],
-            "depth": [
-              0,
-              0
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:sparse_jungle"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.02
-            ],
-            "continentalness": [
-              0.03,
-              1
-            ],
-            "erosion": [
-              0.05,
-              1
-            ],
-            "temperature": [
-              0.75,
-              1
-            ],
-            "humidity": [
-              -0.35,
-              0
-            ],
-            "depth": [
-              0,
-              0
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:desert"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.02
-            ],
-            "continentalness": [
-              0.03,
-              1
-            ],
-            "erosion": [
-              0.45,
-              1
-            ],
-            "temperature": [
-              0.5,
-              0.75
-            ],
-            "humidity": [
-              0.35,
-              1
-            ],
-            "depth": [
-              0,
-              0
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:sparse_jungle"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.02
-            ],
-            "continentalness": [
-              0.03,
-              1
-            ],
-            "erosion": [
-              0.45,
-              1
-            ],
-            "temperature": [
-              0.75,
-              1
-            ],
-            "humidity": [
-              0,
-              0.35
-            ],
-            "depth": [
-              0,
-              0
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:savanna"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.02
-            ],
-            "continentalness": [
-              0.03,
-              1
-            ],
-            "erosion": [
-              0.45,
-              1
-            ],
-            "temperature": [
-              0.75,
-              1
-            ],
-            "humidity": [
-              0.7,
-              1
-            ],
-            "depth": [
-              0,
-              0
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:jungle"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.935
-            ],
-            "continentalness": [
-              0.3,
-              1
-            ],
-            "erosion": [
-              -0.78,
-              0.45
-            ],
-            "temperature": [
-              -0.5,
-              -0.15
-            ],
-            "humidity": [
-              -1,
-              -0.7
-            ],
-            "depth": [
-              0,
-              0
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:dappled_forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.935
-            ],
-            "continentalness": [
-              0.3,
-              1
-            ],
-            "erosion": [
-              -0.78,
-              -0.2225
             ],
             "temperature": [
               -0.5,
@@ -4090,6 +3310,786 @@
               -0.935
             ],
             "continentalness": [
+              0.03,
+              0.3
+            ],
+            "erosion": [
+              -0.78,
+              1
+            ],
+            "temperature": [
+              -0.5,
+              -0.15
+            ],
+            "humidity": [
+              0.35,
+              1
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:old_growth_spruce_taiga"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.935
+            ],
+            "continentalness": [
+              0.03,
+              0.3
+            ],
+            "erosion": [
+              -0.78,
+              1
+            ],
+            "temperature": [
+              -0.15,
+              0.15
+            ],
+            "humidity": [
+              -1,
+              -0.35
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:plains"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1.0,
+              -0.2
+            ],
+            "continentalness": [
+              0.03,
+              0.3
+            ],
+            "erosion": [
+              -0.78,
+              1
+            ],
+            "temperature": [
+              -0.15,
+              0.15
+            ],
+            "humidity": [
+              -0.35,
+              0
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:dappled_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.935
+            ],
+            "continentalness": [
+              0.03,
+              0.3
+            ],
+            "erosion": [
+              -0.78,
+              1
+            ],
+            "temperature": [
+              -0.15,
+              0.15
+            ],
+            "humidity": [
+              0,
+              0.35
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:flower_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.935
+            ],
+            "continentalness": [
+              0.03,
+              0.3
+            ],
+            "erosion": [
+              -0.78,
+              1
+            ],
+            "temperature": [
+              -0.15,
+              0.15
+            ],
+            "humidity": [
+              0.35,
+              1
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:dark_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.935
+            ],
+            "continentalness": [
+              0.03,
+              0.3
+            ],
+            "erosion": [
+              -0.78,
+              1
+            ],
+            "temperature": [
+              0.15,
+              0.5
+            ],
+            "humidity": [
+              -0.35,
+              0
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:plains"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.935
+            ],
+            "continentalness": [
+              0.03,
+              0.3
+            ],
+            "erosion": [
+              -0.78,
+              1
+            ],
+            "temperature": [
+              0.15,
+              0.5
+            ],
+            "humidity": [
+              0,
+              0.35
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.935
+            ],
+            "continentalness": [
+              0.03,
+              0.3
+            ],
+            "erosion": [
+              -0.78,
+              1
+            ],
+            "temperature": [
+              0.15,
+              0.5
+            ],
+            "humidity": [
+              0.35,
+              1
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.935
+            ],
+            "continentalness": [
+              0.03,
+              0.3
+            ],
+            "erosion": [
+              -0.78,
+              0.05
+            ],
+            "temperature": [
+              0.5,
+              1
+            ],
+            "humidity": [
+              0,
+              0.35
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:savanna"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.935
+            ],
+            "continentalness": [
+              0.03,
+              0.3
+            ],
+            "erosion": [
+              -0.78,
+              0.05
+            ],
+            "temperature": [
+              0.5,
+              1
+            ],
+            "humidity": [
+              0.7,
+              1
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:jungle"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.935
+            ],
+            "continentalness": [
+              0.03,
+              0.3
+            ],
+            "erosion": [
+              -0.78,
+              1
+            ],
+            "temperature": [
+              0.75,
+              1
+            ],
+            "humidity": [
+              0.35,
+              0.7
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:sparse_jungle"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.935
+            ],
+            "continentalness": [
+              0.03,
+              0.3
+            ],
+            "erosion": [
+              -0.375,
+              1
+            ],
+            "temperature": [
+              -1,
+              -0.5
+            ],
+            "humidity": [
+              -1,
+              0
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:snowy_plains"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.935
+            ],
+            "continentalness": [
+              0.03,
+              0.3
+            ],
+            "erosion": [
+              -0.375,
+              0.05
+            ],
+            "temperature": [
+              -0.5,
+              -0.15
+            ],
+            "humidity": [
+              -0.35,
+              0.35
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:taiga"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.935
+            ],
+            "continentalness": [
+              0.03,
+              0.3
+            ],
+            "erosion": [
+              0.05,
+              1
+            ],
+            "temperature": [
+              -0.5,
+              -0.15
+            ],
+            "humidity": [
+              -0.35,
+              0
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:plains"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.02
+            ],
+            "continentalness": [
+              0.03,
+              1
+            ],
+            "erosion": [
+              0.05,
+              1
+            ],
+            "temperature": [
+              0.55,
+              1
+            ],
+            "humidity": [
+              -1,
+              -0.7
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:desert"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.02
+            ],
+            "continentalness": [
+              0.03,
+              1
+            ],
+            "erosion": [
+              0.05,
+              1
+            ],
+            "temperature": [
+              0.15,
+              0.5
+            ],
+            "humidity": [
+              -0.7,
+              -0.35
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:savanna"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.02
+            ],
+            "continentalness": [
+              0.03,
+              1
+            ],
+            "erosion": [
+              0.05,
+              1
+            ],
+            "temperature": [
+              0.55,
+              1
+            ],
+            "humidity": [
+              -0.7,
+              -0.35
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:desert"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.02
+            ],
+            "continentalness": [
+              0.03,
+              1
+            ],
+            "erosion": [
+              0.05,
+              1
+            ],
+            "temperature": [
+              0.5,
+              0.75
+            ],
+            "humidity": [
+              -0.35,
+              0
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:savanna"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.02
+            ],
+            "continentalness": [
+              0.03,
+              1
+            ],
+            "erosion": [
+              0.05,
+              1
+            ],
+            "temperature": [
+              0.5,
+              0.75
+            ],
+            "humidity": [
+              0,
+              0.35
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.02
+            ],
+            "continentalness": [
+              0.03,
+              1
+            ],
+            "erosion": [
+              0.05,
+              1
+            ],
+            "temperature": [
+              0.5,
+              0.75
+            ],
+            "humidity": [
+              0.7,
+              1
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:sparse_jungle"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.02
+            ],
+            "continentalness": [
+              0.03,
+              1
+            ],
+            "erosion": [
+              0.05,
+              1
+            ],
+            "temperature": [
+              0.75,
+              1
+            ],
+            "humidity": [
+              -0.35,
+              0
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:desert"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.02
+            ],
+            "continentalness": [
+              0.03,
+              1
+            ],
+            "erosion": [
+              0.45,
+              1
+            ],
+            "temperature": [
+              0.5,
+              0.75
+            ],
+            "humidity": [
+              0.35,
+              1
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:sparse_jungle"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.02
+            ],
+            "continentalness": [
+              0.03,
+              1
+            ],
+            "erosion": [
+              0.45,
+              1
+            ],
+            "temperature": [
+              0.75,
+              1
+            ],
+            "humidity": [
+              0,
+              0.35
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:savanna"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.02
+            ],
+            "continentalness": [
+              0.03,
+              1
+            ],
+            "erosion": [
+              0.45,
+              1
+            ],
+            "temperature": [
+              0.75,
+              1
+            ],
+            "humidity": [
+              0.7,
+              1
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:jungle"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.935
+            ],
+            "continentalness": [
+              0.3,
+              1
+            ],
+            "erosion": [
+              -0.78,
+              0.45
+            ],
+            "temperature": [
+              -0.5,
+              -0.15
+            ],
+            "humidity": [
+              -1,
+              -0.7
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:taiga"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.935
+            ],
+            "continentalness": [
+              0.3,
+              1
+            ],
+            "erosion": [
+              -0.78,
+              -0.2225
+            ],
+            "temperature": [
+              -0.5,
+              -0.15
+            ],
+            "humidity": [
+              0,
+              0.35
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:grove"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.935
+            ],
+            "continentalness": [
               0.3,
               1
             ],
@@ -4201,7 +4201,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna_plateau"
+          "biome": "minecraft:stony_peaks"
         },
         {
           "parameters": {
@@ -4231,7 +4231,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:plains"
+          "biome": "minecraft:stony_peaks"
         },
         {
           "parameters": {
@@ -4261,7 +4261,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:flower_forest"
+          "biome": "minecraft:stony_peaks"
         },
         {
           "parameters": {
@@ -4291,7 +4291,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:stony_peaks"
         },
         {
           "parameters": {
@@ -4321,7 +4321,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna_plateau"
+          "biome": "minecraft:stony_peaks"
         },
         {
           "parameters": {
@@ -4351,7 +4351,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:stony_peaks"
         },
         {
           "parameters": {
@@ -4381,7 +4381,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:sparse_jungle"
+          "biome": "minecraft:stony_peaks"
         },
         {
           "parameters": {
@@ -4411,7 +4411,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:jungle"
+          "biome": "minecraft:stony_peaks"
         },
         {
           "parameters": {
@@ -4471,7 +4471,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -4501,7 +4501,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -4536,8 +4536,8 @@
         {
           "parameters": {
             "weirdness": [
-              -1,
-              -0.935
+              -1.0,
+              -0.2
             ],
             "continentalness": [
               0.3,
@@ -4621,7 +4621,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:meadow"
+          "biome": "minecraft:plains"
         },
         {
           "parameters": {
@@ -4651,7 +4651,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:forest"
         },
         {
           "parameters": {
@@ -4681,7 +4681,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:forest"
         },
         {
           "parameters": {
@@ -4831,7 +4831,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:meadow"
+          "biome": "minecraft:plains"
         },
         {
           "parameters": {
@@ -4861,7 +4861,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -5011,7 +5011,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -5101,13 +5101,13 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:forest"
         },
         {
           "parameters": {
             "weirdness": [
-              -1,
-              -0.26666668
+              -1.0,
+              -0.2
             ],
             "continentalness": [
               0.3,
@@ -5131,7 +5131,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dark_forest"
+          "biome": "minecraft:dappled_forest"
         },
         {
           "parameters": {
@@ -5191,7 +5191,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:dark_forest"
         },
         {
           "parameters": {
@@ -5311,7 +5311,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -5341,7 +5341,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:meadow"
+          "biome": "minecraft:plains"
         },
         {
           "parameters": {
@@ -5431,7 +5431,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:forest"
+          "biome": "minecraft:dappled_forest"
         },
         {
           "parameters": {
@@ -5491,7 +5491,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:meadow"
+          "biome": "minecraft:plains"
         },
         {
           "parameters": {
@@ -5761,7 +5761,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -5791,7 +5791,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:meadow"
+          "biome": "minecraft:plains"
         },
         {
           "parameters": {
@@ -5821,7 +5821,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -6061,7 +6061,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:meadow"
+          "biome": "minecraft:plains"
         },
         {
           "parameters": {
@@ -6481,7 +6481,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:meadow"
+          "biome": "minecraft:plains"
         },
         {
           "parameters": {
@@ -6511,7 +6511,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:meadow"
+          "biome": "minecraft:plains"
         },
         {
           "parameters": {
@@ -6541,7 +6541,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -6571,7 +6571,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -7231,7 +7231,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:snowy_plains"
         },
         {
           "parameters": {
@@ -7261,7 +7261,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:grove"
+          "biome": "minecraft:snowy_taiga"
         },
         {
           "parameters": {
@@ -7561,7 +7561,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -7681,7 +7681,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:meadow"
+          "biome": "minecraft:plains"
         },
         {
           "parameters": {
@@ -7771,7 +7771,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -7801,7 +7801,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -7861,7 +7861,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:forest"
+          "biome": "minecraft:dappled_forest"
         },
         {
           "parameters": {
@@ -7921,7 +7921,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:meadow"
+          "biome": "minecraft:plains"
         },
         {
           "parameters": {
@@ -8101,7 +8101,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:meadow"
+          "biome": "minecraft:plains"
         },
         {
           "parameters": {
@@ -8131,7 +8131,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -8251,7 +8251,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -8341,13 +8341,13 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:forest"
         },
         {
           "parameters": {
             "weirdness": [
-              -0.935,
-              -0.4
+              -1.0,
+              -0.2
             ],
             "continentalness": [
               0.03,
@@ -8371,7 +8371,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dark_forest"
+          "biome": "minecraft:dappled_forest"
         },
         {
           "parameters": {
@@ -8431,7 +8431,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:dark_forest"
         },
         {
           "parameters": {
@@ -8551,7 +8551,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -8641,7 +8641,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:forest"
+          "biome": "minecraft:dappled_forest"
         },
         {
           "parameters": {
@@ -8821,7 +8821,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:meadow"
+          "biome": "minecraft:plains"
         },
         {
           "parameters": {
@@ -9151,7 +9151,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -9211,7 +9211,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:forest"
+          "biome": "minecraft:dappled_forest"
         },
         {
           "parameters": {
@@ -9271,7 +9271,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:meadow"
+          "biome": "minecraft:plains"
         },
         {
           "parameters": {
@@ -9481,7 +9481,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:snowy_plains"
         },
         {
           "parameters": {
@@ -9511,7 +9511,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:grove"
+          "biome": "minecraft:snowy_taiga"
         },
         {
           "parameters": {
@@ -9541,7 +9541,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:grove"
+          "biome": "minecraft:snowy_taiga"
         },
         {
           "parameters": {
@@ -9571,7 +9571,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -9631,7 +9631,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -9811,7 +9811,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:meadow"
+          "biome": "minecraft:plains"
         },
         {
           "parameters": {
@@ -9961,7 +9961,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:meadow"
+          "biome": "minecraft:plains"
         },
         {
           "parameters": {
@@ -10621,7 +10621,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -10651,7 +10651,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:meadow"
+          "biome": "minecraft:plains"
         },
         {
           "parameters": {
@@ -10681,7 +10681,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -10921,7 +10921,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:meadow"
+          "biome": "minecraft:plains"
         },
         {
           "parameters": {
@@ -11161,7 +11161,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:snowy_plains"
         },
         {
           "parameters": {
@@ -11191,7 +11191,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:grove"
+          "biome": "minecraft:snowy_taiga"
         },
         {
           "parameters": {
@@ -11221,7 +11221,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -11491,7 +11491,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:snowy_plains"
         },
         {
           "parameters": {
@@ -11521,7 +11521,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:grove"
+          "biome": "minecraft:snowy_taiga"
         },
         {
           "parameters": {
@@ -11551,7 +11551,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -11581,7 +11581,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:grove"
+          "biome": "minecraft:old_growth_spruce_taiga"
         },
         {
           "parameters": {
@@ -12481,7 +12481,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:snowy_plains"
         },
         {
           "parameters": {
@@ -12511,7 +12511,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:grove"
+          "biome": "minecraft:snowy_taiga"
         },
         {
           "parameters": {
@@ -12541,7 +12541,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -12811,7 +12811,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -12871,7 +12871,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -12961,7 +12961,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:forest"
+          "biome": "minecraft:dappled_forest"
         },
         {
           "parameters": {
@@ -13051,7 +13051,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:meadow"
+          "biome": "minecraft:plains"
         },
         {
           "parameters": {
@@ -13231,7 +13231,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -13291,7 +13291,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:meadow"
+          "biome": "minecraft:plains"
         },
         {
           "parameters": {
@@ -13321,7 +13321,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -13351,7 +13351,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:cherry_grove"
+          "biome": "minecraft:snowy_slopes"
         },
         {
           "parameters": {
@@ -13381,7 +13381,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:taiga"
+          "biome": "minecraft:grove"
         },
         {
           "parameters": {
@@ -13471,7 +13471,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:cherry_grove"
+          "biome": "minecraft:windswept_forest"
         },
         {
           "parameters": {
@@ -13531,7 +13531,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna_plateau"
+          "biome": "minecraft:stony_peaks"
         },
         {
           "parameters": {
@@ -13561,7 +13561,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:plains"
+          "biome": "minecraft:stony_peaks"
         },
         {
           "parameters": {
@@ -13591,7 +13591,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:flower_forest"
+          "biome": "minecraft:stony_peaks"
         },
         {
           "parameters": {
@@ -13621,7 +13621,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:forest"
+          "biome": "minecraft:stony_peaks"
         },
         {
           "parameters": {
@@ -13651,7 +13651,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna_plateau"
+          "biome": "minecraft:stony_peaks"
         },
         {
           "parameters": {
@@ -13681,7 +13681,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:forest"
+          "biome": "minecraft:stony_peaks"
         },
         {
           "parameters": {
@@ -13711,7 +13711,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:sparse_jungle"
+          "biome": "minecraft:stony_peaks"
         },
         {
           "parameters": {
@@ -13741,7 +13741,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:jungle"
+          "biome": "minecraft:stony_peaks"
         },
         {
           "parameters": {
@@ -13771,7 +13771,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -13801,7 +13801,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -13861,7 +13861,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:forest"
+          "biome": "minecraft:dappled_forest"
         },
         {
           "parameters": {
@@ -13921,7 +13921,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:meadow"
+          "biome": "minecraft:plains"
         },
         {
           "parameters": {
@@ -14191,7 +14191,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -14221,7 +14221,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -14401,7 +14401,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:meadow"
+          "biome": "minecraft:plains"
         },
         {
           "parameters": {
@@ -14611,7 +14611,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -14641,7 +14641,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -14761,7 +14761,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -14791,7 +14791,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:meadow"
+          "biome": "minecraft:plains"
         },
         {
           "parameters": {
@@ -14881,7 +14881,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:forest"
+          "biome": "minecraft:dappled_forest"
         },
         {
           "parameters": {
@@ -14941,7 +14941,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:meadow"
+          "biome": "minecraft:plains"
         },
         {
           "parameters": {
@@ -16831,7 +16831,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -17071,7 +17071,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:forest"
         },
         {
           "parameters": {
@@ -17221,7 +17221,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:snowy_plains"
         },
         {
           "parameters": {
@@ -17251,7 +17251,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:grove"
+          "biome": "minecraft:snowy_taiga"
         },
         {
           "parameters": {
@@ -17491,7 +17491,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -18331,7 +18331,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:snowy_plains"
         },
         {
           "parameters": {
@@ -18361,7 +18361,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:grove"
+          "biome": "minecraft:snowy_taiga"
         },
         {
           "parameters": {
@@ -18391,7 +18391,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -19141,7 +19141,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -19861,7 +19861,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:snowy_slopes"
         },
         {
           "parameters": {
@@ -19891,7 +19891,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:grove"
         },
         {
           "parameters": {
@@ -19921,7 +19921,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:old_growth_pine_taiga"
+          "biome": "minecraft:grove"
         },
         {
           "parameters": {
@@ -20011,7 +20011,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:plains"
+          "biome": "minecraft:windswept_forest"
         },
         {
           "parameters": {
@@ -20041,7 +20041,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dark_forest"
+          "biome": "minecraft:windswept_forest"
         },
         {
           "parameters": {
@@ -20101,7 +20101,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna_plateau"
+          "biome": "minecraft:stony_peaks"
         },
         {
           "parameters": {
@@ -20131,7 +20131,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:sunflower_plains"
+          "biome": "minecraft:stony_peaks"
         },
         {
           "parameters": {
@@ -20161,7 +20161,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:forest"
+          "biome": "minecraft:stony_peaks"
         },
         {
           "parameters": {
@@ -20191,7 +20191,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna_plateau"
+          "biome": "minecraft:stony_peaks"
         },
         {
           "parameters": {
@@ -20221,7 +20221,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:forest"
+          "biome": "minecraft:stony_peaks"
         },
         {
           "parameters": {
@@ -20251,7 +20251,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:sparse_jungle"
+          "biome": "minecraft:stony_peaks"
         },
         {
           "parameters": {
@@ -20281,7 +20281,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:bamboo_jungle"
+          "biome": "minecraft:stony_peaks"
         },
         {
           "parameters": {
@@ -20341,7 +20341,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_plains"
+          "biome": "minecraft:grove"
         },
         {
           "parameters": {
@@ -20401,7 +20401,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:cherry_grove"
+          "biome": "minecraft:grove"
         },
         {
           "parameters": {
@@ -20851,7 +20851,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:old_growth_spruce_taiga"
         },
         {
           "parameters": {
@@ -20881,7 +20881,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -20911,7 +20911,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:forest"
         },
         {
           "parameters": {
@@ -21511,7 +21511,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -22081,7 +22081,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:forest"
         },
         {
           "parameters": {
@@ -22411,7 +22411,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -22921,7 +22921,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:snowy_plains"
         },
         {
           "parameters": {
@@ -22951,7 +22951,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:grove"
+          "biome": "minecraft:snowy_taiga"
         },
         {
           "parameters": {
@@ -23341,7 +23341,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -23401,7 +23401,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -23461,7 +23461,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:meadow"
+          "biome": "minecraft:plains"
         },
         {
           "parameters": {
@@ -23581,7 +23581,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:dark_forest"
         },
         {
           "parameters": {
@@ -24031,7 +24031,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:old_growth_spruce_taiga"
         },
         {
           "parameters": {
@@ -24061,7 +24061,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -24091,7 +24091,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:forest"
         },
         {
           "parameters": {
@@ -24361,7 +24361,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -24421,7 +24421,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -24481,7 +24481,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:meadow"
+          "biome": "minecraft:plains"
         },
         {
           "parameters": {
@@ -24571,7 +24571,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:dark_forest"
         },
         {
           "parameters": {
@@ -25171,7 +25171,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:snowy_plains"
         },
         {
           "parameters": {
@@ -25201,7 +25201,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:grove"
+          "biome": "minecraft:snowy_taiga"
         },
         {
           "parameters": {
@@ -25231,7 +25231,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:grove"
+          "biome": "minecraft:snowy_taiga"
         },
         {
           "parameters": {
@@ -25681,7 +25681,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -26371,7 +26371,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -26881,7 +26881,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:snowy_plains"
         },
         {
           "parameters": {
@@ -26911,7 +26911,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:grove"
+          "biome": "minecraft:snowy_taiga"
         },
         {
           "parameters": {
@@ -26941,7 +26941,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -27211,7 +27211,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:snowy_plains"
         },
         {
           "parameters": {
@@ -27241,7 +27241,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:grove"
+          "biome": "minecraft:snowy_taiga"
         },
         {
           "parameters": {
@@ -27271,7 +27271,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -27301,7 +27301,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:grove"
+          "biome": "minecraft:old_growth_spruce_taiga"
         },
         {
           "parameters": {
@@ -28111,7 +28111,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:snowy_plains"
         },
         {
           "parameters": {
@@ -28141,7 +28141,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:grove"
+          "biome": "minecraft:snowy_taiga"
         },
         {
           "parameters": {
@@ -28171,7 +28171,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -28891,7 +28891,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:snowy_slopes"
         },
         {
           "parameters": {
@@ -28921,7 +28921,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:grove"
         },
         {
           "parameters": {
@@ -28951,7 +28951,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:old_growth_pine_taiga"
+          "biome": "minecraft:grove"
         },
         {
           "parameters": {
@@ -29041,7 +29041,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:plains"
+          "biome": "minecraft:windswept_forest"
         },
         {
           "parameters": {
@@ -29071,7 +29071,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dark_forest"
+          "biome": "minecraft:windswept_forest"
         },
         {
           "parameters": {
@@ -29131,7 +29131,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna_plateau"
+          "biome": "minecraft:stony_peaks"
         },
         {
           "parameters": {
@@ -29161,7 +29161,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:sunflower_plains"
+          "biome": "minecraft:stony_peaks"
         },
         {
           "parameters": {
@@ -29191,7 +29191,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:forest"
+          "biome": "minecraft:stony_peaks"
         },
         {
           "parameters": {
@@ -29221,7 +29221,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna_plateau"
+          "biome": "minecraft:stony_peaks"
         },
         {
           "parameters": {
@@ -29251,7 +29251,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:forest"
+          "biome": "minecraft:stony_peaks"
         },
         {
           "parameters": {
@@ -29281,7 +29281,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:sparse_jungle"
+          "biome": "minecraft:stony_peaks"
         },
         {
           "parameters": {
@@ -29311,7 +29311,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:bamboo_jungle"
+          "biome": "minecraft:stony_peaks"
         },
         {
           "parameters": {
@@ -30931,7 +30931,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:snowy_plains"
         },
         {
           "parameters": {
@@ -30961,7 +30961,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:grove"
+          "biome": "minecraft:snowy_taiga"
         },
         {
           "parameters": {
@@ -30991,7 +30991,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -31291,7 +31291,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -31351,7 +31351,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -31531,7 +31531,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:meadow"
+          "biome": "minecraft:plains"
         },
         {
           "parameters": {
@@ -31771,7 +31771,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:meadow"
+          "biome": "minecraft:plains"
         },
         {
           "parameters": {
@@ -32071,7 +32071,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:snowy_plains"
         },
         {
           "parameters": {
@@ -32101,7 +32101,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:grove"
+          "biome": "minecraft:snowy_taiga"
         },
         {
           "parameters": {
@@ -32131,7 +32131,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -32401,7 +32401,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -32416,786 +32416,6 @@
             "erosion": [
               -0.78,
               1
-            ],
-            "temperature": [
-              -0.5,
-              -0.15
-            ],
-            "humidity": [
-              0,
-              0.35
-            ],
-            "depth": [
-              1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:windswept_forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.935
-            ],
-            "continentalness": [
-              0.03,
-              0.3
-            ],
-            "erosion": [
-              -0.78,
-              1
-            ],
-            "temperature": [
-              -0.5,
-              -0.15
-            ],
-            "humidity": [
-              0.35,
-              1
-            ],
-            "depth": [
-              1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:old_growth_spruce_taiga"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.935
-            ],
-            "continentalness": [
-              0.03,
-              0.3
-            ],
-            "erosion": [
-              -0.78,
-              1
-            ],
-            "temperature": [
-              -0.15,
-              0.15
-            ],
-            "humidity": [
-              -1,
-              -0.35
-            ],
-            "depth": [
-              1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:plains"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.935
-            ],
-            "continentalness": [
-              0.03,
-              0.3
-            ],
-            "erosion": [
-              -0.78,
-              1
-            ],
-            "temperature": [
-              -0.15,
-              0.15
-            ],
-            "humidity": [
-              -0.35,
-              0
-            ],
-            "depth": [
-              1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.935
-            ],
-            "continentalness": [
-              0.03,
-              0.3
-            ],
-            "erosion": [
-              -0.78,
-              1
-            ],
-            "temperature": [
-              -0.15,
-              0.15
-            ],
-            "humidity": [
-              0,
-              0.35
-            ],
-            "depth": [
-              1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:flower_forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.935
-            ],
-            "continentalness": [
-              0.03,
-              0.3
-            ],
-            "erosion": [
-              -0.78,
-              1
-            ],
-            "temperature": [
-              -0.15,
-              0.15
-            ],
-            "humidity": [
-              0.35,
-              1
-            ],
-            "depth": [
-              1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:dark_forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.935
-            ],
-            "continentalness": [
-              0.03,
-              0.3
-            ],
-            "erosion": [
-              -0.78,
-              1
-            ],
-            "temperature": [
-              0.15,
-              0.5
-            ],
-            "humidity": [
-              -0.35,
-              0
-            ],
-            "depth": [
-              1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:meadow"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.935
-            ],
-            "continentalness": [
-              0.03,
-              0.3
-            ],
-            "erosion": [
-              -0.78,
-              1
-            ],
-            "temperature": [
-              0.15,
-              0.5
-            ],
-            "humidity": [
-              0,
-              0.35
-            ],
-            "depth": [
-              1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.935
-            ],
-            "continentalness": [
-              0.03,
-              0.3
-            ],
-            "erosion": [
-              -0.78,
-              1
-            ],
-            "temperature": [
-              0.15,
-              0.5
-            ],
-            "humidity": [
-              0.35,
-              1
-            ],
-            "depth": [
-              1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.935
-            ],
-            "continentalness": [
-              0.03,
-              0.3
-            ],
-            "erosion": [
-              -0.78,
-              0.05
-            ],
-            "temperature": [
-              0.5,
-              1
-            ],
-            "humidity": [
-              0,
-              0.35
-            ],
-            "depth": [
-              1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:savanna"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.935
-            ],
-            "continentalness": [
-              0.03,
-              0.3
-            ],
-            "erosion": [
-              -0.78,
-              0.05
-            ],
-            "temperature": [
-              0.5,
-              1
-            ],
-            "humidity": [
-              0.7,
-              1
-            ],
-            "depth": [
-              1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:jungle"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.935
-            ],
-            "continentalness": [
-              0.03,
-              0.3
-            ],
-            "erosion": [
-              -0.78,
-              1
-            ],
-            "temperature": [
-              0.75,
-              1
-            ],
-            "humidity": [
-              0.35,
-              0.7
-            ],
-            "depth": [
-              1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:sparse_jungle"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.935
-            ],
-            "continentalness": [
-              0.03,
-              0.3
-            ],
-            "erosion": [
-              -0.375,
-              1
-            ],
-            "temperature": [
-              -1,
-              -0.5
-            ],
-            "humidity": [
-              -1,
-              0
-            ],
-            "depth": [
-              1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:snowy_plains"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.935
-            ],
-            "continentalness": [
-              0.03,
-              0.3
-            ],
-            "erosion": [
-              -0.375,
-              0.05
-            ],
-            "temperature": [
-              -0.5,
-              -0.15
-            ],
-            "humidity": [
-              -0.35,
-              0.35
-            ],
-            "depth": [
-              1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:windswept_forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.935
-            ],
-            "continentalness": [
-              0.03,
-              0.3
-            ],
-            "erosion": [
-              0.05,
-              1
-            ],
-            "temperature": [
-              -0.5,
-              -0.15
-            ],
-            "humidity": [
-              -0.35,
-              0
-            ],
-            "depth": [
-              1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:meadow"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.02
-            ],
-            "continentalness": [
-              0.03,
-              1
-            ],
-            "erosion": [
-              0.05,
-              1
-            ],
-            "temperature": [
-              0.55,
-              1
-            ],
-            "humidity": [
-              -1,
-              -0.7
-            ],
-            "depth": [
-              1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:desert"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.02
-            ],
-            "continentalness": [
-              0.03,
-              1
-            ],
-            "erosion": [
-              0.05,
-              1
-            ],
-            "temperature": [
-              0.15,
-              0.5
-            ],
-            "humidity": [
-              -0.7,
-              -0.35
-            ],
-            "depth": [
-              1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:savanna"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.02
-            ],
-            "continentalness": [
-              0.03,
-              1
-            ],
-            "erosion": [
-              0.05,
-              1
-            ],
-            "temperature": [
-              0.55,
-              1
-            ],
-            "humidity": [
-              -0.7,
-              -0.35
-            ],
-            "depth": [
-              1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:desert"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.02
-            ],
-            "continentalness": [
-              0.03,
-              1
-            ],
-            "erosion": [
-              0.05,
-              1
-            ],
-            "temperature": [
-              0.5,
-              0.75
-            ],
-            "humidity": [
-              -0.35,
-              0
-            ],
-            "depth": [
-              1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:savanna"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.02
-            ],
-            "continentalness": [
-              0.03,
-              1
-            ],
-            "erosion": [
-              0.05,
-              1
-            ],
-            "temperature": [
-              0.5,
-              0.75
-            ],
-            "humidity": [
-              0,
-              0.35
-            ],
-            "depth": [
-              1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.02
-            ],
-            "continentalness": [
-              0.03,
-              1
-            ],
-            "erosion": [
-              0.05,
-              1
-            ],
-            "temperature": [
-              0.5,
-              0.75
-            ],
-            "humidity": [
-              0.7,
-              1
-            ],
-            "depth": [
-              1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:sparse_jungle"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.02
-            ],
-            "continentalness": [
-              0.03,
-              1
-            ],
-            "erosion": [
-              0.05,
-              1
-            ],
-            "temperature": [
-              0.75,
-              1
-            ],
-            "humidity": [
-              -0.35,
-              0
-            ],
-            "depth": [
-              1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:desert"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.02
-            ],
-            "continentalness": [
-              0.03,
-              1
-            ],
-            "erosion": [
-              0.45,
-              1
-            ],
-            "temperature": [
-              0.5,
-              0.75
-            ],
-            "humidity": [
-              0.35,
-              1
-            ],
-            "depth": [
-              1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:sparse_jungle"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.02
-            ],
-            "continentalness": [
-              0.03,
-              1
-            ],
-            "erosion": [
-              0.45,
-              1
-            ],
-            "temperature": [
-              0.75,
-              1
-            ],
-            "humidity": [
-              0,
-              0.35
-            ],
-            "depth": [
-              1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:savanna"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.02
-            ],
-            "continentalness": [
-              0.03,
-              1
-            ],
-            "erosion": [
-              0.45,
-              1
-            ],
-            "temperature": [
-              0.75,
-              1
-            ],
-            "humidity": [
-              0.7,
-              1
-            ],
-            "depth": [
-              1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:jungle"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.935
-            ],
-            "continentalness": [
-              0.3,
-              1
-            ],
-            "erosion": [
-              -0.78,
-              0.45
-            ],
-            "temperature": [
-              -0.5,
-              -0.15
-            ],
-            "humidity": [
-              -1,
-              -0.7
-            ],
-            "depth": [
-              1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:dappled_forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.935
-            ],
-            "continentalness": [
-              0.3,
-              1
-            ],
-            "erosion": [
-              -0.78,
-              -0.2225
             ],
             "temperature": [
               -0.5,
@@ -33220,6 +32440,786 @@
               -0.935
             ],
             "continentalness": [
+              0.03,
+              0.3
+            ],
+            "erosion": [
+              -0.78,
+              1
+            ],
+            "temperature": [
+              -0.5,
+              -0.15
+            ],
+            "humidity": [
+              0.35,
+              1
+            ],
+            "depth": [
+              1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:old_growth_spruce_taiga"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.935
+            ],
+            "continentalness": [
+              0.03,
+              0.3
+            ],
+            "erosion": [
+              -0.78,
+              1
+            ],
+            "temperature": [
+              -0.15,
+              0.15
+            ],
+            "humidity": [
+              -1,
+              -0.35
+            ],
+            "depth": [
+              1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:plains"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1.0,
+              -0.2
+            ],
+            "continentalness": [
+              0.03,
+              0.3
+            ],
+            "erosion": [
+              -0.78,
+              1
+            ],
+            "temperature": [
+              -0.15,
+              0.15
+            ],
+            "humidity": [
+              -0.35,
+              0
+            ],
+            "depth": [
+              1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:dappled_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.935
+            ],
+            "continentalness": [
+              0.03,
+              0.3
+            ],
+            "erosion": [
+              -0.78,
+              1
+            ],
+            "temperature": [
+              -0.15,
+              0.15
+            ],
+            "humidity": [
+              0,
+              0.35
+            ],
+            "depth": [
+              1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:flower_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.935
+            ],
+            "continentalness": [
+              0.03,
+              0.3
+            ],
+            "erosion": [
+              -0.78,
+              1
+            ],
+            "temperature": [
+              -0.15,
+              0.15
+            ],
+            "humidity": [
+              0.35,
+              1
+            ],
+            "depth": [
+              1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:dark_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.935
+            ],
+            "continentalness": [
+              0.03,
+              0.3
+            ],
+            "erosion": [
+              -0.78,
+              1
+            ],
+            "temperature": [
+              0.15,
+              0.5
+            ],
+            "humidity": [
+              -0.35,
+              0
+            ],
+            "depth": [
+              1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:plains"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.935
+            ],
+            "continentalness": [
+              0.03,
+              0.3
+            ],
+            "erosion": [
+              -0.78,
+              1
+            ],
+            "temperature": [
+              0.15,
+              0.5
+            ],
+            "humidity": [
+              0,
+              0.35
+            ],
+            "depth": [
+              1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.935
+            ],
+            "continentalness": [
+              0.03,
+              0.3
+            ],
+            "erosion": [
+              -0.78,
+              1
+            ],
+            "temperature": [
+              0.15,
+              0.5
+            ],
+            "humidity": [
+              0.35,
+              1
+            ],
+            "depth": [
+              1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.935
+            ],
+            "continentalness": [
+              0.03,
+              0.3
+            ],
+            "erosion": [
+              -0.78,
+              0.05
+            ],
+            "temperature": [
+              0.5,
+              1
+            ],
+            "humidity": [
+              0,
+              0.35
+            ],
+            "depth": [
+              1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:savanna"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.935
+            ],
+            "continentalness": [
+              0.03,
+              0.3
+            ],
+            "erosion": [
+              -0.78,
+              0.05
+            ],
+            "temperature": [
+              0.5,
+              1
+            ],
+            "humidity": [
+              0.7,
+              1
+            ],
+            "depth": [
+              1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:jungle"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.935
+            ],
+            "continentalness": [
+              0.03,
+              0.3
+            ],
+            "erosion": [
+              -0.78,
+              1
+            ],
+            "temperature": [
+              0.75,
+              1
+            ],
+            "humidity": [
+              0.35,
+              0.7
+            ],
+            "depth": [
+              1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:sparse_jungle"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.935
+            ],
+            "continentalness": [
+              0.03,
+              0.3
+            ],
+            "erosion": [
+              -0.375,
+              1
+            ],
+            "temperature": [
+              -1,
+              -0.5
+            ],
+            "humidity": [
+              -1,
+              0
+            ],
+            "depth": [
+              1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:snowy_plains"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.935
+            ],
+            "continentalness": [
+              0.03,
+              0.3
+            ],
+            "erosion": [
+              -0.375,
+              0.05
+            ],
+            "temperature": [
+              -0.5,
+              -0.15
+            ],
+            "humidity": [
+              -0.35,
+              0.35
+            ],
+            "depth": [
+              1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:taiga"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.935
+            ],
+            "continentalness": [
+              0.03,
+              0.3
+            ],
+            "erosion": [
+              0.05,
+              1
+            ],
+            "temperature": [
+              -0.5,
+              -0.15
+            ],
+            "humidity": [
+              -0.35,
+              0
+            ],
+            "depth": [
+              1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:plains"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.02
+            ],
+            "continentalness": [
+              0.03,
+              1
+            ],
+            "erosion": [
+              0.05,
+              1
+            ],
+            "temperature": [
+              0.55,
+              1
+            ],
+            "humidity": [
+              -1,
+              -0.7
+            ],
+            "depth": [
+              1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:desert"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.02
+            ],
+            "continentalness": [
+              0.03,
+              1
+            ],
+            "erosion": [
+              0.05,
+              1
+            ],
+            "temperature": [
+              0.15,
+              0.5
+            ],
+            "humidity": [
+              -0.7,
+              -0.35
+            ],
+            "depth": [
+              1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:savanna"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.02
+            ],
+            "continentalness": [
+              0.03,
+              1
+            ],
+            "erosion": [
+              0.05,
+              1
+            ],
+            "temperature": [
+              0.55,
+              1
+            ],
+            "humidity": [
+              -0.7,
+              -0.35
+            ],
+            "depth": [
+              1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:desert"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.02
+            ],
+            "continentalness": [
+              0.03,
+              1
+            ],
+            "erosion": [
+              0.05,
+              1
+            ],
+            "temperature": [
+              0.5,
+              0.75
+            ],
+            "humidity": [
+              -0.35,
+              0
+            ],
+            "depth": [
+              1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:savanna"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.02
+            ],
+            "continentalness": [
+              0.03,
+              1
+            ],
+            "erosion": [
+              0.05,
+              1
+            ],
+            "temperature": [
+              0.5,
+              0.75
+            ],
+            "humidity": [
+              0,
+              0.35
+            ],
+            "depth": [
+              1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.02
+            ],
+            "continentalness": [
+              0.03,
+              1
+            ],
+            "erosion": [
+              0.05,
+              1
+            ],
+            "temperature": [
+              0.5,
+              0.75
+            ],
+            "humidity": [
+              0.7,
+              1
+            ],
+            "depth": [
+              1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:sparse_jungle"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.02
+            ],
+            "continentalness": [
+              0.03,
+              1
+            ],
+            "erosion": [
+              0.05,
+              1
+            ],
+            "temperature": [
+              0.75,
+              1
+            ],
+            "humidity": [
+              -0.35,
+              0
+            ],
+            "depth": [
+              1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:desert"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.02
+            ],
+            "continentalness": [
+              0.03,
+              1
+            ],
+            "erosion": [
+              0.45,
+              1
+            ],
+            "temperature": [
+              0.5,
+              0.75
+            ],
+            "humidity": [
+              0.35,
+              1
+            ],
+            "depth": [
+              1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:sparse_jungle"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.02
+            ],
+            "continentalness": [
+              0.03,
+              1
+            ],
+            "erosion": [
+              0.45,
+              1
+            ],
+            "temperature": [
+              0.75,
+              1
+            ],
+            "humidity": [
+              0,
+              0.35
+            ],
+            "depth": [
+              1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:savanna"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.02
+            ],
+            "continentalness": [
+              0.03,
+              1
+            ],
+            "erosion": [
+              0.45,
+              1
+            ],
+            "temperature": [
+              0.75,
+              1
+            ],
+            "humidity": [
+              0.7,
+              1
+            ],
+            "depth": [
+              1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:jungle"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.935
+            ],
+            "continentalness": [
+              0.3,
+              1
+            ],
+            "erosion": [
+              -0.78,
+              0.45
+            ],
+            "temperature": [
+              -0.5,
+              -0.15
+            ],
+            "humidity": [
+              -1,
+              -0.7
+            ],
+            "depth": [
+              1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:taiga"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.935
+            ],
+            "continentalness": [
+              0.3,
+              1
+            ],
+            "erosion": [
+              -0.78,
+              -0.2225
+            ],
+            "temperature": [
+              -0.5,
+              -0.15
+            ],
+            "humidity": [
+              0,
+              0.35
+            ],
+            "depth": [
+              1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:grove"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.935
+            ],
+            "continentalness": [
               0.3,
               1
             ],
@@ -33331,7 +33331,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna_plateau"
+          "biome": "minecraft:stony_peaks"
         },
         {
           "parameters": {
@@ -33361,7 +33361,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:plains"
+          "biome": "minecraft:stony_peaks"
         },
         {
           "parameters": {
@@ -33391,7 +33391,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:flower_forest"
+          "biome": "minecraft:stony_peaks"
         },
         {
           "parameters": {
@@ -33421,7 +33421,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:forest"
+          "biome": "minecraft:stony_peaks"
         },
         {
           "parameters": {
@@ -33451,7 +33451,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna_plateau"
+          "biome": "minecraft:stony_peaks"
         },
         {
           "parameters": {
@@ -33481,7 +33481,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:forest"
+          "biome": "minecraft:stony_peaks"
         },
         {
           "parameters": {
@@ -33511,7 +33511,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:sparse_jungle"
+          "biome": "minecraft:stony_peaks"
         },
         {
           "parameters": {
@@ -33541,7 +33541,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:jungle"
+          "biome": "minecraft:stony_peaks"
         },
         {
           "parameters": {
@@ -33601,7 +33601,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -33631,7 +33631,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -33666,8 +33666,8 @@
         {
           "parameters": {
             "weirdness": [
-              -1,
-              -0.935
+              -1.0,
+              -0.2
             ],
             "continentalness": [
               0.3,
@@ -33691,7 +33691,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:forest"
+          "biome": "minecraft:dappled_forest"
         },
         {
           "parameters": {
@@ -33751,7 +33751,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:meadow"
+          "biome": "minecraft:plains"
         },
         {
           "parameters": {
@@ -33961,7 +33961,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:meadow"
+          "biome": "minecraft:plains"
         },
         {
           "parameters": {
@@ -33991,7 +33991,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -34141,7 +34141,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -34231,13 +34231,13 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:forest"
         },
         {
           "parameters": {
             "weirdness": [
-              -1,
-              -0.26666668
+              -1.0,
+              -0.2
             ],
             "continentalness": [
               0.3,
@@ -34261,7 +34261,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dark_forest"
+          "biome": "minecraft:dappled_forest"
         },
         {
           "parameters": {
@@ -34321,7 +34321,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:dark_forest"
         },
         {
           "parameters": {
@@ -34441,7 +34441,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -34471,7 +34471,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:meadow"
+          "biome": "minecraft:plains"
         },
         {
           "parameters": {
@@ -34561,7 +34561,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:forest"
+          "biome": "minecraft:dappled_forest"
         },
         {
           "parameters": {
@@ -34621,7 +34621,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:meadow"
+          "biome": "minecraft:plains"
         },
         {
           "parameters": {
@@ -34891,7 +34891,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -34921,7 +34921,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:meadow"
+          "biome": "minecraft:plains"
         },
         {
           "parameters": {
@@ -34951,7 +34951,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -35191,7 +35191,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:meadow"
+          "biome": "minecraft:plains"
         },
         {
           "parameters": {
@@ -35611,7 +35611,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:meadow"
+          "biome": "minecraft:plains"
         },
         {
           "parameters": {
@@ -35641,7 +35641,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:meadow"
+          "biome": "minecraft:plains"
         },
         {
           "parameters": {
@@ -35671,7 +35671,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -35701,7 +35701,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -36361,7 +36361,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:snowy_plains"
         },
         {
           "parameters": {
@@ -36391,7 +36391,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:grove"
+          "biome": "minecraft:snowy_taiga"
         },
         {
           "parameters": {
@@ -36691,7 +36691,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -36811,7 +36811,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:meadow"
+          "biome": "minecraft:plains"
         },
         {
           "parameters": {
@@ -36901,7 +36901,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -36931,7 +36931,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -36991,7 +36991,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:forest"
+          "biome": "minecraft:dappled_forest"
         },
         {
           "parameters": {
@@ -37051,7 +37051,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:meadow"
+          "biome": "minecraft:plains"
         },
         {
           "parameters": {
@@ -37231,7 +37231,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:meadow"
+          "biome": "minecraft:plains"
         },
         {
           "parameters": {
@@ -37261,7 +37261,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -37381,7 +37381,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -37471,13 +37471,13 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:forest"
         },
         {
           "parameters": {
             "weirdness": [
-              -0.935,
-              -0.4
+              -1.0,
+              -0.2
             ],
             "continentalness": [
               0.03,
@@ -37501,7 +37501,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dark_forest"
+          "biome": "minecraft:dappled_forest"
         },
         {
           "parameters": {
@@ -37561,7 +37561,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:dark_forest"
         },
         {
           "parameters": {
@@ -37681,7 +37681,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -37771,7 +37771,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:forest"
+          "biome": "minecraft:dappled_forest"
         },
         {
           "parameters": {
@@ -37951,7 +37951,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:meadow"
+          "biome": "minecraft:plains"
         },
         {
           "parameters": {
@@ -38281,7 +38281,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -38341,7 +38341,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:forest"
+          "biome": "minecraft:dappled_forest"
         },
         {
           "parameters": {
@@ -38401,7 +38401,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:meadow"
+          "biome": "minecraft:plains"
         },
         {
           "parameters": {
@@ -38611,7 +38611,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:snowy_plains"
         },
         {
           "parameters": {
@@ -38641,7 +38641,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:grove"
+          "biome": "minecraft:snowy_taiga"
         },
         {
           "parameters": {
@@ -38671,7 +38671,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:grove"
+          "biome": "minecraft:snowy_taiga"
         },
         {
           "parameters": {
@@ -38701,7 +38701,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -38761,7 +38761,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -38941,7 +38941,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:meadow"
+          "biome": "minecraft:plains"
         },
         {
           "parameters": {
@@ -39091,7 +39091,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:meadow"
+          "biome": "minecraft:plains"
         },
         {
           "parameters": {
@@ -39751,7 +39751,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -39781,7 +39781,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:meadow"
+          "biome": "minecraft:plains"
         },
         {
           "parameters": {
@@ -39811,7 +39811,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -40051,7 +40051,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:meadow"
+          "biome": "minecraft:plains"
         },
         {
           "parameters": {
@@ -40291,7 +40291,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:snowy_plains"
         },
         {
           "parameters": {
@@ -40321,7 +40321,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:grove"
+          "biome": "minecraft:snowy_taiga"
         },
         {
           "parameters": {
@@ -40351,7 +40351,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -40621,7 +40621,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:snowy_plains"
         },
         {
           "parameters": {
@@ -40651,7 +40651,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:grove"
+          "biome": "minecraft:snowy_taiga"
         },
         {
           "parameters": {
@@ -40681,7 +40681,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -40711,7 +40711,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:grove"
+          "biome": "minecraft:old_growth_spruce_taiga"
         },
         {
           "parameters": {
@@ -41611,7 +41611,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:snowy_plains"
         },
         {
           "parameters": {
@@ -41641,7 +41641,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:grove"
+          "biome": "minecraft:snowy_taiga"
         },
         {
           "parameters": {
@@ -41671,7 +41671,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -41941,7 +41941,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -42001,7 +42001,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -42091,7 +42091,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:forest"
+          "biome": "minecraft:dappled_forest"
         },
         {
           "parameters": {
@@ -42181,7 +42181,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:meadow"
+          "biome": "minecraft:plains"
         },
         {
           "parameters": {
@@ -42361,7 +42361,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -42421,7 +42421,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:meadow"
+          "biome": "minecraft:plains"
         },
         {
           "parameters": {
@@ -42451,7 +42451,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -42481,7 +42481,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:cherry_grove"
+          "biome": "minecraft:snowy_slopes"
         },
         {
           "parameters": {
@@ -42511,7 +42511,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:taiga"
+          "biome": "minecraft:grove"
         },
         {
           "parameters": {
@@ -42601,7 +42601,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:cherry_grove"
+          "biome": "minecraft:windswept_forest"
         },
         {
           "parameters": {
@@ -42661,7 +42661,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna_plateau"
+          "biome": "minecraft:stony_peaks"
         },
         {
           "parameters": {
@@ -42691,7 +42691,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:plains"
+          "biome": "minecraft:stony_peaks"
         },
         {
           "parameters": {
@@ -42721,7 +42721,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:flower_forest"
+          "biome": "minecraft:stony_peaks"
         },
         {
           "parameters": {
@@ -42751,7 +42751,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:forest"
+          "biome": "minecraft:stony_peaks"
         },
         {
           "parameters": {
@@ -42781,7 +42781,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna_plateau"
+          "biome": "minecraft:stony_peaks"
         },
         {
           "parameters": {
@@ -42811,7 +42811,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:forest"
+          "biome": "minecraft:stony_peaks"
         },
         {
           "parameters": {
@@ -42841,7 +42841,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:sparse_jungle"
+          "biome": "minecraft:stony_peaks"
         },
         {
           "parameters": {
@@ -42871,7 +42871,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:jungle"
+          "biome": "minecraft:stony_peaks"
         },
         {
           "parameters": {
@@ -42901,7 +42901,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -42931,7 +42931,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -42991,7 +42991,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:forest"
+          "biome": "minecraft:dappled_forest"
         },
         {
           "parameters": {
@@ -43051,7 +43051,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:meadow"
+          "biome": "minecraft:plains"
         },
         {
           "parameters": {
@@ -43321,7 +43321,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -43351,7 +43351,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -43531,7 +43531,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:meadow"
+          "biome": "minecraft:plains"
         },
         {
           "parameters": {
@@ -43741,7 +43741,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -43771,7 +43771,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -43891,7 +43891,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -43921,7 +43921,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:meadow"
+          "biome": "minecraft:plains"
         },
         {
           "parameters": {
@@ -44011,7 +44011,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:forest"
+          "biome": "minecraft:dappled_forest"
         },
         {
           "parameters": {
@@ -44071,7 +44071,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:meadow"
+          "biome": "minecraft:plains"
         },
         {
           "parameters": {
@@ -45961,7 +45961,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -46201,7 +46201,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:forest"
         },
         {
           "parameters": {
@@ -46351,7 +46351,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:snowy_plains"
         },
         {
           "parameters": {
@@ -46381,7 +46381,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:grove"
+          "biome": "minecraft:snowy_taiga"
         },
         {
           "parameters": {
@@ -46621,7 +46621,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -47461,7 +47461,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:snowy_plains"
         },
         {
           "parameters": {
@@ -47491,7 +47491,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:grove"
+          "biome": "minecraft:snowy_taiga"
         },
         {
           "parameters": {
@@ -47521,7 +47521,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -48271,7 +48271,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -48991,7 +48991,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:snowy_slopes"
         },
         {
           "parameters": {
@@ -49021,7 +49021,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:grove"
         },
         {
           "parameters": {
@@ -49051,7 +49051,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:old_growth_pine_taiga"
+          "biome": "minecraft:grove"
         },
         {
           "parameters": {
@@ -49141,7 +49141,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:plains"
+          "biome": "minecraft:windswept_forest"
         },
         {
           "parameters": {
@@ -49171,7 +49171,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dark_forest"
+          "biome": "minecraft:windswept_forest"
         },
         {
           "parameters": {
@@ -49231,7 +49231,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna_plateau"
+          "biome": "minecraft:stony_peaks"
         },
         {
           "parameters": {
@@ -49261,7 +49261,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:sunflower_plains"
+          "biome": "minecraft:stony_peaks"
         },
         {
           "parameters": {
@@ -49291,7 +49291,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:forest"
+          "biome": "minecraft:stony_peaks"
         },
         {
           "parameters": {
@@ -49321,7 +49321,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna_plateau"
+          "biome": "minecraft:stony_peaks"
         },
         {
           "parameters": {
@@ -49351,7 +49351,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:forest"
+          "biome": "minecraft:stony_peaks"
         },
         {
           "parameters": {
@@ -49381,7 +49381,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:sparse_jungle"
+          "biome": "minecraft:stony_peaks"
         },
         {
           "parameters": {
@@ -49411,7 +49411,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:bamboo_jungle"
+          "biome": "minecraft:stony_peaks"
         },
         {
           "parameters": {
@@ -49471,7 +49471,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_plains"
+          "biome": "minecraft:grove"
         },
         {
           "parameters": {
@@ -49531,7 +49531,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:cherry_grove"
+          "biome": "minecraft:grove"
         },
         {
           "parameters": {
@@ -49981,7 +49981,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:old_growth_spruce_taiga"
         },
         {
           "parameters": {
@@ -50011,7 +50011,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -50041,7 +50041,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:forest"
         },
         {
           "parameters": {
@@ -50641,7 +50641,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -51211,7 +51211,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:forest"
         },
         {
           "parameters": {
@@ -51541,7 +51541,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -52051,7 +52051,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:snowy_plains"
         },
         {
           "parameters": {
@@ -52081,7 +52081,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:grove"
+          "biome": "minecraft:snowy_taiga"
         },
         {
           "parameters": {
@@ -52471,7 +52471,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -52531,7 +52531,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -52591,7 +52591,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:meadow"
+          "biome": "minecraft:plains"
         },
         {
           "parameters": {
@@ -52711,7 +52711,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:dark_forest"
         },
         {
           "parameters": {
@@ -53161,7 +53161,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:old_growth_spruce_taiga"
         },
         {
           "parameters": {
@@ -53191,7 +53191,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -53221,7 +53221,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:forest"
         },
         {
           "parameters": {
@@ -53491,7 +53491,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -53551,7 +53551,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -53611,7 +53611,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:meadow"
+          "biome": "minecraft:plains"
         },
         {
           "parameters": {
@@ -53701,7 +53701,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:dark_forest"
         },
         {
           "parameters": {
@@ -54301,7 +54301,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:snowy_plains"
         },
         {
           "parameters": {
@@ -54331,7 +54331,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:grove"
+          "biome": "minecraft:snowy_taiga"
         },
         {
           "parameters": {
@@ -54361,7 +54361,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:grove"
+          "biome": "minecraft:snowy_taiga"
         },
         {
           "parameters": {
@@ -54811,7 +54811,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -55501,7 +55501,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -56011,7 +56011,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:snowy_plains"
         },
         {
           "parameters": {
@@ -56041,7 +56041,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:grove"
+          "biome": "minecraft:snowy_taiga"
         },
         {
           "parameters": {
@@ -56071,7 +56071,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -56341,7 +56341,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:snowy_plains"
         },
         {
           "parameters": {
@@ -56371,7 +56371,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:grove"
+          "biome": "minecraft:snowy_taiga"
         },
         {
           "parameters": {
@@ -56401,7 +56401,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -56431,7 +56431,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:grove"
+          "biome": "minecraft:old_growth_spruce_taiga"
         },
         {
           "parameters": {
@@ -57241,7 +57241,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:snowy_plains"
         },
         {
           "parameters": {
@@ -57271,7 +57271,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:grove"
+          "biome": "minecraft:snowy_taiga"
         },
         {
           "parameters": {
@@ -57301,7 +57301,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:taiga"
         },
         {
           "parameters": {
@@ -58021,7 +58021,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:snowy_slopes"
         },
         {
           "parameters": {
@@ -58051,7 +58051,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:windswept_forest"
+          "biome": "minecraft:grove"
         },
         {
           "parameters": {
@@ -58081,7 +58081,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:old_growth_pine_taiga"
+          "biome": "minecraft:grove"
         },
         {
           "parameters": {
@@ -58171,7 +58171,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:plains"
+          "biome": "minecraft:windswept_forest"
         },
         {
           "parameters": {
@@ -58201,7 +58201,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dark_forest"
+          "biome": "minecraft:windswept_forest"
         },
         {
           "parameters": {
@@ -58261,7 +58261,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna_plateau"
+          "biome": "minecraft:stony_peaks"
         },
         {
           "parameters": {
@@ -58291,7 +58291,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:sunflower_plains"
+          "biome": "minecraft:stony_peaks"
         },
         {
           "parameters": {
@@ -58321,7 +58321,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:forest"
+          "biome": "minecraft:stony_peaks"
         },
         {
           "parameters": {
@@ -58351,7 +58351,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:savanna_plateau"
+          "biome": "minecraft:stony_peaks"
         },
         {
           "parameters": {
@@ -58381,7 +58381,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:forest"
+          "biome": "minecraft:stony_peaks"
         },
         {
           "parameters": {
@@ -58411,7 +58411,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:sparse_jungle"
+          "biome": "minecraft:stony_peaks"
         },
         {
           "parameters": {
@@ -58441,7 +58441,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:bamboo_jungle"
+          "biome": "minecraft:stony_peaks"
         },
         {
           "parameters": {
@@ -58952,6 +58952,66 @@
             "offset": 0
           },
           "biome": "minecraft:windswept_savanna"
+        },
+        {
+          "parameters": {
+            "temperature": [
+              0.6,
+              1.0
+            ],
+            "humidity": [
+              -1.0,
+              -0.4
+            ],
+            "continentalness": [
+              0.1,
+              0.8
+            ],
+            "erosion": [
+              0.5,
+              0.68
+            ],
+            "weirdness": [
+              0.88,
+              0.95
+            ],
+            "depth": [
+              0.0,
+              0.3
+            ],
+            "offset": 0.0
+          },
+          "biome": "minecraft:sulfur_caves"
+        },
+        {
+          "parameters": {
+            "temperature": [
+              0.35,
+              0.75
+            ],
+            "humidity": [
+              -0.8,
+              -0.3
+            ],
+            "continentalness": [
+              0.1,
+              0.8
+            ],
+            "erosion": [
+              0.5,
+              0.68
+            ],
+            "weirdness": [
+              -0.98,
+              -0.92
+            ],
+            "depth": [
+              0.0,
+              0.3
+            ],
+            "offset": 0.0
+          },
+          "biome": "minecraft:sulfur_caves"
         }
       ],
       "type": "minecraft:multi_noise"
