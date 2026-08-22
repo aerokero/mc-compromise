@@ -11,6 +11,38 @@
     "#  "
   ],
   "result": {
-    "id": "minecraft:stone_spear"
+    "id": "minecraft:stone_spear",
+    "components": {
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:attack_damage",
+          "amount": 4.0,
+          "operation": "add_value",
+          "slot": "mainhand",
+          "id": "minecraft:base_attack_damage"
+        },
+        {
+          "type": "minecraft:attack_speed",
+          "amount": -1.5,
+          "operation": "add_value",
+          "slot": "mainhand",
+          "id": "minecraft:base_attack_speed"
+        },
+        {
+          "type": "minecraft:entity_interaction_range",
+          "amount": 1.0,
+          "operation": "add_value",
+          "slot": "mainhand",
+          "id": "minecraft:base_attack_range"
+        }
+      ],
+      "minecraft:piercing_weapon": {
+        "deals_knockback": true,
+        "dismounts": true
+      },
+      "minecraft:custom_data": {
+        "compromise": 1
+      }
+    }
   }
 }

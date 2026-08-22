@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:set_components",
+  "components": {
+    "minecraft:custom_data": {
+      "compromise": 1
+    },
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "minecraft:safe_fall_distance",
+        "id": "leather_chestplate",
+        "amount": 1.0,
+        "operation": "add_value",
+        "slot": "chest"
+      },
+      {
+        "type": "minecraft:armor",
+        "id": "armor_chestplate",
+        "amount": 3.0,
+        "operation": "add_value",
+        "slot": "chest"
+      }
+    ]
+  }
+}

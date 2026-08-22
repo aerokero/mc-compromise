@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:set_components",
+  "components": {
+    "minecraft:custom_data": {
+      "compromise": 1
+    },
+    "minecraft:max_damage": 300,
+    "minecraft:enchantments": {
+      "minecraft:thorns": 3
+    }
+  }
+}

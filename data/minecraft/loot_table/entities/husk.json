@@ -5,33 +5,15 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:loot_table",
-          "value": "compromise:tattered_rotten_flesh"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
           "type": "minecraft:item",
-          "name": "minecraft:rabbit_foot",
-          "condition": {
-            "type": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "minecraft:vehicle": {
-                "minecraft:entity_type": "minecraft:camel_husk"
-              }
-            }
-          },
-          "modifier": [
+          "name": "minecraft:rotten_flesh",
+          "functions": [
             {
               "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 0,
-                "max": 1
+                "max": 2
               }
             },
             {
@@ -42,6 +24,57 @@
                 "min": 0,
                 "max": 1
               }
+            },
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 0,
+                  "saturation": 0,
+                  "can_always_eat": true
+                },
+                "minecraft:consumable": {
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:poison",
+                          "amplifier": 0,
+                          "duration": 600,
+                          "show_particles": true,
+                          "show_icon": true
+                        }
+                      ],
+                      "probability": 0.8
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Can be used as Tattered Leather",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "",
+                    "italic": false
+                  },
+                  {
+                    "text": "When Eaten:",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "80% chance of Poison (0:30)",
+                    "color": "dark_red",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "compromise": 1
+                }
+              }
             }
           ]
         }
@@ -49,24 +82,41 @@
     },
     {
       "rolls": 1,
-      "condition": {
-        "type": "minecraft:all_of",
-        "terms": [
-          {
-            "type": "minecraft:killed_by_player"
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rabbit_foot",
+          "conditions": [
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:vehicle": {
+                  "minecraft:entity_type": "minecraft:rabbit"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "type": "minecraft:killed_by_player"
+        },
+        {
+          "type": "minecraft:random_chance_with_enchanted_bonus",
+          "unenchanted_chance": 0.025,
+          "enchanted_chance": {
+            "type": "minecraft:linear",
+            "base": 0.035,
+            "per_level_above_first": 0.01
           },
-          {
-            "type": "minecraft:random_chance_with_enchanted_bonus",
-            "unenchanted_chance": 0.025,
-            "enchanted_chance": {
-              "type": "minecraft:linear",
-              "base": 0.035,
-              "per_level_above_first": 0.01
-            },
-            "enchantment": "minecraft:looting"
-          }
-        ]
-      },
+          "enchantment": "minecraft:looting"
+        }
+      ],
       "entries": [
         {
           "type": "minecraft:item",

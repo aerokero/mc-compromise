@@ -3,46 +3,48 @@
   "pools": [
     {
       "bonus_rolls": 0,
-      "condition": {
-        "type": "minecraft:any_of",
-        "terms": [
-          {
-            "type": "minecraft:match_tool",
-            "predicate": {
-              "items": "#minecraft:hoes"
-            }
-          },
-          {
-            "type": "minecraft:match_tool",
-            "predicate": {
-              "items": "minecraft:shears"
-            }
-          },
-          {
-            "type": "minecraft:match_tool",
-            "predicate": {
-              "predicates": {
-                "minecraft:enchantments": [
-                  {
-                    "enchantments": "minecraft:silk_touch",
-                    "levels": {
-                      "type": "minecraft:uniform",
-                      "min": 1
-                    }
-                  }
-                ]
-              }
-            }
-          }
-        ]
-      },
       "entries": [
         {
           "type": "minecraft:item",
           "name": "minecraft:tall_dry_grass"
         }
       ],
-      "rolls": 1
+      "rolls": 1,
+      "conditions": [
+        {
+          "type": "minecraft:any_of",
+          "terms": [
+            {
+              "type": "minecraft:match_tool",
+              "predicate": {
+                "items": "#minecraft:hoes"
+              }
+            },
+            {
+              "type": "minecraft:match_tool",
+              "predicate": {
+                "items": "minecraft:shears"
+              }
+            },
+            {
+              "type": "minecraft:match_tool",
+              "predicate": {
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "minecraft:silk_touch",
+                      "levels": {
+                        "type": "minecraft:uniform",
+                        "min": 1
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
   ],
   "random_sequence": "minecraft:blocks/tall_dry_grass"

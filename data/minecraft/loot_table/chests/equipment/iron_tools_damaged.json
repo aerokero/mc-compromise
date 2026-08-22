@@ -21,7 +21,34 @@
                   "default_mining_speed": 1,
                   "damage_per_block": 1
                 },
-                "minecraft:max_damage": 500
+                "minecraft:max_damage": 500,
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:attack_damage",
+                    "amount": 3.0,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "id": "minecraft:base_attack_damage"
+                  },
+                  {
+                    "type": "minecraft:attack_speed",
+                    "amount": -1.5,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "id": "minecraft:base_attack_speed"
+                  },
+                  {
+                    "type": "minecraft:entity_interaction_range",
+                    "amount": -0.5,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "id": "minecraft:base_attack_range"
+                  }
+                ],
+                "minecraft:attack_animation": {
+                  "type": "whack",
+                  "duration": 4
+                }
               }
             },
             {
@@ -55,7 +82,38 @@
                   "default_mining_speed": 1,
                   "damage_per_block": 1
                 },
-                "minecraft:max_damage": 500
+                "minecraft:max_damage": 500,
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:attack_damage",
+                    "amount": 5.0,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "id": "minecraft:base_attack_damage"
+                  },
+                  {
+                    "type": "minecraft:attack_speed",
+                    "amount": -2.0,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "id": "minecraft:base_attack_speed"
+                  },
+                  {
+                    "type": "minecraft:entity_interaction_range",
+                    "amount": -0.5,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "id": "minecraft:base_attack_range"
+                  }
+                ],
+                "minecraft:attack_animation": {
+                  "type": "whack",
+                  "duration": 5
+                },
+                "minecraft:weapon": {
+                  "item_damage_per_attack": 1,
+                  "disable_blocking_for_seconds": 1.6
+                }
               }
             },
             {
@@ -89,7 +147,34 @@
                   "default_mining_speed": 1,
                   "damage_per_block": 1
                 },
-                "minecraft:max_damage": 500
+                "minecraft:max_damage": 500,
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:attack_damage",
+                    "amount": 2.0,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "id": "minecraft:base_attack_damage"
+                  },
+                  {
+                    "type": "minecraft:attack_speed",
+                    "amount": -2.0,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "id": "minecraft:base_attack_speed"
+                  },
+                  {
+                    "type": "minecraft:entity_interaction_range",
+                    "amount": -0.5,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "id": "minecraft:base_attack_range"
+                  }
+                ],
+                "minecraft:attack_animation": {
+                  "type": "whack",
+                  "duration": 4
+                }
               }
             },
             {
@@ -123,7 +208,34 @@
                   "default_mining_speed": 1,
                   "damage_per_block": 1
                 },
-                "minecraft:max_damage": 500
+                "minecraft:max_damage": 500,
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:attack_damage",
+                    "amount": 2.0,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "id": "minecraft:base_attack_damage"
+                  },
+                  {
+                    "type": "minecraft:attack_speed",
+                    "amount": -0.5,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "id": "minecraft:base_attack_speed"
+                  },
+                  {
+                    "type": "minecraft:entity_interaction_range",
+                    "amount": 0.5,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "id": "minecraft:base_attack_range"
+                  }
+                ],
+                "minecraft:attack_animation": {
+                  "type": "whack",
+                  "duration": 3
+                }
               }
             },
             {

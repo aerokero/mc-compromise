@@ -3,14 +3,46 @@
   "category": "equipment",
   "key": {
     "#": "minecraft:stick",
-    "X": "minecraft:diamond"
+    "X": "#minecraft:diamond_tool_materials"
   },
   "pattern": [
-    "XX ",
-    "X# ",
-    " # "
+    "XX",
+    "X#",
+    " #"
   ],
   "result": {
-    "id": "minecraft:diamond_axe"
+    "id": "minecraft:diamond_axe",
+    "components": {
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:attack_damage",
+          "amount": 6.0,
+          "operation": "add_value",
+          "slot": "mainhand",
+          "id": "minecraft:base_attack_damage"
+        },
+        {
+          "type": "minecraft:attack_speed",
+          "amount": -2.0,
+          "operation": "add_value",
+          "slot": "mainhand",
+          "id": "minecraft:base_attack_speed"
+        },
+        {
+          "type": "minecraft:entity_interaction_range",
+          "amount": -0.5,
+          "operation": "add_value",
+          "slot": "mainhand",
+          "id": "minecraft:base_attack_range"
+        }
+      ],
+      "minecraft:weapon": {
+        "item_damage_per_attack": 1,
+        "disable_blocking_for_seconds": 1.6
+      },
+      "minecraft:custom_data": {
+        "compromise": 1
+      }
+    }
   }
 }

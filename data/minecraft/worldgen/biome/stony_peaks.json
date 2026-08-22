@@ -46,9 +46,7 @@
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
       "minecraft:underwater_magma",
-      "minecraft:ore_emerald",
-      "minecraft:ore_calcite_upper",
-      "minecraft:ore_calcite_lower"
+      "minecraft:ore_emerald"
     ],
     [
       "minecraft:ore_infested"

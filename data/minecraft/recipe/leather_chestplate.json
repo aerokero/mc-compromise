@@ -28,7 +28,10 @@
           "operation": "add_value",
           "slot": "chest"
         }
-      ]
+      ],
+      "minecraft:custom_data": {
+        "compromise": 1
+      }
     }
   }
 }

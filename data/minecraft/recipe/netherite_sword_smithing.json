@@ -1,9 +1,30 @@
 {
   "type": "minecraft:smithing_transform",
-  "template": "#main:never",
-  "base": "#main:never",
-  "addition": "#main:never",
+  "template": "minecraft:netherite_upgrade_smithing_template",
+  "base": "minecraft:diamond_sword",
+  "addition": "#minecraft:netherite_tool_materials",
   "result": {
-    "id": "minecraft:netherite_sword"
+    "id": "minecraft:netherite_sword",
+    "components": {
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:attack_damage",
+          "amount": 6.0,
+          "operation": "add_value",
+          "slot": "mainhand",
+          "id": "minecraft:base_attack_damage"
+        },
+        {
+          "type": "minecraft:attack_speed",
+          "amount": -1.0,
+          "operation": "add_value",
+          "slot": "mainhand",
+          "id": "minecraft:base_attack_speed"
+        }
+      ],
+      "minecraft:custom_data": {
+        "compromise": 1
+      }
+    }
   }
 }

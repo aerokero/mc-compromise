@@ -1,29 +1,25 @@
 {
-  "block.minecraft.poppy": "R\u00f3ża",
+  "block.minecraft.poppy": "Róża",
   "block.minecraft.redstone_block": "Blok czerwonego kamienia",
   "block.minecraft.redstone_torch": "Pochodnia z czerwonego kamienia",
-  "block.minecraft.redstone_wall_torch": "\u015acienna pochodnia z czerwonego kamienia",
-  "block.minecraft.redstone_wire": "Przew\u00f3d z czerwonego kamienia",
+  "block.minecraft.redstone_wall_torch": "Ścienna pochodnia z czerwonego kamienia",
+  "block.minecraft.redstone_wire": "Przewód z czerwonego kamienia",
   "item.minecraft.redstone": "Czerwony proszek",
-  
   "selectWorld.gameRules": "Zasady gry...",
   "menu.singleplayer": "Tryb jednoosobowy",
   "menu.multiplayer": "Tryb wieloosobowy",
   "multiplayer.title": "Tryb wieloosobowy",
   "menu.options": "Ustawienia...",
-  
   "menu.returnToGame": "Powróć do gry...",
   "gui.advancements": "Osiągnięcia",
   "gui.stats": "Statystyki",
   "menu.sendFeedback": "Prześlij opinię",
   "menu.disconnect": "Rozłącz",
   "menu.returnToMenu": "Zapisz i wyjdź do menu...",
-  
   "container.crafting": "",
-  "chat.type.advancement.challenge": "Gracz %s uko\u0144czy\u0142 wyzwanie %s",
-  "chat.type.advancement.goal": "Gracz %s osi\u0105gn\u0105\u0142 cel %s",
-  "chat.type.advancement.task": "Gracz %s zdobył\u0142 osi\u0105gni\u0119cie %s",
-  
+  "chat.type.advancement.challenge": "Gracz %s ukończył wyzwanie %s",
+  "chat.type.advancement.goal": "Gracz %s osiągnął cel %s",
+  "chat.type.advancement.task": "Gracz %s zdobyłł osiągnięcie %s",
   "item.minecraft.music_disc_blocks.desc": "C418 - blocks",
   "item.minecraft.music_disc_chirp.desc": "C418 - chirp",
   "item.minecraft.music_disc_far.desc": "C418 - far",
@@ -37,8 +33,9 @@
   "item.minecraft.music_disc_pigstep.desc": "Notch - calm4",
   "item.minecraft.music_disc_otherside.desc": "C418 - droopy likes your face",
   "item.minecraft.music_disc_5.desc": "C418 - 5",
-  
-  "entity.minecraft.warden": "Jajo przyzywaj\u0105ce §kHerobrine§f", 
+  "entity.minecraft.warden": "Jajo przyzywające §kHerobrine§f",
   "item.minecraft.warden_spawn_egg": "§kHerobrine§f",
-  "item.minecraft.mourner_pottery_shard": "Him Pottery Shard"
+  "item.minecraft.mourner_pottery_shard": "Him Pottery Shard",
+  "item.minecraft.potion.effect.empty": "Butelka wody",
+  "item.minecraft.potion": "Butelka wody"
 }

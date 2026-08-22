@@ -44,13 +44,6 @@
     },
     {
       "bonus_rolls": 0,
-      "condition": {
-        "type": "minecraft:match_block",
-        "blocks": "minecraft:wheat",
-        "state": {
-          "age": "7"
-        }
-      },
       "entries": [
         {
           "type": "minecraft:item",
@@ -68,7 +61,16 @@
           "name": "minecraft:wheat_seeds"
         }
       ],
-      "rolls": 1
+      "rolls": 1,
+      "conditions": [
+        {
+          "type": "minecraft:match_block",
+          "blocks": "minecraft:wheat",
+          "state": {
+            "age": "7"
+          }
+        }
+      ]
     }
   ],
   "random_sequence": "minecraft:blocks/wheat"

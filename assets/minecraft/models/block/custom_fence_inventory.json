@@ -1,5 +1,9 @@
 {
     "parent": "block/block",
+    "textures": {
+        "particle": "#texture",
+        "texture": "#texture"
+    },
     "display": {
         "gui": {
             "rotation": [ 30, 135, 0 ],

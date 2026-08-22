@@ -3,30 +3,6 @@
   "pools": [
     {
       "bonus_rolls": 0,
-      "condition": {
-        "type": "minecraft:all_of",
-        "terms": [
-          {
-            "type": "minecraft:match_block",
-            "blocks": "minecraft:large_fern",
-            "state": {
-              "half": "lower"
-            }
-          },
-          {
-            "type": "minecraft:location_check",
-            "offsetY": 1,
-            "predicate": {
-              "block": {
-                "blocks": "minecraft:large_fern",
-                "state": {
-                  "half": "upper"
-                }
-              }
-            }
-          }
-        ]
-      },
       "entries": [
         {
           "type": "minecraft:alternatives",
@@ -68,34 +44,36 @@
           ]
         }
       ],
-      "rolls": 1
+      "rolls": 1,
+      "conditions": [
+        {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:match_block",
+              "blocks": "minecraft:large_fern",
+              "state": {
+                "half": "lower"
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "offsetY": 1,
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:large_fern",
+                  "state": {
+                    "half": "upper"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     },
     {
       "bonus_rolls": 0,
-      "condition": {
-        "type": "minecraft:all_of",
-        "terms": [
-          {
-            "type": "minecraft:match_block",
-            "blocks": "minecraft:large_fern",
-            "state": {
-              "half": "upper"
-            }
-          },
-          {
-            "type": "minecraft:location_check",
-            "offsetY": -1,
-            "predicate": {
-              "block": {
-                "blocks": "minecraft:large_fern",
-                "state": {
-                  "half": "lower"
-                }
-              }
-            }
-          }
-        ]
-      },
       "entries": [
         {
           "type": "minecraft:alternatives",
@@ -137,7 +115,33 @@
           ]
         }
       ],
-      "rolls": 1
+      "rolls": 1,
+      "conditions": [
+        {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:match_block",
+              "blocks": "minecraft:large_fern",
+              "state": {
+                "half": "upper"
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "offsetY": -1,
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:large_fern",
+                  "state": {
+                    "half": "lower"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
   ],
   "random_sequence": "minecraft:blocks/large_fern"

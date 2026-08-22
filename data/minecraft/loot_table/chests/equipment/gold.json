@@ -134,6 +134,33 @@
                 "minecraft:item_name": {
                   "translate": "item.minecraft.golden_pickaxe",
                   "color": "white"
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:attack_damage",
+                    "amount": 2.0,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "id": "minecraft:base_attack_damage"
+                  },
+                  {
+                    "type": "minecraft:attack_speed",
+                    "amount": -1.5,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "id": "minecraft:base_attack_speed"
+                  },
+                  {
+                    "type": "minecraft:entity_interaction_range",
+                    "amount": -0.5,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "id": "minecraft:base_attack_range"
+                  }
+                ],
+                "minecraft:attack_animation": {
+                  "type": "whack",
+                  "duration": 4
                 }
               }
             },
@@ -159,6 +186,37 @@
                 "minecraft:item_name": {
                   "translate": "item.minecraft.golden_axe",
                   "color": "white"
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:attack_damage",
+                    "amount": 4.0,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "id": "minecraft:base_attack_damage"
+                  },
+                  {
+                    "type": "minecraft:attack_speed",
+                    "amount": -2.0,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "id": "minecraft:base_attack_speed"
+                  },
+                  {
+                    "type": "minecraft:entity_interaction_range",
+                    "amount": -0.5,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "id": "minecraft:base_attack_range"
+                  }
+                ],
+                "minecraft:attack_animation": {
+                  "type": "whack",
+                  "duration": 5
+                },
+                "minecraft:weapon": {
+                  "item_damage_per_attack": 1,
+                  "disable_blocking_for_seconds": 1.6
                 }
               }
             },
@@ -193,6 +251,33 @@
                 "minecraft:item_name": {
                   "translate": "item.minecraft.golden_shovel",
                   "color": "white"
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:attack_damage",
+                    "amount": 1.0,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "id": "minecraft:base_attack_damage"
+                  },
+                  {
+                    "type": "minecraft:attack_speed",
+                    "amount": -2.0,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "id": "minecraft:base_attack_speed"
+                  },
+                  {
+                    "type": "minecraft:entity_interaction_range",
+                    "amount": -0.5,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "id": "minecraft:base_attack_range"
+                  }
+                ],
+                "minecraft:attack_animation": {
+                  "type": "whack",
+                  "duration": 4
                 }
               }
             },
@@ -217,6 +302,33 @@
                 "minecraft:item_name": {
                   "translate": "item.minecraft.golden_hoe",
                   "color": "white"
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:attack_damage",
+                    "amount": 1.0,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "id": "minecraft:base_attack_damage"
+                  },
+                  {
+                    "type": "minecraft:attack_speed",
+                    "amount": -0.5,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "id": "minecraft:base_attack_speed"
+                  },
+                  {
+                    "type": "minecraft:entity_interaction_range",
+                    "amount": 0.5,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "id": "minecraft:base_attack_range"
+                  }
+                ],
+                "minecraft:attack_animation": {
+                  "type": "whack",
+                  "duration": 3
                 }
               }
             },
@@ -241,6 +353,37 @@
                 "minecraft:item_name": {
                   "translate": "item.minecraft.golden_spear",
                   "color": "white"
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:attack_damage",
+                    "amount": 4.0,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "id": "minecraft:base_attack_damage"
+                  },
+                  {
+                    "type": "minecraft:attack_speed",
+                    "amount": -1.5,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "id": "minecraft:base_attack_speed"
+                  },
+                  {
+                    "type": "minecraft:entity_interaction_range",
+                    "amount": 1.0,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "id": "minecraft:base_attack_range"
+                  }
+                ],
+                "minecraft:attack_animation": {
+                  "type": "stab",
+                  "duration": 6
+                },
+                "minecraft:piercing_weapon": {
+                  "deals_knockback": true,
+                  "dismounts": true
                 }
               }
             },
@@ -265,6 +408,26 @@
                 "minecraft:item_name": {
                   "translate": "item.minecraft.golden_sword",
                   "color": "white"
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:attack_damage",
+                    "amount": 3.0,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "id": "minecraft:base_attack_damage"
+                  },
+                  {
+                    "type": "minecraft:attack_speed",
+                    "amount": -1.0,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "id": "minecraft:base_attack_speed"
+                  }
+                ],
+                "minecraft:attack_animation": {
+                  "type": "whack",
+                  "duration": 4
                 }
               }
             },

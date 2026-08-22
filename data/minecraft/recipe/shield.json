@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "W": "#minecraft:wooden_tool_materials",
+    "o": "minecraft:iron_ingot"
+  },
+  "pattern": [
+    "WoW",
+    "WWW",
+    " W "
+  ],
+  "result": {
+    "id": "minecraft:shield",
+    "components": {
+      "minecraft:blocks_attacks": {
+        "block_delay_seconds": 0.0
+      },
+      "minecraft:custom_data": {
+        "compromise": 1
+      }
+    }
+  }
+}

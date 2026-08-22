@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:set_components",
+  "components": {
+    "minecraft:custom_data": {
+      "compromise": 1
+    },
+    "minecraft:blocks_attacks": {
+      "block_delay_seconds": 0.0
+    }
+  }
+}

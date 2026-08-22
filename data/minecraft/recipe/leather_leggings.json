@@ -28,7 +28,10 @@
           "operation": "add_value",
           "slot": "legs"
         }
-      ]
+      ],
+      "minecraft:custom_data": {
+        "compromise": 1
+      }
     }
   }
 }

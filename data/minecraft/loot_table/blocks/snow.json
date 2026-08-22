@@ -3,11 +3,6 @@
   "pools": [
     {
       "bonus_rolls": 0,
-      "condition": {
-        "type": "minecraft:entity_properties",
-        "entity": "this",
-        "predicate": {}
-      },
       "entries": [
         {
           "type": "minecraft:alternatives",
@@ -366,7 +361,14 @@
           ]
         }
       ],
-      "rolls": 1
+      "rolls": 1,
+      "conditions": [
+        {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {}
+        }
+      ]
     }
   ],
   "random_sequence": "minecraft:blocks/snow"

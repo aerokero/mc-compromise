@@ -1,9 +1,41 @@
 {
   "type": "minecraft:smithing_transform",
-  "template": "#main:never",
-  "base": "#main:never",
-  "addition": "#main:never",
+  "template": "minecraft:netherite_upgrade_smithing_template",
+  "base": "minecraft:diamond_axe",
+  "addition": "#minecraft:netherite_tool_materials",
   "result": {
-    "id": "minecraft:netherite_axe"
+    "id": "minecraft:netherite_axe",
+    "components": {
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:attack_damage",
+          "amount": 7.0,
+          "operation": "add_value",
+          "slot": "mainhand",
+          "id": "minecraft:base_attack_damage"
+        },
+        {
+          "type": "minecraft:attack_speed",
+          "amount": -2.0,
+          "operation": "add_value",
+          "slot": "mainhand",
+          "id": "minecraft:base_attack_speed"
+        },
+        {
+          "type": "minecraft:entity_interaction_range",
+          "amount": -0.5,
+          "operation": "add_value",
+          "slot": "mainhand",
+          "id": "minecraft:base_attack_range"
+        }
+      ],
+      "minecraft:weapon": {
+        "item_damage_per_attack": 1,
+        "disable_blocking_for_seconds": 1.6
+      },
+      "minecraft:custom_data": {
+        "compromise": 1
+      }
+    }
   }
 }

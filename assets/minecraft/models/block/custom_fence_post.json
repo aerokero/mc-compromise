@@ -1,6 +1,7 @@
 {
     "textures": {
-        "particle": "#particle"
+        "particle": "#texture",
+        "texture": "#texture"
     },
     "elements": [
         {   "from": [ 6, 0, 6 ],

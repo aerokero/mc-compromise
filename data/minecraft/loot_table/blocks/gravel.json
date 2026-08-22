@@ -3,9 +3,6 @@
   "pools": [
     {
       "bonus_rolls": 0.0,
-      "condition": {
-        "type": "minecraft:survives_explosion"
-      },
       "entries": [
         {
           "type": "minecraft:alternatives",
@@ -52,7 +49,12 @@
           ]
         }
       ],
-      "rolls": 1.0
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "type": "minecraft:survives_explosion"
+        }
+      ]
     }
   ],
   "random_sequence": "minecraft:blocks/gravel"

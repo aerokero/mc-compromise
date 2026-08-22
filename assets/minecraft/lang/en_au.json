@@ -1,1 +1,6 @@
-{"block.minecraft.poppy":"Rose","block.minecraft.potted_poppy":"Potted Rose"}
+{
+  "block.minecraft.poppy": "Rose",
+  "block.minecraft.potted_poppy": "Potted Rose",
+  "item.minecraft.potion.effect.empty": "Water Bottle",
+  "item.minecraft.potion": "Water Bottle"
+}

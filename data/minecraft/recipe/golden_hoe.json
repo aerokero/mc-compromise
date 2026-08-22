@@ -6,11 +6,39 @@
     "X": "#minecraft:gold_tool_materials"
   },
   "pattern": [
-    "XX ",
-    " # ",
-    " # "
+    "XX",
+    " #",
+    " #"
   ],
   "result": {
-    "id": "minecraft:golden_hoe"
+    "id": "minecraft:golden_hoe",
+    "components": {
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:attack_damage",
+          "amount": 1.0,
+          "operation": "add_value",
+          "slot": "mainhand",
+          "id": "minecraft:base_attack_damage"
+        },
+        {
+          "type": "minecraft:attack_speed",
+          "amount": -0.5,
+          "operation": "add_value",
+          "slot": "mainhand",
+          "id": "minecraft:base_attack_speed"
+        },
+        {
+          "type": "minecraft:entity_interaction_range",
+          "amount": 0.5,
+          "operation": "add_value",
+          "slot": "mainhand",
+          "id": "minecraft:base_attack_range"
+        }
+      ],
+      "minecraft:custom_data": {
+        "compromise": 1
+      }
+    }
   }
 }

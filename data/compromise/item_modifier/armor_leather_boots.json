@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:set_components",
+  "components": {
+    "minecraft:custom_data": {
+      "compromise": 1
+    },
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "minecraft:safe_fall_distance",
+        "id": "leather_boots",
+        "amount": 1.0,
+        "operation": "add_value",
+        "slot": "feet"
+      },
+      {
+        "type": "minecraft:armor",
+        "id": "armor_boots",
+        "amount": 1.0,
+        "operation": "add_value",
+        "slot": "feet"
+      }
+    ]
+  }
+}

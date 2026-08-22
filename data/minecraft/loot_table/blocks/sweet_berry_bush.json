@@ -8,13 +8,6 @@
   "pools": [
     {
       "bonus_rolls": 0,
-      "condition": {
-        "type": "minecraft:match_block",
-        "blocks": "minecraft:sweet_berry_bush",
-        "state": {
-          "age": "3"
-        }
-      },
       "entries": [
         {
           "type": "minecraft:item",
@@ -76,17 +69,19 @@
           }
         }
       ],
-      "rolls": 1
+      "rolls": 1,
+      "conditions": [
+        {
+          "type": "minecraft:match_block",
+          "blocks": "minecraft:sweet_berry_bush",
+          "state": {
+            "age": "3"
+          }
+        }
+      ]
     },
     {
       "bonus_rolls": 0,
-      "condition": {
-        "type": "minecraft:match_block",
-        "blocks": "minecraft:sweet_berry_bush",
-        "state": {
-          "age": "2"
-        }
-      },
       "entries": [
         {
           "type": "minecraft:item",
@@ -148,7 +143,16 @@
           }
         }
       ],
-      "rolls": 1
+      "rolls": 1,
+      "conditions": [
+        {
+          "type": "minecraft:match_block",
+          "blocks": "minecraft:sweet_berry_bush",
+          "state": {
+            "age": "2"
+          }
+        }
+      ]
     }
   ],
   "random_sequence": "minecraft:blocks/sweet_berry_bush"

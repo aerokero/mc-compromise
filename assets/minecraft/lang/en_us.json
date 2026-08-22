@@ -4,12 +4,10 @@
   "block.minecraft.smoker": "Oven",
   "container.furnace": "Basic Furnace",
   "container.smoker": "Oven",
-
   "item.minecraft.curry_stock": "Curry Stock",
   "item.minecraft.green_curry_stock": "Green Curry Stock",
   "item.minecraft.beetroot_curry_stock": "Beetroot Curry Stock",
   "item.minecraft.dried_kelp_stock": "Dried Kelp Stock",
-
   "item.minecraft.knowledge.durability": "Durability",
   "item.minecraft.knowledge.feather_falling": "Feather Falling",
   "item.minecraft.knowledge.frostwalker": "Frostwalker",
@@ -34,7 +32,6 @@
   "item.minecraft.knowledge.unbreaking": "Unbreaking",
   "item.minecraft.knowledge.wind_burst": "Wind Burst",
   "item.minecraft.knowledge.zephyr": "Zephyr",
-
   "item.minecraft.apple_pie": "Apple Pie",
   "item.minecraft.baked_apple": "Baked Apple",
   "item.minecraft.baked_golden_apple": "Baked Golden Apple",
@@ -76,10 +73,8 @@
   "item.minecraft.dried_kelp_stew": "Dried Kelp Stew",
   "item.minecraft.steamed_carrots": "Steamed Carrots",
   "item.minecraft.sweet_berry_danish": "Sweet Berry Cookie",
-
   "item.minecraft.crystal_heart": "Crystal Heart",
   "item.minecraft.cooking_recipe": "Cooking Recipe",
-
   "item.minecraft.avesta": "Avesta",
   "item.minecraft.ofuda": "Ofuda",
   "item.minecraft.quran": "Quran",
@@ -95,12 +90,10 @@
   "item.minecraft.enoch.desc": "Forbidden knowledge, sealed for ages.",
   "item.minecraft.key_of_solomon": "Key of Solomon",
   "item.minecraft.key_of_solomon.desc": "A grimoire said to command spirits.",
-
   "item.minecraft.cheerful_clay_statue": "Cheerful Clay Statue",
   "item.minecraft.cheerful_clay_statue.desc": "A small clay figure, smiling despite everything.",
   "item.minecraft.mournful_clay_statue": "Mournful Clay Statue",
   "item.minecraft.mournful_clay_statue.desc": "A small clay figure, weathered by grief.",
-
   "item.minecraft.amber": "Amber",
   "item.minecraft.amber_earrings": "Amber Earrings",
   "item.minecraft.opal": "Opal",
@@ -110,7 +103,6 @@
   "item.minecraft.topaz": "Topaz",
   "item.minecraft.topaz_earrings": "Topaz Earrings",
   "item.minecraft.tallow": "Tallow",
-
   "item.minecraft.axolotl": "Axolotl",
   "item.minecraft.frog": "Frog",
   "item.minecraft.tadpole": "Tadpole",
@@ -126,7 +118,6 @@
   "item.minecraft.fertilised_egg": "Fertilised Egg",
   "item.minecraft.fertilised_blue_egg": "Fertilised Blue Egg",
   "item.minecraft.fertilised_brown_egg": "Fertilised Brown Egg",
-
   "item.minecraft.fish.alaska_blackfish": "Alaska Blackfish",
   "item.minecraft.fish.anchovy": "Anchovy",
   "item.minecraft.fish.arapaima": "Arapaima",
@@ -175,13 +166,11 @@
   "item.minecraft.fish.tunisian_barb": "Tunisian Barb",
   "item.minecraft.fish.walleye": "Walleye",
   "item.minecraft.fish.wolffish": "Wolffish",
-
   "item.minecraft.bundle.exotic_seed": "Exotic Seed Bundle",
   "item.minecraft.bundle.floral": "Floral Bundle",
   "item.minecraft.bundle.lava_kit": "Lava Kit Bundle",
   "item.minecraft.bundle.mushroom": "Mushroom Bundle",
   "item.minecraft.bundle.seed": "Seed Bundle",
-
   "item.minecraft.trade.bulk.desc": "Buy building materials in bulk.",
   "item.minecraft.trade.bulk_andesite": "Bulk Andesite",
   "item.minecraft.trade.bulk_andesite.desc": "Buy Andesite in bulk.",
@@ -205,7 +194,6 @@
   "item.minecraft.trade.bulk_stone.desc": "Buy Stone in bulk.",
   "item.minecraft.trade.bulk_tuff": "Bulk Tuff",
   "item.minecraft.trade.bulk_tuff.desc": "Buy Tuff in bulk.",
-
   "item.minecraft.invisible_item_frame": "Invisible Item Frame",
   "item.minecraft.shepherds_shears": "Shepherd's Shears",
   "item.minecraft.archaeologists_brush": "Archaeologist's Brush",
@@ -214,7 +202,6 @@
   "item.minecraft.crook": "Crook",
   "item.minecraft.hatchet": "Hatchet",
   "item.minecraft.copper_shears": "Copper Shears",
-
   "item.minecraft.copper_dolabra": "Copper Dolabra",
   "item.minecraft.copper_mattock": "Copper Mattock",
   "item.minecraft.iron_dolabra": "Iron Dolabra",
@@ -224,12 +211,10 @@
   "item.minecraft.adamant_claymore": "Adamant Claymore",
   "item.minecraft.adamant_dolabra": "Adamant Dolabra",
   "item.minecraft.adamant_mattock": "Adamant Mattock",
-
   "item.minecraft.sturdy_leather_boots": "Sturdy Leather Boots",
   "item.minecraft.sturdy_leather_chestplate": "Sturdy Leather Chestplate",
   "item.minecraft.sturdy_leather_helmet": "Sturdy Leather Helmet",
   "item.minecraft.sturdy_leather_leggings": "Sturdy Leather Leggings",
-
   "item.minecraft.bronze_axe": "Bronze Axe",
   "item.minecraft.bronze_boots": "Bronze Boots",
   "item.minecraft.bronze_chestplate": "Bronze Chestplate",
@@ -244,7 +229,6 @@
   "item.minecraft.bronze_shovel": "Bronze Shovel",
   "item.minecraft.bronze_spear": "Bronze Spear",
   "item.minecraft.bronze_sword": "Bronze Sword",
-
   "item.minecraft.electrum_axe": "Electrum Axe",
   "item.minecraft.electrum_boots": "Electrum Boots",
   "item.minecraft.electrum_chestplate": "Electrum Chestplate",
@@ -257,7 +241,6 @@
   "item.minecraft.electrum_shovel": "Electrum Shovel",
   "item.minecraft.electrum_spear": "Electrum Spear",
   "item.minecraft.electrum_sword": "Electrum Sword",
-
   "item.minecraft.shakudo_axe": "Shakudo Axe",
   "item.minecraft.shakudo_boots": "Shakudo Boots",
   "item.minecraft.shakudo_chestplate": "Shakudo Chestplate",
@@ -270,7 +253,6 @@
   "item.minecraft.shakudo_shovel": "Shakudo Shovel",
   "item.minecraft.shakudo_spear": "Shakudo Spear",
   "item.minecraft.shakudo_sword": "Shakudo Sword",
-
   "item.minecraft.steel_axe": "Steel Axe",
   "item.minecraft.steel_boots": "Steel Boots",
   "item.minecraft.steel_chestplate": "Steel Chestplate",
@@ -284,30 +266,25 @@
   "item.minecraft.steel_shovel": "Steel Shovel",
   "item.minecraft.steel_spear": "Steel Spear",
   "item.minecraft.steel_sword": "Steel Sword",
-
   "selectWorld.gameRules": "Game Rules...",
   "menu.options": "Options...",
-  
   "options.title": "Options...",
   "options.particles.all": "All",
   "options.particles.decreased": "Decreased",
   "options.particles.minimal": "Minimal",
   "options.viewBobbing": "View Bobbing",
-  
   "menu.returnToGame": "Return to Game",
   "gui.advancements": "Achievements",
   "gui.stats": "Statistics",
   "menu.sendFeedback": "Give Feedback",
   "menu.disconnect": "Disconnect",
   "menu.returnToMenu": "Save and Quit to Title...",
-  
   "container.crafting": "",
   "advancement.advancementNotFound": "Unknown achievement: %s",
   "advancements.toast.task": "Achievement Get!",
   "key.advancements": "Achievements",
   "gamerule.announceAdvancements": "Announce achievements",
   "demo.help.fullWrapped": "This demo will last 5 in-game days (about 1 hour and 40 minutes of real time). Check the achievements for hints! Have fun!",
-  
   "commands.advancement.advancementNotFound": "No advancement was found by the name '%1$s'",
   "commands.advancement.criterionNotFound": "The advancement %1$s does not contain the criterion '%2$s'",
   "commands.advancement.grant.criterion.to.many.failure": "Couldn't grant criterion '%s' of advancement %s to %s players as they already have it",
@@ -334,12 +311,10 @@
   "commands.advancement.revoke.one.to.many.success": "Revoked the advancement %s from %s players",
   "commands.advancement.revoke.one.to.one.failure": "Couldn't revoke advancement %s from %s as they don't have it",
   "commands.advancement.revoke.one.to.one.success": "Revoked the advancement %s from %s",
-  
   "chat.type.advancement.challenge": "%s has completed the challenge %s",
   "chat.type.advancement.goal": "%s has reached the goal %s",
   "chat.type.advancement.task": "%s has got the achievement %s",
   "argument.entity.options.advancements.description": "Players with achievements",
-  
   "item.minecraft.music_disc_5": "Music Disc",
   "item.minecraft.music_disc_5.desc": "C418 — 5",
   "item.minecraft.music_disc_11": "Music Disc",
@@ -364,7 +339,6 @@
   "item.minecraft.music_disc_precipice.desc": "C418 — Battlemode 3",
   "item.minecraft.music_disc_creator_music_box": "Music Disc",
   "item.minecraft.music_disc_creator_music_box.desc": "C418 — Battlemode 4",
-  
   "jukebox_song.minecraft.5": "C418 - 5",
   "jukebox_song.minecraft.creator": "C418 — Battlemode 1",
   "jukebox_song.minecraft.relic": "C418 — Battlemode 2",
@@ -372,11 +346,9 @@
   "jukebox_song.minecraft.creator_music_box": "C418 — Battlemode 4",
   "jukebox_song.minecraft.otherside": "C418 - dog",
   "jukebox_song.minecraft.pigstep": "Notch - calm4",
-
-  "entity.minecraft.warden": "§kHerobrine§f", 
+  "entity.minecraft.warden": "§kHerobrine§f",
   "item.minecraft.warden_spawn_egg": "§kHerobrine§f Spawn Egg",
   "item.minecraft.mourner_pottery_sherd": "Him Pottery Sherd",
-  
   "subtitles.entity.warden.agitated": "§kHerobrine§f glitches",
   "subtitles.entity.warden.ambient": "§kHerobrine§f seeks",
   "subtitles.entity.warden.angry": "§kHerobrine§f rages",
@@ -397,13 +369,10 @@
   "subtitles.entity.warden.sonic_charge": "§kHerobrine§f charges",
   "subtitles.entity.warden.step": "§kHerobrine§f steps",
   "subtitles.entity.warden.tendril_clicks": "§kHerobrine§f's eyes glow",
-  
   "gamerule.doWardenSpawning": "Spawn §kHerobrine§f",
-  
   "death.attack.sonic_boom": "%1$s was obliterated by a death.attack.§kHerobrine§f",
   "death.attack.sonic_boom.item": "%1$s was obliterated by a death.attack.§kHerobrine§fwhilst trying to escape %2$s wielding %3$s",
   "death.attack.sonic_boom.player": "%1$s was obliterated by a death.attack.§kHerobrine§fwhilst trying to escape %2$s",
-  
   "item.minecraft.chocolate_bread": "Chocolate Bread",
   "item.minecraft.sweet_berry_bread": "Sweet Berry Bread",
   "item.minecraft.glow_berry_bread": "Glow Berry Bread",
@@ -418,5 +387,7 @@
   "biome.compromise.autumnal_forest": "Autumnal Forest",
   "biome.compromise.temperate_rainforest": "Temperate Rainforest",
   "biome.compromise.rainforest": "Rainforest",
-  "biome.compromise.seasonal_forest": "Seasonal Forest"
+  "biome.compromise.seasonal_forest": "Seasonal Forest",
+  "item.minecraft.potion.effect.empty": "Water Bottle",
+  "item.minecraft.potion": "Water Bottle"
 }

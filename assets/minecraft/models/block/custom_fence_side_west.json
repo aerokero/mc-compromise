@@ -1,4 +1,8 @@
 {
+    "textures": {
+        "particle": "#texture",
+        "texture": "#texture"
+    },
     "elements": [
         {
             "name": "top bar",
