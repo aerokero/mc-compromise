@@ -1,21 +1,9 @@
 {
-  "feature": "minecraft:trees_badlands",
+  "feature": "minecraft:rooted_azalea_tree",
   "placement": [
     {
       "type": "minecraft:count",
-      "count": {
-        "type": "minecraft:weighted_list",
-        "distribution": [
-          {
-            "data": 5,
-            "weight": 9
-          },
-          {
-            "data": 6,
-            "weight": 1
-          }
-        ]
-      }
+      "count": 1
     },
     {
       "type": "minecraft:in_square"
@@ -35,7 +23,7 @@
       "type": "minecraft:block_predicate_filter",
       "predicate": {
         "type": "minecraft:would_survive",
-        "state": "minecraft:oak_sapling"
+        "state": "minecraft:azalea"
       }
     },
     {

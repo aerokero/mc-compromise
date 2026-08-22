@@ -1,5 +1,5 @@
 {
-  "feature": "minecraft:trees_badlands",
+  "feature": "minecraft:trees_snowy",
   "placement": [
     {
       "type": "minecraft:count",
@@ -7,11 +7,11 @@
         "type": "minecraft:weighted_list",
         "distribution": [
           {
-            "data": 5,
+            "data": 0,
             "weight": 9
           },
           {
-            "data": 6,
+            "data": 1,
             "weight": 1
           }
         ]
@@ -35,7 +35,7 @@
       "type": "minecraft:block_predicate_filter",
       "predicate": {
         "type": "minecraft:would_survive",
-        "state": "minecraft:oak_sapling"
+        "state": "minecraft:spruce_sapling"
       }
     },
     {

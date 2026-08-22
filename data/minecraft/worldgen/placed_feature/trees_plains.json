@@ -1,5 +1,5 @@
 {
-  "feature": "minecraft:trees_badlands",
+  "feature": "minecraft:trees_plains",
   "placement": [
     {
       "type": "minecraft:count",
@@ -7,12 +7,12 @@
         "type": "minecraft:weighted_list",
         "distribution": [
           {
-            "data": 5,
-            "weight": 9
+            "data": 1,
+            "weight": 1
           },
           {
-            "data": 6,
-            "weight": 1
+            "data": 0,
+            "weight": 9
           }
         ]
       }

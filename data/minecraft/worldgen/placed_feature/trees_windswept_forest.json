@@ -1,21 +1,9 @@
 {
-  "feature": "minecraft:trees_badlands",
+  "feature": "minecraft:trees_windswept_hills",
   "placement": [
     {
       "type": "minecraft:count",
-      "count": {
-        "type": "minecraft:weighted_list",
-        "distribution": [
-          {
-            "data": 5,
-            "weight": 9
-          },
-          {
-            "data": 6,
-            "weight": 1
-          }
-        ]
-      }
+      "count": 3
     },
     {
       "type": "minecraft:in_square"

@@ -61,6 +61,25 @@
           ]
         }
       }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:not",
+        "predicate": {
+          "type": "minecraft:matching_blocks",
+          "blocks": [
+            "minecraft:sand",
+            "minecraft:red_sand",
+            "minecraft:suspicious_sand"
+          ],
+          "offset": [
+            0,
+            -1,
+            0
+          ]
+        }
+      }
     }
   ]
 }
