@@ -2941,7 +2941,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:snowy_plains"
         },
         {
           "parameters": {
@@ -2971,7 +2971,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:grove"
+          "biome": "minecraft:snowy_plains"
         },
         {
           "parameters": {
@@ -3001,7 +3001,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:snowy_plains"
         },
         {
           "parameters": {
@@ -12481,7 +12481,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:snowy_plains"
         },
         {
           "parameters": {
@@ -12511,7 +12511,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:grove"
+          "biome": "minecraft:snowy_plains"
         },
         {
           "parameters": {
@@ -12541,7 +12541,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:snowy_plains"
         },
         {
           "parameters": {
@@ -17221,7 +17221,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:snowy_plains"
         },
         {
           "parameters": {
@@ -17251,7 +17251,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:grove"
+          "biome": "minecraft:snowy_plains"
         },
         {
           "parameters": {
@@ -19141,7 +19141,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:snowy_plains"
         },
         {
           "parameters": {
@@ -28111,7 +28111,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:snowy_plains"
         },
         {
           "parameters": {
@@ -28141,7 +28141,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:grove"
+          "biome": "minecraft:snowy_plains"
         },
         {
           "parameters": {
@@ -28171,7 +28171,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:snowy_plains"
         },
         {
           "parameters": {
@@ -32071,7 +32071,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:snowy_plains"
         },
         {
           "parameters": {
@@ -32101,7 +32101,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:grove"
+          "biome": "minecraft:snowy_plains"
         },
         {
           "parameters": {
@@ -32131,7 +32131,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:snowy_plains"
         },
         {
           "parameters": {
@@ -41611,7 +41611,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:snowy_plains"
         },
         {
           "parameters": {
@@ -41641,7 +41641,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:grove"
+          "biome": "minecraft:snowy_plains"
         },
         {
           "parameters": {
@@ -41671,7 +41671,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:snowy_plains"
         },
         {
           "parameters": {
@@ -46351,7 +46351,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:snowy_plains"
         },
         {
           "parameters": {
@@ -46381,7 +46381,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:grove"
+          "biome": "minecraft:snowy_plains"
         },
         {
           "parameters": {
@@ -48271,7 +48271,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:snowy_plains"
         },
         {
           "parameters": {
@@ -56011,7 +56011,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:snowy_plains"
         },
         {
           "parameters": {
@@ -56041,7 +56041,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:grove"
+          "biome": "minecraft:snowy_plains"
         },
         {
           "parameters": {
@@ -56071,7 +56071,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:snowy_plains"
         },
         {
           "parameters": {
@@ -56341,7 +56341,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:snowy_plains"
         },
         {
           "parameters": {
@@ -56371,7 +56371,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:grove"
+          "biome": "minecraft:snowy_plains"
         },
         {
           "parameters": {
@@ -56401,7 +56401,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:snowy_plains"
         },
         {
           "parameters": {
@@ -56431,7 +56431,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:grove"
+          "biome": "minecraft:snowy_plains"
         },
         {
           "parameters": {
@@ -57241,7 +57241,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:snowy_plains"
         },
         {
           "parameters": {
@@ -57271,7 +57271,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:grove"
+          "biome": "minecraft:snowy_plains"
         },
         {
           "parameters": {
@@ -57301,7 +57301,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:snowy_slopes"
+          "biome": "minecraft:snowy_plains"
         },
         {
           "parameters": {

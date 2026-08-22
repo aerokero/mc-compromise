@@ -1,5 +1,5 @@
 {
-  "feature": "minecraft:patch_berry_bush",
+  "feature": "compromise:patch_berry_bush",
   "placement": [
     {
       "type": "minecraft:rarity_filter",
@@ -14,6 +14,71 @@
     },
     {
       "type": "minecraft:biome"
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:all_of",
+        "predicates": [
+          {
+            "type": "minecraft:matching_block_tag",
+            "tag": "minecraft:air"
+          },
+          {
+            "type": "minecraft:not",
+            "predicate": {
+              "type": "minecraft:matching_block_tag",
+              "tag": "minecraft:sand",
+              "offset": [
+                0,
+                -1,
+                0
+              ]
+            }
+          },
+          {
+            "type": "minecraft:not",
+            "predicate": {
+              "type": "minecraft:matching_blocks",
+              "blocks": [
+                "minecraft:sand",
+                "minecraft:red_sand",
+                "minecraft:suspicious_sand"
+              ],
+              "offset": [
+                0,
+                -1,
+                0
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:count",
+      "count": 12
+    },
+    {
+      "type": "minecraft:offset",
+      "x": {
+        "type": "minecraft:trapezoid",
+        "min": -7,
+        "max": 7,
+        "plateau": 0
+      },
+      "y": {
+        "type": "minecraft:trapezoid",
+        "min": -3,
+        "max": 3,
+        "plateau": 0
+      },
+      "z": {
+        "type": "minecraft:trapezoid",
+        "min": -7,
+        "max": 7,
+        "plateau": 0
+      }
     },
     {
       "type": "minecraft:block_predicate_filter",

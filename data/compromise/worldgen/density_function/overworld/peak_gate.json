@@ -7,9 +7,21 @@
       "spline": {
         "coordinate": "minecraft:overworld/continents",
         "points": [
-          { "location": -0.25, "value": 0.0, "derivative": 0.0 },
-          { "location": 0.03, "value": 1.0, "derivative": 0.0 },
-          { "location": 1.1, "value": 1.0, "derivative": 0.0 }
+          {
+            "location": -0.25,
+            "value": 0.0,
+            "derivative": 0.0
+          },
+          {
+            "location": 0.03,
+            "value": 1.0,
+            "derivative": 0.0
+          },
+          {
+            "location": 1.1,
+            "value": 1.0,
+            "derivative": 0.0
+          }
         ]
       }
     },
@@ -18,9 +30,21 @@
       "spline": {
         "coordinate": "compromise:overworld/temperature",
         "points": [
-          { "location": -1.1, "value": 1.0, "derivative": 0.0 },
-          { "location": 0.5, "value": 1.0, "derivative": 0.0 },
-          { "location": 0.6, "value": 0.0, "derivative": 0.0 }
+          {
+            "location": -1.1,
+            "value": 1.0,
+            "derivative": 0.0
+          },
+          {
+            "location": 0.5,
+            "value": 1.0,
+            "derivative": 0.0
+          },
+          {
+            "location": 0.6,
+            "value": 0.0,
+            "derivative": 0.0
+          }
         ]
       }
     }
@@ -28,26 +52,94 @@
   "right": {
     "type": "minecraft:mul",
     "left": {
-      "type": "minecraft:spline",
-      "spline": {
-        "coordinate": "minecraft:overworld/erosion",
-        "points": [
-          { "location": -1.1, "value": 1.0, "derivative": 0.0 },
-          { "location": -0.78, "value": 1.0, "derivative": 0.0 },
-          { "location": -0.55, "value": 0.0, "derivative": 0.0 },
-          { "location": -0.374, "value": 0.0, "derivative": 0.0 }
-        ]
+      "type": "minecraft:mul",
+      "left": {
+        "type": "minecraft:spline",
+        "spline": {
+          "coordinate": "minecraft:overworld/erosion",
+          "points": [
+            {
+              "location": -1.1,
+              "value": 1.0,
+              "derivative": 0.0
+            },
+            {
+              "location": -0.78,
+              "value": 1.0,
+              "derivative": 0.0
+            },
+            {
+              "location": -0.55,
+              "value": 0.0,
+              "derivative": 0.0
+            },
+            {
+              "location": -0.374,
+              "value": 0.0,
+              "derivative": 0.0
+            }
+          ]
+        }
+      },
+      "right": {
+        "type": "minecraft:spline",
+        "spline": {
+          "coordinate": "minecraft:overworld/ridges_folded",
+          "points": [
+            {
+              "location": 0.62,
+              "value": 0.0,
+              "derivative": 0.0
+            },
+            {
+              "location": 0.74,
+              "value": 0.4,
+              "derivative": 0.0
+            },
+            {
+              "location": 0.88,
+              "value": 0.9,
+              "derivative": 0.0
+            },
+            {
+              "location": 1.0,
+              "value": 1.0,
+              "derivative": 0.0
+            }
+          ]
+        }
       }
     },
     "right": {
       "type": "minecraft:spline",
       "spline": {
-        "coordinate": "minecraft:overworld/ridges_folded",
+        "coordinate": "compromise:overworld/vegetation",
         "points": [
-          { "location": 0.66, "value": 0.0, "derivative": 0.0 },
-          { "location": 0.8, "value": 0.35, "derivative": 0.0 },
-          { "location": 0.92, "value": 0.85, "derivative": 0.0 },
-          { "location": 1.0, "value": 1.0, "derivative": 0.0 }
+          {
+            "location": -1.1,
+            "value": 0.35,
+            "derivative": 0.0
+          },
+          {
+            "location": -0.4,
+            "value": 0.55,
+            "derivative": 0.0
+          },
+          {
+            "location": 0.1,
+            "value": 0.9,
+            "derivative": 0.0
+          },
+          {
+            "location": 0.6,
+            "value": 1.0,
+            "derivative": 0.0
+          },
+          {
+            "location": 1.1,
+            "value": 0.65,
+            "derivative": 0.0
+          }
         ]
       }
     }

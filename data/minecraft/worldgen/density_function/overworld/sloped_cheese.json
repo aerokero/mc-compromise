@@ -22,7 +22,7 @@
             "type": "minecraft:add",
             "left": {
               "type": "minecraft:mul",
-              "left": 0.3,
+              "left": 0.25,
               "right": "compromise:overworld/peak_gate"
             },
             "right": {
@@ -36,7 +36,7 @@
                 "type": "minecraft:add",
                 "left": {
                   "type": "minecraft:mul",
-                  "left": 0.2,
+                  "left": 0.25,
                   "right": "compromise:overworld/stony_peak_gate"
                 },
                 "right": {
@@ -66,8 +66,64 @@
         "type": "minecraft:add",
         "left": {
           "type": "minecraft:mul",
-          "left": 0.45,
-          "right": "compromise:overworld/peak_gate"
+          "left": {
+            "type": "minecraft:mul",
+            "left": 8.5,
+            "right": "compromise:overworld/peak_gate"
+          },
+          "right": {
+            "type": "minecraft:spline",
+            "spline": {
+              "coordinate": "minecraft:y",
+              "points": [
+                {
+                  "location": -64,
+                  "value": 0.1,
+                  "derivative": 0.0
+                },
+                {
+                  "location": 50,
+                  "value": 0.35,
+                  "derivative": 0.0
+                },
+                {
+                  "location": 90,
+                  "value": 1.1,
+                  "derivative": 0.0
+                },
+                {
+                  "location": 140,
+                  "value": 1.9,
+                  "derivative": 0.0
+                },
+                {
+                  "location": 190,
+                  "value": 1.7,
+                  "derivative": 0.0
+                },
+                {
+                  "location": 235,
+                  "value": 1.1,
+                  "derivative": 0.0
+                },
+                {
+                  "location": 255,
+                  "value": 0.3,
+                  "derivative": 0.0
+                },
+                {
+                  "location": 270,
+                  "value": 0.0,
+                  "derivative": 0.0
+                },
+                {
+                  "location": 320,
+                  "value": 0.0,
+                  "derivative": 0.0
+                }
+              ]
+            }
+          }
         },
         "right": {
           "type": "minecraft:add",
