@@ -1,16 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "red_sandstone",
   "category": "building",
+  "group": "end_stone_bricks",
   "key": {
-    "#": "minecraft:red_sand"
+    "#": "minecraft:end_stone"
   },
   "pattern": [
     "##",
     "##"
   ],
   "result": {
-    "count": 2,
-    "id": "minecraft:red_sandstone"
+    "count": 4,
+    "id": "minecraft:end_stone_bricks"
   }
 }

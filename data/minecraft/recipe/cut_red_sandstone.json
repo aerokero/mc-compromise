@@ -1,16 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "resin_bricks",
   "category": "building",
+  "group": "cut_red_sandstone",
   "key": {
-    "#": "minecraft:resin_clump"
+    "#": "minecraft:red_sandstone"
   },
   "pattern": [
     "##",
     "##"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:resin_bricks"
+    "count": 4,
+    "id": "minecraft:cut_red_sandstone"
   }
 }

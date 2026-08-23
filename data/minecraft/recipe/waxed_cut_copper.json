@@ -1,13 +1,13 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "group": "planks",
   "category": "building",
+  "group": "waxed_cut_copper",
   "ingredients": [
-    "minecraft:birch_slab",
-    "minecraft:birch_slab"
+    "minecraft:cut_copper",
+    "minecraft:honeycomb"
   ],
   "result": {
     "count": 1,
-    "id": "minecraft:birch_planks"
+    "id": "minecraft:waxed_cut_copper"
   }
 }

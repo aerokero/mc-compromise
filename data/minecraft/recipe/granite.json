@@ -1,13 +1,13 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "group": "planks",
   "category": "building",
+  "group": "granite",
   "ingredients": [
-    "minecraft:birch_slab",
-    "minecraft:birch_slab"
+    "minecraft:diorite",
+    "minecraft:quartz"
   ],
   "result": {
     "count": 1,
-    "id": "minecraft:birch_planks"
+    "id": "minecraft:granite"
   }
 }

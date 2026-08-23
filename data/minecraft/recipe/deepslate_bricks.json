@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "deepslate_bricks",
+  "key": {
+    "#": "minecraft:polished_deepslate"
+  },
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "result": {
+    "count": 4,
+    "id": "minecraft:deepslate_bricks"
+  }
+}

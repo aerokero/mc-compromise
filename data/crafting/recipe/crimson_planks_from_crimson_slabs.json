@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "group": "crimson_planks",
+  "group": "planks",
   "category": "building",
   "ingredients": [
     "minecraft:crimson_slab",

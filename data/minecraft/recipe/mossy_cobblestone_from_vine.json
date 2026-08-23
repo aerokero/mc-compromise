@@ -1,13 +1,13 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "group": "planks",
   "category": "building",
+  "group": "mossy_cobblestone",
   "ingredients": [
-    "minecraft:birch_slab",
-    "minecraft:birch_slab"
+    "minecraft:cobblestone",
+    "minecraft:vine"
   ],
   "result": {
     "count": 1,
-    "id": "minecraft:birch_planks"
+    "id": "minecraft:mossy_cobblestone"
   }
 }
