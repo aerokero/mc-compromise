@@ -3,9 +3,9 @@
   "group": "stew",
   "cookingtime": 300,
   "experience": 0.35,
-  "ingredient": "minecraft:mushroom_stew",
+  "ingredient": "minecraft:beetroot_soup",
   "result": {
-    "id": "minecraft:mushroom_stew",
+    "id": "minecraft:beetroot_soup",
     "components": {
       "minecraft:rarity": "rare",
       "minecraft:lore": [

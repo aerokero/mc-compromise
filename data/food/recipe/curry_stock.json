@@ -15,7 +15,7 @@
     "minecraft:bowl"
   ],
   "result": {
-    "id": "minecraft:mushroom_stew",
+    "id": "minecraft:rabbit_stew",
     "components": {
       "minecraft:rarity": "uncommon",
       "minecraft:item_name": {

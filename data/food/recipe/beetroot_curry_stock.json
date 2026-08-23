@@ -10,7 +10,7 @@
     "minecraft:bowl"
   ],
   "result": {
-    "id": "minecraft:mushroom_stew",
+    "id": "minecraft:beetroot_soup",
     "components": {
       "minecraft:rarity": "uncommon",
       "minecraft:item_name": {
