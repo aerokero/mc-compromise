@@ -13,5 +13,6 @@
     "count": 1,
     "id": "minecraft:stone_spear"
   },
-  "group": "spear"
+  "group": "spear",
+  "unlockable_by": []
 }

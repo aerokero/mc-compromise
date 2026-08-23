@@ -3,7 +3,7 @@
   "group": "smoker",
   "category": "misc",
   "key": {
-    "#": [
+    "B": [
       "minecraft:bricks"
     ],
     "C": [
@@ -15,8 +15,8 @@
   },
   "pattern": [
     "III",
-    "# #",
-    "#C#"
+    "B B",
+    "BCB"
   ],
   "result": {
     "count": 1,

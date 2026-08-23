@@ -13,5 +13,6 @@
     "count": 1,
     "id": "minecraft:stone_hoe"
   },
-  "group": "hoe"
+  "group": "hoe",
+  "unlockable_by": []
 }

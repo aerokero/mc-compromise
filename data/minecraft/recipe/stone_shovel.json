@@ -13,5 +13,6 @@
     "count": 1,
     "id": "minecraft:stone_shovel"
   },
-  "group": "shovel"
+  "group": "shovel",
+  "unlockable_by": []
 }
