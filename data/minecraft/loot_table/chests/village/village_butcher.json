@@ -48,7 +48,7 @@
                     "italic": false
                   },
                   {
-                    "text": "+1 HP Restored",
+                    "text": "+0,5 Hearts Restored",
                     "color": "red",
                     "italic": false
                   }
@@ -115,7 +115,7 @@
                     "italic": false
                   },
                   {
-                    "text": "+1 HP Restored",
+                    "text": "+0,5 Hearts Restored",
                     "color": "red",
                     "italic": false
                   }
@@ -167,7 +167,7 @@
                     "italic": false
                   },
                   {
-                    "text": "+1 HP Restored",
+                    "text": "+0,5 Hearts Restored",
                     "color": "red",
                     "italic": false
                   }
