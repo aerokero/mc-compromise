@@ -111,6 +111,7 @@ Balans (2025): efekty dodatkowe skalują się płasko wg kategorii, niezależnie
 | uncommon | Sweet Berry Cookie | `cookie` | Sweet Berries + Sugar + Glass Bottle | Crafting Table | +4 HP, Regeneration (0:30) |
 | uncommon | Glow Berry Cookie | `cookie` | Rotten Flesh + Sugar + Glass Bottle | Crafting Table | +4 HP, Aura (0:30) |
 | uncommon | Chocolate Cookie | `cookie`| Sugar + Wheat + Cocoa Beans | Crafting Table | +4 HP, Haste (0:30) |
+| uncommon | Apple Cookie | `cookie` | Apple + Sugar + Wheat | Crafting Table | +4 HP, Regen (0:30) |
 | uncommon | Sugar Cane Cookie | `cookie` | Sugar Cane + Sugar + Wheat | Crafting Table | +2 HP, Regen (0:30) |
 | uncommon | Chorus Cookie | `cookie` | Popped Chorus Fruit + Sugar + Wheat | Crafting Table | +4 HP, Levitation (0:30) |
 
