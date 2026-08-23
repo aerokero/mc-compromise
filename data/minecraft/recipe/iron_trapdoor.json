@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "iron_trapdoor",
   "category": "redstone",
+  "group": "iron_trapdoor",
   "key": {
     "#": "minecraft:iron_ingot"
   },
@@ -10,7 +10,7 @@
     "##"
   ],
   "result": {
-    "id": "minecraft:iron_trapdoor",
-    "count": 4
+    "count": 4,
+    "id": "minecraft:iron_trapdoor"
   }
 }

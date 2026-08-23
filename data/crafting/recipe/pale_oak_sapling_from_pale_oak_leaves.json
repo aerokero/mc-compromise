@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "group": "pale_oak_sapling",
+  "group": "sapling",
   "category": "misc",
   "ingredients": [
     "minecraft:pale_oak_leaves"

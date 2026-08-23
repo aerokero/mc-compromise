@@ -22,8 +22,7 @@
       "minecraft:leather_boots",
       "minecraft:leather_chestplate",
       "minecraft:leather_leggings",
-      "minecraft:leather_helmet",
-      "crafting:bundle"
+      "minecraft:leather_helmet"
     ]
   }
 }

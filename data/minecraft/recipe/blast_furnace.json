@@ -2,14 +2,14 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": "minecraft:smooth_stone",
-    "I": "minecraft:iron_ingot",
-    "X": "minecraft:furnace"
+    "B": "minecraft:stone_bricks",
+    "S": "minecraft:smooth_stone",
+    "C": "minecraft:campfire"
   },
   "pattern": [
-    "III",
-    "IXI",
-    "###"
+    "B B",
+    "B B",
+    "SCS"
   ],
   "result": {
     "count": 1,

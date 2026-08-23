@@ -5,7 +5,9 @@
   "ingredients": [
     "minecraft:baked_potato",
     "#minecraft:eggs",
-    "minecraft:bread"
+    "minecraft:wheat",
+    "minecraft:wheat",
+    "minecraft:wheat"
   ],
   "result": {
     "id": "minecraft:bread",

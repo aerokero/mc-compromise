@@ -19,7 +19,7 @@
   ],
   "rewards": {
     "recipes": [
-      "crafting:lantern",
+      "minecraft:lantern",
       "minecraft:iron_chain"
     ]
   }

@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipes": "crafting:copper_lantern"
+        "recipes": "minecraft:copper_lantern"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "crafting:copper_lantern",
+      "minecraft:copper_lantern",
       "crafting:copper_chain"
     ]
   }

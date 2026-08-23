@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "group": "jungle_sapling",
+  "group": "sapling",
   "category": "misc",
   "ingredients": [
     "minecraft:jungle_leaves"

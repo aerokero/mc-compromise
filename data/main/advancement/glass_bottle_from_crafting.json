@@ -109,12 +109,6 @@
         "recipes": "crafting:green_concrete_from_concrete_powder"
       }
     },
-    "made_green_dye_from_patina": {
-      "trigger": "minecraft:recipe_crafted",
-      "conditions": {
-        "recipes": "crafting:green_dye_from_patina"
-      }
-    },
     "made_light_blue_concrete_from_concrete_powder": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
@@ -209,12 +203,6 @@
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
         "recipes": "crafting:oxidized_cut_copper_stairs_from_patina"
-      }
-    },
-    "made_paneer_makhani": {
-      "trigger": "minecraft:recipe_crafted",
-      "conditions": {
-        "recipes": "food:beetroot_curry_stock"
       }
     },
     "made_purple_concrete_from_concrete_powder": {
@@ -414,6 +402,12 @@
       "conditions": {
         "recipes": "knowledge:knowledge_book"
       }
+    },
+    "made_beetroot_curry_stock": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "food:beetroot_curry_stock"
+      }
     }
   },
   "requirements": [
@@ -436,7 +430,6 @@
       "made_glow_ink_sac_alternate",
       "made_gray_concrete_from_concrete_powder",
       "made_green_concrete_from_concrete_powder",
-      "made_green_dye_from_patina",
       "made_light_blue_concrete_from_concrete_powder",
       "made_light_gray_concrete_from_concrete_powder",
       "made_lime_concrete_from_concrete_powder",
@@ -452,7 +445,7 @@
       "made_oxidized_cut_copper_from_patina",
       "made_oxidized_cut_copper_slab_from_patina",
       "made_oxidized_cut_copper_stairs_from_patina",
-      "made_paneer_makhani",
+      "made_beetroot_curry_stock",
       "made_purple_concrete_from_concrete_powder",
       "made_red_concrete_from_concrete_powder",
       "made_weathered_chiseled_copper_from_patina",

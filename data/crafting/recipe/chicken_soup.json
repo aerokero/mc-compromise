@@ -4,7 +4,10 @@
   "category": "misc",
   "key": {
     "P": "minecraft:cooked_chicken",
-    "T": "minecraft:rotten_flesh",
+    "T": [
+      "minecraft:rabbit",
+      "minecraft:cooked_rabbit"
+    ],
     "S": "minecraft:bone",
     "B": "minecraft:bowl",
     "M": "minecraft:water_bucket"
@@ -62,10 +65,10 @@
       "minecraft:max_stack_size": 16,
       "minecraft:custom_model_data": {
         "strings": [
-          "chicken_noodle_soup"
+          "chicken_soup"
         ]
       },
-      "minecraft:item_name": "Chicken Noodle Soup",
+      "minecraft:item_name": "Chicken Soup",
       "minecraft:lore": [
         {
           "text": "When Eaten:",

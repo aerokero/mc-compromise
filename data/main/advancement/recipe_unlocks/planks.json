@@ -32,7 +32,7 @@
       "minecraft:wooden_hoe",
       "minecraft:wooden_sword",
       "minecraft:wooden_spear",
-      "crafting:vanilla_chest_from_planks"
+      "minecraft:chest"
     ]
   }
 }

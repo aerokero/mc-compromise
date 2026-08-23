@@ -19,7 +19,6 @@
   ],
   "rewards": {
     "recipes": [
-      "crafting:green_dye_from_patina",
       "crafting:sulfur_from_sulfur_chunk",
       "crafting:potent_sulfur"
     ]

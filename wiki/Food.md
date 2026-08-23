@@ -116,12 +116,11 @@ Balans (2025): efekty dodatkowe skalują się płasko wg kategorii, niezależnie
 
 ### Bread
 #### 1st Tier:
-| common | Bread | 3 Wheat | Crafted | +4 HP, Cleanse Maleffect |
+| common | Bread | 3 Wheat | Crafted | +4 HP |
 2nd Tier:
 | uncommon | Fried Egg | `egg` | Egg | Campfire / Smoker | +2 HP; jadalne |
 | uncommon | Kelp Bread | `bread` | Dried Kelp + Carrot + Sugar + Egg + Wheat | Crafting Table | +6 HP, Gills (3:00) |
-| uncommon | Potato Bread | `bread` | Baked Potato + Egg + Bread + Beetroot Soup | Crafting Table | +16 HP |
-| uncommon | Beetroot Bread | Bread + 2x Beetroot  | Crafting Table | +6 HP, Strength II (3:00) |
+| uncommon | Potato Bread | `bread` | Baked Potato + Egg + 3x Wheat | Crafting Table | +16 HP |
 | uncommon | Chocolate Bread | Bread + Sugar + Cocoa Beans ×2 | Crafting Table | +6 HP, Haste (3:00) |
 | uncommon | Sweet Berry Bread | Bread + Sugar + Sweet Berries | Crafting Table | +6 HP, Absorption (3:00) |
 | uncommon | Glow Berry Bread | Bread + Sugar + Glow Berries | Crafting Table | +6 HP, Aura (3:00) |

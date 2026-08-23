@@ -20,7 +20,7 @@
   "rewards": {
     "recipes": [
       "crafting:soul_torch",
-      "crafting:soul_lantern"
+      "minecraft:soul_lantern"
     ]
   }
 }

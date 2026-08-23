@@ -19,7 +19,7 @@
   ],
   "rewards": {
     "recipes": [
-      "crafting:blue_dye"
+      "minecraft:blue_dye_from_lapis_lazuli"
     ]
   }
 }

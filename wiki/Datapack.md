@@ -166,7 +166,7 @@ Gunpowder now has its restored name, but this does not remove the sulfur system.
 
 - some leather armor recipes use Rabbit Hide,
 - Leather can be processed into several Tattered Leather,
-- the material is used in bundles, item frames and selected loot tables,
+- the material is used in item frames and selected loot tables,
 - some mobs have modified leather loot.
 
 The pack also contains Sturdy Leather and a complete Sturdy Leather Armor set.

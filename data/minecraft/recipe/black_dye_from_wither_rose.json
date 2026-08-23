@@ -1,11 +1,12 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
+  "group": "black_dye",
   "ingredients": [
-    "minecraft:structure_void"
+    "minecraft:wither_rose"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:dried_kelp"
+    "count": 2,
+    "id": "minecraft:black_dye"
   }
 }

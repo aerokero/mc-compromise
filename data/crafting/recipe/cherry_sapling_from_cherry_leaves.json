@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "group": "cherry_sapling",
+  "group": "sapling",
   "category": "misc",
   "ingredients": [
     "minecraft:cherry_leaves"

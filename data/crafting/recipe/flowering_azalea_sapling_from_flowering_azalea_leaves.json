@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "group": "flowering_azalea_sapling",
+  "group": "sapling",
   "category": "misc",
   "ingredients": [
     "minecraft:flowering_azalea_leaves"

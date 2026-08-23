@@ -26,8 +26,8 @@
   ],
   "rewards": {
     "recipes": [
-      "crafting:minecart_from_iron",
-      "crafting:iron_trapdoor_from_iron",
+      "minecraft:minecart",
+      "minecraft:iron_trapdoor",
       "minecraft:iron_pickaxe",
       "minecraft:iron_hoe",
       "minecraft:iron_axe",
@@ -45,7 +45,7 @@
       "crafting:iron_dolabra",
       "minecraft:shears",
       "crafting:anvil",
-      "crafting:cauldron_from_iron",
+      "minecraft:cauldron",
       "crafting:bucket_from_iron"
     ]
   }

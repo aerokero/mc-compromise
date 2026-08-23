@@ -4,12 +4,11 @@
   "category": "misc",
   "ingredients": [
     "minecraft:bowl",
-    "minecraft:rotten_flesh",
     [
-      "minecraft:egg",
-      "minecraft:blue_egg",
-      "brown_egg"
+      "minecraft:rabbit",
+      "minecraft:cooked_rabbit"
     ],
+    "#minecraft:eggs",
     [
       "minecraft:brown_mushroom",
       "minecraft:porkchop"
