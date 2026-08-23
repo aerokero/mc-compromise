@@ -46,7 +46,7 @@
       "crafting:short_dry_grass_from_tall_dry_grass",
       "crafting:packed_mud_from_dirt",
       "crafting:tall_dry_grass_from_wheat",
-      "crafting:wheat_from_hay_block"
+      "minecraft:wheat"
     ]
   }
 }

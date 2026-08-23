@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "group": "minecraft:weathered_copper",
+  "group": "copper_block",
   "category": "building",
   "ingredients": [
     "minecraft:exposed_copper",

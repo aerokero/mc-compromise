@@ -57,5 +57,6 @@
       },
       "minecraft:item_model": "minecraft:copper_axe"
     }
-  }
+  },
+  "group": "axe"
 }

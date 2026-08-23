@@ -11,5 +11,6 @@
   ],
   "result": {
     "id": "minecraft:diamond_chestplate"
-  }
+  },
+  "group": "chestplate"
 }

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "armor_trim",
+  "key": {
+    "#": "minecraft:diamond",
+    "S": "minecraft:flow_armor_trim_smithing_template",
+    "C": "minecraft:breeze_rod"
+  },
+  "pattern": [
+    "#S#",
+    "#C#",
+    "###"
+  ],
+  "result": {
+    "count": 2,
+    "id": "minecraft:flow_armor_trim_smithing_template"
+  }
+}

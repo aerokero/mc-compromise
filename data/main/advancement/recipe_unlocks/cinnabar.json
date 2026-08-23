@@ -22,7 +22,10 @@
       "crafting:cinnabar_from_cinnabar_slabs",
       "crafting:chiseled_cinnabar",
       "crafting:polished_cinnabar_from_polished_cinnabar_slabs",
-      "crafting:cinnabar_bricks_from_cinnabar_brick_slabs"
+      "crafting:cinnabar_bricks_from_cinnabar_brick_slabs",
+      "crafting:polished_cinnabar",
+      "crafting:cinnabar_bricks",
+      "crafting:chiseled_cinnabar_from_slabs"
     ]
   }
 }

@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
-  "group": "exposed_cut_copper",
+  "group": "cut_copper",
   "key": {
     "#": "minecraft:exposed_copper"
   },

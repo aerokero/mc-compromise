@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "pearlescent_froglight",
+  "group": "froglight",
   "category": "building",
   "key": {
     "G": "minecraft:glow_ink_sac",

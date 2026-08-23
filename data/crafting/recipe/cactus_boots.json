@@ -23,7 +23,7 @@
         "asset_id": "minecraft:cactus"
       },
       "minecraft:enchantments": {
-        "minecraft:thorns": 2,
+        "minecraft:thorns": 1,
         "main:traversal": 1
       },
       "minecraft:attribute_modifiers": [
@@ -43,6 +43,6 @@
         }
       ]
     }
-  }
+  },
+  "group": "boots"
 }
-

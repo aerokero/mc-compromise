@@ -5,5 +5,7 @@
   "addition": "#main:never",
   "result": {
     "id": "minecraft:netherite_helmet"
-  }
+  },
+  "group": "helmet",
+  "category": "equipment"
 }

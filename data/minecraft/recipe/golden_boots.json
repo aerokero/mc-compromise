@@ -10,5 +10,6 @@
   ],
   "result": {
     "id": "minecraft:golden_boots"
-  }
+  },
+  "group": "boots"
 }

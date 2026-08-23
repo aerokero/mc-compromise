@@ -58,5 +58,6 @@
       },
       "minecraft:item_model": "minecraft:copper_hoe"
     }
-  }
+  },
+  "group": "hoe"
 }

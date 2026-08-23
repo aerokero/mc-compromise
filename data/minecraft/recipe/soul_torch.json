@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "soul_torch",
+  "key": {
+    "X": "#minecraft:soul_fire_base_blocks",
+    "/": "minecraft:stick"
+  },
+  "pattern": [
+    "X",
+    "/"
+  ],
+  "result": {
+    "count": 4,
+    "id": "minecraft:soul_torch"
+  }
+}

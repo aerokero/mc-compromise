@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "group": "oxidized_copper_grate",
+  "group": "copper_grate",
   "category": "building",
   "ingredients": [
     "minecraft:weathered_copper_grate",

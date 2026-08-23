@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "armor_trim",
+  "key": {
+    "#": "minecraft:diamond",
+    "S": "minecraft:sentry_armor_trim_smithing_template",
+    "C": "minecraft:cobblestone"
+  },
+  "pattern": [
+    "#S#",
+    "#C#",
+    "###"
+  ],
+  "result": {
+    "count": 2,
+    "id": "minecraft:sentry_armor_trim_smithing_template"
+  }
+}

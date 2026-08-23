@@ -240,7 +240,7 @@
               }
             }
           ],
-          "name": "minecraft:iron_chain"
+          "name": "minecraft:chain"
         },
         {
           "type": "minecraft:item",

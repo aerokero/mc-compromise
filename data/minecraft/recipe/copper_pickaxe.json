@@ -66,5 +66,6 @@
       ],
       "minecraft:item_model": "minecraft:copper_pickaxe"
     }
-  }
+  },
+  "group": "pickaxe"
 }

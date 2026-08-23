@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "group": "oxidized_copper",
+  "group": "copper_block",
   "category": "building",
   "ingredients": [
     "minecraft:weathered_copper",

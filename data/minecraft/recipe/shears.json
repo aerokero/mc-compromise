@@ -10,5 +10,6 @@
   ],
   "result": {
     "id": "minecraft:shears"
-  }
+  },
+  "group": "shears"
 }

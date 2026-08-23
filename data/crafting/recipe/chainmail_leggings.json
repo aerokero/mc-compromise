@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "X": "minecraft:iron_chain"
+    "X": "minecraft:chain"
   },
   "pattern": [
     "XXX",
@@ -18,5 +18,6 @@
         "minecraft:thorns": 3
       }
     }
-  }
+  },
+  "group": "leggings"
 }

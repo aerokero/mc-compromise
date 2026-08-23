@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "group": "oxidized_copper_door",
+  "group": "copper_door",
   "category": "building",
   "ingredients": [
     "minecraft:weathered_copper_door",

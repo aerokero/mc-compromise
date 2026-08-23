@@ -289,12 +289,6 @@
         "recipes": "crafting:yellow_concrete_from_concrete_powder"
       }
     },
-    "made_stabilised_estus": {
-      "trigger": "minecraft:recipe_crafted",
-      "conditions": {
-        "recipes": "crafting:stabilised_estus"
-      }
-    },
     "made_lily_of_the_valley": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
@@ -461,7 +455,6 @@
       "made_white_concrete_from_concrete_powder",
       "made_yellow_concrete_from_concrete_powder",
       "made_mud_from_dirt_and_potion",
-      "made_stabilised_estus",
       "made_lily_of_the_valley",
       "made_latkes",
       "made_chorus_pie",

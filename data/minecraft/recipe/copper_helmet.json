@@ -10,5 +10,6 @@
   ],
   "result": {
     "id": "minecraft:copper_helmet"
-  }
+  },
+  "group": "helmet"
 }

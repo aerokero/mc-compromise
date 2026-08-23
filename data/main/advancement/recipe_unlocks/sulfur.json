@@ -23,7 +23,10 @@
       "crafting:sulfur_from_sulfur_slabs",
       "crafting:chiseled_sulfur",
       "crafting:polished_sulfur_from_polished_sulfur_slabs",
-      "crafting:sulfur_bricks_from_sulfur_brick_slabs"
+      "crafting:sulfur_bricks_from_sulfur_brick_slabs",
+      "crafting:polished_sulfur",
+      "crafting:sulfur_bricks",
+      "crafting:chiseled_sulfur_from_slabs"
     ]
   }
 }

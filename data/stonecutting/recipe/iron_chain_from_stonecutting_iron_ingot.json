@@ -4,6 +4,6 @@
   "ingredient": "minecraft:iron_ingot",
   "result": {
     "count": 6,
-    "id": "minecraft:iron_chain"
+    "id": "minecraft:chain"
   }
 }

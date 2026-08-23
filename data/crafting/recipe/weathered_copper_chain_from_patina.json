@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "group": "weathered_copper_chain",
+  "group": "copper_chain",
   "category": "building",
   "ingredients": [
     "minecraft:exposed_copper_chain",

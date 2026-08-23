@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "group": "weathered_copper_golem_statue",
+  "group": "copper_golem_statue",
   "category": "building",
   "ingredients": [
     "minecraft:exposed_copper_golem_statue",

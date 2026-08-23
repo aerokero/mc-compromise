@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "cut_copper_stairs",
+  "key": {
+    "#": "minecraft:oxidized_cut_copper"
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "id": "minecraft:oxidized_cut_copper_stairs"
+  }
+}

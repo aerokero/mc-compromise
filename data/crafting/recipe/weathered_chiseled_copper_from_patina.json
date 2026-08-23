@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "group": "weathered_chiseled_copper",
+  "group": "chiseled_copper",
   "category": "building",
   "ingredients": [
     "minecraft:exposed_chiseled_copper",

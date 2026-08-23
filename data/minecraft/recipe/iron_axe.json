@@ -56,5 +56,6 @@
         "disable_blocking_for_seconds": 1.6
       }
     }
-  }
+  },
+  "group": "axe"
 }

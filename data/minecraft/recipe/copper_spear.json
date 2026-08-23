@@ -45,5 +45,6 @@
         "dismounts": true
       }
     }
-  }
+  },
+  "group": "spear"
 }

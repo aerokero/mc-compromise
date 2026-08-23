@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "armor_trim",
+  "key": {
+    "#": "minecraft:diamond",
+    "S": "minecraft:netherite_upgrade_smithing_template",
+    "C": "minecraft:netherrack"
+  },
+  "pattern": [
+    "#S#",
+    "#C#",
+    "###"
+  ],
+  "result": {
+    "count": 2,
+    "id": "minecraft:netherite_upgrade_smithing_template"
+  }
+}

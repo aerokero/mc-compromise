@@ -10,5 +10,6 @@
   ],
   "result": {
     "id": "minecraft:diamond_helmet"
-  }
+  },
+  "group": "helmet"
 }

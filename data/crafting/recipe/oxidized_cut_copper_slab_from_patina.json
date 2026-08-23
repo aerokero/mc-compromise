@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "group": "oxidized_cut_copper_slab",
+  "group": "cut_copper_slab",
   "category": "building",
   "ingredients": [
     "minecraft:weathered_cut_copper_slab",

@@ -56,5 +56,6 @@
       },
       "minecraft:enchantment_glint_override": false
     }
-  }
+  },
+  "group": "hoe"
 }

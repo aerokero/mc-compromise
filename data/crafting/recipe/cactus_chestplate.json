@@ -24,7 +24,7 @@
         "asset_id": "minecraft:cactus"
       },
       "minecraft:enchantments": {
-        "minecraft:thorns": 4
+        "minecraft:thorns": 3
       },
       "minecraft:attribute_modifiers": [
         {
@@ -43,6 +43,6 @@
         }
       ]
     }
-  }
+  },
+  "group": "chestplate"
 }
-

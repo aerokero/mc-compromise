@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "X": "minecraft:iron_chain"
+    "X": "minecraft:chain"
   },
   "pattern": [
     "X X",
@@ -17,5 +17,6 @@
         "minecraft:thorns": 3
       }
     }
-  }
+  },
+  "group": "boots"
 }
