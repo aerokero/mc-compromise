@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "group": "sulfur_bricks",
+  "group": "blocks_from_slabs",
   "category": "building",
   "ingredients": [
     "minecraft:sulfur_brick_slab",

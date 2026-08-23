@@ -14,5 +14,6 @@
   ],
   "result": {
     "id": "minecraft:potent_sulfur"
-  }
+  },
+  "group": "sulfur"
 }

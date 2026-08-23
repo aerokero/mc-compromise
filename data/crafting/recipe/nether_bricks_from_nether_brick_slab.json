@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "group": "nether_bricks",
+  "group": "blocks_from_slabs",
   "category": "building",
   "ingredients": [
     "minecraft:nether_brick_slab",

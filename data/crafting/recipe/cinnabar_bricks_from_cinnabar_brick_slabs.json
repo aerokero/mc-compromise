@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "group": "cinnabar_bricks",
+  "group": "blocks_from_slabs",
   "category": "building",
   "ingredients": [
     "minecraft:cinnabar_brick_slab",

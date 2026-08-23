@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "group": "mud_bricks",
+  "group": "blocks_from_slabs",
   "category": "building",
   "ingredients": [
     "minecraft:mud_brick_slab",

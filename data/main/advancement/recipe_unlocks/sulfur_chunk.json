@@ -19,7 +19,7 @@
   ],
   "rewards": {
     "recipes": [
-      "crafting:sulfur_from_sulfur_chunk",
+      "minecraft:dripstone_block",
       "crafting:potent_sulfur"
     ]
   }

@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "group": "prismarine_bricks",
+  "group": "blocks_from_slabs",
   "category": "building",
   "ingredients": [
     "minecraft:prismarine_brick_slab",

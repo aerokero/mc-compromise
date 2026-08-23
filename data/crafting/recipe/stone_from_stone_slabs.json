@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "group": "stone",
+  "group": "blocks_from_slabs",
   "category": "building",
   "ingredients": [
     "minecraft:stone_slab",

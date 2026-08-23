@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "group": "polished_deepslate",
+  "group": "blocks_from_slabs",
   "category": "building",
   "ingredients": [
     "minecraft:polished_deepslate_slab",

@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "group": "purpur_block",
+  "group": "blocks_from_slabs",
   "category": "building",
   "ingredients": [
     "minecraft:purpur_slab",

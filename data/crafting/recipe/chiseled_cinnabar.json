@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "chiseled_cinnabar",
+  "group": "cinnabar",
   "category": "building",
   "key": {
     "S": "minecraft:cinnabar_bricks"

@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "group": "polished_blackstone",
+  "group": "blocks_from_slabs",
   "category": "building",
   "ingredients": [
     "minecraft:polished_blackstone_slab",

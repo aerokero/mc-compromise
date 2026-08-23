@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "group": "polished_tuff",
+  "group": "blocks_from_slabs",
   "category": "building",
   "ingredients": [
     "minecraft:polished_tuff_slab",
