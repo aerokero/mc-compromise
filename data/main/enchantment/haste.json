@@ -2,7 +2,7 @@
 	"primary_items": "#minecraft:head_armor",
 	"anvil_cost": 0,
 	"description": {
-		"translate": "enchantment.kleispack.haste",
+		"translate": "item.minecraft.enchantment.haste",
 		"color": "yellow"
 	},
 	"effects": {

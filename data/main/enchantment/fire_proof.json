@@ -2,7 +2,7 @@
 	"primary_items": "#minecraft:head_armor",
 	"anvil_cost": 0,
 	"description": {
-		"translate": "enchantment.kleispack.fire_proof",
+		"translate": "item.minecraft.enchantment.fire_proof",
 		"color": "gold"
 	},
 	"effects": {

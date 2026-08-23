@@ -2,7 +2,7 @@
 	"primary_items": "#minecraft:head_armor",
 	"anvil_cost": 0,
 	"description": {
-		"translate": "enchantment.kleispack.conduit_power",
+		"translate": "item.minecraft.enchantment.conduit_power",
 		"color": "#30d2d5"
 	},
 	"effects": {

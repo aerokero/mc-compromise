@@ -1,7 +1,7 @@
 {
 	"anvil_cost": 0,
 	"description": {
-		"translate": "enchantment.kleispack.anemos"
+		"translate": "item.minecraft.enchantment.anemos"
 	},
 	"effects": {
 		"minecraft:hit_block": [

@@ -1,7 +1,7 @@
 {
 	"anvil_cost": 2,
 	"description": {
-		"translate": "enchantment.kleispack.freezing_protection"
+		"translate": "item.minecraft.enchantment.freezing_protection"
 	},
 	"effects": {
 		"minecraft:damage_protection": [

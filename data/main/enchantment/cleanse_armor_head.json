@@ -1,7 +1,7 @@
 {
 	"anvil_cost": 0,
 	"description": {
-		"translate": "enchantment.kleispack.cleanses"
+		"translate": "item.minecraft.enchantment.cleanses"
 	},
 	"effects": {
 		"minecraft:tick": [

@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": "minecraft:cactus"
+  },
+  "pattern": [
+    "XXX",
+    "X X",
+    "X X"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:leather_leggings",
+    "components": {
+      "minecraft:max_damage": 350,
+      "minecraft:item_model": "minecraft:cactus_leggings",
+      "minecraft:item_name": {
+        "translate": "item.minecraft.cactus_leggings",
+        "color": "white"
+      },
+      "minecraft:equippable": {
+        "slot": "legs",
+        "asset_id": "minecraft:cactus"
+      },
+      "minecraft:enchantments": {
+        "minecraft:thorns": 3
+      },
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:safe_fall_distance",
+          "id": "cactus_leggings",
+          "amount": 1.0,
+          "operation": "add_value",
+          "slot": "legs"
+        },
+        {
+          "type": "minecraft:armor",
+          "id": "cactus_armor_leggings",
+          "amount": 3.0,
+          "operation": "add_value",
+          "slot": "legs"
+        }
+      ]
+    }
+  }
+}
+

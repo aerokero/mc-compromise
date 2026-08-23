@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": "minecraft:cactus"
+  },
+  "pattern": [
+    "X X",
+    "XXX",
+    "XXX"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:leather_chestplate",
+    "components": {
+      "minecraft:max_damage": 350,
+      "minecraft:item_model": "minecraft:cactus_chestplate",
+      "minecraft:item_name": {
+        "translate": "item.minecraft.cactus_chestplate",
+        "color": "white"
+      },
+      "minecraft:equippable": {
+        "slot": "chest",
+        "asset_id": "minecraft:cactus"
+      },
+      "minecraft:enchantments": {
+        "minecraft:thorns": 4
+      },
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:safe_fall_distance",
+          "id": "cactus_chestplate",
+          "amount": 1.0,
+          "operation": "add_value",
+          "slot": "chest"
+        },
+        {
+          "type": "minecraft:armor",
+          "id": "cactus_armor_chestplate",
+          "amount": 4.0,
+          "operation": "add_value",
+          "slot": "chest"
+        }
+      ]
+    }
+  }
+}
+

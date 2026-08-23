@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": "minecraft:cactus"
+  },
+  "pattern": [
+    "X X",
+    "X X"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:leather_boots",
+    "components": {
+      "minecraft:max_damage": 350,
+      "minecraft:item_model": "minecraft:cactus_boots",
+      "minecraft:item_name": {
+        "translate": "item.minecraft.cactus_boots",
+        "color": "white"
+      },
+      "minecraft:equippable": {
+        "slot": "feet",
+        "asset_id": "minecraft:cactus"
+      },
+      "minecraft:enchantments": {
+        "minecraft:thorns": 2,
+        "main:traversal": 1
+      },
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:safe_fall_distance",
+          "id": "cactus_boots",
+          "amount": 1.0,
+          "operation": "add_value",
+          "slot": "feet"
+        },
+        {
+          "type": "minecraft:armor",
+          "id": "cactus_armor_boots",
+          "amount": 2.0,
+          "operation": "add_value",
+          "slot": "feet"
+        }
+      ]
+    }
+  }
+}
+

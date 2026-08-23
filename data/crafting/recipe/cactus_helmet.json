@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": "minecraft:cactus"
+  },
+  "pattern": [
+    "XXX",
+    "X X"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:leather_helmet",
+    "components": {
+      "minecraft:max_damage": 350,
+      "minecraft:item_model": "minecraft:cactus_helmet",
+      "minecraft:item_name": {
+        "translate": "item.minecraft.cactus_helmet",
+        "color": "white"
+      },
+      "minecraft:equippable": {
+        "slot": "head",
+        "asset_id": "minecraft:cactus"
+      },
+      "minecraft:enchantments": {
+        "minecraft:thorns": 3
+      },
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:safe_fall_distance",
+          "id": "cactus_helmet",
+          "amount": 1.0,
+          "operation": "add_value",
+          "slot": "head"
+        },
+        {
+          "type": "minecraft:armor",
+          "id": "cactus_armor_helmet",
+          "amount": 2.0,
+          "operation": "add_value",
+          "slot": "head"
+        }
+      ]
+    }
+  }
+}
+

@@ -5,7 +5,7 @@
 	],
 	"anvil_cost": 0,
 	"description": {
-		"translate": "enchantment.kleispack.sanguine"
+		"translate": "item.minecraft.enchantment.sanguine"
 	},
 	"effects": {
 		"minecraft:post_attack": [

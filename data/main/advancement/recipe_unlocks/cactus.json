@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_primary_material": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cactus"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_primary_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "crafting:cactus_boots",
+      "crafting:cactus_chestplate",
+      "crafting:cactus_pants",
+      "crafting:cactus_helmet"
+    ]
+  }
+}
+
