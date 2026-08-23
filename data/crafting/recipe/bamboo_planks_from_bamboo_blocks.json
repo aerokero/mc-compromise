@@ -1,12 +1,13 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "building",
+  "type": "minecraft:crafting_shaped",
   "group": "planks",
-  "ingredients": [
-    "minecraft:bamboo_block",
-    "minecraft:bamboo_block",
-    "minecraft:bamboo_block",
-    "minecraft:bamboo_block"
+  "category": "building",
+  "key": {
+    "#": "minecraft:bamboo_block"
+  },
+  "pattern": [
+    "##",
+    "##"
   ],
   "result": {
     "count": 8,

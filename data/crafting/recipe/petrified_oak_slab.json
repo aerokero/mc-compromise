@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "petrified_oak_slab",
+  "ingredients": [
+    "minecraft:oak_slab",
+    "minecraft:echo_shard"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:petrified_oak_slab"
+  }
+}
+

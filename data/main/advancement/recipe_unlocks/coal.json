@@ -20,7 +20,7 @@
   "rewards": {
     "recipes": [
       "crafting:torch",
-      "crafting:coal_alternate"
+      "minecraft:coal_block"
     ]
   }
 }

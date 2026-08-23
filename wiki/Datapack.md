@@ -58,7 +58,7 @@ Important distinction:
 | `minecraft:end_stone_brick_stairs` | Brown Sandstone Stairs |
 | `minecraft:end_stone_brick_slab` | Brown Sandstone Slab |
 | `minecraft:end_stone_brick_wall` | Brown Sandstone Wall |
-| `minecraft:petrified_oak_slab` | Dirt Slab |
+| `minecraft:petrified_oak_slab` | Petrified Oak Slab |
 | `minecraft:glowstone` | Glowstone |
 | `minecraft:end_rod` | Phosphor Rod |
 | `minecraft:ochre_froglight` | Ochre Phosphor Lamp |
