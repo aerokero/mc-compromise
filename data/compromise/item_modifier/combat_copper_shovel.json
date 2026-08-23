@@ -4,12 +4,12 @@
     "minecraft:custom_data": {
       "compromise": 1
     },
-    "minecraft:max_damage": 500,
+    "minecraft:max_damage": 350,
     "minecraft:tool": {
       "rules": [
         {
-          "blocks": "#minecraft:mineable/hoe",
-          "speed": 8.0,
+          "blocks": "#minecraft:mineable/shovel",
+          "speed": 6.0,
           "correct_for_drops": true
         }
       ],
@@ -26,18 +26,19 @@
       },
       {
         "type": "minecraft:attack_speed",
-        "amount": -0.5,
+        "amount": -2.0,
         "operation": "add_value",
         "slot": "mainhand",
         "id": "minecraft:base_attack_speed"
       },
       {
         "type": "minecraft:entity_interaction_range",
-        "amount": 0.5,
+        "amount": -0.5,
         "operation": "add_value",
         "slot": "mainhand",
         "id": "minecraft:base_attack_range"
       }
-    ]
+    ],
+    "minecraft:item_model": "minecraft:copper_shovel"
   }
 }

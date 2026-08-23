@@ -2,12 +2,14 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": "#minecraft:stone_tool_materials"
+    "B": "minecraft:mud_bricks",
+    "M": "minecraft:packed_mud",
+    "C": "minecraft:campfire"
   },
   "pattern": [
-    "###",
-    "# #",
-    "###"
+    "B B",
+    "M M",
+    "BCB"
   ],
   "result": {
     "count": 1,

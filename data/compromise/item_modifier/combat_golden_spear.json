@@ -4,6 +4,7 @@
     "minecraft:custom_data": {
       "compromise": 1
     },
+    "minecraft:max_damage": 350,
     "minecraft:attribute_modifiers": [
       {
         "type": "minecraft:attack_damage",
@@ -30,6 +31,10 @@
     "minecraft:piercing_weapon": {
       "deals_knockback": true,
       "dismounts": true
-    }
+    },
+    "minecraft:enchantments": {
+      "minecraft:looting": 2
+    },
+    "minecraft:enchantment_glint_override": false
   }
 }

@@ -13,6 +13,10 @@
   "result": {
     "id": "minecraft:wooden_axe",
     "components": {
+      "minecraft:custom_data": {
+        "compromise": 1
+      },
+      "minecraft:max_damage": 200,
       "minecraft:attribute_modifiers": [
         {
           "type": "minecraft:attack_damage",
@@ -39,9 +43,6 @@
       "minecraft:weapon": {
         "item_damage_per_attack": 1,
         "disable_blocking_for_seconds": 1.6
-      },
-      "minecraft:custom_data": {
-        "compromise": 1
       }
     }
   }

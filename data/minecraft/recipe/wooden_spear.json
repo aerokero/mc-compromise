@@ -13,6 +13,10 @@
   "result": {
     "id": "minecraft:wooden_spear",
     "components": {
+      "minecraft:custom_data": {
+        "compromise": 1
+      },
+      "minecraft:max_damage": 200,
       "minecraft:attribute_modifiers": [
         {
           "type": "minecraft:attack_damage",
@@ -39,9 +43,6 @@
       "minecraft:piercing_weapon": {
         "deals_knockback": true,
         "dismounts": true
-      },
-      "minecraft:custom_data": {
-        "compromise": 1
       }
     }
   }

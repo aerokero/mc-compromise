@@ -13,6 +13,21 @@
   "result": {
     "id": "minecraft:diamond_hoe",
     "components": {
+      "minecraft:custom_data": {
+        "compromise": 1
+      },
+      "minecraft:max_damage": 2500,
+      "minecraft:tool": {
+        "rules": [
+          {
+            "blocks": "#minecraft:mineable/hoe",
+            "speed": 9.0,
+            "correct_for_drops": true
+          }
+        ],
+        "default_mining_speed": 1.0,
+        "damage_per_block": 1
+      },
       "minecraft:attribute_modifiers": [
         {
           "type": "minecraft:attack_damage",
@@ -35,10 +50,7 @@
           "slot": "mainhand",
           "id": "minecraft:base_attack_range"
         }
-      ],
-      "minecraft:custom_data": {
-        "compromise": 1
-      }
+      ]
     }
   }
 }

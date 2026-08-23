@@ -4,7 +4,8 @@
   "experience": 0.35,
   "ingredient": [
     "minecraft:short_grass",
-    "minecraft:fern"
+    "minecraft:fern",
+    "minecraft:bush"
   ],
   "result": {
     "id": "minecraft:short_dry_grass"

@@ -4,29 +4,23 @@
     "minecraft:custom_data": {
       "compromise": 1
     },
-    "minecraft:max_damage": 200,
+    "minecraft:max_damage": 350,
     "minecraft:attribute_modifiers": [
       {
         "type": "minecraft:attack_damage",
-        "amount": 1.0,
+        "amount": 4.0,
         "operation": "add_value",
         "slot": "mainhand",
         "id": "minecraft:base_attack_damage"
       },
       {
         "type": "minecraft:attack_speed",
-        "amount": -0.5,
+        "amount": -1.0,
         "operation": "add_value",
         "slot": "mainhand",
         "id": "minecraft:base_attack_speed"
-      },
-      {
-        "type": "minecraft:entity_interaction_range",
-        "amount": 0.5,
-        "operation": "add_value",
-        "slot": "mainhand",
-        "id": "minecraft:base_attack_range"
       }
-    ]
+    ],
+    "minecraft:item_model": "minecraft:copper_sword"
   }
 }

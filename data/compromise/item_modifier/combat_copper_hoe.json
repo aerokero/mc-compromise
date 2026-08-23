@@ -4,12 +4,12 @@
     "minecraft:custom_data": {
       "compromise": 1
     },
-    "minecraft:max_damage": 500,
+    "minecraft:max_damage": 350,
     "minecraft:tool": {
       "rules": [
         {
           "blocks": "#minecraft:mineable/hoe",
-          "speed": 8.0,
+          "speed": 6.0,
           "correct_for_drops": true
         }
       ],
@@ -19,7 +19,7 @@
     "minecraft:attribute_modifiers": [
       {
         "type": "minecraft:attack_damage",
-        "amount": 2.0,
+        "amount": 1.0,
         "operation": "add_value",
         "slot": "mainhand",
         "id": "minecraft:base_attack_damage"
@@ -38,6 +38,12 @@
         "slot": "mainhand",
         "id": "minecraft:base_attack_range"
       }
-    ]
+    ],
+    "minecraft:repairable": {
+      "items": [
+        "minecraft:copper_ingot"
+      ]
+    },
+    "minecraft:item_model": "minecraft:copper_hoe"
   }
 }

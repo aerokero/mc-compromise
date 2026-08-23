@@ -13,6 +13,10 @@
   "result": {
     "id": "minecraft:wooden_hoe",
     "components": {
+      "minecraft:custom_data": {
+        "compromise": 1
+      },
+      "minecraft:max_damage": 200,
       "minecraft:attribute_modifiers": [
         {
           "type": "minecraft:attack_damage",
@@ -35,10 +39,7 @@
           "slot": "mainhand",
           "id": "minecraft:base_attack_range"
         }
-      ],
-      "minecraft:custom_data": {
-        "compromise": 1
-      }
+      ]
     }
   }
 }

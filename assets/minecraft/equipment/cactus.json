@@ -2,9 +2,6 @@
 	"layers": {
 		"humanoid": [
 			{
-				"dyeable": {
-					"color_when_undyed": -6265536
-				},
 				"texture": "minecraft:cactus"
 			},
 			{
@@ -13,9 +10,6 @@
 		],
 		"humanoid_leggings": [
 			{
-				"dyeable": {
-					"color_when_undyed": -6265536
-				},
 				"texture": "minecraft:cactus"
 			},
 			{
@@ -24,4 +18,3 @@
 		]
 	}
 }
-
