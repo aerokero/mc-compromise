@@ -3,10 +3,7 @@
   "decorators": [],
   "ignore_vines": true,
   "below_trunk_provider": {
-    "type": "minecraft:simple_state_provider",
-    "state": {
-      "id": "minecraft:dirt"
-    }
+    "id": "minecraft:dirt"
   },
   "minimum_size": {
     "limit": 0,
@@ -16,12 +13,9 @@
     "type": "minecraft:two_layers_feature_size"
   },
   "trunk_provider": {
-    "type": "minecraft:simple_state_provider",
-    "state": {
-      "id": "minecraft:acacia_log",
-      "properties": {
-        "axis": "y"
-      }
+    "id": "minecraft:acacia_log",
+    "properties": {
+      "axis": "y"
     }
   },
   "trunk_placer": {
@@ -31,13 +25,10 @@
     "height_rand_b": 2
   },
   "foliage_provider": {
-    "type": "minecraft:simple_state_provider",
-    "state": {
-      "id": "minecraft:acacia_leaves",
-      "properties": {
-        "persistent": "false",
-        "distance": "7"
-      }
+    "id": "minecraft:acacia_leaves",
+    "properties": {
+      "persistent": "false",
+      "distance": "7"
     }
   },
   "foliage_placer": {

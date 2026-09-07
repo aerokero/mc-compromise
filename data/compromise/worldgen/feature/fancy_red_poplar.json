@@ -8,15 +8,56 @@
   ],
   "ignore_vines": true,
   "below_trunk_provider": {
-    "type": "minecraft:rule_based_state_provider",
-    "rules": [{
-      "if_true": { "type": "minecraft:not", "predicate": { "type": "minecraft:matching_block_tag", "tag": "minecraft:cannot_replace_below_tree_trunk" } },
-      "then": { "type": "minecraft:simple_state_provider", "state": { "id": "minecraft:dirt" } }
-    }]
+    "type": "minecraft:rule_based",
+    "fallback": {
+      "id": "minecraft:dirt"
+    },
+    "rules": [
+      {
+        "if_true": {
+          "type": "minecraft:not",
+          "predicate": {
+            "type": "minecraft:matching_block_tag",
+            "tag": "minecraft:cannot_replace_below_tree_trunk"
+          }
+        },
+        "then": {
+          "id": "minecraft:dirt"
+        }
+      }
+    ]
   },
-  "minimum_size": { "limit": 0, "lower_size": 0, "upper_size": 0, "min_clipped_height": 4, "type": "minecraft:two_layers_feature_size" },
-  "trunk_provider": { "type": "minecraft:simple_state_provider", "state": { "id": "minecraft:poplar_log", "properties": { "axis": "y" } } },
-  "trunk_placer": { "type": "minecraft:fancy_trunk_placer", "base_height": 6, "height_rand_a": 14, "height_rand_b": 5 },
-  "foliage_provider": { "type": "minecraft:simple_state_provider", "state": { "id": "minecraft:red_poplar_leaves", "properties": { "persistent": "false", "distance": "7", "waterlogged": "false" } } },
-  "foliage_placer": { "type": "minecraft:fancy_foliage_placer", "radius": 3, "offset": 3, "height": 3 }
+  "minimum_size": {
+    "limit": 0,
+    "lower_size": 0,
+    "upper_size": 0,
+    "min_clipped_height": 4,
+    "type": "minecraft:two_layers_feature_size"
+  },
+  "trunk_provider": {
+    "id": "minecraft:poplar_log",
+    "properties": {
+      "axis": "y"
+    }
+  },
+  "trunk_placer": {
+    "type": "minecraft:fancy_trunk_placer",
+    "base_height": 6,
+    "height_rand_a": 14,
+    "height_rand_b": 5
+  },
+  "foliage_provider": {
+    "id": "minecraft:red_poplar_leaves",
+    "properties": {
+      "persistent": "false",
+      "distance": "7",
+      "waterlogged": "false"
+    }
+  },
+  "foliage_placer": {
+    "type": "minecraft:fancy_foliage_placer",
+    "radius": 3,
+    "offset": 3,
+    "height": 3
+  }
 }

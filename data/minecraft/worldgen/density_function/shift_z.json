@@ -1,10 +1,4 @@
 {
-  "type": "minecraft:flat_cache",
-  "input": {
-    "type": "minecraft:cache_2d",
-    "input": {
-      "type": "minecraft:shift_b",
-      "noise": "minecraft:overworld/offset"
-    }
-  }
+  "type": "minecraft:shift_b",
+  "noise": "minecraft:overworld/offset"
 }

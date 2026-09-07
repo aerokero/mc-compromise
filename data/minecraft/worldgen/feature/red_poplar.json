@@ -3,7 +3,10 @@
   "decorators": [],
   "ignore_vines": true,
   "below_trunk_provider": {
-    "type": "minecraft:rule_based_state_provider",
+    "type": "minecraft:rule_based",
+    "fallback": {
+      "id": "minecraft:dirt"
+    },
     "rules": [
       {
         "if_true": {
@@ -14,10 +17,7 @@
           }
         },
         "then": {
-          "type": "minecraft:simple_state_provider",
-          "state": {
-            "id": "minecraft:dirt"
-          }
+          "id": "minecraft:dirt"
         }
       }
     ]
@@ -29,12 +29,9 @@
     "type": "minecraft:two_layers_feature_size"
   },
   "trunk_provider": {
-    "type": "minecraft:simple_state_provider",
-    "state": {
-      "id": "minecraft:poplar_log",
-      "properties": {
-        "axis": "y"
-      }
+    "id": "minecraft:poplar_log",
+    "properties": {
+      "axis": "y"
     }
   },
   "trunk_placer": {
@@ -44,14 +41,11 @@
     "height_rand_b": 0
   },
   "foliage_provider": {
-    "type": "minecraft:simple_state_provider",
-    "state": {
-      "id": "minecraft:red_poplar_leaves",
-      "properties": {
-        "distance": "7",
-        "persistent": "false",
-        "waterlogged": "false"
-      }
+    "id": "minecraft:red_poplar_leaves",
+    "properties": {
+      "distance": "7",
+      "persistent": "false",
+      "waterlogged": "false"
     }
   },
   "foliage_placer": {

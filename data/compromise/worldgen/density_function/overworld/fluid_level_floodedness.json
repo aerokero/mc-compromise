@@ -1,13 +1,10 @@
 {
-  "type": "cache_2d",
-  "input": {
-    "type": "minecraft:add",
-    "left": {
-      "type": "noise",
-      "noise": "minecraft:aquifer_fluid_level_floodedness",
-      "xz_scale": 1,
-      "y_scale": 0.67
-    },
-    "right": -1.65
-  }
+  "type": "minecraft:add",
+  "left": {
+    "type": "minecraft:noise",
+    "noise": "minecraft:aquifer_fluid_level_floodedness",
+    "xz_scale": 1,
+    "y_scale": 0.67
+  },
+  "right": -1.65
 }

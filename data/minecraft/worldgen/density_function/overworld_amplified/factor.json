@@ -1,9 +1,5 @@
-{
-  "type": "minecraft:flat_cache",
-  "input": {
-    "type": "minecraft:cache_2d",
-    "input": {
-      "type": "minecraft:add",
+ {
+  "type": "minecraft:add",
       "left": 10.0,
       "right": {
         "type": "minecraft:mul",
@@ -881,10 +877,8 @@
                   }
                 }
               ]
-            }
           }
         }
       }
     }
   }
-}

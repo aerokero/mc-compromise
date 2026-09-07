@@ -1,39 +1,32 @@
 {
-  "type": "minecraft:flat_cache",
-  "input": {
-    "type": "minecraft:cache_2d",
-    "input": {
+  "type": "minecraft:add",
+  "left": {
+    "type": "minecraft:mul",
+    "left": {
+      "type": "minecraft:blend_offset"
+    },
+    "right": {
       "type": "minecraft:add",
-      "left": {
-        "type": "minecraft:mul",
-        "left": {
-          "type": "minecraft:blend_offset"
-        },
-        "right": {
-          "type": "minecraft:add",
-          "left": 1.0,
-          "right": {
-            "type": "minecraft:mul",
-            "left": -1.0,
-            "right": {
-              "type": "minecraft:cache_once",
-              "input": {
-                "type": "minecraft:blend_alpha"
-              }
-            }
-          }
-        }
-      },
+      "left": 1.0,
       "right": {
         "type": "minecraft:mul",
-        "left": {
-          "type": "minecraft:add",
-          "left": -0.5037500262260437,
-          "right": {
-            "type": "minecraft:spline",
-            "spline": {
-              "coordinate": "minecraft:overworld_large_biomes/continents",
-              "points": [
+        "left": -1.0,
+        "right": {
+          "type": "minecraft:blend_alpha"
+        }
+      }
+    }
+  },
+  "right": {
+    "type": "minecraft:mul",
+    "left": {
+      "type": "minecraft:add",
+      "left": -0.5037500262260437,
+      "right": {
+        "type": "minecraft:spline",
+        "spline": {
+          "coordinate": "minecraft:overworld_large_biomes/continents",
+          "points": [
                 {
                   "derivative": 0.0,
                   "location": -1.1,
@@ -1512,12 +1505,7 @@
           }
         },
         "right": {
-          "type": "minecraft:cache_once",
-          "input": {
-            "type": "minecraft:blend_alpha"
-          }
+          "type": "minecraft:blend_alpha"
         }
       }
     }
-  }
-}
