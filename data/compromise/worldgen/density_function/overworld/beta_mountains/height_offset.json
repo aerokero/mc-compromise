@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:mul",
+  "left": 0.15,
+  "right": "compromise:overworld/beta_mountains/gate"
+}

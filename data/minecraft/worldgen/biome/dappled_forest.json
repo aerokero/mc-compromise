@@ -75,7 +75,8 @@
     [
       "minecraft:glow_lichen",
       "minecraft:brown_mushroom_dappled_forest",
-      "minecraft:patch_red_shrub"
+      "minecraft:patch_red_shrub",
+      "minecraft:freeze_top_layer"
     ]
   ],
   "has_precipitation": true,

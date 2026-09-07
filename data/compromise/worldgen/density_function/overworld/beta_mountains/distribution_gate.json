@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:max",
+  "left": "compromise:overworld/beta_mountains/massif_gate",
+  "right": "compromise:overworld/beta_mountains/obelisk_gate"
+}

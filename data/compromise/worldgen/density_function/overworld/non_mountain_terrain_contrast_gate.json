@@ -10,7 +10,7 @@
         "right": {
           "type": "minecraft:max",
           "left": "compromise:overworld/peak_gate",
-          "right": "compromise:overworld/beta_mountain_gate"
+          "right": "compromise:overworld/forest_beta_gate"
         }
     }
   }

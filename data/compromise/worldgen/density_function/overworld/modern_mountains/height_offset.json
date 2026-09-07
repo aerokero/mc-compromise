@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:add",
+  "left": {
+    "type": "minecraft:mul",
+    "left": 0.3,
+    "right": "compromise:overworld/modern_mountains/gate"
+  },
+  "right": {
+    "type": "minecraft:mul",
+    "left": 0.2,
+    "right": "compromise:overworld/modern_mountains/stony_gate"
+  }
+}

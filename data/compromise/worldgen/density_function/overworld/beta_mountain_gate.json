@@ -7,16 +7,6 @@
       "points": [
         {
           "location": -1.1,
-          "value": 1.0,
-          "derivative": 0.0
-        },
-        {
-          "location": -0.85,
-          "value": 1.0,
-          "derivative": 0.0
-        },
-        {
-          "location": -0.75,
           "value": 0.0,
           "derivative": 0.0
         },
@@ -26,7 +16,7 @@
           "derivative": 0.0
         },
         {
-          "location": -0.05,
+          "location": -0.18,
           "value": 1.0,
           "derivative": 0.0
         },
@@ -39,103 +29,8 @@
     }
   },
   "right": {
-    "type": "minecraft:mul",
-    "left": {
-      "type": "minecraft:spline",
-      "spline": {
-        "coordinate": "minecraft:overworld/erosion",
-        "points": [
-          {
-            "location": -1.1,
-            "value": 1.0,
-            "derivative": 0.0
-          },
-          {
-            "location": 0.1,
-            "value": 1.0,
-            "derivative": 0.0
-          },
-          {
-            "location": 0.35,
-            "value": 0.0,
-            "derivative": 0.0
-          },
-          {
-            "location": 1.1,
-            "value": 0.0,
-            "derivative": 0.0
-          }
-        ]
-      }
-    },
-    "right": {
-      "type": "minecraft:mul",
-      "left": {
-        "type": "minecraft:spline",
-        "spline": {
-          "coordinate": "minecraft:overworld/ridges_folded",
-          "points": [
-            {
-              "location": -1.1,
-              "value": 0.0,
-              "derivative": 0.0
-            },
-            {
-              "location": 0.76,
-              "value": 0.0,
-              "derivative": 0.0
-            },
-            {
-              "location": 0.88,
-              "value": 1.0,
-              "derivative": 0.0
-            },
-            {
-              "location": 1.1,
-              "value": 1.0,
-              "derivative": 0.0
-            }
-          ]
-        }
-      },
-      "right": {
-        "type": "minecraft:spline",
-        "spline": {
-          "coordinate": "minecraft:overworld/ridges",
-          "points": [
-            {
-              "location": -1.1,
-              "value": 1.0,
-              "derivative": 0.0
-            },
-            {
-              "location": -0.22,
-              "value": 1.0,
-              "derivative": 0.0
-            },
-            {
-              "location": -0.08,
-              "value": 0.0,
-              "derivative": 0.0
-            },
-            {
-              "location": 0.08,
-              "value": 0.0,
-              "derivative": 0.0
-            },
-            {
-              "location": 0.22,
-              "value": 1.0,
-              "derivative": 0.0
-            },
-            {
-              "location": 1.1,
-              "value": 1.0,
-              "derivative": 0.0
-            }
-          ]
-        }
-      }
-    }
+    "type": "minecraft:max",
+    "left": "compromise:overworld/beta_mountain_massif_gate",
+    "right": "compromise:overworld/beta_mountain_obelisk_gate"
   }
 }

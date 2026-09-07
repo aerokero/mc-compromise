@@ -75,7 +75,7 @@
             "type": "minecraft:mul",
             "left": {
               "type": "minecraft:mul",
-              "left": 6.0,
+              "left": 7.5,
               "right": "compromise:overworld/forest_beta_gate"
             },
             "right": {
@@ -90,31 +90,31 @@
                   },
                   {
                     "location": 50,
-                    "value": 0.8,
+                    "value": 0.85,
                     "derivative": 0.0
                   },
                   {
                     "location": 85,
-                    "value": 1.3,
+                    "value": 1.35,
                     "derivative": 0.0
                   },
                   {
                     "location": 130,
-                    "value": 1.6,
+                    "value": 1.8,
                     "derivative": 0.0
                   },
                   {
                     "location": 170,
-                    "value": 1.1,
+                    "value": 1.35,
                     "derivative": 0.0
                   },
                   {
                     "location": 190,
-                    "value": 0.4,
+                    "value": 0.6,
                     "derivative": 0.0
                   },
                   {
-                    "location": 205,
+                    "location": 220,
                     "value": 0.0,
                     "derivative": 0.0
                   },

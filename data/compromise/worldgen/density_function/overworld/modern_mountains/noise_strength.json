@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:mul",
+  "left": 0.45,
+  "right": "compromise:overworld/modern_mountains/gate"
+}

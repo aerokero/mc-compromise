@@ -751,7 +751,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:forest"
         },
         {
           "parameters": {
@@ -1381,7 +1381,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:forest"
         },
         {
           "parameters": {
@@ -3121,7 +3121,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:forest"
         },
         {
           "parameters": {
@@ -3181,7 +3181,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:forest"
         },
         {
           "parameters": {
@@ -3391,7 +3391,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:forest"
         },
         {
           "parameters": {
@@ -3511,7 +3511,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:forest"
         },
         {
           "parameters": {
@@ -3541,7 +3541,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:forest"
         },
         {
           "parameters": {
@@ -4561,7 +4561,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:forest"
         },
         {
           "parameters": {
@@ -4651,7 +4651,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:forest"
         },
         {
           "parameters": {
@@ -4681,7 +4681,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dappled_forest"
+          "biome": "minecraft:forest"
         },
         {
           "parameters": {

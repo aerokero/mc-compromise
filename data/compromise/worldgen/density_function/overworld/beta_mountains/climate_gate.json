@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:mul",
+  "left": {
+    "type": "minecraft:spline",
+    "spline": {
+      "coordinate": "minecraft:overworld/vegetation",
+      "points": [
+        { "location": -1.1, "value": 0.0, "derivative": 0.0 },
+        { "location": -0.4, "value": 0.0, "derivative": 0.0 },
+        { "location": -0.2, "value": 1.0, "derivative": 0.0 },
+        { "location": 1.1, "value": 1.0, "derivative": 0.0 }
+      ]
+    }
+  },
+  "right": {
+    "type": "minecraft:spline",
+    "spline": {
+      "coordinate": "compromise:overworld/temperature",
+      "points": [
+        { "location": -1.1, "value": 1.0, "derivative": 0.0 },
+        { "location": 0.55, "value": 1.0, "derivative": 0.0 },
+        { "location": 0.75, "value": 0.0, "derivative": 0.0 },
+        { "location": 1.1, "value": 0.0, "derivative": 0.0 }
+      ]
+    }
+  }
+}
