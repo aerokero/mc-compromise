@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:mul",
+  "left": 0.25,
+  "right": {
+    "type": "minecraft:mul",
+    "left": "compromise:overworld/savanna/upland_gate",
+    "right": {
+      "type": "minecraft:spline",
+      "spline": {
+        "coordinate": "minecraft:y",
+        "points": [
+          { "location": -64, "value": 0.05, "derivative": 0.0 },
+          { "location": 45, "value": 0.18, "derivative": 0.0 },
+          { "location": 70, "value": 0.4, "derivative": 0.0 },
+          { "location": 105, "value": 0.6, "derivative": 0.0 },
+          { "location": 135, "value": 0.42, "derivative": 0.0 },
+          { "location": 160, "value": 0.15, "derivative": 0.0 },
+          { "location": 180, "value": 0.0, "derivative": 0.0 },
+          { "location": 320, "value": 0.0, "derivative": 0.0 }
+        ]
+      }
+    }
+  }
+}

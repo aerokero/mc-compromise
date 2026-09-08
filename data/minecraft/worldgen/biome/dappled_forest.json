@@ -80,7 +80,7 @@
     ]
   ],
   "has_precipitation": true,
-  "temperature": 0.6,
+  "temperature": 0.45,
   "downfall": 0.6,
   "attributes": {
     "minecraft:gameplay/natural_mob_spawns": {

@@ -1,5 +1,5 @@
 {
   "type": "minecraft:mul",
-  "left": "compromise:overworld/beta_mountains/base_gate",
+  "left": "compromise:overworld/modern_mountains/beta_exclusion_gate",
   "right": "compromise:overworld/beta_mountains/modern_exclusion_gate"
 }

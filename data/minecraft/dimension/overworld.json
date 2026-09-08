@@ -1,9 +1,37 @@
 {
   "type": "minecraft:overworld",
   "generator": {
-    "biome_source": {
-      "biomes": [
-        {
+      "biome_source": {
+        "biomes": [
+          { "parameters": { "weirdness": [-0.935, 0.935], "continentalness": [0.03, 1], "erosion": [-0.375, 0.6], "temperature": [-0.5, -0.15], "humidity": [-0.35, 0.35], "depth": [0, 0], "offset": 0 }, "biome": "minecraft:dappled_forest" },
+          { "parameters": { "weirdness": [-0.935, 0.935], "continentalness": [0.03, 1], "erosion": [-0.375, 0.6], "temperature": [-0.5, -0.15], "humidity": [-0.35, 0.35], "depth": [1, 1], "offset": 0 }, "biome": "minecraft:dappled_forest" },
+          { "parameters": { "weirdness": [-0.935, 0.935], "continentalness": [0.03, 1], "erosion": [-0.375, 0.6], "temperature": [-0.15, 0.15], "humidity": [-0.1, 0.45], "depth": [0, 0], "offset": 0 }, "biome": "minecraft:dappled_forest" },
+          { "parameters": { "weirdness": [-0.935, 0.935], "continentalness": [0.03, 1], "erosion": [-0.375, 0.6], "temperature": [-0.15, 0.15], "humidity": [-0.1, 0.45], "depth": [1, 1], "offset": 0 }, "biome": "minecraft:dappled_forest" },
+          { "parameters": { "weirdness": [-0.78, -0.55], "continentalness": [0.15, 1], "erosion": [-1, -0.7], "temperature": [-1, 0.15], "humidity": [-1, 1], "depth": [0, 0], "offset": 0 }, "biome": "minecraft:jagged_peaks" },
+          { "parameters": { "weirdness": [-0.78, -0.55], "continentalness": [0.15, 1], "erosion": [-1, -0.7], "temperature": [-1, 0.15], "humidity": [-1, 1], "depth": [1, 1], "offset": 0 }, "biome": "minecraft:jagged_peaks" },
+          { "parameters": { "weirdness": [0.55, 0.78], "continentalness": [0.15, 1], "erosion": [-1, -0.7], "temperature": [-1, -0.5], "humidity": [-1, 1], "depth": [0, 0], "offset": 0 }, "biome": "minecraft:frozen_peaks" },
+          { "parameters": { "weirdness": [0.55, 0.78], "continentalness": [0.15, 1], "erosion": [-1, -0.7], "temperature": [-1, -0.5], "humidity": [-1, 1], "depth": [1, 1], "offset": 0 }, "biome": "minecraft:frozen_peaks" },
+          { "parameters": { "weirdness": [-0.78, -0.55], "continentalness": [0.15, 1], "erosion": [-1, -0.7], "temperature": [0.15, 0.5], "humidity": [-1, 1], "depth": [0, 0], "offset": 0 }, "biome": "minecraft:stony_peaks" },
+          { "parameters": { "weirdness": [-0.78, -0.55], "continentalness": [0.15, 1], "erosion": [-1, -0.7], "temperature": [0.15, 0.5], "humidity": [-1, 1], "depth": [1, 1], "offset": 0 }, "biome": "minecraft:stony_peaks" },
+          { "parameters": { "weirdness": [0.55, 0.78], "continentalness": [0.15, 1], "erosion": [-1, -0.7], "temperature": [0.15, 0.5], "humidity": [-1, 1], "depth": [0, 0], "offset": 0 }, "biome": "minecraft:stony_peaks" },
+          { "parameters": { "weirdness": [0.55, 0.78], "continentalness": [0.15, 1], "erosion": [-1, -0.7], "temperature": [0.15, 0.5], "humidity": [-1, 1], "depth": [1, 1], "offset": 0 }, "biome": "minecraft:stony_peaks" },
+          { "parameters": { "weirdness": [-0.95, -0.4], "continentalness": [0.03, 1], "erosion": [-0.78, -0.375], "temperature": [-1, -0.5], "humidity": [-1, 1], "depth": [0, 0], "offset": 0 }, "biome": "minecraft:snowy_slopes" },
+          { "parameters": { "weirdness": [-0.95, -0.4], "continentalness": [0.03, 1], "erosion": [-0.78, -0.375], "temperature": [-1, -0.5], "humidity": [-1, 1], "depth": [1, 1], "offset": 0 }, "biome": "minecraft:snowy_slopes" },
+          { "parameters": { "weirdness": [0.4, 0.95], "continentalness": [0.03, 1], "erosion": [-0.78, -0.375], "temperature": [-1, -0.5], "humidity": [-1, 1], "depth": [0, 0], "offset": 0 }, "biome": "minecraft:snowy_slopes" },
+          { "parameters": { "weirdness": [0.4, 0.95], "continentalness": [0.03, 1], "erosion": [-0.78, -0.375], "temperature": [-1, -0.5], "humidity": [-1, 1], "depth": [1, 1], "offset": 0 }, "biome": "minecraft:snowy_slopes" },
+          { "parameters": { "weirdness": [-0.9, -0.4], "continentalness": [0.03, 1], "erosion": [-0.78, -0.375], "temperature": [-0.5, -0.15], "humidity": [-0.35, 1], "depth": [0, 0], "offset": 0 }, "biome": "minecraft:grove" },
+          { "parameters": { "weirdness": [-0.9, -0.4], "continentalness": [0.03, 1], "erosion": [-0.78, -0.375], "temperature": [-0.5, -0.15], "humidity": [-0.35, 1], "depth": [1, 1], "offset": 0 }, "biome": "minecraft:grove" },
+          { "parameters": { "weirdness": [0.4, 0.9], "continentalness": [0.03, 1], "erosion": [-0.78, -0.375], "temperature": [-0.5, -0.15], "humidity": [-0.35, 1], "depth": [0, 0], "offset": 0 }, "biome": "minecraft:grove" },
+          { "parameters": { "weirdness": [0.4, 0.9], "continentalness": [0.03, 1], "erosion": [-0.78, -0.375], "temperature": [-0.5, -0.15], "humidity": [-0.35, 1], "depth": [1, 1], "offset": 0 }, "biome": "minecraft:grove" },
+          { "parameters": { "weirdness": [-0.9, -0.35], "continentalness": [0.03, 1], "erosion": [-0.78, -0.2225], "temperature": [-0.5, 0.15], "humidity": [-0.35, 0], "depth": [1, 1], "offset": 0 }, "biome": "minecraft:meadow" },
+          { "parameters": { "weirdness": [0.35, 0.9], "continentalness": [0.03, 1], "erosion": [-0.78, -0.2225], "temperature": [-0.5, 0.15], "humidity": [-0.35, 0], "depth": [1, 1], "offset": 0 }, "biome": "minecraft:meadow" },
+          { "parameters": { "weirdness": [-0.72, -0.2], "continentalness": [0.03, 1], "erosion": [-0.78, -0.2225], "temperature": [-0.15, 0.15], "humidity": [0, 0.35], "depth": [0, 0], "offset": 0 }, "biome": "minecraft:cherry_grove" },
+          { "parameters": { "weirdness": [-0.72, -0.2], "continentalness": [0.03, 1], "erosion": [-0.78, -0.2225], "temperature": [-0.15, 0.15], "humidity": [0, 0.35], "depth": [1, 1], "offset": 0 }, "biome": "minecraft:cherry_grove" },
+          { "parameters": { "weirdness": [0.2, 0.72], "continentalness": [0.03, 1], "erosion": [-0.78, -0.2225], "temperature": [-0.15, 0.15], "humidity": [0, 0.35], "depth": [0, 0], "offset": 0 }, "biome": "minecraft:cherry_grove" },
+          { "parameters": { "weirdness": [0.2, 0.72], "continentalness": [0.03, 1], "erosion": [-0.78, -0.2225], "temperature": [-0.15, 0.15], "humidity": [0, 0.35], "depth": [1, 1], "offset": 0 }, "biome": "minecraft:cherry_grove" },
+          { "parameters": { "weirdness": [-0.935, 0.935], "continentalness": [0.03, 1], "erosion": [-0.2225, 0.6], "temperature": [0.05, 0.5], "humidity": [0.05, 0.7], "depth": [0, 0], "offset": 0 }, "biome": "minecraft:birch_forest" },
+          { "parameters": { "weirdness": [-0.935, 0.935], "continentalness": [0.03, 1], "erosion": [-0.2225, 0.6], "temperature": [0.05, 0.5], "humidity": [0.05, 0.7], "depth": [1, 1], "offset": 0 }, "biome": "minecraft:birch_forest" },
+          {
           "parameters": {
             "weirdness": [
               -0.7666667,
@@ -18109,7 +18137,7 @@
             ],
             "temperature": [
               -1,
-              0.15
+              -0.5
             ],
             "humidity": [
               -1,
@@ -20509,7 +20537,7 @@
             ],
             "temperature": [
               -1,
-              0.15
+              -0.5
             ],
             "humidity": [
               -1,
@@ -40849,7 +40877,7 @@
             ],
             "temperature": [
               -1,
-              0.15
+              -0.5
             ],
             "humidity": [
               -1,
@@ -43249,7 +43277,7 @@
             ],
             "temperature": [
               -1,
-              0.15
+              -0.5
             ],
             "humidity": [
               -1,
@@ -52034,8 +52062,8 @@
               1
             ],
             "erosion": [
-              -0.375,
-              0.05
+              -0.78,
+              -0.375
             ],
             "temperature": [
               -0.15,
@@ -52064,8 +52092,8 @@
               1
             ],
             "erosion": [
-              -0.375,
-              0.05
+              -0.78,
+              -0.375
             ],
             "temperature": [
               -0.15,
@@ -52094,8 +52122,8 @@
               1
             ],
             "erosion": [
-              -0.375,
-              0.05
+              -0.78,
+              -0.375
             ],
             "temperature": [
               -0.15,
@@ -52124,8 +52152,8 @@
               1
             ],
             "erosion": [
-              -0.375,
-              0.05
+              -0.78,
+              -0.375
             ],
             "temperature": [
               -0.15,
@@ -52159,7 +52187,7 @@
             ],
             "temperature": [
               -1,
-              0.15
+              -0.5
             ],
             "humidity": [
               -1,
@@ -52189,7 +52217,7 @@
             ],
             "temperature": [
               -1,
-              0.15
+              -0.5
             ],
             "humidity": [
               -1,
@@ -52219,7 +52247,7 @@
             ],
             "temperature": [
               -1,
-              0.15
+              -0.5
             ],
             "humidity": [
               -1,
@@ -52249,7 +52277,7 @@
             ],
             "temperature": [
               -1,
-              0.15
+              -0.5
             ],
             "humidity": [
               -1,
@@ -52279,7 +52307,7 @@
             ],
             "temperature": [
               -1,
-              0.15
+              -0.5
             ],
             "humidity": [
               -1,
@@ -52309,7 +52337,7 @@
             ],
             "temperature": [
               -1,
-              0.15
+              -0.5
             ],
             "humidity": [
               -1,
@@ -52339,7 +52367,7 @@
             ],
             "temperature": [
               -1,
-              0.15
+              -0.5
             ],
             "humidity": [
               -1,
@@ -52369,7 +52397,7 @@
             ],
             "temperature": [
               -1,
-              0.15
+              -0.5
             ],
             "humidity": [
               -1,
@@ -52399,7 +52427,7 @@
             ],
             "temperature": [
               -1,
-              0.15
+              -0.5
             ],
             "humidity": [
               -1,
@@ -52429,7 +52457,7 @@
             ],
             "temperature": [
               -1,
-              0.15
+              -0.5
             ],
             "humidity": [
               -1,
@@ -52459,7 +52487,7 @@
             ],
             "temperature": [
               -1,
-              0.15
+              -0.5
             ],
             "humidity": [
               -1,
@@ -52489,7 +52517,7 @@
             ],
             "temperature": [
               -1,
-              0.15
+              -0.5
             ],
             "humidity": [
               -1,

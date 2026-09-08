@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:mul",
+  "left": 0.08,
+  "right": "compromise:overworld/savanna/upland_gate"
+}

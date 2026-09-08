@@ -29,15 +29,15 @@
                 "left": "compromise:overworld/beta_mountains/height_offset",
                 "right": {
                   "type": "minecraft:add",
-                  "left": {
-                    "type": "minecraft:mul",
-                    "left": 0.32,
-                    "right": "compromise:overworld/badlands_monument_gate"
-                  },
+                  "left": "compromise:overworld/badlands/height_offset",
                   "right": {
-                    "type": "minecraft:mul",
-                    "left": 0.12,
-                    "right": "compromise:overworld/savanna_plateau_gate"
+                    "type": "minecraft:add",
+                    "left": "compromise:overworld/desert/height_offset",
+                    "right": {
+                      "type": "minecraft:add",
+                      "left": "compromise:overworld/savanna/upland_height_offset",
+                      "right": "compromise:overworld/savanna/plateau_height_offset"
+                    }
                   }
                 }
               }
@@ -65,30 +65,15 @@
           "type": "minecraft:add",
           "left": "compromise:overworld/beta_mountains/noise_strength",
           "right": {
-              "type": "minecraft:mul",
-              "left": {
-                "type": "minecraft:add",
-                "left": {
-                  "type": "minecraft:mul",
-                  "left": 6.5,
-                  "right": "compromise:overworld/badlands_monument_gate"
-                },
-                "right": "compromise:overworld/savanna_plateau_strength"
-              },
+            "type": "minecraft:add",
+            "left": "compromise:overworld/badlands/noise_strength",
             "right": {
-              "type": "minecraft:spline",
-              "spline": {
-                "coordinate": "minecraft:y",
-                "points": [
-                  { "location": -64, "value": 0.15, "derivative": 0.0 },
-                  { "location": 50, "value": 0.6, "derivative": 0.0 },
-                  { "location": 75, "value": 1.4, "derivative": 0.0 },
-                  { "location": 120, "value": 1.6, "derivative": 0.0 },
-                  { "location": 150, "value": 1.2, "derivative": 0.0 },
-                  { "location": 165, "value": 0.2, "derivative": 0.0 },
-                  { "location": 175, "value": 0.0, "derivative": 0.0 },
-                  { "location": 320, "value": 0.0, "derivative": 0.0 }
-                ]
+              "type": "minecraft:add",
+              "left": "compromise:overworld/desert/noise_strength",
+              "right": {
+                "type": "minecraft:add",
+                "left": "compromise:overworld/savanna/upland_noise_strength",
+                "right": "compromise:overworld/savanna_plateau_strength"
               }
             }
           }
