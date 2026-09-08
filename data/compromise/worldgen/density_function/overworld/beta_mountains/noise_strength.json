@@ -3,7 +3,7 @@
   "left": {
     "type": "minecraft:mul",
     "left": 7.5,
-    "right": "compromise:overworld/beta_mountains/gate"
+    "right": "compromise:overworld/beta_mountains/terrain_gate"
   },
   "right": {
     "type": "minecraft:spline",

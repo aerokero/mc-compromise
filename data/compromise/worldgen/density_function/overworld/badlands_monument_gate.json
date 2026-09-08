@@ -28,7 +28,7 @@
     "left": {
       "type": "minecraft:spline",
       "spline": {
-        "coordinate": "compromise:overworld/temperature",
+        "coordinate": "minecraft:overworld/temperature",
         "points": [
           {
             "location": -1.1,
@@ -96,12 +96,17 @@
                 "derivative": 0.0
               },
               {
-                "location": 0.55,
+                "location": 0.25,
                 "value": 0.0,
                 "derivative": 0.0
               },
               {
-                "location": 0.75,
+                "location": 0.42,
+                "value": 0.65,
+                "derivative": 0.0
+              },
+              {
+                "location": 0.58,
                 "value": 1.0,
                 "derivative": 0.0
               },

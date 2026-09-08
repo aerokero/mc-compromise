@@ -28,9 +28,17 @@
                 "type": "minecraft:add",
                 "left": "compromise:overworld/beta_mountains/height_offset",
                 "right": {
-                  "type": "minecraft:mul",
-                  "left": 0.25,
-                  "right": "compromise:overworld/badlands_monument_gate"
+                  "type": "minecraft:add",
+                  "left": {
+                    "type": "minecraft:mul",
+                    "left": 0.32,
+                    "right": "compromise:overworld/badlands_monument_gate"
+                  },
+                  "right": {
+                    "type": "minecraft:mul",
+                    "left": 0.12,
+                    "right": "compromise:overworld/savanna_plateau_gate"
+                  }
                 }
               }
             }
@@ -57,12 +65,16 @@
           "type": "minecraft:add",
           "left": "compromise:overworld/beta_mountains/noise_strength",
           "right": {
-            "type": "minecraft:mul",
-            "left": {
               "type": "minecraft:mul",
-              "left": 5.5,
-              "right": "compromise:overworld/badlands_monument_gate"
-            },
+              "left": {
+                "type": "minecraft:add",
+                "left": {
+                  "type": "minecraft:mul",
+                  "left": 6.5,
+                  "right": "compromise:overworld/badlands_monument_gate"
+                },
+                "right": "compromise:overworld/savanna_plateau_strength"
+              },
             "right": {
               "type": "minecraft:spline",
               "spline": {
