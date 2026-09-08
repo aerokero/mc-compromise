@@ -3,7 +3,7 @@
   "input": {
     "type": "minecraft:noise",
     "noise": "compromise:beta_mountains/distribution",
-    "xz_scale": 96.0,
+    "xz_scale": 88.0,
     "y_scale": 0.0
   },
   "min_inclusive": 0.98,

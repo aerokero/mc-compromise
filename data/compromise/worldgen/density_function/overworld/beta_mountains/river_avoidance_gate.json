@@ -1,13 +1,13 @@
 {
   "type": "minecraft:spline",
   "spline": {
-    "coordinate": "minecraft:weirdness",
+    "coordinate": "minecraft:overworld/ridges",
     "points": [
       { "location": -1.1, "value": 1.0, "derivative": 0.0 },
-      { "location": -0.08, "value": 1.0, "derivative": 0.0 },
-      { "location": -0.04, "value": 0.0, "derivative": 0.0 },
-      { "location": 0.04, "value": 0.0, "derivative": 0.0 },
-      { "location": 0.08, "value": 1.0, "derivative": 0.0 },
+      { "location": -0.18, "value": 1.0, "derivative": 0.0 },
+      { "location": -0.14, "value": 0.0, "derivative": 0.0 },
+      { "location": 0.14, "value": 0.0, "derivative": 0.0 },
+      { "location": 0.18, "value": 1.0, "derivative": 0.0 },
       { "location": 1.1, "value": 1.0, "derivative": 0.0 }
     ]
   }

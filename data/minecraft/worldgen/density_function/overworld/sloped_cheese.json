@@ -20,25 +20,13 @@
           },
           "right": {
             "type": "minecraft:add",
-            "left": {
-              "type": "minecraft:mul",
-              "left": 0.3,
-              "right": "compromise:overworld/peak_gate"
-            },
+            "left": "compromise:overworld/modern_mountains/jaggedness_offset",
             "right": {
               "type": "minecraft:add",
-              "left": {
-                "type": "minecraft:mul",
-                "left": 0.15,
-                "right": "compromise:overworld/forest_beta_gate"
-              },
+              "left": "compromise:overworld/modern_mountains/height_offset",
               "right": {
                 "type": "minecraft:add",
-                "left": {
-                  "type": "minecraft:mul",
-                  "left": 0.2,
-                  "right": "compromise:overworld/stony_peak_gate"
-                },
+                "left": "compromise:overworld/beta_mountains/height_offset",
                 "right": {
                   "type": "minecraft:mul",
                   "left": 0.25,
@@ -64,69 +52,10 @@
       "left": 0.35,
       "right": {
         "type": "minecraft:add",
-        "left": {
-          "type": "minecraft:mul",
-          "left": 0.45,
-          "right": "compromise:overworld/peak_gate"
-        },
+        "left": "compromise:overworld/modern_mountains/noise_strength",
         "right": {
           "type": "minecraft:add",
-          "left": {
-            "type": "minecraft:mul",
-            "left": {
-              "type": "minecraft:mul",
-              "left": 7.5,
-              "right": "compromise:overworld/forest_beta_gate"
-            },
-            "right": {
-              "type": "minecraft:spline",
-              "spline": {
-                "coordinate": "minecraft:y",
-                "points": [
-                  {
-                    "location": -64,
-                    "value": 0.15,
-                    "derivative": 0.0
-                  },
-                  {
-                    "location": 50,
-                    "value": 0.85,
-                    "derivative": 0.0
-                  },
-                  {
-                    "location": 85,
-                    "value": 1.35,
-                    "derivative": 0.0
-                  },
-                  {
-                    "location": 130,
-                    "value": 1.8,
-                    "derivative": 0.0
-                  },
-                  {
-                    "location": 170,
-                    "value": 1.35,
-                    "derivative": 0.0
-                  },
-                  {
-                    "location": 190,
-                    "value": 0.6,
-                    "derivative": 0.0
-                  },
-                  {
-                    "location": 220,
-                    "value": 0.0,
-                    "derivative": 0.0
-                  },
-                  {
-                    "location": 320,
-                    "value": 0.0,
-                    "derivative": 0.0
-                  }
-                ]
-              }
-            }
-          },
+          "left": "compromise:overworld/beta_mountains/noise_strength",
           "right": {
             "type": "minecraft:mul",
             "left": {
@@ -139,46 +68,14 @@
               "spline": {
                 "coordinate": "minecraft:y",
                 "points": [
-                  {
-                    "location": -64,
-                    "value": 0.15,
-                    "derivative": 0.0
-                  },
-                  {
-                    "location": 50,
-                    "value": 0.6,
-                    "derivative": 0.0
-                  },
-                  {
-                    "location": 75,
-                    "value": 1.4,
-                    "derivative": 0.0
-                  },
-                  {
-                    "location": 120,
-                    "value": 1.6,
-                    "derivative": 0.0
-                  },
-                  {
-                    "location": 150,
-                    "value": 1.2,
-                    "derivative": 0.0
-                  },
-                  {
-                    "location": 165,
-                    "value": 0.2,
-                    "derivative": 0.0
-                  },
-                  {
-                    "location": 175,
-                    "value": 0.0,
-                    "derivative": 0.0
-                  },
-                  {
-                    "location": 320,
-                    "value": 0.0,
-                    "derivative": 0.0
-                  }
+                  { "location": -64, "value": 0.15, "derivative": 0.0 },
+                  { "location": 50, "value": 0.6, "derivative": 0.0 },
+                  { "location": 75, "value": 1.4, "derivative": 0.0 },
+                  { "location": 120, "value": 1.6, "derivative": 0.0 },
+                  { "location": 150, "value": 1.2, "derivative": 0.0 },
+                  { "location": 165, "value": 0.2, "derivative": 0.0 },
+                  { "location": 175, "value": 0.0, "derivative": 0.0 },
+                  { "location": 320, "value": 0.0, "derivative": 0.0 }
                 ]
               }
             }
