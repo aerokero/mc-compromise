@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:mul",
+    "left": "compromise:alpha01/terrain/beta_candidate",
+    "right": "compromise:alpha01/terrain/beta_active"
+  }
+}

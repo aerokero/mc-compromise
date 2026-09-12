@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:mul",
+    "left": "compromise:alpha01/land/strength",
+    "right": {
+      "type": "minecraft:sub",
+      "left": 5.0,
+      "right": {
+        "type": "minecraft:mul",
+        "left": 3.5,
+        "right": {
+          "type": "minecraft:max",
+          "left": "compromise:alpha01/profile/dark_guard",
+          "right": "compromise:alpha01/profile/desert"
+        }
+      }
+    }
+  }
+}

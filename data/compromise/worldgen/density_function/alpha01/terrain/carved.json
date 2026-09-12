@@ -1,0 +1,72 @@
+{
+  "type": "minecraft:min",
+  "left": {
+    "type": "minecraft:min",
+    "left": "compromise:alpha01/terrain/sloped_cheese",
+    "right": {
+      "type": "minecraft:max",
+      "left": {
+        "type": "minecraft:range_choice",
+        "input": "compromise:alpha01/terrain/sloped_cheese",
+        "min_inclusive": -1000000.0,
+        "max_exclusive": 1.5625,
+        "when_in_range": {
+          "type": "minecraft:min",
+          "left": "compromise:alpha01/terrain/sloped_cheese",
+          "right": {
+            "type": "minecraft:mul",
+            "left": 5.0,
+            "right": "compromise:alpha01/caves/entrances"
+          }
+        },
+        "when_out_of_range": {
+          "type": "minecraft:max",
+          "left": {
+            "type": "minecraft:min",
+            "left": {
+              "type": "minecraft:min",
+              "left": {
+                "type": "minecraft:add",
+                "left": "compromise:alpha01/caves/layer",
+                "right": {
+                  "type": "minecraft:add",
+                  "left": "compromise:alpha01/caves/cheese",
+                  "right": {
+                    "type": "minecraft:clamp",
+                    "input": {
+                      "type": "minecraft:add",
+                      "left": 1.5,
+                      "right": {
+                        "type": "minecraft:mul",
+                        "left": -0.64,
+                        "right": "compromise:alpha01/terrain/sloped_cheese"
+                      }
+                    },
+                    "min": 0.0,
+                    "max": 0.5
+                  }
+                }
+              },
+              "right": "compromise:alpha01/caves/entrances"
+            },
+            "right": "compromise:alpha01/caves/spaghetti"
+          },
+          "right": {
+            "type": "minecraft:range_choice",
+            "input": "minecraft:overworld/caves/pillars",
+            "min_inclusive": -1000000.0,
+            "max_exclusive": 0.03,
+            "when_in_range": -1000000.0,
+            "when_out_of_range": "minecraft:overworld/caves/pillars"
+          }
+        }
+      },
+      "right": "compromise:alpha01/caves/modern_protection"
+    }
+  },
+  "right": {
+    "type": "minecraft:max",
+    "left": "compromise:alpha01/caves/noodle",
+    "right": "compromise:alpha01/caves/modern_protection"
+  }
+}

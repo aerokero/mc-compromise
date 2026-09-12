@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:range_choice",
+    "input": "compromise:alpha02/land/physical",
+    "min_inclusive": -0.11,
+    "max_exclusive": -0.06,
+    "when_in_range": {
+      "type": "minecraft:range_choice",
+      "input": "compromise:alpha02/terrain/modern_envelope",
+      "min_inclusive": 0.3,
+      "max_exclusive": 2.0,
+      "when_in_range": -0.4,
+      "when_out_of_range": "compromise:alpha02/climate/terrain_erosion"
+    },
+    "when_out_of_range": "compromise:alpha02/climate/terrain_erosion"
+  }
+}

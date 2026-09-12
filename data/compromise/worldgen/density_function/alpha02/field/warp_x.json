@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:mul",
+    "left": 72.0,
+    "right": {
+      "type": "minecraft:noise",
+      "noise": "compromise:alpha01/warp_x",
+      "xz_scale": 1.0,
+      "y_scale": 0.0
+    }
+  }
+}

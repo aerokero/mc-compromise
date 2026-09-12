@@ -173,9 +173,9 @@
               "count": {
                 "type": "minecraft:uniform",
                 "min_inclusive": 2,
-                "max_inclusive": 5
+                "max_inclusive": 6
               },
-              "weight": 5
+              "weight": 8
             }
           ]
         }

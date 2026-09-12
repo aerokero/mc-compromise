@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:lerp",
+    "alpha": "compromise:alpha04/profile/swamp",
+    "first": "compromise:alpha04/terrain/ordinary_height",
+    "second": {
+      "type": "minecraft:add",
+      "left": 64.5,
+      "right": {
+        "type": "minecraft:mul",
+        "left": 1.5,
+        "right": "compromise:alpha04/field/low_hills_raw"
+      }
+    }
+  }
+}

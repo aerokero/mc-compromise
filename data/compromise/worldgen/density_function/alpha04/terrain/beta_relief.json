@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:mul",
+    "left": {
+      "type": "minecraft:mul",
+      "left": 1.0,
+      "right": "compromise:alpha04/terrain/beta_strength"
+    },
+    "right": {
+      "type": "minecraft:add",
+      "left": "compromise:alpha04/terrain/beta_height_target",
+      "right": {
+        "type": "minecraft:mul",
+        "left": {
+          "type": "minecraft:add",
+          "left": 6.0,
+          "right": {
+            "type": "minecraft:mul",
+            "left": 13.0,
+            "right": "compromise:alpha04/terrain/beta_major_weight"
+          }
+        },
+        "right": "compromise:alpha04/field/beta_roof_raw"
+      }
+    }
+  }
+}

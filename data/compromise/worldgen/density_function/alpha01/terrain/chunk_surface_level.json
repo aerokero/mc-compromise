@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:floor",
+    "input": "compromise:alpha01/terrain/surface_height",
+    "multiple": 8.0
+  }
+}

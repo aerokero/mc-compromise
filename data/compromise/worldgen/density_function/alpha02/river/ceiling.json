@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:add",
+    "left": 59.0,
+    "right": {
+      "type": "minecraft:mul",
+      "left": 8500.0,
+      "right": {
+        "type": "minecraft:square",
+        "input": "compromise:alpha02/river/distance"
+      }
+    }
+  }
+}

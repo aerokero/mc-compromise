@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:range_choice",
+    "input": "compromise:alpha03/land/is_mushroom",
+    "min_inclusive": 0.5,
+    "max_exclusive": 1.01,
+    "when_in_range": -1.0,
+    "when_out_of_range": {
+      "type": "minecraft:clamp",
+      "input": "compromise:alpha03/land/physical",
+      "min": -0.9,
+      "max": 1.0
+    }
+  }
+}

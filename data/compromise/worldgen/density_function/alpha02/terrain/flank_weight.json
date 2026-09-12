@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:mul",
+    "left": 4.0,
+    "right": {
+      "type": "minecraft:mul",
+      "left": "compromise:alpha02/terrain/modern_spine",
+      "right": {
+        "type": "minecraft:sub",
+        "left": 1.0,
+        "right": "compromise:alpha02/terrain/modern_spine"
+      }
+    }
+  }
+}

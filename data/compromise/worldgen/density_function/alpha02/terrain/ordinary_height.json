@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:add",
+    "left": "compromise:alpha02/land/coastal_height",
+    "right": {
+      "type": "minecraft:mul",
+      "left": "compromise:alpha02/terrain/hill_amplitude",
+      "right": "compromise:alpha02/field/low_hills_raw"
+    }
+  }
+}

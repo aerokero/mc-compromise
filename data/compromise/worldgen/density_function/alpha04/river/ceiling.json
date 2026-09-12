@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:add",
+    "left": {
+      "type": "minecraft:add",
+      "left": {
+        "type": "minecraft:add",
+        "left": 0.0,
+        "right": "compromise:alpha04/river/center_level"
+      },
+      "right": {
+        "type": "minecraft:mul",
+        "left": 2850.0,
+        "right": {
+          "type": "minecraft:square",
+          "input": "compromise:alpha04/river/distance"
+        }
+      }
+    },
+    "right": "compromise:alpha04/river/bank_relief"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:range_choice",
+    "input": "compromise:alpha03/terrain/modern_relief",
+    "min_inclusive": 115.0,
+    "max_exclusive": 1000.0,
+    "when_in_range": {
+      "type": "minecraft:sub",
+      "left": -0.74,
+      "right": {
+        "type": "minecraft:mul",
+        "left": 0.22,
+        "right": {
+          "type": "minecraft:clamp",
+          "input": {
+            "type": "minecraft:mul",
+            "left": {
+              "type": "minecraft:sub",
+              "left": "compromise:alpha03/terrain/modern_relief",
+              "right": 115.0
+            },
+            "right": 0.01818181818181818
+          },
+          "min": 0.0,
+          "max": 1.0
+        }
+      }
+    },
+    "when_out_of_range": {
+      "type": "minecraft:range_choice",
+      "input": "compromise:alpha03/terrain/modern_relief",
+      "min_inclusive": 70.0,
+      "max_exclusive": 115.0,
+      "when_in_range": {
+        "type": "minecraft:sub",
+        "left": -0.5,
+        "right": {
+          "type": "minecraft:mul",
+          "left": 0.2,
+          "right": {
+            "type": "minecraft:clamp",
+            "input": {
+              "type": "minecraft:mul",
+              "left": {
+                "type": "minecraft:sub",
+                "left": "compromise:alpha03/terrain/modern_relief",
+                "right": 70.0
+              },
+              "right": 0.022222222222222223
+            },
+            "min": 0.0,
+            "max": 1.0
+          }
+        }
+      },
+      "when_out_of_range": {
+        "type": "minecraft:range_choice",
+        "input": "compromise:alpha03/terrain/modern_relief",
+        "min_inclusive": 32.0,
+        "max_exclusive": 70.0,
+        "when_in_range": {
+          "type": "minecraft:sub",
+          "left": -0.34,
+          "right": {
+            "type": "minecraft:mul",
+            "left": 0.13,
+            "right": {
+              "type": "minecraft:clamp",
+              "input": {
+                "type": "minecraft:mul",
+                "left": {
+                  "type": "minecraft:sub",
+                  "left": "compromise:alpha03/terrain/modern_relief",
+                  "right": 32.0
+                },
+                "right": 0.02631578947368421
+              },
+              "min": 0.0,
+              "max": 1.0
+            }
+          }
+        },
+        "when_out_of_range": {
+          "type": "minecraft:range_choice",
+          "input": "compromise:alpha03/terrain/windswept_district",
+          "min_inclusive": 0.52,
+          "max_exclusive": 2.0,
+          "when_in_range": 0.2,
+          "when_out_of_range": 0.8
+        }
+      }
+    }
+  }
+}

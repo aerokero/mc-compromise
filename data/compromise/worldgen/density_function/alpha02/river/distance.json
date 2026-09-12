@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:abs",
+    "input": "compromise:alpha02/field/river_raw"
+  }
+}

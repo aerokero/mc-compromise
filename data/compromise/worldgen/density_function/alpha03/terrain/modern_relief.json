@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:lerp",
+    "alpha": "compromise:alpha03/terrain/cherry_fuji_mask",
+    "first": "compromise:alpha03/terrain/modern_regular_relief",
+    "second": "compromise:alpha03/terrain/fuji_relief"
+  }
+}

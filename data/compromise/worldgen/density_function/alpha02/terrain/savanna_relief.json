@@ -1,0 +1,252 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:mul",
+    "left": {
+      "type": "minecraft:mul",
+      "left": {
+        "type": "minecraft:mul",
+        "left": {
+          "type": "minecraft:mul",
+          "left": {
+            "type": "minecraft:mul",
+            "left": {
+              "type": "minecraft:mul",
+              "left": 1.0,
+              "right": "compromise:alpha02/land/strength"
+            },
+            "right": {
+              "type": "minecraft:mul",
+              "left": {
+                "type": "minecraft:mul",
+                "left": {
+                  "type": "minecraft:clamp",
+                  "input": {
+                    "type": "minecraft:mul",
+                    "left": {
+                      "type": "minecraft:sub",
+                      "left": "compromise:alpha02/climate/temperature",
+                      "right": 0.47
+                    },
+                    "right": 33.33333333333331
+                  },
+                  "min": 0.0,
+                  "max": 1.0
+                },
+                "right": {
+                  "type": "minecraft:clamp",
+                  "input": {
+                    "type": "minecraft:mul",
+                    "left": {
+                      "type": "minecraft:sub",
+                      "left": "compromise:alpha02/climate/temperature",
+                      "right": 0.47
+                    },
+                    "right": 33.33333333333331
+                  },
+                  "min": 0.0,
+                  "max": 1.0
+                }
+              },
+              "right": {
+                "type": "minecraft:sub",
+                "left": 3.0,
+                "right": {
+                  "type": "minecraft:mul",
+                  "left": 2.0,
+                  "right": {
+                    "type": "minecraft:clamp",
+                    "input": {
+                      "type": "minecraft:mul",
+                      "left": {
+                        "type": "minecraft:sub",
+                        "left": "compromise:alpha02/climate/temperature",
+                        "right": 0.47
+                      },
+                      "right": 33.33333333333331
+                    },
+                    "min": 0.0,
+                    "max": 1.0
+                  }
+                }
+              }
+            }
+          },
+          "right": {
+            "type": "minecraft:mul",
+            "left": {
+              "type": "minecraft:mul",
+              "left": {
+                "type": "minecraft:clamp",
+                "input": {
+                  "type": "minecraft:mul",
+                  "left": {
+                    "type": "minecraft:sub",
+                    "left": "compromise:alpha02/climate/humidity",
+                    "right": -0.14
+                  },
+                  "right": 24.999999999999996
+                },
+                "min": 0.0,
+                "max": 1.0
+              },
+              "right": {
+                "type": "minecraft:clamp",
+                "input": {
+                  "type": "minecraft:mul",
+                  "left": {
+                    "type": "minecraft:sub",
+                    "left": "compromise:alpha02/climate/humidity",
+                    "right": -0.14
+                  },
+                  "right": 24.999999999999996
+                },
+                "min": 0.0,
+                "max": 1.0
+              }
+            },
+            "right": {
+              "type": "minecraft:sub",
+              "left": 3.0,
+              "right": {
+                "type": "minecraft:mul",
+                "left": 2.0,
+                "right": {
+                  "type": "minecraft:clamp",
+                  "input": {
+                    "type": "minecraft:mul",
+                    "left": {
+                      "type": "minecraft:sub",
+                      "left": "compromise:alpha02/climate/humidity",
+                      "right": -0.14
+                    },
+                    "right": 24.999999999999996
+                  },
+                  "min": 0.0,
+                  "max": 1.0
+                }
+              }
+            }
+          }
+        },
+        "right": {
+          "type": "minecraft:sub",
+          "left": 1.0,
+          "right": {
+            "type": "minecraft:mul",
+            "left": {
+              "type": "minecraft:mul",
+              "left": {
+                "type": "minecraft:clamp",
+                "input": {
+                  "type": "minecraft:mul",
+                  "left": {
+                    "type": "minecraft:sub",
+                    "left": "compromise:alpha02/climate/humidity",
+                    "right": 0.35
+                  },
+                  "right": 19.999999999999982
+                },
+                "min": 0.0,
+                "max": 1.0
+              },
+              "right": {
+                "type": "minecraft:clamp",
+                "input": {
+                  "type": "minecraft:mul",
+                  "left": {
+                    "type": "minecraft:sub",
+                    "left": "compromise:alpha02/climate/humidity",
+                    "right": 0.35
+                  },
+                  "right": 19.999999999999982
+                },
+                "min": 0.0,
+                "max": 1.0
+              }
+            },
+            "right": {
+              "type": "minecraft:sub",
+              "left": 3.0,
+              "right": {
+                "type": "minecraft:mul",
+                "left": 2.0,
+                "right": {
+                  "type": "minecraft:clamp",
+                  "input": {
+                    "type": "minecraft:mul",
+                    "left": {
+                      "type": "minecraft:sub",
+                      "left": "compromise:alpha02/climate/humidity",
+                      "right": 0.35
+                    },
+                    "right": 19.999999999999982
+                  },
+                  "min": 0.0,
+                  "max": 1.0
+                }
+              }
+            }
+          }
+        }
+      },
+      "right": {
+        "type": "minecraft:mul",
+        "left": {
+          "type": "minecraft:mul",
+          "left": {
+            "type": "minecraft:clamp",
+            "input": {
+              "type": "minecraft:mul",
+              "left": {
+                "type": "minecraft:sub",
+                "left": "compromise:alpha02/field/variant_raw",
+                "right": 0.45
+              },
+              "right": 6.666666666666668
+            },
+            "min": 0.0,
+            "max": 1.0
+          },
+          "right": {
+            "type": "minecraft:clamp",
+            "input": {
+              "type": "minecraft:mul",
+              "left": {
+                "type": "minecraft:sub",
+                "left": "compromise:alpha02/field/variant_raw",
+                "right": 0.45
+              },
+              "right": 6.666666666666668
+            },
+            "min": 0.0,
+            "max": 1.0
+          }
+        },
+        "right": {
+          "type": "minecraft:sub",
+          "left": 3.0,
+          "right": {
+            "type": "minecraft:mul",
+            "left": 2.0,
+            "right": {
+              "type": "minecraft:clamp",
+              "input": {
+                "type": "minecraft:mul",
+                "left": {
+                  "type": "minecraft:sub",
+                  "left": "compromise:alpha02/field/variant_raw",
+                  "right": 0.45
+                },
+                "right": 6.666666666666668
+              },
+              "min": 0.0,
+              "max": 1.0
+            }
+          }
+        }
+      }
+    },
+    "right": 18.0
+  }
+}

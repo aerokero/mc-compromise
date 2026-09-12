@@ -2,12 +2,12 @@
   "pack": {
     "pack_format": 96,
     "min_format": 34,
-    "max_format": 120,
+    "max_format": 121,
     "supported_formats": {
       "min_inclusive": 34,
-      "max_inclusive": 120
+      "max_inclusive": 121
     },
-    "description": "The classic and new look of Minecraft"
+    "description": "Compromise Worldgen alpha04 - EXPERIMENTAL - 26.3 pre2/pre3 - NEW worlds"
   },
   "filter": {
     "block": [
@@ -31,38 +31,47 @@
       {
         "formats": {
           "min_inclusive": 46,
-          "max_inclusive": 120
+          "max_inclusive": 121
         },
         "min_format": 46,
-        "max_format": 120,
+        "max_format": 121,
         "directory": "overlay_46"
       },
       {
         "formats": {
           "min_inclusive": 55,
-          "max_inclusive": 120
+          "max_inclusive": 121
         },
         "min_format": 55,
-        "max_format": 120,
+        "max_format": 121,
         "directory": "overlay_55"
       },
       {
         "formats": {
           "min_inclusive": 69,
-          "max_inclusive": 120
+          "max_inclusive": 121
         },
         "min_format": 69,
-        "max_format": 120,
+        "max_format": 121,
         "directory": "overlay_69"
       },
       {
         "formats": {
           "min_inclusive": 84,
-          "max_inclusive": 120
+          "max_inclusive": 121
         },
         "min_format": 84,
-        "max_format": 120,
+        "max_format": 121,
         "directory": "overlay_84"
+      },
+      {
+        "formats": {
+          "min_inclusive": 91,
+          "max_inclusive": 121
+        },
+        "min_format": 91,
+        "max_format": 121,
+        "directory": "overlay_91"
       }
     ]
   }

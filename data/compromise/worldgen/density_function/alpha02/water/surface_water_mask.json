@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:max",
+    "left": "compromise:alpha02/water/coastal_mask",
+    "right": "compromise:alpha02/water/channel_mask"
+  }
+}

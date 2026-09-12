@@ -1,0 +1,62 @@
+{
+  "type": "minecraft:add",
+  "left": {
+    "type": "minecraft:squeeze",
+    "input": {
+      "type": "minecraft:mul",
+      "left": 0.64,
+      "right": {
+        "type": "minecraft:interpolated",
+        "cell_size_xz": 4,
+        "cell_size_y": 8,
+        "input": {
+          "type": "minecraft:blend_density",
+          "input": {
+            "type": "minecraft:add",
+            "left": 0.1171875,
+            "right": {
+              "type": "minecraft:mul",
+              "left": {
+                "type": "minecraft:gradient",
+                "axis": "y",
+                "tiling": "clamp_to_edge",
+                "from_coordinate": -64,
+                "to_coordinate": -40,
+                "from_value": 0.0,
+                "to_value": 1.0
+              },
+              "right": {
+                "type": "minecraft:sub",
+                "left": {
+                  "type": "minecraft:add",
+                  "left": -0.078125,
+                  "right": {
+                    "type": "minecraft:mul",
+                    "left": {
+                      "type": "minecraft:gradient",
+                      "axis": "y",
+                      "tiling": "clamp_to_edge",
+                      "from_coordinate": 240,
+                      "to_coordinate": 256,
+                      "from_value": 1.0,
+                      "to_value": 0.0
+                    },
+                    "right": {
+                      "type": "minecraft:add",
+                      "left": 0.078125,
+                      "right": "compromise:alpha03/terrain/carved"
+                    }
+                  }
+                },
+                "right": 0.1171875
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "right": {
+    "type": "minecraft:beardifier"
+  }
+}

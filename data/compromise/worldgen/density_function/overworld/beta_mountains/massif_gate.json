@@ -8,7 +8,7 @@
       "left": {
         "type": "minecraft:noise",
         "noise": "compromise:beta_mountains/distribution",
-        "xz_scale": 160.0,
+        "xz_scale": 192.0,
         "y_scale": 0.0
       },
       "right": -0.42

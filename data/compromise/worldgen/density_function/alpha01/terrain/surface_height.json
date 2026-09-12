@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:min",
+    "left": "compromise:alpha01/terrain/height_before_river",
+    "right": "compromise:alpha01/river/ceiling"
+  }
+}

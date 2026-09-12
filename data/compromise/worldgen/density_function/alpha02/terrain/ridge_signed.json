@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:add",
+    "left": "compromise:alpha02/field/modern_ridge_raw",
+    "right": {
+      "type": "minecraft:mul",
+      "left": 0.075,
+      "right": "compromise:alpha02/field/ridge_bend_raw"
+    }
+  }
+}

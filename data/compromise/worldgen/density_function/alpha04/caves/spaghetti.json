@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:add",
+  "left": 0,
+  "right": {
+    "type": "minecraft:add",
+    "left": "minecraft:overworld/caves/spaghetti_2d",
+    "right": "minecraft:overworld/caves/spaghetti_roughness_function"
+  }
+}

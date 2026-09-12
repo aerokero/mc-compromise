@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:mul",
+  "left": {
+    "type": "minecraft:min",
+    "left": {
+      "type": "minecraft:sub",
+      "left": {
+        "type": "minecraft:add",
+        "left": "compromise:alpha03/terrain/surface_height",
+        "right": "compromise:alpha03/terrain/modern_detail"
+      },
+      "right": "minecraft:y"
+    },
+    "right": {
+      "type": "minecraft:sub",
+      "left": "compromise:alpha03/river/ceiling",
+      "right": "minecraft:y"
+    }
+  },
+  "right": 0.041666666666666664
+}

@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:mul",
+    "left": {
+      "type": "minecraft:mul",
+      "left": 1.0,
+      "right": "compromise:alpha01/terrain/beta_strength"
+    },
+    "right": {
+      "type": "minecraft:add",
+      "left": {
+        "type": "minecraft:add",
+        "left": {
+          "type": "minecraft:add",
+          "left": 0.0,
+          "right": 64.0
+        },
+        "right": {
+          "type": "minecraft:mul",
+          "left": 18.0,
+          "right": "compromise:alpha01/field/beta_roof_raw"
+        }
+      },
+      "right": {
+        "type": "minecraft:mul",
+        "left": 24.0,
+        "right": "compromise:alpha01/terrain/windswept_district"
+      }
+    }
+  }
+}

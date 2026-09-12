@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:range_choice",
+  "input": "compromise:alpha04/terrain/beta_active",
+  "min_inclusive": 0.5,
+  "max_exclusive": 1.5,
+  "when_in_range": {
+    "type": "minecraft:max",
+    "left": {
+      "type": "minecraft:min",
+      "left": {
+        "type": "minecraft:add",
+        "left": "compromise:alpha04/terrain/linear_density",
+        "right": "compromise:alpha04/terrain/beta_density_detail"
+      },
+      "right": "compromise:alpha04/terrain/beta_void"
+    },
+    "right": "compromise:alpha04/terrain/beta_floating_density"
+  },
+  "when_out_of_range": "compromise:alpha04/terrain/linear_density"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:clamp",
+    "input": {
+      "type": "minecraft:sub",
+      "left": {
+        "type": "minecraft:mul",
+        "left": 0.95,
+        "right": "compromise:alpha02/field/continent_raw"
+      },
+      "right": 0.04
+    },
+    "min": -0.85,
+    "max": 1.0
+  }
+}

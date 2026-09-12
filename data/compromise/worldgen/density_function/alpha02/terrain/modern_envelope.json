@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:mul",
+    "left": {
+      "type": "minecraft:square",
+      "input": {
+        "type": "minecraft:clamp",
+        "input": {
+          "type": "minecraft:mul",
+          "left": {
+            "type": "minecraft:sub",
+            "left": "compromise:alpha02/field/modern_area_raw",
+            "right": 0.23
+          },
+          "right": 3.4482758620689653
+        },
+        "min": 0.0,
+        "max": 1.0
+      }
+    },
+    "right": {
+      "type": "minecraft:sub",
+      "left": 3.0,
+      "right": {
+        "type": "minecraft:mul",
+        "left": 2.0,
+        "right": {
+          "type": "minecraft:clamp",
+          "input": {
+            "type": "minecraft:mul",
+            "left": {
+              "type": "minecraft:sub",
+              "left": "compromise:alpha02/field/modern_area_raw",
+              "right": 0.23
+            },
+            "right": 3.4482758620689653
+          },
+          "min": 0.0,
+          "max": 1.0
+        }
+      }
+    }
+  }
+}

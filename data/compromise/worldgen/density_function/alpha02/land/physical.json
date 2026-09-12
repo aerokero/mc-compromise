@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:max",
+    "left": "compromise:alpha02/land/main",
+    "right": {
+      "type": "minecraft:add",
+      "left": -1.1,
+      "right": {
+        "type": "minecraft:mul",
+        "left": 1.8,
+        "right": "compromise:alpha02/land/island_strength"
+      }
+    }
+  }
+}

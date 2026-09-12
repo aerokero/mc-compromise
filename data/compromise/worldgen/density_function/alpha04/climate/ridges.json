@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:range_choice",
+    "input": "compromise:alpha04/river/distance",
+    "min_inclusive": 0.0,
+    "max_exclusive": 0.026,
+    "when_in_range": 0.0,
+    "when_out_of_range": {
+      "type": "minecraft:mul",
+      "left": {
+        "type": "minecraft:range_choice",
+        "input": "compromise:alpha04/field/variant_raw",
+        "min_inclusive": 0.0,
+        "max_exclusive": 2.0,
+        "when_in_range": 1.0,
+        "when_out_of_range": -1.0
+      },
+      "right": {
+        "type": "minecraft:add",
+        "left": 0.12,
+        "right": {
+          "type": "minecraft:mul",
+          "left": 0.88,
+          "right": {
+            "type": "minecraft:abs",
+            "input": "compromise:alpha04/field/variant_raw"
+          }
+        }
+      }
+    }
+  }
+}

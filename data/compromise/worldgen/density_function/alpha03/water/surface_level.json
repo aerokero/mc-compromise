@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:ceil",
+    "input": {
+      "type": "minecraft:add",
+      "left": "compromise:alpha03/terrain/surface_height",
+      "right": 4.0
+    },
+    "multiple": 1.0
+  }
+}
