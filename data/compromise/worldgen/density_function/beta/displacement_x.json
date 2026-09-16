@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:mul",
+    "left": {
+      "type": "minecraft:mul",
+      "left": {
+        "type": "minecraft:mul",
+        "left": 92,
+        "right": "compromise:beta/displacement_activity"
+      },
+      "right": "compromise:beta/displacement_vertical"
+    },
+    "right": "compromise:beta/displacement_x_raw"
+  }
+}

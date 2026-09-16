@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:slice",
+    "axis": "y",
+    "coordinate": 0,
+    "input": {
+      "type": "minecraft:clamp",
+      "min": 0,
+      "max": 1,
+      "input": {
+        "type": "minecraft:mul",
+        "left": "compromise:beta/family_bleed",
+        "right": {
+          "type": "minecraft:add",
+          "left": {
+            "type": "minecraft:mul",
+            "left": 0.8,
+            "right": "compromise:beta/erosion_mountain"
+          },
+          "right": {
+            "type": "minecraft:mul",
+            "left": 0.2,
+            "right": "compromise:beta/weirdness_mountain"
+          }
+        }
+      }
+    }
+  }
+}

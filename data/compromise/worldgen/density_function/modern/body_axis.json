@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:slice",
+    "axis": "y",
+    "coordinate": 0,
+    "input": {
+      "type": "minecraft:clamp",
+      "input": {
+        "type": "minecraft:add",
+        "left": 0.5,
+        "right": {
+          "type": "minecraft:mul",
+          "left": 0.5,
+          "right": "compromise:field/modern_body_raw"
+        }
+      },
+      "min": 0,
+      "max": 1
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:slice",
+    "axis": "y",
+    "coordinate": 0,
+    "input": {
+      "type": "minecraft:add",
+      "left": "compromise:island/parent_orientation_x",
+      "right": 0.071
+    }
+  }
+}

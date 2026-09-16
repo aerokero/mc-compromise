@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:slice",
+    "axis": "y",
+    "coordinate": 0,
+    "input": {
+      "type": "minecraft:clamp",
+      "input": {
+        "type": "minecraft:mul",
+        "left": {
+          "type": "minecraft:max",
+          "left": "compromise:modern/peak_a",
+          "right": {
+            "type": "minecraft:max",
+            "left": {
+              "type": "minecraft:mul",
+              "left": 0.82,
+              "right": "compromise:modern/peak_b"
+            },
+            "right": {
+              "type": "minecraft:mul",
+              "left": 0.68,
+              "right": "compromise:modern/peak_c"
+            }
+          }
+        },
+        "right": {
+          "type": "minecraft:add",
+          "left": 0.74,
+          "right": {
+            "type": "minecraft:mul",
+            "left": 0.26,
+            "right": "compromise:modern/body_axis"
+          }
+        }
+      },
+      "min": 0,
+      "max": 1
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:mul",
+    "left": "compromise:profile/badlands",
+    "right": {
+      "type": "minecraft:spline",
+      "spline": {
+        "coordinate": "compromise:climate/humidity",
+        "points": [
+          {
+            "location": -1,
+            "value": 0,
+            "derivative": 0
+          },
+          {
+            "location": -0.38,
+            "value": 0,
+            "derivative": 0
+          },
+          {
+            "location": -0.33,
+            "value": 0.65,
+            "derivative": 8
+          },
+          {
+            "location": -0.29,
+            "value": 1,
+            "derivative": 0
+          },
+          {
+            "location": -0.14,
+            "value": 1,
+            "derivative": 0
+          },
+          {
+            "location": -0.09,
+            "value": 0.45,
+            "derivative": -7
+          },
+          {
+            "location": -0.04,
+            "value": 0,
+            "derivative": 0
+          },
+          {
+            "location": 1,
+            "value": 0,
+            "derivative": 0
+          }
+        ]
+      }
+    }
+  }
+}

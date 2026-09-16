@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:noise",
+    "noise": "compromise:alpha11/geology/andesite/a",
+    "xz_scale": 0.56,
+    "y_scale": 0.22
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:floor",
+    "input": {
+      "type": "minecraft:min",
+      "left": {
+        "type": "minecraft:sub",
+        "left": "compromise:terrain/surface_height",
+        "right": 3
+      },
+      "right": {
+        "type": "minecraft:max",
+        "left": {
+          "type": "minecraft:sub",
+          "left": "compromise:terrain/base_height",
+          "right": 8
+        },
+        "right": {
+          "type": "minecraft:sub",
+          "left": "compromise:terrain/surface_height",
+          "right": {
+            "type": "minecraft:add",
+            "left": 6,
+            "right": {
+              "type": "minecraft:min",
+              "left": 22,
+              "right": {
+                "type": "minecraft:mul",
+                "left": 0.35,
+                "right": "compromise:terrain/beta_relief"
+              }
+            }
+          }
+        }
+      }
+    },
+    "multiple": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:range_choice",
+    "input": "minecraft:y",
+    "min_inclusive": 4,
+    "max_exclusive": 288,
+    "when_in_range": {
+      "type": "minecraft:range_choice",
+      "input": "compromise:geology/diorite/tube",
+      "min_inclusive": -1000000,
+      "max_exclusive": 0,
+      "when_in_range": 1,
+      "when_out_of_range": 0
+    },
+    "when_out_of_range": 0
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:slice",
+    "axis": "y",
+    "coordinate": 0,
+    "input": {
+      "type": "minecraft:sub",
+      "left": "compromise:island/group_z",
+      "right": {
+        "type": "minecraft:add",
+        "left": {
+          "type": "minecraft:mul",
+          "left": "compromise:island/sin",
+          "right": 220
+        },
+        "right": {
+          "type": "minecraft:mul",
+          "left": "compromise:island/cos",
+          "right": 45
+        }
+      }
+    }
+  }
+}

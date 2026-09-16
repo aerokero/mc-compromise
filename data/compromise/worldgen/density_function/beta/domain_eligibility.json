@@ -1,0 +1,102 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:slice",
+    "axis": "y",
+    "coordinate": 0,
+    "input": {
+      "type": "minecraft:mul",
+      "left": {
+        "type": "minecraft:mul",
+        "left": {
+          "type": "minecraft:mul",
+          "left": {
+            "type": "minecraft:mul",
+            "left": {
+              "type": "minecraft:mul",
+              "left": "compromise:land/strength",
+              "right": {
+                "type": "minecraft:sub",
+                "left": 1,
+                "right": "compromise:profile/dark_guard"
+              }
+            },
+            "right": {
+              "type": "minecraft:sub",
+              "left": 1,
+              "right": "compromise:profile/badlands"
+            }
+          },
+          "right": {
+            "type": "minecraft:sub",
+            "left": 1,
+            "right": "compromise:profile/swamp"
+          }
+        },
+        "right": {
+          "type": "minecraft:sub",
+          "left": 1,
+          "right": "compromise:land/island_ocean_mask"
+        }
+      },
+      "right": {
+        "type": "minecraft:max",
+        "left": {
+          "type": "minecraft:max",
+          "left": "compromise:profile/forest_allowed",
+          "right": "compromise:terrain/windswept_district"
+        },
+        "right": {
+          "type": "minecraft:mul",
+          "left": {
+            "type": "minecraft:mul",
+            "left": 0.35,
+            "right": "compromise:profile/desert"
+          },
+          "right": {
+            "type": "minecraft:mul",
+            "left": {
+              "type": "minecraft:square",
+              "input": {
+                "type": "minecraft:clamp",
+                "input": {
+                  "type": "minecraft:mul",
+                  "left": {
+                    "type": "minecraft:sub",
+                    "left": "compromise:field/beta_massif_raw",
+                    "right": 0.69
+                  },
+                  "right": 12.49999999999999
+                },
+                "min": 0,
+                "max": 1
+              }
+            },
+            "right": {
+              "type": "minecraft:sub",
+              "left": 3,
+              "right": {
+                "type": "minecraft:mul",
+                "left": 2,
+                "right": {
+                  "type": "minecraft:clamp",
+                  "input": {
+                    "type": "minecraft:mul",
+                    "left": {
+                      "type": "minecraft:sub",
+                      "left": "compromise:field/beta_massif_raw",
+                      "right": 0.69
+                    },
+                    "right": 12.49999999999999
+                  },
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

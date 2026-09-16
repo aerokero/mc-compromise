@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:slice",
+    "axis": "y",
+    "coordinate": 0,
+    "input": {
+      "type": "minecraft:clamp",
+      "input": {
+        "type": "minecraft:mul",
+        "left": {
+          "type": "minecraft:mul",
+          "left": {
+            "type": "minecraft:max",
+            "left": "compromise:beta/full_amplitude",
+            "right": "compromise:beta/mid_amplitude"
+          },
+          "right": "compromise:beta/valley_soft_gate"
+        },
+        "right": "compromise:beta/taiga_relief_damper"
+      },
+      "min": 0,
+      "max": 1
+    }
+  }
+}

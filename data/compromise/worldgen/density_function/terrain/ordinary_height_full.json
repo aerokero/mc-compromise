@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:min",
+    "left": {
+      "type": "minecraft:add",
+      "left": {
+        "type": "minecraft:add",
+        "left": {
+          "type": "minecraft:add",
+          "left": {
+            "type": "minecraft:add",
+            "left": {
+              "type": "minecraft:add",
+              "left": "compromise:land/coastal_height",
+              "right": "compromise:terrain/terrace_offset"
+            },
+            "right": "compromise:terrain/upland_height"
+          },
+          "right": "compromise:terrain/coastal_cliff_relief"
+        },
+        "right": {
+          "type": "minecraft:mul",
+          "left": "compromise:terrain/hill_amplitude",
+          "right": "compromise:field/low_hills_raw"
+        }
+      },
+      "right": "compromise:terrain/rough_height"
+    },
+    "right": {
+      "type": "minecraft:add",
+      "left": 103,
+      "right": {
+        "type": "minecraft:add",
+        "left": {
+          "type": "minecraft:mul",
+          "left": 3.5,
+          "right": "compromise:field/low_hills_raw"
+        },
+        "right": {
+          "type": "minecraft:mul",
+          "left": 2,
+          "right": "compromise:field/terrain_rough_raw"
+        }
+      }
+    }
+  }
+}

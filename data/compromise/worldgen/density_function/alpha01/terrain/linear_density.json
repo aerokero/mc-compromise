@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:mul",
-  "left": {
-    "type": "minecraft:sub",
-    "left": "compromise:alpha01/terrain/surface_height",
-    "right": "minecraft:y"
-  },
-  "right": 0.041666666666666664
-}

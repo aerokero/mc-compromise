@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:slice",
+    "axis": "y",
+    "coordinate": 0,
+    "input": {
+      "type": "minecraft:cache",
+      "input": {
+        "type": "minecraft:mul",
+        "left": "compromise:mainland/coast_zone",
+        "right": {
+          "type": "minecraft:add",
+          "left": {
+            "type": "minecraft:mul",
+            "left": 2.5,
+            "right": "compromise:field/coast_fine_raw"
+          },
+          "right": {
+            "type": "minecraft:mul",
+            "left": 1.6,
+            "right": "compromise:field/coast_macro_raw"
+          }
+        }
+      }
+    }
+  }
+}

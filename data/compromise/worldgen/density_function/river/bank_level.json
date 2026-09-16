@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:slice",
+    "axis": "y",
+    "coordinate": 0,
+    "input": {
+      "type": "minecraft:add",
+      "left": 65.5,
+      "right": {
+        "type": "minecraft:add",
+        "left": {
+          "type": "minecraft:mul",
+          "left": 1.6,
+          "right": "compromise:field/river_bank_raw"
+        },
+        "right": {
+          "type": "minecraft:mul",
+          "left": 0.8,
+          "right": "compromise:field/river_meander_raw"
+        }
+      }
+    }
+  }
+}

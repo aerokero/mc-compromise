@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:add",
+  "left": "compromise:caves/river_protection",
+  "right": "minecraft:overworld/caves/noodle"
+}

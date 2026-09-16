@@ -1,0 +1,161 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:slice",
+    "axis": "y",
+    "coordinate": 0,
+    "input": {
+      "type": "minecraft:add",
+      "left": {
+        "type": "minecraft:add",
+        "left": 1,
+        "right": {
+          "type": "minecraft:mul",
+          "left": 0.15,
+          "right": {
+            "type": "minecraft:clamp",
+            "input": {
+              "type": "minecraft:noise",
+              "noise": "compromise:alpha10/island/shore_shape",
+              "xz_scale": 1,
+              "y_scale": 0,
+              "shift_x": {
+                "type": "minecraft:sub",
+                "left": {
+                  "type": "minecraft:mul",
+                  "left": {
+                    "type": "minecraft:mul",
+                    "left": 0.76,
+                    "right": {
+                      "type": "minecraft:add",
+                      "left": 130,
+                      "right": {
+                        "type": "minecraft:mul",
+                        "left": 32,
+                        "right": "compromise:island/parent_radius_second"
+                      }
+                    }
+                  },
+                  "right": {
+                    "type": "minecraft:div",
+                    "left": "compromise:island/secondary/dx",
+                    "right": {
+                      "type": "minecraft:max",
+                      "left": 1,
+                      "right": "compromise:island/secondary/radial"
+                    }
+                  }
+                },
+                "right": "compromise:island/secondary/dx"
+              },
+              "shift_z": {
+                "type": "minecraft:sub",
+                "left": {
+                  "type": "minecraft:mul",
+                  "left": {
+                    "type": "minecraft:mul",
+                    "left": 0.76,
+                    "right": {
+                      "type": "minecraft:add",
+                      "left": 130,
+                      "right": {
+                        "type": "minecraft:mul",
+                        "left": 32,
+                        "right": "compromise:island/parent_radius_second"
+                      }
+                    }
+                  },
+                  "right": {
+                    "type": "minecraft:div",
+                    "left": "compromise:island/secondary/dz",
+                    "right": {
+                      "type": "minecraft:max",
+                      "left": 1,
+                      "right": "compromise:island/secondary/radial"
+                    }
+                  }
+                },
+                "right": "compromise:island/secondary/dz"
+              }
+            },
+            "min": -1,
+            "max": 1
+          }
+        }
+      },
+      "right": {
+        "type": "minecraft:mul",
+        "left": 0.035,
+        "right": {
+          "type": "minecraft:clamp",
+          "input": {
+            "type": "minecraft:noise",
+            "noise": "compromise:alpha10/island/shore_detail",
+            "xz_scale": 1,
+            "y_scale": 0,
+            "shift_x": {
+              "type": "minecraft:sub",
+              "left": {
+                "type": "minecraft:mul",
+                "left": {
+                  "type": "minecraft:mul",
+                  "left": 0.76,
+                  "right": {
+                    "type": "minecraft:add",
+                    "left": 130,
+                    "right": {
+                      "type": "minecraft:mul",
+                      "left": 32,
+                      "right": "compromise:island/parent_radius_second"
+                    }
+                  }
+                },
+                "right": {
+                  "type": "minecraft:div",
+                  "left": "compromise:island/secondary/dx",
+                  "right": {
+                    "type": "minecraft:max",
+                    "left": 1,
+                    "right": "compromise:island/secondary/radial"
+                  }
+                }
+              },
+              "right": "compromise:island/secondary/dx"
+            },
+            "shift_z": {
+              "type": "minecraft:sub",
+              "left": {
+                "type": "minecraft:mul",
+                "left": {
+                  "type": "minecraft:mul",
+                  "left": 0.76,
+                  "right": {
+                    "type": "minecraft:add",
+                    "left": 130,
+                    "right": {
+                      "type": "minecraft:mul",
+                      "left": 32,
+                      "right": "compromise:island/parent_radius_second"
+                    }
+                  }
+                },
+                "right": {
+                  "type": "minecraft:div",
+                  "left": "compromise:island/secondary/dz",
+                  "right": {
+                    "type": "minecraft:max",
+                    "left": 1,
+                    "right": "compromise:island/secondary/radial"
+                  }
+                }
+              },
+              "right": "compromise:island/secondary/dz"
+            }
+          },
+          "min": -1,
+          "max": 1
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:mul",
+    "left": {
+      "type": "minecraft:mul",
+      "left": {
+        "type": "minecraft:mul",
+        "left": {
+          "type": "minecraft:mul",
+          "left": {
+            "type": "minecraft:mul",
+            "left": "compromise:land/strength",
+            "right": {
+              "type": "minecraft:sub",
+              "left": 1,
+              "right": {
+                "type": "minecraft:mul",
+                "left": 0.38,
+                "right": "compromise:profile/dark_guard"
+              }
+            }
+          },
+          "right": {
+            "type": "minecraft:sub",
+            "left": 1,
+            "right": "compromise:profile/swamp"
+          }
+        },
+        "right": {
+          "type": "minecraft:sub",
+          "left": 1,
+          "right": "compromise:profile/badlands"
+        }
+      },
+      "right": {
+        "type": "minecraft:sub",
+        "left": 1,
+        "right": {
+          "type": "minecraft:mul",
+          "left": 0.72,
+          "right": "compromise:profile/desert"
+        }
+      }
+    },
+    "right": {
+      "type": "minecraft:add",
+      "left": 3.8,
+      "right": {
+        "type": "minecraft:mul",
+        "left": 7.2,
+        "right": "compromise:terrain/rolling_strength"
+      }
+    }
+  }
+}

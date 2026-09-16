@@ -54,16 +54,17 @@
     ],
     [
       "minecraft:glow_lichen",
-      "minecraft:forest_flowers",
+      "compromise:white_birch_flowers",
       "minecraft:trees_birch_and_oak_leaf_litter",
       "minecraft:patch_bush",
-      "minecraft:flower_default",
       "compromise:patch_grass_filtered",
+      "compromise:wildflowers_birch_very_rare",
+      "compromise:patch_tall_grass_birch_rare",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
+      "minecraft:patch_leaf_litter",
       "minecraft:patch_pumpkin",
       "minecraft:patch_sugar_cane",
-      "minecraft:patch_firefly_bush_near_water",
       "minecraft:seagrass_normal"
     ],
     [
@@ -90,7 +91,7 @@
         "offset": 2
       }
     },
-    "minecraft:visual/sky_color": 8037887,
+    "minecraft:visual/sky_color": 6733055,
     "minecraft:visual/fog_color": 12638463,
     "minecraft:visual/water_fog_color": 329011,
     "minecraft:gameplay/natural_mob_spawns": {

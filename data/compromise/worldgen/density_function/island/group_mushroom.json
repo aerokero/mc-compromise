@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:slice",
+    "axis": "y",
+    "coordinate": 0,
+    "input": {
+      "type": "minecraft:mul",
+      "left": "compromise:island/group_enabled",
+      "right": {
+        "type": "minecraft:range_choice",
+        "input": "compromise:island/group_mushroom_raw",
+        "min_inclusive": 0.58,
+        "max_exclusive": 1000000,
+        "when_in_range": 1,
+        "when_out_of_range": 0
+      }
+    }
+  }
+}

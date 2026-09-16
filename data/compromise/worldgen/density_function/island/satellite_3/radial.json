@@ -1,0 +1,54 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:slice",
+    "axis": "y",
+    "coordinate": 0,
+    "input": {
+      "type": "minecraft:sqrt",
+      "input": {
+        "type": "minecraft:add",
+        "left": {
+          "type": "minecraft:square",
+          "input": {
+            "type": "minecraft:div",
+            "left": {
+              "type": "minecraft:add",
+              "left": {
+                "type": "minecraft:mul",
+                "left": "compromise:island/cos",
+                "right": "compromise:island/satellite_3/dx"
+              },
+              "right": {
+                "type": "minecraft:mul",
+                "left": "compromise:island/sin",
+                "right": "compromise:island/satellite_3/dz"
+              }
+            },
+            "right": "compromise:island/aspect"
+          }
+        },
+        "right": {
+          "type": "minecraft:square",
+          "input": {
+            "type": "minecraft:mul",
+            "left": {
+              "type": "minecraft:sub",
+              "left": {
+                "type": "minecraft:mul",
+                "left": "compromise:island/cos",
+                "right": "compromise:island/satellite_3/dz"
+              },
+              "right": {
+                "type": "minecraft:mul",
+                "left": "compromise:island/sin",
+                "right": "compromise:island/satellite_3/dx"
+              }
+            },
+            "right": "compromise:island/aspect"
+          }
+        }
+      }
+    }
+  }
+}

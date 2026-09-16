@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:clamp",
+    "input": {
+      "type": "minecraft:mul",
+      "left": 1.5,
+      "right": "compromise:field/humidity_raw"
+    },
+    "min": -1,
+    "max": 1
+  }
+}

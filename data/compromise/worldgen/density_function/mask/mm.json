@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:slice",
+    "axis": "y",
+    "coordinate": 0,
+    "input": {
+      "type": "minecraft:clamp",
+      "input": "compromise:terrain/modern_strength",
+      "min": 0,
+      "max": 1
+    }
+  }
+}

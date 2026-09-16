@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:slice",
+    "axis": "y",
+    "coordinate": 0,
+    "input": {
+      "type": "minecraft:min",
+      "left": "compromise:ice/seed_0/distance_squared",
+      "right": "compromise:ice/seed_1/distance_squared"
+    }
+  }
+}

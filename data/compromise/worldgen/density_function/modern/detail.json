@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:range_choice",
+  "input": "compromise:modern/range_presence",
+  "min_inclusive": 0.035,
+  "max_exclusive": 1.1,
+  "when_in_range": {
+    "type": "minecraft:mul",
+    "left": {
+      "type": "minecraft:mul",
+      "left": {
+        "type": "minecraft:mul",
+        "left": "compromise:modern/range_presence",
+        "right": "compromise:modern/shoulder_profile"
+      },
+      "right": {
+        "type": "minecraft:add",
+        "left": 0.45,
+        "right": {
+          "type": "minecraft:mul",
+          "left": 0.55,
+          "right": "compromise:modern/summit_foundation"
+        }
+      }
+    },
+    "right": {
+      "type": "minecraft:mul",
+      "left": 3.6,
+      "right": "compromise:mountain/rock_3d"
+    }
+  },
+  "when_out_of_range": 0
+}

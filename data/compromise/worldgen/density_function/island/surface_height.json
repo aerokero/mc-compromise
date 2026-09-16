@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:slice",
+    "axis": "y",
+    "coordinate": 0,
+    "input": {
+      "type": "minecraft:range_choice",
+      "input": "compromise:island/group_mushroom",
+      "min_inclusive": 0.5,
+      "max_exclusive": 1.5,
+      "when_in_range": "compromise:island/primary/height",
+      "when_out_of_range": {
+        "type": "minecraft:max",
+        "left": {
+          "type": "minecraft:max",
+          "left": {
+            "type": "minecraft:max",
+            "left": {
+              "type": "minecraft:max",
+              "left": {
+                "type": "minecraft:max",
+                "left": "compromise:island/primary/height",
+                "right": "compromise:island/secondary/height"
+              },
+              "right": "compromise:island/satellite_0/height"
+            },
+            "right": "compromise:island/satellite_1/height"
+          },
+          "right": "compromise:island/satellite_2/height"
+        },
+        "right": "compromise:island/satellite_3/height"
+      }
+    }
+  }
+}

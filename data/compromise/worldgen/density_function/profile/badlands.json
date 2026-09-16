@@ -1,0 +1,72 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:mul",
+    "left": {
+      "type": "minecraft:spline",
+      "spline": {
+        "coordinate": "compromise:climate/temperature",
+        "points": [
+          {
+            "location": -1,
+            "value": 0,
+            "derivative": 0
+          },
+          {
+            "location": 0.44,
+            "value": 0,
+            "derivative": 0
+          },
+          {
+            "location": 0.51,
+            "value": 1,
+            "derivative": 0
+          },
+          {
+            "location": 1,
+            "value": 1,
+            "derivative": 0
+          }
+        ]
+      }
+    },
+    "right": {
+      "type": "minecraft:spline",
+      "spline": {
+        "coordinate": "compromise:climate/humidity",
+        "points": [
+          {
+            "location": -1,
+            "value": 0,
+            "derivative": 0
+          },
+          {
+            "location": -0.38,
+            "value": 0,
+            "derivative": 0
+          },
+          {
+            "location": -0.33,
+            "value": 1,
+            "derivative": 0
+          },
+          {
+            "location": -0.1,
+            "value": 1,
+            "derivative": 0
+          },
+          {
+            "location": -0.04,
+            "value": 0,
+            "derivative": 0
+          },
+          {
+            "location": 1,
+            "value": 0,
+            "derivative": 0
+          }
+        ]
+      }
+    }
+  }
+}

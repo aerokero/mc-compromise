@@ -1,1 +1,0 @@
-tellraw @s {"text":"Compromise WG alpha03: varied base terrain, deeper coasts, wider rivers, rarer/wider modern ranges, forest hierarchy, Fuji-style Cherry profile. NEW worlds only. Debug a03_*.","color":"aqua"}

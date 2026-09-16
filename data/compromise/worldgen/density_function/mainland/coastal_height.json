@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:slice",
+    "axis": "y",
+    "coordinate": 0,
+    "input": {
+      "type": "minecraft:cache",
+      "input": {
+        "type": "minecraft:add",
+        "left": {
+          "type": "minecraft:add",
+          "left": {
+            "type": "minecraft:lerp",
+            "alpha": "compromise:mainland/bay_mask",
+            "first": "compromise:mainland/coastal_height_steep",
+            "second": "compromise:mainland/coastal_height_gentle"
+          },
+          "right": "compromise:mainland/coast_relief"
+        },
+        "right": "compromise:mainland/ocean_basin_relief"
+      }
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:mul",
+    "left": {
+      "type": "minecraft:mul",
+      "left": {
+        "type": "minecraft:mul",
+        "left": {
+          "type": "minecraft:spline",
+          "spline": {
+            "coordinate": "compromise:climate/temperature",
+            "points": [
+              {
+                "location": -1,
+                "value": 1,
+                "derivative": 0
+              },
+              {
+                "location": 0.4,
+                "value": 1,
+                "derivative": -0.016000000000000014
+              },
+              {
+                "location": 0.5,
+                "value": 0.94,
+                "derivative": -0.5454545454545456
+              },
+              {
+                "location": 0.62,
+                "value": 0.7,
+                "derivative": -0.9333333333333332
+              },
+              {
+                "location": 0.74,
+                "value": 0.38,
+                "derivative": -1
+              },
+              {
+                "location": 0.86,
+                "value": 0.1,
+                "derivative": -0.5846153846153846
+              },
+              {
+                "location": 1,
+                "value": 0,
+                "derivative": -0.28571428571428575
+              }
+            ]
+          }
+        },
+        "right": {
+          "type": "minecraft:mul",
+          "left": {
+            "type": "minecraft:square",
+            "input": {
+              "type": "minecraft:clamp",
+              "input": {
+                "type": "minecraft:mul",
+                "left": {
+                  "type": "minecraft:sub",
+                  "left": "compromise:climate/humidity",
+                  "right": -0.16
+                },
+                "right": 5.2631578947368425
+              },
+              "min": 0,
+              "max": 1
+            }
+          },
+          "right": {
+            "type": "minecraft:sub",
+            "left": 3,
+            "right": {
+              "type": "minecraft:mul",
+              "left": 2,
+              "right": {
+                "type": "minecraft:clamp",
+                "input": {
+                  "type": "minecraft:mul",
+                  "left": {
+                    "type": "minecraft:sub",
+                    "left": "compromise:climate/humidity",
+                    "right": -0.16
+                  },
+                  "right": 5.2631578947368425
+                },
+                "min": 0,
+                "max": 1
+              }
+            }
+          }
+        }
+      },
+      "right": {
+        "type": "minecraft:sub",
+        "left": 1,
+        "right": "compromise:profile/dark_guard"
+      }
+    },
+    "right": {
+      "type": "minecraft:sub",
+      "left": 1,
+      "right": "compromise:profile/swamp"
+    }
+  }
+}

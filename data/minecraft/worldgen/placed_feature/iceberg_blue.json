@@ -1,0 +1,9 @@
+{
+  "feature": "minecraft:iceberg_blue",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 0
+    }
+  ]
+}

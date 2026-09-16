@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:slice",
+    "axis": "y",
+    "coordinate": 0,
+    "input": {
+      "type": "minecraft:cache",
+      "input": {
+        "type": "minecraft:mul",
+        "left": "compromise:mainland/ocean_weight",
+        "right": {
+          "type": "minecraft:add",
+          "left": -4,
+          "right": {
+            "type": "minecraft:mul",
+            "left": 6,
+            "right": "compromise:field/ocean_basin_raw"
+          }
+        }
+      }
+    }
+  }
+}

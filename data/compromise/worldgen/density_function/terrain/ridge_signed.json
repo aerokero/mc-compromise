@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:add",
+    "left": {
+      "type": "minecraft:add",
+      "left": "compromise:field/modern_ridge_raw",
+      "right": {
+        "type": "minecraft:mul",
+        "left": 0.16,
+        "right": "compromise:field/ridge_bend_raw"
+      }
+    },
+    "right": {
+      "type": "minecraft:mul",
+      "left": 0.11,
+      "right": "compromise:field/modern_body_raw"
+    }
+  }
+}

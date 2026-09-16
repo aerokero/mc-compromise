@@ -1,0 +1,199 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:slice",
+    "axis": "y",
+    "coordinate": 0,
+    "input": {
+      "type": "minecraft:clamp",
+      "input": {
+        "type": "minecraft:mul",
+        "left": {
+          "type": "minecraft:mul",
+          "left": {
+            "type": "minecraft:mul",
+            "left": "compromise:mask/land_guard",
+            "right": {
+              "type": "minecraft:sub",
+              "left": 1,
+              "right": "compromise:mask/mm"
+            }
+          },
+          "right": {
+            "type": "minecraft:sub",
+            "left": 1,
+            "right": "compromise:mask/bl"
+          }
+        },
+        "right": {
+          "type": "minecraft:max",
+          "left": "compromise:profile/swamp",
+          "right": {
+            "type": "minecraft:max",
+            "left": {
+              "type": "minecraft:spline",
+              "spline": {
+                "coordinate": "compromise:climate/humidity",
+                "points": [
+                  {
+                    "location": -1,
+                    "value": 1,
+                    "derivative": 0
+                  },
+                  {
+                    "location": -0.52,
+                    "value": 1,
+                    "derivative": 0
+                  },
+                  {
+                    "location": -0.42,
+                    "value": 0,
+                    "derivative": 0
+                  },
+                  {
+                    "location": 1,
+                    "value": 0,
+                    "derivative": 0
+                  }
+                ]
+              }
+            },
+            "right": {
+              "type": "minecraft:max",
+              "left": {
+                "type": "minecraft:mul",
+                "left": {
+                  "type": "minecraft:spline",
+                  "spline": {
+                    "coordinate": "compromise:climate/temperature",
+                    "points": [
+                      {
+                        "location": -1,
+                        "value": 1,
+                        "derivative": 0
+                      },
+                      {
+                        "location": -0.52,
+                        "value": 1,
+                        "derivative": 0
+                      },
+                      {
+                        "location": -0.44,
+                        "value": 0,
+                        "derivative": 0
+                      },
+                      {
+                        "location": 1,
+                        "value": 0,
+                        "derivative": 0
+                      }
+                    ]
+                  }
+                },
+                "right": {
+                  "type": "minecraft:spline",
+                  "spline": {
+                    "coordinate": "compromise:climate/humidity",
+                    "points": [
+                      {
+                        "location": -1,
+                        "value": 1,
+                        "derivative": 0
+                      },
+                      {
+                        "location": -0.12,
+                        "value": 1,
+                        "derivative": 0
+                      },
+                      {
+                        "location": -0.04,
+                        "value": 0,
+                        "derivative": 0
+                      },
+                      {
+                        "location": 1,
+                        "value": 0,
+                        "derivative": 0
+                      }
+                    ]
+                  }
+                }
+              },
+              "right": {
+                "type": "minecraft:mul",
+                "left": {
+                  "type": "minecraft:spline",
+                  "spline": {
+                    "coordinate": "compromise:climate/temperature",
+                    "points": [
+                      {
+                        "location": -1,
+                        "value": 0,
+                        "derivative": 0
+                      },
+                      {
+                        "location": 0.46,
+                        "value": 0,
+                        "derivative": 0
+                      },
+                      {
+                        "location": 0.54,
+                        "value": 1,
+                        "derivative": 0
+                      },
+                      {
+                        "location": 1,
+                        "value": 1,
+                        "derivative": 0
+                      }
+                    ]
+                  }
+                },
+                "right": {
+                  "type": "minecraft:spline",
+                  "spline": {
+                    "coordinate": "compromise:climate/humidity",
+                    "points": [
+                      {
+                        "location": -1,
+                        "value": 0,
+                        "derivative": 0
+                      },
+                      {
+                        "location": -0.54,
+                        "value": 0,
+                        "derivative": 0
+                      },
+                      {
+                        "location": -0.46,
+                        "value": 1,
+                        "derivative": 0
+                      },
+                      {
+                        "location": 0.3,
+                        "value": 1,
+                        "derivative": 0
+                      },
+                      {
+                        "location": 0.38,
+                        "value": 0,
+                        "derivative": 0
+                      },
+                      {
+                        "location": 1,
+                        "value": 0,
+                        "derivative": 0
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "min": 0,
+      "max": 1
+    }
+  }
+}

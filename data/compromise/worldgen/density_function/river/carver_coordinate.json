@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:slice",
+    "axis": "y",
+    "coordinate": 0,
+    "input": {
+      "type": "minecraft:clamp",
+      "min": -1.25,
+      "max": 1.25,
+      "input": {
+        "type": "minecraft:add",
+        "left": "compromise:river/normalized_path",
+        "right": {
+          "type": "minecraft:add",
+          "left": {
+            "type": "minecraft:mul",
+            "left": 0.028,
+            "right": "compromise:field/river_bank_raw"
+          },
+          "right": {
+            "type": "minecraft:add",
+            "left": {
+              "type": "minecraft:mul",
+              "left": 0.015,
+              "right": {
+                "type": "minecraft:mul",
+                "left": {
+                  "type": "minecraft:sign",
+                  "input": "compromise:river/normalized_path"
+                },
+                "right": "compromise:field/river_width_raw"
+              }
+            },
+            "right": {
+              "type": "minecraft:mul",
+              "left": 0.012,
+              "right": {
+                "type": "minecraft:mul",
+                "left": "compromise:field/river_bank_raw",
+                "right": "compromise:field/river_meander_raw"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:slice",
+    "axis": "y",
+    "coordinate": 0,
+    "input": {
+      "type": "minecraft:clamp",
+      "input": {
+        "type": "minecraft:max",
+        "left": {
+          "type": "minecraft:clamp",
+          "input": {
+            "type": "minecraft:sub",
+            "left": 1,
+            "right": {
+              "type": "minecraft:div",
+              "left": {
+                "type": "minecraft:abs",
+                "input": "compromise:modern/ridge_signed"
+              },
+              "right": {
+                "type": "minecraft:mul",
+                "left": 1.55,
+                "right": "compromise:modern/width"
+              }
+            }
+          },
+          "min": 0,
+          "max": 1
+        },
+        "right": {
+          "type": "minecraft:mul",
+          "left": 0.86,
+          "right": {
+            "type": "minecraft:clamp",
+            "input": {
+              "type": "minecraft:sub",
+              "left": 1,
+              "right": {
+                "type": "minecraft:div",
+                "left": {
+                  "type": "minecraft:abs",
+                  "input": "compromise:modern/branch_axis"
+                },
+                "right": {
+                  "type": "minecraft:mul",
+                  "left": 1.38,
+                  "right": "compromise:modern/width"
+                }
+              }
+            },
+            "min": 0,
+            "max": 1
+          }
+        }
+      },
+      "min": 0,
+      "max": 1
+    }
+  }
+}

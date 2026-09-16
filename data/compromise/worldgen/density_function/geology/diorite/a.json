@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:noise",
+    "noise": "compromise:alpha11/geology/diorite/a",
+    "xz_scale": 0.48,
+    "y_scale": 0.22
+  }
+}

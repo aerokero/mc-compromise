@@ -1,0 +1,66 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:slice",
+    "axis": "y",
+    "coordinate": 0,
+    "input": {
+      "type": "minecraft:clamp",
+      "input": {
+        "type": "minecraft:spline",
+        "spline": {
+          "coordinate": "compromise:beta/erosion_raw",
+          "points": [
+            {
+              "location": -1,
+              "value": 1,
+              "derivative": 0
+            },
+            {
+              "location": -0.78,
+              "value": 0.93,
+              "derivative": -0.18
+            },
+            {
+              "location": -0.58,
+              "value": 0.84,
+              "derivative": -0.32
+            },
+            {
+              "location": -0.375,
+              "value": 0.7,
+              "derivative": -0.58
+            },
+            {
+              "location": -0.2225,
+              "value": 0.55,
+              "derivative": -0.72
+            },
+            {
+              "location": 0.05,
+              "value": 0.27,
+              "derivative": -0.65
+            },
+            {
+              "location": 0.45,
+              "value": 0.04,
+              "derivative": -0.18
+            },
+            {
+              "location": 0.55,
+              "value": 0,
+              "derivative": 0
+            },
+            {
+              "location": 1,
+              "value": 0,
+              "derivative": 0
+            }
+          ]
+        }
+      },
+      "min": 0,
+      "max": 1
+    }
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:min",
+  "left": "compromise:beta/core_density",
+  "right": "compromise:beta/ceiling_density"
+}

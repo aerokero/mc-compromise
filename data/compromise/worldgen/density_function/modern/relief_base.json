@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:slice",
+    "axis": "y",
+    "coordinate": 0,
+    "input": {
+      "type": "minecraft:min",
+      "left": 160,
+      "right": {
+        "type": "minecraft:add",
+        "left": {
+          "type": "minecraft:add",
+          "left": "compromise:modern/body_relief",
+          "right": "compromise:modern/inner_relief"
+        },
+        "right": "compromise:modern/summit_relief"
+      }
+    }
+  }
+}

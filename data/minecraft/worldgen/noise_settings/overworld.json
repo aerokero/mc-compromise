@@ -6,13 +6,27 @@
       "xz_scale": 1,
       "y_scale": 0.5
     },
-    "exclusion": 0.0,
-    "fluid_level_floodedness": "compromise:alpha04/water/fluid_level_floodedness",
+    "exclusion": 0,
+    "fluid_level_floodedness": {
+      "type": "minecraft:range_choice",
+      "input": "compromise:river/noise_selector",
+      "min_inclusive": 0.5,
+      "max_exclusive": 1.5,
+      "when_in_range": 1,
+      "when_out_of_range": "compromise:water/fluid_level_floodedness"
+    },
     "fluid_level_spread": {
-      "type": "minecraft:noise",
-      "noise": "minecraft:aquifer_fluid_level_spread",
-      "xz_scale": 1,
-      "y_scale": 0.7142857142857143
+      "type": "minecraft:range_choice",
+      "input": "compromise:river/noise_selector",
+      "min_inclusive": 0.5,
+      "max_exclusive": 1.5,
+      "when_in_range": 0.5,
+      "when_out_of_range": {
+        "type": "minecraft:noise",
+        "noise": "minecraft:aquifer_fluid_level_spread",
+        "xz_scale": 1,
+        "y_scale": 0.7142857142857143
+      }
     },
     "lava": {
       "type": "minecraft:noise",
@@ -20,133 +34,109 @@
       "xz_scale": 1,
       "y_scale": 1
     },
-    "surface_level": "compromise:alpha04/water/surface_level"
+    "surface_level": "compromise:terrain/chunk_surface_level"
   },
   "debug_functions": [
     {
-      "label": "a04_C",
-      "function": "compromise:alpha04/climate/continents"
+      "label": "LL",
+      "function": "compromise:mask/ll"
     },
     {
-      "label": "a04_T",
-      "function": "compromise:alpha04/climate/temperature"
+      "label": "MM",
+      "function": "compromise:mask/mm"
     },
     {
-      "label": "a04_H",
-      "function": "compromise:alpha04/climate/humidity"
+      "label": "BL",
+      "function": "compromise:mask/bl"
     },
     {
-      "label": "a04_E",
-      "function": "compromise:alpha04/climate/erosion"
+      "label": "BM",
+      "function": "compromise:beta/amplitude"
     },
     {
-      "label": "a04_style",
-      "function": "compromise:alpha04/terrain/style"
+      "label": "OH",
+      "function": "compromise:beta/overhang_weight"
     },
     {
-      "label": "a04_Beta",
-      "function": "compromise:alpha04/terrain/beta_strength"
+      "label": "R",
+      "function": "compromise:river/path_selector_2d"
     },
     {
-      "label": "a04_BMajor",
-      "function": "compromise:alpha04/terrain/beta_major_weight"
+      "label": "T",
+      "function": "compromise:river/underground_mode"
     },
     {
-      "label": "a04_BWeird",
-      "function": "compromise:alpha04/terrain/beta_weirdness"
+      "label": "FP",
+      "function": "compromise:beta/factor"
     },
     {
-      "label": "a04_Modern",
-      "function": "compromise:alpha04/terrain/modern_strength"
-    },
-    {
-      "label": "a04_NearM",
-      "function": "compromise:alpha04/terrain/modern_proximity"
-    },
-    {
-      "label": "a04_HY",
-      "function": "compromise:alpha04/terrain/surface_height"
-    },
-    {
-      "label": "a04_R",
-      "function": "compromise:alpha04/river/distance"
-    },
-    {
-      "label": "a04_RY",
-      "function": "compromise:alpha04/river/center_level"
-    },
-    {
-      "label": "a04_U",
-      "function": "compromise:alpha04/terrain/upland_height"
-    },
-    {
-      "label": "a04_Fuji",
-      "function": "compromise:alpha04/terrain/cherry_fuji_mask"
+      "label": "I",
+      "function": "compromise:land/island_ocean_mask"
     }
   ],
   "default_block": "minecraft:stone",
   "default_fluid": "minecraft:water",
   "disable_mob_generation": false,
   "legacy_random_source": false,
-  "material_rule": "compromise:alpha04/overworld",
+  "material_rule": "compromise:overworld",
   "noise": {
     "height": 384,
     "min_y": -64
   },
   "noise_router": {
-    "continents": "compromise:alpha04/climate/continents",
-    "temperature": "compromise:alpha04/climate/temperature",
-    "vegetation": "compromise:alpha04/climate/humidity",
-    "erosion": "compromise:alpha04/climate/erosion",
-    "ridges": "compromise:alpha04/climate/ridges",
-    "depth": "compromise:alpha04/climate/depth",
-    "final_density": "compromise:alpha04/terrain/final_density",
-    "chunk_surface_level": "compromise:alpha04/terrain/chunk_surface_level"
+    "continents": "compromise:climate/continents",
+    "temperature": "compromise:climate/temperature",
+    "vegetation": "compromise:climate/humidity",
+    "erosion": "compromise:climate/erosion",
+    "ridges": "compromise:climate/ridges",
+    "depth": "compromise:climate/depth",
+    "final_density": "compromise:terrain/final_density",
+    "chunk_surface_level": "compromise:terrain/chunk_surface_level"
   },
   "sea_level": 63,
   "spawn_target": [
     {
-      "compromise:alpha04/climate/continents": [
+      "compromise:climate/continents": [
         0.02,
         0.4
       ],
-      "compromise:alpha04/climate/temperature": [
+      "compromise:climate/temperature": [
         -0.35,
         0.35
       ],
-      "compromise:alpha04/climate/humidity": [
+      "compromise:climate/humidity": [
         -0.3,
         0.6
       ],
-      "compromise:alpha04/climate/erosion": [
+      "compromise:climate/erosion": [
         0.7,
         0.9
       ],
-      "compromise:alpha04/climate/ridges": [
-        -1.0,
+      "compromise:climate/ridges": [
+        -1,
         -0.2
       ]
     },
     {
-      "compromise:alpha04/climate/continents": [
+      "compromise:climate/continents": [
         0.02,
         0.4
       ],
-      "compromise:alpha04/climate/temperature": [
+      "compromise:climate/temperature": [
         -0.35,
         0.35
       ],
-      "compromise:alpha04/climate/humidity": [
+      "compromise:climate/humidity": [
         -0.3,
         0.6
       ],
-      "compromise:alpha04/climate/erosion": [
+      "compromise:climate/erosion": [
         0.7,
         0.9
       ],
-      "compromise:alpha04/climate/ridges": [
+      "compromise:climate/ridges": [
         0.2,
-        1.0
+        1
       ]
     }
   ]

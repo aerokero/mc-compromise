@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:slice",
+    "axis": "y",
+    "coordinate": 0,
+    "input": {
+      "type": "minecraft:clamp",
+      "input": {
+        "type": "minecraft:add",
+        "left": "compromise:field/river_raw",
+        "right": {
+          "type": "minecraft:mul",
+          "left": {
+            "type": "minecraft:mul",
+            "left": 0.105,
+            "right": "compromise:river/cold_gate"
+          },
+          "right": "compromise:field/river_meander_raw"
+        }
+      },
+      "min": -1,
+      "max": 1
+    }
+  }
+}

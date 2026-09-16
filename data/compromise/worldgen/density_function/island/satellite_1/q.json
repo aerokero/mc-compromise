@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:slice",
+    "axis": "y",
+    "coordinate": 0,
+    "input": {
+      "type": "minecraft:div",
+      "left": "compromise:island/satellite_1/radial",
+      "right": {
+        "type": "minecraft:mul",
+        "left": 38,
+        "right": "compromise:island/satellite_1/shore_modulation"
+      }
+    }
+  }
+}

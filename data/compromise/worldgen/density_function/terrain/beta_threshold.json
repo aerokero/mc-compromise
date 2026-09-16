@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:sub",
+    "left": 0.18,
+    "right": {
+      "type": "minecraft:mul",
+      "left": 0.205,
+      "right": "compromise:terrain/windswept_district"
+    }
+  }
+}

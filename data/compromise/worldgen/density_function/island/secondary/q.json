@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:slice",
+    "axis": "y",
+    "coordinate": 0,
+    "input": {
+      "type": "minecraft:div",
+      "left": "compromise:island/secondary/radial",
+      "right": {
+        "type": "minecraft:mul",
+        "left": {
+          "type": "minecraft:add",
+          "left": 130,
+          "right": {
+            "type": "minecraft:mul",
+            "left": 32,
+            "right": "compromise:island/parent_radius_second"
+          }
+        },
+        "right": "compromise:island/secondary/shore_modulation"
+      }
+    }
+  }
+}

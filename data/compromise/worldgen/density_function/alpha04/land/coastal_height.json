@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:cache",
-  "input": {
-    "type": "minecraft:lerp",
-    "alpha": "compromise:alpha04/land/bay_mask",
-    "first": "compromise:alpha04/land/coastal_height_steep",
-    "second": "compromise:alpha04/land/coastal_height_gentle"
-  }
-}

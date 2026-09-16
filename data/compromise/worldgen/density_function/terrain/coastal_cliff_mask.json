@@ -1,0 +1,195 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:mul",
+    "left": {
+      "type": "minecraft:mul",
+      "left": {
+        "type": "minecraft:mul",
+        "left": {
+          "type": "minecraft:mul",
+          "left": 1,
+          "right": {
+            "type": "minecraft:mul",
+            "left": {
+              "type": "minecraft:mul",
+              "left": 1,
+              "right": {
+                "type": "minecraft:mul",
+                "left": {
+                  "type": "minecraft:square",
+                  "input": {
+                    "type": "minecraft:clamp",
+                    "input": {
+                      "type": "minecraft:mul",
+                      "left": {
+                        "type": "minecraft:sub",
+                        "left": "compromise:land/coast_coordinate",
+                        "right": -0.11
+                      },
+                      "right": 26.315789473684205
+                    },
+                    "min": 0,
+                    "max": 1
+                  }
+                },
+                "right": {
+                  "type": "minecraft:sub",
+                  "left": 3,
+                  "right": {
+                    "type": "minecraft:mul",
+                    "left": 2,
+                    "right": {
+                      "type": "minecraft:clamp",
+                      "input": {
+                        "type": "minecraft:mul",
+                        "left": {
+                          "type": "minecraft:sub",
+                          "left": "compromise:land/coast_coordinate",
+                          "right": -0.11
+                        },
+                        "right": 26.315789473684205
+                      },
+                      "min": 0,
+                      "max": 1
+                    }
+                  }
+                }
+              }
+            },
+            "right": {
+              "type": "minecraft:sub",
+              "left": 1,
+              "right": {
+                "type": "minecraft:mul",
+                "left": {
+                  "type": "minecraft:square",
+                  "input": {
+                    "type": "minecraft:clamp",
+                    "input": {
+                      "type": "minecraft:mul",
+                      "left": {
+                        "type": "minecraft:sub",
+                        "left": "compromise:land/coast_coordinate",
+                        "right": 0.015
+                      },
+                      "right": 15.384615384615383
+                    },
+                    "min": 0,
+                    "max": 1
+                  }
+                },
+                "right": {
+                  "type": "minecraft:sub",
+                  "left": 3,
+                  "right": {
+                    "type": "minecraft:mul",
+                    "left": 2,
+                    "right": {
+                      "type": "minecraft:clamp",
+                      "input": {
+                        "type": "minecraft:mul",
+                        "left": {
+                          "type": "minecraft:sub",
+                          "left": "compromise:land/coast_coordinate",
+                          "right": 0.015
+                        },
+                        "right": 15.384615384615383
+                      },
+                      "min": 0,
+                      "max": 1
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "right": {
+          "type": "minecraft:sub",
+          "left": 1,
+          "right": "compromise:land/bay_mask"
+        }
+      },
+      "right": {
+        "type": "minecraft:mul",
+        "left": {
+          "type": "minecraft:square",
+          "input": {
+            "type": "minecraft:clamp",
+            "input": {
+              "type": "minecraft:mul",
+              "left": {
+                "type": "minecraft:sub",
+                "left": "compromise:field/coast_cliff_raw",
+                "right": 0.32
+              },
+              "right": 2.5
+            },
+            "min": 0,
+            "max": 1
+          }
+        },
+        "right": {
+          "type": "minecraft:sub",
+          "left": 3,
+          "right": {
+            "type": "minecraft:mul",
+            "left": 2,
+            "right": {
+              "type": "minecraft:clamp",
+              "input": {
+                "type": "minecraft:mul",
+                "left": {
+                  "type": "minecraft:sub",
+                  "left": "compromise:field/coast_cliff_raw",
+                  "right": 0.32
+                },
+                "right": 2.5
+              },
+              "min": 0,
+              "max": 1
+            }
+          }
+        }
+      }
+    },
+    "right": {
+      "type": "minecraft:mul",
+      "left": {
+        "type": "minecraft:mul",
+        "left": {
+          "type": "minecraft:mul",
+          "left": {
+            "type": "minecraft:mul",
+            "left": 1,
+            "right": {
+              "type": "minecraft:sub",
+              "left": 1,
+              "right": "compromise:profile/dark_guard"
+            }
+          },
+          "right": {
+            "type": "minecraft:sub",
+            "left": 1,
+            "right": "compromise:profile/swamp"
+          }
+        },
+        "right": {
+          "type": "minecraft:sub",
+          "left": 1,
+          "right": "compromise:profile/badlands"
+        }
+      },
+      "right": {
+        "type": "minecraft:sub",
+        "left": 1,
+        "right": {
+          "type": "minecraft:mul",
+          "left": 0.78,
+          "right": "compromise:profile/desert"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:slice",
+    "axis": "y",
+    "coordinate": 0,
+    "input": {
+      "type": "minecraft:clamp",
+      "min": 0,
+      "max": 1,
+      "input": {
+        "type": "minecraft:mul",
+        "left": {
+          "type": "minecraft:mul",
+          "left": {
+            "type": "minecraft:mul",
+            "left": "compromise:mask/land_guard",
+            "right": {
+              "type": "minecraft:sub",
+              "left": 1,
+              "right": "compromise:mask/mm"
+            }
+          },
+          "right": {
+            "type": "minecraft:sub",
+            "left": 1,
+            "right": "compromise:mask/bl"
+          }
+        },
+        "right": {
+          "type": "minecraft:sub",
+          "left": 1,
+          "right": {
+            "type": "minecraft:mul",
+            "left": 0.72,
+            "right": "compromise:mask/ll"
+          }
+        }
+      }
+    }
+  }
+}

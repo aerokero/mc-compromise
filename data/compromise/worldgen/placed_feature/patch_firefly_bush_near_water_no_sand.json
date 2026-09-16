@@ -1,5 +1,5 @@
 {
-  "feature": "minecraft:firefly_bush",
+  "feature": "compromise:firefly_bush_single",
   "placement": [
     {
       "type": "minecraft:count",
@@ -25,28 +25,8 @@
             "tag": "minecraft:air"
           },
           {
-            "type": "minecraft:not",
-            "predicate": {
-              "type": "minecraft:matching_blocks",
-              "blocks": "minecraft:sand",
-              "offset": [
-                0,
-                -1,
-                0
-              ]
-            }
-          },
-          {
-            "type": "minecraft:not",
-            "predicate": {
-              "type": "minecraft:matching_blocks",
-              "blocks": "minecraft:red_sand",
-              "offset": [
-                0,
-                -1,
-                0
-              ]
-            }
+            "type": "minecraft:would_survive",
+            "state": "minecraft:firefly_bush"
           },
           {
             "type": "minecraft:not",
@@ -59,10 +39,6 @@
                 0
               ]
             }
-          },
-          {
-            "type": "minecraft:would_survive",
-            "state": "minecraft:firefly_bush"
           },
           {
             "type": "minecraft:any_of",
@@ -116,79 +92,6 @@
                 ]
               }
             ]
-          }
-        ]
-      }
-    },
-    {
-      "type": "minecraft:count",
-      "count": 16
-    },
-    {
-      "type": "minecraft:offset",
-      "x": {
-        "type": "minecraft:trapezoid",
-        "min": -4,
-        "max": 4,
-        "plateau": 0
-      },
-      "y": {
-        "type": "minecraft:trapezoid",
-        "min": -3,
-        "max": 3,
-        "plateau": 0
-      },
-      "z": {
-        "type": "minecraft:trapezoid",
-        "min": -4,
-        "max": 4,
-        "plateau": 0
-      }
-    },
-    {
-      "type": "minecraft:block_predicate_filter",
-      "predicate": {
-        "type": "minecraft:all_of",
-        "predicates": [
-          {
-            "type": "minecraft:matching_block_tag",
-            "tag": "minecraft:air"
-          },
-          {
-            "type": "minecraft:not",
-            "predicate": {
-              "type": "minecraft:matching_blocks",
-              "blocks": "minecraft:sand",
-              "offset": [
-                0,
-                -1,
-                0
-              ]
-            }
-          },
-          {
-            "type": "minecraft:not",
-            "predicate": {
-              "type": "minecraft:matching_blocks",
-              "blocks": "minecraft:red_sand",
-              "offset": [
-                0,
-                -1,
-                0
-              ]
-            }
-          },
-          {
-            "type": "minecraft:not",
-            "predicate": {
-              "type": "minecraft:matching_block_tag",
-              "tag": "minecraft:sand",
-              "offset": [
-                0,
-                -1,
-                0
-              ]
-            }
           }
         ]
       }

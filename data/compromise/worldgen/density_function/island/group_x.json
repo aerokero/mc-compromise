@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:slice",
+    "axis": "y",
+    "coordinate": 0,
+    "input": {
+      "type": "minecraft:sub",
+      "left": {
+        "type": "minecraft:sub",
+        "left": "compromise:island/local_x",
+        "right": 765.5
+      },
+      "right": "compromise:island/jitter_x"
+    }
+  }
+}

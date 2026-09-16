@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:mul",
+    "left": "compromise:ice/solid_mask",
+    "right": {
+      "type": "minecraft:range_choice",
+      "input": "minecraft:y",
+      "min_inclusive": 62.5,
+      "max_exclusive": 63.5,
+      "when_in_range": 1,
+      "when_out_of_range": 0
+    }
+  }
+}

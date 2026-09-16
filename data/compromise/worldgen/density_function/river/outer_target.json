@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:slice",
+    "axis": "y",
+    "coordinate": 0,
+    "input": {
+      "type": "minecraft:max",
+      "left": {
+        "type": "minecraft:add",
+        "left": "compromise:river/bank_level",
+        "right": 1
+      },
+      "right": {
+        "type": "minecraft:sub",
+        "left": "compromise:terrain/height_before_river",
+        "right": "compromise:river/valley_depth"
+      }
+    }
+  }
+}

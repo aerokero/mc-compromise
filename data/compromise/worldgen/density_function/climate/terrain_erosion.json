@@ -1,0 +1,68 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:slice",
+    "axis": "y",
+    "coordinate": 0,
+    "input": {
+      "type": "minecraft:range_choice",
+      "input": "compromise:modern/relief",
+      "min_inclusive": 6,
+      "max_exclusive": 1000000,
+      "when_in_range": {
+        "type": "minecraft:spline",
+        "spline": {
+          "coordinate": "compromise:modern/relief",
+          "points": [
+            {
+              "location": 6,
+              "value": -0.06,
+              "derivative": 0
+            },
+            {
+              "location": 16,
+              "value": -0.12,
+              "derivative": -0.006
+            },
+            {
+              "location": 28,
+              "value": -0.22,
+              "derivative": -0.008
+            },
+            {
+              "location": 34,
+              "value": -0.3,
+              "derivative": -0.012
+            },
+            {
+              "location": 45,
+              "value": -0.46,
+              "derivative": -0.012
+            },
+            {
+              "location": 53,
+              "value": -0.62,
+              "derivative": -0.014
+            },
+            {
+              "location": 58,
+              "value": -0.69,
+              "derivative": -0.01
+            },
+            {
+              "location": 88,
+              "value": -0.84,
+              "derivative": -0.005
+            },
+            {
+              "location": 160,
+              "value": -0.96,
+              "derivative": 0
+            }
+          ]
+        }
+      },
+      "when_out_of_range": "compromise:climate/non_mountain_erosion"
+    }
+  }
+}

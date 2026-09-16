@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:min",
+    "left": {
+      "type": "minecraft:max",
+      "left": {
+        "type": "minecraft:sub",
+        "left": {
+          "type": "minecraft:abs",
+          "input": "compromise:geology/andesite/a"
+        },
+        "right": 0.088
+      },
+      "right": {
+        "type": "minecraft:sub",
+        "left": {
+          "type": "minecraft:abs",
+          "input": "compromise:geology/andesite/b"
+        },
+        "right": 0.094
+      }
+    },
+    "right": {
+      "type": "minecraft:max",
+      "left": {
+        "type": "minecraft:sub",
+        "left": {
+          "type": "minecraft:abs",
+          "input": "compromise:geology/andesite/a"
+        },
+        "right": 0.074
+      },
+      "right": {
+        "type": "minecraft:sub",
+        "left": {
+          "type": "minecraft:abs",
+          "input": "compromise:geology/andesite/branch"
+        },
+        "right": 0.078
+      }
+    }
+  }
+}

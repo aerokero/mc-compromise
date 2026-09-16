@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:range_choice",
+    "input": "compromise:ice/volume",
+    "min_inclusive": 0.000001,
+    "max_exclusive": 1000000,
+    "when_in_range": 1,
+    "when_out_of_range": 0
+  }
+}

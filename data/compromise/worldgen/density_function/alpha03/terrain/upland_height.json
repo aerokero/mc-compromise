@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:cache",
-  "input": {
-    "type": "minecraft:mul",
-    "left": 20.0,
-    "right": "compromise:alpha03/terrain/upland_mask"
-  }
-}

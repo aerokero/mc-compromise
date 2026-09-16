@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:clamp",
+    "input": {
+      "type": "minecraft:add",
+      "left": {
+        "type": "minecraft:add",
+        "left": 0.62,
+        "right": {
+          "type": "minecraft:mul",
+          "left": 0.12,
+          "right": "compromise:field/modern_width_raw"
+        }
+      },
+      "right": {
+        "type": "minecraft:mul",
+        "left": 0.08,
+        "right": "compromise:field/modern_body_raw"
+      }
+    },
+    "min": 0.48,
+    "max": 0.84
+  }
+}

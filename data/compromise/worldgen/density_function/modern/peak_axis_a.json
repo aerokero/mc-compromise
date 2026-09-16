@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:slice",
+    "axis": "y",
+    "coordinate": 0,
+    "input": {
+      "type": "minecraft:clamp",
+      "input": {
+        "type": "minecraft:add",
+        "left": {
+          "type": "minecraft:mul",
+          "left": 0.72,
+          "right": "compromise:field/modern_peak_raw"
+        },
+        "right": {
+          "type": "minecraft:mul",
+          "left": 0.28,
+          "right": "compromise:field/modern_spurs_raw"
+        }
+      },
+      "min": -1,
+      "max": 1
+    }
+  }
+}

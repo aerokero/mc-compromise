@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:add",
+  "left": {
+    "type": "minecraft:mul",
+    "left": {
+      "type": "minecraft:sub",
+      "left": {
+        "type": "minecraft:add",
+        "left": "compromise:terrain/surface_height",
+        "right": "compromise:modern/detail"
+      },
+      "right": "minecraft:y"
+    },
+    "right": 0.041666666666666664
+  },
+  "right": "compromise:terrain/ordinary_density_detail"
+}

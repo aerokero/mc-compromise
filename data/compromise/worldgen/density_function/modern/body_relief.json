@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:slice",
+    "axis": "y",
+    "coordinate": 0,
+    "input": {
+      "type": "minecraft:mul",
+      "left": {
+        "type": "minecraft:mul",
+        "left": "compromise:modern/range_presence",
+        "right": "compromise:modern/body_profile"
+      },
+      "right": {
+        "type": "minecraft:add",
+        "left": 8,
+        "right": {
+          "type": "minecraft:add",
+          "left": {
+            "type": "minecraft:mul",
+            "left": 18,
+            "right": "compromise:modern/body_axis"
+          },
+          "right": {
+            "type": "minecraft:mul",
+            "left": 2,
+            "right": {
+              "type": "minecraft:max",
+              "left": 0,
+              "right": "compromise:field/modern_asym_raw"
+            }
+          }
+        }
+      }
+    }
+  }
+}

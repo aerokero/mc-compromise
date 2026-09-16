@@ -1,0 +1,9 @@
+{
+  "feature": "minecraft:blue_ice",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 0
+    }
+  ]
+}

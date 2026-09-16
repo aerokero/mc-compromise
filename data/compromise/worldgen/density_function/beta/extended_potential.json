@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:slice",
+    "axis": "y",
+    "coordinate": 0,
+    "input": {
+      "type": "minecraft:clamp",
+      "input": {
+        "type": "minecraft:add",
+        "left": "compromise:beta/potential",
+        "right": {
+          "type": "minecraft:mul",
+          "left": 0.052,
+          "right": {
+            "type": "minecraft:mul",
+            "left": "compromise:beta/ribbon_gate",
+            "right": "compromise:beta/family_bleed"
+          }
+        }
+      },
+      "min": 0,
+      "max": 1
+    }
+  }
+}

@@ -61,8 +61,9 @@
       "minecraft:red_mushroom_normal",
       "minecraft:patch_pumpkin",
       "minecraft:patch_sugar_cane",
-      "minecraft:patch_firefly_bush_near_water",
-      "minecraft:seagrass_river"
+      "minecraft:seagrass_river",
+      "compromise:patch_firefly_bush_river_sparse",
+      "compromise:patch_tall_grass_river_sparse"
     ],
     [
       "minecraft:freeze_top_layer"

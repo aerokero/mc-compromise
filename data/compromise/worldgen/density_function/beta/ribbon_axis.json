@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:slice",
+    "axis": "y",
+    "coordinate": 0,
+    "input": {
+      "type": "minecraft:abs",
+      "input": {
+        "type": "minecraft:clamp",
+        "input": {
+          "type": "minecraft:add",
+          "left": {
+            "type": "minecraft:mul",
+            "left": 0.9,
+            "right": "compromise:field/beta_weird_raw"
+          },
+          "right": {
+            "type": "minecraft:mul",
+            "left": 0.1,
+            "right": "compromise:field/beta_massif_raw"
+          }
+        },
+        "min": -1,
+        "max": 1
+      }
+    }
+  }
+}

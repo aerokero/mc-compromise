@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:slice",
+    "axis": "y",
+    "coordinate": 0,
+    "input": {
+      "type": "minecraft:mul",
+      "left": {
+        "type": "minecraft:mul",
+        "left": "compromise:modern/range_presence",
+        "right": "compromise:modern/shoulder_profile"
+      },
+      "right": {
+        "type": "minecraft:add",
+        "left": 10,
+        "right": {
+          "type": "minecraft:mul",
+          "left": 34,
+          "right": "compromise:modern/body_axis"
+        }
+      }
+    }
+  }
+}

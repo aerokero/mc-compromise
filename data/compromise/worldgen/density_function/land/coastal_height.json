@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:slice",
+    "axis": "y",
+    "coordinate": 0,
+    "input": {
+      "type": "minecraft:max",
+      "left": "compromise:mainland/coastal_height",
+      "right": "compromise:island/surface_height"
+    }
+  }
+}

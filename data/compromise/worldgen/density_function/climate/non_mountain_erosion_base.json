@@ -1,0 +1,73 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:slice",
+    "axis": "y",
+    "coordinate": 0,
+    "input": {
+      "type": "minecraft:range_choice",
+      "input": "compromise:climate/taiga_inland",
+      "min_inclusive": 0.48,
+      "max_exclusive": 1.5,
+      "when_in_range": {
+        "type": "minecraft:range_choice",
+        "input": "compromise:climate/windswept_spot",
+        "min_inclusive": 0.48,
+        "max_exclusive": 1.5,
+        "when_in_range": {
+          "type": "minecraft:range_choice",
+          "input": "compromise:climate/taiga_variant_raw",
+          "min_inclusive": 0.88,
+          "max_exclusive": 1000000,
+          "when_in_range": 0.09,
+          "when_out_of_range": {
+            "type": "minecraft:range_choice",
+            "input": "compromise:climate/taiga_variant_raw",
+            "min_inclusive": 0.72,
+            "max_exclusive": 0.88,
+            "when_in_range": 0.21,
+            "when_out_of_range": 0.34
+          }
+        },
+        "when_out_of_range": 0.78
+      },
+      "when_out_of_range": {
+        "type": "minecraft:range_choice",
+        "input": {
+          "type": "minecraft:mul",
+          "left": {
+            "type": "minecraft:mul",
+            "left": {
+              "type": "minecraft:range_choice",
+              "input": "compromise:climate/temperature",
+              "min_inclusive": 0.5,
+              "max_exclusive": 1000000,
+              "when_in_range": 1,
+              "when_out_of_range": 0
+            },
+            "right": {
+              "type": "minecraft:range_choice",
+              "input": "compromise:terrain/beta_relief",
+              "min_inclusive": 9,
+              "max_exclusive": 1000000,
+              "when_in_range": 1,
+              "when_out_of_range": 0
+            }
+          },
+          "right": {
+            "type": "minecraft:range_choice",
+            "input": "compromise:terrain/windswept_district",
+            "min_inclusive": 0.42,
+            "max_exclusive": 1000000,
+            "when_in_range": 1,
+            "when_out_of_range": 0
+          }
+        },
+        "min_inclusive": 0.5,
+        "max_exclusive": 1.5,
+        "when_in_range": 0.25,
+        "when_out_of_range": 0.78
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:range_choice",
+    "input": "minecraft:y",
+    "min_inclusive": 59.5,
+    "max_exclusive": 63.5,
+    "when_in_range": {
+      "type": "minecraft:range_choice",
+      "input": "compromise:ice/mask",
+      "min_inclusive": 0.5,
+      "max_exclusive": 1.5,
+      "when_in_range": {
+        "type": "minecraft:mul",
+        "left": 0.22,
+        "right": {
+          "type": "minecraft:min",
+          "left": {
+            "type": "minecraft:sub",
+            "left": "minecraft:y",
+            "right": 59.5
+          },
+          "right": {
+            "type": "minecraft:sub",
+            "left": 63.5,
+            "right": "minecraft:y"
+          }
+        }
+      },
+      "when_out_of_range": -1000000
+    },
+    "when_out_of_range": -1000000
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:slice",
+    "axis": "y",
+    "coordinate": 0,
+    "input": {
+      "type": "minecraft:range_choice",
+      "input": "compromise:land/is_mushroom",
+      "min_inclusive": 0.5,
+      "max_exclusive": 1.5,
+      "when_in_range": -0.98,
+      "when_out_of_range": {
+        "type": "minecraft:range_choice",
+        "input": "compromise:island/dry_land",
+        "min_inclusive": 0.5,
+        "max_exclusive": 1.5,
+        "when_in_range": 0.12,
+        "when_out_of_range": {
+          "type": "minecraft:range_choice",
+          "input": "compromise:island/beach",
+          "min_inclusive": 0.5,
+          "max_exclusive": 1.5,
+          "when_in_range": -0.09,
+          "when_out_of_range": {
+            "type": "minecraft:range_choice",
+            "input": "compromise:terrain/height_before_river",
+            "min_inclusive": 64,
+            "max_exclusive": 1000000,
+            "when_in_range": {
+              "type": "minecraft:max",
+              "left": "compromise:mainland/coast_coordinate",
+              "right": 0.04
+            },
+            "when_out_of_range": {
+              "type": "minecraft:range_choice",
+              "input": "compromise:terrain/height_before_river",
+              "min_inclusive": 62.5,
+              "max_exclusive": 64,
+              "when_in_range": {
+                "type": "minecraft:max",
+                "left": "compromise:mainland/coast_coordinate",
+                "right": -0.15
+              },
+              "when_out_of_range": "compromise:mainland/coast_coordinate"
+            }
+          }
+        }
+      }
+    }
+  }
+}

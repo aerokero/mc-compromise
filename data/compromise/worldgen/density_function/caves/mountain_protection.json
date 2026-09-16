@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:max",
+  "left": "compromise:caves/modern_protection",
+  "right": "compromise:caves/beta_protection"
+}

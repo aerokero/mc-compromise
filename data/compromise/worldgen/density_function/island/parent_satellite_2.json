@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:slice",
+    "axis": "y",
+    "coordinate": 0,
+    "input": {
+      "type": "minecraft:clamp",
+      "input": {
+        "type": "minecraft:noise",
+        "noise": "compromise:alpha10/island/seed_satellite_2",
+        "xz_scale": 1,
+        "y_scale": 0,
+        "shift_x": {
+          "type": "minecraft:sub",
+          "left": 0.371,
+          "right": "compromise:island/local_x"
+        },
+        "shift_z": {
+          "type": "minecraft:sub",
+          "left": 0.719,
+          "right": "compromise:island/local_z"
+        }
+      },
+      "min": -1,
+      "max": 1
+    }
+  }
+}

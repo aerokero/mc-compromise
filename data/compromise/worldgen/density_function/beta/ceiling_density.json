@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:mul",
+  "left": 0.045,
+  "right": {
+    "type": "minecraft:sub",
+    "left": {
+      "type": "minecraft:add",
+      "left": "compromise:terrain/base_height",
+      "right": 128
+    },
+    "right": "minecraft:y"
+  }
+}

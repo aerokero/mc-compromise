@@ -1,1 +1,0 @@
-tellraw @s {"text":"Compromise WG alpha04: deeper rougher rivers, varied Beta scale/weirdness + rare floating chunks, rougher ordinary terrain, wider modern ridges, foothill Cherry/Grove. NEW worlds only. Debug a04_*.","color":"aqua"}

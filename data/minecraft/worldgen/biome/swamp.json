@@ -60,6 +60,7 @@
       "minecraft:glow_lichen",
       "compromise:trees_swamp",
       "minecraft:flower_swamp",
+      "minecraft:patch_tall_grass",
       "minecraft:patch_grass_normal",
       "minecraft:patch_dead_bush",
       "minecraft:patch_waterlily",
@@ -69,9 +70,8 @@
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane_swamp",
       "minecraft:patch_pumpkin",
-      "minecraft:patch_firefly_bush_swamp",
-      "minecraft:patch_firefly_bush_near_water_swamp",
-      "minecraft:seagrass_swamp"
+      "minecraft:seagrass_swamp",
+      "minecraft:patch_firefly_bush_near_water"
     ],
     [
       "minecraft:freeze_top_layer"

@@ -1,0 +1,89 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:slice",
+    "axis": "y",
+    "coordinate": 0,
+    "input": {
+      "type": "minecraft:cache",
+      "input": {
+        "type": "minecraft:spline",
+        "spline": {
+          "coordinate": "compromise:mainland/coast_coordinate",
+          "points": [
+            {
+              "location": -1,
+              "value": 2,
+              "derivative": 13
+            },
+            {
+              "location": -0.68,
+              "value": 9,
+              "derivative": 25
+            },
+            {
+              "location": -0.48,
+              "value": 23,
+              "derivative": 52
+            },
+            {
+              "location": -0.3,
+              "value": 41,
+              "derivative": 67
+            },
+            {
+              "location": -0.18,
+              "value": 56,
+              "derivative": 64
+            },
+            {
+              "location": -0.105,
+              "value": 62,
+              "derivative": 40
+            },
+            {
+              "location": -0.07,
+              "value": 64.3,
+              "derivative": 29
+            },
+            {
+              "location": -0.025,
+              "value": 66.2,
+              "derivative": 24
+            },
+            {
+              "location": 0.06,
+              "value": 69.5,
+              "derivative": 28
+            },
+            {
+              "location": 0.15,
+              "value": 74,
+              "derivative": 33
+            },
+            {
+              "location": 0.3,
+              "value": 82,
+              "derivative": 31
+            },
+            {
+              "location": 0.5,
+              "value": 90,
+              "derivative": 22
+            },
+            {
+              "location": 0.72,
+              "value": 95,
+              "derivative": 13
+            },
+            {
+              "location": 1,
+              "value": 98,
+              "derivative": 8
+            }
+          ]
+        }
+      }
+    }
+  }
+}

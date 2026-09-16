@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:slice",
+    "axis": "y",
+    "coordinate": 0,
+    "input": {
+      "type": "minecraft:clamp",
+      "input": {
+        "type": "minecraft:add",
+        "left": 1,
+        "right": {
+          "type": "minecraft:mul",
+          "left": 0.11,
+          "right": {
+            "type": "minecraft:mul",
+            "left": {
+              "type": "minecraft:sign",
+              "input": "compromise:modern/ridge_signed"
+            },
+            "right": "compromise:field/modern_asym_raw"
+          }
+        }
+      },
+      "min": 0.89,
+      "max": 1.11
+    }
+  }
+}

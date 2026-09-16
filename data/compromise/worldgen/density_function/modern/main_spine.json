@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:slice",
+    "axis": "y",
+    "coordinate": 0,
+    "input": {
+      "type": "minecraft:clamp",
+      "input": {
+        "type": "minecraft:sub",
+        "left": 1,
+        "right": {
+          "type": "minecraft:div",
+          "left": {
+            "type": "minecraft:abs",
+            "input": "compromise:modern/ridge_signed"
+          },
+          "right": "compromise:modern/width"
+        }
+      },
+      "min": 0,
+      "max": 1
+    }
+  }
+}

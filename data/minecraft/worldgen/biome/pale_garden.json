@@ -62,6 +62,7 @@
       "minecraft:pale_garden_flowers",
       "minecraft:flower_pale_garden",
       "compromise:patch_grass_forest_no_sand",
+      "compromise:patch_tall_grass_pale_garden",
       "minecraft:patch_pumpkin",
       "compromise:patch_sugar_cane_no_sand",
       "compromise:patch_firefly_bush_near_water_no_sand",
@@ -74,7 +75,7 @@
   "has_precipitation": true,
   "temperature": 0.7,
   "attributes": {
-    "minecraft:visual/fog_color": 8484720,
+    "minecraft:visual/fog_color": "#ccd8e2",
     "minecraft:audio/ambient_sounds": {
       "mood": {
         "block_search_extent": 8,
@@ -84,7 +85,7 @@
       }
     },
     "minecraft:audio/music_volume": 0,
-    "minecraft:visual/sky_color": 12171705,
+    "minecraft:visual/sky_color": "#7ca3ff",
     "minecraft:visual/water_fog_color": 5597568,
     "minecraft:gameplay/natural_mob_spawns": {
       "argument": {

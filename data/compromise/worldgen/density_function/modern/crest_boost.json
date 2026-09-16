@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:slice",
+    "axis": "y",
+    "coordinate": 0,
+    "input": {
+      "type": "minecraft:max",
+      "left": 0,
+      "right": {
+        "type": "minecraft:mul",
+        "left": 10,
+        "right": "compromise:mountain/crest_raw"
+      }
+    }
+  }
+}

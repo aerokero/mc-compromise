@@ -1,0 +1,50 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:slice",
+    "axis": "y",
+    "coordinate": 0,
+    "input": {
+      "type": "minecraft:mul",
+      "left": "compromise:climate/taiga_inland",
+      "right": {
+        "type": "minecraft:clamp",
+        "input": {
+          "type": "minecraft:spline",
+          "spline": {
+            "coordinate": "compromise:climate/taiga_variant_raw",
+            "points": [
+              {
+                "location": -1,
+                "value": 1,
+                "derivative": 0
+              },
+              {
+                "location": -0.25,
+                "value": 1,
+                "derivative": 0
+              },
+              {
+                "location": 0.1,
+                "value": 0.75,
+                "derivative": -0.8
+              },
+              {
+                "location": 0.35,
+                "value": 0,
+                "derivative": -1.5
+              },
+              {
+                "location": 1,
+                "value": 0,
+                "derivative": 0
+              }
+            ]
+          }
+        },
+        "min": 0,
+        "max": 1
+      }
+    }
+  }
+}
