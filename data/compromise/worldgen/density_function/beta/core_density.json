@@ -24,7 +24,7 @@
     },
     "right": {
       "type": "minecraft:mul",
-      "left": 0.35,
+      "left": 1.05,
       "right": "minecraft:overworld/base_3d_noise"
     }
   },
