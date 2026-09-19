@@ -24,7 +24,7 @@
     },
     "right": {
       "type": "minecraft:mul",
-      "left": 0.84,
+      "left": 0.35,
       "right": "minecraft:overworld/base_3d_noise"
     }
   },
@@ -35,7 +35,7 @@
     "max_exclusive": 2,
     "when_in_range": {
       "type": "minecraft:mul",
-      "left": 0.78,
+      "left": 2.0,
       "right": {
         "type": "minecraft:mul",
         "left": "compromise:beta/overhang_weight",

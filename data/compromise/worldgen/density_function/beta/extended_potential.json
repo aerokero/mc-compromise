@@ -11,7 +11,7 @@
         "left": "compromise:beta/potential",
         "right": {
           "type": "minecraft:mul",
-          "left": 0.052,
+          "left": 0.095,
           "right": {
             "type": "minecraft:mul",
             "left": "compromise:beta/ribbon_gate",

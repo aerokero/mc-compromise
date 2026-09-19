@@ -8,10 +8,10 @@
       "type": "minecraft:clamp",
       "input": {
         "type": "minecraft:add",
-        "left": 0.42,
+        "left": 0.7,
         "right": {
           "type": "minecraft:mul",
-          "left": 0.58,
+          "left": 0.3,
           "right": "compromise:beta/valley_gate"
         }
       },

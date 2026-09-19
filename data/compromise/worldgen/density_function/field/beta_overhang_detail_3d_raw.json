@@ -5,8 +5,8 @@
     "input": {
       "type": "minecraft:noise",
       "noise": "compromise:alpha07/beta_overhang_detail_3d",
-      "xz_scale": 1,
-      "y_scale": 0.95,
+      "xz_scale": 0.55,
+      "y_scale": 0.35,
       "shift_x": "compromise:field/warp_x",
       "shift_z": "compromise:field/warp_z"
     },

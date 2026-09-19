@@ -7,12 +7,41 @@
     "input": {
       "type": "minecraft:clamp",
       "input": {
-        "type": "minecraft:add",
-        "left": 0.74,
-        "right": {
-          "type": "minecraft:mul",
-          "left": 0.26,
-          "right": "compromise:beta/ribbon_gate"
+        "type": "minecraft:spline",
+        "spline": {
+          "coordinate": "compromise:beta/ribbon_gate",
+          "points": [
+            {
+              "location": 0,
+              "value": 0,
+              "derivative": 0
+            },
+            {
+              "location": 0.15,
+              "value": 0,
+              "derivative": 0
+            },
+            {
+              "location": 0.22,
+              "value": 0.45,
+              "derivative": 3.5
+            },
+            {
+              "location": 0.34,
+              "value": 0.85,
+              "derivative": 2
+            },
+            {
+              "location": 0.46,
+              "value": 1,
+              "derivative": 0
+            },
+            {
+              "location": 1,
+              "value": 1,
+              "derivative": 0
+            }
+          ]
         }
       },
       "min": 0,

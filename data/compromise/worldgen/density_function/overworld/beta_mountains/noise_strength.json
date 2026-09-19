@@ -2,7 +2,7 @@
   "type": "minecraft:mul",
   "left": {
     "type": "minecraft:mul",
-    "left": 7.5,
+    "left": 5.5,
     "right": "compromise:overworld/beta_mountains/terrain_gate"
   },
   "right": {
@@ -10,12 +10,12 @@
     "spline": {
       "coordinate": "minecraft:y",
       "points": [
-        { "location": -64, "value": 0.15, "derivative": 0.0 },
-        { "location": 50, "value": 0.85, "derivative": 0.0 },
-        { "location": 85, "value": 1.35, "derivative": 0.0 },
-        { "location": 130, "value": 1.8, "derivative": 0.0 },
-        { "location": 170, "value": 1.35, "derivative": 0.0 },
-        { "location": 190, "value": 0.6, "derivative": 0.0 },
+        { "location": -64, "value": 0.1, "derivative": 0.0 },
+        { "location": 50, "value": 0.6, "derivative": 0.0 },
+        { "location": 85, "value": 0.95, "derivative": 0.0 },
+        { "location": 130, "value": 1.25, "derivative": 0.0 },
+        { "location": 170, "value": 0.95, "derivative": 0.0 },
+        { "location": 190, "value": 0.45, "derivative": 0.0 },
         { "location": 220, "value": 0.0, "derivative": 0.0 },
         { "location": 320, "value": 0.0, "derivative": 0.0 }
       ]
