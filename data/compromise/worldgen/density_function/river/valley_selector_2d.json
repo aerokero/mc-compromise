@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:slice",
+    "axis": "y",
+    "coordinate": 0,
+    "input": {
+      "type": "minecraft:range_choice",
+      "input": "compromise:river/carver_coordinate",
+      "min_inclusive": -0.62,
+      "max_exclusive": 0.62,
+      "when_in_range": {
+        "type": "minecraft:range_choice",
+        "input": "compromise:river/enabled",
+        "min_inclusive": 0.5,
+        "max_exclusive": 1.5,
+        "when_in_range": 1,
+        "when_out_of_range": 0
+      },
+      "when_out_of_range": 0
+    }
+  }
+}

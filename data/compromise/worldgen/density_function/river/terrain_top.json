@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:slice",
+    "axis": "y",
+    "coordinate": 0,
+    "input": {
+      "type": "minecraft:max",
+      "left": "compromise:terrain/height_before_river",
+      "right": {
+        "type": "minecraft:range_choice",
+        "input": "compromise:beta/amplitude",
+        "min_inclusive": 0.35,
+        "max_exclusive": 1.1,
+        "when_in_range": {
+          "type": "minecraft:add",
+          "left": "compromise:beta/target_height",
+          "right": {
+            "type": "minecraft:mul",
+            "left": 32,
+            "right": "compromise:beta/overhang_weight"
+          }
+        },
+        "when_out_of_range": "compromise:terrain/height_before_river"
+      }
+    }
+  }
+}

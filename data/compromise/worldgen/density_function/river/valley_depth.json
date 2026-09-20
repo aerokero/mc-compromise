@@ -6,11 +6,11 @@
     "coordinate": 0,
     "input": {
       "type": "minecraft:clamp",
-      "min": 13,
-      "max": 24,
+      "min": 15,
+      "max": 26,
       "input": {
         "type": "minecraft:add",
-        "left": 18,
+        "left": 20,
         "right": {
           "type": "minecraft:add",
           "left": {
@@ -19,9 +19,17 @@
             "right": "compromise:field/river_width_raw"
           },
           "right": {
-            "type": "minecraft:mul",
-            "left": 2,
-            "right": "compromise:field/river_bank_raw"
+            "type": "minecraft:add",
+            "left": {
+              "type": "minecraft:mul",
+              "left": 2,
+              "right": "compromise:field/river_bank_raw"
+            },
+            "right": {
+              "type": "minecraft:mul",
+              "left": 0.75,
+              "right": "compromise:field/river_width_raw"
+            }
           }
         }
       }

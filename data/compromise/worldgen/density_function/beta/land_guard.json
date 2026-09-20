@@ -62,9 +62,17 @@
           }
         },
         "right": {
-          "type": "minecraft:sub",
-          "left": 1,
-          "right": "compromise:profile/dark_guard"
+          "type": "minecraft:mul",
+          "left": {
+            "type": "minecraft:sub",
+            "left": 1,
+            "right": "compromise:profile/dark_guard"
+          },
+          "right": {
+            "type": "minecraft:sub",
+            "left": 1,
+            "right": "compromise:terrain/ocean_mask"
+          }
         }
       }
     }

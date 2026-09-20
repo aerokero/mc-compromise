@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:slice",
+    "axis": "y",
+    "coordinate": 0,
+    "input": {
+      "type": "minecraft:clamp",
+      "min": 0,
+      "max": 1,
+      "input": {
+        "type": "minecraft:sub",
+        "left": 1,
+        "right": "compromise:river/modern_surface_gate"
+      }
+    }
+  }
+}

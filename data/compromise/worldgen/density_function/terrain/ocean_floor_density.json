@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:range_choice",
+  "input": "compromise:terrain/ocean_mask",
+  "min_inclusive": 0.5,
+  "max_exclusive": 1.5,
+  "when_in_range": {
+    "type": "minecraft:mul",
+    "left": 0.041666666666666664,
+    "right": {
+      "type": "minecraft:sub",
+      "left": {
+        "type": "minecraft:add",
+        "left": 36,
+        "right": {
+          "type": "minecraft:mul",
+          "left": 8,
+          "right": "compromise:field/ocean_basin_raw"
+        }
+      },
+      "right": "minecraft:y"
+    }
+  },
+  "when_out_of_range": 1000000
+}

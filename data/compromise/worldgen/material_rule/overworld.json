@@ -498,7 +498,7 @@
                             "if_true": {
                               "type": "minecraft:noise_threshold",
                               "noise": "compromise:sand_beach",
-                              "min_threshold": 0.36,
+                               "min_threshold": -0.15,
                               "max_threshold": 1.7976931348623157e+308
                             },
                             "then_run": {
@@ -617,7 +617,7 @@
                               "type": "minecraft:noise_threshold",
                               "noise": "compromise:gravel_beach",
                               "min_threshold": -1.7976931348623157e+308,
-                              "max_threshold": 0.18
+                               "max_threshold": -0.22
                             },
                             "then_run": {
                               "type": "minecraft:sequence",

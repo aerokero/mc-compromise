@@ -15,9 +15,17 @@
           "right": "compromise:field/river_bank_raw"
         },
         "right": {
-          "type": "minecraft:mul",
-          "left": 0.8,
-          "right": "compromise:field/river_meander_raw"
+          "type": "minecraft:add",
+          "left": {
+            "type": "minecraft:mul",
+            "left": 0.8,
+            "right": "compromise:field/river_meander_raw"
+          },
+          "right": {
+            "type": "minecraft:mul",
+            "left": 0.6,
+            "right": "compromise:field/river_width_raw"
+          }
         }
       }
     }

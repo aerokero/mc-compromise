@@ -1,5 +1,5 @@
 {
   "type": "minecraft:mul",
   "left": 1,
-  "right": "compromise:river/noise_selector"
+  "right": "compromise:river/channel_noise_selector"
 }
