@@ -1,5 +1,7 @@
 {
   "effects": {
+    "foliage_color": 7842607,
+    "grass_color": 9551193,
     "water_color": 4159204
   },
   "carvers": [
@@ -56,13 +58,15 @@
       "minecraft:glow_lichen",
       "minecraft:trees_water",
       "minecraft:flower_default",
-      "minecraft:patch_grass_badlands",
+      "compromise:patch_grass_plain",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:patch_pumpkin",
       "minecraft:patch_sugar_cane",
+      "compromise:patch_firefly_bush_near_water_no_sand",
       "minecraft:seagrass_normal",
-      "minecraft:kelp_cold"
+      "minecraft:kelp_cold",
+      "compromise:patch_dry_grass_sand"
     ],
     [
       "minecraft:freeze_top_layer"

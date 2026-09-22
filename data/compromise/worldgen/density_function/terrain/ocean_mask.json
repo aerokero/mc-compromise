@@ -5,23 +5,12 @@
     "axis": "y",
     "coordinate": 0,
     "input": {
-      "type": "minecraft:max",
-      "left": {
-        "type": "minecraft:range_choice",
-        "input": "compromise:climate/continents",
-        "min_inclusive": -1000000,
-        "max_exclusive": -0.16,
-        "when_in_range": 1,
-        "when_out_of_range": 0
-      },
-      "right": {
-        "type": "minecraft:range_choice",
-        "input": "compromise:mainland/coast_coordinate",
-        "min_inclusive": -1000000,
-        "max_exclusive": -0.16,
-        "when_in_range": 1,
-        "when_out_of_range": 0
-      }
+      "type": "minecraft:range_choice",
+      "input": "compromise:land/coast_coordinate",
+      "min_inclusive": -1000000,
+      "max_exclusive": -0.19,
+      "when_in_range": 1,
+      "when_out_of_range": 0
     }
   }
 }

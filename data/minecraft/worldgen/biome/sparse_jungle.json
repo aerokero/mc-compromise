@@ -57,7 +57,6 @@
       "compromise:trees_rainforest",
       "minecraft:flower_warm",
       "compromise:patch_grass_temperate_rainforest",
-      "compromise:patch_dry_grass_sand",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:patch_pumpkin",
@@ -68,7 +67,8 @@
       "compromise:patch_jungle_vegetation",
       "compromise:patch_jungle_bush",
       "compromise:patch_jungle_tall_grass",
-      "compromise:patch_jungle_large_ferns"
+      "compromise:patch_jungle_large_ferns",
+      "compromise:patch_dry_grass_sand"
     ],
     [
       "minecraft:freeze_top_layer"

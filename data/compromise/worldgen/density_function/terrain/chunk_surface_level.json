@@ -22,15 +22,7 @@
           "right": {
             "type": "minecraft:add",
             "left": 6,
-            "right": {
-              "type": "minecraft:min",
-              "left": 22,
-              "right": {
-                "type": "minecraft:mul",
-                "left": 0.35,
-                "right": "compromise:terrain/beta_relief"
-              }
-            }
+              "right": 0
           }
         }
       }

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:range_choice",
+  "input": "minecraft:y",
+  "min_inclusive": -1000000,
+  "max_exclusive": 64,
+  "when_in_range": "compromise:river/carver",
+  "when_out_of_range": 1000000
+}

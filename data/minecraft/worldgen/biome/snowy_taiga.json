@@ -63,7 +63,8 @@
       "minecraft:red_mushroom_taiga",
       "minecraft:patch_pumpkin",
       "minecraft:patch_sugar_cane",
-      "minecraft:patch_berry_common"
+      "minecraft:patch_berry_common",
+      "compromise:patch_dry_grass_sand"
     ],
     [
       "minecraft:freeze_top_layer"

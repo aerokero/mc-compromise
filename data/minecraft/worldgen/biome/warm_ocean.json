@@ -63,7 +63,8 @@
       "minecraft:patch_sugar_cane",
       "minecraft:warm_ocean_vegetation",
       "minecraft:seagrass_warm",
-      "minecraft:sea_pickle"
+      "minecraft:sea_pickle",
+      "compromise:patch_dry_grass_sand"
     ],
     [
       "minecraft:freeze_top_layer"

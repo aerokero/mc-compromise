@@ -10,7 +10,7 @@
       "left": "minecraft:y",
       "right": {
         "type": "minecraft:add",
-        "left": "compromise:terrain/base_height",
+        "left": "compromise:terrain/surface_height",
         "right": 6
       }
     },

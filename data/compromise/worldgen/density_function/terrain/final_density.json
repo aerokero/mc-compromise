@@ -1,7 +1,5 @@
 {
   "type": "minecraft:add",
-  "left": {
-    "type": "minecraft:min",
     "left": {
       "type": "minecraft:max",
       "left": {
@@ -73,8 +71,6 @@
       },
       "right": "compromise:ice/volume"
     },
-    "right": "compromise:terrain/ocean_floor_density"
-  },
   "right": {
     "type": "minecraft:beardifier"
   }

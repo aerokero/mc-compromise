@@ -7,7 +7,24 @@
     "max_exclusive": 1.1,
     "when_in_range": {
       "type": "minecraft:lerp",
-      "alpha": "compromise:beta/amplitude",
+      "alpha": {
+        "type": "minecraft:mul",
+        "left": "compromise:beta/amplitude",
+        "right": {
+          "type": "minecraft:clamp",
+          "min": 0,
+          "max": 1,
+          "input": {
+            "type": "minecraft:sub",
+            "left": 1,
+            "right": {
+              "type": "minecraft:mul",
+              "left": "compromise:river/surface_mode",
+              "right": "compromise:river/outer_weight"
+            }
+          }
+        }
+      },
       "first": "compromise:terrain/linear_density",
       "second": "compromise:beta/pure_density"
     },

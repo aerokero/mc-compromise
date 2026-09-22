@@ -16,7 +16,7 @@
       },
       "right": {
         "type": "minecraft:range_choice",
-        "input": "compromise:terrain/surface_height",
+        "input": "compromise:island/surface_height",
         "min_inclusive": 64,
         "max_exclusive": 1000000,
         "when_in_range": 1,

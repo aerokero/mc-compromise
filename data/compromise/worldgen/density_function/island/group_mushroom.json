@@ -10,7 +10,7 @@
       "right": {
         "type": "minecraft:range_choice",
         "input": "compromise:island/group_mushroom_raw",
-        "min_inclusive": 0.58,
+        "min_inclusive": 0.0,
         "max_exclusive": 1000000,
         "when_in_range": 1,
         "when_out_of_range": 0

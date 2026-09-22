@@ -7,7 +7,11 @@
       "left": {
         "type": "minecraft:mul",
         "left": 0.95,
-        "right": "compromise:field/continent_raw"
+        "right": {
+          "type": "minecraft:add",
+          "left": "compromise:field/continent_raw",
+          "right": "compromise:macro/continent_bias"
+        }
       },
       "right": 0.04
     },

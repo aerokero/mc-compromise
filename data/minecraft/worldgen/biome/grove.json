@@ -59,7 +59,8 @@
     [
       "minecraft:glow_lichen",
       "minecraft:trees_grove",
-      "minecraft:patch_pumpkin"
+      "minecraft:patch_pumpkin",
+      "compromise:patch_dry_grass_sand"
     ],
     [
       "minecraft:freeze_top_layer"

@@ -12,8 +12,8 @@
       "when_in_range": {
         "type": "minecraft:range_choice",
         "input": "compromise:mainland/coast_coordinate",
-        "min_inclusive": -0.16,
-        "max_exclusive": -0.055,
+        "min_inclusive": -0.19,
+        "max_exclusive": -0.145,
         "when_in_range": 1,
         "when_out_of_range": 0
       },

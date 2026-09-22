@@ -63,7 +63,8 @@
       "minecraft:patch_sugar_cane",
       "minecraft:seagrass_river",
       "compromise:patch_firefly_bush_river_sparse",
-      "compromise:patch_tall_grass_river_sparse"
+      "compromise:patch_tall_grass_river_sparse",
+      "compromise:patch_dry_grass_sand"
     ],
     [
       "minecraft:freeze_top_layer"

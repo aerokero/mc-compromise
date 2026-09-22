@@ -16,42 +16,9 @@
         "min": 0,
         "max": 1,
         "input": {
-          "type": "minecraft:spline",
-          "spline": {
-            "coordinate": "compromise:river/effective_erosion",
-            "points": [
-              {
-                "location": -1,
-                "value": 0,
-                "derivative": 0
-              },
-              {
-                "location": -0.45,
-                "value": 0,
-                "derivative": 0
-              },
-              {
-                "location": -0.3,
-                "value": 0.18,
-                "derivative": 1.6
-              },
-              {
-                "location": -0.12,
-                "value": 0.72,
-                "derivative": 2.2
-              },
-              {
-                "location": 0.05,
-                "value": 1,
-                "derivative": 0
-              },
-              {
-                "location": 1,
-                "value": 1,
-                "derivative": 0
-              }
-            ]
-          }
+          "type": "minecraft:sub",
+          "left": 1,
+          "right": "compromise:river/tunnel_mode"
         }
       }
     }

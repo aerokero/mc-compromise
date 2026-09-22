@@ -20,7 +20,7 @@
           "type": "minecraft:range_choice",
           "input": "compromise:mainland/coast_coordinate",
           "min_inclusive": -1000000,
-          "max_exclusive": -0.16,
+          "max_exclusive": -0.19,
           "when_in_range": 1,
           "when_out_of_range": 0
         }

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:add",
+    "left": {
+      "type": "minecraft:mul",
+      "left": 0.12,
+      "right": "compromise:field/coast_macro_raw"
+    },
+    "right": {
+      "type": "minecraft:mul",
+      "left": 0.04,
+      "right": {
+        "type": "minecraft:sub",
+        "left": "compromise:macro/x_phase",
+        "right": "compromise:macro/z_phase"
+      }
+    }
+  }
+}

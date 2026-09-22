@@ -62,7 +62,8 @@
       "minecraft:patch_pumpkin",
       "minecraft:patch_sugar_cane",
       "minecraft:seagrass_deep_warm",
-      "minecraft:kelp_warm"
+      "minecraft:kelp_warm",
+      "compromise:patch_dry_grass_sand"
     ],
     [
       "minecraft:freeze_top_layer"

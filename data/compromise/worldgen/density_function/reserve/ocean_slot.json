@@ -1,0 +1,67 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:range_choice",
+    "input": "compromise:reserve/slot",
+    "min_inclusive": 3,
+    "max_exclusive": 4,
+    "when_in_range": 1,
+    "when_out_of_range": {
+      "type": "minecraft:range_choice",
+      "input": "compromise:reserve/slot",
+      "min_inclusive": 6,
+      "max_exclusive": 7,
+      "when_in_range": 1,
+      "when_out_of_range": {
+        "type": "minecraft:range_choice",
+        "input": "compromise:reserve/slot",
+        "min_inclusive": 8,
+        "max_exclusive": 9,
+        "when_in_range": 1,
+        "when_out_of_range": {
+          "type": "minecraft:range_choice",
+          "input": "compromise:reserve/slot",
+          "min_inclusive": 9,
+          "max_exclusive": 10,
+          "when_in_range": 1,
+          "when_out_of_range": {
+            "type": "minecraft:range_choice",
+            "input": "compromise:reserve/slot",
+            "min_inclusive": 10,
+            "max_exclusive": 11,
+            "when_in_range": 1,
+            "when_out_of_range": {
+              "type": "minecraft:range_choice",
+              "input": "compromise:reserve/slot",
+              "min_inclusive": 14,
+              "max_exclusive": 15,
+              "when_in_range": 1,
+              "when_out_of_range": {
+                "type": "minecraft:range_choice",
+                "input": "compromise:reserve/slot",
+                "min_inclusive": 18,
+                "max_exclusive": 19,
+                "when_in_range": 1,
+                "when_out_of_range": {
+                  "type": "minecraft:range_choice",
+                  "input": "compromise:reserve/slot",
+                  "min_inclusive": 22,
+                  "max_exclusive": 23,
+                  "when_in_range": 1,
+                  "when_out_of_range": {
+                    "type": "minecraft:range_choice",
+                    "input": "compromise:reserve/slot",
+                    "min_inclusive": 35,
+                    "max_exclusive": 36,
+                    "when_in_range": 1,
+                    "when_out_of_range": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

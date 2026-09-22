@@ -8,11 +8,11 @@
     "left": {
       "type": "minecraft:sub",
       "left": "minecraft:y",
-      "right": {
-        "type": "minecraft:add",
-        "left": "compromise:terrain/base_height",
-        "right": 8
-      }
+        "right": {
+          "type": "minecraft:add",
+          "left": "compromise:terrain/surface_height",
+          "right": 8
+        }
     },
     "right": 0.125
   },

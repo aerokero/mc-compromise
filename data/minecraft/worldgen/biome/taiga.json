@@ -64,7 +64,8 @@
       "minecraft:patch_pumpkin",
       "minecraft:patch_sugar_cane",
       "minecraft:patch_berry_common",
-      "minecraft:seagrass_normal"
+      "minecraft:seagrass_normal",
+      "compromise:patch_dry_grass_sand"
     ],
     [
       "minecraft:freeze_top_layer"

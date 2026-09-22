@@ -67,7 +67,8 @@
       "compromise:patch_jungle_vegetation",
       "compromise:patch_jungle_bush",
       "compromise:patch_jungle_tall_grass",
-      "compromise:patch_jungle_large_ferns"
+      "compromise:patch_jungle_large_ferns",
+      "compromise:patch_dry_grass_sand"
     ],
     [
       "minecraft:freeze_top_layer"

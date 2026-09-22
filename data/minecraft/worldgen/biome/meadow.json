@@ -58,10 +58,10 @@
     [
       "minecraft:glow_lichen",
       "compromise:patch_grass_plain",
-      "compromise:patch_dry_grass_sand",
       "minecraft:flower_meadow",
       "minecraft:trees_meadow",
-      "minecraft:wildflowers_meadow"
+      "minecraft:wildflowers_meadow",
+      "compromise:patch_dry_grass_sand"
     ],
     [
       "minecraft:freeze_top_layer"

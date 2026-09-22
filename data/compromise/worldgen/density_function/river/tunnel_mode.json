@@ -5,43 +5,33 @@
     "axis": "y",
     "coordinate": 0,
     "input": {
-      "type": "minecraft:max",
+      "type": "minecraft:mul",
       "left": {
-        "type": "minecraft:max",
-        "left": {
-          "type": "minecraft:clamp",
-          "input": {
-            "type": "minecraft:mul",
-            "left": {
-              "type": "minecraft:sub",
-              "left": "compromise:river/terrain_top",
-              "right": {
-                "type": "minecraft:add",
-                "left": "compromise:river/bank_level",
-                "right": 50
-              }
-            },
-            "right": 0.041666666666666664
+        "type": "minecraft:clamp",
+        "min": 0,
+        "max": 1,
+        "input": {
+          "type": "minecraft:mul",
+          "left": {
+            "type": "minecraft:sub",
+            "left": "compromise:river/terrain_top",
+            "right": {
+              "type": "minecraft:add",
+              "left": "compromise:river/bank_level",
+              "right": 56
+            }
           },
-          "min": 0,
-          "max": 1
-        },
-        "right": {
-          "type": "minecraft:clamp",
-          "input": {
-            "type": "minecraft:mul",
-            "left": {
-              "type": "minecraft:sub",
-              "left": "compromise:beta/amplitude",
-              "right": 0.72
-            },
-            "right": 3.571428571428571
-          },
-          "min": 0,
-          "max": 1
+          "right": 0.03125
         }
       },
-      "right": "compromise:river/mountain_gate"
+      "right": {
+        "type": "minecraft:square",
+        "input": {
+          "type": "minecraft:max",
+          "left": "compromise:modern/range_presence",
+          "right": "compromise:beta/massif_selector"
+        }
+      }
     }
   }
 }

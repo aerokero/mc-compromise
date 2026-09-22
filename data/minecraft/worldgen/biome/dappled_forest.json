@@ -68,12 +68,13 @@
       "compromise:dappled_leaf_litter",
       "compromise:patch_pumpkin_dappled",
       "minecraft:patch_sugar_cane",
-      "minecraft:seagrass_normal"
+      "minecraft:seagrass_normal",
+      "compromise:patch_dry_grass_sand"
     ],
     [
       "minecraft:glow_lichen",
       "minecraft:brown_mushroom_dappled_forest",
-      "minecraft:patch_red_shrub",
+      "compromise:patch_red_shrub_no_sand",
       "minecraft:freeze_top_layer"
     ]
   ],
