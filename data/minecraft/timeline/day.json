@@ -327,6 +327,20 @@
 				}
 			]
 		},
+		"minecraft:visual/moon_angle": {
+			"ease": "linear",
+			"modifier": "override",
+			"keyframes": [
+				{
+					"ticks": 0,
+					"value": 90
+				},
+				{
+					"ticks": 24000,
+					"value": 450
+				}
+			]
+		},
 		"minecraft:visual/sunrise_sunset_color": {
 			"keyframes": [
 				{

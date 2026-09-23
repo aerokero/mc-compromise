@@ -9,7 +9,7 @@
     "exclusion": 0,
     "fluid_level_floodedness": {
       "type": "minecraft:range_choice",
-      "input": "compromise:river/noise_selector",
+      "input": "compromise:river/aquifer_selector",
       "min_inclusive": 0.5,
       "max_exclusive": 1.5,
       "when_in_range": 1,
@@ -17,7 +17,7 @@
     },
     "fluid_level_spread": {
       "type": "minecraft:range_choice",
-      "input": "compromise:river/noise_selector",
+      "input": "compromise:river/aquifer_selector",
       "min_inclusive": 0.5,
       "max_exclusive": 1.5,
       "when_in_range": 0.5,
@@ -54,20 +54,20 @@
       "function": "compromise:beta/amplitude"
     },
     {
-      "label": "OH",
-      "function": "compromise:beta/overhang_weight"
-    },
-    {
       "label": "R",
-      "function": "compromise:river/path_selector_2d"
+      "function": "compromise:river/channel_mask"
     },
     {
       "label": "T",
-      "function": "compromise:river/underground_mode"
+      "function": "compromise:river/river_carver"
     },
     {
       "label": "FP",
-      "function": "compromise:beta/factor"
+      "function": "compromise:terrain/factor"
+    },
+    {
+      "label": "Veg",
+      "function": "compromise:terrain/vegetation"
     },
     {
       "label": "I",

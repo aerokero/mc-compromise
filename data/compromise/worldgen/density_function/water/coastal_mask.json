@@ -13,7 +13,7 @@
             "type": "minecraft:mul",
             "left": {
               "type": "minecraft:sub",
-              "left": "compromise:land/physical",
+              "left": "compromise:land/coast_coordinate",
               "right": -0.08
             },
             "right": 5.555555555555555
@@ -34,7 +34,7 @@
               "type": "minecraft:mul",
               "left": {
                 "type": "minecraft:sub",
-                "left": "compromise:land/physical",
+                "left": "compromise:land/coast_coordinate",
                 "right": -0.08
               },
               "right": 5.555555555555555

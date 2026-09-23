@@ -1,5 +1,4 @@
 {
-  "type": "minecraft:mul",
-  "left": 1,
-  "right": "compromise:river/channel_noise_selector"
+  "type": "minecraft:cache",
+  "input": "compromise:river/cave_density"
 }

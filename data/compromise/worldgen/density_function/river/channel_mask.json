@@ -3,12 +3,12 @@
   "input": {
     "type": "minecraft:slice",
     "axis": "y",
-    "coordinate": 0,
+    "coordinate": 64,
     "input": {
       "type": "minecraft:range_choice",
-      "input": "compromise:land/main",
-      "min_inclusive": -0.2,
-      "max_exclusive": 1000000,
+      "input": "compromise:river/river_carver",
+      "min_inclusive": -1000000,
+      "max_exclusive": 0,
       "when_in_range": 1,
       "when_out_of_range": 0
     }

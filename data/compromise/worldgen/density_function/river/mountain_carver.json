@@ -1,6 +1,0 @@
-{
-  "type": "minecraft:lerp",
-  "alpha": "compromise:river/tunnel_mode",
-  "first": "compromise:river/carver",
-  "second": "compromise:river/tunnel_carver"
-}
