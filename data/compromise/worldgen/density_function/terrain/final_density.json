@@ -65,7 +65,7 @@
           "input": {
             "type": "minecraft:mul",
             "left": 0.64,
-            "right": "compromise:overworld/river_carver/river_carver"
+            "right": "compromise:river/river_carver"
           }
         }
       },
