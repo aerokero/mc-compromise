@@ -6,7 +6,23 @@
       "xz_scale": 1,
       "y_scale": 0.5
     },
-    "exclusion": 0,
+    "exclusion": {
+      "type": "minecraft:min",
+      "left": {
+        "type": "minecraft:sub",
+        "left": -0.225,
+        "right": "minecraft:overworld/erosion"
+      },
+      "right": {
+        "type": "minecraft:max",
+        "left": {
+          "type": "minecraft:sub",
+          "left": "minecraft:overworld/depth",
+          "right": 0.9
+        },
+        "right": 0.0
+      }
+    },
     "fluid_level_floodedness": {
       "type": "minecraft:range_choice",
       "input": "compromise:river/aquifer_selector",
@@ -34,7 +50,7 @@
       "xz_scale": 1,
       "y_scale": 1
     },
-    "surface_level": "compromise:terrain/chunk_surface_level"
+    "surface_level": "compromise:water/aquifer_surface_level"
   },
   "debug_functions": [
     {
