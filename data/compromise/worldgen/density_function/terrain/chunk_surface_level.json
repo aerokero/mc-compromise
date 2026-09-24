@@ -53,8 +53,12 @@
                         },
                         "right": {
                           "type": "minecraft:add",
-                          "left": "minecraft:overworld/offset",
-                          "right": "compromise:terrain/inland_height_reduction"
+                          "left": {
+                            "type": "minecraft:add",
+                            "left": "minecraft:overworld/offset",
+                            "right": "compromise:terrain/inland_height_reduction"
+                          },
+                          "right": "compromise:modern/surface_offset"
                         }
                       },
                       "right": "compromise:terrain/factor"
@@ -87,8 +91,12 @@
               },
               "right": {
                 "type": "minecraft:add",
-                "left": "minecraft:overworld/offset",
-                "right": "compromise:terrain/inland_height_reduction"
+                "left": {
+                  "type": "minecraft:add",
+                  "left": "minecraft:overworld/offset",
+                  "right": "compromise:terrain/inland_height_reduction"
+                },
+                "right": "compromise:modern/surface_offset"
               }
             },
             "right": -128.0

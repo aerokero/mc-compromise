@@ -13,8 +13,12 @@
             "type": "minecraft:add",
             "left": {
               "type": "minecraft:add",
-              "left": "minecraft:overworld/depth",
-              "right": "compromise:terrain/inland_height_reduction"
+              "left": {
+                "type": "minecraft:add",
+                "left": "minecraft:overworld/depth",
+                "right": "compromise:terrain/inland_height_reduction"
+              },
+              "right": "compromise:modern/height_offset"
             },
             "right": {
               "type": "minecraft:mul",

@@ -10,7 +10,11 @@
       "left": "minecraft:y",
         "right": {
           "type": "minecraft:add",
-          "left": "compromise:terrain/surface_height",
+          "left": {
+            "type": "minecraft:add",
+            "left": "compromise:terrain/surface_height",
+            "right": "compromise:modern/relief"
+          },
           "right": 8
         }
     },
