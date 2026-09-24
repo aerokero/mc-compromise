@@ -186,3 +186,10 @@ Debuffy (Weakness/Poison) to ryzyko/kara — nie skalują się z tierem.
 # Cakes
 Alternative cake recipe.
 | Cake | `cake` | 3x Sweet Berries + Sugar + Wheat + Egg | Crafting Table | Cake
+
+# DODATKOWE PLANY:
+Zmiana Torchflower i Pitcher Plant w jakieś fantastyczne odpowiedniki warzyw, których nam brakuje. 
+
+Torchflower będzie odpowiednikiem ostrej papryczki.
+
+Pitcher Plant będzie być może zamiennikiem mięsa? Skoro są mięsożerne.

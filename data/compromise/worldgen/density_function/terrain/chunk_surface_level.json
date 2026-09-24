@@ -1,32 +1,16 @@
 {
-  "type": "minecraft:cache",
-  "input": {
-    "type": "minecraft:floor",
+  "type": "minecraft:find_top_surface",
+  "cell_height": 8,
+  "density": "compromise:terrain/final_density",
+  "lower_bound": -64,
+  "upper_bound": {
+    "type": "minecraft:clamp",
     "input": {
-      "type": "minecraft:min",
-      "left": {
-        "type": "minecraft:sub",
-        "left": "compromise:terrain/surface_height",
-        "right": 3
-      },
-      "right": {
-        "type": "minecraft:max",
-        "left": {
-          "type": "minecraft:sub",
-          "left": "compromise:terrain/base_height",
-          "right": 8
-        },
-        "right": {
-          "type": "minecraft:sub",
-          "left": "compromise:terrain/surface_height",
-          "right": {
-            "type": "minecraft:add",
-            "left": 6,
-              "right": 0
-          }
-        }
-      }
+      "type": "minecraft:add",
+      "left": "compromise:terrain/height_before_river",
+      "right": 64
     },
-    "multiple": 1
+    "min": 64,
+    "max": 320
   }
 }
