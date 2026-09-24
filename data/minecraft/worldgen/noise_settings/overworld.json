@@ -84,7 +84,7 @@
     "min_y": -64
   },
   "noise_router": {
-    "continents": "compromise:climate/continents",
+    "continents": "minecraft:overworld/continents",
     "temperature": "compromise:climate/temperature",
     "vegetation": "compromise:climate/humidity",
     "erosion": "compromise:climate/erosion",
@@ -96,7 +96,7 @@
   "sea_level": 63,
   "spawn_target": [
     {
-      "compromise:climate/continents": [
+      "minecraft:overworld/continents": [
         0.02,
         0.4
       ],
@@ -118,7 +118,7 @@
       ]
     },
     {
-      "compromise:climate/continents": [
+      "minecraft:overworld/continents": [
         0.02,
         0.4
       ],
