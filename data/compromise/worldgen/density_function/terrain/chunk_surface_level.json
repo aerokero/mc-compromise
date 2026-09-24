@@ -49,7 +49,11 @@
                         "to_coordinate": 320,
                         "to_value": -1.5
                       },
-                      "right": "minecraft:overworld/offset"
+                      "right": {
+                        "type": "minecraft:add",
+                        "left": "minecraft:overworld/offset",
+                        "right": "compromise:terrain/inland_height_reduction"
+                      }
                     },
                     "right": "compromise:terrain/factor"
                   }
@@ -79,7 +83,11 @@
               "left": 0.2734375,
               "right": "compromise:terrain/factor"
             },
-            "right": "minecraft:overworld/offset"
+            "right": {
+              "type": "minecraft:add",
+              "left": "minecraft:overworld/offset",
+              "right": "compromise:terrain/inland_height_reduction"
+            }
           },
           "right": -128.0
         },

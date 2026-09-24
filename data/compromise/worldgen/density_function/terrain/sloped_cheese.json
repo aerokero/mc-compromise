@@ -11,7 +11,11 @@
           "type": "minecraft:mul",
           "left": {
             "type": "minecraft:add",
-            "left": "minecraft:overworld/depth",
+            "left": {
+              "type": "minecraft:add",
+              "left": "minecraft:overworld/depth",
+              "right": "compromise:terrain/inland_height_reduction"
+            },
             "right": {
               "type": "minecraft:mul",
               "left": "minecraft:overworld/jaggedness",
