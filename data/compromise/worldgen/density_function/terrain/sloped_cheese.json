@@ -15,18 +15,10 @@
               "type": "minecraft:add",
               "left": {
                 "type": "minecraft:add",
-                "left": {
-                  "type": "minecraft:add",
-                  "left": "minecraft:overworld/depth",
-                  "right": "compromise:terrain/inland_height_reduction"
-                },
-                "right": "compromise:modern/height_offset"
+                "left": "minecraft:overworld/depth",
+                "right": "compromise:terrain/inland_height_reduction"
               },
-              "right": {
-                "type": "minecraft:mul",
-                "left": 0.0078125,
-                "right": "compromise:terrain/mesa_relief"
-              }
+              "right": "compromise:modern/height_offset"
             },
             "right": {
               "type": "minecraft:mul",
@@ -42,11 +34,7 @@
               }
             }
           },
-          "right": {
-            "type": "minecraft:max",
-            "left": "compromise:terrain/factor",
-            "right": "compromise:terrain/flat_factor_floor"
-          }
+          "right": "compromise:terrain/factor"
         }
       }
     },
