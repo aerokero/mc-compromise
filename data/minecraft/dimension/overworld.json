@@ -749,7 +749,7 @@
               0.1
             ],
             "depth": [
-              -1,
+              -0.25,
               1
             ],
             "offset": 0
@@ -1169,7 +1169,7 @@
               0.1
             ],
             "depth": [
-              -1,
+              -0.25,
               1
             ],
             "offset": 0
@@ -2619,36 +2619,6 @@
         {
           "parameters": {
             "temperature": [
-              -1,
-              0
-            ],
-            "humidity": [
-              -1,
-              1
-            ],
-            "continentalness": [
-              -0.145,
-              1
-            ],
-            "erosion": [
-              -0.3,
-              -0.06
-            ],
-            "weirdness": [
-              -1,
-              -0.08
-            ],
-            "depth": [
-              -1,
-              0.25
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:grove"
-        },
-        {
-          "parameters": {
-            "temperature": [
               0,
               1
             ],
@@ -2695,8 +2665,8 @@
               -0.3
             ],
             "weirdness": [
-              -1,
-              -0.08
+              -0.62,
+              -0.38
             ],
             "depth": [
               -1,
@@ -2726,7 +2696,7 @@
             ],
             "weirdness": [
               -1,
-              -0.08
+              -0.72
             ],
             "depth": [
               -1,
@@ -2756,7 +2726,7 @@
             ],
             "weirdness": [
               -1,
-              -0.08
+              -0.72
             ],
             "depth": [
               -1,
@@ -2786,7 +2756,7 @@
             ],
             "weirdness": [
               -1,
-              -0.08
+              -0.72
             ],
             "depth": [
               -1,
@@ -2889,36 +2859,6 @@
         {
           "parameters": {
             "temperature": [
-              -1,
-              0
-            ],
-            "humidity": [
-              -1,
-              1
-            ],
-            "continentalness": [
-              -0.145,
-              1
-            ],
-            "erosion": [
-              -0.3,
-              -0.06
-            ],
-            "weirdness": [
-              0.08,
-              1
-            ],
-            "depth": [
-              -1,
-              0.25
-            ],
-            "offset": 0
-          },
-          "biome": "minecraft:grove"
-        },
-        {
-          "parameters": {
-            "temperature": [
               0,
               1
             ],
@@ -2965,8 +2905,8 @@
               -0.3
             ],
             "weirdness": [
-              0.08,
-              1
+              0.38,
+              0.62
             ],
             "depth": [
               -1,
@@ -2995,7 +2935,7 @@
               -0.68
             ],
             "weirdness": [
-              0.08,
+              0.72,
               1
             ],
             "depth": [
@@ -3025,7 +2965,7 @@
               -0.68
             ],
             "weirdness": [
-              0.08,
+              0.72,
               1
             ],
             "depth": [
@@ -3055,7 +2995,7 @@
               -0.68
             ],
             "weirdness": [
-              0.08,
+              0.72,
               1
             ],
             "depth": [
@@ -3485,6 +3425,36 @@
             "offset": 0
           },
           "biome": "minecraft:beach"
+        },
+        {
+          "parameters": {
+            "temperature": [
+              -1,
+              0.5
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -0.145,
+              1
+            ],
+            "erosion": [
+              -0.4,
+              0.5
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
+            "depth": [
+              -1,
+              0.25
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:grove"
         }
       ]
     }
