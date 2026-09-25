@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:mul",
-  "left": "compromise:overworld/beta_mountains/gate",
-  "right": {
-    "type": "minecraft:max",
-    "left": "compromise:overworld/beta_mountains/peak_gate",
-    "right": "compromise:overworld/beta_mountains/obelisk_gate"
-  }
-}

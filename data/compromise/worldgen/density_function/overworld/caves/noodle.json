@@ -1,5 +1,0 @@
-{
-  "type": "minecraft:add",
-  "left": "compromise:overworld/rivers_extra_density",
-  "right": "minecraft:overworld/caves/noodle"
-}

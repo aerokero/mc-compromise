@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:cache",
-  "input": {
-    "type": "minecraft:max",
-    "left": "compromise:terrain/beta_strength",
-    "right": "compromise:beta/strength_displaced"
-  }
-}
