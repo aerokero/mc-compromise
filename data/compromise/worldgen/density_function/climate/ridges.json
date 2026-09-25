@@ -12,8 +12,8 @@
       "when_in_range": 0,
       "when_out_of_range": {
         "type": "minecraft:range_choice",
-        "input": "compromise:modern/relief",
-        "min_inclusive": 6,
+        "input": "compromise:modern/apron_presence",
+        "min_inclusive": 0.02,
         "max_exclusive": 1000000,
         "when_in_range": 0.55,
         "when_out_of_range": {

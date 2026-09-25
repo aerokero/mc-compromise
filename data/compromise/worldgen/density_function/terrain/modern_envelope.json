@@ -41,9 +41,9 @@
                   "left": {
                     "type": "minecraft:sub",
                     "left": "compromise:field/modern_area_raw",
-                    "right": 0.12
+                    "right": -0.02
                   },
-                  "right": 2.7777777777777777
+                  "right": 2.2
                 },
                 "min": 0,
                 "max": 1

@@ -21,7 +21,7 @@
               },
               "right": {
                 "type": "minecraft:mul",
-                "left": 2.35,
+                "left": 3.2,
                 "right": "compromise:modern/width"
               }
             }
@@ -45,7 +45,7 @@
                 },
                 "right": {
                   "type": "minecraft:mul",
-                  "left": 2.05,
+                  "left": 2.8,
                   "right": "compromise:modern/width"
                 }
               }

@@ -13,17 +13,17 @@
       },
       "right": {
         "type": "minecraft:add",
-        "left": 8,
+        "left": 45,
         "right": {
           "type": "minecraft:add",
           "left": {
             "type": "minecraft:mul",
-            "left": 18,
+            "left": 20,
             "right": "compromise:modern/body_axis"
           },
           "right": {
             "type": "minecraft:mul",
-            "left": 2,
+            "left": 4,
             "right": {
               "type": "minecraft:max",
               "left": 0,

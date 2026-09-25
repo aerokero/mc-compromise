@@ -7,20 +7,17 @@
     "input": {
       "type": "minecraft:mul",
       "left": {
-        "type": "minecraft:square",
-        "input": {
-          "type": "minecraft:clamp",
-          "input": "compromise:modern/body_spine",
-          "min": 0,
-          "max": 1
-        }
+        "type": "minecraft:clamp",
+        "input": "compromise:modern/body_spine",
+        "min": 0,
+        "max": 1
       },
       "right": {
-        "type": "minecraft:sub",
-        "left": 3,
+        "type": "minecraft:add",
+        "left": 0.35,
         "right": {
           "type": "minecraft:mul",
-          "left": 2,
+          "left": 0.65,
           "right": {
             "type": "minecraft:clamp",
             "input": "compromise:modern/body_spine",

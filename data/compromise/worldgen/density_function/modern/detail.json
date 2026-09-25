@@ -24,7 +24,7 @@
     },
     "right": {
       "type": "minecraft:mul",
-      "left": 3.6,
+      "left": 6.5,
       "right": "compromise:mountain/rock_3d"
     }
   },

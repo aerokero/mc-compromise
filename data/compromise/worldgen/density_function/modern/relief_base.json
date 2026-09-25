@@ -6,7 +6,7 @@
     "coordinate": 0,
     "input": {
       "type": "minecraft:min",
-      "left": 160,
+      "left": 238,
       "right": {
         "type": "minecraft:add",
         "left": {

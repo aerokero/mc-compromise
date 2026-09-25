@@ -9,17 +9,17 @@
       "left": "compromise:modern/summit_foundation",
       "right": {
         "type": "minecraft:add",
-        "left": 16,
+        "left": 10,
         "right": {
           "type": "minecraft:add",
           "left": {
             "type": "minecraft:mul",
-            "left": 74,
+            "left": 110,
             "right": "compromise:modern/summit_selector"
           },
           "right": {
             "type": "minecraft:mul",
-            "left": 0.62,
+            "left": 1.2,
             "right": "compromise:modern/crest_boost"
           }
         }

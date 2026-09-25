@@ -32,9 +32,9 @@
             "left": {
               "type": "minecraft:sub",
               "left": "compromise:field/modern_district_raw",
-              "right": 0.18
+              "right": 0.04
             },
-            "right": 2.631578947368421
+            "right": 2.2
           },
           "min": 0,
           "max": 1

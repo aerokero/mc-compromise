@@ -17,7 +17,11 @@
                 "type": "minecraft:abs",
                 "input": "compromise:terrain/ridge_signed"
               },
-              "right": "compromise:terrain/ridge_width"
+              "right": {
+                "type": "minecraft:mul",
+                "left": 2.8,
+                "right": "compromise:terrain/ridge_width"
+              }
             }
           },
           "min": 0,
@@ -47,7 +51,7 @@
                 },
                 "right": {
                   "type": "minecraft:mul",
-                  "left": 0.84,
+                  "left": 2.4,
                   "right": "compromise:terrain/ridge_width"
                 }
               }
