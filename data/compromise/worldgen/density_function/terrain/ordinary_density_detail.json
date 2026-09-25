@@ -1,11 +1,6 @@
 {
   "type": "minecraft:mul",
   "left": {
-    "type": "minecraft:sub",
-    "left": 1,
-    "right": "compromise:island/dominance"
-  },
-  "right": {
     "type": "minecraft:mul",
     "left": {
       "type": "minecraft:mul",
@@ -13,71 +8,68 @@
         "type": "minecraft:mul",
         "left": {
           "type": "minecraft:mul",
-          "left": {
-            "type": "minecraft:mul",
-            "left": 1,
-            "right": {
-              "type": "minecraft:range_choice",
-              "input": "compromise:terrain/style",
-              "min_inclusive": -0.5,
-              "max_exclusive": 0.5,
-              "when_in_range": 1,
-              "when_out_of_range": 0
-            }
-          },
+          "left": 1,
           "right": {
+            "type": "minecraft:range_choice",
+            "input": "compromise:terrain/style",
+            "min_inclusive": -0.5,
+            "max_exclusive": 0.5,
+            "when_in_range": 1,
+            "when_out_of_range": 0
+          }
+        },
+        "right": {
+          "type": "minecraft:mul",
+          "left": {
             "type": "minecraft:mul",
             "left": {
               "type": "minecraft:mul",
               "left": {
                 "type": "minecraft:mul",
-                "left": {
-                  "type": "minecraft:mul",
-                  "left": 1,
-                  "right": {
-                    "type": "minecraft:sub",
-                    "left": 1,
-                    "right": {
-                      "type": "minecraft:mul",
-                      "left": 0.6,
-                      "right": "compromise:profile/dark_guard"
-                    }
-                  }
-                },
+                "left": 1,
                 "right": {
                   "type": "minecraft:sub",
                   "left": 1,
-                  "right": "compromise:profile/swamp"
+                  "right": {
+                    "type": "minecraft:mul",
+                    "left": 0.6,
+                    "right": "compromise:profile/dark_guard"
+                  }
                 }
               },
               "right": {
                 "type": "minecraft:sub",
                 "left": 1,
-                "right": "compromise:profile/badlands"
+                "right": "compromise:profile/swamp"
               }
             },
             "right": {
               "type": "minecraft:sub",
               "left": 1,
-              "right": {
-                "type": "minecraft:mul",
-                "left": 0.76,
-                "right": "compromise:profile/desert"
-              }
+              "right": "compromise:profile/badlands"
+            }
+          },
+          "right": {
+            "type": "minecraft:sub",
+            "left": 1,
+            "right": {
+              "type": "minecraft:mul",
+              "left": 0.76,
+              "right": "compromise:profile/desert"
             }
           }
-        },
-        "right": "compromise:land/strength"
+        }
       },
-      "right": 0.105
+      "right": "compromise:land/strength"
     },
-    "right": {
-      "type": "minecraft:noise",
-      "noise": "compromise:alpha04/terrain_surface_3d",
-      "xz_scale": 0.95,
-      "y_scale": 0.72,
-      "shift_x": "compromise:field/warp_x",
-      "shift_z": "compromise:field/warp_z"
-    }
+    "right": 0.105
+  },
+  "right": {
+    "type": "minecraft:noise",
+    "noise": "compromise:alpha04/terrain_surface_3d",
+    "xz_scale": 0.95,
+    "y_scale": 0.72,
+    "shift_x": "compromise:field/warp_x",
+    "shift_z": "compromise:field/warp_z"
   }
 }

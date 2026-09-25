@@ -14,39 +14,31 @@
             "type": "minecraft:mul",
             "left": {
               "type": "minecraft:mul",
-              "left": {
-                "type": "minecraft:mul",
-                "left": 1,
-                "right": "compromise:land/strength"
-              },
-              "right": {
-                "type": "minecraft:sub",
-                "left": 1,
-                "right": "compromise:profile/dark_guard"
-              }
+              "left": 1,
+              "right": "compromise:land/strength"
             },
             "right": {
               "type": "minecraft:sub",
               "left": 1,
-              "right": "compromise:profile/desert"
+              "right": "compromise:profile/dark_guard"
             }
           },
           "right": {
             "type": "minecraft:sub",
             "left": 1,
-            "right": "compromise:profile/badlands"
+            "right": "compromise:profile/desert"
           }
         },
         "right": {
           "type": "minecraft:sub",
           "left": 1,
-          "right": "compromise:profile/swamp"
+          "right": "compromise:profile/badlands"
         }
       },
       "right": {
         "type": "minecraft:sub",
         "left": 1,
-        "right": "compromise:land/island_ocean_mask"
+        "right": "compromise:profile/swamp"
       }
     }
   }

@@ -4,10 +4,6 @@
     "type": "minecraft:slice",
     "axis": "y",
     "coordinate": 0,
-    "input": {
-      "type": "minecraft:max",
-      "left": "compromise:land/main",
-      "right": "compromise:island/physical_coordinate"
-    }
+    "input": "compromise:land/main"
   }
 }

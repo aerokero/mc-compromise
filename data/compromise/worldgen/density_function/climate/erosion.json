@@ -6,40 +6,26 @@
     "coordinate": 0,
     "input": {
       "type": "minecraft:range_choice",
-      "input": "compromise:island/dry_land",
+      "input": "compromise:coast/mainland_beach",
       "min_inclusive": 0.5,
       "max_exclusive": 1.5,
-      "when_in_range": 0.78,
+      "when_in_range": 0.2,
       "when_out_of_range": {
-        "type": "minecraft:range_choice",
-        "input": "compromise:island/beach",
-        "min_inclusive": 0.5,
-        "max_exclusive": 1.5,
-        "when_in_range": 0.2,
-        "when_out_of_range": {
+        "type": "minecraft:cache",
+        "input": {
           "type": "minecraft:range_choice",
-          "input": "compromise:coast/mainland_beach",
-          "min_inclusive": 0.5,
-          "max_exclusive": 1.5,
-          "when_in_range": 0.2,
-          "when_out_of_range": {
-            "type": "minecraft:cache",
-            "input": {
-              "type": "minecraft:range_choice",
-              "input": "compromise:land/physical",
-              "min_inclusive": -0.105,
-              "max_exclusive": -0.065,
-              "when_in_range": {
-                "type": "minecraft:range_choice",
-                "input": "compromise:terrain/coastal_cliff_mask",
-                "min_inclusive": 0.2,
-                "max_exclusive": 2,
-                "when_in_range": -0.55,
-                "when_out_of_range": "compromise:climate/terrain_erosion"
-              },
-              "when_out_of_range": "compromise:climate/terrain_erosion"
-            }
-          }
+          "input": "compromise:land/physical",
+          "min_inclusive": -0.105,
+          "max_exclusive": -0.065,
+          "when_in_range": {
+            "type": "minecraft:range_choice",
+            "input": "compromise:terrain/coastal_cliff_mask",
+            "min_inclusive": 0.2,
+            "max_exclusive": 2,
+            "when_in_range": -0.55,
+            "when_out_of_range": "compromise:climate/terrain_erosion"
+          },
+          "when_out_of_range": "compromise:climate/terrain_erosion"
         }
       }
     }

@@ -6,19 +6,15 @@
       "type": "minecraft:add",
       "left": {
         "type": "minecraft:add",
-        "left": {
-          "type": "minecraft:add",
-          "left": {
-            "type": "minecraft:add",
-            "left": 0,
-            "right": "compromise:terrain/base_height"
-          },
-          "right": "compromise:terrain/beta_relief"
-        },
-        "right": "compromise:terrain/modern_relief"
+        "left": 0,
+        "right": "compromise:terrain/base_height"
       },
-      "right": "compromise:terrain/mesa_relief"
+      "right": "compromise:terrain/modern_relief"
     },
-    "right": "compromise:terrain/savanna_relief"
+    "right": {
+      "type": "minecraft:add",
+      "left": "compromise:terrain/mesa_relief",
+      "right": "compromise:terrain/savanna_relief"
+    }
   }
 }

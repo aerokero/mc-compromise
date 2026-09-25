@@ -54,20 +54,12 @@
   },
   "debug_functions": [
     {
-      "label": "LL",
-      "function": "compromise:mask/ll"
-    },
-    {
       "label": "MM",
       "function": "compromise:mask/mm"
     },
     {
-      "label": "BL",
-      "function": "compromise:mask/bl"
-    },
-    {
-      "label": "BM",
-      "function": "compromise:beta/amplitude"
+      "label": "AP",
+      "function": "compromise:modern/apron_presence"
     },
     {
       "label": "R",
@@ -84,10 +76,6 @@
     {
       "label": "Veg",
       "function": "compromise:terrain/vegetation"
-    },
-    {
-      "label": "I",
-      "function": "compromise:land/island_ocean_mask"
     }
   ],
   "default_block": "minecraft:stone",

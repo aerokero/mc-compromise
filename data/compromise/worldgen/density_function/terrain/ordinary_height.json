@@ -4,11 +4,6 @@
     "type": "minecraft:slice",
     "axis": "y",
     "coordinate": 0,
-    "input": {
-      "type": "minecraft:lerp",
-      "alpha": "compromise:island/dominance",
-      "first": "compromise:terrain/ordinary_height_full",
-      "second": "compromise:land/coastal_height"
-    }
+    "input": "compromise:terrain/ordinary_height_full"
   }
 }

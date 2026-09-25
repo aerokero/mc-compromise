@@ -36,23 +36,12 @@
         "input": {
           "type": "minecraft:mul",
           "left": {
-            "type": "minecraft:mul",
-            "left": {
-              "type": "minecraft:range_choice",
-              "input": "compromise:climate/temperature",
-              "min_inclusive": 0.5,
-              "max_exclusive": 1000000,
-              "when_in_range": 1,
-              "when_out_of_range": 0
-            },
-            "right": {
-              "type": "minecraft:range_choice",
-              "input": "compromise:terrain/beta_relief",
-              "min_inclusive": 9,
-              "max_exclusive": 1000000,
-              "when_in_range": 1,
-              "when_out_of_range": 0
-            }
+            "type": "minecraft:range_choice",
+            "input": "compromise:climate/temperature",
+            "min_inclusive": 0.5,
+            "max_exclusive": 1000000,
+            "when_in_range": 1,
+            "when_out_of_range": 0
           },
           "right": {
             "type": "minecraft:range_choice",
