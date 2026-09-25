@@ -39,7 +39,7 @@
               "left": 12.5,
               "right": {
                 "type": "minecraft:abs",
-                "input": "compromise:climate/ridges"
+                "input": "minecraft:overworld/ridges"
               }
             }
           }
