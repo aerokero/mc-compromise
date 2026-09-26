@@ -14,7 +14,7 @@
           "type": "minecraft:add",
           "left": {
             "type": "minecraft:mul",
-            "left": 110,
+            "left": 60,
             "right": "compromise:modern/summit_selector"
           },
           "right": {

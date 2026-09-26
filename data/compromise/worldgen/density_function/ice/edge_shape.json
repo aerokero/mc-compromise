@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:slice",
+    "axis": "y",
+    "coordinate": 0,
+    "input": {
+      "type": "minecraft:clamp",
+      "input": {
+        "type": "minecraft:noise",
+        "noise": "compromise:alpha11/ice/edge_shape",
+        "xz_scale": 1,
+        "y_scale": 0
+      },
+      "min": -1,
+      "max": 1
+    }
+  }
+}

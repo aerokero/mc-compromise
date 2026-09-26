@@ -1,1 +1,16 @@
-give @s minecraft:light_blue_shulker_box[minecraft:container=[{slot:0b,item:{id:"minecraft:iron_axe",count:1,components:{"minecraft:item_model":"minecraft:copper_axe"}}},{slot:1b,item:{id:"minecraft:iron_pickaxe",count:1,components:{"minecraft:item_model":"minecraft:copper_pickaxe"}}},{slot:2b,item:{id:"minecraft:iron_shovel",count:1,components:{"minecraft:item_model":"minecraft:copper_shovel"}}},{slot:3b,item:{id:"minecraft:iron_hoe",count:1,components:{"minecraft:item_model":"minecraft:copper_hoe"}}},{slot:4b,item:{id:"minecraft:iron_sword",count:1,components:{"minecraft:item_model":"minecraft:copper_sword"}}},{slot:5b,item:{id:"minecraft:iron_shears",count:1,components:{"minecraft:item_model":"minecraft:copper_shears"}}},{slot:6b,item:{id:"minecraft:iron_hoe",count:1,components:{"minecraft:item_model":"minecraft:copper_mattock"}}},{slot:7b,item:{id:"minecraft:iron_shovel",count:1,components:{"minecraft:item_model":"minecraft:copper_dolabra"}}},{slot:8b,item:{id:"minecraft:iron_spear",count:1,components:{"minecraft:item_model":"minecraft:iron_spear"}}},{slot:9b,item:{id:"minecraft:bow",count:1,components:{"minecraft:item_model":"minecraft:compound_bow"}}},{slot:10b,item:{id:"minecraft:iron_axe",count:1,components:{"minecraft:item_model":"minecraft:butcher_knife"}}},{slot:11b,item:{id:"minecraft:iron_hoe",count:1,components:{"minecraft:item_model":"minecraft:crook"}}},{slot:12b,item:{id:"minecraft:iron_axe",count:1,components:{"minecraft:item_model":"minecraft:bloodrage_hatchet"}}},{slot:13b,item:{id:"minecraft:iron_axe",count:1,components:{"minecraft:item_model":"minecraft:rusty_axe"}}},{slot:14b,item:{id:"minecraft:flint_and_steel",count:1,components:{"minecraft:item_model":"minecraft:tinder"}}}],minecraft:custom_name='{"text":"Narzędzia"}'] 1
+# Custom and added tools
+give @s minecraft:iron_axe[minecraft:item_model="minecraft:copper_axe"] 1
+give @s minecraft:iron_pickaxe[minecraft:item_model="minecraft:copper_pickaxe"] 1
+give @s minecraft:iron_shovel[minecraft:item_model="minecraft:copper_shovel"] 1
+give @s minecraft:iron_hoe[minecraft:item_model="minecraft:copper_hoe"] 1
+give @s minecraft:iron_sword[minecraft:item_model="minecraft:copper_sword"] 1
+give @s minecraft:iron_shears[minecraft:item_model="minecraft:copper_shears"] 1
+give @s minecraft:iron_hoe[minecraft:item_model="minecraft:copper_mattock"] 1
+give @s minecraft:iron_shovel[minecraft:item_model="minecraft:copper_dolabra"] 1
+give @s minecraft:iron_spear[minecraft:item_model="minecraft:iron_spear"] 1
+give @s minecraft:bow[minecraft:item_model="minecraft:compound_bow"] 1
+give @s minecraft:iron_axe[minecraft:item_model="minecraft:butcher_knife"] 1
+give @s minecraft:iron_hoe[minecraft:item_model="minecraft:crook"] 1
+give @s minecraft:iron_axe[minecraft:item_model="minecraft:bloodrage_hatchet"] 1
+give @s minecraft:iron_axe[minecraft:item_model="minecraft:rusty_axe"] 1
+give @s minecraft:flint_and_steel[minecraft:item_model="minecraft:tinder"] 1
