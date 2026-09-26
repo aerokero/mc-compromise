@@ -6,7 +6,7 @@
     "first": "compromise:terrain/ordinary_height",
     "second": {
       "type": "minecraft:add",
-      "left": 63.6,
+      "left": 62.6,
       "right": {
         "type": "minecraft:mul",
         "left": 0.9,

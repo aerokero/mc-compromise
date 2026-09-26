@@ -1,10 +1,1 @@
-# Custom meals
-give @s minecraft:rabbit_stew[minecraft:item_model="minecraft:japanese_curry"] 1
-give @s minecraft:rabbit_stew[minecraft:item_model="minecraft:beetroot_curry"] 1
-give @s minecraft:rabbit_stew[minecraft:item_model="minecraft:curry_stock"] 1
-give @s minecraft:rabbit_stew[minecraft:item_model="minecraft:beetroot_curry_stock"] 1
-give @s minecraft:bread[minecraft:item_model="minecraft:grilled_melon"] 1
-give @s minecraft:bread[minecraft:item_model="minecraft:grilled_tomatoes"] 1
-give @s minecraft:honey_bottle[minecraft:item_model="minecraft:honey_ginger_tea"] 1
-give @s minecraft:glow_berries[minecraft:item_model="minecraft:glow_jam"] 1
-give @s minecraft:bread[minecraft:item_model="minecraft:tallow"] 1
+give @s minecraft:orange_shulker_box[minecraft:container=[{slot:0b,item:{id:"minecraft:rabbit_stew",count:1,components:{"minecraft:item_model":"minecraft:japanese_curry"}}},{slot:1b,item:{id:"minecraft:rabbit_stew",count:1,components:{"minecraft:item_model":"minecraft:beetroot_curry"}}},{slot:2b,item:{id:"minecraft:rabbit_stew",count:1,components:{"minecraft:item_model":"minecraft:curry_stock"}}},{slot:3b,item:{id:"minecraft:rabbit_stew",count:1,components:{"minecraft:item_model":"minecraft:beetroot_curry_stock"}}},{slot:4b,item:{id:"minecraft:bread",count:1,components:{"minecraft:item_model":"minecraft:grilled_melon"}}},{slot:5b,item:{id:"minecraft:bread",count:1,components:{"minecraft:item_model":"minecraft:grilled_tomatoes"}}},{slot:6b,item:{id:"minecraft:honey_bottle",count:1,components:{"minecraft:item_model":"minecraft:honey_ginger_tea"}}},{slot:7b,item:{id:"minecraft:glow_berries",count:1,components:{"minecraft:item_model":"minecraft:glow_jam"}}},{slot:8b,item:{id:"minecraft:bread",count:1,components:{"minecraft:item_model":"minecraft:tallow"}}}],minecraft:custom_name='{"text":"Jedzenie"}'] 1

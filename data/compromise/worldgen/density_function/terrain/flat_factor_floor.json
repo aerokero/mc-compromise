@@ -6,7 +6,7 @@
     "coordinate": 0,
     "input": {
       "type": "minecraft:mul",
-      "left": 9.0,
+      "left": 6.5,
       "right": {
         "type": "minecraft:mul",
         "left": {

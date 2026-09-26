@@ -1,14 +1,1 @@
-# Added armor variants
-give @s minecraft:leather_helmet[minecraft:item_model="minecraft:cactus_helmet"] 1
-give @s minecraft:leather_chestplate[minecraft:item_model="minecraft:cactus_chestplate"] 1
-give @s minecraft:leather_leggings[minecraft:item_model="minecraft:cactus_leggings"] 1
-give @s minecraft:leather_boots[minecraft:item_model="minecraft:cactus_boots"] 1
-give @s minecraft:leather_helmet[minecraft:item_model="minecraft:sturdy_leather_helmet"] 1
-give @s minecraft:leather_chestplate[minecraft:item_model="minecraft:sturdy_leather_chestplate"] 1
-give @s minecraft:leather_leggings[minecraft:item_model="minecraft:sturdy_leather_leggings"] 1
-give @s minecraft:leather_boots[minecraft:item_model="minecraft:sturdy_leather_boots"] 1
-give @s minecraft:golden_helmet[minecraft:item_model="minecraft:ruby_circlet"] 1
-give @s minecraft:golden_helmet[minecraft:item_model="minecraft:opal_earrings"] 1
-give @s minecraft:golden_helmet[minecraft:item_model="minecraft:amber_earrings"] 1
-give @s minecraft:golden_helmet[minecraft:item_model="minecraft:topaz_earrings"] 1
-give @s minecraft:golden_helmet[minecraft:item_model="minecraft:bronze_laurel"] 1
+give @s minecraft:purple_shulker_box[minecraft:container=[{slot:0b,item:{id:"minecraft:leather_helmet",count:1,components:{"minecraft:item_model":"minecraft:cactus_helmet"}}},{slot:1b,item:{id:"minecraft:leather_chestplate",count:1,components:{"minecraft:item_model":"minecraft:cactus_chestplate"}}},{slot:2b,item:{id:"minecraft:leather_leggings",count:1,components:{"minecraft:item_model":"minecraft:cactus_leggings"}}},{slot:3b,item:{id:"minecraft:leather_boots",count:1,components:{"minecraft:item_model":"minecraft:cactus_boots"}}},{slot:4b,item:{id:"minecraft:leather_helmet",count:1,components:{"minecraft:item_model":"minecraft:sturdy_leather_helmet"}}},{slot:5b,item:{id:"minecraft:leather_chestplate",count:1,components:{"minecraft:item_model":"minecraft:sturdy_leather_chestplate"}}},{slot:6b,item:{id:"minecraft:leather_leggings",count:1,components:{"minecraft:item_model":"minecraft:sturdy_leather_leggings"}}},{slot:7b,item:{id:"minecraft:leather_boots",count:1,components:{"minecraft:item_model":"minecraft:sturdy_leather_boots"}}},{slot:8b,item:{id:"minecraft:golden_helmet",count:1,components:{"minecraft:item_model":"minecraft:ruby_circlet"}}},{slot:9b,item:{id:"minecraft:golden_helmet",count:1,components:{"minecraft:item_model":"minecraft:opal_earrings"}}},{slot:10b,item:{id:"minecraft:golden_helmet",count:1,components:{"minecraft:item_model":"minecraft:amber_earrings"}}},{slot:11b,item:{id:"minecraft:golden_helmet",count:1,components:{"minecraft:item_model":"minecraft:topaz_earrings"}}},{slot:12b,item:{id:"minecraft:golden_helmet",count:1,components:{"minecraft:item_model":"minecraft:bronze_laurel"}}}],minecraft:custom_name='{"text":"Zbroja i ozdoby"}'] 1

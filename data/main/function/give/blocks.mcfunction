@@ -1,14 +1,1 @@
-# Custom blocks and placeable items
-give @s minecraft:painting[minecraft:item_model="minecraft:application"] 1
-give @s minecraft:clay_ball[minecraft:item_model="minecraft:cheerful_clay_statue"] 1
-give @s minecraft:clay_ball[minecraft:item_model="minecraft:mournful_clay_statue"] 1
-give @s minecraft:painting[minecraft:item_model="minecraft:alban_painting"] 1
-give @s minecraft:painting[minecraft:item_model="minecraft:aztec_painting"] 1
-give @s minecraft:painting[minecraft:item_model="minecraft:aztec2_painting"] 1
-give @s minecraft:painting[minecraft:item_model="minecraft:backyard_painting"] 1
-give @s minecraft:painting[minecraft:item_model="minecraft:baroque_painting"] 1
-give @s minecraft:painting[minecraft:item_model="minecraft:bomb_painting"] 1
-give @s minecraft:painting[minecraft:item_model="minecraft:bouquet_painting"] 1
-give @s minecraft:painting[minecraft:item_model="minecraft:cavebird_painting"] 1
-give @s minecraft:painting[minecraft:item_model="minecraft:changing_painting"] 1
-give @s minecraft:painting[minecraft:item_model="minecraft:cotan_painting"] 1
+give @s minecraft:green_shulker_box[minecraft:container=[{slot:0b,item:{id:"minecraft:painting",count:1,components:{"minecraft:item_model":"minecraft:application"}}},{slot:1b,item:{id:"minecraft:clay_ball",count:1,components:{"minecraft:item_model":"minecraft:cheerful_clay_statue"}}},{slot:2b,item:{id:"minecraft:clay_ball",count:1,components:{"minecraft:item_model":"minecraft:mournful_clay_statue"}}},{slot:3b,item:{id:"minecraft:painting",count:1,components:{"minecraft:item_model":"minecraft:alban_painting"}}},{slot:4b,item:{id:"minecraft:painting",count:1,components:{"minecraft:item_model":"minecraft:aztec_painting"}}},{slot:5b,item:{id:"minecraft:painting",count:1,components:{"minecraft:item_model":"minecraft:aztec2_painting"}}},{slot:6b,item:{id:"minecraft:painting",count:1,components:{"minecraft:item_model":"minecraft:backyard_painting"}}},{slot:7b,item:{id:"minecraft:painting",count:1,components:{"minecraft:item_model":"minecraft:baroque_painting"}}},{slot:8b,item:{id:"minecraft:painting",count:1,components:{"minecraft:item_model":"minecraft:bomb_painting"}}},{slot:9b,item:{id:"minecraft:painting",count:1,components:{"minecraft:item_model":"minecraft:bouquet_painting"}}},{slot:10b,item:{id:"minecraft:painting",count:1,components:{"minecraft:item_model":"minecraft:cavebird_painting"}}},{slot:11b,item:{id:"minecraft:painting",count:1,components:{"minecraft:item_model":"minecraft:changing_painting"}}},{slot:12b,item:{id:"minecraft:painting",count:1,components:{"minecraft:item_model":"minecraft:cotan_painting"}}}],minecraft:custom_name='{"text":"Bloki"}'] 1

@@ -5,9 +5,10 @@
     "axis": "y",
     "coordinate": 0,
     "input": {
-      "type": "minecraft:min",
-      "left": "compromise:ice/nearest_1",
-      "right": "compromise:ice/seed_2/distance_squared"
+      "type": "minecraft:noise",
+      "noise": "compromise:alpha11/ice/floe_shape",
+      "xz_scale": 1,
+      "y_scale": 0
     }
   }
 }

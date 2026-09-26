@@ -42,7 +42,11 @@
               }
             }
           },
-          "right": "compromise:terrain/factor"
+          "right": {
+            "type": "minecraft:max",
+            "left": "compromise:terrain/factor",
+            "right": "compromise:terrain/flat_factor_floor"
+          }
         }
       }
     },

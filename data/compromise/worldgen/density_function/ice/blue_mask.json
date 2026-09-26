@@ -5,8 +5,8 @@
     "left": "compromise:ice/solid_mask",
     "right": {
       "type": "minecraft:range_choice",
-      "input": "compromise:ice/owner_trait",
-      "min_inclusive": 0.48,
+      "input": "compromise:ice/floe_field",
+      "min_inclusive": 0.55,
       "max_exclusive": 1000000,
       "when_in_range": 1,
       "when_out_of_range": 0
