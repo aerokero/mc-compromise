@@ -160,7 +160,7 @@
                 "invert": {
                   "type": "minecraft:y_above",
                   "anchor": {
-                    "absolute": 224
+                    "absolute": 66
                   },
                   "add_stone_depth": true,
                   "surface_depth_multiplier": 0
@@ -485,7 +485,7 @@
                             "if_true": {
                               "type": "minecraft:noise_threshold",
                               "noise": "compromise:sand_beach",
-                               "min_threshold": -0.15,
+                              "min_threshold": -0.15,
                               "max_threshold": 1.7976931348623157e+308
                             },
                             "then_run": {
@@ -604,7 +604,7 @@
                               "type": "minecraft:noise_threshold",
                               "noise": "compromise:gravel_beach",
                               "min_threshold": -1.7976931348623157e+308,
-                               "max_threshold": -0.22
+                              "max_threshold": -0.22
                             },
                             "then_run": {
                               "type": "minecraft:sequence",
@@ -2008,16 +2008,31 @@
                             {
                               "type": "minecraft:condition",
                               "if_true": {
-                                "type": "minecraft:water",
-                                "add_stone_depth": false,
-                                "offset": 0,
-                                "surface_depth_multiplier": 0
+                                "type": "minecraft:noise_threshold",
+                                "max_threshold": 0.32,
+                                "min_threshold": 0,
+                                "noise": "minecraft:powder_snow"
                               },
                               "then_run": {
-                                "type": "minecraft:block",
-                                "result_state": {
-                                  "id": "minecraft:snow_block"
+                                "type": "minecraft:condition",
+                                "if_true": {
+                                  "type": "minecraft:water",
+                                  "add_stone_depth": false,
+                                  "offset": 0,
+                                  "surface_depth_multiplier": 0
+                                },
+                                "then_run": {
+                                  "type": "minecraft:block",
+                                  "result_state": {
+                                    "id": "minecraft:snow_block"
+                                  }
                                 }
+                              }
+                            },
+                            {
+                              "type": "minecraft:block",
+                              "result_state": {
+                                "id": "minecraft:stone"
                               }
                             }
                           ]
@@ -2853,16 +2868,31 @@
                             {
                               "type": "minecraft:condition",
                               "if_true": {
-                                "type": "minecraft:water",
-                                "add_stone_depth": false,
-                                "offset": 0,
-                                "surface_depth_multiplier": 0
+                                "type": "minecraft:noise_threshold",
+                                "max_threshold": 0.32,
+                                "min_threshold": 0,
+                                "noise": "minecraft:powder_snow"
                               },
                               "then_run": {
-                                "type": "minecraft:block",
-                                "result_state": {
-                                  "id": "minecraft:snow_block"
+                                "type": "minecraft:condition",
+                                "if_true": {
+                                  "type": "minecraft:water",
+                                  "add_stone_depth": false,
+                                  "offset": 0,
+                                  "surface_depth_multiplier": 0
+                                },
+                                "then_run": {
+                                  "type": "minecraft:block",
+                                  "result_state": {
+                                    "id": "minecraft:snow_block"
+                                  }
                                 }
+                              }
+                            },
+                            {
+                              "type": "minecraft:block",
+                              "result_state": {
+                                "id": "minecraft:stone"
                               }
                             }
                           ]
