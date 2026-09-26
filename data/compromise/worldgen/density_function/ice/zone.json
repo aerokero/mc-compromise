@@ -18,7 +18,7 @@
         },
         "right": {
           "type": "minecraft:range_choice",
-          "input": "compromise:mainland/coast_coordinate",
+          "input": "compromise:climate/continents",
           "min_inclusive": -1000000,
           "max_exclusive": -0.19,
           "when_in_range": 1,

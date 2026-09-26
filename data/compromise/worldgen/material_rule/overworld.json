@@ -21,52 +21,73 @@
       }
     },
     {
-      "type": "minecraft:ore_vein",
-      "ore_block": {
-        "id": "minecraft:snow_block"
+      "type": "minecraft:condition",
+      "if_true": {
+        "type": "minecraft:biome",
+        "biome_is": ["minecraft:frozen_ocean", "minecraft:deep_frozen_ocean"]
       },
-      "raw_ore_block": {
-        "id": "minecraft:snow_block"
-      },
-      "filler_block": {
-        "id": "minecraft:snow_block"
-      },
-      "raw_ore_chance": 0,
-      "density": "compromise:ice/snow_mask",
-      "richness": 1,
-      "filler_gap": -1
+      "then_run": {
+        "type": "minecraft:ore_vein",
+        "ore_block": {
+          "id": "minecraft:snow_block"
+        },
+        "raw_ore_block": {
+          "id": "minecraft:snow_block"
+        },
+        "filler_block": {
+          "id": "minecraft:snow_block"
+        },
+        "raw_ore_chance": 0,
+        "density": "compromise:ice/snow_mask",
+        "richness": 1,
+        "filler_gap": -1
+      }
     },
     {
-      "type": "minecraft:ore_vein",
-      "ore_block": {
-        "id": "minecraft:blue_ice"
+      "type": "minecraft:condition",
+      "if_true": {
+        "type": "minecraft:biome",
+        "biome_is": ["minecraft:frozen_ocean", "minecraft:deep_frozen_ocean"]
       },
-      "raw_ore_block": {
-        "id": "minecraft:blue_ice"
-      },
-      "filler_block": {
-        "id": "minecraft:blue_ice"
-      },
-      "raw_ore_chance": 0,
-      "density": "compromise:ice/blue_mask",
-      "richness": 1,
-      "filler_gap": -1
+      "then_run": {
+        "type": "minecraft:ore_vein",
+        "ore_block": {
+          "id": "minecraft:blue_ice"
+        },
+        "raw_ore_block": {
+          "id": "minecraft:blue_ice"
+        },
+        "filler_block": {
+          "id": "minecraft:blue_ice"
+        },
+        "raw_ore_chance": 0,
+        "density": "compromise:ice/blue_mask",
+        "richness": 1,
+        "filler_gap": -1
+      }
     },
     {
-      "type": "minecraft:ore_vein",
-      "ore_block": {
-        "id": "minecraft:packed_ice"
+      "type": "minecraft:condition",
+      "if_true": {
+        "type": "minecraft:biome",
+        "biome_is": ["minecraft:frozen_ocean", "minecraft:deep_frozen_ocean"]
       },
-      "raw_ore_block": {
-        "id": "minecraft:packed_ice"
-      },
-      "filler_block": {
-        "id": "minecraft:packed_ice"
-      },
-      "raw_ore_chance": 0,
-      "density": "compromise:ice/solid_mask",
-      "richness": 1,
-      "filler_gap": -1
+      "then_run": {
+        "type": "minecraft:ore_vein",
+        "ore_block": {
+          "id": "minecraft:packed_ice"
+        },
+        "raw_ore_block": {
+          "id": "minecraft:packed_ice"
+        },
+        "filler_block": {
+          "id": "minecraft:packed_ice"
+        },
+        "raw_ore_chance": 0,
+        "density": "compromise:ice/solid_mask",
+        "richness": 1,
+        "filler_gap": -1
+      }
     },
     {
       "type": "minecraft:condition",

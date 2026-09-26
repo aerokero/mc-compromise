@@ -88,7 +88,7 @@
     "min_y": -64
   },
   "noise_router": {
-    "continents": "minecraft:overworld/continents",
+    "continents": "compromise:climate/continents",
     "temperature": "compromise:climate/temperature",
     "vegetation": "compromise:climate/humidity",
     "erosion": "compromise:climate/erosion",

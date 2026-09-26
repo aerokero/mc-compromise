@@ -7,30 +7,34 @@
     "input": {
       "type": "minecraft:cache",
       "input": {
-        "type": "minecraft:clamp",
-        "input": {
-          "type": "minecraft:add",
-          "left": "compromise:land/main",
-          "right": {
-            "type": "minecraft:mul",
-            "left": "compromise:mainland/coast_zone",
+        "type": "minecraft:max",
+        "left": "minecraft:overworld/continents",
+        "right": {
+          "type": "minecraft:clamp",
+          "input": {
+            "type": "minecraft:add",
+            "left": "compromise:land/main",
             "right": {
-              "type": "minecraft:add",
-              "left": {
-                "type": "minecraft:mul",
-                "left": 0.05,
-                "right": "compromise:field/coast_macro_raw"
-              },
+              "type": "minecraft:mul",
+              "left": "compromise:mainland/coast_zone",
               "right": {
-                "type": "minecraft:mul",
-                "left": 0.022,
-                "right": "compromise:field/coast_fine_raw"
+                "type": "minecraft:add",
+                "left": {
+                  "type": "minecraft:mul",
+                  "left": 0.05,
+                  "right": "compromise:field/coast_macro_raw"
+                },
+                "right": {
+                  "type": "minecraft:mul",
+                  "left": 0.022,
+                  "right": "compromise:field/coast_fine_raw"
+                }
               }
             }
-          }
-        },
-        "min": -1.05,
-        "max": 1
+          },
+          "min": -1.05,
+          "max": 1
+        }
       }
     }
   }
