@@ -4,6 +4,53 @@
     "type": "minecraft:slice",
     "axis": "y",
     "coordinate": 0,
-    "input": "compromise:modern/body_profile"
+    "input": {
+      "type": "minecraft:spline",
+      "spline": {
+        "coordinate": "compromise:modern/body_spine",
+        "points": [
+          {
+            "location": 0,
+            "value": 0,
+            "derivative": 0
+          },
+          {
+            "location": 0.2,
+            "value": 0.005,
+            "derivative": 0.05
+          },
+          {
+            "location": 0.4,
+            "value": 0.04,
+            "derivative": 0.35
+          },
+          {
+            "location": 0.55,
+            "value": 0.14,
+            "derivative": 1
+          },
+          {
+            "location": 0.7,
+            "value": 0.36,
+            "derivative": 1.6
+          },
+          {
+            "location": 0.82,
+            "value": 0.62,
+            "derivative": 1.6
+          },
+          {
+            "location": 0.92,
+            "value": 0.88,
+            "derivative": 1.2
+          },
+          {
+            "location": 1,
+            "value": 1,
+            "derivative": 0
+          }
+        ]
+      }
+    }
   }
 }

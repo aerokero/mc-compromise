@@ -13,12 +13,12 @@
       },
       "right": {
         "type": "minecraft:add",
-        "left": 45,
+        "left": 36,
         "right": {
           "type": "minecraft:add",
           "left": {
             "type": "minecraft:mul",
-            "left": 20,
+            "left": 14,
             "right": "compromise:modern/body_axis"
           },
           "right": {

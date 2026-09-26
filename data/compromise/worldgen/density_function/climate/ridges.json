@@ -28,9 +28,9 @@
             "when_in_range": {
               "type": "minecraft:range_choice",
               "input": "compromise:modern/summit_selector",
-              "min_inclusive": 0.82,
+              "min_inclusive": 0.92,
               "max_exclusive": 1000000,
-              "when_in_range": 0.86,
+              "when_in_range": 0.92,
               "when_out_of_range": 0.5
             },
             "when_out_of_range": 0.5
