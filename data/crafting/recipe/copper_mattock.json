@@ -15,7 +15,8 @@
     "id": "minecraft:copper_hoe",
     "components": {
       "minecraft:item_name": {
-        "translate": "item.minecraft.copper_mattock"
+        "translate": "item.minecraft.copper_mattock",
+        "color": "gold"
       },
       "minecraft:item_model": "minecraft:copper_mattock",
       "minecraft:max_damage": 350,
@@ -57,7 +58,11 @@
           "operation": "add_value",
           "slot": "mainhand"
         }
-      ]
+      ],
+      "minecraft:enchantments": {
+        "minecraft:fortune": 1
+      },
+      "minecraft:enchantment_glint_override": false
     }
   },
   "group": "mattock"
