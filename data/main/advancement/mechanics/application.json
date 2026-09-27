@@ -7,7 +7,12 @@
           "type": "minecraft:match_tool",
           "predicate": {
             "components": {
-              "minecraft:item_model": "minecraft:application"
+              "minecraft:entity_data": {
+                "id": "minecraft:villager",
+                "Tags": [
+                  "compromise.asylum_seeker"
+                ]
+              }
             }
           }
         }

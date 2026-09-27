@@ -37,11 +37,6 @@
           "type": "minecraft:item",
           "name": "minecraft:wheat",
           "weight": 3
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "minecraft:archaeology/statues",
-          "quality": 1
         }
       ],
       "rolls": 1

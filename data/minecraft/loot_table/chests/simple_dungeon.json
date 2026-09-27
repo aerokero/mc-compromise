@@ -297,11 +297,7 @@
         "max": 1
       },
       "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "value": "minecraft:kleis_items/enoch",
-          "weight": 1
-        },
+        
         {
           "type": "minecraft:loot_table",
           "value": "minecraft:kleis_items/crystal_heart",

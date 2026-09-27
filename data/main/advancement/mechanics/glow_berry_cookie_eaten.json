@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "eat_glow_berry_cookie": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:item_name": {
+              "translate": "item.minecraft.glow_berry_cookie"
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "eat_glow_berry_cookie"
+    ]
+  ],
+  "rewards": {
+    "function": "main:effects/soul_sight_effect_30"
+  }
+}

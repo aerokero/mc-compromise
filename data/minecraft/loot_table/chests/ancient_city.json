@@ -299,12 +299,7 @@
           "name": "minecraft:silence_armor_trim_smithing_template",
           "quality": -1
         },
-        {
-          "type": "minecraft:loot_table",
-          "value": "minecraft:kleis_items/topaz",
-          "weight": 5,
-          "quality": 1
-        },
+        
         {
           "type": "minecraft:loot_table",
           "value": "minecraft:kleis_items/crystal_heart",

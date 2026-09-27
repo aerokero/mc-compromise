@@ -7,7 +7,7 @@
         "items": [
           {
             "components": {
-              "minecraft:item_model": "heart_container"
+              "minecraft:custom_data": {"compromise_crystal_heart": 1}
             }
           }
         ]
@@ -20,7 +20,7 @@
     },
     "icon": {
       "components": {
-        "minecraft:item_model": "heart_container"
+        "minecraft:custom_data": {"compromise_crystal_heart": 1}
       },
       "count": 1,
       "id": "minecraft:poisonous_potato"

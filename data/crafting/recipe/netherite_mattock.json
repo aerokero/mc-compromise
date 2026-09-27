@@ -1,0 +1,64 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:stick",
+    "X": "minecraft:netherite_ingot"
+  },
+  "pattern": [
+    "XX ",
+    " #X",
+    " # "
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:netherite_hoe",
+    "components": {
+      "minecraft:item_name": {
+        "translate": "item.minecraft.netherite_mattock"
+      },
+      "minecraft:item_model": "minecraft:netherite_mattock",
+      "minecraft:max_damage": 5000,
+      "minecraft:tool": {
+        "rules": [
+          {
+            "blocks": "#minecraft:mineable/hoe",
+            "speed": 8,
+            "correct_for_drops": true
+          },
+          {
+            "blocks": "#minecraft:mineable/shovel",
+            "speed": 8,
+            "correct_for_drops": true
+          }
+        ],
+        "default_mining_speed": 1,
+        "damage_per_block": 1
+      },
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:attack_damage",
+          "id": "minecraft:base_attack_damage",
+          "amount": 3,
+          "operation": "add_value",
+          "slot": "mainhand"
+        },
+        {
+          "type": "minecraft:attack_speed",
+          "id": "minecraft:base_attack_speed",
+          "amount": -0.5,
+          "operation": "add_value",
+          "slot": "mainhand"
+        },
+        {
+          "type": "minecraft:entity_interaction_range",
+          "id": "minecraft:base_attack_range",
+          "amount": 0.5,
+          "operation": "add_value",
+          "slot": "mainhand"
+        }
+      ]
+    }
+  },
+  "group": "mattock"
+}

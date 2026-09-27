@@ -20,9 +20,6 @@
       "text": "Give shelter to a wandering villager"
     },
     "icon": {
-      "components": {
-        "minecraft:item_model": "minecraft:application"
-      },
       "count": 1,
       "id": "minecraft:villager_spawn_egg"
     },

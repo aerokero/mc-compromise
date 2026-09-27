@@ -18,18 +18,21 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:bone_meal",
-          "conditions": [
-            {
-              "chance": 0.05,
-              "type": "minecraft:random_chance"
-            }
-          ],
-          "functions": [
+          "condition": {
+            "type": "minecraft:all_of",
+            "terms": [
+              {
+                "chance": 0.05,
+                "type": "minecraft:random_chance"
+              }
+            ]
+          },
+          "modifier": [
             {
               "count": {
                 "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 2.0
+                "min": 1,
+                "max": 2
               },
               "add": false,
               "type": "minecraft:set_count"
@@ -38,8 +41,8 @@
               "enchantment": "minecraft:looting",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 0.0,
-                "max": 1.0
+                "min": 0,
+                "max": 1
               },
               "type": "minecraft:enchanted_count_increase"
             }

@@ -1,0 +1,19 @@
+{
+  "gives": {
+    "id": "minecraft:villager_spawn_egg",
+    "count": 1,
+    "components": {
+      "minecraft:entity_data": {
+        "id": "minecraft:villager",
+        "Tags": [
+          "compromise.asylum_seeker"
+        ]
+      },
+      "minecraft:item_name": "Asylum Seeker"
+    }
+  },
+  "max_uses": 1,
+  "wants": {
+    "id": "minecraft:emerald"
+  }
+}

@@ -3,7 +3,7 @@ execute at @e[type=item,nbt={Item:{id:"minecraft:ender_eye"}}] run data merge en
 execute if stopwatch 0.5s 0.5.. run execute at @e[type=item,nbt={NoGravity:1b,Item:{id:"minecraft:nether_star"}}] run particle minecraft:end_rod ~ ~.4 ~ 0 0 0 .05 1 force
 execute if stopwatch 0.5s 0.5.. run execute at @e[type=item,nbt={NoGravity:1b,Item:{id:"minecraft:nether_star"}}] run particle minecraft:electric_spark ~ ~.4 ~ .15 .15 .15 0 1 force
 execute if stopwatch 0.5s 0.5.. run execute at @e[type=item,nbt={Item:{id:"minecraft:echo_shard"}}] run particle minecraft:electric_spark ~ ~.4 ~ .1 .1 .1 0 1 normal
-execute if stopwatch 0.5s 0.5.. run execute at @e[type=item,nbt={Item:{components:{"minecraft:item_model":"minecraft:heart_container"}}}] run particle minecraft:electric_spark ~ ~.4 ~ .1 .1 .1 0 1 normal
+execute if stopwatch 0.5s 0.5.. run execute at @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{compromise_crystal_heart:1}}}}] run particle minecraft:electric_spark ~ ~.4 ~ .1 .1 .1 0 1 normal
 execute if stopwatch 0.5s 0.5.. run execute at @e[type=item,nbt={NoGravity:1b,Item:{id:"minecraft:ender_eye"}}] run particle minecraft:portal ~ ~.3 ~ .1 .1 .1 0.5 1 normal
 execute if stopwatch 3s 3.. run execute at @e[type=item,nbt={NoGravity:1b,Item:{id:"minecraft:nether_star"}}] run particle flash{color:[1.000,1.00,1.000,1.00]} ~ ~.4 ~ 0 0 0 0 0 normal
 #execute at @e[type=item,nbt={NoGravity:1b,Item:{id:"minecraft:nether_star"}}] run fill ~1 ~1 ~1 ~-1 ~-1 ~-1 air replace light

@@ -55,14 +55,6 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:phantom_membrane"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "minecraft:kleis_items/amber"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "minecraft:archaeology/statues"
         }
       ],
       "rolls": 1

@@ -18,30 +18,7 @@
           "name": "minecraft:leather",
           "weight": 15
         },
-        {
-          "type": "minecraft:item",
-          "modifier": [
-            {
-              "type": "minecraft:set_components",
-              "components": {
-                "minecraft:item_model": "minecraft:tallow",
-                "minecraft:item_name": {
-                  "translate": "item.minecraft.tallow"
-                }
-              }
-            },
-            {
-              "type": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 2,
-                "min": 1
-              }
-            }
-          ],
-          "name": "minecraft:honeycomb",
-          "weight": 15
-        },
+        
         {
           "type": "minecraft:item",
           "modifier": [

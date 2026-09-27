@@ -32,7 +32,9 @@
       "minecraft:wooden_hoe",
       "minecraft:wooden_sword",
       "minecraft:wooden_spear",
-      "minecraft:chest"
+      "minecraft:chest",
+      "crafting:wooden_dolabra",
+      "crafting:wooden_mattock"
     ]
   }
 }

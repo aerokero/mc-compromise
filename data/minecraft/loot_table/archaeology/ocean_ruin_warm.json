@@ -39,20 +39,7 @@
           "name": "minecraft:gold_nugget",
           "weight": 2
         },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_axe",
-          "modifier": [
-            {
-              "type": "minecraft:set_components",
-              "components": {
-                "minecraft:damage": 140,
-                "minecraft:item_model": "minecraft:rusty_axe",
-                "minecraft:item_name": "Rusty Axe"
-              }
-            }
-          ]
-        },
+        
         {
           "type": "minecraft:loot_table",
           "value": "minecraft:chests/equipment/trident",

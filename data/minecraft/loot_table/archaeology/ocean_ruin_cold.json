@@ -19,20 +19,7 @@
           "type": "minecraft:item",
           "name": "minecraft:plenty_pottery_sherd"
         },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_axe",
-          "modifier": [
-            {
-              "type": "minecraft:set_components",
-              "components": {
-                "minecraft:damage": 140,
-                "minecraft:item_model": "minecraft:rusty_axe",
-                "minecraft:item_name": "Rusty Axe"
-              }
-            }
-          ]
-        },
+        
         {
           "type": "minecraft:item",
           "name": "minecraft:emerald",

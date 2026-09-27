@@ -27,8 +27,7 @@
   "rewards": {
     "recipes": [
       "crafting:tomato_seeds_from_tomato",
-      "crafting:red_dye_from_tomato",
-      "food:grilled_tomatoes"
+      "crafting:red_dye_from_tomato"
     ]
   }
 }

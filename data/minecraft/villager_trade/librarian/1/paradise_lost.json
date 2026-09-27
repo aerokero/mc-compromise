@@ -2,7 +2,7 @@
   "gives": {
     "id": "minecraft:echo_shard",
     "components": {
-      "minecraft:item_model": "minecraft:heart_container",
+      "minecraft:custom_data": {"compromise_crystal_heart": 1},
       "minecraft:item_name": {
         "translate": "item.minecraft.crystal_heart"
       },

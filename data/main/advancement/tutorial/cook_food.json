@@ -43,20 +43,6 @@
         ]
       }
     },
-    "cook_tomatoes": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "components": {
-              "minecraft:item_name": {
-                "translate": "item.minecraft.grilled_tomatoes"
-              }
-            }
-          }
-        ]
-      }
-    },
     "cook_kelp": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -65,20 +51,6 @@
             "components": {
               "minecraft:custom_data": {
                 "compromise_cooked_food": "dried_kelp"
-              }
-            }
-          }
-        ]
-      }
-    },
-    "cook_honey": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "components": {
-              "minecraft:item_name": {
-                "translate": "item.minecraft.honey_ginger_tea"
               }
             }
           }
@@ -134,9 +106,7 @@
       "cook_melon",
       "cook_carrot",
       "cook_apple",
-      "cook_tomatoes",
       "cook_kelp",
-      "cook_honey",
       "cook_pumpkin",
       "cook_red_mushroom"
     ]
