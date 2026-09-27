@@ -5,9 +5,9 @@
   "max_exclusive": 128,
   "when_in_range": {
     "type": "minecraft:range_choice",
-    "input": "compromise:climate/continents",
-    "min_inclusive": -1000000,
-    "max_exclusive": -0.19,
+    "input": "compromise:terrain/ocean_mask",
+    "min_inclusive": 0.5,
+    "max_exclusive": 1.5,
     "when_in_range": 1,
     "when_out_of_range": 0
   },

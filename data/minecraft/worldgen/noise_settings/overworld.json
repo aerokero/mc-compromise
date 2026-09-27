@@ -50,7 +50,7 @@
       "xz_scale": 1,
       "y_scale": 1
     },
-    "surface_level": "compromise:water/aquifer_surface_level"
+    "surface_level": "compromise:terrain/chunk_surface_level"
   },
   "debug_functions": [
     {

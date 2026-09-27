@@ -74,7 +74,10 @@
                     "italic": false
                   }
                 ],
-                "minecraft:item_model": "minecraft:cooked_cod"
+                "minecraft:item_model": "minecraft:cooked_cod",
+                "minecraft:custom_data": {
+                  "compromise": 1
+                }
               },
               "type": "minecraft:set_components"
             }
@@ -151,7 +154,11 @@
                     "color": "red",
                     "italic": false
                   }
-                ]
+                ],
+                "minecraft:custom_data": {
+                  "compromise": 1
+                },
+                "minecraft:item_model": "minecraft:cod"
               },
               "type": "minecraft:set_components"
             }

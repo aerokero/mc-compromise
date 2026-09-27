@@ -100,47 +100,57 @@
           {
             "type": "minecraft:condition",
             "if_true": {
-              "type": "minecraft:hole"
+              "type": "minecraft:biome",
+              "biome_is": [
+                "minecraft:river",
+                "minecraft:frozen_river"
+              ]
             },
             "then_run": {
               "type": "minecraft:condition",
               "if_true": {
-                "offset": 0,
-                "add_surface_depth": false,
-                "secondary_depth_range": 0,
-                "surface_type": "floor",
-                "type": "minecraft:stone_depth"
+                "type": "minecraft:hole"
               },
               "then_run": {
-                "type": "minecraft:sequence",
-                "sequence": [
-                  {
-                    "type": "minecraft:condition",
-                    "if_true": {
-                      "type": "minecraft:y_above",
-                      "anchor": {
-                        "absolute": 63
+                "type": "minecraft:condition",
+                "if_true": {
+                  "offset": 0,
+                  "add_surface_depth": false,
+                  "secondary_depth_range": 0,
+                  "surface_type": "floor",
+                  "type": "minecraft:stone_depth"
+                },
+                "then_run": {
+                  "type": "minecraft:sequence",
+                  "sequence": [
+                    {
+                      "type": "minecraft:condition",
+                      "if_true": {
+                        "type": "minecraft:y_above",
+                        "anchor": {
+                          "absolute": 63
+                        },
+                        "add_stone_depth": false,
+                        "surface_depth_multiplier": 0
                       },
-                      "add_stone_depth": false,
-                      "surface_depth_multiplier": 0
+                      "then_run": {
+                        "type": "minecraft:block",
+                        "result_state": {
+                          "id": "minecraft:air"
+                        }
+                      }
                     },
-                    "then_run": {
+                    {
                       "type": "minecraft:block",
                       "result_state": {
-                        "id": "minecraft:air"
+                        "id": "minecraft:water",
+                        "properties": {
+                          "level": "0"
+                        }
                       }
                     }
-                  },
-                  {
-                    "type": "minecraft:block",
-                    "result_state": {
-                      "id": "minecraft:water",
-                      "properties": {
-                        "level": "0"
-                      }
-                    }
-                  }
-                ]
+                  ]
+                }
               }
             }
           },
