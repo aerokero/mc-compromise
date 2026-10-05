@@ -58,6 +58,9 @@
         "saturation": 0,
         "can_always_eat": true
       },
+      "minecraft:custom_data": {
+        "compromise": 1
+      },
       "minecraft:item_model": "minecraft:golden_steamed_carrot"
     }
   }

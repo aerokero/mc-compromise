@@ -13,6 +13,11 @@
         "italic": false
       },
       {
+        "text": "+2 Bonus Hearts (30:00)",
+        "color": "gold",
+        "italic": false
+      },
+      {
         "text": "Absorption (2:00)",
         "color": "aqua",
         "italic": false
@@ -50,6 +55,13 @@
               "duration": 2400,
               "show_particles": false,
               "show_icon": true
+            },
+            {
+              "id": "minecraft:luck",
+              "duration": 2,
+              "show_particles": false,
+              "show_icon": false,
+              "amplifier": 0
             }
           ],
           "probability": 1
@@ -62,7 +74,8 @@
       "can_always_eat": true
     },
     "minecraft:custom_data": {
-      "compromise": 1
+      "compromise": 1,
+      "compromise_yellow": 2
     }
   }
 }

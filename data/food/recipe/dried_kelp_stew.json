@@ -20,6 +20,11 @@
           "italic": false
         },
         {
+          "text": "+8 Bonus Hearts (30:00)",
+          "color": "gold",
+          "italic": false
+        },
+        {
           "text": "Haste II (30:00)",
           "color": "yellow",
           "italic": false
@@ -46,6 +51,13 @@
                 "duration": 36000,
                 "show_particles": false,
                 "show_icon": true
+              },
+              {
+                "id": "minecraft:luck",
+                "duration": 2,
+                "show_particles": false,
+                "show_icon": false,
+                "amplifier": 3
               }
             ],
             "probability": 1
@@ -59,6 +71,10 @@
         "nutrition": 0,
         "saturation": 0,
         "can_always_eat": true
+      },
+      "minecraft:custom_data": {
+        "compromise": 1,
+        "compromise_yellow": 12
       },
       "minecraft:use_remainder": {
         "id": "minecraft:bowl"

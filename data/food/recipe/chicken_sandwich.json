@@ -22,6 +22,10 @@
         "saturation": 0,
         "can_always_eat": true
       },
+      "minecraft:custom_data": {
+        "compromise": 1,
+        "compromise_yellow": 8
+      },
       "minecraft:consumable": {
         "consume_seconds": 1.2,
         "on_consume_effects": [
@@ -34,6 +38,13 @@
                 "duration": 72,
                 "show_particles": false,
                 "show_icon": false
+              },
+              {
+                "id": "minecraft:luck",
+                "duration": 2,
+                "show_particles": false,
+                "show_icon": false,
+                "amplifier": 2
               }
             ]
           }
@@ -49,6 +60,11 @@
         {
           "text": "+3 Hearts Restored",
           "color": "red",
+          "italic": false
+        },
+        {
+          "text": "+6 Bonus Hearts (30:00)",
+          "color": "gold",
           "italic": false
         }
       ],

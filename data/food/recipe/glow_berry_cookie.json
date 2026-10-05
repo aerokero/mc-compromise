@@ -19,6 +19,10 @@
         "saturation": 0,
         "can_always_eat": true
       },
+      "minecraft:custom_data": {
+        "compromise": 1,
+        "compromise_yellow": 2
+      },
       "minecraft:consumable": {
         "animation": "drink",
         "sound": "minecraft:item.honey_bottle.drink",
@@ -39,6 +43,13 @@
                 "duration": 600,
                 "show_particles": false,
                 "show_icon": true
+              },
+              {
+                "id": "minecraft:luck",
+                "duration": 2,
+                "show_particles": false,
+                "show_icon": false,
+                "amplifier": 0
               }
             ]
           }
@@ -54,6 +65,11 @@
         {
           "text": "+0,5 Hearts Restored",
           "color": "red",
+          "italic": false
+        },
+        {
+          "text": "+2 Bonus Hearts (30:00)",
+          "color": "gold",
           "italic": false
         },
         {

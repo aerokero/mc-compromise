@@ -1,10 +1,6 @@
 {
   "type": "minecraft:set_components",
   "components": {
-    "minecraft:rarity": "uncommon",
-    "minecraft:item_name": {
-      "translate": "item.minecraft.sugar_cane_cookie"
-    },
     "minecraft:food": {
       "nutrition": 0,
       "saturation": 0,
@@ -18,16 +14,24 @@
           "effects": [
             {
               "id": "minecraft:regeneration",
-              "duration": 600,
+              "amplifier": 2,
+              "duration": 12,
+              "show_particles": false,
+              "show_icon": false
+            },
+            {
+              "id": "minecraft:haste",
+              "amplifier": 0,
+              "duration": 200,
               "show_particles": false,
               "show_icon": true
             },
             {
-              "id": "minecraft:regeneration",
-              "amplifier": 2,
-              "duration": 24,
+              "id": "minecraft:luck",
+              "duration": 2,
               "show_particles": false,
-              "show_icon": false
+              "show_icon": false,
+              "amplifier": 0
             }
           ]
         }
@@ -46,13 +50,19 @@
         "italic": false
       },
       {
-        "text": "Regen (0:30)",
-        "color": "#e85e8f",
+        "text": "+2 Bonus Hearts (30:00)",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": "Haste (0:10)",
+        "color": "aqua",
         "italic": false
       }
     ],
     "minecraft:custom_data": {
-      "compromise": 1
+      "compromise": 1,
+      "compromise_yellow": 2
     }
   }
 }

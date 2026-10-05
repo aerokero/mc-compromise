@@ -39,5 +39,15 @@ execute at @a[scores={Hearts=23}] run attribute @p minecraft:max_health base set
 execute at @a[scores={Hearts=22}] run attribute @p minecraft:max_health base set 22
 execute at @a[scores={Hearts=21}] run attribute @p minecraft:max_health base set 21
 execute at @a[scores={Hearts=20}] run attribute @p minecraft:max_health base set 20
+execute at @a[scores={Hearts=19}] run attribute @p minecraft:max_health base set 19
+execute at @a[scores={Hearts=18}] run attribute @p minecraft:max_health base set 18
+execute at @a[scores={Hearts=17}] run attribute @p minecraft:max_health base set 17
+execute at @a[scores={Hearts=16}] run attribute @p minecraft:max_health base set 16
+execute at @a[scores={Hearts=15}] run attribute @p minecraft:max_health base set 15
+execute at @a[scores={Hearts=14}] run attribute @p minecraft:max_health base set 14
+execute at @a[scores={Hearts=13}] run attribute @p minecraft:max_health base set 13
+execute at @a[scores={Hearts=12}] run attribute @p minecraft:max_health base set 12
+execute at @a[scores={Hearts=11}] run attribute @p minecraft:max_health base set 11
+execute at @a[scores={Hearts=10}] run attribute @p minecraft:max_health base set 10
 execute at @a[scores={Hearts=60..}] run scoreboard players set @p Hearts 60
 tag @a[tag=AddingHearts,limit=1] remove AddingHearts

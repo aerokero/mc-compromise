@@ -17,7 +17,13 @@ scoreboard objectives add deaths deathCount
 scoreboard objectives add hungerLevel food
 scoreboard objectives add Hearts dummy
 scoreboard players add @a Hearts 0
-execute at @a[scores={Hearts=..20}] run scoreboard players set @p Hearts 20
+execute at @a[scores={Hearts=..10}] run scoreboard players set @p Hearts 10
+
+scoreboard objectives add yellowHearts dummy
+scoreboard players add @a yellowHearts 0
+
+scoreboard objectives add yellowHeartsSignal dummy
+scoreboard players add @a yellowHeartsSignal 0
 
 
 scoreboard players set 1 sleepTimerScore 1

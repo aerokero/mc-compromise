@@ -15,6 +15,13 @@
               "id": "minecraft:instant_health",
               "amplifier": 2,
               "show_particles": false
+            },
+            {
+              "id": "minecraft:luck",
+              "duration": 2,
+              "show_particles": false,
+              "show_icon": false,
+              "amplifier": 3
             }
           ]
         }
@@ -41,13 +48,19 @@
         "italic": false
       },
       {
+        "text": "+8 Bonus Hearts (30:00)",
+        "color": "gold",
+        "italic": false
+      },
+      {
         "text": "Full (2:00)",
         "color": "dark_green",
         "italic": false
       }
     ],
     "minecraft:custom_data": {
-      "compromise": 1
+      "compromise": 1,
+      "compromise_yellow": 12
     },
     "minecraft:item_model": "minecraft:squid_ink_stew"
   }
