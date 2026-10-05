@@ -64,7 +64,8 @@
       ],
       "minecraft:use_remainder": {
         "id": "minecraft:glass_bottle"
-      }
+      },
+      "minecraft:item_model": "minecraft:glow_berry_cookie"
     },
     "count": 4
   }

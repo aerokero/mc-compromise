@@ -13,7 +13,7 @@
         "italic": false
       },
       {
-        "text": "Invisibility (00:30)",
+        "text": "Invisibility (00:10)",
         "color": "#92b7ce",
         "italic": false
       }
@@ -34,7 +34,7 @@
             {
               "id": "minecraft:invisibility",
               "amplifier": 0,
-              "duration": 600,
+              "duration": 200,
               "show_particles": false,
               "show_icon": true
             }

@@ -6,7 +6,8 @@
     "minecraft:pumpkin",
     "minecraft:sugar",
     "#minecraft:eggs",
-    "minecraft:glow_berries"
+    "minecraft:glow_berries",
+    "minecraft:wheat"
   ],
   "result": {
     "id": "minecraft:pumpkin_pie",
@@ -59,7 +60,8 @@
           "color": "#e5d66f",
           "italic": false
         }
-      ]
+      ],
+      "minecraft:item_model": "minecraft:glow_berry_pie"
     }
   }
 }

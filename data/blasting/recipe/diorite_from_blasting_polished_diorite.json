@@ -1,7 +1,7 @@
 {
   "type": "minecraft:blasting",
   "group": "diorite",
-  "category": "misc",
+  "category": "blocks",
   "ingredient": "minecraft:polished_diorite",
   "result": {
     "id": "minecraft:diorite"

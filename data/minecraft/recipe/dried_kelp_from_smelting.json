@@ -1,9 +1,9 @@
 {
-  "type": "minecraft:smelting",
-  "category": "food",
-  "cookingtime": 200,
-  "experience": 0.35,
-  "ingredient": "#main:never",
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:barrier"
+  ],
   "result": {
     "id": "minecraft:dried_kelp"
   }

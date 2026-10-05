@@ -1,9 +1,12 @@
 {
-  "type": "minecraft:smelting",
+  "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "cookingtime": 200,
-  "experience": 0.7,
-  "ingredient": "#main:never",
+  "key": {
+    "X": "#main:never"
+  },
+  "pattern": [
+    "X"
+  ],
   "result": {
     "id": "minecraft:iron_ingot"
   }

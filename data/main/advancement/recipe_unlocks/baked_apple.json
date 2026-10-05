@@ -19,8 +19,7 @@
   ],
   "rewards": {
     "recipes": [
-      "food:apple_pie",
-      "food:apple_bread"
+      "food:apple_pie"
     ]
   }
 }

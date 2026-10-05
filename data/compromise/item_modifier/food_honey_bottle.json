@@ -2,7 +2,7 @@
   "type": "minecraft:set_components",
   "components": {
     "minecraft:item_name": {
-      "translate": "item.minecraft.mead"
+      "translate": "item.minecraft.honey_bottle"
     },
     "minecraft:food": {
       "nutrition": 0,

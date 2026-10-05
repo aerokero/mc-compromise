@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "cookie",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:melon_slice",
+    "minecraft:sugar",
+    "minecraft:wheat"
+  ],
+  "result": {
+    "id": "minecraft:cookie",
+    "components": {
+      "minecraft:rarity": "uncommon",
+      "minecraft:item_name": { "translate": "item.minecraft.melon_cookie" },
+      "minecraft:food": { "nutrition": 0, "saturation": 0, "can_always_eat": true },
+      "minecraft:consumable": {
+        "consume_seconds": 0.8,
+        "on_consume_effects": [{
+          "type": "minecraft:apply_effects",
+          "effects": [
+            { "id": "minecraft:regeneration", "amplifier": 2, "duration": 48, "show_particles": false, "show_icon": false },
+            { "id": "minecraft:fire_resistance", "duration": 600, "show_particles": false, "show_icon": true }
+          ]
+        }]
+      },
+      "minecraft:max_stack_size": 8,
+      "minecraft:lore": [
+        { "text": "When Eaten:", "color": "gray", "italic": false },
+        { "text": "+0,5 Hearts Restored", "color": "red", "italic": false },
+        { "text": "Fire Resistance (0:30)", "color": "gold", "italic": false }
+      ],
+      "minecraft:item_model": "minecraft:melon_cookie"
+    },
+    "count": 4
+  }
+}

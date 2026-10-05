@@ -13,7 +13,7 @@
         "italic": false
       },
       {
-        "text": "Weakness (00:30)",
+        "text": "Weakness (00:10)",
         "color": "#b6a09a",
         "italic": false
       }
@@ -34,7 +34,7 @@
             {
               "id": "minecraft:weakness",
               "amplifier": 0,
-              "duration": 600,
+              "duration": 200,
               "show_particles": false,
               "show_icon": true
             }

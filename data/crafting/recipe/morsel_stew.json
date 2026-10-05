@@ -1,16 +1,22 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "group": "rabbit_stew",
+  "type": "minecraft:crafting_shaped",
+  "group": "stew",
   "category": "misc",
-  "ingredients": [
-    "minecraft:bowl",
-    "minecraft:cooked_rabbit",
-    [
+  "key": {
+    "R": "minecraft:cooked_rabbit",
+    "M": [
       "minecraft:brown_mushroom",
       "minecraft:red_mushroom"
     ],
-    "minecraft:potato",
-    "minecraft:carrot"
+    "P": "minecraft:potato",
+    "C": "minecraft:carrot",
+    "W": "minecraft:water_bucket",
+    "B": "minecraft:bowl"
+  },
+  "pattern": [
+    "RMP",
+    "CW ",
+    "BBB"
   ],
   "result": {
     "components": {
@@ -52,7 +58,7 @@
         }
       ]
     },
-    "count": 1,
+    "count": 3,
     "id": "minecraft:rabbit_stew"
   }
 }

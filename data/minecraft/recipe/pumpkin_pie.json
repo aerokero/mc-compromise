@@ -5,7 +5,8 @@
   "ingredients": [
     "minecraft:pumpkin",
     "minecraft:sugar",
-    "#minecraft:eggs"
+    "#minecraft:eggs",
+    "minecraft:wheat"
   ],
   "result": {
     "id": "minecraft:pumpkin_pie",
@@ -17,12 +18,12 @@
           "italic": false
         },
         {
-          "text": "+1 Hearts Restored",
+          "text": "+4 Hearts Restored",
           "color": "red",
           "italic": false
         },
         {
-          "text": "Resistance (0:10)",
+          "text": "Resistance (3:00)",
           "color": "blue",
           "italic": false
         }
@@ -37,14 +38,14 @@
               {
                 "id": "minecraft:regeneration",
                 "amplifier": 2,
-                "duration": 24,
+                "duration": 96,
                 "show_particles": false,
                 "show_icon": false
               },
               {
                 "id": "minecraft:resistance",
                 "amplifier": 0,
-                "duration": 200,
+                "duration": 3600,
                 "show_particles": false,
                 "show_icon": true
               }

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "stew",
+  "category": "misc",
+  "key": {
+    "R": "minecraft:red_mushroom",
+    "M": "minecraft:brown_mushroom",
+    "W": "minecraft:water_bucket",
+    "B": "minecraft:bowl"
+  },
+  "pattern": [
+    "R M",
+    " W ",
+    "BBB"
+  ],
+  "result": {
+    "id": "minecraft:mushroom_stew",
+    "count": 3,
+    "components": {
+      "minecraft:max_stack_size": 16
+    }
+  }
+}

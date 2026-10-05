@@ -1,7 +1,7 @@
 {
   "type": "minecraft:blasting",
   "group": "cobbled_deepslate",
-  "category": "misc",
+  "category": "blocks",
   "ingredient": "minecraft:deepslate",
   "result": {
     "id": "minecraft:cobbled_deepslate"

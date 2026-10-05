@@ -1,20 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "rabbit_stew",
+  "group": "stew",
   "category": "misc",
   "key": {
-    "P": "minecraft:cooked_chicken",
-    "T": [
-      "minecraft:rabbit",
-      "minecraft:cooked_rabbit"
-    ],
-    "S": "minecraft:bone",
-    "B": "minecraft:bowl",
-    "M": "minecraft:water_bucket"
+    "C": "minecraft:cooked_chicken",
+    "P": "minecraft:potato",
+    "R": "minecraft:carrot",
+    "W": "minecraft:water_bucket",
+    "B": "minecraft:bowl"
   },
   "pattern": [
-    "TPS",
-    " M ",
+    "CPR",
+    " W ",
     "BBB"
   ],
   "result": {
@@ -95,9 +92,18 @@
           "color": "dark_purple",
           "italic": false
         }
-      ]
+      ],
+      "minecraft:item_model": "minecraft:chicken_soup",
+      "minecraft:food": {
+        "nutrition": 0,
+        "saturation": 0,
+        "can_always_eat": true
+      },
+      "minecraft:use_remainder": {
+        "id": "minecraft:bowl"
+      }
     },
     "count": 3,
-    "id": "minecraft:rabbit_stew"
+    "id": "minecraft:bowl"
   }
 }

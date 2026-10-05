@@ -51,11 +51,6 @@
           "weight": 2
         },
         {
-          "type": "minecraft:loot_table",
-          "value": "minecraft:food/beetroot_bread",
-          "weight": 2
-        },
-        {
           "type": "minecraft:item",
           "modifier": [
             {

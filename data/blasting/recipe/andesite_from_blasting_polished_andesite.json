@@ -1,7 +1,7 @@
 {
   "type": "minecraft:blasting",
   "group": "andesite",
-  "category": "misc",
+  "category": "blocks",
   "ingredient": "minecraft:polished_andesite",
   "result": {
     "id": "minecraft:andesite"

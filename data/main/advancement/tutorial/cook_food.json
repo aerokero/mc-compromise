@@ -22,7 +22,7 @@
           {
             "components": {
               "minecraft:item_name": {
-                "translate": "item.minecraft.steamed_carrots"
+                "translate": "item.minecraft.steamed_carrot"
               }
             }
           }
@@ -64,7 +64,7 @@
           {
             "components": {
               "minecraft:item_name": {
-                "translate": "item.minecraft.golden_steamed_carrots"
+                "translate": "item.minecraft.golden_steamed_carrot"
               }
             }
           }

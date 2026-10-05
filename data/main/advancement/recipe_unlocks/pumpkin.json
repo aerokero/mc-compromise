@@ -20,7 +20,9 @@
   "rewards": {
     "recipes": [
       "minecraft:pumpkin_pie",
-      "food:golden_carrot_pie"
+      "food:golden_carrot_pie",
+      "food:pumpkin_stew",
+      "food:chocolate_pie"
     ]
   }
 }

@@ -45,7 +45,7 @@
       ]
     },
     "minecraft:item_name": {
-      "translate": "item.minecraft.steamed_carrots"
+      "translate": "item.minecraft.steamed_carrot"
     },
     "minecraft:food": {
       "nutrition": 0,

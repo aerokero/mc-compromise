@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smelting",
   "group": "tall_dry_grass",
-  "category": "misc",
+  "category": "blocks",
   "cookingtime": 100,
   "experience": 0.01,
   "ingredient": "minecraft:tall_grass",

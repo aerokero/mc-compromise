@@ -18,13 +18,6 @@
     ]
   ],
   "rewards": {
-    "recipes": [
-      "food:chocolate_bread",
-      "food:sweet_berry_bread",
-      "food:glow_berry_bread",
-      "food:apple_bread",
-      "food:carrot_bread",
-      "food:golden_apple_bread"
-    ]
+    "recipes": []
   }
 }

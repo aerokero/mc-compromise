@@ -379,12 +379,6 @@
         "recipes": "crafting:clone_white_tulip"
       }
     },
-    "made_latkes": {
-      "trigger": "minecraft:recipe_crafted",
-      "conditions": {
-        "recipes": "food:potato_bread"
-      }
-    },
     "made_chorus_pie": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
@@ -395,12 +389,6 @@
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
         "recipes": "knowledge:knowledge_book"
-      }
-    },
-    "made_beetroot_curry_stock": {
-      "trigger": "minecraft:recipe_crafted",
-      "conditions": {
-        "recipes": "food:beetroot_curry_stock"
       }
     }
   },
@@ -439,7 +427,6 @@
       "made_oxidized_cut_copper_from_patina",
       "made_oxidized_cut_copper_slab_from_patina",
       "made_oxidized_cut_copper_stairs_from_patina",
-      "made_beetroot_curry_stock",
       "made_purple_concrete_from_concrete_powder",
       "made_red_concrete_from_concrete_powder",
       "made_weathered_chiseled_copper_from_patina",
@@ -456,7 +443,6 @@
       "made_yellow_concrete_from_concrete_powder",
       "made_mud_from_dirt_and_potion",
       "made_lily_of_the_valley",
-      "made_latkes",
       "made_chorus_pie",
       "clone_cornflower",
       "clone_wither_rose",

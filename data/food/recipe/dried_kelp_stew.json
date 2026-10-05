@@ -1,11 +1,11 @@
 {
-  "type": "minecraft:smoking",
+  "type": "minecraft:crafting_shaped",
   "group": "stew",
   "cookingtime": 300,
   "experience": 0.35,
-  "ingredient": "minecraft:suspicious_stew",
+  "ingredient": "minecraft:bowl",
   "result": {
-    "id": "minecraft:suspicious_stew",
+    "id": "minecraft:bowl",
     "components": {
       "minecraft:rarity": "rare",
       "minecraft:lore": [
@@ -63,7 +63,27 @@
       "minecraft:use_remainder": {
         "id": "minecraft:bowl"
       },
-      "minecraft:max_stack_size": 16
-    }
-  }
+      "minecraft:max_stack_size": 16,
+      "minecraft:item_model": "minecraft:dried_kelp_stew"
+    },
+    "count": 3
+  },
+  "category": "misc",
+  "key": {
+    "M": "minecraft:brown_mushroom",
+    "K": "minecraft:dried_kelp",
+    "E": "#minecraft:eggs",
+    "F": "minecraft:wheat",
+    "P": [
+      "minecraft:porkchop",
+      "minecraft:chicken"
+    ],
+    "W": "minecraft:water_bucket",
+    "B": "minecraft:bowl"
+  },
+  "pattern": [
+    "MKE",
+    "FWP",
+    "BBB"
+  ]
 }

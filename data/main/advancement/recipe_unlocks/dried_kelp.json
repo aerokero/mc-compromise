@@ -20,8 +20,6 @@
     ]
   ],
   "rewards": {
-    "recipes": [
-      "food:kelp_bread"
-    ]
+    "recipes": []
   }
 }

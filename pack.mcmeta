@@ -14,6 +14,10 @@
       {
         "namespace": "minecraft",
         "path": "advancement/(story|nether|end|adventure|husbandry)/.*"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "^recipe/rabbit_stew$"
       }
     ]
   },

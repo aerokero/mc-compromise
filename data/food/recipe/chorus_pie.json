@@ -12,7 +12,7 @@
     "components": {
       "minecraft:rarity": "uncommon",
       "minecraft:item_name": {
-        "translate": "item.minecraft.chorus_pie"
+        "translate": "item.minecraft.chorus_fruit_cookie"
       },
       "minecraft:food": {
         "nutrition": 0,
@@ -51,7 +51,7 @@
           "italic": false
         },
         {
-          "text": "+2 Hearts Restored",
+          "text": "+0,5 Hearts Restored",
           "color": "red",
           "italic": false
         },
@@ -60,7 +60,8 @@
           "color": "yellow",
           "italic": false
         }
-      ]
+      ],
+      "minecraft:item_model": "minecraft:chorus_fruit_cookie"
     },
     "count": 4
   }

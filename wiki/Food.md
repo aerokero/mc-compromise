@@ -39,8 +39,8 @@ These dishes should have yellow level tier/rarity.
 | Grilled Melon Slice | `melon_slice`  | Melon Slice | Campfire / Smoker | +2 HP, Fire Resistance (0:10) |
 | Grilled Beetroot | `beetroot`  | Beetroot | Campfire / Smoker  | +4 HP, Strength (0:10) |
 | Steamed Glow Berries | `glow_berries`| Glow Berries | Campfire / Smoker| +2 HP, Aura (0:03) |
-| Steamed Golden Carrots | `golden_carrot`  | Golden Carrot | Campfire / Smoker| +2 HP, Night Vision (1:00) |
-| Steamed Carrots | `carrot` | Carrot | Campfire / Smoker | +2 HP, Night Vision (0:10) |
+| Golden Steamed Carrot | `golden_carrot`  | Golden Carrot | Campfire / Smoker| +4 HP, Night Vision (1:00) |
+| Steamed Carrot | `carrot` | Carrot | Campfire / Smoker | +2 HP, Night Vision (0:10) |
 | Steamed Sweet Berries | `sweet_berries` | Sweet Berries | Campfire / Smoker | +2 HP, Absorption (0:10) |
 
 ### Existing vanilla food reworked
@@ -72,7 +72,7 @@ These dishes should have regular common (white) tier/rarity.
 | Raw Salmon | `salmon` | Fishing / Salmon | Łowienie / Drop | Raw Salmon | +1 HP |
 | Raw Tropical Fish | `tropical_fish` | Fishing / Tropical Fish | Łowienie / Drop | Raw Tropical Fish | +1 HP |
 | Sweet Berries | `sweet_berries` | Sweet Berry Bush / loot skrzyń | Zbiór | Sweet Berries | +1 HP |
-| Honey Bottle | `honey_bottle`  | Honey Bottle | Vanilla Honey given these attributes | Honey Bottle | +2 HP, Speed (0:30), Cleanse Maleffect |
+| Honey Bottle | `honey_bottle`  | Honey Bottle | Vanilla Honey given these attributes | Honey Bottle | +3 HP, Speed (5:00) |
 | Popped Chorus Fruit | `popped_chorus_fruit`  | Chorus Fruit | Campfire / Smoker (5 s) | Popped Chorus Fruit | +2 HP, Levitation III (0:03) |
 
 ## Spalone jedzenie
@@ -112,30 +112,17 @@ Balans (2025): efekty dodatkowe skalują się płasko wg kategorii, niezależnie
 | uncommon | Glow Berry Cookie | `cookie` | Rotten Flesh + Sugar + Glass Bottle | Crafting Table | +4 HP, Aura (0:30) |
 | uncommon | Chocolate Cookie | `cookie`| Sugar + Wheat + Cocoa Beans | Crafting Table | +4 HP, Haste (0:30) |
 | uncommon | Apple Cookie | `cookie` | Apple + Sugar + Wheat | Crafting Table | +4 HP, Regen (0:30) |
+| uncommon | Carrot Cookie | `cookie` | Carrot + Sugar + Wheat | Crafting Table | +0.5 HP, Regeneration (0:30), Night Vision (0:30) |
 | uncommon | Sugar Cane Cookie | `cookie` | Sugar Cane + Sugar + Wheat | Crafting Table | +2 HP, Regen (0:30) |
 | uncommon | Chorus Cookie | `cookie` | Popped Chorus Fruit + Sugar + Wheat | Crafting Table | +4 HP, Levitation (0:30) |
 
 ### Bread
-#### 1st Tier:
 | common | Bread | 3 Wheat | Crafted | +4 HP |
-2nd Tier:
-| uncommon | Fried Egg | `egg` | Egg | Campfire / Smoker | +2 HP; jadalne |
-| uncommon | Kelp Bread | `bread` | Dried Kelp + Carrot + Sugar + Egg + Wheat | Crafting Table | +6 HP, Gills (3:00) |
-| uncommon | Potato Bread | `bread` | Baked Potato + Egg + 3x Wheat | Crafting Table | +16 HP |
-| uncommon | Chocolate Bread | Bread + Sugar + Cocoa Beans ×2 | Crafting Table | +6 HP, Haste (3:00) |
-| uncommon | Sweet Berry Bread | Bread + Sugar + Sweet Berries | Crafting Table | +6 HP, Absorption (3:00) |
-| uncommon | Glow Berry Bread | Bread + Sugar + Glow Berries | Crafting Table | +6 HP, Aura (3:00) |
-| uncommon | Apple Bread | Bread + Sugar + Baked Apple  | Crafting Table | +6 HP, Regen (3:00) |
-| uncommon | Carrot Bread | Bread + Sugar + Carrot | Crafting Table | +6 HP, Night Vision (3:00) |
 
-| rare | Golden Apple Bread | Bread + Sugar + Baked Golden Apple | Crafting Table | +8 HP, Absorption (6:00), Regen II (0:20) |
-
-Special recipe:
-| uncommon | Honey Egg Bread | `bread` | Bread + Sugar + Honey Bottle + Egg | Crafting Table | +10 HP, Speed (3:00) |
-
-### Honey Mead
-Special recipe; level in-between bread and stew.
-| uncommon | Honey Mead | `honey_bottle`| Honey Bottle + Sugar + Sweet Berry/Apple/Glow Berry | Crafting Table | +6 HP, Speed (5:00) |
+### Sandwiches
+| uncommon | Bacon Sandwich | see recipe | Crafting Table | +3 HP |
+| uncommon | Chicken Sandwich | see recipe | Crafting Table | +3 HP |
+| uncommon | Honey Egg Sandwich | Honeycomb + Egg + Sugar + 3x Wheat | Crafting Table | +10 HP, Speed (3:00) |
 
 ### Pies
 #### 1st Tier:
@@ -147,7 +134,6 @@ Special recipe; level in-between bread and stew.
 | uncommon | Melon Pie | `pumpkin_pie` | Pumpkin + Sugar + Egg + Melon | Crafting Table | +8 HP, Fire Resistance (8:00) |
 | uncommon | Sweet Berry Pie | `pumpkin_pie` | Pumpkin + Sugar + Egg + Sweet Berries | Crafting Table | +8 HP, Absorption (8:00) |
 | uncommon | Glow Berry Pie | `pumpkin_pie` | Pumpkin + Sugar + Egg + Glow Berries | Crafting Table | +8 HP, Aura (8:00) |
-| uncommon | Beetroot Pie | `pumpkin_pie` | Pumpkin + Sugar + Egg + Beetroot | Crafting Table | +8 HP, Strength (8:00) |
 
 | rare | Golden Apple Pie | `pumpkin_pie` | Golden Apple + Sugar + Wheat | Crafting Table | +8 HP, Absorption (16:00), Regen II (0:45) |
 

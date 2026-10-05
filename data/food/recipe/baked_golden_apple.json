@@ -68,7 +68,8 @@
         "nutrition": 0,
         "saturation": 0,
         "can_always_eat": true
-      }
+      },
+      "minecraft:item_model": "minecraft:baked_golden_apple"
     }
   }
 }

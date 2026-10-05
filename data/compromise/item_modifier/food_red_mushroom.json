@@ -13,7 +13,7 @@
         "italic": false
       },
       {
-        "text": "Poison (00:30)",
+        "text": "Poison (00:10)",
         "color": "#48a53b",
         "italic": false
       }
@@ -34,7 +34,7 @@
             {
               "id": "minecraft:poison",
               "amplifier": 0,
-              "duration": 600,
+              "duration": 200,
               "show_icon": true
             }
           ],

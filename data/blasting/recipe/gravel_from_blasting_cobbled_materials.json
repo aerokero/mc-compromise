@@ -1,7 +1,7 @@
 {
   "type": "minecraft:blasting",
   "group": "gravel",
-  "category": "misc",
+  "category": "blocks",
   "ingredient": [
     "minecraft:cobbled_deepslate",
     "minecraft:cobblestone"

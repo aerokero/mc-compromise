@@ -1,6 +1,6 @@
 {
   "type": "minecraft:blasting",
-  "category": "misc",
+  "category": "blocks",
   "cookingtime": 200,
   "experience": 9,
   "group": "copper_block",

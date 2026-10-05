@@ -19,8 +19,7 @@
   ],
   "rewards": {
     "recipes": [
-      "food:mead",
-      "food:honey_egg_bread"
+      "food:honey_egg_sandwich"
     ]
   }
 }

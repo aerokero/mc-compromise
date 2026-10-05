@@ -14,12 +14,11 @@
             {
               "id": "minecraft:poison",
               "amplifier": 0,
-              "duration": 600,
+              "duration": 100,
               "show_particles": true,
               "show_icon": true
             }
-          ],
-          "probability": 0.8
+          ]
         }
       ]
     },
@@ -39,7 +38,7 @@
         "italic": false
       },
       {
-        "text": "80% chance of Poison (0:30)",
+        "text": "Poison (0:05)",
         "color": "dark_red",
         "italic": false
       }

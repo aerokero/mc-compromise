@@ -1,7 +1,7 @@
 {
   "type": "minecraft:blasting",
   "group": "sand",
-  "category": "misc",
+  "category": "blocks",
   "ingredient": "minecraft:gravel",
   "result": {
     "id": "minecraft:sand"

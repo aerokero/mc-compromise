@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipes": "food:steamed_carrots"
+        "recipes": "food:steamed_carrot"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "food:steamed_carrots"
+      "food:steamed_carrot"
     ]
   }
 }

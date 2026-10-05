@@ -1,7 +1,5 @@
 # Instant fix for items in mainhand, offhand and equipped armor
 
-execute if items entity @s weapon.mainhand minecraft:rabbit_stew run item modify entity @s weapon.mainhand compromise:food_rabbit_stew
-execute if items entity @s weapon.offhand minecraft:rabbit_stew run item modify entity @s weapon.offhand compromise:food_rabbit_stew
 execute if items entity @s weapon.mainhand minecraft:bread run item modify entity @s weapon.mainhand compromise:food_bread
 execute if items entity @s weapon.offhand minecraft:bread run item modify entity @s weapon.offhand compromise:food_bread
 execute if items entity @s weapon.mainhand minecraft:pumpkin_pie run item modify entity @s weapon.mainhand compromise:food_pumpkin_pie
@@ -10,8 +8,8 @@ execute if items entity @s weapon.mainhand minecraft:apple run item modify entit
 execute if items entity @s weapon.offhand minecraft:apple run item modify entity @s weapon.offhand compromise:food_apple
 execute if items entity @s weapon.mainhand minecraft:golden_apple run item modify entity @s weapon.mainhand compromise:food_golden_apple
 execute if items entity @s weapon.offhand minecraft:golden_apple run item modify entity @s weapon.offhand compromise:food_golden_apple
-execute if items entity @s weapon.mainhand minecraft:mushroom_stew run item modify entity @s weapon.mainhand compromise:food_mushroom_stew
-execute if items entity @s weapon.offhand minecraft:mushroom_stew run item modify entity @s weapon.offhand compromise:food_mushroom_stew
+execute if items entity @s weapon.mainhand minecraft:mushroom_stew[minecraft:item_model="minecraft:squid_ink_stew"] run item modify entity @s weapon.mainhand compromise:food_squid_ink_stew
+execute if items entity @s weapon.offhand minecraft:mushroom_stew[minecraft:item_model="minecraft:squid_ink_stew"] run item modify entity @s weapon.offhand compromise:food_squid_ink_stew
 execute if items entity @s weapon.mainhand minecraft:brown_mushroom run item modify entity @s weapon.mainhand compromise:food_brown_mushroom
 execute if items entity @s weapon.offhand minecraft:brown_mushroom run item modify entity @s weapon.offhand compromise:food_brown_mushroom
 execute if items entity @s weapon.mainhand minecraft:crimson_fungus run item modify entity @s weapon.mainhand compromise:food_crimson_fungus
@@ -166,3 +164,5 @@ execute if items entity @s weapon.mainhand minecraft:cod run item modify entity 
 execute if items entity @s weapon.offhand minecraft:cod run item modify entity @s weapon.offhand compromise:food_cod
 execute if items entity @s weapon.mainhand minecraft:salmon run item modify entity @s weapon.mainhand compromise:food_salmon
 execute if items entity @s weapon.offhand minecraft:salmon run item modify entity @s weapon.offhand compromise:food_salmon
+execute if items entity @s weapon.mainhand minecraft:beetroot_soup run item modify entity @s weapon.mainhand compromise:food_beetroot_soup
+execute if items entity @s weapon.offhand minecraft:beetroot_soup run item modify entity @s weapon.offhand compromise:food_beetroot_soup

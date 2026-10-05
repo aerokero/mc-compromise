@@ -59,7 +59,8 @@
           "color": "#e85e8f",
           "italic": false
         }
-      ]
+      ],
+      "minecraft:item_model": "minecraft:sugar_cane_cookie"
     },
     "count": 4
   }
