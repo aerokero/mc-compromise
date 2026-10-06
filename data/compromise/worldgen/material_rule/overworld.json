@@ -2351,6 +2351,14 @@
                             "type": "minecraft:condition",
                             "if_true": {
                               "type": "minecraft:biome",
+                              "biome_is": "minecraft:ice_caves"
+                            },
+                            "then_run": "minecraft:overworld/biome_surface/ice_caves"
+                          },
+                          {
+                            "type": "minecraft:condition",
+                            "if_true": {
+                              "type": "minecraft:biome",
                               "biome_is": "minecraft:sulfur_caves"
                             },
                             "then_run": {
@@ -3176,6 +3184,14 @@
                             "type": "minecraft:condition",
                             "if_true": {
                               "type": "minecraft:biome",
+                              "biome_is": "minecraft:ice_caves"
+                            },
+                            "then_run": "minecraft:overworld/biome_surface/ice_caves"
+                          },
+                          {
+                            "type": "minecraft:condition",
+                            "if_true": {
+                              "type": "minecraft:biome",
                               "biome_is": "minecraft:sulfur_caves"
                             },
                             "then_run": {
@@ -3606,6 +3622,14 @@
       "type": "minecraft:condition",
       "if_true": {
         "type": "minecraft:biome",
+        "biome_is": "minecraft:ice_caves"
+      },
+      "then_run": "minecraft:overworld/ice_cave_bands"
+    },
+    {
+      "type": "minecraft:condition",
+      "if_true": {
+        "type": "minecraft:biome",
         "biome_is": "minecraft:sulfur_caves"
       },
       "then_run": {
@@ -3730,6 +3754,12 @@
             "axis": "y"
           }
         }
+      }
+    },
+    {
+      "type": "minecraft:block",
+      "result_state": {
+        "id": "minecraft:stone"
       }
     }
   ]

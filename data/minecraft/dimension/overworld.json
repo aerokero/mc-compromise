@@ -32,7 +32,7 @@
               -1,
               0.25
             ],
-            "offset": 0
+            "offset": 0.00021
           },
           "biome": "minecraft:stony_shore"
         },
@@ -62,7 +62,7 @@
               -1,
               0.25
             ],
-            "offset": 0
+            "offset": 0.00021
           },
           "biome": "minecraft:badlands"
         },
@@ -92,7 +92,7 @@
               -1,
               0.25
             ],
-            "offset": 0
+            "offset": 0.00021
           },
           "biome": "minecraft:badlands"
         },
@@ -332,7 +332,7 @@
               -1,
               1
             ],
-            "offset": 0
+            "offset": 0.00021
           },
           "biome": "minecraft:dark_forest"
         },
@@ -362,7 +362,7 @@
               -1,
               0.25
             ],
-            "offset": 0
+            "offset": 0.00021
           },
           "biome": "minecraft:dark_forest"
         },
@@ -482,7 +482,7 @@
               0.8,
               1
             ],
-            "offset": 0
+            "offset": 0.00021
           },
           "biome": "minecraft:deep_dark"
         },
@@ -512,7 +512,7 @@
               -1,
               1
             ],
-            "offset": 0
+            "offset": 0.00021
           },
           "biome": "minecraft:deep_frozen_ocean"
         },
@@ -602,7 +602,7 @@
               -1,
               0.25
             ],
-            "offset": 0
+            "offset": 0.00021
           },
           "biome": "minecraft:desert"
         },
@@ -632,7 +632,7 @@
               -1,
               0.25
             ],
-            "offset": 0
+            "offset": 0.00021
           },
           "biome": "minecraft:desert"
         },
@@ -662,7 +662,7 @@
               0.25,
               1
             ],
-            "offset": 0
+            "offset": 0.00021
           },
           "biome": "minecraft:dripstone_caves"
         },
@@ -722,7 +722,7 @@
               -1,
               1
             ],
-            "offset": 0
+            "offset": 0.00021
           },
           "biome": "minecraft:frozen_ocean"
         },
@@ -812,7 +812,7 @@
               -1,
               0.25
             ],
-            "offset": 0
+            "offset": 0.00021
           },
           "biome": "minecraft:jungle"
         },
@@ -842,7 +842,7 @@
               -1,
               0.25
             ],
-            "offset": 0
+            "offset": 0.00021
           },
           "biome": "minecraft:jungle"
         },
@@ -902,7 +902,7 @@
               0.25,
               1
             ],
-            "offset": 0
+            "offset": 0.00021
           },
           "biome": "minecraft:lush_caves"
         },
@@ -1202,7 +1202,7 @@
               -1,
               0.25
             ],
-            "offset": 0
+            "offset": 0.00021
           },
           "biome": "minecraft:savanna"
         },
@@ -1232,7 +1232,7 @@
               -1,
               0.25
             ],
-            "offset": 0
+            "offset": 0.00021
           },
           "biome": "minecraft:savanna"
         },
@@ -1292,7 +1292,7 @@
               -1,
               1
             ],
-            "offset": 0
+            "offset": 0.00021
           },
           "biome": "minecraft:snowy_beach"
         },
@@ -1352,7 +1352,7 @@
               -1,
               0.25
             ],
-            "offset": 0
+            "offset": 0.00021
           },
           "biome": "minecraft:snowy_plains"
         },
@@ -1442,7 +1442,7 @@
               -1,
               1
             ],
-            "offset": 0
+            "offset": 0.00021
           },
           "biome": "minecraft:snowy_plains"
         },
@@ -1472,7 +1472,7 @@
               -1,
               1
             ],
-            "offset": 0
+            "offset": 0.00021
           },
           "biome": "minecraft:snowy_plains"
         },
@@ -1502,7 +1502,7 @@
               -1,
               1
             ],
-            "offset": 0
+            "offset": 0.00021
           },
           "biome": "minecraft:snowy_taiga"
         },
@@ -1532,7 +1532,7 @@
               -1,
               1
             ],
-            "offset": 0
+            "offset": 0.00042
           },
           "biome": "minecraft:snowy_plains"
         },
@@ -1562,7 +1562,7 @@
               -1,
               1
             ],
-            "offset": 0
+            "offset": 0.00021
           },
           "biome": "minecraft:snowy_plains"
         },
@@ -1592,7 +1592,7 @@
               -1,
               0.25
             ],
-            "offset": 0
+            "offset": 0.00021
           },
           "biome": "minecraft:snowy_taiga"
         },
@@ -1622,7 +1622,7 @@
               -1,
               1
             ],
-            "offset": 0
+            "offset": 0.00042
           },
           "biome": "minecraft:snowy_taiga"
         },
@@ -1652,7 +1652,7 @@
               -1,
               0.25
             ],
-            "offset": 0
+            "offset": 0.00021
           },
           "biome": "minecraft:sparse_jungle"
         },
@@ -1682,7 +1682,7 @@
               -1,
               0.25
             ],
-            "offset": 0
+            "offset": 0.00021
           },
           "biome": "minecraft:sparse_jungle"
         },
@@ -1712,7 +1712,7 @@
               0.8,
               1
             ],
-            "offset": 0
+            "offset": 0.00042
           },
           "biome": "minecraft:sulfur_caves"
         },
@@ -1742,7 +1742,7 @@
               0.25,
               0.8
             ],
-            "offset": 0
+            "offset": 0.00021
           },
           "biome": "minecraft:sulfur_caves"
         },
@@ -1772,9 +1772,399 @@
               0.8,
               1
             ],
-            "offset": 0
+            "offset": 0.00021
           },
           "biome": "minecraft:sulfur_caves"
+        },
+        {
+          "parameters": {
+            "temperature": [
+              -1,
+              -0.5
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -0.25,
+              -0.18
+            ],
+            "erosion": [
+              -0.2225,
+              0.45
+            ],
+            "weirdness": [
+              -1,
+              -0.08
+            ],
+            "depth": [
+              0.25,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:ice_caves"
+        },
+        {
+          "parameters": {
+            "temperature": [
+              -1,
+              -0.5
+            ],
+            "humidity": [
+              -0.45,
+              -0.1
+            ],
+            "continentalness": [
+              -0.18,
+              1
+            ],
+            "erosion": [
+              0.5,
+              1
+            ],
+            "weirdness": [
+              -1,
+              -0.55
+            ],
+            "depth": [
+              0.25,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:ice_caves"
+        },
+        {
+          "parameters": {
+            "temperature": [
+              -1,
+              -0.5
+            ],
+            "humidity": [
+              -1,
+              -0.1
+            ],
+            "continentalness": [
+              -0.18,
+              1
+            ],
+            "erosion": [
+              0.5,
+              1
+            ],
+            "weirdness": [
+              -0.55,
+              -0.38
+            ],
+            "depth": [
+              0.25,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:ice_caves"
+        },
+        {
+          "parameters": {
+            "temperature": [
+              -1,
+              -0.5
+            ],
+            "humidity": [
+              -1,
+              -0.1
+            ],
+            "continentalness": [
+              0.03,
+              1
+            ],
+            "erosion": [
+              0.5,
+              1
+            ],
+            "weirdness": [
+              -0.38,
+              -0.3
+            ],
+            "depth": [
+              0.25,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:ice_caves"
+        },
+        {
+          "parameters": {
+            "temperature": [
+              -1,
+              -0.5
+            ],
+            "humidity": [
+              -1,
+              -0.1
+            ],
+            "continentalness": [
+              -0.18,
+              1
+            ],
+            "erosion": [
+              0.5,
+              1
+            ],
+            "weirdness": [
+              -0.3,
+              -0.08
+            ],
+            "depth": [
+              0.25,
+              1
+            ],
+            "offset": 0.00021
+          },
+          "biome": "minecraft:ice_caves"
+        },
+        {
+          "parameters": {
+            "temperature": [
+              -1,
+              -0.2
+            ],
+            "humidity": [
+              -1,
+              -0.45
+            ],
+            "continentalness": [
+              -0.18,
+              1
+            ],
+            "erosion": [
+              0.5,
+              1
+            ],
+            "weirdness": [
+              -1,
+              -0.55
+            ],
+            "depth": [
+              0.25,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:ice_caves"
+        },
+        {
+          "parameters": {
+            "temperature": [
+              -1,
+              -0.5
+            ],
+            "humidity": [
+              -0.1,
+              1
+            ],
+            "continentalness": [
+              -0.18,
+              1
+            ],
+            "erosion": [
+              0.5,
+              1
+            ],
+            "weirdness": [
+              -1,
+              -0.08
+            ],
+            "depth": [
+              0.25,
+              1
+            ],
+            "offset": 0.00021
+          },
+          "biome": "minecraft:ice_caves"
+        },
+        {
+          "parameters": {
+            "temperature": [
+              -1,
+              -0.15
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -0.18,
+              1
+            ],
+            "erosion": [
+              -0.68,
+              -0.3
+            ],
+            "weirdness": [
+              -0.62,
+              -0.38
+            ],
+            "depth": [
+              0.25,
+              1
+            ],
+            "offset": 0.00042
+          },
+          "biome": "minecraft:ice_caves"
+        },
+        {
+          "parameters": {
+            "temperature": [
+              -1,
+              -0.38
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -0.18,
+              1
+            ],
+            "erosion": [
+              -1,
+              -0.68
+            ],
+            "weirdness": [
+              -1,
+              -0.72
+            ],
+            "depth": [
+              0.25,
+              1
+            ],
+            "offset": 0.00042
+          },
+          "biome": "minecraft:ice_caves"
+        },
+        {
+          "parameters": {
+            "temperature": [
+              -0.38,
+              0.5
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -0.18,
+              1
+            ],
+            "erosion": [
+              -1,
+              -0.68
+            ],
+            "weirdness": [
+              -1,
+              -0.72
+            ],
+            "depth": [
+              0.25,
+              1
+            ],
+            "offset": 0.00042
+          },
+          "biome": "minecraft:ice_caves"
+        },
+        {
+          "parameters": {
+            "temperature": [
+              -1,
+              -0.5
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -0.25,
+              -0.18
+            ],
+            "erosion": [
+              -1,
+              -0.2225
+            ],
+            "weirdness": [
+              -0.55,
+              -0.08
+            ],
+            "depth": [
+              0.25,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:ice_caves"
+        },
+        {
+          "parameters": {
+            "temperature": [
+              -1,
+              -0.5
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -0.25,
+              -0.18
+            ],
+            "erosion": [
+              0.45,
+              1
+            ],
+            "weirdness": [
+              -1,
+              -0.08
+            ],
+            "depth": [
+              0.25,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:ice_caves"
+        },
+        {
+          "parameters": {
+            "temperature": [
+              -1,
+              -0.5
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -1.05,
+              -0.25
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "weirdness": [
+              -0.4,
+              1
+            ],
+            "depth": [
+              0.25,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:ice_caves"
         },
         {
           "parameters": {
@@ -1922,7 +2312,7 @@
               -1,
               0.25
             ],
-            "offset": 0
+            "offset": 0.00021
           },
           "biome": "minecraft:windswept_savanna"
         },
@@ -1952,7 +2342,7 @@
               -1,
               0.25
             ],
-            "offset": 0
+            "offset": 0.00021
           },
           "biome": "minecraft:windswept_savanna"
         },
@@ -1982,7 +2372,7 @@
               -1,
               0.25
             ],
-            "offset": 0
+            "offset": 0.00021
           },
           "biome": "minecraft:wooded_badlands"
         },
@@ -2012,7 +2402,7 @@
               -1,
               1
             ],
-            "offset": 0
+            "offset": 0.00021
           },
           "biome": "minecraft:taiga"
         },
@@ -2042,7 +2432,7 @@
               -1,
               0.25
             ],
-            "offset": 0
+            "offset": 0.00021
           },
           "biome": "minecraft:taiga"
         },
@@ -2102,7 +2492,7 @@
               -1,
               1
             ],
-            "offset": 0
+            "offset": 0.00021
           },
           "biome": "minecraft:taiga"
         },
@@ -2132,7 +2522,7 @@
               -1,
               0.25
             ],
-            "offset": 0
+            "offset": 0.00021
           },
           "biome": "minecraft:taiga"
         },
@@ -2192,7 +2582,7 @@
               -1,
               1
             ],
-            "offset": 0
+            "offset": 0.00021
           },
           "biome": "minecraft:old_growth_pine_taiga"
         },
@@ -2222,7 +2612,7 @@
               -1,
               0.25
             ],
-            "offset": 0
+            "offset": 0.00021
           },
           "biome": "minecraft:old_growth_spruce_taiga"
         },
@@ -2252,7 +2642,7 @@
               -1,
               1
             ],
-            "offset": 0
+            "offset": 0.00021
           },
           "biome": "minecraft:dappled_forest"
         },
@@ -2282,7 +2672,7 @@
               -1,
               0.25
             ],
-            "offset": 0
+            "offset": 0.00021
           },
           "biome": "minecraft:dappled_forest"
         },
@@ -2342,7 +2732,7 @@
               -1,
               1
             ],
-            "offset": 0
+            "offset": 0.00021
           },
           "biome": "minecraft:forest"
         },
@@ -2372,7 +2762,7 @@
               -1,
               0.25
             ],
-            "offset": 0
+            "offset": 0.00021
           },
           "biome": "minecraft:forest"
         },
@@ -2492,7 +2882,7 @@
               -1,
               0.25
             ],
-            "offset": 0
+            "offset": 0.00021
           },
           "biome": "minecraft:savanna"
         },
@@ -2522,7 +2912,7 @@
               -1,
               0.25
             ],
-            "offset": 0
+            "offset": 0.00021
           },
           "biome": "minecraft:savanna"
         },
@@ -2582,7 +2972,7 @@
               -1,
               0.25
             ],
-            "offset": 0
+            "offset": 0.00084
           },
           "biome": "minecraft:savanna_plateau"
         },
@@ -2612,7 +3002,7 @@
               -1,
               0.25
             ],
-            "offset": 0
+            "offset": 0.00084
           },
           "biome": "minecraft:savanna_plateau"
         },
@@ -2642,7 +3032,7 @@
               -1,
               0.25
             ],
-            "offset": 0
+            "offset": 0.00063
           },
           "biome": "minecraft:cherry_grove"
         },
@@ -2672,7 +3062,7 @@
               0.2,
               1
             ],
-            "offset": 0
+            "offset": 0.00063
           },
           "biome": "minecraft:snowy_slopes"
         },
@@ -2702,7 +3092,7 @@
               0.2,
               1
             ],
-            "offset": 0
+            "offset": 0.00063
           },
           "biome": "minecraft:frozen_peaks"
         },
@@ -2732,7 +3122,7 @@
               0.2,
               1
             ],
-            "offset": 0
+            "offset": 0.00063
           },
           "biome": "minecraft:jagged_peaks"
         },
@@ -2762,7 +3152,7 @@
               0.2,
               1
             ],
-            "offset": 0
+            "offset": 0.00063
           },
           "biome": "minecraft:stony_peaks"
         },
@@ -2792,7 +3182,7 @@
               -1,
               0.25
             ],
-            "offset": 0
+            "offset": 0.00021
           },
           "biome": "minecraft:windswept_forest"
         },
@@ -2822,7 +3212,7 @@
               -1,
               0.25
             ],
-            "offset": 0
+            "offset": 0.00021
           },
           "biome": "minecraft:windswept_hills"
         },
@@ -2852,7 +3242,7 @@
               -1,
               0.25
             ],
-            "offset": 0
+            "offset": 0.00021
           },
           "biome": "minecraft:windswept_gravelly_hills"
         },
@@ -2882,7 +3272,7 @@
               -1,
               0.25
             ],
-            "offset": 0
+            "offset": 0.00063
           },
           "biome": "minecraft:cherry_grove"
         },
@@ -2912,7 +3302,7 @@
               0.2,
               1
             ],
-            "offset": 0
+            "offset": 0.00042
           },
           "biome": "minecraft:snowy_slopes"
         },
@@ -2942,7 +3332,7 @@
               0.2,
               1
             ],
-            "offset": 0
+            "offset": 0.00042
           },
           "biome": "minecraft:frozen_peaks"
         },
@@ -2972,7 +3362,7 @@
               0.2,
               1
             ],
-            "offset": 0
+            "offset": 0.00042
           },
           "biome": "minecraft:jagged_peaks"
         },
@@ -3002,7 +3392,7 @@
               0.2,
               1
             ],
-            "offset": 0
+            "offset": 0.00042
           },
           "biome": "minecraft:stony_peaks"
         },
@@ -3032,7 +3422,7 @@
               -1,
               0.25
             ],
-            "offset": 0
+            "offset": 0.00021
           },
           "biome": "minecraft:windswept_forest"
         },
@@ -3062,7 +3452,7 @@
               -1,
               0.25
             ],
-            "offset": 0
+            "offset": 0.00021
           },
           "biome": "minecraft:windswept_hills"
         },
@@ -3092,7 +3482,7 @@
               -1,
               0.25
             ],
-            "offset": 0
+            "offset": 0.00021
           },
           "biome": "minecraft:windswept_gravelly_hills"
         },
@@ -3122,7 +3512,7 @@
               -1,
               0.25
             ],
-            "offset": 0
+            "offset": 0.00042
           },
           "biome": "minecraft:meadow"
         },
@@ -3152,7 +3542,7 @@
               -1,
               1
             ],
-            "offset": 0
+            "offset": 0.00021
           },
           "biome": "minecraft:snowy_beach"
         },
@@ -3272,7 +3662,7 @@
               -1,
               1
             ],
-            "offset": 0
+            "offset": 0.00021
           },
           "biome": "minecraft:snowy_beach"
         },

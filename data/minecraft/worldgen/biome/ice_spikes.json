@@ -27,7 +27,6 @@
     [],
     [
       "minecraft:ore_dirt",
-      "minecraft:ore_gravel",
       "minecraft:ore_granite_lower",
       "minecraft:ore_diorite_lower",
       "minecraft:ore_andesite_lower",
@@ -138,6 +137,11 @@
               "type": "minecraft:stray",
               "count": 4,
               "weight": 80
+            },
+            {
+              "type": "minecraft:frostbite",
+              "count": 4,
+              "weight": 25
             }
           ],
           "creature": [
